@@ -1,0 +1,347 @@
+/* This css is for the navbar */
+* {
+  margin: 0;
+}
+
+.NavbarSection {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 90px;
+  /* position: fixed;   */
+  z-index: 100000;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0px;
+  color: white;
+  background-color: rgb(84, 54, 109, 0.8);
+  background-size: 200% 200%;
+}
+
+.NavbarSection ul li:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-thickness: 3px;
+}
+
+.NavbarSection ul {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0px 80px 0 0;
+}
+.NavbarSection ul li {
+  margin: 0 20px 15px 20px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  cursor: pointer;
+}
+
+#checkbox {
+  display: none;
+}
+.bars {
+  display: none;
+}
+
+.logo img {
+  /* border: 1px solid red; */
+  /* border-radius: 56%; */
+  height: 75px;
+}
+
+.logo > .logo-text {
+  /* border: 1px solid red; */
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 800;
+  line-height: 45px;
+  /* gap: ; */
+}
+
+#searchBar {
+  font-size: 30px;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  right: 125px;
+  top: 28px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .NavbarSection {
+    padding: 0 20px;
+    justify-content: space-between;
+  }
+  .NavbarSection ul {
+    background-color: rgb(4 83 106);
+    position: fixed;
+    top: 0px;
+    left: -100%;
+    flex-direction: column;
+    width: 100%;
+    transition: all 0.5s linear;
+  }
+  .NavbarSection ul li {
+    text-align: center;
+    padding: 10px;
+  }
+
+  #checkbox:checked ~ .nav-ul {
+    left: 0;
+  }
+  .bars {
+    font-size: 25px;
+    display: block;
+  }
+
+  #searchBar {
+    right: 80px;
+  }
+}
+/* This is for the size decrease and increase on scrolling */
+/* * {box-sizing: border-box;}
+
+
+.NavbarSection {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 90px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.NavbarSection a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.NavbarSection #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.NavbarSection a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.NavbarSection a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.NavbarSection-right {
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  .NavbarSection {
+    padding: 20px 10px !important;
+  }
+  .NavbarSection a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .NavbarSection-right {
+    float: none;
+  }
+} */
+
+/* This css is for the carousel */
+.carousel-main {
+  /* border: 1px solid red; */
+  height: 700px;
+  box-sizing: border-box;
+}
+
+.carousel-caption > .carouselbtn {
+  /* border: 1px solid red !important; */
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 25px;
+  padding:8px 0px;
+  width: 16%;
+  margin: auto;
+  color: white;
+  border: none;
+  text-align: center;
+  margin-top: 15px;
+  /* background: linear-gradient(90deg, #f79c22, #9757e9); */
+  background: linear-gradient(45deg, #3408f3, #c0d3e7);
+  /* background: #31124b; */
+}
+
+.carouselbtn:hover {
+  /* background: linear-gradient(45deg, #3408F3, #c0d3e7); */
+  background: #31124b;
+  /* background: linear-gradient(90deg, #9757e9, #f79c22); */
+}
+
+.my-carousel h1 {
+  /* border: 1px solid red; */
+  margin-bottom: 7 5%;
+  font-size: 112px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 134.4px;
+  font-weight: 900;
+}
+
+.carousel-control-prev-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.carousel-control-next-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.my-carousel h2 {
+  /* border: 1px solid blue; */
+  font-size: 100px;
+  line-height: 120px;
+  font-weight: 500;
+  vertical-align: baseline;
+  font-style: italic;
+}
+#main-section {
+  position: relative;
+}
+.carousel-indicators {
+  /* border: 1px solid red; */
+  width: 8%;
+  margin-left: 91% !important;
+}
+
+.carousel-caption {
+  /* border: 1px solid red; */
+  margin-bottom: 14%;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 20px !important;
+  height: 20px !important;
+  background-color: transparent;
+  border: 1px solid transparent !important;
+  border-radius: 30px;
+}
+
+.main-section {
+  background-color: red;
+  height: 10000;
+  z-index: 100000000000;
+}
+/* @media only screen and (min-width: 1440px) and (max-width: 1509px) {
+  .services{
+    margin-bottom:51%;
+  }
+}
+
+@media only screen and (min-width: 2560px) and (max-width: 1440px) {
+  .services{
+    margin-bottom: 71%;
+  }
+} */
+
+/* .carousel-indicators li {
+  border-top: unset;
+  width: 10px;
+  border-bottom: unset;
+  border: 1px solid transparent;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-radius: 10px;
+  background-color: rgba(169, 29, 42, 0.4);
+  height: 10px;
+  width: 20px;}                                                  
+                                                                 
+  .carousel-indicators .active {
+  border-top: unset;
+  border-bottom: unset;
+  border: 1px solid transparent;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-radius: 10px;
+  background-color: #A91D2A;
+  height: 10px;
+  width: 50px
+} */
+
+/* Css for services section */
+.services {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  height: 103px;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+}
+
+/* .service-logos{
+  border: 1px solid red;
+  
+} */
+
+.services div {
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  background-color: white;
+  z-index: 2;
+}
+.services div:hover {
+  background-color: rgb(115, 100, 237);
+}
+.services div img {
+  height: 23px;
+  width: 33px;
+  margin-bottom: 16px;
+}
+.services div:nth-child(1) {
+  border-top-left-radius: 125px;
+  width: 18%;
+}
+.services div:nth-child(2) {
+  width: 17%;
+}
+.services div:nth-child(6) {
+  border-top-right-radius: 125px;
+  width: 17%;
+}
+
+/* @media only screen and (min-width: 300px) and (max-width: 980px) {
+  .services {
+    flex-direction: column;
+    position: static;
+    
+  }
+
+  #main-section{
+    position: static;
+  }
+} */

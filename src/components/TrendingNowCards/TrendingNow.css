@@ -1,0 +1,63 @@
+.trending_row{
+    /* border: 1px solid red; */
+    padding-left: 9%;
+    width: 85%;
+    box-sizing: border-box;
+}
+
+.trending_column{
+    /* border: 1px solid blue; */
+    width: 85%;
+}
+
+.trending_column .mb-3{
+    /* border: 1px solid red; */
+    border: none;
+}
+.trending-heading{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.trending-title{
+    /* border: 1px solid green; */
+    /* font-size: 12px; */
+    /* font-weight: bolder; */
+    margin: auto;
+    /* width: 90%; */
+    align-items: top;
+    /* padding-bottom: 15%; */
+    /* margin-bottom: 10%; */
+
+}
+
+.trendingtexts{
+    /* border: 1px solid red; */
+    text-align: left;
+    padding: 1rem 0rem;
+}
+
+.trendingtexts > .trending-title{
+    /* border: 1px solid red; */
+    width: 135%;
+}
+/* h6{
+    border: 1px solid red;
+    font-size: 14px;
+} */
+
+/* .trending-cardtext{
+    border: 1px solid black;
+} */
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+    .trending_row{
+        /* border: 1px solid red; */
+        /* padding-left: 9%; */
+        width: 85%;
+    }
+}
