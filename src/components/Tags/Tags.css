@@ -1,0 +1,46 @@
+.tagsoutermaincontainer{
+    /* border: 1px solid red; */
+    width: 99%;
+}
+
+ul.footertags{
+    display: flex;
+    justify-content: center;
+    column-gap: 4px;
+    row-gap: 4px;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.columncontainer{
+    /* border: 2px solid red; */
+    height: 180px;
+}
+
+.btn_theme_tourType{
+    color: white !important;
+    /* background-color: black !important; */
+    background-color: rgb(51,128,242) !important;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    font-size: 13px !important;
+    font-weight: 400;
+    z-index: 0;
+    margin-left: 2%;
+    width: 97%;
+    height: 35px;
+}
+
+.btn{
+    display:flex;
+    column-gap: 4px;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+}

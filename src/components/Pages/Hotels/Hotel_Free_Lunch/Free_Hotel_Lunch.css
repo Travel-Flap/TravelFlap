@@ -1,0 +1,120 @@
+.parrent_recom_div{
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 3%;
+}
+.parrent_recom_div>h4{
+    color: #3380F2;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 0%;
+}
+.option_select_div{
+    padding-bottom: 10px;
+    width: 50%;
+    display: flex;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    justify-content: space-around;
+    font-size: 1.3vw;
+    
+}
+.option_select_div>a{
+    text-decoration: none;
+    color: rgb(105, 103, 103);
+}
+.option_select_div>a:hover{
+    text-decoration: underline;
+}
+
+.all_image_card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    row-gap: 10px;
+}
+.Image_card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 17%;
+    height: 300px;
+    border-radius:  20px 20px 0px 0px;
+
+    /* border: 2px solid royal#3380F2; */
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+    /* border: 2px solid rgb(4, 0, 255); */
+    
+}
+.Image_card:hover{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.02);
+    border-radius: 20px;
+    /* border: 2px solid #3380F2; */
+    border-radius:  0px 20px 10px;
+
+}
+.Image_card>img{
+    width: 100%;
+    border-radius:  20px 20px 0px 0px;
+
+}
+.Image_card p{
+    color: #3380F2;
+    font-size: 14px;
+}
+.rating_chat{
+    width: 60px;
+    height: 40px;
+    border: 1px solid red;
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-bottom: -50px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+     color: yellow;
+     
+    
+}
+.Image_card>th{
+    color: #3380F2;
+    margin-top: -5%;
+    margin-left: 2%;
+}
+
+.rating_num{
+    margin-left: -30px;
+    margin-top: -10px;
+   font-size: 1vw;
+    border: 1px solid red;
+    color: white;
+    transform: rotate(180deg);
+}
+.rating_start{
+    color: #3380F2;
+    margin-top: -5%;
+    width: 100%;
+}
+.staricon{
+    margin-left: 2%;
+}
+.place_name{
+    color:#3380F2;
+    font-size: 13px;
+    margin-left: 1%;
+}
+.Free_Lunch{
+    color: #3380F2;
+    font-size: 20px;
+    font-weight: bold;
+}

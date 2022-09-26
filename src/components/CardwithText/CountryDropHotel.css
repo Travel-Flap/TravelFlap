@@ -1,0 +1,90 @@
+.hoteldropcontainer{
+    display: flex;
+    height: 80px;
+    background-color: #3380f2;
+}
+
+.hotelinnerdropdowncontiner1{
+    /* background-color: red; */
+    width: 50%;
+    margin-left: 6%;
+}
+
+.hotelinnerdropdowncontiner1 h2{
+    color: white;
+   margin-top: 5%;
+   font-size: 26px;
+   font-weight: 700;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   width: 100% !important;
+}
+.hotelinnerdropdowncontainer2{
+    /* border: 1px solid red; */
+    /* border: 3px solid white; */
+    /* background-color: blue; */
+    width: 70%;
+    margin-left: 0%;
+}
+
+.hotelcountryselectdrop1{
+    border: 2px solid white !important;
+    background-color: #3380f2 !important;
+    border-radius: 20px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    height: 38px !important;
+    /* width: % !important; */
+}
+
+.hotelcountryselectdrop1:hover{
+    background-color: white !important;
+    color: #3380f2 !important;
+}
+
+.hotelcountryselectdrop{
+    border: 2px solid white !important;
+    background-color: #3380f2 !important;
+    border-radius: 20px !important;
+    color: white !important;
+    font-weight: 700 !important;
+    margin-left: 17% !important;
+    height: 38px !important;
+}
+
+.hotelcountryselectdrop:hover{
+    background-color: white !important;
+    color: #3380f2 !important;
+}
+
+.hoteloptionscontainer{
+    /* border: 2px solid white; */
+    display: flex;
+    margin-top: 3%;
+}
+.hotelsingledropcontainer{
+    /* border: 1px solid red; */
+    /* width: 80%; */
+    margin-left: 3%;
+    border: none;
+}
+.hotelsingledropcontainer1{
+    border: none;
+    margin-left: -20% !important;
+}
+.hotelsingledropcontainer > .homecardtextbutton{
+    /* margin-left: 3%; */
+    border: 2px solid white !important;
+    background-color: #3380f2 !important;
+    color: white;
+    font-weight: 700;
+    width: 135%;
+    height: 38px;
+    border-radius: 20px;
+    margin-left: -20%;
+}
+
+.hotelsingledropcontainer button:hover{
+    background-color: white !important;
+    color: #3380f2;
+}
+/* style={{ marginLeft: "8%", background: "white", color: "blue" }} */

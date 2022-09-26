@@ -20,7 +20,8 @@
 
   nav {
     height: 36px;
-    background: rgb(53,10,78);
+    background-color: #3153f2;
+    /* background: rgb(53,10,78); */
     transition: 0.3s;
   }
   nav.sticky {
@@ -54,7 +55,7 @@
   }
 
   .links a:hover{
-    color: #fd7e14;
+    color: #5696f5;
   }
   .banner {
     height: 300vh;

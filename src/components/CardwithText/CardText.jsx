@@ -1,176 +1,322 @@
-import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+// import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
+import { useRef } from "react";
+import { useEffect } from "react";
 import "./CardText.css";
-import { AiFillStar, AiOutlineStar } from "react-icons/ai";
-import { IconContext } from "react-icons";
+// import { ButtonBase } from "@material-ui/core";
+import { Button } from "react-bootstrap";
+import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+import { BsFillChatLeftFill, BsFillStarFill, BsStarHalf } from "react-icons/bs";
+import { CountryDropHotel } from "./CountryDropHotel";
 
 export const CardText = () => {
+    const sliderRef = useRef(null);
+    useEffect(() => {
+        console.log(sliderRef);
+    }, []);
     return (
-        <div className="card_container">
-            <div className="heading-container">
-                <h4>The Best Offers With Room</h4>
-            </div>
+        <div className="besthotelsmaindiv">
+            {/* <h1>Ipl</h1> */}
 
-            <div className="cardtext-cards">
-                <div className="main_container">
-                    <div className="row row-cols-1 row-cols-md-2 ">
-                        <div className="col card-column">
-                            <div className="card border-0">
-                                <div className="row mb-5 textcards_main">
-                                    <div className="col-md-6 ">
-                                        <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card" />
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="card-body cards_body ">
-                                            <h3 className="card-title">$70</h3>
-                                            <div className="ratings">
-                                                <IconContext.Provider value={{ className: "ratings" }}>
-                                                    <AiFillStar color="#ffeb8d" />
-                                                    <AiFillStar color="#fed46b" />
-                                                    <AiFillStar color="#fbb53d" />
-                                                    <AiFillStar color="#fa9e1b" />
-                                                    <AiOutlineStar color="#fa9e30" />
-                                                </IconContext.Provider>
-                                            </div>
-                                            {/* <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-                                            <p className="card-text"><small className="text-muted">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</small></p>
-                                            <div className="card-text card-images">
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/compass.png.webp" alt="minicard images" />
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/compass.png.webp" alt="minicard images" />
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/bicycle.png.webp" alt="minicard images" />
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/sailboat.png.webp" alt="minicard images" />
-                                            </div>
-                                            <p className="button"><a className="card_button" href="#">Read More...</a></p>
-                                        </div>
-                                    </div>
-                                </div>
+            <div className="besthoteldealheadingcontainer" >
+                <div className="cardtextdropbutton">
+                    <CountryDropHotel />
+                </div>
+
+                <div className="cardtextendbuttons">
+                    <div className="viewallactivityhotelcardbuttons" >
+                        <p className="viewallhomehotelcardtext" style={{ width: "45" }}>view all deals</p>
+                        <div className="activityaroundheadingbuttons">
+                            <div style={{ display: "flex" }}>
+                                <FaAngleLeft size={"2.5em"}
+                                    onClick={() => sliderRef.current.slickPrev()}
+                                />
+                                <FaAngleRight size={"2.5em"}
+                                    onClick={() => sliderRef.current.slickNext()}
+                                />
                             </div>
                         </div>
 
-                        <div className="col border-0 card-column">
-                            <div className="card border-0">
-                                <div className="row mb-5 textcards_main">
-                                    <div className="col-md-6">
-                                        <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card" />
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="card-body cards_body ">
-                                            <h3 className="card-title">$50</h3>
-                                            <div className="ratings">
-                                                <IconContext.Provider value={{ className: "ratings" }}>
-                                                    <AiFillStar color="#ffeb8d" />
-                                                    <AiFillStar color="#fed46b" />
-                                                    <AiFillStar color="#fbb53d" />
-                                                    <AiFillStar color="#fa9e1b" />
-                                                    <AiOutlineStar color="#fa9e30" />
-                                                </IconContext.Provider>
-                                            </div>
-                                            {/* <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-                                            <p className="card-text"><small className="text-muted">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</small></p>
-                                            <div className="card-text card-images">
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/compass.png.webp" alt="minicard images" />
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/compass.png.webp" alt="minicard images" />
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/bicycle.png.webp" alt="minicard images" />
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/sailboat.png.webp" alt="minicard images" />
-                                            </div>
-                                            <p className="button"><a className="card_button" href="#">Read More...</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* <div className="col">
-                    <div className="card ">
-                        <div className="row ">
-                            <div className="col-md-6 border-0">
-                                <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card"/>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="card-body cards_body">
-                                    <h3 className="card-title">$50</h3>
-                                    <p className="card-text"><small className="text-muted">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</small></p>
-                                    <div className="card-text card-images">
-                                        <img src="https://preview.colorlib.com/theme/travelix/images/compass.png.webp" alt="minicard images"/>
-                                        <img src="https://preview.colorlib.com/theme/travelix/images/compass.png.webp" alt="minicard images" />
-                                        <img src="https://preview.colorlib.com/theme/travelix/images/bicycle.png.webp" alt="minicard images" />
-                                        <img src="https://preview.colorlib.com/theme/travelix/images/sailboat.png.webp" alt="minicard images" />
-                                    </div>
-                                    <p className="button"><a className="card_button" href="#">Read More...</a></p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                </div> */}
 
-                        <div className="col card-column">
-                            <div className="card border-0">
-                                <div className="row ">
-                                    <div className="col-md-6">
-                                        <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card" />
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="card-body cards_body">
-                                            <h3 className="card-title">$90</h3>
-                                            <div className="ratings">
-                                                <IconContext.Provider value={{ className: "ratings" }}>
-                                                    <AiFillStar color="#ffeb8d" />
-                                                    <AiFillStar color="#fed46b" />
-                                                    <AiFillStar color="#fbb53d" />
-                                                    <AiFillStar color="#fa9e1b" />
-                                                    <AiOutlineStar color="#fa9e30" />
-                                                </IconContext.Provider>
-                                            </div>
-                                            <p className="card-text"><small className="text-muted">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</small></p>
-                                            <div className="card-text card-images">
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/compass.png.webp" alt="minicard images" />
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/compass.png.webp" alt="minicard images" />
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/bicycle.png.webp" alt="minicard images" />
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/sailboat.png.webp" alt="minicard images" />
-                                            </div>
-                                            <p className="button"><a className="card_button" href="#">Read More...</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col card-column">
-                            <div className="card border-0">
-                                <div className="row ">
-                                    <div className="col-md-6 ">
-                                        <img src="https://i.imgur.com/8IRk2Wo.jpg" className="img-fluid rounded-start card_image" alt="card" />
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="card-body cards_body">
-                                            <h3 className="card-title">$30</h3>
-                                            <div className="ratings">
-                                                <IconContext.Provider value={{ className: "ratings" }}>
-                                                    <AiFillStar color="#ffeb8d" />
-                                                    <AiFillStar color="#fed46b" />
-                                                    <AiFillStar color="#fbb53d" />
-                                                    <AiFillStar color="#fa9e1b" />
-                                                    <AiOutlineStar color="#fa9e30" />
-                                                </IconContext.Provider>
-                                            </div>
-                                            <p className="card-text"><small className="text-muted">Suspendisse potenti. In faucibus massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu convallis tortor.</small></p>
-                                            <div className="card-text card-images">
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/compass.png.webp" alt="minicard images" />
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/compass.png.webp" alt="minicard images" />
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/bicycle.png.webp" alt="minicard images" />
-                                                <img src="https://preview.colorlib.com/theme/travelix/images/sailboat.png.webp" alt="minicard images" />
-                                            </div>
-                                            <p className="button"><a className="card_button" href="#">Read More...</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
-        </div>
+            <div className="activityaroundslidercontainer">
+                <Slider
+                    arrows={false}
+                    // autoplay={true}
+                    speed={1000}
+                    autoplaySpeed={2000}
+                    // dots
+                    dotsclassName="slick-dots line-indicator"
+                    ref={sliderRef}
+                    slidesToShow={5}
+                    slidesToScroll={2}
+                    responsive={[
+                        {
+                            breakpoint: 1024,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1,
+                                infinite: true
+                            }
+                        },
+                        {
+                            breakpoint: 950,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                                infinite: true
+                            }
+                        },
+                        {
+                            breakpoint: 800,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                                infinite: true
+                            }
+                        },
+                        {
+                            breakpoint: 600,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2,
+                                initialSlide: 2
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
+                        }
+                    ]}
+                    customPaging={(i) => (
+                        <div
+                            style={{
+                                // position: "absolute",
+                                width: "100%",
+                                top: "-10px",
+                                opacity: 0,
+                            }}
+                        >
+                            {i}
+                        </div>
+                    )}
+                >
 
-    )
-}
+                    {/* <div className=" cardtext_maindiv">
+                        <div className="review">
+                            <th>Excellent
+                                <br />
+                                <span style={{ fontSize: "10px" }}>198 reviews</span>
+                            </th>
+                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">8.0</span>
+                        </div>
+                        <img src="images/HotelsImage/HotelImage1.jpg" alt="" />
+                        <div className="card_title">Novotel Phuket City Phokeethra(SHA Extra Plus)
+                            <br />
+                            <span className="title_rating">
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                            </span>
+                        </div>
+                        <div className="discount_price">
+                            <span className="discount_percent">48% DISCOUNT</span>
+                            <span className="Price_before_discount">&#x24;8,258</span>
+                            <span className="Price_after_discount">&#x24;4,280</span>
+                        </div>
+                    </div> */}
+
+                    <div className="cardtext_maindiv">
+                        <div className="review">
+                            <th>Exeptional
+                                <br />
+                                <span style={{ fontSize: "10px" }}>1879 reviews</span>
+                            </th>
+                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                        </div>
+                        <img src="images/HotelsImage/HotelImage1.jpg" alt="" />
+                        <div className="card_title">Novotel Phuket City Phokeethra(SHA Extra Plus)
+                            <br />
+                            <span className="hoteltitle_rating">
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                            </span>
+                        </div>
+                        <div className="hoteldicsountprice">
+                            <span className="hoteldiscountpercent">41% DISCOUNT</span>
+                            <span className="hotelPricebeforediscount">&#x24;19,662</span>
+                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
+                        </div>
+                    </div>
+                    <div className="cardtext_maindiv">
+                        <div className="review">
+                            <th>Exeptional
+                                <br />
+                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                            </th>
+                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                        </div>
+                        <img src="images/HotelsImage/HotelImage2.jpg" alt="" />
+                        <div className="card_title"> Pullman Phuket Panwa Beach Resorts(SHA Plus+)Panwa Cape
+                            <br />
+                            <span className="hoteltitle_rating">
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                            </span>
+                        </div>
+                        <div className="hoteldicsountprice">
+                            <span className="hoteldiscountpercent">41% DISCOUNT</span>
+                            <span className="hotelPricebeforediscount">&#x24;19,662</span>
+                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
+                        </div>
+                    </div>
+
+                    <div className="cardtext_maindiv">
+                        <div className="review">
+                            <th>Exeptional
+                                <br />
+                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                            </th>
+                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                        </div>
+                        <img src="images/HotelsImage/HotelImage3.jpg" alt="" />
+                        <div className="card_title"> Pullman Phuket Panwa Beach Resorts(SHA Plus+)Panwa Cape
+                            <br />
+                            <span className="hoteltitle_rating">
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                            </span>
+                        </div>
+                        <div className="hoteldicsountprice">
+                            <span className="hoteldiscountpercent">41% DISCOUNT</span>
+                            <span className="hotelPricebeforediscount">&#x24;19,662</span>
+                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
+                        </div>
+                    </div>
+                    <div className="cardtext_maindiv">
+                        <div className="review">
+                            <th>Exeptional
+                                <br />
+                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                            </th>
+                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                        </div>
+                        <img src="images/HotelsImage/HotelImage4.jpg" alt="" />
+                        <div className="card_title"> Pullman Phuket Panwa Beach Resorts(SHA Plus+)Panwa Cape
+                            <br />
+                            <span className="hoteltitle_rating">
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                            </span>
+                        </div>
+                        <div className="hoteldicsountprice">
+                            <span className="hoteldiscountpercent">41% DISCOUNT</span>
+                            <span className="hotelPricebeforediscount">&#x24;19,662</span>
+                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
+                        </div>
+                    </div>
+                    <div className="cardtext_maindiv">
+                        <div className="review">
+                            <th>Exeptional
+                                <br />
+                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                            </th>
+                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                        </div>
+                        <img src="images/HotelsImage/HotelImage5.jpg" alt="" />
+                        <div className="card_title"> Pullman Phuket Panwa Beach Resorts(SHA Plus+)Panwa Cape
+                            <br />
+                            <span className="hoteltitle_rating">
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                            </span>
+                        </div>
+                        <div className="hoteldicsountprice">
+                            <span className="hoteldiscountpercent">41% DISCOUNT</span>
+                            <span className="hotelPricebeforediscount">&#x24;19,662</span>
+                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
+                        </div>
+                    </div>
+                    <div className="cardtext_maindiv">
+                        <div className="review">
+                            <th>Exeptional
+                                <br />
+                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                            </th>
+                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                        </div>
+                        <img src="images/HotelsImage/HotelImage6.jpg" alt="" />
+                        <div className="card_title"> Pullman Phuket Panwa Beach Resorts(SHA Plus+)Panwa Cape
+                            <br />
+                            <span className="hoteltitle_rating">
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                            </span>
+                        </div>
+                        <div className="hoteldicsountprice">
+                            <span className="hoteldiscountpercent">41% DISCOUNT</span>
+                            <span className="hotelPricebeforediscount">&#x24;19,662</span>
+                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
+                        </div>
+                    </div>
+                    <div className="cardtext_maindiv">
+                        <div className="review">
+                            <th>Exeptional
+                                <br />
+                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                            </th>
+                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                        </div>
+                        <img src="images/HotelsImage/HotelImage7.jpg" alt="" />
+                        <div className="card_title"> Pullman Phuket Panwa Beach Resorts(SHA Plus+)Panwa Cape
+                            <br />
+                            <span className="hoteltitle_rating">
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                            </span>
+                        </div>
+                        <div className="hoteldicsountprice">
+                            <span className="hoteldiscountpercent">41% DISCOUNT</span>
+                            <span className="hotelPricebeforediscount">&#x24;19,662</span>
+                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
+                        </div>
+                    </div>
+
+
+                </Slider>
+            </div>
+        </div>
+    );
+};
 

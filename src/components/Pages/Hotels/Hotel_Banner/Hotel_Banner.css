@@ -1,0 +1,104 @@
+.container_banner{
+    border: 1px solid white;
+    height: 500px;
+    background-image: url("https://cdn2.nogarlicnoonions.com/images/thumbs/image.php?width=2000&height=2000&image=/images/articles/2020-01/travel2020-01-23-01-42-04.jpg");
+    background-size:cover;
+    /* margin: auto; */
+    
+}
+.container_banner>div>p{
+    margin-top: 120px;
+    font-size: 50px;
+    color:white;
+    width: 70%;
+    font-weight: 500;
+}
+.banner_title{
+    /* border: 2px solid green; */
+    width: 70%;
+    font-size: 50px;
+    margin: auto;
+}
+
+.banner_input{
+    /* border: 2px solid blue; */
+    color:white;
+    background-color: #3380F2;
+    height: 200px;
+    width: 70%;
+    border-radius: 15px;
+    margin: auto;
+    opacity: 0.9;
+}
+.want_stay{
+    /* border: 2px solid gold; */
+    padding: 1%;
+    margin-top: 10px;
+    display: flex;
+    font-weight: 500;
+    justify-content: space-between;
+    width: 90%;
+}
+.search_hotel{
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+.search_hotel>input{
+    height: 100%;
+    border: none;
+    width: 25;
+    border: 2px solid gray;
+
+}
+
+.hotel_search_destination{
+    /* border: 2px solid black; */
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 95%;
+    border-radius: 5px;
+    /* border: 2px solid red; */
+}
+.hotelnametext::placeholder{
+    color: #3380F2 !important;
+}
+.hotel_search_destination>div{
+    padding: 1%;
+}
+.hotel_search_destination>div>input{
+    font-weight: 600;
+    color: #3380F2;
+    border: none;
+    
+}
+.checkfilter{
+/* border: 2px solid rebeccapurple; */
+display: flex;
+width:50%;
+justify-content: space-between;
+
+}
+.popularfilter{
+    /* border: 2px solid gainsboro; */
+    display: flex;
+    justify-content:space-between;
+    width: 89%;
+    margin:  30px auto;
+}
+.search_hotel_button{
+height: 35px;
+border-radius: 5px;
+width: 150%;
+font-weight: bold;
+border: none;
+color: #3380F2;
+margin-left: -18% !important;
+}
+.adult_select{
+    border: none;
+    color: #3380F2;
+    font-weight: 600;
+}

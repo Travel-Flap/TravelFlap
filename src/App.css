@@ -26,7 +26,7 @@
   height: 2em;
 }
 
-/* .App{
+.App{
   position: absolute;
 }
 .App-header {
@@ -51,7 +51,7 @@
   to {
     transform: rotate(360deg);
   }
-} */
+}
 
 .navbarsec{
   position: fixed;

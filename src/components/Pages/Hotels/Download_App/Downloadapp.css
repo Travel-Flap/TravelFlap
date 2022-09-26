@@ -1,0 +1,140 @@
+ .download_container{
+    /* border: 2px solid red; */
+    width: 80%;
+    color: rgb(0, 0, 255);
+    margin: 80px;
+    padding: 5%;
+    border-radius:15px ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+ }
+ .container_chid1>h1{
+    border: 2px solid rgb(3, 104, 181);
+    margin-bottom: 0%;
+    color: rgb(3, 104, 181);
+ }
+ .container_chid2{
+    /* border: 4px solid rgb(255, 9, 157); */
+      display: flex;
+      margin-top:3%;
+ }
+  
+ .logo_container{
+    width: 70%;
+    /* border: 2px solid yellow; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .playstore_container{
+    width: 30%;
+    /* border: 2px solid gray; */
+    display: flex;
+ }
+ .down_logo{
+    /* border: 2px solid turquoise; */
+     width: 12%;
+     height: 90%;
+      
+ }
+ .down_logo>img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+ }
+ .input_mobile{
+    /* border: 2px solid green; */
+    width: 80%;
+
+ }
+.playstoress{
+    /* border: 2px solid red; */
+    width: 80%;
+    
+}
+ 
+
+.playstoress>div{
+    /* border: 2px solid red; */
+    margin-top: 2%;
+    width: 100%;
+
+}
+.playstoress>div>img{
+    height: 50%;
+    width: 50%;
+    cursor: pointer;
+
+}
+
+.qrcode{
+    width: 50%;
+
+}
+.qrcode>img{
+    height: 80%;
+    width: 80%;
+    margin-top: 10%;
+    cursor: pointer;
+
+}
+.input{
+    border: 2px solid rgb(0, 0, 255);;
+    display: flex;
+  width: 55%;
+  margin-top: 3%;
+}
+.input>input{
+    border: none;
+    font-weight: bold;
+    
+}
+.input>div>button{
+    border-radius: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    
+     
+    /* border-left: 2px solid blue; */
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.india{
+    width: 90px;
+    height: 40px;
+    display: flex;
+}
+.india>img{
+    width: 100%;
+    height: 100%;
+}
+ 
+.vr{
+    height: 120px;
+    border-right: 2px solid rgb(0, 0, 255);;
+    margin: auto;
+    margin-right: 2%;
+}
+.india{
+ 
+font-weight: bold;
+}
+
+.india>span{
+    margin-top: 8px;
+}
+ 
+ .india>span{
+    margin-bottom: 5%;
+ }
+ .getapplink{
+   
+   cursor: pointer;
+ 
+   font-weight: bold;
+   border-left: 2px solid rgb(50, 3, 206);
+ 
+ }
+ 
+ 

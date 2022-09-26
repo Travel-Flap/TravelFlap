@@ -4,10 +4,13 @@ import "./TrendingNow.css";
 export const TrendingNow = () => {
     return(
         <>
-        <h1 className="trending-heading ">Trending Now</h1>
+        <div className="trending-headingdiv">
+        <h1 className="trending-heading">Trending Now</h1>
+        </div>
+        
         {/* <br/> */}
          {/* Trending Now row 1 */}
-            <div class="row row-cols-1 row-cols-md-4 g-4 trending_row">
+            <div className="row row-cols-1 row-cols-md-4 g-4 trending_row">
                 {/* Card 1 Row 1 */}
             <div className="col card-column trending_column">
                     <div className="card mb-3">
@@ -91,7 +94,7 @@ export const TrendingNow = () => {
             </div>
 
             {/* Trending Now Row 2 */}
-            <div class="row row-cols-1 row-cols-md-4 g-4 trending_row">
+            <div className="row row-cols-1 row-cols-md-4 g-4 trending_row">
                 {/* Card 1 Row 2 */}
             <div className="col card-column trending_column">
                     <div className="card mb-3">
@@ -175,3 +178,4 @@ export const TrendingNow = () => {
         </>
     )
 }
+

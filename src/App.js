@@ -1,71 +1,37 @@
-import MarqueeComp from "./components/TopLine";
-// import  { TopNavbar } from "./components/Navbar/Navbar";
-// import { Navbar } from "./components/Navbar/Navbar";
-// import { HomePage } from "./components/Experiment Page/Homepage";
-// import CollapsibleExample from "./Components/Navbar"
-import { ControlledCarousel } from "./components/TopCorousel/Corousel";
-import { TravelForm } from "./components/FormBelowCorousel/TravelForm";
-import { DataCards } from "./components/Cards/Cards";
-// import { ImageTexCards } from "./components/CardWithSIdeText/imageTextcard";
-// import { MultiCardSlider } from "./components/MultiCardSlider/MultiCardSlider";
-import { Middleslider } from "./components/MiddleCorousel/Middleslider";
-import { ContactForm } from "./components/contactform/ContactForm";
+import "./App.css";
+import { BrowserRouter as Router, Routes,Route, Link} from "react-router-dom";
+
+import { Home } from "./components/Pages/Home/Home";
+import { Offers } from "./components/Pages/Offers/Offers";
+import { Holidays } from "./components/Pages/Holidays/HolidayMainFile/Holidays";
+// import { Route, Routes } from "react-router-dom";
 import { Footer } from "./components/Footer/Footer";
 
-import Navbar from "./components/Navbar/Navbar";
-import { TitleBar } from "./components/TopTitleBar/TitleBar";
-import "./App.css";
-
-// import { DataCards  } from "./components/DataCards/DataCards";
-import { CardText } from "./components/CardwithText/CardText";
-import { TrendingNow } from "./components/TrendingNowCards/TrendingNow";
-// import { CardCarousel } from "./components/CardCarousel/CardCarousel";
-
-// import { ProductSlider } from "./components/Slider/ProductSlider";
-// import { Imagecarousel } from "./components/ImageCarousel/Imagecar/ousel";
-// import { TopPart } from "./components/TopPart/TopPart";
-
-import { BottomBar } from "./components/BottomBar/BottomBar";
-import { ImageSlider } from "./components/MultipleCards/MultipleCards";
+import { Activities } from "./components/Pages/Activities/Activities";
+import { Hotel } from "./components/Pages/Hotels/Hotel";
+import { Visa } from "./components/Pages/Visa/Visa";
+import { VisaDetails} from "./components/Pages/Visa/VisaInnerpages/VisaDetails";
 function App() {
   return (
-    <div className="App">
-      <TitleBar />
-      {/* <TopPart /> */}
-      {/* <MarqueeComp /> */}
-      {/* <ProductSlider /> */}
-      {/* <Imagecarousel /> */}
-      <Navbar />
-
-      <ControlledCarousel />
-      {/* <TopNavbar /> */}
-
-      <TravelForm />
-
-      {/* <br /> */}
-      <DataCards />
-
-      {/* <br /> */}
-      <Middleslider />
-
-      {/* <br/> */}
-      <CardText />
-
-      <div className="container mt-5 carousel">
-        <h1 className="slider_title">What our Clients say about us</h1>
-        <ImageSlider />
-      </div>
-
-      {/* <br/> */}
-      <TrendingNow />
-
-      {/* <br /> */}
-      <ContactForm />
-
-      <Footer />
-
-      <BottomBar />
-    </div>
+    <>
+    {/* <Hotel/> */}
+    {/* <Holidays /> */}
+      {/* <Navbar /> */}
+      {/* <Activities /> */}
+      {/* <Link to="/hotels"><Hotel/></Link> */}
+      {/* <Link to="/Holidays"></Link> */}
+        {/* <Router path="./components/Pages/Home/Home.jsx">Home</Router> */}
+      <Routes>
+        {/* <Router path="/home" element={<Home/>}></Router> */}
+        <Route path="/" element={<Home />} />
+        <Route path="/offers" element={<Offers />}   />
+        <Route path="/holidays" element={<Holidays />} />
+        <Route path="/hotel" element={<Hotel />} />
+        <Route path="/activities" element={<Activities />} />
+        <Route path="/visa" element={<Visa/>}/>
+        <Route path="/visadetail" element={<VisaDetails/>} />
+      </Routes>
+    </>
   );
 }
 

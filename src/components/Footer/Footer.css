@@ -1,83 +1,149 @@
+.footerparentcontainer {
+  display: flex;
+  height: 360px;
+}
+
+.mapimagediv{
+  /* border: 2px solid blue; */
+  width: 40%;
+}
 .footer {
   width: 100%;
-  /* background-color: #31124b; */
-  background-color: rgb(52,40,169);
+  background: #3380f2;
   display: flex;
   justify-content: center;
   column-gap: 1%;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
+.footercontainer {
+  /* border: 2px solid red; */
+  /* background: #3380f2; */
+  display: flex;
+}
 
-.footerSection {
-  width: 18%;
-  padding: 21px;
+.footerSectionMapcontainer {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 400px;
+  /* padding: 21px; */
   display: flex;
   flex-direction: column;
+  background: #3380f2;
+  /* border: 2px solid blue; */
   row-gap: 16px;
   color: white;
 }
-.footerSection h4 {
-  /* border: 1px solid red; */
+
+.footerSectionMapcontainer h2 {
+  margin-left: 15%;
+  margin-top: 8%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* .footerSectionMapcontainer img{
+  border: 1px solid red;
+  width: 100%;
+} */
+
+/* .footerSectionMapdiv img{
+  width: 100%;
+  object-fit: contain;
+} */
+
+.footerSectionbottom {
+  width: 30%;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  row-gap: 16px;
+  color: white;
+}
+
+.footerSectionbottom h4 {
   margin-bottom: 5%;
   text-align: left;
   font-size: 28px;
 }
 
-.footerSection .footerLogo{
-  /* border: 1px solid red; */
+.footerSectionMapdiv {
+  width: 18%;
+  padding: 21px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  row-gap: 16px;
+  color: white;
+}
+.footerSectionMapdiv .footerMap {
+  border: 1px solid red;
+  margin-left: -60%;
+  height: 285px;
+  margin-top: 22%;
+}
+.footerMap img {
+  border: 1px solid blue;
+  width: 100%;
+}
+
+.footerSectionbottom .footerLogo {
   font-size: 24px;
-  margin-top: 18%;
+  margin-top: 0%;
   line-height: 45px;
   font-weight: 800;
   text-transform: uppercase;
 }
-.footer-heading{
-  /* border: 1px solid red; */
+
+.footerLogo img {
+  width: 70%;
+  margin: 0px 0px;
+}
+ 
+.footerSectionbottom .footerlogodesc{
+  /* border: 1px solid red !important; */
+  font-size: 13px;
+}
+.footer-heading {
   font-size: 15px;
-  margin-top: 18%;
+  margin-top: 0%;
   font-weight: 700;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 22.5px;
   text-transform: uppercase;
 }
 
-h4 img{
+h4 img {
   border-radius: 56%;
 }
 .footersocialmedia {
   display: flex;
-  width: 86%;
+  width: 100%;
+  /* margin-top: 24% !important; */
   justify-content: center;
-  column-gap: 16px;
+  column-gap: 12px;
 }
-/* .socialmedia {
-  display: flex;
-  width: 36%;
-  justify-content: center;
-  column-gap: 30px;
-} */
+
 .socialmedia div {
   width: 54%;
   height: 40px;
   margin: 20px 0;
   background-color: white;
   border-radius: 20px;
-  /* border: 1px solid white; */
 }
 .socialIcons {
-  /* color: rgb(14, 133, 173); */
   color: #dee2e6;
   font-size: 28px;
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 3%;
-  
+  padding: 10%;
 }
 .socialIcons:hover {
-  color: rgb(77, 77, 204);
+  color: rgb(2, 2, 86);
 }
-
 
 .footerLogo {
   font-size: 32px;
@@ -96,13 +162,12 @@ h4 img{
   height: 75px;
 }
 
-.blogsecond{
-  /* border: 1px solid red; */
+.blogsecond {
   padding-top: 1%;
 }
 
 .blogImg img {
-  width: 85%;
+  width: 100%;
   height: 80%;
   object-fit: cover;
 }
@@ -113,14 +178,15 @@ h4 img{
 }
 .blogText p {
   margin: 0;
-  font-size: 15px;
+  font-size: 13px;
   color: white;
 }
 .blogText p:nth-child(1) {
   color: white;
+  margin-top: 5%;
 }
 .blogText p:nth-child(1):hover {
-  color: rgb(52,127,238);
+  color: rgb(2, 2, 86);
 }
 
 .tags {
@@ -133,6 +199,7 @@ h4 img{
   row-gap: 10px;
 }
 .tags button {
+  border: 1px solid red;
   padding: 6px 21px;
   font-size: 16px;
   background: none;
@@ -141,11 +208,9 @@ h4 img{
   color: white;
 }
 .tags button:hover {
-  /* background: rgb(233, 157, 17); */
-  background: linear-gradient(45deg, #3408F3, #c0d3e7);
+  background-color: rgba(255, 255, 255, 0.877);
+  color: blue;
 }
-
-
 
 .footerContectText {
   width: 70%;
@@ -162,26 +227,65 @@ h4 img{
   column-gap: 5px;
 }
 
-.footerContect p{
+.footerContect p {
   /* border: 1px solid red; */
   text-decoration: none;
   color: white;
+  font-size: 13px;
+  text-align: left;
+  margin: 0;
+}
+
+#contactdetails {
+  width: 35%;
+}
+
+.footerContect {
   font-size: 15px;
+}
+
+.contact_number > p {
+  margin: 0;
+}
+.footerContect p:hover {
+  color: rgb(2, 2, 86);
 }
 .footerContect img {
   width: 25px;
   height: 25px;
+  filter: invert(1);
+}
+
+.contecticonsdiv {
+  height: 40px;
+}
+
+.contecticonsmap {
+  font-size: 26px;
+  color: white;
+}
+
+.contecticonscall {
+  font-size: 26px;
+}
+
+.contecticonsglobe {
+  font-size: 23px;
+}
+
+.contecticonsmail {
+  font-size: 26px;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 800px) {
   .footer {
     flex-direction: column;
   }
-  .footerSection {
+  .footerSectionbottom {
     width: 100%;
   }
 
-  .footerLogo { 
+  .footerLogo {
     font-size: 25px;
     color: white;
   }
@@ -190,7 +294,7 @@ h4 img{
   .footer {
     flex-direction: column;
   }
-  .footerSection {
+  .footerSectionbottom {
     width: 100%;
   }
 }

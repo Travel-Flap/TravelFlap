@@ -1,0 +1,330 @@
+/* This is new css file */
+.packagedealscontainer{
+  width: 100%
+}
+
+.bestsellingslidercontainer{
+  /* border: 2px solid red; */
+  width: 94%;
+  margin: auto;
+}
+
+.carousel .slick-prev{
+  left: -76px;
+}
+.carousel .slick-next{
+  left: -76px;
+}
+.holidaydeals_title {
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none solid rgb(45, 44, 44);
+    vertical-align: baseline;
+    letter-spacing: normal;
+    margin-top: 3%;
+    margin-left: 37.5%;
+    margin-bottom: 2%;
+    color: rgb(51, 128, 242);
+  }
+  
+  .card-wrapper {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  
+  .packagedealsdiv {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .packagedealcardimage {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 310px !important;
+    z-index: 2;
+    background-color: #000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .packagedealcardimage img {
+    width: 108%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .packagedealsdiv:hover img {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .packagedealsdiv:hover .packagedealcardimage {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  
+  .packaggedealsdetails {
+    position: absolute;
+    bottom: -72%;
+    left: 0;
+    width: 100%;
+    height: 310px;
+    z-index: 100000000;
+    padding: 10px;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  
+  .packaggedealsdetails h2 {
+    margin: 0px 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .packaggedealsdetails h2 .job-title {
+    font-size: 16px;
+    line-height: 2;
+    color: white;
+    font-weight: 300;
+    display: block;
+  }
+  
+  .card:hover .packaggedealsdetails {
+    bottom: 0;
+  }
+  
+  .carousel .slick-dots {
+    bottom: -2.5vw;
+  }
+  
+  .carousel .slick-dots li button {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+  }
+  
+  .carousel .slick-dots li button:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    content: "";
+    text-align: center;
+    opacity: 0.5;
+    color: #000;
+    background-color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .carousel .slick-prev,
+  .carousel .slick-next {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+  }
+  
+  .carousel .slick-prev:hover,
+  .carousel .slick-prev:focus,
+  .carousel .slick-next:hover,
+  .carousel .slick-next:focus {
+    color: #fff;
+    outline: none;
+    background: #fff;
+  }
+  
+  .carousel .slick-prev:before,
+  .carousel .slick-next:before {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .carousel .slick-next {
+    right: -55px;
+  }
+  
+  .carousel .slick-prev {
+    left: -55px;
+  }
+  
+
+/* This is old css file */
+/* .packagedealscontainer{
+  width: 106%;
+  margin-left: -4%;
+}
+
+.carousel .slick-prev{
+  left: -76px;
+}
+.carousel .slick-next{
+  left: -76px;
+}
+.holidaydeals_title {
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+    text-decoration: none solid rgb(45, 44, 44);
+    vertical-align: baseline;
+    letter-spacing: normal;
+    color: rgb(51, 128, 242);
+  }
+  
+  .card-wrapper {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  
+  .packagedealsdiv {
+    width: 107%;
+    border-radius: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .packagedealcardimage {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    z-index: 2;
+    background-color: #000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .packagedealcardimage img {
+    width: 108%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .packagedealsdiv:hover img {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .packagedealsdiv:hover .packagedealcardimage {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  
+  .packaggedealsdetails {
+    position: absolute;
+    bottom: -72%;
+    left: 0;
+    width: 100%;
+    height: 310px;
+    z-index: 100000000;
+    padding: 10px;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+  
+  .packaggedealsdetails h2 {
+    margin: 0px 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .packaggedealsdetails h2 .job-title {
+    font-size: 16px;
+    line-height: 2;
+    color: white;
+    font-weight: 300;
+    display: block;
+  }
+  
+  .card:hover .packaggedealsdetails {
+    bottom: 0;
+  }
+  
+  .carousel .slick-dots {
+    bottom: -2.5vw;
+  }
+  
+  .carousel .slick-dots li button {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+  }
+  
+  .carousel .slick-dots li button:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    content: "";
+    text-align: center;
+    opacity: 0.5;
+    color: #000;
+    background-color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .carousel .slick-prev,
+  .carousel .slick-next {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+  }
+  
+  .carousel .slick-prev:hover,
+  .carousel .slick-prev:focus,
+  .carousel .slick-next:hover,
+  .carousel .slick-next:focus {
+    color: #fff;
+    outline: none;
+    background: #fff;
+  }
+  
+  .carousel .slick-prev:before,
+  .carousel .slick-next:before {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .carousel .slick-next {
+    right: -55px;
+  }
+  
+  .carousel .slick-prev {
+    left: -55px;
+  }
+   */

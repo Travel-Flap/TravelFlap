@@ -1,0 +1,29 @@
+
+.select_div1{
+    width: 12%;
+}
+
+.select_div2{
+    width: 12%;
+}
+
+.select_div3{
+    width: 12%;
+}
+
+.select_div4{
+    width: 17%;
+}
+
+.select_div5{
+    width: 12%;
+}
+.selectDiv{
+    margin: auto;
+    display: flex;
+    gap: 1.5%;
+    margin-left: 11%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+
+}

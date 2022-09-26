@@ -1,201 +1,54 @@
-/* This css is for the navbar */
-* {
-  margin: 0;
-}
-
-.NavbarSection {
-  height: 120px;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 0 90px;
-  /* position: fixed;   */
-  z-index: 100000;
-  box-sizing: border-box;
-  position: sticky;
-  top: 0px;
-  color: white;
-  background-color: rgb(84, 54, 109, 0.8);
-  background-size: 200% 200%;
-}
-
-.NavbarSection ul li:hover {
-  text-decoration: underline;
-  text-decoration-color: blue;
-  text-decoration-thickness: 3px;
-}
-
-.NavbarSection ul {
-  display: flex;
-  list-style-type: none;
-  text-decoration: none;
-  margin: 0px 80px 0 0;
-}
-.NavbarSection ul li {
-  margin: 0 20px 15px 20px;
-  color: white;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  cursor: pointer;
-}
-
-#checkbox {
-  display: none;
-}
-.bars {
-  display: none;
-}
-
-.logo img {
-  /* border: 1px solid red; */
-  /* border-radius: 56%; */
-  height: 75px;
-}
-
-.logo > .logo-text {
-  /* border: 1px solid red; */
-  font-size: 30px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 800;
-  line-height: 45px;
-  /* gap: ; */
-}
-
-#searchBar {
-  font-size: 30px;
-  position: absolute;
-  z-index: 1;
-  color: white;
-  right: 125px;
-  top: 28px;
-}
-
-@media only screen and (max-width: 1024px) {
-  .NavbarSection {
-    padding: 0 20px;
-    justify-content: space-between;
-  }
-  .NavbarSection ul {
-    background-color: rgb(4 83 106);
-    position: fixed;
-    top: 0px;
-    left: -100%;
-    flex-direction: column;
-    width: 100%;
-    transition: all 0.5s linear;
-  }
-  .NavbarSection ul li {
-    text-align: center;
-    padding: 10px;
-  }
-
-  #checkbox:checked ~ .nav-ul {
-    left: 0;
-  }
-  .bars {
-    font-size: 25px;
-    display: block;
-  }
-
-  #searchBar {
-    right: 80px;
-  }
-}
-/* This is for the size decrease and increase on scrolling */
-/* * {box-sizing: border-box;}
-
-
-.NavbarSection {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 90px 10px;
-  transition: 0.4s;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 99;
-}
-
-.NavbarSection a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-.NavbarSection #logo {
-  font-size: 35px;
-  font-weight: bold;
-  transition: 0.4s;
-}
-
-.NavbarSection a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.NavbarSection a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-.NavbarSection-right {
-  float: right;
-}
-
-@media screen and (max-width: 580px) {
-  .NavbarSection {
-    padding: 20px 10px !important;
-  }
-  .NavbarSection a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .NavbarSection-right {
-    float: none;
-  }
-} */
-
-/* This css is for the carousel */
 .carousel-main {
-  /* border: 1px solid red; */
-  height: 700px;
+  height: 470px;
   box-sizing: border-box;
+  /* border: 3px solid red; */
 }
 
 .carousel-caption > .carouselbtn {
   /* border: 1px solid red !important; */
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   border-radius: 25px;
-  padding:8px 0px;
-  width: 16%;
+  padding: 11px 0px;
+  width: 7%;
   margin: auto;
   color: white;
   border: none;
   text-align: center;
   margin-top: 15px;
-  /* background: linear-gradient(90deg, #f79c22, #9757e9); */
-  background: linear-gradient(45deg, #3408f3, #c0d3e7);
-  /* background: #31124b; */
+  background-color: #3408f3;
 }
 
 .carouselbtn:hover {
-  /* background: linear-gradient(45deg, #3408F3, #c0d3e7); */
-  background: #31124b;
-  /* background: linear-gradient(90deg, #9757e9, #f79c22); */
+  background: #3153f2;
 }
 
+.carousel-control-prev-icon {
+  /* border: 1px solid red !important; */
+  color: white;
+
+  border: 2px solid white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.carousel-control-prev{
+  width: 7% !important;
+}
+
+.carousel-control-next{
+  width: 7% !important;
+}
+
+.carousel-control-next-icon {
+  color: white;
+  border: 2px solid white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 .my-carousel h1 {
   /* border: 1px solid red; */
   margin-bottom: 7 5%;
@@ -205,6 +58,7 @@
   line-height: 134.4px;
   font-weight: 900;
 }
+
 
 .carousel-control-prev-icon {
   width: 24px;
@@ -227,121 +81,246 @@
 #main-section {
   position: relative;
 }
-.carousel-indicators {
-  /* border: 1px solid red; */
+/* .carousel-indicators {
   width: 8%;
   margin-left: 91% !important;
-}
+} */
 
+.carousel-indicators button {
+  display: none;
+}
 .carousel-caption {
-  /* border: 1px solid red; */
   margin-bottom: 14%;
 }
 
-.carousel-indicators [data-bs-target] {
+/* .carousel-indicators [data-bs-target] {
   width: 20px !important;
   height: 20px !important;
   background-color: transparent;
   border: 1px solid transparent !important;
   border-radius: 30px;
-}
+} */
 
 .main-section {
-  background-color: red;
+  /* background-color: red; */
   height: 10000;
   z-index: 100000000000;
 }
-/* @media only screen and (min-width: 1440px) and (max-width: 1509px) {
-  .services{
-    margin-bottom:51%;
-  }
-}
-
-@media only screen and (min-width: 2560px) and (max-width: 1440px) {
-  .services{
-    margin-bottom: 71%;
-  }
-} */
-
-/* .carousel-indicators li {
-  border-top: unset;
-  width: 10px;
-  border-bottom: unset;
-  border: 1px solid transparent;
-  border-left-width: 0;
-  border-right-width: 0;
-  border-radius: 10px;
-  background-color: rgba(169, 29, 42, 0.4);
-  height: 10px;
-  width: 20px;}                                                  
-                                                                 
-  .carousel-indicators .active {
-  border-top: unset;
-  border-bottom: unset;
-  border: 1px solid transparent;
-  border-left-width: 0;
-  border-right-width: 0;
-  border-radius: 10px;
-  background-color: #A91D2A;
-  height: 10px;
-  width: 50px
-} */
 
 /* Css for services section */
-.services {
-  /* border: 1px solid red; */
-  width: 90%;
-  margin: auto;
-  display: flex;
-  height: 103px;
-  justify-content: center;
-  position: absolute;
-  bottom: 0;
-  left: 5%;
+#main-section {
+  position: relative;
 }
 
-/* .service-logos{
-  border: 1px solid red;
-  
-} */
+/* Css for services section */
+#main-section {
+  position: relative;
+}
 
-.services div {
+.formservices {
+  width: 72%;
+  /* top: 3%; */
+  bottom: 77%;
+  margin: auto;
+  display: flex;
+  height: 75px;
+  justify-content: center;
+  position: absolute;
+  left: 14%;
+  /* z-index: 1; */
+  /* gap: 1.5%; */
+}
+
+.formservices:hover div{
+  color: white;
+}
+
+/* .formservices:hover{
+    background: #3380f2;
+  }
+   */
+.formservices div {
+  /* border: 1px solid red; */
   width: 13%;
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 10px;
-  background-color: white;
+  column-gap: 8px;
   z-index: 2;
 }
-.services div:hover {
-  background-color: rgb(115, 100, 237);
+
+.formservices div:hover * {
+  background: #3380f2;
 }
-.services div img {
+.serviceicons {
+  font-size: 20px;
+}
+
+.formservices p {
+  color: black;
+  margin-top: 10%;
+  line-height: 21px;
+  vertical-align: baseline;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  font-size: 12px;
+}
+
+.formservices p:hover {
+  color: white;
+}
+.formservices .icons:hover {
+  color: blue;
+}
+.formservices div:hover {
+  background-color: #3380f2;
+}
+
+.formservices div img {
   height: 23px;
   width: 33px;
   margin-bottom: 16px;
-}
-.services div:nth-child(1) {
-  border-top-left-radius: 125px;
-  width: 18%;
-}
-.services div:nth-child(2) {
-  width: 17%;
-}
-.services div:nth-child(6) {
-  border-top-right-radius: 125px;
-  width: 17%;
+  filter: invert(1.6);
 }
 
-/* @media only screen and (min-width: 300px) and (max-width: 980px) {
-  .services {
+
+.formservices div:nth-child(1) {
+  background-color: white;
+  border-top-left-radius: 105px;
+  width: 12%;
+}
+
+.formservices div:nth-child(2) {
+  background-color: white;
+  width: 10%;
+}
+
+.formservices div:nth-child(3) {
+  background-color: white;
+  width: 10%;
+}
+
+.formservices div:nth-child(4) {
+  background-color: white;
+  width: 10%;
+}
+
+.formservices div:nth-child(5) {
+  background-color: white;
+  width: 12%;
+}
+
+.formservices div:nth-child(6) {
+  background-color: white;
+  width: 13%;
+}
+
+.formservices div:nth-child(7) {
+  background-color: white;
+  width: 10%;
+}
+
+.formservices div:nth-child(8) {
+  background-color: white;
+  border-top-right-radius: 105px;
+  width: 10%;
+  gap: 3%;
+}
+
+/* Hover property for the services section */
+
+.formservices div:nth-child(1):hover {
+  background-color: #3380f2;
+  color: white;
+}
+
+.formservices div:nth-child(2):hover {
+  background-color: #3380f2;
+}
+.formservices div:nth-child(3):hover {
+  background-color: #3380f2;
+}
+.formservices div:nth-child(4):hover {
+  background-color: #3380f2;
+}
+.formservices div:nth-child(5):hover {
+  background-color: #3380f2;
+}
+.formservices div:nth-child(6):hover {
+  background-color: #3380f2;
+}
+.formservices div:nth-child(7):hover {
+  background-color: #3380f2;
+}
+.formservices div:nth-child(8):hover {
+  background-color: #3380f2;
+}
+@media only screen and (min-width: 300px) and (max-width: 980px) {
+  .formservices {
     flex-direction: column;
-    position: static;
-    
+    /* position: static; */
+    display: none;
   }
 
-  #main-section{
+  #main-section {
     position: static;
   }
-} */
+}
+
+/* This css part is for the devesh carousel form section */
+
+/* This css is for the travel form details */
+.main-trevform {
+  position: relative;
+}
+
+.text-info {
+  /* color: RGB(255, 255, 255);/ */
+  color: azure;
+  font-size: 23px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.trevFormdiv {
+  height: 300px;
+  box-sizing: border-box;
+  width: 100%;
+  bottom: 74%;
+}
+
+.forminput_value {
+  margin-bottom: 8%;
+  color: #3153f2;
+}
+
+.forminput_value .form-label {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.trevformrow {
+  position: absolute;
+  width: 75%;
+  top: 10%;
+  background-color: rgb(51, 128, 242, 0.7);
+  right: 13%;
+  border-radius: 33px;
+  height: 285px;
+}
+.trevButton {
+  background-color: #3153f2;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  padding: 9px 31px;
+  width: 150%;
+}
+.trevButton:hover {
+  background: blue;
+}

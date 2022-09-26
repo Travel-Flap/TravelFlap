@@ -1,0 +1,82 @@
+#bannerImage{
+    width: 100%;
+    height: 500px;
+    border: 2px solid white;
+    background-image: url("./visa.png");
+    background-size: cover;
+    position: relative;
+}
+#bannerImage::before{
+    position: absolute;
+    content: "";
+    background-color: #000;
+    opacity: 0.8;
+}
+.bannerheading{
+    /* border: 1px solid red; */
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 10%;
+}
+.bannersearchboxdiv{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 60%;
+    height: 120px;
+    border-radius: 10px;
+    background-color: white;
+    /* opacity: 0.9; */
+}
+.selectcountry{
+    width: 25%;
+    height: 60px;
+    /* border: 2px solid #3380F2; */
+    margin-top: 3%;
+    margin-left: 0.5%;
+    color: #3380F2;
+    text-align: center;
+}
+.visabannercountrytext{
+    /* border: 1px solid; */
+    margin-top: -3% !important;
+    margin-left: 3%;
+    text-align: left;
+    width: 90%;
+    font-size: 15px
+}
+.visabannerdropdown{
+    border: 2px solid #3380F2;
+    width: 95%;
+    height: 50px;
+    border-radius: 8px;
+    color: #3380F2;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 2%;
+    margin-top: -5%;
+}
+.bannersearchbutton{
+    height: 50px;
+    width: 18%;
+    border: none;
+    margin-bottom: 1%;
+    background-color: #3380F2;
+    margin-left: 1%;
+    margin-top: 5%;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius:10px;
+    text-decoration: none;
+}
+.bannersearchbutton p{
+    padding: 5% 0px 0px 32%;
+}
+.bannersearchbutton:hover{
+    background-color: rgb(111, 0, 255);
+    color: white;
+}
