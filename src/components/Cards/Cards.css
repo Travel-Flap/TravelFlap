@@ -229,7 +229,7 @@
 }
 
 .cardendcontinerdiv{
-  width: 22%;
+  width: 12%;
 }
 
 .activityexperimentheading1 {
@@ -285,8 +285,8 @@
   /* text-decoration: underline; */
   /* border: 1px solid red; */
   display: flex;
-  margin: 6.5% 2% 0 5%;
-  width: 94%;
+  margin: 6.5% 2% 0 0%;
+  width: 28%;
   /* margin-left: 25% !important; */
 }
 

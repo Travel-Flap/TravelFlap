@@ -1,0 +1,534 @@
+/* this css is for the card */
+
+/* This css is for the upper slider countries sliders one */
+
+.slider_title {
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    text-decoration: none solid rgb(45, 44, 44);
+    vertical-align: baseline;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgb(51, 128, 242);
+  }
+  
+  
+  .domesticcruisesliderdiv {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .domesticcruisecardimage {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 320px;
+    z-index: 2;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .domesticcruisecardimage img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .domesticcruisesliderdiv:hover img {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    /* border-radius: 10%; */
+  }
+  
+  .domesticcruisesliderdiv:hover .domesticcruisecardimage {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    /* border-radius: 10%; */
+  }
+  
+  /* .card:hover .domesticcruisedetails {
+    bottom: -40%;
+    transition: 0.5s ease-in-out;
+  } */
+  
+  .domesticcruisedetails {
+    position: absolute;
+    /* bottom: -77%; */
+    top: 35%;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    z-index: 100;
+    padding: 10px;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    color: white;
+  }
+  
+  .domesticcruisedetails :hover {
+    color: white;
+  }
+  
+  .domesticcruisedetails h2 {
+    margin: 0px 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .domesticcruisedetails h2 .domesticcruisejobtitle {
+    font-size: 16px;
+    line-height: 2;
+    font-weight: 700;
+    display: block;
+  }
+  
+  .card:hover .domesticcruisedetails {
+    bottom: 1;
+  }
+  
+  .domesticcruisedetails p{
+    border: 3px solid white;
+    width: 40%;
+    border-radius: 20px;
+    margin: auto;
+    height: 30px;
+    margin-top: 15%;
+    padding-top: 5px;
+    font-size: 12px;
+  }
+  
+  .domesticcruisecardParent{
+    position: relative;
+  }
+  
+  .none{
+    display: none;
+  }
+  .none1{
+    display: none;
+  }
+  .experimentText{
+    /* border: 1px solid red; */
+    position: absolute !important;
+    display: block;
+    top: 25%;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    background-color: transparent;
+  }
+  .domesticcruisedetails p:hover{
+    background-color: #3380f2;
+    color: white;
+  }
+  
+  .carousel .slick-dots {
+    bottom: -2.5vw;
+  }
+  
+  .carousel .slick-dots li button {
+    width: 20px;
+    height: 20px;
+    background: rgb(51, 128, 242);
+    border: 1px solid rgb(51, 128, 242);
+    border-radius: 20px;
+  }
+  
+  .carousel .slick-dots li button:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    content: "";
+    text-align: center;
+    opacity: 0.5;
+    color: #000;
+    background-color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .carousel .slick-prev,
+  .carousel .slick-next {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+  }
+  
+  .carousel .slick-prev:hover,
+  .carousel .slick-prev:focus,
+  .carousel .slick-next:hover,
+  .carousel .slick-next:focus {
+    color: #fff;
+    outline: none;
+    background: #fff;
+  }
+  
+  .carousel .slick-prev:before,
+  .carousel .slick-next:before {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .carousel .slick-next {
+    right: -55px;
+  }
+  
+  .carousel .slick-prev {
+    left: -55px;
+  }
+  
+  
+  
+  .activityexperimentmaindiv{
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+  
+  .activityaroundouterdiv {
+    /* border: 2px solid red !important; */
+    height: 460px !important;
+    /* border: 2px solid lightgray; */
+    display: flex !important;
+    flex-direction: row !important;
+    width: 96%;
+    /* border: none; */
+  }
+  .activityexperimentheadingcontainer {
+  
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #3380f2;
+    height: 80px;
+    margin: auto;
+    /* margin-top: 2%; */
+    /* border: 1px solid black; */
+  }
+  
+  .activityexperimentheading1 {
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 600;
+    width:30%;
+    margin: auto;
+    margin-left: 5.5% !important;
+    color: white;
+  }
+  
+  /* .viewalltrendingactivitytext{
+  
+  } */
+  .experimentheading2 {
+    /* border: 1px solid blue; */
+    width: 60%;
+    height: 40px;
+    justify-content: center;
+    margin: -0.5% 0 1% 1%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    /* padding: 0px 0px; */
+  }
+  .experimentheading {
+    border-radius: 50px;
+  }
+  
+  .experimentheading2 div {
+    border: 3px solid rgb(51, 128, 242);
+    width: 100px !important;
+    height: 33px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0.5%;
+    margin-right: 4%;
+    border-radius: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #3380f2;
+  }
+  
+  .experimentheading2 div:hover {
+    background-color: #3380f2;
+    color: white;
+  }
+  .viewallactivityaroundbuttons {
+    color: white;
+    font-weight: 700;
+    /* text-decoration: underline; */
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 1% 2% 0 5%;
+    width: 20%;
+    margin-left: 15% !important;
+  }
+  
+  .viewalltrendingactivitytext{
+    margin-top: 0.5%;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 38%;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 11px;
+    padding-top: 4px;
+    margin-bottom: 8%;
+    text-decoration: none !important;
+  }
+  
+  .viewalltrendingactivitytext:hover{
+    background-color: white;
+    color: #3380f2;
+    padding-top: 1%;
+  }
+  .activityaroundslidercontainer{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+  }
+  
+  .activityaroundcardtitle {
+    color: #3380f2 !important;
+    font-size: 22px;
+    margin-top: 1%;
+  }
+  
+  .activityaroundcard_desc {
+    /* border: 1px solid red; */
+    width: 90%;
+    color: #3380f2;
+    font-size: 13px;
+    text-align: left;
+  }
+  
+  .activityaroundimagetextcontainer {
+    width: 100%;
+    height: 440px !important;
+  }
+  
+  .activityaroundtextcard {
+    margin-left: 9% !important;
+    width: 100% !important;
+  }
+  /* 
+    .activityaroundtextcard:hover{
+      color: white;
+      background-color: #3380F2;
+    } */
+  
+  .activityaroundtextcard:hover div {
+    color: white;
+  }
+  
+  .exclusivedealsimagediv {
+    /* border: 2px solid red !important; */
+    width: 800px;
+    height: 200px !important;
+  }
+  .exclusivedealsimage {
+    /* border: 1px solid black !important; */
+    width: 700px;
+    height: 10px;
+    margin-left: 40%;
+  }
+  
+  .activityaroundcardimage {
+    /* border: 1px solid red !important; */
+    /* height: 300px; */
+    border: none;
+    width: 100% !important;
+  }
+  
+  .activityaroundcarddescmain {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-left: -9%;
+  }
+  
+  .exclusivecarddesc:hover {
+    color: white;
+  }
+  
+  /* .experimentheading2 div:hover{
+      color: white;
+      background-color: #3380F2;
+    } */
+  
+  /* .experimentheading2 p{
+      width: 300px;
+      color: #3380F2;
+      font-weight: 500;
+    } */
+  .trendingactivityheadingbuttons {
+    /* border: 1px solid yellow !important; */
+    justify-content: flex-end;
+    /* width: -1%; */
+    margin-left: 6%;
+    margin-top: -0.5%;
+  }
+  
+  .line-indicator li {
+    /* border: 2px solid; */
+    height: 4px;
+    width: 70px;
+    background: lightgray;
+    border-radius: 5px;
+  }
+  
+  .line-indicator li:hover {
+    background: gray;
+  }
+  
+  .line-indicator li.slick-active {
+    background: blue;
+  }
+  .buttons {
+    /* background: orangered !important; */
+    background: rgb(51, 128, 242) !important;
+    color: white !important;
+    transition: 700ms;
+    border: 3px solid red;
+  }
+  .buttons:hover {
+    /* background: white !important; */
+    /* color: orangered !important; */
+    transform: scale(1.1);
+  }
+  .activityaroundbutton {
+    border: 3px solid #3380f2;
+    width: 34%;
+    border-radius: 15px !important;
+    background-color: white;
+    color: #3380f2;
+    padding: 4px 12px;
+    font-weight: 500;
+    margin-bottom: 1%;
+    margin-top: 4%;
+    font-size: 15px !important;
+  }
+  .activityaroundbutton:hover {
+    border: 3px solid white;
+    background-color: #3380f2;
+    color: white;
+    font-size: 14px !important;
+  }
+  
+  @media screen and (max-width: 950px) {
+    .activityaroundimagetextcontainer {
+      flex-direction: column;
+    }
+    .col-md-4 {
+      width: 90%;
+      height: 280px;
+      margin-left: 3%;
+      margin-top: 10%;
+    }
+    .card-title {
+      font-size: 17px;
+    }
+    .card-text {
+      font-size: 13px;
+    }
+    .viewallactivityaroundbuttons {
+      display: none;
+    }
+    .activityexperimentheading1 {
+      display: none;
+    }
+    .activityexperimentheadingcontainer {
+      flex-direction: column;
+    }
+    .experimentheading2 {
+      width: 100%;
+    }
+    .activityaroundimagetextcontainer img {
+      width: 100%;
+      height: 100%;
+    }
+    .exclusivedealsimage {
+      width: 100%;
+      height: 100%;
+    }
+    .activityaroundtextcard {
+      margin-left: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .activityaroundimagetextcontainer {
+      flex-direction: column;
+    }
+    .col-md-4 {
+      width: 90%;
+      height: 280px;
+      margin-left: 3%;
+      margin-top: 5%;
+    }
+    .card-title {
+      font-size: 17px;
+    }
+    .card-text {
+      font-size: 13px;
+    }
+    .viewallactivityaroundbuttons {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: -50px;
+      text-align: right;
+      width: 40%;
+      font-size: 14px;
+      margin-left: 52%;
+    }
+    .experimentheading2 {
+      display: none;
+    }
+    .trendingactivityheadingbuttons {
+      display: none;
+    }
+    .activityexperimentheading1 {
+      display: inline-block;
+      vertical-align: top;
+      width: 40%;
+      font-size: 16px;
+      margin-left: 3%;
+    }
+    .activityexperimentheadingcontainer {
+      flex-direction: column;
+    }
+    .activityaroundimagetextcontainer img {
+      width: 100%;
+      height: 100%;
+    }
+    .exclusivedealsimage {
+      width: 100%;
+      height: 100%;
+    }
+    .activityaroundtextcard {
+      margin-left: 8px;
+    }
+  }
+  
+  
+  

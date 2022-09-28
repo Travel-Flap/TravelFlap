@@ -120,9 +120,9 @@ export const NatureLove = () => {
             <div className="natureloveslidercontainer">
                 <Slider
                     arrows={false}
-                    autoplay={true}
-                    speed={1000}
-                    autoplaySpeed={2000}
+                    // autoplay={true}
+                    // speed={1000}
+                    // autoplaySpeed={2000}
                     dotsclassName="slick-dots line-indicator"
                     ref={sliderRef}
                     slidesToShow={4}
@@ -186,7 +186,7 @@ export const NatureLove = () => {
                     <div class="card mb-3 natureloveouterdiv" >
                         <div class="row g-0 natureloveimagetextcontainer">
                             <div class="col-md-8 naturelovecardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/NatureLove/River Safari With Boat Ride.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 naturelovetextcard">
                                 <div class="card-body naturelovecarddescmain">
@@ -201,7 +201,7 @@ export const NatureLove = () => {
                     <div class="card mb-3 natureloveouterdiv" >
                         <div class="row g-0 natureloveimagetextcontainer">
                             <div class="col-md-8 naturelovecardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/NatureLove/JungleSafari.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 naturelovetextcard">
                                 <div class="card-body naturelovecarddescmain">
@@ -216,11 +216,11 @@ export const NatureLove = () => {
                     <div class="card mb-3 natureloveouterdiv" >
                         <div class="row g-0 natureloveimagetextcontainer">
                             <div class="col-md-8 naturelovecardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/NatureLove/Natural Habbitats.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 naturelovetextcard">
                                 <div class="card-body naturelovecarddescmain">
-                                    <h3 class="card-title naturelovecardtitle">Knowing Naturla habbitat</h3>
+                                    <h3 class="card-title naturelovecardtitle">Knowing Naturla habitats</h3>
                                     <p class="card-text naturelovecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="naturelovebutton" variant="primary" >Book Now</Button>
                                 </div>
@@ -231,7 +231,7 @@ export const NatureLove = () => {
                     <div class="card mb-3 natureloveouterdiv" >
                         <div class="row g-0 natureloveimagetextcontainer">
                             <div class="col-md-8 naturelovecardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/NatureLove/Zoo Tour.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 naturelovetextcard">
                                 <div class="card-body naturelovecarddescmain">
@@ -246,11 +246,11 @@ export const NatureLove = () => {
                     <div class="card mb-3 natureloveouterdiv" >
                         <div class="row g-0 natureloveimagetextcontainer">
                             <div class="col-md-8 naturelovecardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/NatureLove/Gardens of the Bay.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 naturelovetextcard">
                                 <div class="card-body naturelovecarddescmain">
-                                    <h3 class="card-title naturelovecardtitle">Jungle Safari</h3>
+                                    <h3 class="card-title naturelovecardtitle">Garden of the Bay</h3>
                                     <p class="card-text naturelovecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="naturelovebutton" variant="primary" >Book Now</Button>
                                 </div>
@@ -261,7 +261,7 @@ export const NatureLove = () => {
                     <div class="card mb-3 natureloveouterdiv" >
                         <div class="row g-0 natureloveimagetextcontainer">
                             <div class="col-md-8 naturelovecardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/NatureLove/TreeStudy.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 naturelovetextcard">
                                 <div class="card-body naturelovecarddescmain">
@@ -276,11 +276,11 @@ export const NatureLove = () => {
                     <div class="card mb-3 natureloveouterdiv" >
                         <div class="row g-0 natureloveimagetextcontainer">
                             <div class="col-md-8 naturelovecardimage">
-                                <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                <img src="images/NatureLove/Green Planet Dubai.jpg" class="img-fluid rounded-start" style={{height:"220px",width:"100%"}} alt="..." />
                             </div>
                             <div class="col-md-4 naturelovetextcard">
                                 <div class="card-body naturelovecarddescmain">
-                                    <h3 class="card-title naturelovecardtitle">River Safari</h3>
+                                    <h3 class="card-title naturelovecardtitle">Green Planet Dome</h3>
                                     <p class="card-text naturelovecard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <Button className="naturelovebutton" variant="primary" >Book Now</Button>
                                 </div>

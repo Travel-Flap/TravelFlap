@@ -27,7 +27,7 @@ export const CardText = () => {
 
                 <div className="cardtextendbuttons">
                     <div className="viewallactivityhotelcardbuttons" >
-                        <p className="viewallhomehotelcardtext" style={{ width: "45" }}>view all deals</p>
+                        {/* <p className="viewallhomehotelcardtext" style={{ width: "45" }}>view all deals</p> */}
                         <div className="activityaroundheadingbuttons">
                             <div style={{ display: "flex" }}>
                                 <FaAngleLeft size={"2.5em"}

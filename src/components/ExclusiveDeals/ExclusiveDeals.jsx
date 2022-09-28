@@ -21,12 +21,20 @@ export const ExclusiveDeals = () => {
             <div className="exclusiveheadingcontainer" >
                 <h2 className="exclusiveheading1">Exclusive Deals</h2>
                 <div className="exclusiveheading2">
-                    <div className="exclusiveheading">Deals</div>
-                    {/* <Link to="/flights"><div className="exclusiveheading">Flights</div></Link>  */}
+                    <select class="homeexclusiveselectdrop form-select" aria-label="Default select example">
+                        <option selected>View Deal Options</option>
+                        <option value="1">Flights</option>
+                        <option value="2">Hotels</option>
+                        <option value="3">Holidays</option>
+                        <option value="3">Cruise</option>
+                        <option value="3">Rentals</option>
+                        <option value="3">Staycations</option>
+                    </select>
+                    {/* <div className="exclusiveheading">Deals</div>
                     <div className="exclusiveheading">Flights</div>
                     <div className="exclusiveheading">Hotels</div>
                     <div className="exclusiveheading">Holidays</div>
-                    <div className="exclusiveheading">Cruise</div>
+                    <div className="exclusiveheading">Cruise</div> */}
                 </div>
                 <div className="viewallexclusivebuttons" >
                     <p className="viewallexclusivetext">view all deals</p>

@@ -11,7 +11,7 @@ import { FooterLinks } from '../../../FooterLinks/FooterLinks';
 import { FaArrowCircleDown } from "react-icons/fa";
 import ImageSlider from "../../../MultipleCards/MultiCardSlider";
 import { FaInfo,FaMapMarkerAlt,FaClock } from "react-icons/fa";
-
+import UAE1 from "./UAE1.jpg";
 
 export const VisaDetails = () => {
 
@@ -29,8 +29,8 @@ export const VisaDetails = () => {
     return (
         <>
             <div> <HotelNav/> </div>
-            {/* <VisadetailsSlider/> */}
-            <div className='visadetailsbanner'> <img width="100%" height="100%" src="https://static.amazon.jobs/locations/258/images/uae-banner1.jpg?1638307574"/> </div>
+            
+            <div className='visadetailsbanner'> <img width="100%" height="100%" src={UAE1}/> </div>
             <div className='visadetailscontainer'>
                <div className='visamainheading'>
                    <h1>UAE Visa</h1>
@@ -219,14 +219,50 @@ export const VisaDetails = () => {
                         </div>
                         <div className='Visadocuments'>
                             <p className='visatypedocheading'>Frequently Asked Questions</p>
-                             <ol>
-                                <li>Q. Do I mandatorily need a visa to visit Indonesia?
-                                   
-                                </li>
-                                <li>Q. What type of Indonesia visa service does Blueberry Travel offer and is it made available to all nationalities?
-                                   
-                                </li>
-                             </ol>
+                            
+                                <div className='questions'>Q1. What is an e-Visa and it mandatory for me to have it for my India visit?</div>
+                                <div className='answers'>
+                                    Ans. An e-Visa simply represents an electronic visa that is issued to foreigners 
+                                    planning to visit India mostly for tourism purpose. If you are not qualified for any 
+                                    kind of visa exemptions, it is mandatory have a passport and a valid e-Visa to enter India.
+                                </div>
+                                <div className='questions'>Q2. Does Blueberry Travel provide India visa services for foreigners from all over the world?</div>
+                                <div className='answers'>
+                                    Ans.Yes, we help nationalities from all over the world to obtain an India e-Visa.
+                                </div>
+                                <div className='questions'>Q3. What makes Blueberry Travel the number one choice for India visa services?</div>
+                                <div className='answers'>
+                                   Ans. Whether you are traveling to India for business or tourism purpose, Blueberry Travel offers the most reliable and value packed India e-Visa services. Our dedicated team of visa specialists is well aware of all visa requirements and procedures means they will take care of every minute aspect of your visa approval. In fact, you don't have to stand in long queue or worry about missing any key aspect of your visa processing.
+                                </div>
+                                <div className='questions'>Q4. Should I submit any document for the application of an India visa?</div>
+                                <div className='answers'>
+                                    Ans. You will be asked to submit the following for the prompt approval of your visa.
+                                        - Duly filled out India visa application form
+                                        - Passport with a validity of at least six months
+                                        - Recent color passport-size photo taken against white background
+                                        - Visa fee as specified by the embassy
+                                </div>
+                                <div className='questions'>Q5. Do kids require a visa to visit India?</div>
+                                <div className='answers'>
+                                    Ans. Yes, kids of all age groups will need a valid visa to enter India.
+                                </div>
+                                <div className='questions'>Q6.Once my visa application is submitted, how many days will it take for the visa processing?</div>
+                                <div className='answers'>
+                                    Ans.The processing time of an India visa is two to three working days.
+                                </div>
+                                <div className='questions'>Q7. What is the validity of an Indian E-Visa?</div>
+                                <div className='answers'>
+                                    Ans.An Indian E-Visa is valid for fully 30 days.
+                                </div>
+                                <div className='questions'>Q8. Can I extend my India visa?</div>
+                                <div className='answers'>
+                                    Ans.No; it is not possible to extend an India visa.
+                                </div>
+                                <div className='questions'>Q9. Is visa fee refundable if my visa application is rejected?</div>
+                                <div className='answers'>
+                                    Ans. No matter you cancel your visa or it is rejected, an India e-Visa is non-refundable once it is submitted to the Embassy.
+                                </div>
+                            
                         </div>
                  <div className='visadetailsform'>
               <h1>Apply Now!!</h1>
@@ -253,7 +289,7 @@ export const VisaDetails = () => {
             <Awards />
       </div> */}
       <div className="carousel">
-                <h1 className="clientstestimonial_title" style={{marginTop:"50%"}}>What our Clients say about us</h1>
+                <h1 className="clientstestimonial_title" style={{marginTop:"95%"}}>What our Clients say about us</h1>
                 <ImageSlider />
       </div>
       <div className='carousel'>

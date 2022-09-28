@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import './PopularDestinations.css';
 import { Component } from 'react';
 import Slider from "react-slick";
@@ -6,10 +6,28 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button } from 'react-bootstrap';
 import { MdLocationCity } from "react-icons/md";
+import countrydata from '../../CountryData.json';
 
 export const PopularDestinations = () => {
 
+   const [countryid, setCountryid] = useState('');
+   const [state, setState] = useState([]);
+   const [stateid, setStateid] = useState('');
 
+   const handlecounty = (e) => {
+      const getcountryId = e.target.value;
+      const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
+      setState(getStatedata);
+      setCountryid(getcountryId);
+      //console.log(getcountryId);
+   }
+
+   const handlestate = (e) => {
+      const stateid = e.target.value;
+      //console.log(stateid);
+      setStateid(stateid);
+
+   }
    const settings1 = {
       // dots: true,
       infinite: true,
@@ -124,14 +142,45 @@ export const PopularDestinations = () => {
                   <div className='populartitle1'>Popular</div>
                   <div className='populartitle2'>Destinations</div>
                </div>
-               <div className='populartitle3'>DESTINATIONS</div>
+
+               <div className="populardestinationhomediv">
+
+                  <select name='country' className="form-select countryhomecardselectdrop1" style={{ width: "56%" }} onChange={(e) => handlecounty(e)} aria-label="Default select example">
+                     <option id='homecarddropbox' value="">Select Country</option>
+                     {
+                        countrydata.map((getcountry, index) => (
+                           <option y value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                        ))
+                     }
+                     {/* <option value>Please Select Country</option>
+                                <option value="1">India</option>
+                                <option value="2">UAE</option>
+                                <option value="3">Pakistan</option>
+                                <option value="4">France</option>
+                                <option value="5">Spain</option>
+                                <option value="6">Turkey</option>
+                                <option value="7">Italy</option>
+                                <option value="8">Thailand</option>
+                                <option value="9">Mexico</option>
+                                <option value="10">Germany</option>
+                                <option value="11">United Kingdom</option>
+                                <option value="12">China</option>
+                                <option value="13">Korea</option> */}
+                  </select>
+                  {/* <select class="homeexclusiveselectdrop form-select" aria-label="Default select example">
+                     <option selected>Select Destination</option>
+                     <option value="1">Domestic</option>
+                     <option value="2">International</option>
+                  </select> */}
+               </div>
+               {/* <div className='populartitle3'>DESTINATIONS</div>
                <div className='populartitle3_inner1'>INTERNATIONAL</div>
-               <div className='populartitle3_inner2'>DOMESTIC</div>
+               <div className='populartitle3_inner2'>DOMESTIC</div> */}
                <div className='title4_viewall'>View All Destinations</div>
             </div>
 
             <div className='data'>
-              
+
                <div className="countrycardmaindiv">
                   <Slider {...settings1} className="multiCardSlider">
                      <div className="card-wrapper maincountrycardwrapper">
@@ -392,7 +441,7 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
                            <div className=" populardestinationcardimage">
-                              <img src='images/PopularDestinationImages/destination9.jpg'/>
+                              <img src='images/PopularDestinationImages/destination9.jpg' />
                            </div>
                            <div className="populardestinationsdetails">
                               <h2>France <span className="job-title">"Best Holiday trip Ever"

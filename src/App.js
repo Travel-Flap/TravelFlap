@@ -11,6 +11,9 @@ import { Activities } from "./components/Pages/Activities/Activities";
 import { Hotel } from "./components/Pages/Hotels/Hotel";
 import { Visa } from "./components/Pages/Visa/Visa";
 import { VisaDetails} from "./components/Pages/Visa/VisaInnerpages/VisaDetails";
+import { Cruise } from "./components/Pages/Cruise/Cruise";
+import { Flights } from "./components/Pages/Flights/Flights";
+
 function App() {
   return (
     <>
@@ -30,6 +33,9 @@ function App() {
         <Route path="/activities" element={<Activities />} />
         <Route path="/visa" element={<Visa/>}/>
         <Route path="/visadetail" element={<VisaDetails/>} />
+        <Route path="/cruise" element={<Cruise/>} />
+        <Route path="/flights" element={<Flights/>} />
+        
       </Routes>
     </>
   );

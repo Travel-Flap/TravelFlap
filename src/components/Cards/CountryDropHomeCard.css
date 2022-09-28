@@ -21,8 +21,8 @@
     /* border: 1px solid red; */
     /* border: 3px solid white; */
     /* background-color: blue; */
-    width: 70%;
-    margin-left: 5%;
+    width: 50%;
+    margin-left: 32%;
     margin-top: 0.5%;
 }
 
@@ -71,16 +71,17 @@
     /* border: 2px solid white; */
     display: flex;
     margin-top: 1%;
+    margin-left: 7%;
 }
 
 .singlehomedropcontainer1{
-    margin-left: -18%;
+    margin-left: -30%;
     border: none;
 }
 .singlehomedropcontainer{
     /* border: 1px solid red; */
     /* width: 80%; */
-    margin-left: 3%;
+    margin-left: 4%;
     border: none;
 }
 .singlehomedropcontainer > .homecardbutton{

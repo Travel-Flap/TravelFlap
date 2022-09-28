@@ -84,7 +84,7 @@ export const DataCards = () => {
 
                 <div className="cardendcontinerdiv">
                     <div className="viewallhomecardbuttons" >
-                        <p className="viewallhomecardtext" >view all deals</p>
+                        {/* <p className="viewallhomecardtext" >view all deals</p> */}
                         <div className="homecardheadingbuttons">
                             <div style={{ display: "flex" }}>
                                 <FaAngleLeft size={"2.5em"}

@@ -26,9 +26,9 @@ export const Favouite = () => {
                 </div>
 
                 <div className="cardtextendbuttons">
-                    <div className="viewallactivityhotelcardbuttons" >
+                    <div className="viewallfavouritehotelcardbuttons" >
                         <p className="viewallhomehotelcardtext" style={{ width: "45" }}>view all deals</p>
-                        <div className="activityaroundheadingbuttons">
+                        <div className="hotelheadingbuttons">
                             <div style={{ display: "flex" }}>
                                 <FaAngleLeft size={"2.5em"}
                                     onClick={() => sliderRef.current.slickPrev()}

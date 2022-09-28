@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -7,25 +8,66 @@ import { useEffect } from "react";
 import "./InternationalDestinations.css";
 // import { ButtonBase } from "@material-ui/core";
 import { Button } from "react-bootstrap"
-import { FaAngleLeft,FaAngleRight } from 'react-icons/fa';
+import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+import countrydata from '../../../../CountryData.json';
 
 export const InternationalDestinations = () => {
+    const [countryid, setCountryid] = useState('');
+    const [state, setState] = useState([]);
+    const [stateid, setStateid] = useState('');
+
+    const handlecounty = (e) => {
+        const getcountryId = e.target.value;
+        const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
+        setState(getStatedata);
+        setCountryid(getcountryId);
+        //console.log(getcountryId);
+    }
+
+    const handlestate = (e) => {
+        const stateid = e.target.value;
+        //console.log(stateid);
+        setStateid(stateid);
+    }
     const sliderRef = useRef(null);
     useEffect(() => {
         console.log(sliderRef);
     }, []);
+
     return (
         <div className="internationalmaindiv">
             {/* <h1>Ipl</h1> */}
             <div className="internationalheadingcontainer" >
                 <h2 className="internationalheading1">InterNational Destinations</h2>
                 <div className="internationalheading2">
-                    <div className="internationalheading">Asia</div>
+                    <select name='country' className="form-select countryhomecardselectdrop1" style={{ width: "56%" }} onChange={(e) => handlecounty(e)} aria-label="Default select example">
+                        <option id='homecarddropbox' value="">Select Country</option>
+                        {
+                            countrydata.map((getcountry, index) => (
+                                <option y value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                            ))
+                        }
+                        {/* <option value>Please Select Country</option>
+                                <option value="1">India</option>
+                                <option value="2">UAE</option>
+                                <option value="3">Pakistan</option>
+                                <option value="4">France</option>
+                                <option value="5">Spain</option>
+                                <option value="6">Turkey</option>
+                                <option value="7">Italy</option>
+                                <option value="8">Thailand</option>
+                                <option value="9">Mexico</option>
+                                <option value="10">Germany</option>
+                                <option value="11">United Kingdom</option>
+                                <option value="12">China</option>
+                                <option value="13">Korea</option> */}
+                    </select>
+                    {/* <div className="internationalheading">Asia</div>
                     <div className="internationalheading">Africa</div>
                     <div className="internationalheading">America</div>
                     <div className="internationalheading">Antarctica</div>
                     <div className="internationalheading">Australia</div>
-                    <div className="internationalheading">Europe</div>
+                    <div className="internationalheading">Europe</div> */}
                 </div>
 
                 <div className="viewallinternationalbuttons" >
@@ -71,7 +113,7 @@ export const InternationalDestinations = () => {
                         </div> */}
                         <div style={{ display: "flex" }}>
                             <FaAngleLeft size={"2.5em"}
-                            onClick={() => sliderRef.current.slickPrev()}
+                                onClick={() => sliderRef.current.slickPrev()}
                             />
                             {/* <ButtonBase
                                 style={{
@@ -109,8 +151,8 @@ export const InternationalDestinations = () => {
                                 <ArrowForwardIos />
                             </ButtonBase> */}
                             <FaAngleRight size={"2.5em"}
-                               onClick={() => sliderRef.current.slickNext()}
-                           />
+                                onClick={() => sliderRef.current.slickNext()}
+                            />
                         </div>
                     </div>
 
@@ -182,7 +224,7 @@ export const InternationalDestinations = () => {
                 >
                     {/* <div className="experimentdivcontainer" style={{display:"flex",flexDirection:"row"}}/> */}
 
-                    
+
                     <div className="card mb-3 internationalouterdiv" >
                         <div className="row g-0 internationalimagetextcontainer">
                             <div className="col-md-8 internationalcardimage">

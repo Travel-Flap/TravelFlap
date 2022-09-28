@@ -19,9 +19,8 @@ export const OurPackage = () => {
             <div className="famousdestinationsheadingcontainer" >
                 <h2 className="famousdestinationsheading">Our Packages</h2>
                 
-                <div className='selectcountry' style={{marginTop:"-0.2%"}}>
-                        
-                            <select className="form-select visabannerdropdown" aria-label="Default select example" style={{border:"3px solid #3380f2",borderRadius:"25px",marginTop:"6%",width:"60%",fontSize:"18px",fontWeight:"700"}}>
+                <div className='selectcountry'>
+                            <select className="form-select famousvisadestinationdropdown" aria-label="Default select example" >
                                 <option value>Country</option>
                                 <option value="Afghanistan">Afghanistan</option>
     <option value="Aland Islands">Aland Islands</option>
@@ -277,7 +276,9 @@ export const OurPackage = () => {
     <option value="Zimbabwe">Zimbabwe</option>
                             </select>
                         </div>
-
+               <div className="famousdestinationviewalltext">
+                  View all Deals
+                 </div>
                 <div className="famousdestinationssliderbuttons" >
                     
                     <div className="famousdestinationsbuttons">

@@ -130,6 +130,12 @@
     border: none;
     width: 100% !important;
   }
+
+  .natureloveimage img{
+    border: 2px solid red;
+    height: 250px !important;
+    width: 100% !important;
+  }
   
   .naturelovecarddescmain {
     width: 100%;
@@ -162,6 +168,7 @@
   .natureloveheadingbuttons {
     justify-content: flex-end;
     margin-left: 0%;
+    margin-top: 1%;
   }
 
   

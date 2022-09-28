@@ -64,8 +64,9 @@ export const Newsletter = () => {
       <div className='newsLetterMainBox'>
         <div className='newsletterimagediv'>
           {/* <div className='newsletterimage'>/ */}
-          {/* <img src="images/Newsletter/newsletter.png" /> */}
-          <img src='https://cdn.pixabay.com/photo/2014/11/14/03/38/news-530220__340.jpg' alt='newslettterimage' />
+          {/* <img src="images/Newsletter/newsletter.png" />
+          https://cdn.pixabay.com/photo/2014/11/14/03/38/news-530220__340.jpg */}
+          <img src='images/Newsletter/4k news lettr.png' alt='newslettterimage' />
           {/* </div> */}
         </div>
 
@@ -176,12 +177,6 @@ export const Newsletter = () => {
 
 
           <div className='newslettercontentinnerdiv2'>
-            <div className="scannermaindiv">
-              <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png' alt="qr code image" />
-
-              <p>Scan the QR code</p>
-            </div>
-
             <div className="androidandisoimagesdiv">
               <div className='downloadButtons'>
                 <div className='googleButtons'>
@@ -194,6 +189,13 @@ export const Newsletter = () => {
                 </div>
               </div>
             </div>
+            <div className="scannermaindiv">
+              <p>Scan the QR code</p>
+              <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png' alt="qr code image" />
+
+            </div>
+
+
           </div>
         </div>
 

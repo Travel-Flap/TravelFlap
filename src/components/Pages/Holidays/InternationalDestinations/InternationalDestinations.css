@@ -35,19 +35,19 @@
     font-weight: 700;
     margin-top: 1.5%;
     margin-left: 4%;
-    width:65%;
+    width:38%;
     color: white;
     /* color: #3380f2; */
   }
   
   .internationalheading2 {
-    width: 50%;
+    width: 46%;
     height: 40px;
     justify-content: center;
-    margin: -0.5% 0 1% 1%;
+    margin: 0.6% 0 1% 1%;
     font-size: 15px;
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
   }
   .internationalheading {
     border-radius: 50px;
@@ -72,6 +72,11 @@
       Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: white;
   }
+
+  .internationalheading2 select{
+    /* border: 1px solid red; */
+    margin-left: 0%;
+  }
   
   /* .internationalheading2 div:hover {
     background-color: #3380f2;
@@ -82,8 +87,8 @@
     font-weight: 700;
     text-decoration: none !important;
     display: flex;
-    margin: 1% 0 0 6%;
-    width: 56%;
+    margin: 1% 0 0 35%;
+    width: 38%;
   }
   
   .internationalslidercontainer{
@@ -160,7 +165,7 @@
     font-size: 15px;
     height: 35px;
     font-weight: 700;
-    padding-left: 17px;
+    padding-left: 14px;
     padding-top: 3px;
     /* padding: 5px 0px 3px 12px !important; */
     /* padding-left: 9px;

@@ -13,8 +13,9 @@ import { ActivityAround } from './ActivitiesAroundyou/ActivitiesAroundyou';
 import { AdventureActivities } from './AdventureActivities/AdventureActivitites';
 import { NatureLove } from './NatureLove/NatureLove';
 import { ActivityCarousel } from './ActivitiesCarouselCompo/ActivityCarousel';
-import { ActivityExperiment } from './Experiment/Experiment';
-import { ActivityExperiment2 } from './Experiment/Experiment2';
+import { TrendingActivities } from './TrendingActivitites/TrendingActivities';
+import { BottomBar } from '../../BottomBar/BottomBar';
+// import { ActivityExperiment2 } from './Experiment/Experiment2';
 // import { SeoLocal } from './SeoLocalServices/SeoLocal';
 
 
@@ -23,7 +24,7 @@ export const Activities = () => {
     <div>
 
       <Nav />
-      <ActivityCarousel/>
+      <ActivityCarousel />
       {/* <ControlledCarousel /> */}
       {/* <CountryDropdown /> */}
 
@@ -34,7 +35,7 @@ export const Activities = () => {
       </div> */}
 
       <div className='mt-3 carousel'>
-       <ActivityExperiment/>
+        <TrendingActivities />
       </div>
 
 
@@ -61,10 +62,14 @@ export const Activities = () => {
       </div>
 
       <Newsletter />
+
       <FooterLinks />
-      <Plan />
+
       <Experiment />
+      <Plan />
       <Footer />
+
+      <BottomBar/>
     </div>
   )
 }

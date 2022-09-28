@@ -1,4 +1,4 @@
-.navbar-container {
+/* .navbar-container {
     height: 80px;
     z-index: 1;
     position: fixed;
@@ -9,7 +9,7 @@
     position: fixed;
     transition: all 1s ease;
     width: 100%;
-  }
+  } */
   .hotelnavbar_fixed {
     width: 100%;
     display: flex;
@@ -43,14 +43,61 @@
     font-size: 14px;
     margin-left: 5px;
   }
-  .transparentNavbar{
+  /* .transparentNavbar{
     display: flex;
     width: 85%;
     height: 70px;
     margin-left: 15%;
-  }
+  } */
   
-  .logo2 {
+  .hotelnavbarmoredropdowncontent{
+    display: none;
+    position: absolute;
+    color: white;
+    background-color: #3380f2;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 14%;
+    font-size: 17px;
+  }
+  #moreoptions:hover .hotelnavbarmoredropdowncontent{
+     display: block;
+  }
+  .hotelnavbarmoreOptions:hover {
+    background-color: white;
+    color: #3380f2;
+  }
+  .hotelnavbarmoreOptions{
+  margin-top: 5%;
+  padding: 5%;
+  color: white;
+  text-decoration: none;
+  /* border: 2px solid red; */
+  }
+ .hotelnavbarcontacticon{
+   margin-left: 1%;
+   margin-right: 5%;
+   /* border: 2px solid red; */
+ }
+ .hotelnavbarmiceicon{
+  margin-left: -18%;
+  margin-right: 5%;
+  /* border: 2px solid red; */
+}
+.hotelnavbarofferIcon{
+  margin-left: -14%;
+  margin-right: 5%;
+  /* border: 2px solid red; */
+}
+.hotelnavbarinspireIcon{
+  margin-left: -14%;
+  margin-right: 5%;
+  /* border: 2px solid red; */
+}
+/* .logo2 {
     height: 50px;
     width: 150px;
     margin-top: 1%;
@@ -60,7 +107,7 @@
   .logo2 img {
     height: 50px;
     width: 150px;
-  }
+  } */
   .logo1 {
     cursor: pointer;
     height: 50px;
@@ -71,13 +118,13 @@
     height: 50px;
     width: 150px;
   }
-  .navbar {
+  /* .navbar {
     flex-direction: row;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 70px;
-  }
+  } */
   #navbarLinksButtons {
     margin-top: 5% 0 5% 0;
   }
@@ -91,7 +138,7 @@
     font-size: 13px;
     margin-top: 1%;
   }
-  .navbar-links-container1 {
+  /* .navbar-links-container1 {
     display: flex;
     justify-content:flex-end;
     align-items: center;
@@ -101,7 +148,7 @@
     font-size: 13px;
     margin-top: 1%;
     margin-left: 97%;
-  }
+  } */
   
   .nav-link {
     height: 36px;
@@ -171,7 +218,7 @@
   .hotellogin-register:hover .LoginRegisterDropDown {
     display: block;
   }
-  .topbanner {
+  /* .topbanner {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -183,9 +230,9 @@
     z-index: 0;
     height: 240px;
     margin: -10px 60px;
-  }
+  } */
   
-  .topbanner-service {
+  /* .topbanner-service {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -193,7 +240,7 @@
     border-bottom: 1px solid #ebebeb;
     padding: 0 15px 15px;
     width: 98%;
-  }
+  } */
   
   .nav-link:hover .chooseCountry {
     display: block;
@@ -229,7 +276,7 @@
     width: 20px;
     height: 12px;
   }
-  .partLeft {
+  /* .partLeft {
     width: 50%;
     height: 100%;
     border-right: 3px solid #3380f2;
@@ -239,8 +286,8 @@
     width: 50%;
     height: 100%;
     color: #3380f2;
-  }
-  .chooseCountry ul li {
+  } */
+  /* .chooseCountry ul li {
     list-style: none;
     margin-top: 15px;
   }
@@ -290,8 +337,8 @@
   .chooseCurrrency ul li:hover {
     background-color: #3380f2;
     color: white;
-  }
-  .NavbarMoreOption {
+  } */
+  /* .NavbarMoreOption {
     width: 200px;
     height: 150px;
     position: fixed;
@@ -322,7 +369,7 @@
   .offersIcon {
     margin-left: 30px;
     margin-right: 10px;
-  }
+  } */
   .LoginRegisterDropDown {
     width: 200px;
     height: 220px;

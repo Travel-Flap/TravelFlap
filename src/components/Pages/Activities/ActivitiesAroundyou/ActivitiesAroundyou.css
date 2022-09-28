@@ -83,14 +83,14 @@
 }
 
 .viewallactivityaroundtext{
-  margin-top: 0.5%;
+  margin-top: 1%;
   border: 2px solid white;
   border-radius: 20px;
-  width: 38%;
+  width: 36%;
   font-size: 14px;
   font-weight: 700;
-  padding-left: 10px;
-  padding-top: 2.3px;
+  padding-left: 8px;
+  padding-top: 5px;
   margin-bottom: 8%;
   text-decoration: none !important;
 }
@@ -158,6 +158,10 @@
   border: none;
   width: 100% !important;
 }
+.activityaroundcardimage img{
+  height: 250px;
+  width: 100%;
+}
 
 .activityaroundcarddescmain {
   /* border: 1px solid red; */
@@ -184,7 +188,7 @@
   justify-content: flex-end;
   /* width: -1%; */
   margin-left: 6%;
-  margin-top: -2%;
+  margin-top: 1%;
 }
 
 .line-indicator li {

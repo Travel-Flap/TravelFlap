@@ -1,3 +1,5 @@
+
+import React, { useState } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -8,10 +10,28 @@ import "./DomesticDestinations.css";
 // import { ButtonBase } from "@material-ui/core";
 import { Button } from "react-bootstrap";
 
-import { FaAngleLeft,FaAngleRight } from 'react-icons/fa';
+import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+import countrydata from '../../../../CountryData.json';
 
 
 export const DomesticDestinations = () => {
+    const [countryid, setCountryid] = useState('');
+    const [state, setState] = useState([]);
+    const [stateid, setStateid] = useState('');
+
+    const handlecounty = (e) => {
+        const getcountryId = e.target.value;
+        const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
+        setState(getStatedata);
+        setCountryid(getcountryId);
+        //console.log(getcountryId);
+    }
+
+    const handlestate = (e) => {
+        const stateid = e.target.value;
+        //console.log(stateid);
+        setStateid(stateid);
+    }
     const sliderRef = useRef(null);
     useEffect(() => {
         console.log(sliderRef);
@@ -22,11 +42,19 @@ export const DomesticDestinations = () => {
             <div className="domesticheadingcontainer" >
                 <h2 className="domesticheading1">Domestic Destinations</h2>
                 <div className="domesticheading2">
-                    <div className="domesticheading">NorthIndia</div>
+                    <select name='country' className="form-select countryhomecardselectdrop1" style={{ width: "56%" }} onChange={(e) => handlecounty(e)} aria-label="Default select example">
+                        <option id='homecarddropbox' value="">Select Country</option>
+                        {
+                            countrydata.map((getcountry, index) => (
+                                <option y value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                            ))
+                        }
+                    </select>
+                    {/* <div className="domesticheading">NorthIndia</div>
                     <div className="domesticheading">CentralIndia</div>
                     <div className="domesticheading">EastIndia</div>
                     <div className="domesticheading">WestIndia</div>
-                    <div className="domesticheading">SouthIndia</div>
+                    <div className="domesticheading">SouthIndia</div> */}
                 </div>
 
                 <div className="viewalldomesticbuttons" >
@@ -71,7 +99,7 @@ export const DomesticDestinations = () => {
                         </div> */}
                         <div style={{ display: "flex" }}>
                             <FaAngleLeft size={"2.5em"}
-                            onClick={() => sliderRef.current.slickPrev()}
+                                onClick={() => sliderRef.current.slickPrev()}
                             />
                             {/* <ButtonBase
                                 style={{
@@ -109,8 +137,8 @@ export const DomesticDestinations = () => {
                                 <ArrowForwardIos />
                             </ButtonBase> */}
                             <FaAngleRight size={"2.5em"}
-                               onClick={() => sliderRef.current.slickNext()}
-                           />
+                                onClick={() => sliderRef.current.slickNext()}
+                            />
                         </div>
                     </div>
 

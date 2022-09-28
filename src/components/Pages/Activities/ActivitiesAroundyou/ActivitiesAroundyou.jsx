@@ -187,7 +187,7 @@ export const ActivityAround = () => {
                         <div class="card mb-3 activityaroundouterdiv" >
                             <div class="row g-0 activityaroundimagetextcontainer">
                                 <div class="col-md-8 activityaroundcardimage">
-                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                    <img src="images/ActivityAround/boat along amazon rain forest.jpg" class="img-fluid rounded-start" alt="..." />
                                 </div>
                                 <div class="col-md-4 activityaroundtextcard">
                                     <div class="card-body activityaroundcarddescmain">
@@ -203,7 +203,71 @@ export const ActivityAround = () => {
                         <div class="card mb-3 activityaroundouterdiv" >
                             <div class="row g-0 activityaroundimagetextcontainer">
                                 <div class="col-md-8 activityaroundcardimage">
-                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                    <img src="images/ActivityAround/canoe safari botswana.jpg" class="img-fluid rounded-start" alt="..." />
+                                </div>
+                                <div class="col-md-4 activityaroundtextcard">
+                                    <div class="card-body activityaroundcarddescmain">
+                                        <h3 class="card-title activityaroundcardtitle">Safari</h3>
+                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3 activityaroundouterdiv" >
+                            <div class="row g-0 activityaroundimagetextcontainer">
+                                <div class="col-md-8 activityaroundcardimage">
+                                    <img src="images/ActivityAround/Dune buggy ride dubai.jpg" class="img-fluid rounded-start" alt="..." />
+                                </div>
+                                <div class="col-md-4 activityaroundtextcard">
+                                    <div class="card-body activityaroundcarddescmain">
+                                        <h3 class="card-title activityaroundcardtitle">Dune Buggy Ride</h3>
+                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3 activityaroundouterdiv" >
+                            <div class="row g-0 activityaroundimagetextcontainer">
+                                <div class="col-md-8 activityaroundcardimage">
+                                    <img src="images/ActivityAround/glacier hunt in greenland.jpg" class="img-fluid rounded-start" alt="..." />
+                                </div>
+                                <div class="col-md-4 activityaroundtextcard">
+                                    <div class="card-body activityaroundcarddescmain">
+                                        <h3 class="card-title activityaroundcardtitle">Glacier Hunt</h3>
+                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3 activityaroundouterdiv" >
+                            <div class="row g-0 activityaroundimagetextcontainer">
+                                <div class="col-md-8 activityaroundcardimage">
+                                    <img src="images/ActivityAround/machu pichu climb.jpg" class="img-fluid rounded-start" alt="..." />
+                                </div>
+                                <div class="col-md-4 activityaroundtextcard">
+                                    <div class="card-body activityaroundcarddescmain">
+                                        <h3 class="card-title activityaroundcardtitle">Hill Climbing</h3>
+                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
+                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3 activityaroundouterdiv" >
+                            <div class="row g-0 activityaroundimagetextcontainer">
+                                <div class="col-md-8 activityaroundcardimage">
+                                    <img src="images/ActivityAround/mountain hiking usa.jpg" class="img-fluid rounded-start" alt="..." />
                                 </div>
                                 <div class="col-md-4 activityaroundtextcard">
                                     <div class="card-body activityaroundcarddescmain">
@@ -219,75 +283,11 @@ export const ActivityAround = () => {
                         <div class="card mb-3 activityaroundouterdiv" >
                             <div class="row g-0 activityaroundimagetextcontainer">
                                 <div class="col-md-8 activityaroundcardimage">
-                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
+                                    <img src="images/ActivityAround/sleep under the northern lights.jpg" class="img-fluid rounded-start" alt="..." />
                                 </div>
                                 <div class="col-md-4 activityaroundtextcard">
                                     <div class="card-body activityaroundcarddescmain">
-                                        <h3 class="card-title activityaroundcardtitle">Adventure Sports</h3>
-                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card mb-3 activityaroundouterdiv" >
-                            <div class="row g-0 activityaroundimagetextcontainer">
-                                <div class="col-md-8 activityaroundcardimage">
-                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
-                                </div>
-                                <div class="col-md-4 activityaroundtextcard">
-                                    <div class="card-body activityaroundcarddescmain">
-                                        <h3 class="card-title activityaroundcardtitle">Adventure Sports</h3>
-                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card mb-3 activityaroundouterdiv" >
-                            <div class="row g-0 activityaroundimagetextcontainer">
-                                <div class="col-md-8 activityaroundcardimage">
-                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
-                                </div>
-                                <div class="col-md-4 activityaroundtextcard">
-                                    <div class="card-body activityaroundcarddescmain">
-                                        <h3 class="card-title activityaroundcardtitle">Adventure Sports</h3>
-                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card mb-3 activityaroundouterdiv" >
-                            <div class="row g-0 activityaroundimagetextcontainer">
-                                <div class="col-md-8 activityaroundcardimage">
-                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
-                                </div>
-                                <div class="col-md-4 activityaroundtextcard">
-                                    <div class="card-body activityaroundcarddescmain">
-                                        <h3 class="card-title activityaroundcardtitle">Adventure Sports</h3>
-                                        <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
-                                        <Button className="activityaroundbutton" variant="primary" >Book Now</Button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card mb-3 activityaroundouterdiv" >
-                            <div class="row g-0 activityaroundimagetextcontainer">
-                                <div class="col-md-8 activityaroundcardimage">
-                                    <img src="https://media.istockphoto.com/photos/senju-fall-picture-id1400925699?b=1&k=20&m=1400925699&s=170667a&w=0&h=mJTG8jdAnbIeY8-vgYmPL3T15uSCn-owtXcqUi0gho4=" class="img-fluid rounded-start" alt="..." />
-                                </div>
-                                <div class="col-md-4 activityaroundtextcard">
-                                    <div class="card-body activityaroundcarddescmain">
-                                        <h3 class="card-title activityaroundcardtitle">Adventure Sports</h3>
+                                        <h3 class="card-title activityaroundcardtitle">Sky light watching</h3>
                                         <p class="card-text activityaroundcard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                         {/* <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> */}
                                         <Button className="activityaroundbutton" variant="primary" >Book Now</Button>

@@ -67,10 +67,10 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCities/abudhabhi.jpg" />
+                                <img src="images/TopCity Activities/White Water Rafting Bovec Slovenia.jpg" />
                             </div>
                             <div className="topactivitydetails">
-                                <h2>Olivia <span className="job-title">"Best Holiday trip Ever"
+                                <h2>Bovec Slovania <span className="job-title">"White Water River Rafting"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p>
@@ -85,10 +85,10 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCities/america.jpg" />
+                                <img src="images/TopCity Activities/1Kolimeter Zipline Kielce Central Poland.jpg" />
                             </div>
                             <div className="topactivitydetails">
-                                <h2>Amirt Maan <span className="job-title">"Best Holiday trip Ever"
+                                <h2>Central Poland <span className="job-title">"1 Kilometer Long Zipline"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p>
@@ -102,10 +102,10 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCities/bangkok.jpg" />
+                                <img src="images/TopCity Activities/Ice Sking Whistler Blackcomb Cannada.jpg" />
                             </div>
                             <div className="topactivitydetails">
-                                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
+                                <h2>Whistler  Blackcomb, Canada <span className="job-title">"Best place for the ice skating."
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
@@ -118,10 +118,10 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCities/canada.jpg" />
+                                <img src="images/TopCity Activities/SkyDiving Duabi.jpg" />
                             </div>
                             <div className="topactivitydetails">
-                                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
+                                <h2>Dubai <span className="job-title">"Best sky diving experience in Dubai."
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
@@ -134,10 +134,10 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCities/bangalore.jpg" />
+                                <img src="images/TopCity Activities/DownHill Cycling Moab USA.jpg" />
                             </div>
                             <div className="topactivitydetails">
-                                <h2>Vaibhav <span className="job-title">"Best Holiday trip Ever"
+                                <h2>Moab,USA <span className="job-title">"Best place to do downhill cycling."
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
@@ -150,10 +150,10 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCities/denmark2.jpg" />
+                                <img src="images/TopCity Activities/SnowBoarding Lake Tahoe California.jpg" />
                             </div>
                             <div className="topactivitydetails">
-                                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
+                                <h2>Lake Tahoe, California <span className="job-title">"Best snowboarding experience in tahoe."
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
@@ -166,10 +166,10 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCities/gulmarg.jpg" />
+                                <img src="images/TopCity Activities/Canyoning Jordan.jpg" />
                             </div>
                             <div className="topactivitydetails">
-                                <h2>Gulmarg <span className="job-title">"Best Holiday trip Ever"
+                                <h2>Jordan <span className="job-title">"Canyoning is best activity for mental peace."
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
@@ -182,10 +182,10 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCities/Mauritius.jpg" />
+                                <img src="images/TopCity Activities/WhiteWater Kayaking Canada.jpg" />
                             </div>
                             <div className="topactivitydetails">
-                                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
+                                <h2>Canada <span className="job-title">"White Water Kayaking."
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
