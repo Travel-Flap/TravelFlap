@@ -9,8 +9,8 @@ import { Footer } from "./components/Footer/Footer";
 
 import { Activities } from "./components/Pages/Activities/Activities";
 import { Hotel } from "./components/Pages/Hotels/Hotel";
-// import { Visa } from "./components/Pages/Visa/Visa";
-// import { VisaDetails} from "./components/Pages/Visa/VisaInnerpages/VisaDetails";
+import { Visa } from "./components/Pages/Visa/Visa";
+import { VisaDetails} from "./components/Pages/Visa/VisaInnerpages/VisaDetails";
 import { Cruise } from "./components/Pages/Cruise/Cruise";
 import { Flights } from "./components/Pages/Flights/Flights";
 
@@ -31,8 +31,8 @@ function App() {
         <Route path="/holidays" element={<Holidays />} />
         <Route path="/hotel" element={<Hotel />} />
         <Route path="/activities" element={<Activities />} />
-        {/* <Route path="/visa" element={<Visa/>}/> */}
-        {/* <Route path="/visadetail" element={<VisaDetails/>} /> */}
+        <Route path="/visa" element={<Visa/>}/>
+        <Route path="/visadetail" element={<VisaDetails/>} />
         <Route path="/cruise" element={<Cruise/>} />
         <Route path="/flights" element={<Flights/>} />
         

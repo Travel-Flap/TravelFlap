@@ -1,0 +1,420 @@
+.visadetailsbanner img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.visadetailscontainer{
+    /* border: 2px solid red; */
+    width: 85%;
+    margin: auto;
+    /* display: flex; */
+}
+.visamainheading{
+    color: #3380F2;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 1%;
+    text-align: center;
+}
+.visadetailsiconsdiv{
+    display: flex;
+    flex-direction: row;
+}
+.Visadetailslocation{
+    /* border:2px solid red; */
+    width: 20%;
+}
+.visadetailsprocess{
+    /* border: 2px solid red; */
+    width: 20%;
+}
+.visadetailsmaindiv{
+    display: flex;
+    flex-direction: row;
+    z-index: 0;
+    height: auto;
+    /* background-color: black; */
+}
+.visadetailtestdiv{
+    /* border:2px solid lightgray; */
+    width: 75%;
+    height: auto;
+    border-radius: 25px;
+}
+.visadetailtestdiv p{
+    color: #3380F2;
+    font-weight: 700;
+    font-size: 28px;
+    margin-left: 2.5%;
+}
+.visadetailsvisatypedetails{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border: 1px solid black; */
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+.visadetailsinnerdiv{
+    border: 1px solid lightgray;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 3%;
+    /* border: 1px solid red; */
+    /* margin-top: 2%; */
+}
+.visadetailsfliteroptions{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(237, 240, 241);
+}
+.visadetailsfliteroptions {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.visadetailsnationalityoptions{
+    color: black;
+    width: 20%;
+    height: 50px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border: 2px solid black; */
+    border: none;
+    font-weight: 700;
+    padding-left: 2%;
+    margin-top: 2.5%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+.visadetailsofvisas{
+    width: 100%;
+    height: 170px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    background-color: #3380F2;
+}
+.visadetailsvisaheadings{
+    /* border: 1px solid red; */
+    width: 33%;
+    height: 100%;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 7%;
+    text-align: center;
+}
+.visadetailscounterdata{
+    display: flex;
+    flex-direction: row;
+}
+.visadetailscounter{
+    /* border: 1px solid saddlebrown; */
+    width: 33%;
+    height: 100%;
+    color: black;
+    /* display: flex;
+    flex-direction: row; */
+}
+.visadetailscounterheading{
+    color: white !important;
+    font-size: 18px !important;
+    margin-top: 5%;
+    margin-left: 30% !important;
+}
+.addbutton{
+    width: 13%;
+    height: 40px;
+    color: #3380F2;
+    background-color: white;
+    border: 2px solid #3380F2;
+    border-radius: 15px;
+    font-size: 25px;
+    margin-left: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+.countertext{
+    font-size: 25px;
+    font-weight: 700;
+    color: white !important;
+    /* margin-left: 15%; */
+}
+.subtractbutton{
+    width: 13%;
+    height: 40px;
+    color: #3380F2;
+    background-color: white;
+    border: 2px solid #3380F2;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 3%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.visadetailspricesummary{
+    /* border: 1px solid red; */
+    width: 33%;
+    height: 100%;
+    color: white;
+    font-size: 25px;
+    text-align: right;
+    /* font-weight: 700; */
+}
+.visadetailspricesummary h4{
+    font-weight: 700;
+    margin-top: 15%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+.visadetailsaddcartbutton{
+    background-color: white;
+    color: #3380F2;
+    width: 40%;
+    height: 40px;
+    border: none;
+    font-weight: 700;
+    margin-right: 5%;
+    border-radius: 25px;
+    font-size: 17px;
+}
+.visadetailsaddcartbutton:hover{
+    background-color: #3380F2;
+    color: white;
+    border: 2px solid white;
+}
+.visadetailsimage{
+    /* border: 1px solid gold; */
+    width: 30%;
+    height: 220px;
+    position:relative;
+}
+.visadetailsflagimagge{
+    margin: -70% 0 0 18%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.visadetailsdata{
+    width: 75%;
+    /* margin-left: 10%; */
+}
+
+.visatype div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-top:1%;
+    /* border: 2px solid lightblue; */
+}
+.visatypecountryheading{
+    color: #3380F2;
+    font-size: 25px;
+    font-weight: 700;
+    /* margin-bottom: 1%; */
+}
+.visatypedocheading{
+    color: #3380F2;
+    font-size: 25px;
+    font-weight: 700;
+    /* margin-top: -1%; */
+    margin-bottom: -0.1%;
+}
+.visatypeheading{
+    color: #3380F2;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 1%;
+}
+.visadetailscountryicon{
+    margin-right: 2%;
+    margin-bottom: 3%;
+}
+.visadetailsdescicon{
+    margin-top: -1%;
+}
+.visadetailscountrytext{
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+    margin-left: 8%;
+    margin-top: -5%;
+}
+.visadetailslists{
+    list-style-type: square;
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+    font-size: 18px;
+}
+.visadetailsdatapart{
+    display: flex;
+    flex-direction: row;
+}
+.visatypelists{
+    /* list-style-type: square; */
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+}
+.touristdropdown{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column !important;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* margin-top: 45%; */
+    border: 1px solid black;
+    z-index: 1;
+    width: 100%;
+    height: 290px;
+}
+.visadetailsdropdownheading{
+   height: 35% !important;
+   background-color: #c8d4e8;
+   /* border: 1px solid; */
+   border-radius: 20px 20px 0px 0px;
+   margin: 0% !important;
+   font-size: 18px;
+   width: 100%;
+   font-weight: bold;
+   padding:4% 0% 5% 18%;
+}
+.visadetailscontentpart{
+    display: flex;
+    flex-direction: row;
+    line-height: 40px;
+    font-weight: 700;
+}
+.visadetailsleftpart{
+    width: 50%;
+    height: 70%;
+    /* border: 1px solid red; */
+    text-align: left;
+    font-size: 16px;
+}
+.Visadescription{
+    /* border: 2px solid red; */
+    width: 70%;
+    margin-top: 2%;
+}
+.visadetailsrightpart{
+    width: 50%;
+    height: 70%;
+    /* border: 1px solid red; */
+    /* text-align: right; */
+    font-size: 16px;
+}
+
+.visadetailstime{
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+    margin-left: 2%;
+    font-size: 18px;
+}
+.descriptiontext{
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+    margin-left: 3%;
+    margin-top: -1%;
+}
+.visamainheading h1{
+    font-weight: 700;
+}
+.visadetailsslider1{
+    z-index: 1;
+    border: 1px solid lightgray;
+    font-size: 25px;
+    color: blue;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* background-color: black; */
+    margin-top: 6%;
+    margin-left:63%;
+    width: 45%;
+    height: 400px;
+    padding-top: 20px;
+}
+.visadetailsslider2{
+    z-index: 1;
+    border: 1px solid lightgray;
+    font-size: 25px;
+    color: blue;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* background-color: black; */
+    margin-top: 5%;
+    margin-left:63%;
+    width: 45%;
+    height: 400px;
+}
+.visadetailsform{
+    z-index: 2;
+    border: 1px solid lightgray;
+    /* background-color: black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: -147%;
+    margin-left: 75%;
+    width: 400px;
+    height: 600px;
+    color: #3380F2;
+    border-radius: 50px;
+}
+.visadetailsform h1{
+   margin-left:25%;
+   margin-top: 5%;
+}
+.Visadocuments{
+    margin-top: 2%;
+}
+.visadetailforminputs{
+    color: #3380F2 !important;
+    font-size: 20px;
+    margin-top: 10%;
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+.visadetailforminputs::placeholder{
+    color: #3380F2;
+    font-weight: 500;
+    bottom: 0%;
+    border: none;
+}
+.visadetailsapplybutton{
+    color: white;
+    font-size: 20px;
+    margin-top: 10%;
+    width: 40%;
+    height: 50px;
+    margin-left: 30%;
+    background-color: #3380F2;
+    font-weight: 700;
+    border-radius: 25px;
+    border: none;
+}
+.visadetailsapplybutton:hover{
+    background-color: white !important;
+    color: #3380F2 !important;
+    border: 2px solid #3380F2;
+}
+.questions{
+    font-weight: 700;
+    color: blue;
+    margin-top: 1%;
+}
+.answers{
+    font-weight: 700;
+    margin-top: 1%;
+}
