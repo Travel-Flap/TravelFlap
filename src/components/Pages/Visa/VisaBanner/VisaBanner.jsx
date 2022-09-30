@@ -74,7 +74,7 @@ export const VisaBanner = () => {
 
                 <div className='bannersearchboxdiv'>
                     
-                    <div className='selectcountry' style={{marginLeft:"2%"}}>
+                    <div className='selectcountry visabannercountrydrop' style={{marginLeft:"2%"}}>
                             <p className='visabannercountrytext'>Select visa country</p>
                             <select className="form-select visabannerdropdown" aria-label="Default select example" style={{border:"3px solid #3380f2"}}>
                                 <option value>Country</option>

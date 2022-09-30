@@ -87,8 +87,9 @@
     margin-left: 15%;
 }
 .cheapflightdata{
-    /* color: #3380F2; */
+    color: rgb(60, 60, 60);
     margin-top: 2%;
+    font-weight: 700;
 }
 .cheapflightdata:hover{
     background-color: #3380F2;

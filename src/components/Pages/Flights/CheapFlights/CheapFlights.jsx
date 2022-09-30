@@ -19,27 +19,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -51,27 +51,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -83,27 +83,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -115,27 +115,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -147,27 +147,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -179,27 +179,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -213,27 +213,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -245,27 +245,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -277,27 +277,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -309,27 +309,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -341,27 +341,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -373,27 +373,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -407,27 +407,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -439,27 +439,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -471,27 +471,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -503,27 +503,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -535,27 +535,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>
@@ -567,27 +567,27 @@ export const CheapFlights = () => {
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata" >
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                                 <li><a class="dropdown-item cheapflightdata">
-                                    <h5>₹ 21,286+</h5>
+                                    <h6>₹ 21,286+</h6>
                                     Flight Hyderabad - Bali (HYD - IDBA)
                                 </a></li>
                             </ul>

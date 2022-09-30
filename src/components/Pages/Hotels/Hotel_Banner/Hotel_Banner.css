@@ -12,12 +12,16 @@
     color:white;
     width: 70%;
     font-weight: 500;
+    /* border: 2px solid green; */
+    margin-top: 8%;
 }
 .banner_title{
     /* border: 2px solid green; */
     width: 70%;
+    height: 50px;
     font-size: 50px;
     margin: auto;
+    /* margin-top: 5%; */
 }
 
 .carouselhotelmenu {
@@ -104,6 +108,7 @@
     width: 70%;
     border-radius: 15px;
     margin: auto;
+    margin-top: 4%;
     opacity: 0.9;
 }
 .want_stay{
@@ -172,7 +177,9 @@ width: 150%;
 font-weight: bold;
 border: none;
 color: #3380F2;
-margin-left: -18% !important;
+margin-left: -3% !important;
+/* border: 2px solid red; */
+margin-top: -20% !important;
 }
 .adult_select{
     border: none;

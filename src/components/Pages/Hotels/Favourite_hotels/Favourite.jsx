@@ -110,7 +110,7 @@ export const Favouite = () => {
                     )}
                 >
 
-                    <div className=" cardtext_maindiv">
+                    {/* <div className=" cardtext_maindiv">
                         <div className="review">
                             <th>Excellent
                                 <br />
@@ -131,6 +131,32 @@ export const Favouite = () => {
                         </div>
                         <div className="discount_price">
                             <span className="discount_percent">48% DISCOUNT</span>
+                            <span className="Price_before_discount">&#x24;8,258</span>
+                            <span className="Price_after_discount">&#x24;4,280</span>
+                        </div>
+                    </div> */}
+
+                    <div className="cardtext_maindiv">
+                        <div className="review">
+                            <th>Exeptional
+                                <br />
+                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                            </th>
+                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                        </div>
+                        <img src="images/HotelsImage/HotelImage2.jpg" alt="" />
+                        <div className="card-titlefav"> Novotel Phuket City Phokeethra(SHA Extra Plus)
+                            <br />
+                            <span className="hoteltitle_rating">
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                            </span>
+                        </div>
+                        <div className="hoteldicsountprice">
+                        <span className="discount_percent">48% DISCOUNT</span>
                             <span className="Price_before_discount">&#x24;8,258</span>
                             <span className="Price_after_discount">&#x24;4,280</span>
                         </div>

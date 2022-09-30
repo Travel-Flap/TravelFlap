@@ -28,6 +28,7 @@ import TopCities from '../../TopCities/TopCities';
 import { ExclusiveDeals } from '../../ExclusiveDeals/ExclusiveDeals';
 import { Experiment } from '../../Tags/Tags';
 import { Plan } from '../../NextHolidaysPlan/Plan';
+import { HandPicked } from '../../HandPicked/HandPicked';
 export const Home = () => {
     return (
         <div>
@@ -43,6 +44,8 @@ export const Home = () => {
 
             <DataCards />
 
+            <HandPicked/>
+
             {/* <Carousel /> */}
 
             <div className='carousel'>
@@ -55,6 +58,8 @@ export const Home = () => {
                 <h1 className='travelstories_title'>Easy Visa Destinations</h1>
                 <EasyVisaDestination />
             </div>
+
+          
 
             <div className="carousel">
                 <h1 className="achievements_title">Achievement and Awards</h1>

@@ -22,26 +22,26 @@ export const Visa = () => {
     <div>
       {/* <VisaDetails/> */}
       <Nav />
-      <VisaBanner/>
-      <ApplyProcess/>
-      <FamousDestinations/>
-      <OurPackage/>
-      <VisapageEasyvisaDestinations/>
-      <WhychooseTravelflap/>
-      <Applications/>
-      
+      <VisaBanner />
+      <ApplyProcess />
+      <FamousDestinations />
+      <OurPackage />
+      <VisapageEasyvisaDestinations />
+      <WhychooseTravelflap />
+      <Applications />
+
       <div className="carousel">
-            <h1 className="achievements_title" >Achievement and Awards</h1>
-            <Awards />
+        <h1 className="achievements_title" >Achievement and Awards</h1>
+        <Awards />
       </div>
       <div className="carousel">
-                <h1 className="clientstestimonial_title" >What our Clients say about us</h1>
-                <ImageSlider />
+        <h1 className="clientstestimonial_title" >What our Clients say about us</h1>
+        <ImageSlider />
       </div>
       <div className='carousel'>
-                <h1 className='partners_title'>Our Partners</h1>
-                <OurPartners />
-            </div>
+        <h1 className='partners_title'>Our Partners</h1>
+        <OurPartners />
+      </div>
       <Newsletter />
       <FooterLinks />
       <Footer />

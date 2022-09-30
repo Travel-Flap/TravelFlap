@@ -1,21 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8f7de4a.css",
-    "main.js": "/static/js/main.86a4f7d5.js",
+    "main.css": "/static/css/main.f13327ab.css",
+    "main.js": "/static/js/main.16fbcb3d.js",
     "static/js/787.7886e5ff.chunk.js": "/static/js/787.7886e5ff.chunk.js",
+    "static/media/UAE4.jpg": "/static/media/UAE4.7d17172021074cd0aa62.jpg",
     "static/media/UAE1.jpg": "/static/media/UAE1.9f9431422730798fa988.jpg",
-    "static/media/visa.png": "/static/media/visa.9802903eef94eca49e05.png",
+    "static/media/UAE2.jpg": "/static/media/UAE2.639242c9b9c597457972.jpg",
+    "static/media/Visa.jpg": "/static/media/Visa.288c56dbe9d5cebd64a4.jpg",
+    "static/media/UAE3.jpg": "/static/media/UAE3.2459d07bb05be3ac58b9.jpg",
+    "static/media/branches.png": "/static/media/branches.98ece0059836092d87d5.png",
+    "static/media/experience.png": "/static/media/experience.5ae03eb4e4e6b0135b42.png",
+    "static/media/assistance.png": "/static/media/assistance.cb8ae5daf9281a11f586.png",
+    "static/media/offers.png": "/static/media/offers.2af63d2de7bf1986072c.png",
+    "static/media/safety.png": "/static/media/safety.5c85df7de8d747cd29cc.png",
+    "static/media/services.png": "/static/media/services.11d1faf9720134118b6c.png",
     "index.html": "/index.html",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.f8f7de4a.css.map": "/static/css/main.f8f7de4a.css.map",
-    "main.86a4f7d5.js.map": "/static/js/main.86a4f7d5.js.map",
+    "main.f13327ab.css.map": "/static/css/main.f13327ab.css.map",
+    "main.16fbcb3d.js.map": "/static/js/main.16fbcb3d.js.map",
     "787.7886e5ff.chunk.js.map": "/static/js/787.7886e5ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8f7de4a.css",
-    "static/js/main.86a4f7d5.js"
+    "static/css/main.f13327ab.css",
+    "static/js/main.16fbcb3d.js"
   ]
 }

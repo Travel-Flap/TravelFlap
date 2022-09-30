@@ -32,7 +32,7 @@ import { Experiment } from '../../Tags/Tags';
 import { Plan } from '../../NextHolidaysPlan/Plan';
 import { NearFlightsInternational } from './NearFlightsInternational/NearFlightsInternational';
 import { NearFlightsDomestic } from './NearFlightsDomestic/NearFlightsDomestic';
-import { HandPicked } from './HandPicked/HandPicked';
+// import { HandPicked } from '../../HandPicked/HandPicked';
 import { CheapFlights } from './CheapFlights/CheapFlights';
 export const Flights = () => {
     return (
@@ -59,7 +59,7 @@ export const Flights = () => {
                 <TopCities />
             </div>
 
-            <HandPicked/>
+            {/* <HandPicked/> */}
 
             <CheapFlights/>
 

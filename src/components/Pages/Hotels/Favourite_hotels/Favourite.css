@@ -953,13 +953,16 @@
     border-radius: 10px 10px 0px 0px;
     
   }
+  
   .card-titlefav{
     /* border: 1px solid red; */
     width: 90%;
     height: 80px;
-    margin-top: 1%;
+    margin-top: 3%;
+    margin-left: 5% !important;
     font-size: 13px;
   }
+
   .hoteltitle_rating{
     color: #3380F2;
   }
@@ -973,6 +976,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+    margin-left: 5%;
   }
   .review_rating_num{
     color: white;

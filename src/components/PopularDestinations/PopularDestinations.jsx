@@ -357,7 +357,7 @@ export const PopularDestinations = () => {
 
                {/* Below carousel component */}
 
-               <div className='populardestinationscontainer'>
+               {/* <div className='populardestinationscontainer'>
                   <Slider {...settings} className="multiCardSlider">
                      <div className="card-wrapper">
                         <div className="card populardestinationssliderdiv">
@@ -451,7 +451,7 @@ export const PopularDestinations = () => {
                         </div>
                      </div>
                   </Slider>
-               </div>
+               </div> */}
             </div>
          </div>
       </>

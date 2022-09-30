@@ -39,10 +39,11 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .famousvisadestinationdropdown{
   border:2px solid white !important;
   border-radius:35px;
-  margin-top:-23.5%;
+  margin-top: 5%;
   width:28%;
   font-size:17px;
   height: 35px;
@@ -50,7 +51,6 @@
   background-color: #3380f2;
   color: white;
   padding-top: 4px;
-  margin-left: -50%;
 }
 .famousvisadestinationdropdown:hover{
    border: 2px solid #3380f2;

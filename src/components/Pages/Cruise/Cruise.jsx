@@ -11,12 +11,14 @@ import { ExclusiveDeals } from './CruiseExclusiveDeals/CruiseExclusiveDeals';
 import { Trending_Cruise } from './Trending_Cruise/Trending_Cruise';
 import { InternationalCruise } from './InternationalCruise/InterNationalCruise';
 import { DomesticCruise } from './DomesticCruise/DomesticCruise';
+import { CruiseCarousel } from './CruiseBanner/CruiseBanner';
 
 export const Cruise = () => {
   return (
     <div>
         <Nav/>
-        <Cruise_Banner/>
+        <CruiseCarousel/>
+        {/* <Cruise_Banner/> */}
         <Trending_Cruise/>
         <ExclusiveDeals/>
 
