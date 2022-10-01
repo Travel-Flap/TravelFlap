@@ -14,7 +14,7 @@ export const VisaBanner = () => {
     return (
         <>
             <div id='bannerImage'>
-                <div className='bannerheading'>
+                <div id='visabannerheading'>
                     <p>Get Your Visa here!</p>
                 </div>
 
@@ -72,7 +72,7 @@ export const VisaBanner = () => {
                       </div>
                 </div>
 
-                <div className='bannersearchboxdiv'>
+                <div id='visabannersearchboxdiv'>
                     
                     <div className='selectcountry visabannercountrydrop' style={{marginLeft:"2%"}}>
                             <p className='visabannercountrytext'>Select visa country</p>
@@ -849,7 +849,7 @@ export const VisaBanner = () => {
                                 <option value="Zimbabwe">Zimbabwe</option>
                             </select>
                         </div>
-                    <Link to="/visadetail" className='bannersearchbutton'><p>Search</p></Link>
+                    <Link to="/visadetail" id='bannersearchbutton'><p>Search</p></Link>
                 </div>
             </div>
         </>

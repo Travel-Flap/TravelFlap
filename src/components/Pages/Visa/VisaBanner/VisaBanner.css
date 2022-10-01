@@ -13,7 +13,7 @@
     background-color: #000;
     opacity: 0.8;
 }
-.bannerheading{
+#visabannerheading{
     /* border: 1px solid red; */
     text-align: center;
     color: white;
@@ -21,7 +21,7 @@
     font-size: 40px;
     margin-top: 5%;
 }
-.bannersearchboxdiv{
+#visabannersearchboxdiv{
     /* border: 2px solid black; */
     z-index: 0;
     display: flex;
@@ -63,7 +63,7 @@
     margin-left: 2%;
     margin-top: -5%;
 }
-.bannersearchbutton{
+#bannersearchbutton{
     height: 50px;
     width: 18%;
     border: none;
@@ -77,10 +77,10 @@
     border-radius:10px;
     text-decoration: none;
 }
-.bannersearchbutton p{
+#bannersearchbutton p{
     padding: 5% 0px 0px 32%;
 }
-.bannersearchbutton:hover{
+#bannersearchbutton:hover{
     background-color:blue;
     color: white;
     padding-bottom: 50px !important;
