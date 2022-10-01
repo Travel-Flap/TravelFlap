@@ -158,7 +158,7 @@ export const ExclusiveDeals = () => {
                     <div className="card mb-4 exclusiveouterdivtop" >
                         <div className="row g-0 exclusiveimagetextcontainer">
                             <div className="col-md-8 exclusivecardimage">
-                                <img src="images/ExclusiveDeals/China.jpg" class="img-fluid rounded-start" alt="..." />
+                                <img src="Images/ExclusiveDeals/China.jpg" class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 exclusivetextcard">
                                 <div className="card-body exclusivecarddescmain">
