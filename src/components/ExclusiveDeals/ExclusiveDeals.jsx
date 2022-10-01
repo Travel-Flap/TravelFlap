@@ -174,7 +174,7 @@ export const ExclusiveDeals = () => {
                     <div className="card mb-3 exclusiveouterdivtop" >
                         <div className="row g-0 exclusiveimagetextcontainer">
                             <div className="col-md-8 exclusivecardimage">
-                                <img src="images/ExclusiveDeals/GizaEjypt.jpg" class="img-fluid rounded-start" alt="..." />
+                                <img src="Images/ExclusiveDeals/GizaEjypt.jpg" class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 exclusivetextcard">
                                 <div className="card-body exclusivecarddescmain">
@@ -190,7 +190,7 @@ export const ExclusiveDeals = () => {
                     <div className="card mb-3 exclusiveouterdivtop" >
                         <div className="row g-0 exclusiveimagetextcontainer">
                             <div className="col-md-8 exclusivecardimage">
-                                <img src="images/ExclusiveDeals/France.jpg" class="img-fluid rounded-start" alt="..." />
+                                <img src="Images/ExclusiveDeals/France.jpg" class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 exclusivetextcard">
                                 <div className="card-body exclusivecarddescmain">
@@ -206,7 +206,7 @@ export const ExclusiveDeals = () => {
                     <div className="card mb-3 exclusiveouterdivtop" >
                         <div className="row g-0 exclusiveimagetextcontainer">
                             <div className="col-md-8 exclusivecardimage">
-                                <img src="images/ExclusiveDeals/Israel.jpg" class="img-fluid rounded-start" alt="..." />
+                                <img src="Images/ExclusiveDeals/Israel.jpg" class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 exclusivetextcard">
                                 <div className="card-body exclusivecarddescmain">
@@ -222,7 +222,7 @@ export const ExclusiveDeals = () => {
                     <div className="card mb-3 exclusiveouterdivtop" >
                         <div className="row g-0 exclusiveimagetextcontainer">
                             <div className="col-md-8 exclusivecardimage">
-                                <img src="images/ExclusiveDeals/jaipur.jpg" class="img-fluid rounded-start" alt="..." />
+                                <img src="Images/ExclusiveDeals/jaipur.jpg" class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 exclusivetextcard">
                                 <div className="card-body exclusivecarddescmain">
@@ -238,7 +238,7 @@ export const ExclusiveDeals = () => {
                     <div className="card mb-3 exclusiveouterdivtop" >
                         <div className="row g-0 exclusiveimagetextcontainer">
                             <div className="col-md-8 exclusivecardimage">
-                                <img src="images/ExclusiveDeals/scotland.png" class="img-fluid rounded-start" alt="..." />
+                                <img src="Images/ExclusiveDeals/scotland.png" class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 exclusivetextcard">
                                 <div className="card-body exclusivecarddescmain">
@@ -254,7 +254,7 @@ export const ExclusiveDeals = () => {
                     <div className="card mb-3 exclusiveouterdivtop" >
                         <div className="row g-0 exclusiveimagetextcontainer">
                             <div className="col-md-8 exclusivecardimage">
-                                <img src="images/ExclusiveDeals/kashmir.jpg" class="img-fluid rounded-start" alt="..." />
+                                <img src="Images/ExclusiveDeals/kashmir.jpg" class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 exclusivetextcard">
                                 <div className="card-body exclusivecarddescmain">

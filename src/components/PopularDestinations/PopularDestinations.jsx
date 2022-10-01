@@ -186,7 +186,7 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper maincountrycardwrapper">
                         <div className="countrycard">
                            <div className='countrycard_img'>
-                              <img src='images/country images/europe 2.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top " alt="..." />
+                              <img src='Images/country images/europe 2.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top " alt="..." />
                            </div>
 
                            <div className="card-body">
@@ -199,7 +199,8 @@ export const PopularDestinations = () => {
 
                      <div className="card-wrapper maincountrycardwrapper">
                         <div className="countrycard">
-                           <div className='countrycard_img'><img src='images/country images/turkey.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
+                           <div className='countrycard_img'>
+                              <img src='Images/country images/turkey.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
 
                            <div className="card-body">
                               <div className='country_title'>
@@ -212,7 +213,8 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper maincountrycardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="countrycard">
-                           <div className='countrycard_img'><img src='images/country images/dubai 3.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
+                           <div className='countrycard_img'>
+                              <img src='Images/country images/dubai 3.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
 
                            <div className="card-body">
                               <div className='country_title'>
@@ -226,7 +228,8 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper maincountrycardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="countrycard">
-                           <div className='countrycard_img'><img src='images/country images/thailand 2.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
+                           <div className='countrycard_img'>
+                              <img src='Images/country images/thailand 2.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
 
                            <div className="card-body">
                               <div className='country_title'>
@@ -240,7 +243,8 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper maincountrycardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="countrycard">
-                           <div className='countrycard_img'><img src='images/country images/maldives 2.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
+                           <div className='countrycard_img'>
+                              <img src='Images/country images/maldives 2.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
 
                            <div className="card-body">
                               <div className='country_title'>
@@ -254,7 +258,8 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper maincountrycardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="countrycard">
-                           <div className='countrycard_img'><img src='images/country images/switzerland 2.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
+                           <div className='countrycard_img'>
+                              <img src='Images/country images/switzerland 2.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
 
                            <div className="card-body">
                               <div className='country_title'>
@@ -271,7 +276,8 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper maincountrycardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="countrycard">
-                           <div className='countrycard_img'><img src='images/country images/mauritius.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
+                           <div className='countrycard_img'>
+                              <img src='Images/country images/mauritius.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
 
                            <div className="card-body">
                               <div className='country_title'>
@@ -289,7 +295,8 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper maincountrycardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="countrycard">
-                           <div className='countrycard_img'><img src='images/country images/srilanka 3.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
+                           <div className='countrycard_img'>
+                              <img src='Images/country images/srilanka 3.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
 
                            <div className="card-body">
                               <div className='country_title'>
@@ -306,7 +313,8 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper maincountrycardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="countrycard">
-                           <div className='countrycard_img'><img src='images/country images/uk 2.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
+                           <div className='countrycard_img'>
+                              <img src='Images/country images/uk 2.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
 
                            <div className="card-body maincountrycardwrapper">
                               <div className='country_title'>
@@ -323,7 +331,8 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper maincountrycardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="countrycard">
-                           <div className='countrycard_img'><img src='images/country images/italy.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
+                           <div className='countrycard_img'>
+                              <img src='Images/country images/italy.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
 
                            <div className="card-body">
                               <div className='country_title'>
@@ -339,7 +348,8 @@ export const PopularDestinations = () => {
                      <div className="card-wrapper maincountrycardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="countrycard">
-                           <div className='countrycard_img'><img src='images/country images/serbia 1.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
+                           <div className='countrycard_img'>
+                              <img src='Images/country images/serbia 1.jpg' style={{ height: "100px", width: "90%" }} className="countrycard-img-top" alt="..." /></div>
 
                            <div className="card-body maincountrycardwrapper">
                               <div className='country_title'>
