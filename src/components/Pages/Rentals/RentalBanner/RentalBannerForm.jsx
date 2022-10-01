@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 // import React, { useState } from 'react';
 import { Outlet, Link } from "react-router-dom";
-import './ActivityCarouselForm.css';
+import './RentalBannerFForm.css';
 import { BiCurrentLocation } from 'react-icons/bi';
 import { IoIosArrowDown } from 'react-icons/io';
 import { FaAccessibleIcon, FaCalendarAlt } from 'react-icons/fa';
@@ -20,7 +20,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 import countrydata from '../../../../CountryData.json';
 
-export const ActivityCarouselForm = () => {
+export const RentalBannerForm = () => {
     const [countryid, setCountryid] = useState('');
     const [state, setState] = useState([]);
     const [stateid, setStateid] = useState('');
@@ -46,39 +46,39 @@ export const ActivityCarouselForm = () => {
     return (
         <>
             {/* <Menu /> */}
-            <div className='carouselactivitiesmenu'>
+            <div className='rentalsbannermenu'>
 
-                <Link to="/flights" className='carouselactivitiesmenu-icon' id='borderLeft'>
+                <Link to="/flights" className='rentalsbannermenu-icon' id='borderLeft'>
                     <MdFlight size={"1.9em"} className="carouselFormicon" />
                     Flight
                 </Link>
-                <Link to="/hotel" className='carouselactivitiesmenu-icon'>
+                <Link to="/hotel" className='rentalsbannermenu-icon'>
                     <FaHotel size={"1.9em"} className="carouselFormicon" />
                     Hotel
                 </Link>
-                <Link to="/visa" className='carouselactivitiesmenu-icon' >
+                <Link to="/visa" className='rentalsbannermenu-icon' >
                     <RiVisaFill size={"1.9em"} className="carouselFormicon" />
                     Visa
                 </Link>
-                <Link to="/holidays" className='carouselactivitiesmenu-icon' >
+                <Link to="/holidays" className='rentalsbannermenu-icon' >
                     <GiPalmTree size={"1.9em"} className="carouselFormicon" />
                     Holidays
                 </Link>
-                <Link to="/Villa" className='carouselactivitiesmenu-icon' >
+                <Link to="/Villa" className='rentalsbannermenu-icon' >
                     <FaLaptopHouse size={"1.9em"} className="carouselFormicon" />
                     Villas
                 </Link>
-                <Link to="/cruise" className='carouselactivitiesmenu-icon' >
+                <Link to="/cruise" className='rentalsbannermenu-icon' >
                     <GiCruiser size={"1.9em"} className="carouselFormicon" />
                     Cruise
                 </Link>
-                <Link to="/activities" className='carouselactivitiesmenu-icon' >
+                <Link to="/activities" className='rentalsbannermenu-icon' >
                     <MdOutlineLocalActivity size={"1.9em"} className="carouselFormicon" />
                     Activities
                 </Link>
 
 
-                <div className='carouselactivitiesmenu-icon' id='borderright'>
+                <div className='rentalsbannermenu-icon' id='borderright'>
                     <CgMoreAlt size={"1.9em"} />
                     More
 
@@ -114,13 +114,17 @@ export const ActivityCarouselForm = () => {
                 </div>
 
                 <div className='dropcontainer'>
-                    <div className='innerdropdowncontiner1'>
+                    {/* <div className='innerdropdowncontiner1'>
                         <h5>Choose Destination</h5>
-                    </div>
+                    </div> */}
                     <div className='innerdropdowncontainer2'>
                         <div className='optionscontainer'>
                             <div className='singledropcontainer'>
-                                <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example" style={{ border: "3px solid #3380f2" }}>
+                                <div className='rentalpickupcontainer'>
+                                    <p>Pickup Location</p>
+                                    <input className='bannerstyle' style={{ border: "none" }} type="text" placeholder='Enter your pickup Location' />
+                                </div>
+                                {/* <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example" style={{ border: "3px solid #3380f2" }}>
 
                                     <option id='homecarddropbox' value="">Select Country</option>
                                     {
@@ -128,56 +132,130 @@ export const ActivityCarouselForm = () => {
                                             <option y value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
                                         ))
                                     }
-                                    {/* <option value>Please Select Continents</option>
-                                    <option value="1">Asia</option>
-                                    <option value="2">Africa</option>
-                                    <option value="3">North America</option>
-                                    <option value="4">South America</option>
-                                    <option value="5">Antarctica</option>
-                                    <option value="6">Europe</option>
-                                    <option value="7">Australia</option> */}
-                                </select>
+                                </select> */}
                             </div>
 
                             <div className='singledropcontainer'>
-                                <select className="form-select" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ border: "3px solid #3380f2" }}>
+                                <div>
+                                    <p>Pick-up Date</p>
+                                <input type="date" name="Enter your pickup Location" />
+                                </div>
+                                
+                            </div>
 
-                                    <option value="" style={{ textAlign: "center" }}>Select City</option>
-                                    {
-                                        state.map((getstate, index) => (
-                                            <option className='optiondropdown' value={getstate.state_id} key={index}>{getstate.state_name}</option>
-                                        ))
-                                    }
+                            <div className='singledropcontainer'>
+                                <div>
+                                    <select className="form-select" aria-label="Default select example" style={{ border: "3px solid #3380f2" }}>
+                                        <option value>Time</option>
+                                        <option value="00:00">00:00</option>
+                                        <option value="00:30">00:30</option>
+                                        <option value="01:00">01:00</option>
+                                        <option value="01:30">01:30</option>
+                                        <option value="02:00">02:00</option>
+                                        <option value="02:30">02:30</option>
+                                        <option value="03:00">03:00</option>
+                                        <option value="03:30">03:30</option>
+                                        <option value="04:00">04:00</option>
+                                        <option value="04:30">04:30</option>
+                                        <option value="05:00">05:00</option>
+                                        <option value="05:30">05:30</option>
+                                        <option value="06:00">06:00</option>
+                                        <option value="06:30">06:30</option>
+                                        <option value="07:00">07:00</option>
+                                        <option value="07:30">07:30</option>
+                                        <option value="08:00">08:00</option>
+                                        <option value="08:30">08:30</option>
+                                        <option value="09:00">09:00</option>
+                                        <option value="09:30">09:30</option>
+                                        <option value="10:00">10:00</option>
+                                        <option value="10:30">10:30</option>
+                                        <option value="11:00">11:00</option>
+                                        <option value="11:30">11:30</option>
+                                        <option value="12:00">12:00</option>
+                                        <option value="12:30">12:30</option>
+                                        <option value="13:00">13:00</option>
+                                        <option value="13:30">13:30</option>
+                                        <option value="14:00">14:00</option>
+                                        <option value="14:30">14:30</option>
+                                        <option value="15:00">15:00</option>
+                                        <option value="15:30">15:30</option>
+                                        <option value="16:00">16:00</option>
+                                        <option value="16:30">16:30</option>
+                                        <option value="17:00">17:00</option>
+                                        <option value="17:30">17:30</option>
+                                        <option value="18:00">18:00</option>
+                                        <option value="18:30">18:30</option>
+                                        <option value="19:00">19:00</option>
+                                        <option value="19:30">19:30</option>
+                                        <option value="20:00">20:00</option>
+                                        <option value="20:30">20:30</option>
+                                        <option value="21:00">21:00</option>
+                                        <option value="21:30">21:30</option>
+                                        <option value="22:00">22:00</option>
+                                        <option value="22:30">22:30</option>
+                                        <option value="23:00">23:00</option>
+                                        <option value="23:30">23:30</option>
+                                    </select>
+                                </div>
 
-                                    {/* <option value>Please Select Country</option>
-                                    <option value="1">India</option>
-                                    <option value="2">UAE</option>
-                                    <option value="3">Pakistan</option>
-                                    <option value="4">France</option>
-                                    <option value="5">Spain</option>
-                                    <option value="6">Turkey</option>
-                                    <option value="7">Italy</option>
-                                    <option value="8">Thailand</option>
-                                    <option value="9">Mexico</option>
-                                    <option value="10">Germany</option>
-                                    <option value="11">United Kingdom</option>
-                                    <option value="12">China</option>
-                                    <option value="13">Korea</option> */}
-                                </select>
+                            </div>
+
+                            <div className='singledropcontainer'>
+                                <input type="date" name="Enter your pickup Location" />
+
                             </div>
 
                             <div className='singledropcontainer'>
                                 <select className="form-select" aria-label="Default select example" style={{ border: "3px solid #3380f2" }}>
-                                    <option value>Package Category</option>
-                                    <option value="1">Family Package</option>
-                                    <option value="2">Friends Package</option>
-                                    <option value="3">Solo Travel</option>
-                                    <option value="3">Romantic Package</option>
-                                    <option value="3">Honeymoon Package</option>
-                                    {/* <option value="3">Mumbai</option>
-                                    <option value="3">Sikkim</option>
-                                    <option value="3">Uttrakhand</option>
-                                    <option value="3">Manipur</option> */}
+                                    <option value>Time</option>
+                                    <option value="00:00">00:00</option>
+                                    <option value="00:30">00:30</option>
+                                    <option value="01:00">01:00</option>
+                                    <option value="01:30">01:30</option>
+                                    <option value="02:00">02:00</option>
+                                    <option value="02:30">02:30</option>
+                                    <option value="03:00">03:00</option>
+                                    <option value="03:30">03:30</option>
+                                    <option value="04:00">04:00</option>
+                                    <option value="04:30">04:30</option>
+                                    <option value="05:00">05:00</option>
+                                    <option value="05:30">05:30</option>
+                                    <option value="06:00">06:00</option>
+                                    <option value="06:30">06:30</option>
+                                    <option value="07:00">07:00</option>
+                                    <option value="07:30">07:30</option>
+                                    <option value="08:00">08:00</option>
+                                    <option value="08:30">08:30</option>
+                                    <option value="09:00">09:00</option>
+                                    <option value="09:30">09:30</option>
+                                    <option value="10:00">10:00</option>
+                                    <option value="10:30">10:30</option>
+                                    <option value="11:00">11:00</option>
+                                    <option value="11:30">11:30</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="12:30">12:30</option>
+                                    <option value="13:00">13:00</option>
+                                    <option value="13:30">13:30</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="14:30">14:30</option>
+                                    <option value="15:00">15:00</option>
+                                    <option value="15:30">15:30</option>
+                                    <option value="16:00">16:00</option>
+                                    <option value="16:30">16:30</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="17:30">17:30</option>
+                                    <option value="18:00">18:00</option>
+                                    <option value="18:30">18:30</option>
+                                    <option value="19:00">19:00</option>
+                                    <option value="19:30">19:30</option>
+                                    <option value="20:00">20:00</option>
+                                    <option value="20:30">20:30</option>
+                                    <option value="21:00">21:00</option>
+                                    <option value="21:30">21:30</option>
+                                    <option value="22:00">22:00</option>
+                                    <option value="22:30">22:30</option>
+                                    <option value="23:00">23:00</option>
+                                    <option value="23:30">23:30</option>
                                 </select>
                             </div>
                             <div className='singledropcontainer'>
@@ -248,8 +326,8 @@ export const ActivityCarouselForm = () => {
                             </select>
                         </div>
                     <button className='bannersearchbutton'>Search</button>
-                </div> */}
-                {/* <div className='maindatesections' style={{boreder:"10px solid red"}}>
+                </div>
+                <div className='maindatesections' style={{boreder:"10px solid red"}}>
                     <div className='filter-fromTo'>
                         <div className='from-name'>
                             <h5>FROM</h5>

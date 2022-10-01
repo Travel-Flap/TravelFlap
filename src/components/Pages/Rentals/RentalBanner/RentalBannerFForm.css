@@ -93,6 +93,21 @@
     width: 70%;
 }
 
+/* .rentalpickupcontainer{
+    border: 1px solid red;
+} */
+
+.bannerstyle{
+    border: none;
+}
+
+.rentalpickupcontainer p{
+    margin-bottom: 2%;
+}
+.rentalpickupcontainer input{
+    border: 2px solid #1a71f5;
+}
+
 .optionscontainer{
     /* border: 2px solid white; */
     display: flex;
@@ -105,8 +120,15 @@
     border: none;
 }
 
-.singledropcontainer1{
-  margin-left: -10%;
+.singledropcontainer button{
+    /* margin-left: 3%; */
+    background-color: blue !important;
+    color:white;
+}
+
+.singledropcontainer button:hover{
+    background-color: #3380f2;
+    color: white;
 }
 /* style={{ marginLeft: "8%", background: "white", color: "blue" }} */
 
@@ -161,7 +183,7 @@
     border: 3px solid blue !important;
     color: white !important;
   }
-  .carouselholidaymenu {
+  .rentalsbannermenu {
     width: 55%;
     margin: auto;
     flex-direction: row;
@@ -171,7 +193,7 @@
     align-items: center;
     position: relative;
     z-index: 1000;
-    bottom: 62%;
+    bottom: 78%;
     color: white  !important;
     border-radius: 40px;
   }
@@ -194,7 +216,7 @@
   .iconactive{
     color: white;
   } */
-  .carouselholidaymenu-icon {
+  .rentalsbannermenu-icon {
     height: 80px;
     width: 15%;
     background-color: #3380f2;
@@ -215,7 +237,7 @@
   .flighttext:hover{
     color: #3380f2;
   }
-  .carouselholidaymenu-icon:hover {
+  .rentalsbannermenu-icon:hover {
     text-decoration: none;
     color: #3380f2;
     background-color: white;
@@ -224,7 +246,7 @@
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
   
-  .carouselholidaymenu-icon span {
+  .rentalsbannermenu-icon span {
     white-space: nowrap;
     color: white;
     font-size: 15px;
@@ -232,7 +254,7 @@
     margin: 0;
     text-align: center;
   }
-  .carouselholidaymenu-icon-active {
+  .rentalsbannermenu-icon-active {
     background: #3380f2 !important;
     border-color: white !important;
     height: 70px;
@@ -327,7 +349,7 @@
   }
   
   @media screen and (min-width: 560px) and (max-width: 950px) {
-    .carouselholidaymenu {
+    .rentalsbannermenu {
       display: none;
     }
     .selectdate {
@@ -401,7 +423,7 @@
       border: none;
     }
   
-    .carouselholidaymenu {
+    .rentalsbannermenu {
       display: none;
     }
     .from-name {
@@ -535,15 +557,4 @@
     border-radius: 25px;
     background-color: White;
     color: #3380F2;
-}
-
-.singledropcontainerbutton .holidayformbutton{
-  width: 100%;
-  background-color: #3380f2 !important;
-  color: white;
-}
-
-.singledropcontainerbutton .holidayformbutton:hover{
-  background-color: white !important;
-  color: #3380f2 !important;
 }

@@ -168,7 +168,7 @@
     border: 3px solid blue !important;
     color: white !important;
   }
-  .carouselmenu {
+  .carouselactivitiesmenu {
     width: 55%;
     margin: auto;
     flex-direction: row;
@@ -176,10 +176,9 @@
     display: flex;
     place-content: center;
     align-items: center;
-    margin-top: 10px;
     position: relative;
     z-index: 1000;
-    bottom: 73%;
+    bottom: 61%;
     color: white  !important;
     border-radius: 40px;
   }
@@ -202,7 +201,7 @@
   .iconactive{
     color: white;
   } */
-  .carouselmenu-icon {
+  .carouselactivitiesmenu-icon {
     height: 80px;
     width: 15%;
     background-color: #3380f2;
@@ -223,7 +222,7 @@
   .flighttext:hover{
     color: #3380f2;
   }
-  .carouselmenu-icon:hover {
+  .carouselactivitiesmenu-icon:hover {
     text-decoration: none;
     color: #3380f2;
     background-color: white;
@@ -232,7 +231,7 @@
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
   
-  .carouselmenu-icon span {
+  .carouselactivitiesmenu-icon span {
     white-space: nowrap;
     color: white;
     font-size: 15px;
@@ -240,7 +239,7 @@
     margin: 0;
     text-align: center;
   }
-  .carouselmenu-icon-active {
+  .carouselactivitiesmenu-icon-active {
     background: #3380f2 !important;
     border-color: white !important;
     height: 70px;
@@ -335,7 +334,7 @@
   }
   
   @media screen and (min-width: 560px) and (max-width: 950px) {
-    .carouselmenu {
+    .carouselactivitiesmenu {
       display: none;
     }
     .selectdate {
@@ -409,7 +408,7 @@
       border: none;
     }
   
-    .carouselmenu {
+    .carouselactivitiesmenu {
       display: none;
     }
     .from-name {

@@ -3,10 +3,6 @@
 
 import React, { useState } from 'react';
 import { Outlet, Link } from "react-router-dom";
-import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
-
 import Row from 'react-bootstrap/Row';
 import Carousel from 'react-bootstrap/Carousel';
 import DatePicker from "react-datepicker";
@@ -18,60 +14,58 @@ import "react-datepicker/dist/react-datepicker.css";
 // import "./Booking.css";
 
 import { AiOutlineMenu, AiOutlineSearch } from "react-icons/ai";
-import "./Banner.css";
-
-import { BiTaxi } from "react-icons/bi";
-import { FaHotel } from "react-icons/fa";
-import { GiCommercialAirplane } from "react-icons/gi";
-import { GiDoubleStreetLights, GiCruiser, GiVillage } from "react-icons/gi";
-import { TbScubaMask } from "react-icons/tb";
-import { MdExpandMore } from "react-icons/md";
+import "./RentalsBanner.css";
 // import { Nav } from '../Nav/Nav';
 // import Booking from './Booking';
-import { HolidayCarouselForm } from './HolidaysForm';
+// import { HolidayCarouselForm } from './CruiseBannerForm';
+import { RentalBannerForm } from './RentalBannerForm';
 
-export const HolidayCarousel = () => {
+export const RentalBanner = () => {
 
-  const [validated, setValidated] = useState(false);
+    const [validated, setValidated] = useState(false);
 
-  const handleSubmit = (event) => {
-    const form = event.currentTarget;
-    if (form.checkValidity() === false) {
-      event.preventDefault();
-      event.stopPropagation();
-    }
+    const handleSubmit = (event) => {
+        const form = event.currentTarget;
+        if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
 
-    setValidated(true);
-  };
-  return (
-    <div id='main-section'>
+        setValidated(true);
+    };
+    return (
+        <div id='cruise_mainsection'>
 
-      {/* This is for the Navbar section */}
+            {/* This is for the Navbar section */}
+
+            {/* This is for the Carousel */}
+            <div className='Cruise_carouselmain' data-interval="false">
+
+                {/* <Services /> */}
 
 
-      {/* This is for the Carousel */}
-      <div className='carousel-main' data-interval="false">
+                <Carousel className='cruise_mycarousel' data-interval="false" slide={true}>
 
-        {/* <Services /> */}
-        <Carousel className='my-carousel' data-interval="false" slide={true}>
+                    <Carousel.Item>
+                        <div className='cruisecarouselimage'>
 
-          <Carousel.Item>
-            <div className='holidaycarouselimage'>
-              <img width={100} height={470}
-                className="d-block w-100"
-                src="images/HomeTopCarousel/topbanner1.jpg"
-                alt="First slide"
-              />
-            </div>
-            <Carousel.Caption>
-              {/* <h1>Travel</h1> */}
-              {/* <h2 className='bottomheading'>the world</h2>
+                            <img width={100} height={500}
+                                className="d-block w-100"
+                                src="images/Rentals/RentalsBanner/RentalBanner1.jpg"
+                                alt="First slide"
+                            />
+
+
+                        </div>
+                        <Carousel.Caption>
+                            {/* <h1>Travel</h1> */}
+                            {/* <h2 className='bottomheading'>the world</h2>
               <div className="carouselbtn">Explore...</div> */}
-            </Carousel.Caption>
-          </Carousel.Item>
+                        </Carousel.Caption>
+                    </Carousel.Item>
 
-          <Carousel.Item>
-            <div className='holidaycarouselimage'>
+                    {/* <Carousel.Item>
+            <div className='cruisecarouselimage'>
               <img width={100} height={470}
                 className="d-block w-100"
                 src="images/HomeTopCarousel/topbanner2.jpg"
@@ -79,14 +73,14 @@ export const HolidayCarousel = () => {
               />
             </div>
             <Carousel.Caption>
-              {/* <h1>Travel</h1> */}
-              {/* <h2 className='bottomheading'>the world</h2>
-              <div className="carouselbtn">Explore...</div> */}
+              <h1>Travel</h1>
+              <h2 className='bottomheading'>the world</h2>
+              <div className="carouselbtn">Explore...</div>
             </Carousel.Caption>
-          </Carousel.Item>
+          </Carousel.Item> */}
 
-          <Carousel.Item>
-            <div className='holidaycarouselimage'>
+                    {/* <Carousel.Item>
+            <div className='cruisecarouselimage'>
               <img width={100} height={470}
                 className="d-block w-100"
                 src="images/HomeTopCarousel/topbanner3.jpg"
@@ -94,14 +88,14 @@ export const HolidayCarousel = () => {
               />
             </div>
             <Carousel.Caption>
-              {/* <h1>Discover</h1> */}
-              {/* <h2 className='bottomheading'>the world</h2>
-              <div className="carouselbtn">Explore...</div> */}
+              <h1>Discover</h1>
+              <h2 className='bottomheading'>the world</h2>
+              <div className="carouselbtn">Explore...</div>
             </Carousel.Caption>
-          </Carousel.Item>
+          </Carousel.Item> */}
 
-          <Carousel.Item>
-            <div className='holidaycarouselimage'>
+                    {/* <Carousel.Item>
+            <div className='cruisecarouselimage'>
               <img width={100} height={470}
                 className="d-block w-100"
                 src="images/HomeTopCarousel/topbanner2.jpg"
@@ -109,21 +103,27 @@ export const HolidayCarousel = () => {
               />
             </div>
             <Carousel.Caption>
-              {/* <h1>Discover</h1> */}
-              {/* <h2 className='bottomheading'>the world</h2>
-              <div className="carouselbtn">Explore...</div> */}
+              <h1>Discover</h1>
+              <h2 className='bottomheading'>the world</h2>
+              <div className="carouselbtn">Explore...</div>
             </Carousel.Caption>
-          </Carousel.Item>
+          </Carousel.Item> */}
 
-        </Carousel>
+                </Carousel>
 
-        <HolidayCarouselForm />
-      </div>
+                <RentalBannerForm />
+            </div>
+            <div className="rental_bannertitle">
+                <p>Find your 
+                    <span>
+                        <i>Rental Cars</i>
+                    </span>
+                </p>
+            </div>
+            {/* <Services /> */}
+        </div>
 
-      {/* <Services /> */}
-    </div>
-
-  );
+    );
 }
 
 
@@ -164,19 +164,19 @@ export const HolidayCarousel = () => {
 //     setValidated(true);
 //   };
 //   return (
-//     <div id='main-section'>
+//     <div id='cruise_mainsection'>
 
 //       {/* This is for the Navbar section */}
 
 
 //       {/* This is for the Carousel */}
-//       <div className='carousel-main' data-interval="false">
+//       <div className='Cruise_carouselmain' data-interval="false">
 
 //         {/* <Services /> */}
-//         <Carousel className='my-carousel' data-interval="false" slide={true}>
+//         <Carousel className='cruise_mycarousel' data-interval="false" slide={true}>
 
 //           <Carousel.Item>
-//             <div className='holidaycarouselimage'>
+//             <div className='cruisecarouselimage'>
 //               <img width={100} height={700}
 //                 className="d-block w-100"
 //                 src="images/TopCarouselImage9.png"
@@ -191,7 +191,7 @@ export const HolidayCarousel = () => {
 //           </Carousel.Item>
 
 //           <Carousel.Item>
-//             <div className='holidaycarouselimage'>
+//             <div className='cruisecarouselimage'>
 //               <img width={100} height={700}
 //                 className="d-block w-100"
 //                 src="images/TopCarouselImage13.jpg"
@@ -206,7 +206,7 @@ export const HolidayCarousel = () => {
 //           </Carousel.Item>
 
 //           <Carousel.Item>
-//             <div className='holidaycarouselimage'>
+//             <div className='cruisecarouselimage'>
 //               <img width={100} height={700}
 //                 className="d-block w-100"
 //                 src="images/TopCarouselImage.png"
@@ -221,7 +221,7 @@ export const HolidayCarousel = () => {
 //           </Carousel.Item>
 
 //           <Carousel.Item>
-//             <div className='holidaycarouselimage'>
+//             <div className='cruisecarouselimage'>
 //               <img width={100} height={700}
 //                 className="d-block w-100"
 //                 src="images/TopCarouselImage12.jpg"

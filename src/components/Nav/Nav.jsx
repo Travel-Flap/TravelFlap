@@ -208,7 +208,7 @@ export const Nav = () => {
                                 <Link to='/holidays'> <p className='fixed-menu-link'>Holidays</p> </Link> </li>
                                     
                                 <li> <FaBus size={"1.5em"} /> 
-                                <Link to="/rentals"> <p className='fixed-menu-link'>Bus</p> </Link> </li>
+                                <Link to="/rentals"> <p className='fixed-menu-link'>Rentals</p> </Link> </li>
 
                                 <li> <FaShip size={"1.5em"} /> 
                                 <Link to="/cruise"><p className='fixed-menu-link'>Cruise</p> </Link> </li>

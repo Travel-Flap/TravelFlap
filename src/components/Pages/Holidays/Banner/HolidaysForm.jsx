@@ -46,39 +46,39 @@ export const HolidayCarouselForm = () => {
     return (
         <>
             {/* <Menu /> */}
-            <div className='carouselmenu'>
+            <div className='carouselholidaymenu'>
 
-                <Link to="/flights" className='carouselmenu-icon' id='borderLeft'>
+                <Link to="/flights" className='carouselholidaymenu-icon' id='borderLeft'>
                     <MdFlight size={"1.9em"} className="carouselFormicon" />
                     Flight
                 </Link>
-                <Link to="/hotel" className='carouselmenu-icon'>
+                <Link to="/hotel" className='carouselholidaymenu-icon'>
                     <FaHotel size={"1.9em"} className="carouselFormicon" />
                     Hotel
                 </Link>
-                <Link to="/visa" className='carouselmenu-icon' >
+                <Link to="/visa" className='carouselholidaymenu-icon' >
                     <RiVisaFill size={"1.9em"} className="carouselFormicon" />
                     Visa
                 </Link>
-                <Link to="/holidays" className='carouselmenu-icon' >
+                <Link to="/holidays" className='carouselholidaymenu-icon' >
                     <GiPalmTree size={"1.9em"} className="carouselFormicon" />
                     Holidays
                 </Link>
-                <Link to="/Villa" className='carouselmenu-icon' >
+                <Link to="/Villa" className='carouselholidaymenu-icon' >
                     <FaLaptopHouse size={"1.9em"} className="carouselFormicon" />
                     Villas
                 </Link>
-                <Link to="/cruise" className='carouselmenu-icon' >
+                <Link to="/cruise" className='carouselholidaymenu-icon' >
                     <GiCruiser size={"1.9em"} className="carouselFormicon" />
                     Cruise
                 </Link>
-                <Link to="/activities" className='carouselmenu-icon' >
+                <Link to="/activities" className='carouselholidaymenu-icon' >
                     <MdOutlineLocalActivity size={"1.9em"} className="carouselFormicon" />
                     Activities
                 </Link>
 
 
-                <div className='carouselmenu-icon' id='borderright'>
+                <div className='carouselholidaymenu-icon' id='borderright'>
                     <CgMoreAlt size={"1.9em"} />
                     More
 
