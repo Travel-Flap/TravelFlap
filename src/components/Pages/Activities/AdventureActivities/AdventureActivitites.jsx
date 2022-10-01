@@ -186,7 +186,7 @@ export const AdventureActivities = () => {
                     <div class="card mb-3 adventureactivityouterdiv" >
                         <div class="row g-0 adventureactivityimagetextcontainer">
                             <div class="col-md-8 adventureactivitycardimage">
-                                <img src="images/AdventureSportsActivity/wakeboarding maldives.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
+                                <img src="Images/AdventureSportsActivity/wakeboarding maldives.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 adventureactivitytextcard">
                                 <div class="card-body adventureactivitycarddescmain">
@@ -201,7 +201,7 @@ export const AdventureActivities = () => {
                     <div class="card mb-3 adventureactivityouterdiv" >
                         <div class="row g-0 adventureactivityimagetextcontainer">
                             <div class="col-md-8 adventureactivitycardimage">
-                                <img src="images/AdventureSportsActivity/scubadivinggoa.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
+                                <img src="Images/AdventureSportsActivity/scubadivinggoa.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 adventureactivitytextcard">
                                 <div class="card-body adventureactivitycarddescmain">
@@ -216,7 +216,7 @@ export const AdventureActivities = () => {
                     <div class="card mb-3 adventureactivityouterdiv" >
                         <div class="row g-0 adventureactivityimagetextcontainer">
                             <div class="col-md-8 adventureactivitycardimage">
-                                <img src="images/AdventureSportsActivity/Paragliding2.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
+                                <img src="Images/AdventureSportsActivity/Paragliding2.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 adventureactivitytextcard">
                                 <div class="card-body adventureactivitycarddescmain">
@@ -231,7 +231,7 @@ export const AdventureActivities = () => {
                     <div class="card mb-3 adventureactivityouterdiv" >
                         <div class="row g-0 adventureactivityimagetextcontainer">
                             <div class="col-md-8 adventureactivitycardimage">
-                                <img src="images/AdventureSportsActivity/volcanotrekking indonesia.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
+                                <img src="Images/AdventureSportsActivity/volcanotrekking indonesia.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 adventureactivitytextcard">
                                 <div class="card-body adventureactivitycarddescmain">
@@ -246,7 +246,7 @@ export const AdventureActivities = () => {
                     <div class="card mb-3 adventureactivityouterdiv" >
                         <div class="row g-0 adventureactivityimagetextcontainer">
                             <div class="col-md-8 adventureactivitycardimage">
-                                <img src="images/AdventureSportsActivity/ZipLine.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
+                                <img src="Images/AdventureSportsActivity/ZipLine.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 adventureactivitytextcard">
                                 <div class="card-body adventureactivitycarddescmain">
@@ -261,7 +261,7 @@ export const AdventureActivities = () => {
                     <div class="card mb-3 adventureactivityouterdiv" >
                         <div class="row g-0 adventureactivityimagetextcontainer">
                             <div class="col-md-8 adventureactivitycardimage">
-                                <img src="images/AdventureSportsActivity/DownhillBikeRide.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
+                                <img src="Images/AdventureSportsActivity/DownhillBikeRide.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 adventureactivitytextcard">
                                 <div class="card-body adventureactivitycarddescmain">
@@ -276,7 +276,7 @@ export const AdventureActivities = () => {
                     <div class="card mb-3 adventureactivityouterdiv" >
                         <div class="row g-0 adventureactivityimagetextcontainer">
                             <div class="col-md-8 adventureactivitycardimage">
-                                <img src="images/AdventureSportsActivity/dunebashing dubai.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
+                                <img src="Images/AdventureSportsActivity/dunebashing dubai.jpg" class="img-fluid adventureimage rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 adventureactivitytextcard">
                                 <div class="card-body adventureactivitycarddescmain">

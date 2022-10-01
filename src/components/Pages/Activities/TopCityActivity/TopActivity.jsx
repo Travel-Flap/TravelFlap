@@ -67,7 +67,7 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCity Activities/White Water Rafting Bovec Slovenia.jpg" />
+                                <img src="Images/TopCity Activities/White Water Rafting Bovec Slovenia.jpg" />
                             </div>
                             <div className="topactivitydetails">
                                 <h2>Bovec Slovania <span className="job-title">"White Water River Rafting"
@@ -85,7 +85,7 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCity Activities/1Kolimeter Zipline Kielce Central Poland.jpg" />
+                                <img src="Images/TopCity Activities/1Kolimeter Zipline Kielce Central Poland.jpg" />
                             </div>
                             <div className="topactivitydetails">
                                 <h2>Central Poland <span className="job-title">"1 Kilometer Long Zipline"
@@ -102,7 +102,7 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCity Activities/Ice Sking Whistler Blackcomb Cannada.jpg" />
+                                <img src="Images/TopCity Activities/Ice Sking Whistler Blackcomb Cannada.jpg" />
                             </div>
                             <div className="topactivitydetails">
                                 <h2>Whistler  Blackcomb, Canada <span className="job-title">"Best place for the ice skating."
@@ -118,7 +118,7 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCity Activities/SkyDiving Duabi.jpg" />
+                                <img src="Images/TopCity Activities/SkyDiving Duabi.jpg" />
                             </div>
                             <div className="topactivitydetails">
                                 <h2>Dubai <span className="job-title">"Best sky diving experience in Dubai."
@@ -134,7 +134,7 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCity Activities/DownHill Cycling Moab USA.jpg" />
+                                <img src="Images/TopCity Activities/DownHill Cycling Moab USA.jpg" />
                             </div>
                             <div className="topactivitydetails">
                                 <h2>Moab,USA <span className="job-title">"Best place to do downhill cycling."
@@ -150,7 +150,7 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCity Activities/SnowBoarding Lake Tahoe California.jpg" />
+                                <img src="Images/TopCity Activities/SnowBoarding Lake Tahoe California.jpg" />
                             </div>
                             <div className="topactivitydetails">
                                 <h2>Lake Tahoe, California <span className="job-title">"Best snowboarding experience in tahoe."
@@ -166,7 +166,7 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCity Activities/Canyoning Jordan.jpg" />
+                                <img src="Images/TopCity Activities/Canyoning Jordan.jpg" />
                             </div>
                             <div className="topactivitydetails">
                                 <h2>Jordan <span className="job-title">"Canyoning is best activity for mental peace."
@@ -182,7 +182,7 @@ export default class TopActivities extends Component {
                     <div className="card-wrapper">
                         <div className="card topactivitymaindiv">
                             <div className="card-image topactivitycardimage">
-                                <img src="images/TopCity Activities/WhiteWater Kayaking Canada.jpg" />
+                                <img src="Images/TopCity Activities/WhiteWater Kayaking Canada.jpg" />
                             </div>
                             <div className="topactivitydetails">
                                 <h2>Canada <span className="job-title">"White Water Kayaking."

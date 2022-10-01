@@ -23,48 +23,48 @@ export default function SeoLocalServices() {
             servicename: "Mauritius",
             buttontext:"Tap for more",
             // icons: <BsSearch />,
-            img: "/images/CardImage1.jpg",
+            img: "/Images/CardImage1.jpg",
             data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit."
         },
         {
             servicename: "Greece",
-            img: "/images/CardImage1.jpg",
+            img: "/Images/CardImage1.jpg",
             buttontext:"Tap for more",
             data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit."
         },
         {
             servicename: "Scotland",
-            img: "/images/CardImage1.jpg",
+            img: "/Images/CardImage1.jpg",
             buttontext:"Tap for more",
             data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit."
         },
         {
             servicename: "Paris",
-            img: "/images/CardImage1.jpg",
+            img: "/Images/CardImage1.jpg",
             buttontext:"Tap for more",
             data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit."
         },
         // {
         //     servicename: "New York",
-        //     img: "/images/CardImage1.jpg",
+        //     img: "/Images/CardImage1.jpg",
         //     buttontext:"Tap for more",
         //     data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit."
         // },
         // {
         //     servicename: "Spain",
-        //     img: "/images/CardImage1.jpg",
+        //     img: "/Images/CardImage1.jpg",
         //     buttontext:"Tap for more",
         //     data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit."
         // },
         // {
         //     servicename: "America",
-        //     img: "/images/CardImage1.jpg",
+        //     img: "/Images/CardImage1.jpg",
         //     buttontext:"Tap for more",
         //     data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit."
         // },
         // {
         //     servicename: "Australia",
-        //     img: "/images/CardImage1.jpg",
+        //     img: "/Images/CardImage1.jpg",
         //     buttontext:"Tap for more",
         //     data: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit.Lorem ipsum dolor sit amet consectetur, adipisicing elit."
         // },

@@ -186,7 +186,7 @@ export const NatureLove = () => {
                     <div class="card mb-3 natureloveouterdiv" >
                         <div class="row g-0 natureloveimagetextcontainer">
                             <div class="col-md-8 naturelovecardimage">
-                                <img src="images/NatureLove/River Safari With Boat Ride.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
+                                <img src="Images/NatureLove/River Safari With Boat Ride.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 naturelovetextcard">
                                 <div class="card-body naturelovecarddescmain">
@@ -201,7 +201,7 @@ export const NatureLove = () => {
                     <div class="card mb-3 natureloveouterdiv" >
                         <div class="row g-0 natureloveimagetextcontainer">
                             <div class="col-md-8 naturelovecardimage">
-                                <img src="images/NatureLove/JungleSafari.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
+                                <img src="Images/NatureLove/JungleSafari.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 naturelovetextcard">
                                 <div class="card-body naturelovecarddescmain">
@@ -216,7 +216,7 @@ export const NatureLove = () => {
                     <div class="card mb-3 natureloveouterdiv" >
                         <div class="row g-0 natureloveimagetextcontainer">
                             <div class="col-md-8 naturelovecardimage">
-                                <img src="images/NatureLove/Natural Habbitats.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
+                                <img src="Images/NatureLove/Natural Habbitats.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 naturelovetextcard">
                                 <div class="card-body naturelovecarddescmain">
@@ -231,7 +231,7 @@ export const NatureLove = () => {
                     <div class="card mb-3 natureloveouterdiv" >
                         <div class="row g-0 natureloveimagetextcontainer">
                             <div class="col-md-8 naturelovecardimage">
-                                <img src="images/NatureLove/Zoo Tour.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
+                                <img src="Images/NatureLove/Zoo Tour.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 naturelovetextcard">
                                 <div class="card-body naturelovecarddescmain">
@@ -246,7 +246,7 @@ export const NatureLove = () => {
                     <div class="card mb-3 natureloveouterdiv" >
                         <div class="row g-0 natureloveimagetextcontainer">
                             <div class="col-md-8 naturelovecardimage">
-                                <img src="images/NatureLove/Gardens of the Bay.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
+                                <img src="Images/NatureLove/Gardens of the Bay.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 naturelovetextcard">
                                 <div class="card-body naturelovecarddescmain">
@@ -261,7 +261,7 @@ export const NatureLove = () => {
                     <div class="card mb-3 natureloveouterdiv" >
                         <div class="row g-0 natureloveimagetextcontainer">
                             <div class="col-md-8 naturelovecardimage">
-                                <img src="images/NatureLove/TreeStudy.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
+                                <img src="Images/NatureLove/TreeStudy.jpg" style={{height:"220px",width:"100%"}} class="img-fluid rounded-start" alt="..." />
                             </div>
                             <div class="col-md-4 naturelovetextcard">
                                 <div class="card-body naturelovecarddescmain">
@@ -276,7 +276,7 @@ export const NatureLove = () => {
                     <div class="card mb-3 natureloveouterdiv" >
                         <div class="row g-0 natureloveimagetextcontainer">
                             <div class="col-md-8 naturelovecardimage">
-                                <img src="images/NatureLove/Green Planet Dubai.jpg" class="img-fluid rounded-start" style={{height:"220px",width:"100%"}} alt="..." />
+                                <img src="Images/NatureLove/Green Planet Dubai.jpg" class="img-fluid rounded-start" style={{height:"220px",width:"100%"}} alt="..." />
                             </div>
                             <div class="col-md-4 naturelovetextcard">
                                 <div class="card-body naturelovecarddescmain">

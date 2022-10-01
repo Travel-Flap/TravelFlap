@@ -159,7 +159,7 @@ export const TrendingActivities = () => {
                     <div onMouseLeave={handleToggle} className="card-wrapper">
                         <div className=" cardParent card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='images/TrendingActivities/bike ride spiti valley ladakh.jpg' />
+                                <img src='Images/TrendingActivities/bike ride spiti valley ladakh.jpg' />
                             </div>
                             <div className={toggle ? "none" : "activityexperimentdetails"}>
                                 <h2>Goa <span className="activityexperimentjobtitle">"Bike Ride in Hills"
@@ -177,7 +177,7 @@ export const TrendingActivities = () => {
                     <div onMouseLeave={handleToggle1} className="card-wrapper">
                         <div className="cardParent card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='images/TrendingActivities/boat ride in italy.jpg' />
+                                <img src='Images/TrendingActivities/boat ride in italy.jpg' />
                             </div>
                             <div className={toggle1 ? "none" : "activityexperimentdetails"}>
                                 <h2>Italy <span className="activityexperimentjobtitle">"Boat ride in Italy"
@@ -193,7 +193,7 @@ export const TrendingActivities = () => {
                     <div onMouseLeave={handleToggle2} className="card-wrapper">
                         <div className="card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='images/TrendingActivities/cycling in romania.jpg' />
+                                <img src='Images/TrendingActivities/cycling in romania.jpg' />
                             </div>
                             <div className={toggle2 ? "none" : "activityexperimentdetails"}>
                                 <h2>Romania <span className="activityexperimentjobtitle">"Cycling in Romania"
@@ -209,7 +209,7 @@ export const TrendingActivities = () => {
                     <div onMouseLeave={handleToggle3} className="card-wrapper">
                         <div className="card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='images/TrendingActivities/kenai rive fly fishing usa.jpg' />
+                                <img src='Images/TrendingActivities/kenai rive fly fishing usa.jpg' />
                             </div>
                             <div className={toggle3 ? "none" : "activityexperimentdetails"}>
                                 <h2>USA <span className="activityexperimentjobtitle">"Kenai River fly Fishing "
@@ -225,7 +225,7 @@ export const TrendingActivities = () => {
                     <div onMouseLeave={handleToggle4} className="card-wrapper">
                         <div className="card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='images/TrendingActivities/london eye ferros wheel.jpg' />
+                                <img src='Images/TrendingActivities/london eye ferros wheel.jpg' />
                             </div>
                             <div className={toggle4 ? "none" : "activityexperimentdetails"}>
                                 <h2 onClick={handleText4}>London <span className="activityexperimentjobtitle">"Eye Ferros Wheel"
