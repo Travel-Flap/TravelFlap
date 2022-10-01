@@ -177,7 +177,7 @@ export const Nav = () => {
         
         
         <Link to="/home"><div className='travelflapmainlogo'>
-              <img style={{height:"50px",width:"150px"}} src="images/travelFlapLogo.jpg" alt="travelflap logo" />
+              <img style={{height:"50px",width:"150px"}} src="Images/TravelFlapLogo.jpg" alt="travelflap logo" />
                 <FaBars style={{width:"30px",height:"30px"}} className='hamburgermenuicon' onClick={getMenu}/>
         </div>
         </Link>  
