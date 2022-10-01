@@ -66,7 +66,7 @@ export default class Awards extends Component {
                 <Slider {...settings} className="multiCardSlider">
                     <div className="card-wrapper awardscardwrapper">
                         <div className="awardscard card">
-                            <div className='card_img'><img src="images/AchievementsImage1.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top " alt="..." /></div>
+                            <div className='card_img'><img src="Images/AchievementsImage1.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top " alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awards_title'>
@@ -81,7 +81,7 @@ export default class Awards extends Component {
 
                     <div className="card-wrapper awardscardwrapper">
                         <div className="awardscard card">
-                            <div className='card_img'><img src="images/AchievementsImage2.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/AchievementsImage2.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awards_title'>
@@ -97,7 +97,7 @@ export default class Awards extends Component {
                     <div className="card-wrapper awardscardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="awardscard card">
-                            <div className='card_img'><img src="images/AchievementsImage3.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/AchievementsImage3.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awards_title'>
@@ -114,7 +114,7 @@ export default class Awards extends Component {
                     <div className="card-wrapper awardscardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="awards">
-                            <div className='card_img'><img src="images/AchievementsImage4.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/AchievementsImage4.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awards_title'>
@@ -131,7 +131,7 @@ export default class Awards extends Component {
                     <div className="card-wrapper awardscardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="awardscard card">
-                            <div className='card_img'><img src="images/AchievementsImage5.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/AchievementsImage5.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awards_title'>
@@ -148,7 +148,7 @@ export default class Awards extends Component {
                     <div className="card-wrapper awardscardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="awardscard card">
-                            <div className='card_img'><img src="images/AchievementsImage6.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/AchievementsImage6.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awards_title'>
@@ -165,7 +165,7 @@ export default class Awards extends Component {
                     <div className="card-wrapper awardscardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="awardscard card">
-                            <div className='card_img'><img src="images/AchievementsImage3.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/AchievementsImage3.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awards_title'>
@@ -183,7 +183,7 @@ export default class Awards extends Component {
                     <div className="card-wrapper awardscardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="awardscard card">
-                            <div className='card_img'><img src="images/AchievementsImage2.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/AchievementsImage2.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awards_title'>
@@ -200,7 +200,7 @@ export default class Awards extends Component {
                     <div className="card-wrapper awardscardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="awardscard card">
-                            <div className='card_img'><img src="images/AchievementsImage1.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/AchievementsImage1.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awards_title'>

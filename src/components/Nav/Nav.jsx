@@ -190,7 +190,7 @@ export const Nav = () => {
                         <div>
                             <Link to="/">
                             <div className='logo1'>
-                                <img src="Images/travelFlapLogo.jpg" alt="travelflap logo" />
+                                <img src="Images/TravelFlapLogo.jpg" alt="travelflap logo" />
                             </div>
                             </Link>
                         </div>
@@ -295,7 +295,7 @@ export const Nav = () => {
                         <div className='transparentNavbar'>
                         <Link to="/">
                             <div className='logo2'>
-                                <img src="Images/travelFlapLogo.jpg" alt="travelflap logo" />
+                                <img src="Images/TravelFlapLogo.jpg" alt="travelflap logo" />
                             </div>
                             </Link>
                         <div className='navbar-links-container1'>
