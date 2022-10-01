@@ -61,7 +61,7 @@ export const CruiseCarousel = () => {
 
               <img width={100} height={470}
                 className="d-block w-100"
-                src="images/Cruise/CruiseBanner/Cruise banner 1.jpg"
+                src="Images/Cruise/CruiseBanner/Cruise banner 1.jpg"
                 alt="First slide"
               />
 
@@ -78,7 +78,7 @@ export const CruiseCarousel = () => {
             <div className='cruisecarouselimage'>
               <img width={100} height={470}
                 className="d-block w-100"
-                src="images/HomeTopCarousel/topbanner2.jpg"
+                src="Images/HomeTopCarousel/topbanner2.jpg"
                 alt="First slide"
               />
             </div>
@@ -93,7 +93,7 @@ export const CruiseCarousel = () => {
             <div className='cruisecarouselimage'>
               <img width={100} height={470}
                 className="d-block w-100"
-                src="images/HomeTopCarousel/topbanner3.jpg"
+                src="Images/HomeTopCarousel/topbanner3.jpg"
                 alt="First slide"
               />
             </div>
@@ -108,7 +108,7 @@ export const CruiseCarousel = () => {
             <div className='cruisecarouselimage'>
               <img width={100} height={470}
                 className="d-block w-100"
-                src="images/HomeTopCarousel/topbanner2.jpg"
+                src="Images/HomeTopCarousel/topbanner2.jpg"
                 alt="First slide"
               />
             </div>
@@ -189,7 +189,7 @@ export const CruiseCarousel = () => {
 //             <div className='cruisecarouselimage'>
 //               <img width={100} height={700}
 //                 className="d-block w-100"
-//                 src="images/TopCarouselImage9.png"
+//                 src="Images/TopCarouselImage9.png"
 //                 alt="First slide"
 //               />
 //             </div>
@@ -204,7 +204,7 @@ export const CruiseCarousel = () => {
 //             <div className='cruisecarouselimage'>
 //               <img width={100} height={700}
 //                 className="d-block w-100"
-//                 src="images/TopCarouselImage13.jpg"
+//                 src="Images/TopCarouselImage13.jpg"
 //                 alt="First slide"
 //               />
 //             </div>
@@ -219,7 +219,7 @@ export const CruiseCarousel = () => {
 //             <div className='cruisecarouselimage'>
 //               <img width={100} height={700}
 //                 className="d-block w-100"
-//                 src="images/TopCarouselImage.png"
+//                 src="Images/TopCarouselImage.png"
 //                 alt="First slide"
 //               />
 //             </div>
@@ -234,7 +234,7 @@ export const CruiseCarousel = () => {
 //             <div className='cruisecarouselimage'>
 //               <img width={100} height={700}
 //                 className="d-block w-100"
-//                 src="images/TopCarouselImage12.jpg"
+//                 src="Images/TopCarouselImage12.jpg"
 //                 alt="First slide"
 //               />
 //             </div>

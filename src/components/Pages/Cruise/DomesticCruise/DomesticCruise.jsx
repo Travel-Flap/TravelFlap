@@ -160,7 +160,7 @@ export const DomesticCruise = () => {
                     <div onMouseLeave={handleToggle} className="card-wrapper">
                         <div className=" domesticcruisedomesticcruisecardParent card domesticcruisesliderdiv">
                             <div className=" domesticcruisecardimage">
-                                <img src='images/Cruise/DomesticCruise/DomesticCruise1.jpg' />
+                                <img src='Images/Cruise/DomesticCruise/DomesticCruise1.jpg' />
                             </div>
                             <div className={toggle ? "none" : "domesticcruisedetails"}>
                                 <h2>Goa <span className="activityexperimentjobtitle">"Bike Ride in Hills"
@@ -178,7 +178,7 @@ export const DomesticCruise = () => {
                     <div onMouseLeave={handleToggle1} className="card-wrapper">
                         <div className="domesticcruisecardParent card domesticcruisesliderdiv">
                             <div className=" domesticcruisecardimage">
-                                <img src='images/Cruise/DomesticCruise/DomesticCruise2.jpg' />
+                                <img src='Images/Cruise/DomesticCruise/DomesticCruise2.jpg' />
                             </div>
                             <div className={toggle1 ? "none" : "domesticcruisedetails"}>
                                 <h2>Italy <span className="domesticcruisejobtitle">"Boat ride in Italy"
@@ -194,7 +194,7 @@ export const DomesticCruise = () => {
                     <div onMouseLeave={handleToggle2} className="card-wrapper">
                         <div className="card domesticcruisesliderdiv">
                             <div className=" domesticcruisecardimage">
-                                <img src='images/Cruise/DomesticCruise/DomesticCruise3.jpg' />
+                                <img src='Images/Cruise/DomesticCruise/DomesticCruise3.jpg' />
                             </div>
                             <div className={toggle2 ? "none" : "domesticcruisedetails"}>
                                 <h2>Romania <span className="activityexperimentjobtitle">"Cycling in Romania"
@@ -210,7 +210,7 @@ export const DomesticCruise = () => {
                     <div onMouseLeave={handleToggle3} className="card-wrapper">
                         <div className="card domesticcruisesliderdiv">
                             <div className=" domesticcruisecardimage">
-                                <img src='images/Cruise/DomesticCruise/DomesticCruise5.jpg' />
+                                <img src='Images/Cruise/DomesticCruise/DomesticCruise5.jpg' />
                             </div>
                             <div className={toggle3 ? "none" : "domesticcruisedetails"}>
                                 <h2>USA <span className="activityexperimentjobtitle">"Kenai River fly Fishing "
@@ -226,7 +226,7 @@ export const DomesticCruise = () => {
                     <div onMouseLeave={handleToggle4} className="card-wrapper">
                         <div className="card domesticcruisesliderdiv">
                             <div className=" domesticcruisecardimage">
-                                <img src='images/Cruise/DomesticCruise/DomesticCruise1.jpg' />
+                                <img src='Images/Cruise/DomesticCruise/DomesticCruise1.jpg' />
                             </div>
                             <div className={toggle4 ? "none" : "domesticcruisedetails"}>
                                 <h2 onClick={handleText4}>London <span className="activityexperimentjobtitle">"Eye Ferros Wheel"

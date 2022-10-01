@@ -153,7 +153,7 @@ export const ExclusiveDeals = () => {
                 <div className="card mb-4 exclusivecruiseouterdivtop" >
                     <div className="row g-0 exclusivecruiseimagetextcontainer">
                         <div className="col-md-8 exclusivecruisecardimage">
-                            <img src="images/Cruise/ExclusiveCruise/CruiseImage1.jpg" class="img-fluid rounded-start" alt="..." />
+                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage1.jpg" class="img-fluid rounded-start" alt="..." />
                         </div>
                         <div className="col-md-4 exclusivecruisetextcard">
                             <div className="card-body exclusivecruisecarddescmain">
@@ -169,7 +169,7 @@ export const ExclusiveDeals = () => {
                 <div className="card mb-3 exclusivecruiseouterdivtop" >
                     <div className="row g-0 exclusivecruiseimagetextcontainer">
                         <div className="col-md-8 exclusivecruisecardimage">
-                            <img src="images/Cruise/ExclusiveCruise/CruiseImage2.jpg" class="img-fluid rounded-start" alt="..." />
+                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage2.jpg" class="img-fluid rounded-start" alt="..." />
                         </div>
                         <div className="col-md-4 exclusivecruisetextcard">
                             <div className="card-body exclusivecruisecarddescmain">
@@ -185,7 +185,7 @@ export const ExclusiveDeals = () => {
                 <div className="card mb-3 exclusivecruiseouterdivtop" >
                     <div className="row g-0 exclusivecruiseimagetextcontainer">
                         <div className="col-md-8 exclusivecruisecardimage">
-                            <img src="images/Cruise/ExclusiveCruise/CruiseImage3.jpg" class="img-fluid rounded-start" alt="..." />
+                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage3.jpg" class="img-fluid rounded-start" alt="..." />
                         </div>
                         <div className="col-md-4 exclusivecruisetextcard">
                             <div className="card-body exclusivecruisecarddescmain">
@@ -201,7 +201,7 @@ export const ExclusiveDeals = () => {
                 <div className="card mb-3 exclusivecruiseouterdivtop" >
                     <div className="row g-0 exclusivecruiseimagetextcontainer">
                         <div className="col-md-8 exclusivecruisecardimage">
-                            <img src="images/Cruise/ExclusiveCruise/CruiseImage4.jpg" class="img-fluid rounded-start" alt="..." />
+                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage4.jpg" class="img-fluid rounded-start" alt="..." />
                         </div>
                         <div className="col-md-4 exclusivecruisetextcard">
                             <div className="card-body exclusivecruisecarddescmain">
@@ -217,7 +217,7 @@ export const ExclusiveDeals = () => {
                 <div className="card mb-3 exclusivecruiseouterdivtop" >
                     <div className="row g-0 exclusivecruiseimagetextcontainer">
                         <div className="col-md-8 exclusivecruisecardimage">
-                            <img src="images/Cruise/ExclusiveCruise/CruiseImage5.jpg" class="img-fluid rounded-start" alt="..." />
+                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage5.jpg" class="img-fluid rounded-start" alt="..." />
                         </div>
                         <div className="col-md-4 exclusivecruisetextcard">
                             <div className="card-body exclusivecruisecarddescmain">
@@ -233,7 +233,7 @@ export const ExclusiveDeals = () => {
                 <div className="card mb-3 exclusivecruiseouterdivtop" >
                     <div className="row g-0 exclusivecruiseimagetextcontainer">
                         <div className="col-md-8 exclusivecruisecardimage">
-                            <img src="images/Cruise/ExclusiveCruise/CruiseImage6.jpg" class="img-fluid rounded-start" alt="..." />
+                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage6.jpg" class="img-fluid rounded-start" alt="..." />
                         </div>
                         <div className="col-md-4 exclusivecruisetextcard">
                             <div className="card-body exclusivecruisecarddescmain">
@@ -249,7 +249,7 @@ export const ExclusiveDeals = () => {
                 <div className="card mb-3 exclusivecruiseouterdivtop" >
                     <div className="row g-0 exclusivecruiseimagetextcontainer">
                         <div className="col-md-8 exclusivecruisecardimage">
-                            <img src="images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
+                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
                         </div>
                         <div className="col-md-4 exclusivecruisetextcard">
                             <div className="card-body exclusivecruisecarddescmain">
@@ -264,7 +264,7 @@ export const ExclusiveDeals = () => {
                 <div className="card mb-3 exclusivecruiseouterdivtop" >
                     <div className="row g-0 exclusivecruiseimagetextcontainer">
                         <div className="col-md-8 exclusivecruisecardimage">
-                            <img src="images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
+                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
                         </div>
                         <div className="col-md-4 exclusivecruisetextcard">
                             <div className="card-body exclusivecruisecarddescmain">
@@ -279,7 +279,7 @@ export const ExclusiveDeals = () => {
                 <div className="card mb-3 exclusivecruiseouterdivtop" >
                     <div className="row g-0 exclusivecruiseimagetextcontainer">
                         <div className="col-md-8 exclusivecruisecardimage">
-                            <img src="images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
+                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
                         </div>
                         <div className="col-md-4 exclusivecruisetextcard">
                             <div className="card-body exclusivecruisecarddescmain">
@@ -294,7 +294,7 @@ export const ExclusiveDeals = () => {
                 <div className="card mb-3 exclusivecruiseouterdivtop" >
                     <div className="row g-0 exclusivecruiseimagetextcontainer">
                         <div className="col-md-8 exclusivecruisecardimage">
-                            <img src="images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
+                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
                         </div>
                         <div className="col-md-4 exclusivecruisetextcard">
                             <div className="card-body exclusivecruisecarddescmain">
