@@ -144,7 +144,7 @@ export const CardText = () => {
                             </th>
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div>
-                        <img src="images/HotelsImage/HotelImage1.jpg" alt="" />
+                        <img src="Images/HotelsImage/HotelImage1.jpg" alt="" />
                         <div className="card_title">Novotel Phuket City Phokeethra(SHA Extra Plus)
                             <br />
                             <span className="hoteltitle_rating">
@@ -169,7 +169,7 @@ export const CardText = () => {
                             </th>
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div>
-                        <img src="images/HotelsImage/HotelImage2.jpg" alt="" />
+                        <img src="Images/HotelsImage/HotelImage2.jpg" alt="" />
                         <div className="card_title"> Pullman Phuket Panwa Beach Resorts(SHA Plus+)Panwa Cape
                             <br />
                             <span className="hoteltitle_rating">
@@ -195,7 +195,7 @@ export const CardText = () => {
                             </th>
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div>
-                        <img src="images/HotelsImage/HotelImage3.jpg" alt="" />
+                        <img src="Images/HotelsImage/HotelImage3.jpg" alt="" />
                         <div className="card_title"> Pullman Phuket Panwa Beach Resorts(SHA Plus+)Panwa Cape
                             <br />
                             <span className="hoteltitle_rating">
@@ -245,7 +245,7 @@ export const CardText = () => {
                             </th>
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div>
-                        <img src="images/HotelsImage/HotelImage5.jpg" alt="" />
+                        <img src="Images/HotelsImage/HotelImage5.jpg" alt="" />
                         <div className="card_title"> Pullman Phuket Panwa Beach Resorts(SHA Plus+)Panwa Cape
                             <br />
                             <span className="hoteltitle_rating">
@@ -270,7 +270,7 @@ export const CardText = () => {
                             </th>
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div>
-                        <img src="images/HotelsImage/HotelImage6.jpg" alt="" />
+                        <img src="Images/HotelsImage/HotelImage6.jpg" alt="" />
                         <div className="card_title"> Pullman Phuket Panwa Beach Resorts(SHA Plus+)Panwa Cape
                             <br />
                             <span className="hoteltitle_rating">
@@ -295,7 +295,7 @@ export const CardText = () => {
                             </th>
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div>
-                        <img src="images/HotelsImage/HotelImage7.jpg" alt="" />
+                        <img src="Images/HotelsImage/HotelImage7.jpg" alt="" />
                         <div className="card_title"> Pullman Phuket Panwa Beach Resorts(SHA Plus+)Panwa Cape
                             <br />
                             <span className="hoteltitle_rating">

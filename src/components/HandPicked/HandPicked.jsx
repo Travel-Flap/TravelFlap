@@ -116,7 +116,7 @@ export const HandPicked = () => {
                                  <h4 className="handpickedcard-title">Romantic Destinations</h4>
                               </div>
                            </div>
-                           <img src='images/Handpicked Destination/Romantic Destination3.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top " alt="..." />
+                           <img src='Images/Handpicked Destination/Romantic Destination3.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top " alt="..." />
                         </div>
                      </div>
                   </div>
@@ -134,7 +134,7 @@ export const HandPicked = () => {
                                  <h4 className="handpickedcard-title">Honeymoon Destinations</h4>
                               </div>
                            </div>
-                           <img src='images/Handpicked Destination/Romantic Destination2.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." /></div>
+                           <img src='Images/Handpicked Destination/Romantic Destination2.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." /></div>
 
                         {/* <div className="card-body">
                            <div className='handpicked_title'>
@@ -158,7 +158,7 @@ export const HandPicked = () => {
                                  <h4 className="handpickedcard-title">Adventure Destinations</h4>
                               </div>
                            </div>
-                           <img src='images/Handpicked Destination/Adventure4.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
+                           <img src='Images/Handpicked Destination/Adventure4.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
                         </div>
                         {/* <div className="card-body">
                            <div className='handpicked_title'>
@@ -182,7 +182,7 @@ export const HandPicked = () => {
                                  <h4 className="handpickedcard-title">Weekend Getaways</h4>
                               </div>
                            </div>
-                           <img src='images/Handpicked Destination/Weekend Getaway2.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
+                           <img src='Images/Handpicked Destination/Weekend Getaway2.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
                         </div>
                         {/* <div className="card-body">
                            <div className='handpicked_title'>
@@ -206,7 +206,7 @@ export const HandPicked = () => {
                                  <h4 className="handpickedcard-title">Beach Destinations</h4>
                               </div>
                            </div>
-                           <img src='images/Handpicked Destination/Beach2.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
+                           <img src='Images/Handpicked Destination/Beach2.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
                         </div>
                         {/* <div className="card-body">
                            <div className='handpicked_title'>
@@ -230,7 +230,7 @@ export const HandPicked = () => {
                                  <h4 className="handpickedcard-title">Hill Stations</h4>
                               </div>
                            </div>
-                           <img src='images/Handpicked Destination/HillStation2.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
+                           <img src='Images/Handpicked Destination/HillStation2.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
                         </div>
                         {/* <div className="card-body">
                            <div className='handpicked_title'>
@@ -253,7 +253,7 @@ export const HandPicked = () => {
                                  <h4 className="handpickedcard-title">International Destinations</h4>
                               </div>
                            </div>
-                           <img src='images/Handpicked Destination/International Destination1.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
+                           <img src='Images/Handpicked Destination/International Destination1.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
                         </div>
                         {/* <div className="card-body">
                            <div className='handpicked_title'>
@@ -276,7 +276,7 @@ export const HandPicked = () => {
                                  <h4 className="handpickedcard-title">Heritage Destinations</h4>
                               </div>
                            </div>
-                           <img src='images/Handpicked Destination/Heritage TajMahal.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
+                           <img src='Images/Handpicked Destination/Heritage TajMahal.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
                         </div>
                         {/* <div className="card-body">
                            <div className='handpicked_title'>
@@ -300,7 +300,7 @@ export const HandPicked = () => {
                               </div>
                            </div>
 
-                           <img src='images/Handpicked Destination/Pilgrimage.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
+                           <img src='Images/Handpicked Destination/Pilgrimage.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
                         </div>
                         {/* <div className="card-body handpickedcardwrapper">
                            <div className='handpicked_title'>

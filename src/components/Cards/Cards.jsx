@@ -171,7 +171,7 @@ export const DataCards = () => {
                     <div onMouseLeave={cardhandleToggle} className="card-wrapper">
                         <div className=" cardParent card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='images/BestBudget/Bolivia.jpg' />
+                                <img src='Images/BestBudget/Bolivia.jpg' />
                             </div>
                             <div className={toggle ? "none" : "activityexperimentdetails"}>
                                 <h2>Bolivia <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
@@ -189,7 +189,7 @@ export const DataCards = () => {
                     <div onMouseLeave={cardhandleToggle1} className="card-wrapper">
                         <div className="cardParent card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='images/BestBudget/Cambodia.jpg' />
+                                <img src='Images/BestBudget/Cambodia.jpg' />
                             </div>
                             <div className={toggle1 ? "none" : "activityexperimentdetails"}>
                                 <h2>Cambodia <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
@@ -205,7 +205,7 @@ export const DataCards = () => {
                     <div onMouseLeave={cardhandleToggle2} className="card-wrapper">
                         <div className="card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='images/BestBudget/Bulgaria.jpg' />
+                                <img src='Images/BestBudget/Bulgaria.jpg' />
                             </div>
                             <div className={toggle2 ? "none" : "activityexperimentdetails"}>
                                 <h2>Bulgaria <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
@@ -221,7 +221,7 @@ export const DataCards = () => {
                     <div onMouseLeave={cardhandleToggle3} className="card-wrapper">
                         <div className="card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='images/BestBudget/El Salvador.jpg' />
+                                <img src='Images/BestBudget/El Salvador.jpg' />
                             </div>
                             <div className={toggle3 ? "none" : "activityexperimentdetails"}>
                                 <h2>El Salvador <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
@@ -237,7 +237,7 @@ export const DataCards = () => {
                     <div onMouseLeave={cardhandleToggle4} className="card-wrapper">
                         <div className="card activityexperimentsliderdiv">
                             <div className=" activityexperimentcardimage">
-                                <img src='images/BestBudget/Nicaragua.jpg' />
+                                <img src='Images/BestBudget/Nicaragua.jpg' />
                             </div>
                             <div className={toggle4 ? "none" : "activityexperimentdetails"}>
                                 <h2 onClick={handleText4}>Laos <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
@@ -357,8 +357,6 @@ export const DataCards = () => {
                         </div>
                     </div> */}
                     {/* </div> */}
-
-
 
                 </Slider>
             </div>

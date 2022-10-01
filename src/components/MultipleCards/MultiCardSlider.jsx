@@ -23,7 +23,7 @@ export default class ImageSlider extends Component {
                     <div className="card-wrapper">
                         <div className="card multisection-image">
                             <div className="card-image multicardsimage">
-                                <img src="images/TravelImage2.jpg" />
+                                <img src="Images/TravelImage2.jpg" />
                             </div>
                             <div className="multicardsdetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -38,7 +38,7 @@ export default class ImageSlider extends Component {
                     <div className="card-wrapper">
                         <div className="card multisection-image">
                             <div className="card-image multicardsimage">
-                                <img src="images/TravelImage6.jpg" />
+                                <img src="Images/TravelImage6.jpg" />
                             </div>
                             <div className="multicardsdetails">
                                 <h2>Amirt Maan <span className="job-title">"Best Holiday trip Ever"
@@ -53,7 +53,7 @@ export default class ImageSlider extends Component {
                     <div className="card-wrapper">
                         <div className="card multisection-image">
                             <div className="card-image multicardsimage">
-                                <img src="images/TravelImage3.jpg" />
+                                <img src="Images/TravelImage3.jpg" />
                             </div>
                             <div className="multicardsdetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -68,7 +68,7 @@ export default class ImageSlider extends Component {
                     <div className="card-wrapper">
                         <div className="card multisection-image">
                             <div className="card-image multicardsimage">
-                                <img src="images/TravelImage4.jpg" />
+                                <img src="Images/TravelImage4.jpg" />
                             </div>
                             <div className="multicardsdetails">
                                 <h2>John Doe <span className="job-title">"Best Holiday trip Ever"

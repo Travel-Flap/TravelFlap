@@ -51,17 +51,17 @@ export const Nav = () => {
             <div className='chooseCountry'>
                 <div className='partLeft'>
                     <ul>
-                        <li>INDIA <img src="images/Flags/India.jpg" className='flags' /> </li>
-                        <li>UAE <img src="images/Flags/UAE.png" className='flags' /> </li>
-                        <li>UK <img src="images/Flags/Uk.webp" className='flags' /></li>
-                        <li>QAT <img src="images/Flags/QAT.webp" className='flags' /></li>
+                        <li>INDIA <img src="Images/Flags/India.jpg" className='flags' /> </li>
+                        <li>UAE <img src="Images/Flags/UAE.png" className='flags' /> </li>
+                        <li>UK <img src="Images/Flags/Uk.webp" className='flags' /></li>
+                        <li>QAT <img src="Images/Flags/QAT.webp" className='flags' /></li>
                     </ul>
                 </div>
                 <div className='partRight'>
                     <ul>
-                        <li>USA <img src="images/Flags/USA.webp" className='flags' /></li>
-                        <li>KWT <img src="images/Flags/KWT.svg" className='flags' /></li>
-                        <li>KSA <img src="images/Flags/KSA.png" className='flags' /></li>
+                        <li>USA <img src="Images/Flags/USA.webp" className='flags' /></li>
+                        <li>KWT <img src="Images/Flags/KWT.svg" className='flags' /></li>
+                        <li>KSA <img src="Images/Flags/KSA.png" className='flags' /></li>
                     </ul>
                 </div>
             </div>
@@ -73,26 +73,26 @@ export const Nav = () => {
             <div className='chooseCurrrency'>
                 <div className='partone'>
                     <ul>
-                        <li> <img src="images/Flags/India.jpg" /> </li>
-                        <li> <img src="images/Flags/UAE.png" />  </li>
-                        <li><img src="images/Flags/KSA.png" /> </li>
-                        <li>  <img src="images/Flags/KWT.svg" /> </li>
+                        <li> <img src="Images/Flags/India.jpg" /> </li>
+                        <li> <img src="Images/Flags/UAE.png" />  </li>
+                        <li><img src="Images/Flags/KSA.png" /> </li>
+                        <li>  <img src="Images/Flags/KWT.svg" /> </li>
                     </ul>
                 </div>
                 <div className='parttwo'>
                     <ul>
-                        <li> <img src="images/Flags/Uk.webp" /> </li>
-                        <li> <img src="images/Flags/USA.webp" /> </li>
-                        <li><img src="images/Flags/QAT.webp" /> </li>
-                        <li> <img src="images/Flags/China.webp" /> </li>
+                        <li> <img src="Images/Flags/Uk.webp" /> </li>
+                        <li> <img src="Images/Flags/USA.webp" /> </li>
+                        <li><img src="Images/Flags/QAT.webp" /> </li>
+                        <li> <img src="Images/Flags/China.webp" /> </li>
                     </ul>
                 </div>
                 <div className='partthree'>
                     <ul>
-                        <li> <img src="images/Flags/Japan.webp" /> </li>
-                        <li> <img src="images/Flags/Italy.webp" /> </li>
-                        <li><img src="images/Flags/Malaysia.webp" /> </li>
-                        <li> <img src="images/Flags/France.webp" /> </li>
+                        <li> <img src="Images/Flags/Japan.webp" /> </li>
+                        <li> <img src="Images/Flags/Italy.webp" /> </li>
+                        <li><img src="Images/Flags/Malaysia.webp" /> </li>
+                        <li> <img src="Images/Flags/France.webp" /> </li>
                     </ul>
                 </div>
             </div>
@@ -190,7 +190,7 @@ export const Nav = () => {
                         <div>
                             <Link to="/">
                             <div className='logo1'>
-                                <img src="images/travelFlapLogo.jpg" alt="travelflap logo" />
+                                <img src="Images/travelFlapLogo.jpg" alt="travelflap logo" />
                             </div>
                             </Link>
                         </div>
@@ -229,19 +229,19 @@ export const Nav = () => {
                             <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
                             <div className='chooseCountry'>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                             </div>
                             </div>
@@ -249,19 +249,19 @@ export const Nav = () => {
                             <div className='nav-link'><p> INDIA <FaCaretDown /></p>
                             <div className='chooseCountry'>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div> 
                            </div>
                      </div>
@@ -295,7 +295,7 @@ export const Nav = () => {
                         <div className='transparentNavbar'>
                         <Link to="/">
                             <div className='logo2'>
-                                <img src="images/travelFlapLogo.jpg" alt="travelflap logo" />
+                                <img src="Images/travelFlapLogo.jpg" alt="travelflap logo" />
                             </div>
                             </Link>
                         <div className='navbar-links-container1'>
@@ -304,19 +304,19 @@ export const Nav = () => {
                             <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
                             <div className='chooseCountry'>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                             </div>
                             </div>
@@ -324,19 +324,19 @@ export const Nav = () => {
                             <div className='nav-link'><p> INDIA <FaCaretDown /></p>
                             <div className='chooseCountry'>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div>
                                        <div className='countrynames'>
-                                       INDIA <img src="images/Flags/India.jpg" className='flags' />
+                                       INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                        </div> 
                            </div>
                      </div>
@@ -429,7 +429,7 @@ export const Nav = () => {
                 </div>
             </div> */}
             {/* <div className='test'>
-            <img src='https://wwwnc.cdc.gov/travel/images/travel-industry-air.jpg'/>
+            <img src='https://wwwnc.cdc.gov/travel/Images/travel-industry-air.jpg'/>
          </div> */}
         </div>
         </>
@@ -478,17 +478,17 @@ export const Nav = () => {
 //             <div className='chooseCountry'>
 //                 <div className='partLeft'>
 //                     <ul>
-//                         <li>INDIA <img src="images/Flags/India.jpg" className='flags' /> </li>
-//                         <li>UAE <img src="images/Flags/UAE.png" className='flags' /> </li>
-//                         <li>UK <img src="images/Flags/Uk.webp" className='flags' /></li>
-//                         <li>QAT <img src="images/Flags/QAT.webp" className='flags' /></li>
+//                         <li>INDIA <img src="Images/Flags/India.jpg" className='flags' /> </li>
+//                         <li>UAE <img src="Images/Flags/UAE.png" className='flags' /> </li>
+//                         <li>UK <img src="Images/Flags/Uk.webp" className='flags' /></li>
+//                         <li>QAT <img src="Images/Flags/QAT.webp" className='flags' /></li>
 //                     </ul>
 //                 </div>
 //                 <div className='partRight'>
 //                     <ul>
-//                         <li>USA <img src="images/Flags/USA.webp" className='flags' /></li>
-//                         <li>KWT <img src="images/Flags/KWT.svg" className='flags' /></li>
-//                         <li>KSA <img src="images/Flags/KSA.png" className='flags' /></li>
+//                         <li>USA <img src="Images/Flags/USA.webp" className='flags' /></li>
+//                         <li>KWT <img src="Images/Flags/KWT.svg" className='flags' /></li>
+//                         <li>KSA <img src="Images/Flags/KSA.png" className='flags' /></li>
 //                     </ul>
 //                 </div>
 //             </div>
@@ -500,26 +500,26 @@ export const Nav = () => {
 //             <div className='chooseCurrrency'>
 //                 <div className='partone'>
 //                     <ul>
-//                         <li> <img src="images/Flags/India.jpg" /> </li>
-//                         <li> <img src="images/Flags/UAE.png" />  </li>
-//                         <li><img src="images/Flags/KSA.png" /> </li>
-//                         <li>  <img src="images/Flags/KWT.svg" /> </li>
+//                         <li> <img src="Images/Flags/India.jpg" /> </li>
+//                         <li> <img src="Images/Flags/UAE.png" />  </li>
+//                         <li><img src="Images/Flags/KSA.png" /> </li>
+//                         <li>  <img src="Images/Flags/KWT.svg" /> </li>
 //                     </ul>
 //                 </div>
 //                 <div className='parttwo'>
 //                     <ul>
-//                         <li> <img src="images/Flags/Uk.webp" /> </li>
-//                         <li> <img src="images/Flags/USA.webp" /> </li>
-//                         <li><img src="images/Flags/QAT.webp" /> </li>
-//                         <li> <img src="images/Flags/China.webp" /> </li>
+//                         <li> <img src="Images/Flags/Uk.webp" /> </li>
+//                         <li> <img src="Images/Flags/USA.webp" /> </li>
+//                         <li><img src="Images/Flags/QAT.webp" /> </li>
+//                         <li> <img src="Images/Flags/China.webp" /> </li>
 //                     </ul>
 //                 </div>
 //                 <div className='partthree'>
 //                     <ul>
-//                         <li> <img src="images/Flags/Japan.webp" /> </li>
-//                         <li> <img src="images/Flags/Italy.webp" /> </li>
-//                         <li><img src="images/Flags/Malaysia.webp" /> </li>
-//                         <li> <img src="images/Flags/France.webp" /> </li>
+//                         <li> <img src="Images/Flags/Japan.webp" /> </li>
+//                         <li> <img src="Images/Flags/Italy.webp" /> </li>
+//                         <li><img src="Images/Flags/Malaysia.webp" /> </li>
+//                         <li> <img src="Images/Flags/France.webp" /> </li>
 //                     </ul>
 //                 </div>
 //             </div>
@@ -569,7 +569,7 @@ export const Nav = () => {
 //                     <div className='navbar_fixed' >
 //                         <div>
 //                             <div className='logo1'>
-//                                 <img src="images/travelFlapLogo.jpg" alt="travelflap logo" />
+//                                 <img src="Images/travelFlapLogo.jpg" alt="travelflap logo" />
 //                             </div>
 //                         </div>
 //                         <div>
@@ -599,7 +599,7 @@ export const Nav = () => {
 //                     : <>
 //                         <div>
 //                             <div className='logo2'>
-//                                 <img src="images/travelFlapLogo.jpg" alt="travelflap logo" />
+//                                 <img src="Images/travelFlapLogo.jpg" alt="travelflap logo" />
 //                             </div>
 //                         </div>
 //                         <div className='navbar-links-container'>

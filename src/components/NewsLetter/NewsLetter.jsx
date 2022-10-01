@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 import './NewsLetter.css';
 
 // import { FlagApp } from './NewsletterForm';
-// import newsletter from "images/travelFlapLogo.jpg";
+// import newsletter from "Images/travelFlapLogo.jpg";
 export const Newsletter = () => {
   const [countryState, setCountryState] = useState({
     loading: false,
@@ -64,9 +64,9 @@ export const Newsletter = () => {
       <div className='newsLetterMainBox'>
         <div className='newsletterimagediv'>
           {/* <div className='newsletterimage'>/ */}
-          {/* <img src="images/Newsletter/newsletter.png" />
+          {/* <img src="Images/Newsletter/newsletter.png" />
           https://cdn.pixabay.com/photo/2014/11/14/03/38/news-530220__340.jpg */}
-          <img src='images/Newsletter/4k news lettr.png' alt='newslettterimage' />
+          <img src='Images/Newsletter/4k news lettr.png' alt='newslettterimage' />
           {/* </div> */}
         </div>
 
@@ -177,7 +177,7 @@ export const Newsletter = () => {
 
 
           <div className='newslettercontentinnerdiv2'>
-            <div className="androidandisoimagesdiv">
+            <div className="androidandisoImagesdiv">
               <div className='downloadButtons'>
                 <div className='googleButtons'>
                   <div className='googelPlaybutton'>

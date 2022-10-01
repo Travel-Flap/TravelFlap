@@ -113,7 +113,7 @@ export default class OurPartners extends Component {
 //             <div className="card-wrapper">
 //                 <div className="card multicards">
 //                     <div className="card-image">
-//                         <img src="images/TravelImage6.jpg" />
+//                         <img src="Images/TravelImage6.jpg" />
 //                     </div>
 //                     {/* <ul className="social-icons">
 //                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
@@ -137,7 +137,7 @@ export default class OurPartners extends Component {
 //             <div className="card-wrapper">
 //                 <div className="card multicards">
 //                     <div className="card-image">
-//                         <img src="images/TravelImage3.jpg" />
+//                         <img src="Images/TravelImage3.jpg" />
 //                     </div>
 //                     {/* <ul className="social-icons">
 //                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
@@ -158,7 +158,7 @@ export default class OurPartners extends Component {
 //             <div className="card-wrapper">
 //                 <div className="card multicards">
 //                     <div className="card-image">
-//                         <img src="images/TravelImage4.jpg" />
+//                         <img src="Images/TravelImage4.jpg" />
 //                     </div>
 //                     {/* <ul className="social-icons">
 //                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>

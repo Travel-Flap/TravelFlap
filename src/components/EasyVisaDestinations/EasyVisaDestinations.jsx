@@ -67,7 +67,7 @@ export default class EasyVisaDestination extends Component {
                     <div className="card-wrapper">
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
-                                <img src="images/EasyVisaDestinations/bolivia.jpg" />
+                                <img src="Images/EasyVisaDestinations/bolivia.jpg" />
                             </div>
                             <div className="travelstorydetails">
                                 <h2>Bolivia <span className="job-title">"Best Holiday trip Ever"
@@ -85,7 +85,7 @@ export default class EasyVisaDestination extends Component {
                     <div className="card-wrapper">
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
-                                <img src="images/EasyVisaDestinations/dubai.jpg" />
+                                <img src="Images/EasyVisaDestinations/dubai.jpg" />
                             </div>
                             <div className="travelstorydetails">
                                 <h2>Dubai <span className="job-title">"Best Holiday trip Ever"
@@ -102,7 +102,7 @@ export default class EasyVisaDestination extends Component {
                     <div className="card-wrapper">
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
-                                <img src="images/EasyVisaDestinations/fiji islands.jpg" />
+                                <img src="Images/EasyVisaDestinations/fiji islands.jpg" />
                             </div>
                             <div className="travelstorydetails">
                                 <h2>Fiji islands <span className="job-title">"Best Holiday trip Ever"
@@ -118,7 +118,7 @@ export default class EasyVisaDestination extends Component {
                     <div className="card-wrapper">
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
-                                <img src="images/EasyVisaDestinations/jordan.jpg" />
+                                <img src="Images/EasyVisaDestinations/jordan.jpg" />
                             </div>
                             <div className="travelstorydetails">
                                 <h2>Jordan <span className="job-title">"Best Holiday trip Ever"
@@ -135,8 +135,8 @@ export default class EasyVisaDestination extends Component {
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
                                 {/* */}
-                                {/* images/TravelStoriesImage5.jpg */}
-                                <img src="images/EasyVisaDestinations/Kenya.jpg " />
+                                {/* Images/TravelStoriesImage5.jpg */}
+                                <img src="Images/EasyVisaDestinations/Kenya.jpg " />
                             </div>
                             <div className="travelstorydetails">
                                 <h2>Kenya <span className="job-title">"Best Holiday trip Ever"
@@ -152,7 +152,7 @@ export default class EasyVisaDestination extends Component {
                     <div className="card-wrapper">
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
-                                <img src="images/TravelStories/river.jpg " />
+                                <img src="Images/TravelStories/river.jpg " />
                             </div>
                             <div className="travelstorydetails">
                                 <h2>ladakh <span className="job-title">"Best Holiday trip Ever"
@@ -168,7 +168,7 @@ export default class EasyVisaDestination extends Component {
                     <div className="card-wrapper">
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
-                                <img src="images/EasyVisaDestinations/madgascar.jpg" />
+                                <img src="Images/EasyVisaDestinations/madgascar.jpg" />
                             </div>
                             <div className="travelstorydetails">
                                 <h2>1Madgascar <span className="job-title">"Best Holiday trip Ever"
@@ -184,7 +184,7 @@ export default class EasyVisaDestination extends Component {
                     <div className="card-wrapper">
                         <div className="card travelstoriesmaindiv">
                             <div className="card-image travelstoriescardimage">
-                                <img src="images/EasyVisaDestinations/Seychelles.jpg" />
+                                <img src="Images/EasyVisaDestinations/Seychelles.jpg" />
                             </div>
                             <div className="travelstorydetails">
                                 <h2>Seychelles <span className="job-title">"Best Holiday trip Ever"

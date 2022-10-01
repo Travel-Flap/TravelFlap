@@ -75,7 +75,7 @@ export default class TopCities extends Component {
                         <div className="card-wrapper">
                             <div className="card topcitiesdiv">
                                 <div className="card-image topcitiescardimage">
-                                    <img src="images/TopCities/abudhabhi.jpg" />
+                                    <img src="Images/TopCities/abudhabhi.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
                                     <h2>Abu Dhabi <span className="job-title">"Best Holiday trip Ever"
@@ -93,7 +93,7 @@ export default class TopCities extends Component {
                         <div className="card-wrapper">
                             <div className="card topcitiesdiv">
                                 <div className="card-image topcitiescardimage">
-                                    <img src="images/TopCities/africa1.jpg" />
+                                    <img src="Images/TopCities/africa1.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
                                     <h2>Epupa Falls <span className="job-title">"Best Holiday trip Ever"
@@ -110,7 +110,7 @@ export default class TopCities extends Component {
                         <div className="card-wrapper">
                             <div className="card topcitiesdiv">
                                 <div className="card-image topcitiescardimage">
-                                    <img src="images/TopCities/america.jpg" />
+                                    <img src="Images/TopCities/america.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
                                     <h2>Las Vegas <span className="job-title">"Best Holiday trip Ever"
@@ -126,7 +126,7 @@ export default class TopCities extends Component {
                         <div className="card-wrapper">
                             <div className="card topcitiesdiv">
                                 <div className="card-image topcitiescardimage">
-                                    <img src="images/TopCities/australia.jpg" />
+                                    <img src="Images/TopCities/australia.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
                                     <h2>Sydney <span className="job-title">"Best Holiday trip Ever"
@@ -142,7 +142,7 @@ export default class TopCities extends Component {
                         <div className="card-wrapper">
                             <div className="card topcitiesdiv">
                                 <div className="card-image topcitiescardimage">
-                                    <img src="images/TopCities/canada.jpg" />
+                                    <img src="Images/TopCities/canada.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
                                     <h2>Toronto <span className="job-title">"Best Holiday trip Ever"
@@ -158,7 +158,7 @@ export default class TopCities extends Component {
                         {/* <div className="card-wrapper">
                         <div className="card topcitiesdiv">
                             <div className="card-image topcitiescardimage">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgA7NjrOyqboQBa3LLONUV8V8xUQI9i4wDSr1L4Y4jDw&s" />
+                                <img src="https://encrypted-tbn0.gstatic.com/Images?q=tbn:ANd9GcRgA7NjrOyqboQBa3LLONUV8V8xUQI9i4wDSr1L4Y4jDw&s" />
                             </div>
                             <div className="topcitiesdetails">
                                 <h2>Australia <span className="job-title">"Best Holiday trip Ever"
@@ -174,7 +174,7 @@ export default class TopCities extends Component {
                         <div className="card-wrapper">
                             <div className="card topcitiesdiv">
                                 <div className="card-image topcitiescardimage">
-                                    <img src="images/TopCities/landon.jpg" />
+                                    <img src="Images/TopCities/landon.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
                                     <h2>London <span className="job-title">"Best Holiday trip Ever"
@@ -190,7 +190,7 @@ export default class TopCities extends Component {
                         <div className="card-wrapper">
                             <div className="card topcitiesdiv">
                                 <div className="card-image topcitiescardimage">
-                                    <img src="images/TopCities/denmark.jpg" />
+                                    <img src="Images/TopCities/denmark.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
                                     <h2>Aarhus <span className="job-title">"Best Holiday trip Ever"
@@ -206,7 +206,7 @@ export default class TopCities extends Component {
                         <div className="card-wrapper">
                             <div className="card topcitiesdiv">
                                 <div className="card-image topcitiescardimage">
-                                    <img src="images/TopCities/zambiaafrica.jpg" />
+                                    <img src="Images/TopCities/zambiaafrica.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
                                     <h2>Zambia <span className="job-title">"Best Holiday trip Ever"
@@ -222,7 +222,7 @@ export default class TopCities extends Component {
                         <div className="card-wrapper">
                             <div className="card topcitiesdiv">
                                 <div className="card-image topcitiescardimage">
-                                    <img src="images/TopCities/swedan.jpg" />
+                                    <img src="Images/TopCities/swedan.jpg" />
                                 </div>
                                 <div className="topcitiesdetails">
                                     <h2>Stockholm <span className="job-title">"Best Holiday trip Ever"
