@@ -68,7 +68,7 @@ export default class PackageDeals extends Component {
                         <div className="card-wrapper">
                             <div className="card packagedealsdiv">
                                 <div className="card-image packagedealcardimage">
-                                    <img src="images/TravelStoriesImage1.jpg" />
+                                    <img src="Images/TravelStoriesImage1.jpg" />
                                 </div>
                                 <div className="packaggedealsdetails">
                                     <h2>Olivia <span className="job-title">"Best Holiday trip Ever"
@@ -86,7 +86,7 @@ export default class PackageDeals extends Component {
                         <div className="card-wrapper">
                             <div className="card packagedealsdiv">
                                 <div className="card-image packagedealcardimage">
-                                    <img src="images/TravelStoriesImage2.jpg" />
+                                    <img src="Images/TravelStoriesImage2.jpg" />
                                 </div>
                                 <div className="packaggedealsdetails">
                                     <h2>Amirt Maan <span className="job-title">"Best Holiday trip Ever"
@@ -103,7 +103,7 @@ export default class PackageDeals extends Component {
                         <div className="card-wrapper">
                             <div className="card packagedealsdiv">
                                 <div className="card-image packagedealcardimage">
-                                    <img src="images/TravelStoriesImage3.jpg" />
+                                    <img src="Images/TravelStoriesImage3.jpg" />
                                 </div>
                                 <div className="packaggedealsdetails">
                                     <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -119,7 +119,7 @@ export default class PackageDeals extends Component {
                         <div className="card-wrapper">
                             <div className="card packagedealsdiv">
                                 <div className="card-image packagedealcardimage">
-                                    <img src="images/TravelStories/TravelStoriesImage4.jpg" />
+                                    <img src="Images/TravelStories/TravelStoriesImage4.jpg" />
                                 </div>
                                 <div className="packaggedealsdetails">
                                     <h2>Akash <span className="job-title">"Best Holiday trip Ever"
@@ -135,7 +135,7 @@ export default class PackageDeals extends Component {
                         <div className="card-wrapper">
                             <div className="card packagedealsdiv">
                                 <div className="card-image packagedealcardimage">
-                                    <img src="images/TravelStoriesImage5.jpg" />
+                                    <img src="Images/TravelStoriesImage5.jpg" />
                                 </div>
                                 <div className="packaggedealsdetails">
                                     <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -151,7 +151,7 @@ export default class PackageDeals extends Component {
                         <div className="card-wrapper">
                             <div className="card packagedealsdiv">
                                 <div className="card-image packagedealcardimage">
-                                    <img src="images/TravelStoriesImage6.jpg" />
+                                    <img src="Images/TravelStoriesImage6.jpg" />
                                 </div>
                                 <div className="packaggedealsdetails">
                                     <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -167,7 +167,7 @@ export default class PackageDeals extends Component {
                         <div className="card-wrapper">
                             <div className="card packagedealsdiv">
                                 <div className="card-image packagedealcardimage">
-                                    <img src="images/TravelStories/TravelStoriesImage7.jpg" />
+                                    <img src="Images/TravelStories/TravelStoriesImage7.jpg" />
                                 </div>
                                 <div className="packaggedealsdetails">
                                     <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
@@ -183,7 +183,7 @@ export default class PackageDeals extends Component {
                         <div className="card-wrapper">
                             <div className="card packagedealsdiv">
                                 <div className="card-image packagedealcardimage">
-                                    <img src="images/TravelStories/TravelStoriesImage8.jpg" />
+                                    <img src="Images/TravelStories/TravelStoriesImage8.jpg" />
                                 </div>
                                 <div className="packaggedealsdetails">
                                     <h2>John Doe <span className="job-title">"Best Holiday trip Ever"

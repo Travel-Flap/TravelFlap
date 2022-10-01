@@ -228,7 +228,7 @@ export const InternationalDestinations = () => {
                     <div className="card mb-3 internationalouterdiv" >
                         <div className="row g-0 internationalimagetextcontainer">
                             <div className="col-md-8 internationalcardimage">
-                                <img src="images/international destinations/banff.jpg" className="img-fluid rounded-start" alt="..." />
+                                <img src="Images/international destinations/banff.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 internationaltextcard">
                                 <div className="card-body internationalcarddescmain">
@@ -243,7 +243,7 @@ export const InternationalDestinations = () => {
                     <div className="card mb-3 internationalouterdiv" >
                         <div className="row g-0 internationalimagetextcontainer">
                             <div className="col-md-8 internationalcardimage">
-                                <img src="images/international destinations/barcelona.jpg" className="img-fluid rounded-start" alt="..." />
+                                <img src="Images/international destinations/barcelona.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 internationaltextcard">
                                 <div className="card-body internationalcarddescmain">
@@ -258,7 +258,7 @@ export const InternationalDestinations = () => {
                     <div className="card mb-3 internationalouterdiv" >
                         <div className="row g-0 internationalimagetextcontainer">
                             <div className="col-md-8 internationalcardimage">
-                                <img src="images/international destinations/bora bora.jpg" className="img-fluid rounded-start" alt="..." />
+                                <img src="Images/international destinations/bora bora.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 internationaltextcard">
                                 <div className="card-body internationalcarddescmain">
@@ -273,7 +273,7 @@ export const InternationalDestinations = () => {
                     <div className="card mb-3 internationalouterdiv" >
                         <div className="row g-0 internationalimagetextcontainer">
                             <div className="col-md-8 internationalcardimage">
-                                <img src="images/international destinations/maui hawaii.jpg" className="img-fluid rounded-start" alt="..." />
+                                <img src="Images/international destinations/maui hawaii.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 internationaltextcard">
                                 <div className="card-body internationalcarddescmain">
@@ -288,7 +288,7 @@ export const InternationalDestinations = () => {
                     <div className="card mb-3 internationalouterdiv" >
                         <div className="row g-0 internationalimagetextcontainer">
                             <div className="col-md-8 internationalcardimage">
-                                <img src="images/international destinations/paris.jpg" className="img-fluid rounded-start" alt="..." />
+                                <img src="Images/international destinations/paris.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 internationaltextcard">
                                 <div className="card-body internationalcarddescmain">
@@ -303,7 +303,7 @@ export const InternationalDestinations = () => {
                     <div className="card mb-3 internationalouterdiv" >
                         <div className="row g-0 internationalimagetextcontainer">
                             <div className="col-md-8 internationalcardimage">
-                                <img src="images/international destinations/rome.jpg" className="img-fluid rounded-start" alt="..." />
+                                <img src="Images/international destinations/rome.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 internationaltextcard">
                                 <div className="card-body internationalcarddescmain">
@@ -318,7 +318,7 @@ export const InternationalDestinations = () => {
                     <div className="card mb-3 internationalouterdiv" >
                         <div className="row g-0 internationalimagetextcontainer">
                             <div className="col-md-8 internationalcardimage">
-                                <img src="images/international destinations/tahiti.jpg" className="img-fluid rounded-start" alt="..." />
+                                <img src="Images/international destinations/tahiti.jpg" className="img-fluid rounded-start" alt="..." />
                             </div>
                             <div className="col-md-4 internationaltextcard">
                                 <div className="card-body internationalcarddescmain">

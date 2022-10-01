@@ -187,7 +187,7 @@ export const BestBudget = () => {
                         <div className="card mb-3 bestbudgetouterdiv" >
                             <div className="row g-0 bestbudgetimagetextcontainer">
                                 <div className="col-md-8 bestbudgetcardimage">
-                                    <img src="images/BestBudget/Bolivia.jpg" className="img-fluid rounded-start" alt="..." />
+                                    <img src="Images/BestBudget/Bolivia.jpg" className="img-fluid rounded-start" alt="..." />
                                 </div>
                                 <div className="col-md-4 bestbudgettextcard">
                                     <div className="card-body bestbudgetcarddescmain">
@@ -203,7 +203,7 @@ export const BestBudget = () => {
                         <div className="card mb-3 bestbudgetouterdiv" >
                             <div className="row g-0 bestbudgetimagetextcontainer">
                                 <div className="col-md-8 bestbudgetcardimage">
-                                    <img src="images/BestBudget/Bulgaria.jpg" className="img-fluid rounded-start" alt="..." />
+                                    <img src="Images/BestBudget/Bulgaria.jpg" className="img-fluid rounded-start" alt="..." />
                                 </div>
                                 <div className="col-md-4 bestbudgettextcard">
                                     <div className="card-body bestbudgetcarddescmain">
@@ -219,7 +219,7 @@ export const BestBudget = () => {
                         <div className="card mb-3 bestbudgetouterdiv" >
                             <div className="row g-0 bestbudgetimagetextcontainer">
                                 <div className="col-md-8 bestbudgetcardimage">
-                                    <img src="images/BestBudget/Cambodia.jpg" className="img-fluid rounded-start" alt="..." />
+                                    <img src="Images/BestBudget/Cambodia.jpg" className="img-fluid rounded-start" alt="..." />
                                 </div>
                                 <div className="col-md-4 bestbudgettextcard">
                                     <div className="card-body bestbudgetcarddescmain">
@@ -235,7 +235,7 @@ export const BestBudget = () => {
                         <div className="card mb-3 bestbudgetouterdiv" >
                             <div className="row g-0 bestbudgetimagetextcontainer">
                                 <div className="col-md-8 bestbudgetcardimage">
-                                    <img src="images/BestBudget/El Salvador.jpg" className="img-fluid rounded-start" alt="..." />
+                                    <img src="Images/BestBudget/El Salvador.jpg" className="img-fluid rounded-start" alt="..." />
                                 </div>
                                 <div className="col-md-4 bestbudgettextcard">
                                     <div className="card-body bestbudgetcarddescmain">
@@ -251,7 +251,7 @@ export const BestBudget = () => {
                         <div className="card mb-3 bestbudgetouterdiv" >
                             <div className="row g-0 bestbudgetimagetextcontainer">
                                 <div className="col-md-8 bestbudgetcardimage">
-                                    <img src="images/BestBudget/Guatemala.jpg" className="img-fluid rounded-start" alt="..." />
+                                    <img src="Images/BestBudget/Guatemala.jpg" className="img-fluid rounded-start" alt="..." />
                                 </div>
                                 <div className="col-md-4 bestbudgettextcard">
                                     <div className="card-body bestbudgetcarddescmain">
@@ -267,7 +267,7 @@ export const BestBudget = () => {
                         <div className="card mb-3 bestbudgetouterdiv" >
                             <div className="row g-0 bestbudgetimagetextcontainer">
                                 <div className="col-md-8 bestbudgetcardimage">
-                                    <img src="images/BestBudget/Laos.jpg" className="img-fluid rounded-start" alt="..." />
+                                    <img src="Images/BestBudget/Laos.jpg" className="img-fluid rounded-start" alt="..." />
                                 </div>
                                 <div className="col-md-4 bestbudgettextcard">
                                     <div className="card-body bestbudgetcarddescmain">
@@ -283,7 +283,7 @@ export const BestBudget = () => {
                         <div className="card mb-3 bestbudgetouterdiv" >
                             <div className="row g-0 bestbudgetimagetextcontainer">
                                 <div className="col-md-8 bestbudgetcardimage">
-                                    <img src="images/BestBudget/Nicaragua.jpg" className="img-fluid rounded-start" alt="..." />
+                                    <img src="Images/BestBudget/Nicaragua.jpg" className="img-fluid rounded-start" alt="..." />
                                 </div>
                                 <div className="col-md-4 bestbudgettextcard">
                                     <div className="card-body bestbudgetcarddescmain">
