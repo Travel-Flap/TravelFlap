@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -9,7 +10,30 @@ import "./InternationalCruise.css";
 import { Button } from "react-bootstrap"
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 
+import countrydata from '../../../../CountryData.json';
+
 export const InternationalCruise = () => {
+
+
+    const [countryid, setCountryid] = useState('');
+    const [state, setState] = useState([]);
+    const [stateid, setStateid] = useState('');
+
+    const handlecounty = (e) => {
+        const getcountryId = e.target.value;
+        const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
+        setState(getStatedata);
+        setCountryid(getcountryId);
+        //console.log(getcountryId);
+    }
+
+    const handlestate = (e) => {
+        const stateid = e.target.value;
+        //console.log(stateid);
+        setStateid(stateid);
+
+    }
+
     const sliderRef = useRef(null);
     useEffect(() => {
         console.log(sliderRef);
@@ -20,12 +44,34 @@ export const InternationalCruise = () => {
             <div className="internationalcruiseheadingcontainer" >
                 <h2 className="internationalcruiseheading1">InterNational Destinations</h2>
                 <div className="internationalcruiseheading2">
-                    <div className="internationalcruiseheading">Asia</div>
+                    <select name='country' className="form-select countrycruisecardselectdrop" style={{ width: "56%" }} onChange={(e) => handlecounty(e)} aria-label="Default select example">
+                        <option id='homecarddropbox' value="">Select Country</option>
+                        {
+                            countrydata.map((getcountry, index) => (
+                                <option y value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                            ))
+                        }
+                        {/* <option value>Please Select Country</option>
+                                <option value="1">India</option>
+                                <option value="2">UAE</option>
+                                <option value="3">Pakistan</option>
+                                <option value="4">France</option>
+                                <option value="5">Spain</option>
+                                <option value="6">Turkey</option>
+                                <option value="7">Italy</option>
+                                <option value="8">Thailand</option>
+                                <option value="9">Mexico</option>
+                                <option value="10">Germany</option>
+                                <option value="11">United Kingdom</option>
+                                <option value="12">China</option>
+                                <option value="13">Korea</option> */}
+                    </select>
+                    {/* <div className="internationalcruiseheading">Asia</div>
                     <div className="internationalcruiseheading">Africa</div>
                     <div className="internationalcruiseheading">America</div>
                     <div className="internationalcruiseheading">Antarctica</div>
                     <div className="internationalcruiseheading">Australia</div>
-                    <div className="internationalcruiseheading">Europe</div>
+                    <div className="internationalcruiseheading">Europe</div> */}
                 </div>
 
                 <div className="viewallinternationalcruisebuttons" >

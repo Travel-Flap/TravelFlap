@@ -30,7 +30,7 @@
     text-align: left;
     width: 1000px !important;
 }
-.countryhomecardselectdrop1{
+.countrycruisecardselectdrop{
     border: 2px solid white !important;
     background-color: #3380f2 !important;
     border-radius: 20px !important;
@@ -41,13 +41,13 @@
     width: 58% !important;
 }
 
-.countryhomecardselectdrop1:hover{
+.countrycruisecardselectdrop:hover{
     background-color: white !important;
     cursor: pointer;
     color: #3380f2 !important;
 }
 
-.countryhomecardselectdrop1 option:hover{
+.countrycruisecardselectdrop option:hover{
     background-color: blue !important;
 }
 
