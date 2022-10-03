@@ -1,0 +1,76 @@
+.choose_container{
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: 140px;
+    margin-top: 40px;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+    padding: 1%;
+    padding-bottom: 2%;
+    border-radius: 20px;
+}
+.choose_data h6{
+    font-weight: 700;
+}
+.choose_data span{
+    font-size: 14px;
+}
+#container_chid1{
+    width: 99%;
+    /* border: 2px solid green; */
+    /* margin-left: 38%; */
+    color: #3380F2;
+}
+#container_chid1 h5{
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 33%;
+}
+#container_chid2{
+   margin-top: 2%;
+    display: flex;
+/* border: 2px  solid red; */
+justify-content: space-between;
+height: 200px;
+}
+#container_chid2>div{
+    /* border: 2px solid rgb(7, 91, 201); */
+    width: 20%;
+    border-radius: 12px;
+    color: white;
+    background-color: #3380F2;
+}
+#container_chid2 .common_chid:hover{
+    background-color: white;
+    color: #3380F2;
+    border: 2px solid #3380F2;
+}
+
+#container_chid2:hover .choose_icons{
+    /* background-color: white; */
+    color: blue;
+}
+
+/* .choose_icons{
+    background-color: #3380F2;
+} */
+/* #chid2_part2:hover div{
+    background-color: wheat;
+    color: #3380F2;
+} */
+/* .common_chid{
+    background-color: blue;
+} */
+.choose_icons{
+    color: white;
+    font-size: 140%;
+    margin-left: 5%;
+    margin-top: 3%;  
+}
+
+
+.choose_data{
+    margin-left: 5%;
+}
+.common_chid{
+    margin-left: 5%;
+}

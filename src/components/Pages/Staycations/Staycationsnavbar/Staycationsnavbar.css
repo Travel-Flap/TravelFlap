@@ -1,0 +1,39 @@
+.staycationsnavbardiv{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin-top: 1%;
+    /* border: 2px solid red; */
+}
+.staycationnavbaricons{
+    width: 15%;
+    height: 75px;
+    /* border: 2px solid lightgray; */
+    /* color: #3380F2; */
+    text-align: center;
+    font-weight: 700;
+    margin-left: 5%;
+    font-size: 15px;
+}
+.staycationnavbariconsdiv {
+    width: 80%;
+    /* margin: auto; */
+    margin-left:5% !important;
+    /* border: 2px solid gold; */
+  }
+.staycationsnavbarimages{
+     margin-left: 37% !important;
+     width: 30px;
+     height: 30px;
+  }
+  .staycationsfilterdiv{
+    width: 6%;
+    height: 65px;
+    border: 2px solid lightgray;
+    margin-left: 3%;
+    color: black;
+    border-radius: 25px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 0.8%;
+  }

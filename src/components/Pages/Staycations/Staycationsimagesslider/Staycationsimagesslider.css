@@ -1,0 +1,44 @@
+.Staycationsimagessliderouterdiv{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid gold; */
+}
+.Staycationsimagesslidercontainerdiv{
+    width: 22%;
+    height: 500px;
+    /* border: 2px solid red; */
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.staycationimagesliderdiv{
+    /* border: 2px solid green; */
+    width: 350px !important;
+    text-align: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.staycationheadings{
+    text-align: left;
+    margin-top: 5%;
+    /* border: 2px solid red; */
+    width: 80%;
+    margin-left: 8%;
+}
+.staycationimagesliderdiv h5{
+    /* border: 2px solid red; */
+    font-weight: 700;
+    margin: 0;
+    font-size: 15px;
+}
+.staycationimagesliderdiv p{
+    color: lightgray;
+    font-size: 18px;
+    margin: 0;
+}
+.staycationimagesliderdivimages{
+    width: 350px !important;
+    height: 400px;
+    border-radius: 25px;
+    /* border: 2px solid #3380f2; */
+}

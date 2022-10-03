@@ -1,0 +1,79 @@
+.packagemaindiv{
+    width: 100%;
+    height: 350px;
+    /* border: 2px solid red; */
+    margin-bottom: 5%;
+    text-align: center;
+}
+.packagemaindiv h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: Black;
+}
+/* .selectcountry{
+    width: 25%;
+    height: 50px;
+    margin-top: 0%;
+
+} */
+
+.packagedatadiv{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    margin-top: 2%;
+    justify-content: space-between;
+}
+.packagecountrydetails{
+    width: 18%;
+    height: 130px;
+    /* border: 1px solid lightgray; */
+    /* border-bottom: 5px solid Black;  */
+    /* border-top: 5px solid Black;  */
+    text-align: center;
+    border-radius: 20px 20px 20px 20px; 
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.packagecountrydetails h2{
+    color: rgb(41, 41, 41);
+    margin-top: -20%;
+    margin-left: 30%;
+    font-size: 25px;
+}
+.packageflagimage{
+    width: 55px;
+    height: 50px;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.packagecountrydetails h4{
+    color: Black;
+    margin-top: 2%;
+}
+.packagebutton{
+    width: 60%;
+    height: 40px;
+    background-color: Black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 0%;
+    font-weight: 500;
+}
+.packagebutton:hover{
+    border: 2px solid Black;
+    background-color: white;
+    color: Black;
+    font-weight: 700;
+}
+.packagecountrydetails p{
+    color: Black;
+    font-size: 20px;
+    margin-top: -2%;
+    margin-left: 25%;
+    font-weight: 700;
+}

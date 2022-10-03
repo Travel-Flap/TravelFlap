@@ -1,0 +1,65 @@
+.countryselectmaincontainer{
+    display: flex;
+}
+
+.countryselectinnercontainer1{
+    width: 32%;
+    margin-left: 10%;
+}
+
+.countryselectinnercontainer1 h2{
+    color: white;
+    margin-top: 8%;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.countryselectdrop{
+    border: 3px solid white !important;
+    border-radius: 20px !important;
+    color: #3380f2 !important;
+    font-weight: 600 !important;
+    margin-top: 6%;
+}
+
+.countryselectinnercontainer2{
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
+
+.countryselectrow{
+    width: 100%;
+    /* margin-left: 3% !important; */
+}
+
+.countryselectoptiondiv{
+    margin-left: 3% !important;
+    gap: 5%;
+    /* border: none; */
+    /* border: 3px solid red; */
+    width: 120%;
+}
+
+.countryselectoptiondiv1{
+    margin-left: 3% !important;
+    gap: 5%;
+    /* border: none; */
+    /* border: 3px solid red; */
+    width: 120%;
+}
+
+
+.countryselectbuttoncontainer > .countryselectcardbutton{
+    /* margin-left: 3%; */
+    background-color: white !important;
+    color: #3380f2;
+    font-weight: 700;
+    width: 185%;
+    border-radius: 20px;
+}
+
+.countryselectbuttoncontainer button:hover{
+    background-color: blue !important;
+    color: white;
+}

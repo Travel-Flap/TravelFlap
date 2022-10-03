@@ -1,0 +1,99 @@
+.outercontainer {
+  margin: auto;
+  margin-top: 3%;
+  /* border: 1px solid red; */
+  margin-bottom: 5%;
+  display: flex;
+  gap: 5%;
+  height: 700px;
+  justify-content: center;
+  background-color: white;
+  width: 80%;
+  font-family: sans-serif;
+  /* border: 2px solid red; */
+}
+
+.footerlinksdropstate {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.innerdiv1 {
+  /* border: 1px solid yellow; */
+  width: 45%;
+  /* text-align: left !important; */
+  /* border: 2px solid rgb(38, 180, 10); */
+}
+
+.innerdiv1 p{
+  text-align: left;
+}
+.innerdiv1 h3 {
+  font-size: 25px;
+  margin-top: 4%;
+}
+.innerdiv2 {
+  /* border: 1px solid black; */
+  width: 45%;
+}
+
+.innerdiv2 p{
+  text-align: left;
+}
+.innerdiv2 h3 {
+  font-size: 25px;
+  margin-top: 4%;
+}
+
+/* This css is for the p  text there size and color */
+
+.linktext {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.slash {
+  color: black;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+@media screen and (max-width: 950px) {
+  .outercontainer {
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .outercontainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .innerdiv1 {
+    width: 100%;
+  }
+  .innerdiv2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+    .outercontainer {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+    .innerdiv1 {
+      width: 100%;
+    }
+    .innerdiv2 {
+      width: 100%;
+    }
+  }

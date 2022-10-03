@@ -1,0 +1,413 @@
+.newsLetterMainBox{
+  background: #3380f2;
+  opacity: 0.9;
+  width: 100%;
+  height: 325px;
+  /* margin: auto; */
+  display: flex;
+}
+.newsLetterOuter{
+  width: 100%;
+  height: 135px;
+  border-top: 1px solid #3380F2;
+  border-bottom: 1px solid #3380F2;
+}
+.section1{
+  margin-top: 1% !important;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.newsHeading{
+  width: 30%;
+  height: 100%;
+  display: flex;
+}
+.newslogo{
+  width:30%;
+  height: 100%;
+}
+.newslogo img{
+  width: 80%;
+  height: 70%;
+  margin: 15% 0 5% 10%;
+}
+.updateText{
+  margin: auto;
+  color: white;
+}
+
+.updateText h1{
+  font-size: 30px;
+}
+
+.updateText p{
+  font-size: 15px;
+}
+.newsInputs{
+  width: 70%;
+  height: 100%;
+}
+.inputdata{
+  width: 280px;
+  height: 50px;
+  border: 3px solid #3380F2;
+  color: #3380F2;
+  margin-top: 5%;
+  margin-left:2%;
+  border-radius: 3px;
+}
+.newsSubscribeButton{
+  background-color: #3380F2;
+  border: 3px solid white;
+  width: 170px;
+  height: 45px;
+  color: white;
+  font-weight: 700;
+  border-radius: 50px;
+  font-size: large;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+.newsSubscribeButton:hover{
+  background-color: white;
+  border: 3px solid #3380F2;
+  color: #3380F2;
+}
+.downloadLinks{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 200px;
+  /* border-bottom: 1px solid #3380F2; */
+}
+.section2{
+  /* border: 1px solid green; */
+  width: 80%;
+  margin: auto;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+}
+.downloadText{
+  width: 25%;
+  height: 50%;
+  margin: auto;
+  margin-left: 5%;
+  color: white;
+  border-right: 1px solid #3380F2;
+}
+.downloadText h2{
+  width: 100%;
+  margin-left: -4%;
+  /* border: 1px solid red !important; */
+  font-size: 24px;
+}
+
+
+
+.scanner{
+  width: 25%;
+  height: 100%;
+}
+.scanbar{
+width: 75%;
+height: 100%;
+margin-left: 0%;
+margin-top: -11%;
+}
+.scanimage{
+  width: 55%;
+  height: 60%;
+  margin: auto;
+  margin-top: 12%;
+}
+.scanimage img{
+  width: 100%;
+  height: 100%;
+}
+.scannerText{
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 950px) {
+    .section1{
+      flex-direction: column;
+      width: 100%;
+      border: 0px;
+      border-bottom: 1px solid #3380F2;
+    }
+    .newsHeading{
+      width: 100%;
+      display: none;
+    }
+    .newsInputs{
+      width: 100%;
+    }
+    .inputdata{
+      width: 25%;
+    }
+    .downloadText{
+      display: none;
+    }
+    .downloadButtons{
+      border-right: 0px;
+      margin-left: 20%;
+    }
+    .section2{
+      flex-direction: column;
+      border: 0;
+      width: 100%;
+      height: 200px;
+      text-align: center;
+    }
+    .scanner{
+      border: 2px solid #3380F2;
+      margin-left:33% ;
+    }
+    .scannerText{
+      line-height: 15px;
+      font-size: small;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+  .section1{
+      flex-direction: column;
+      width: 100%;
+      border: 0px;
+    }
+    .newsHeading{
+      width: 100%;
+      display: none;
+    }
+    .newsInputs{
+      width: 100%;
+      margin-left: 15%;
+    }
+    .inputdata{
+      width: 30%;
+    }
+    .downloadText{
+      display: none;
+    }
+    .downloadButtons{
+      border-right: 0px;
+      margin-left: 25%;
+    }
+    .newsSubscribeButton{
+      margin-left: 8%;
+    }
+    .section2{
+      flex-direction: column;
+      border: 0;
+      width: 100%;
+      height: 200px;
+      text-align: center;
+    }
+  .scanner{
+      border: 0px;
+  }
+}
+
+
+
+/* this one is the new css for the new session */
+
+.loadingtext{
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.newsletterimagediv{
+  /* border: 2px solid red; */
+  height: 310px;
+  object-fit: cover;
+  width: 30%;
+  margin-left: 5%;
+}
+
+.newsletterimagediv img{
+  height:350px;
+  border-radius: 22px;
+  /* margin-top: 8%; */
+}
+
+.newslettercontentdiv{
+  /* border: 2px solid green; */
+  margin-left: 2%;
+  display: flex;
+  margin-top: 1%;
+}
+
+.newslettercontentinnerdiv1{
+  /* border: 1px solid black; */
+  width: 60%;
+}
+
+.newslettercontentinnerdiv1textdiv h2{
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 2%;
+}
+.newslettercontentinnerdiv1textdiv p{
+  color: white;
+}
+
+.newsletterinputboxcontainer h4{
+  color: white;
+}
+
+.newslettercontentinnerdiv2{
+  /* border: 1px solid yellow; */
+  width: 35%;
+}
+
+
+
+/* .
+
+/* 
+.newsletterselectdrop{
+  border: 2px solid red;
+} */
+
+.newsletterselectdrop select{
+  border: 2px solid white;
+  height: 40px;
+  width: 55.5%;
+  border-radius: 9px;
+}
+.imageandcontent{
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.imageandcontent img{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 50px;
+}
+
+
+
+.flagandcode{
+  display: flex;
+  height: 50px;
+  /* border: 1px solid grey; */
+  margin-top: 1%;
+}
+
+.newsletterinputcontainer{
+  /* border: 1px solid red; */
+  display: flex;
+  margin-left: 1%;
+  width: 90%;
+}
+
+.newsletterinputinnerdiv{
+  border: 2px solid white;
+  background-color: white;
+  margin-top: 1%;
+  height: 50px;
+  width:50%;
+  display: flex;
+  border-radius: 9px;
+}
+
+.newsletterinputinnerdiv input::placeholder{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 200px;
+  color: #3380F2;
+  padding-top: 5px !important;
+}
+.newsletterinputcontainer p{
+  color: #3380F2;
+  margin-top: 3.8%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.newsletterinputboxcontainer input{
+  margin-top: 1%;
+  height: 45px;
+  border: 2px solid white;
+  border-radius: 9px;
+  font-weight: 700; 
+  margin-left: 2%;
+}
+
+.newsletterbuttondiv{
+  /* border: 2px solid white; */
+  margin-left: 3%;
+}
+
+.newsletterbuttondiv button{
+  border-radius: 9px;
+  margin-top: 5%;
+  height:50px;
+  width: 100%;
+  background-color: white;
+  color: #3380F2;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.scannermaindiv img{
+  width: 45%;
+  margin-left: 18%;
+}
+
+.scannermaindiv p{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5%;
+  margin-bottom: -2%;
+  margin-left: 20%;
+}
+
+/* .androidandisoimagesdiv{
+  border: 2px solid red;
+} */
+
+.appStoreButton{
+  width: 50%;
+  height: 20%;
+  display: inline-block;
+}
+.appStoreButton img{
+  width: 70%;
+  height: 100%;
+}
+
+
+.googelPlaybutton{
+  width: 50%;
+  height: 20%;
+  display: inline-block;
+  /* margin: 5%; */
+  /* margin-top: 9%; */
+}
+.googelPlaybutton img{
+  width: 70%;
+  height: 100%;
+}
+
+.downloadButtons{
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #3380F2;
+}
+
+
+
+

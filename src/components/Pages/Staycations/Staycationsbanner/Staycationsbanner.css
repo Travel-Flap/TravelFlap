@@ -1,0 +1,12 @@
+.staycationsbannerdiv{
+    /* border: 12px solid red; */
+    width: 100%;
+    height: 450px;
+    background-image: url("./staycationbanner.jpeg");
+    /* background-image: url("https://a0.muscache.com/im/pictures/918dc4a3-d410-4d07-9ccf-d93d83495ec4.jpg?im_w=1200"); */
+    /* background-image: url("https://a0.muscache.com/im/pictures/3f524723-b711-45e0-b75e-a1b66283da14.jpg?im_w=1200"); */
+    padding-top: 100px;
+    background-size: cover;
+    /* position: relative; */
+    object-fit: cover;
+}

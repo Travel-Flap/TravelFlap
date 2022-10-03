@@ -1,0 +1,46 @@
+.trending-heading{
+    color: rgb(51,128,242);
+}
+
+.trending_row{
+    padding-left: 9%;
+    width: 85%;
+    box-sizing: border-box;
+}
+
+.trending_column{
+    width: 85%;
+}
+
+.trending_column .mb-3{
+    border: none;
+}
+.trending-heading{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.trending-title{
+    margin: auto;
+    align-items: top;
+
+}
+
+.trendingtexts{
+    text-align: left;
+    padding: 1rem 0rem;
+}
+
+.trendingtexts > .trending-title{
+    width: 135%;
+}
+
+
+@media only screen and (min-width: 760px) and (max-width: 1024px) {
+    .trending_row{
+        width: 85%;
+    }
+}

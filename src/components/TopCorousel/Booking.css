@@ -1,0 +1,431 @@
+/* .filter-travel-container{
+    border: 1px solid rgb(51, 128, 242, 0.7) !important;
+    justify-content: center !important;
+    gap: 3% !important;
+}
+.from-name{
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+.form-check-label{
+    color: white !important;
+}
+
+.from-name h3{
+    font-size: 16px;
+    color: white !important;
+}
+.from-name input{
+    width: 96%;
+    font-size: 16px;
+    height: 60px;
+    border-radius: 12px;
+}
+.date-from{
+    color: white;
+    font-size: 15px;
+}
+
+.date-from input{
+    width: 116%;
+    height: 60px;
+    border-radius: 12px;
+}
+.date-from h3{
+    font-size:16px;
+}
+.search-btn{
+    background-color: rgb(51,128,242) !important;
+}
+
+
+#travel{
+    border: 1px solid white;
+}
+#travel p {
+    color: white;
+}
+#travel h6{
+    color: white;
+    padding: -1px 0px;
+    font-weight: 16px;
+}
+.form-check-label{
+   font-size: 18px;
+}
+.form-check-input{
+    width: 20px;
+    height: 15px;
+    border: 1px solid red;
+} */
+
+
+/* .bookingouter{
+    width: 100%;
+    height: 230px;
+    margin-bottom: 2.5%;
+}
+
+.dropbtn {
+    background-color: white;
+    color:#3380F2;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    border: 3px solid #3380F2;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .tripdropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 6.7%;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3380F2;
+    min-width: 150px;
+    font-size: 17px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 12px;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .tripdropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .tripdropdown:hover .dropbtn {
+    background-color: #3380F2;
+    color: white;
+    border: 3px solid white;
+  }
+  .optionbtn{
+     padding: 6px;
+     width:150px;
+     margin-left:-30%;
+  }
+  .optioncontent{
+    margin-left: -18%;
+  }
+  .tripoptionsdiv{
+    display: flex;
+    flex-direction: row;
+  }
+  #passengerInput{
+    border:3px solid #3380F2;
+    color: blue;
+    margin-left: 3%;
+    width: 70%;
+    margin-top: 1%;
+    height: 35px;
+    border-radius: 8px;
+    
+    width: 80%;
+  }
+  .datainputs{
+    display: flex;
+    flex-direction: row;
+  }
+  .bookdestinations{
+    border: 3px solid #3380F2;
+    border-radius: 8px;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 45%;
+    color: #3380F2;
+    
+  }
+  .bookdestinations::placeholder{
+    font-size: 16px;
+    color: #3380F2;
+  }
+
+  #passengerInput::placeholder{
+    font-size: 13px;
+    margin-bottom: 15% !important;
+    color: #3380F2;
+  }
+ .searchflightbutton{
+    border: 3px solid #3380F2;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 45.5%;  
+    font-size: 13px;
+    height: 40px;
+    width: 12%;
+    color: #3380F2;
+    font-weight: 700;
+ }
+ .flyingdestination{
+    margin-left: 6%;
+ }
+
+ .react-datepicker__input-container input{
+  width: 100%;
+ }
+
+ .optionbtn::placeholder{
+  font-size: 20px;
+ }
+
+ .react-datepicker__input-container input::placeholder{
+  font-size: 15px;
+  color: #3380F2;
+ } */
+
+
+
+
+ /* .filter-travel-container{
+    border: 1px solid rgb(51, 128, 242, 0.7) !important;
+    justify-content: center !important;
+    gap: 3% !important;
+}
+.from-name{
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+.form-check-label{
+    color: white !important;
+}
+
+.from-name h3{
+    font-size: 16px;
+    color: white !important;
+}
+.from-name input{
+    width: 96%;
+    font-size: 16px;
+    height: 60px;
+    border-radius: 12px;
+}
+.date-from{
+    color: white;
+    font-size: 15px;
+}
+
+.date-from input{
+    width: 116%;
+    height: 60px;
+    border-radius: 12px;
+}
+.date-from h3{
+    font-size:16px;
+}
+.search-btn{
+    background-color: rgb(51,128,242) !important;
+}
+
+
+#travel{
+    border: 1px solid white;
+}
+#travel p {
+    color: white;
+}
+#travel h6{
+    color: white;
+    padding: -1px 0px;
+    font-weight: 16px;
+}
+.form-check-label{
+   font-size: 18px;
+}
+.form-check-input{
+    width: 20px;
+    height: 15px;
+    border: 1px solid red;
+} */
+
+
+.bookingouter{
+  width: 100%;
+  height: 230px;
+  margin-bottom: 2.5%;
+}
+
+.dropbtn {
+  background-color: white;
+  color:#3380F2;
+  padding: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  border: 3px solid #3380F2;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tripdropdown {
+  position: relative;
+  display: inline-block;
+  margin-left:21%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3380F2;
+  min-width: 150px;
+  font-size: 17px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+  text-align: left;
+  line-height: 12px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.tripdropdown:hover .dropdown-content {
+  display: block;
+}
+
+.tripdropdown:hover .dropbtn {
+  background-color: #3380F2;
+  color: white;
+  border: 3px solid white;
+}
+.optionbtn{
+   width:120px;
+   margin-left:-150%;
+}
+.optioncontent{
+  margin-left: -162%;
+}
+.tripoptionsdiv{
+  display: flex;
+  flex-direction: row;
+}
+#passengerInput{
+  border:3px solid #3380F2;
+  color: blue;
+  margin-left: -35%;
+  width: 70%;
+  margin-top: 1%;
+  height: 35px;
+  border-radius: 8px;
+  width: 80%;
+}
+.datainputs{
+  display: flex;
+  flex-direction: row;
+}
+.bookdestinations{
+  border: 3px solid #3380F2;
+  border-radius: 8px;
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 35%;
+  color: #3380F2;
+  
+}
+.bookdestinations::placeholder{
+  font-size:16px;
+  color: #3380F2;
+  padding-left: 15px;
+}
+.calendar::placeholder{
+  padding-left: 15px;
+}
+#passengerInput::placeholder{
+  font-size: 13px;
+  margin-bottom: 15% !important;
+  color: #3380F2;
+  padding-left: 15px;
+}
+.searchflightbutton{
+  border: 3px solid #3380F2;
+  border-radius: 20px;
+  margin-top: 2%;
+  margin-left: 45.5%;  
+  font-size: 13px;
+  height: 40px;
+  width: 12%;
+  color: #3380F2;
+  font-weight: 700;
+}
+.flyingdestination{
+  margin-left: 16%;
+}
+
+.react-datepicker__input-container input{
+width: 100%;
+}
+
+.optionbtn::placeholder{
+font-size: 20px;
+padding-left: 15px;
+}
+
+.react-datepicker__input-container input::placeholder{
+font-size: 15px;
+color: #3380F2;
+}
+
+@media screen  and (max-width:950px){
+.searchflightbutton{
+  border: 3px solid #3380F2;
+  border-radius: 20px;
+  margin-top: 2%;
+  margin-left: 40%;  
+  font-size: 13px;
+  height: 40px;
+  width: 24%;
+  color: #3380F2;
+  font-weight: 700;
+}
+.tripoptionsdiv{
+flex-direction: column;
+margin-top: -7%;
+}
+.optionbtn{
+margin: auto;
+margin-top: 2%;
+}
+#passengerInput{
+ width: 71%;
+ margin-left: 17%;
+ margin-top: 2%;
+}
+.dropbtn{
+width: 90%;
+margin-left:-5%;
+}
+}
+@media screen  and (max-width:450px){
+.searchflightbutton{
+  border: 3px solid #3380F2;
+  border-radius: 20px;
+  margin-top: 2%;
+  margin-left: 30%;  
+  font-size: 13px;
+  height: 40px;
+  width: 40%;
+  color: #3380F2;
+  font-weight: 700;
+}
+}
