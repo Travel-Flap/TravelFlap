@@ -42,9 +42,9 @@ export const Hotel_Banner = () => {
                             <GiPalmTree size={"1.9em"} className="carouselFormicon" />
                             Holidays
                         </Link>
-                        <Link to="/Villa" className='carouselhotelmenu-icon' >
+                        <Link to="/Staycations" className='carouselhotelmenu-icon' >
                             <FaLaptopHouse size={"1.9em"} className="carouselFormicon" />
-                            Villas
+                            Staycations
                         </Link>
                         <Link to="/cruise" className='carouselhotelmenu-icon' >
                             <GiCruiser size={"1.9em"} className="carouselFormicon" />

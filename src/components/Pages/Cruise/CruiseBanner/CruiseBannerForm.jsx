@@ -62,9 +62,9 @@ export const HolidayCarouselForm = () => {
                     <GiPalmTree size={"1.9em"} className="carouselFormicon" />
                     Holidays
                 </Link>
-                <Link to="/Villa" className='carouselcruisemenu-icon' >
+                <Link to="/staycations" className='carouselcruisemenu-icon' >
                     <FaLaptopHouse size={"1.9em"} className="carouselFormicon" />
-                    Villas
+                    Staycations
                 </Link>
                 <Link to="/cruise" className='carouselcruisemenu-icon' >
                     <GiCruiser size={"1.9em"} className="carouselFormicon" />

@@ -37,10 +37,10 @@ export const InternationalDestinations = () => {
     return (
         <div className="internationalmaindiv">
             {/* <h1>Ipl</h1> */}
-            <div className="internationalheadingcontainer" >
+            <div className="internationalheadingcontainer">
                 <h2 className="internationalheading1">InterNational Destinations</h2>
                 <div className="internationalheading2">
-                    <select name='country' className="form-select countryhomecardselectdrop1" style={{ width: "56%" }} onChange={(e) => handlecounty(e)} aria-label="Default select example">
+                    <select name='country' className="form-select countryhomecardselectdrop1" id='internationalDestinationscountryoption' onChange={(e) => handlecounty(e)} aria-label="Default select example">
                         <option id='homecarddropbox' value="">Select Country</option>
                         {
                             countrydata.map((getcountry, index) => (

@@ -102,10 +102,10 @@
   margin-top: 2%;
   text-align: center;
   width: 100%;
-  font-size: 22px;
+  font-size: 5px !important;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  line-height: 29px;
+  /* line-height: 29px; */
   vertical-align: baseline;
   color: #3380f2;
   font-weight: 700;

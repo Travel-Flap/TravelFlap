@@ -47,7 +47,7 @@ export const Flights = () => {
             
             <NearFlightsInternational/>
 
-            <NearFlightsDomestic/>
+            {/* <NearFlightsDomestic/> */}
 
             <PopularDestinations />
 

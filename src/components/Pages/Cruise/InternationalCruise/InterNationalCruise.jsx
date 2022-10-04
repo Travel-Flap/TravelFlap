@@ -44,7 +44,7 @@ export const InternationalCruise = () => {
             <div className="internationalcruiseheadingcontainer" >
                 <h2 className="internationalcruiseheading1">InterNational Destinations</h2>
                 <div className="internationalcruiseheading2">
-                    <select name='country' className="form-select countrycruisecardselectdrop" style={{ width: "56%" }} onChange={(e) => handlecounty(e)} aria-label="Default select example">
+                    <select name='country' className="form-select countrycruisecardselectdrop" id='internationalcruisecountrydrop'  onChange={(e) => handlecounty(e)} aria-label="Default select example">
                         <option id='homecarddropbox' value="">Select Country</option>
                         {
                             countrydata.map((getcountry, index) => (
@@ -77,83 +77,10 @@ export const InternationalCruise = () => {
                 <div className="viewallinternationalcruisebuttons" >
                     <p className="viewallinternationalcruisetext">view deals</p>
                     <div className="internationalcruiseheadingbuttons">
-                        {/* <div style={{ display: "flex" }}>
-                            <ButtonBase
-                                style={{
-                                    width: 35,
-                                    height: 35,
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "center",
-                                    marginRight: 10,
-                                    marginTop:8,
-                                    borderRadius: 7,
-                                    boxShadow: "0 1px 3px rgb(0 0 0 / 10%)",
-                                    cursor: "pointer",
-
-                                }}
-                                className="buttons internationalbutton1"
-                                onClick={() => sliderRef.current.slickPrev()}
-                            >
-                                <ArrowBackIos />
-                            </ButtonBase>
-                            <ButtonBase
-                                style={{
-                                    width: 35,
-                                    height: 35,
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "center",
-                                    borderRadius: 7,
-                                    marginTop:8,
-                                    boxShadow: "0 1px 3px rgb(0 0 0 / 10%)",
-                                    cursor: "pointer",
-                                }}
-                                className="buttons"
-                                onClick={() => sliderRef.current.slickNext()}
-                            >
-                                <ArrowForwardIos />
-                            </ButtonBase>
-                        </div> */}
                         <div style={{ display: "flex" }}>
                             <FaAngleLeft size={"2.5em"}
                                 onClick={() => sliderRef.current.slickPrev()}
                             />
-                            {/* <ButtonBase
-                                style={{
-                                    width: 35,
-                                    height: 35,
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "center",
-                                    marginRight: 10,
-                                    borderRadius: 7,
-                                    color:"blue",
-                                    boxShadow: "0 1px 3px rgb(0 0 0 / 10%)",
-                                    cursor: "pointer",
-                                    border:"2px solid black",
-                                }}
-                                className="buttons exclusivebutton1"
-                                onClick={() => sliderRef.current.slickPrev()}
-                            >
-                                <ArrowBackIos />
-                            </ButtonBase> */}
-                            {/* <ButtonBase
-                                style={{
-                                    width: 35,
-                                    height: 35,
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "center",
-                                    borderRadius: 7,
-                                    boxShadow: "0 1px 3px rgb(0 0 0 / 10%)",
-                                    cursor: "pointer",
-                                }}
-                                className="buttons"
-                                onClick={() => sliderRef.current.slickNext()}
-                            >
-                                <ArrowForwardIos />
-                            </ButtonBase> */}
                             <FaAngleRight size={"2.5em"}
                                 onClick={() => sliderRef.current.slickNext()}
                             />

@@ -39,7 +39,7 @@ export const HotelNav = () => {
                                 <li> <FaShip size={"1.5em"} />
                                 <Link to="/cruise"> <p className='fixed-menu-link'>Cruise</p> </Link> </li>
                                 <li> <FaLaptopHouse size={"1.5em"} />
-                                <Link to="/villa"> <p className='fixed-menu-link'>Villa</p> </Link> </li>
+                                <Link to="/staycations"> <p className='fixed-menu-link'>Villa</p> </Link> </li>
                                 <li> <MdOutlineLocalActivity size={"1.5em"} /> 
                                 <Link to="/activities"> <p className='fixed-menu-link'>Activities</p> </Link> </li>
                                 <li> <CgMoreAlt size={"1.5em"} /> <p className='fixed-menu-link' id='moreoptions'>More

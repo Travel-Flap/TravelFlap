@@ -13,6 +13,7 @@ import { Visa } from "./components/Pages/Visa/Visa";
 import { VisaDetails} from "./components/Pages/Visa/VisaInnerpages/VisaDetails";
 import { Cruise } from "./components/Pages/Cruise/Cruise";
 import { Flights } from "./components/Pages/Flights/Flights";
+import { Staycations } from "./components/Pages/Staycations/Staycations";
 import { Rentals } from "./components/Pages/Rentals/Rentals";
 
 function App() {
@@ -31,12 +32,13 @@ function App() {
         <Route path="/offers" element={<Offers />}   />
         <Route path="/holidays" element={<Holidays />} />
         <Route path="/hotel" element={<Hotel />} />
+        <Route path="/staycations" element={<Staycations />} />
         <Route path="/activities" element={<Activities />} />
         <Route path="/visa" element={<Visa/>}/>
         <Route path="/visadetail" element={<VisaDetails/>} />
         <Route path="/cruise" element={<Cruise/>} />
         <Route path="/flights" element={<Flights/>} />
-        <Route path="/rentals" element={ <Rentals/>} />
+        {/* <Route path="/rentals" element={ <Rentals/>} /> */}
       </Routes>
     </>
   );

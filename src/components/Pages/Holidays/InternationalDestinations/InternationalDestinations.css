@@ -49,6 +49,11 @@
     /* display: flex;
     flex-direction: row; */
   }
+  
+  #internationalDestinationscountryoption{
+    /* border: 2px solid red !important; */
+    width: 43% !important;
+  }
   .internationalheading {
     border-radius: 50px;
   }

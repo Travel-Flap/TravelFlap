@@ -8,8 +8,8 @@
 .topcities_title {
   display: flex;
   margin-left: 40%;
-  margin-bottom: 3%;
-  margin-top: 3%;
+  margin-bottom: 2%;
+  margin-top: -3%;
   font-size: 40px;
   color: rgb(51, 128, 242);
 }

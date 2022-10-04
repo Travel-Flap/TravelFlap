@@ -19,7 +19,7 @@ export const NearFlightsInternational = () => {
         <div className="exclusivemaindiv">
             {/* <h1>Ipl</h1> */}
             <div className="exclusiveheadingcontainer" >
-                <h2 className="internationalflightheading">International Flights Near You!</h2>
+                <h2 className="internationalflightheading">Flights Near You!</h2>
                 {/* <div className="exclusiveheading2">
                     <div className="exclusiveheading">Deals</div>
                     <div className="exclusiveheading">Flights</div>
