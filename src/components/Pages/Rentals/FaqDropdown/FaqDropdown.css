@@ -1,5 +1,29 @@
-.accordion_dropdowncontainer{
-    border: 2px solid red;
+
+.faq_maincontainer{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    gap: 5%;
+}
+
+
+.accordion_dropdownmaincontainer1{
+    /* border: 2px solid red; */
     margin-top: 4%;
-    width: 35%;
+    width: 45%;
+}
+
+.accordion_dropdownmaincontainer2{
+    /* border: 2px solid blue; */
+    margin-top: 4%;
+    width: 45%;
+}
+
+.faq_heading{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 20px;
+    /* color: #3380f2; */
 }

@@ -64,10 +64,10 @@
     margin-top: 0%;
   }
   
-  .dropcontainer{
+  .droprentalbannercontainer{
     display: flex;
     height: 100px;
-    margin-bottom: 1%;
+    margin-bottom: 4%;
     /* border: 2px solid black; */
     /* background-color: #3380f2; */
 }
@@ -86,11 +86,12 @@
    /* margin-top: 6%; */
 
 }
-.innerdropdowncontainer2{
+.innerrentalbannerdropdowncontainer2{
     /* border: 1px solid red; */
     /* border: 3px solid white; */
     /* background-color: blue; */
-    width: 70%;
+    width: 100%;
+    margin: auto;
 }
 
 /* .rentalpickupcontainer{
@@ -98,38 +99,105 @@
 } */
 
 .bannerstyle{
-    border: none;
+    border: 3px solid #3380f2;
+    width: 94%;
+    height: 50px;
+    border-radius: 7px;
+    color: #3380f2 !important;
+    padding-left: 15px;
+    outline: none;
+    font-weight: 700;
 }
+
+
+.bannerstyle::placeholder{
+  color: #3380f2;
+  /* padding-left: 15px; */
+  font-weight: 700;
+}
+
+.bannerstyle::placeholder:hover{
+  color: white !important;
+}
+/* 
+.rentalpickupcontainer1{
+  border: 2px solid #3380f2;
+} */
+
+.rentalpickupcontainer1 p{
+  margin-bottom: 2%;
+  font-size: 18px;
+}
+
+
 
 .rentalpickupcontainer p{
     margin-bottom: 2%;
+    font-size: 18px;
+    font-weight: 500;
 }
 .rentalpickupcontainer input{
-    border: 2px solid #1a71f5;
+    border: 3px solid #3380f2;
+    height: 50px;
+    border-radius: 7px;
+    padding-left: 10px;
+    color: #3380f2;
+    font-weight: 700;
+    outline: none ;
 }
 
-.optionscontainer{
+
+.optionsrentalcontainer{
     /* border: 2px solid white; */
     display: flex;
     margin-top: 2%;
+    margin-left: 4%;
 }
-.singledropcontainer{
+.singlerentalbannerdroprentalbannercontainer{
     /* border: 1px solid red; */
     /* width: 80%; */
     margin-left: 1%;
+    margin-top: 0.2%;
     border: none;
 }
 
-.singledropcontainer button{
-    /* margin-left: 3%; */
+.singlerentalbannerdroprentalbannercontainer1{
+  /* border: 1px solid red; */
+  /* width: 80%; */
+  margin-left: 1%;
+  /* border: 1px solid red !important; */
+  width: 30%;
+  border: none;
+}
+
+.bannerformbutton{
+  /* border: 2px solid red; */
+  height: 50px !important;
+  width: 130% !important;
+  margin-top: 27%;
+  border: 3px solid #3380f2;
+  background-color: white;
+  color: #3380f2;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.bannerformbutton:hover{
+  background-color: #3380f2;
+  /* border: 3px solid white; */
+}
+
+/* .singlerentalbannerdroprentalbannercontainer button{
     background-color: blue !important;
     color:white;
 }
 
-.singledropcontainer button:hover{
+.singlerentalbannerdroprentalbannercontainer button:hover{
     background-color: #3380f2;
     color: white;
-}
+} */
+
+
 /* style={{ marginLeft: "8%", background: "white", color: "blue" }} */
 
   #travel {
@@ -154,10 +222,7 @@
     margin-top: -2%;
     color: white;
   }
-  #departure:hover{
-    background-color: blue;
-    color: white;
-  }
+  
   #departure h3 {
     font-size: 13px;
     font-weight: 700;
@@ -193,7 +258,7 @@
     align-items: center;
     position: relative;
     z-index: 1000;
-    bottom: 78%;
+    bottom: 66%;
     color: white  !important;
     border-radius: 40px;
   }
@@ -504,7 +569,7 @@
 .bannerheading{
     /* border: 1px solid red; */
     text-align: center;
-    color: #1a71f5;
+    color: #3380f2;
     font-weight: bold;
     font-size: 40px;
     margin-top: 10%;
@@ -518,6 +583,18 @@
     height: 90px;
     border-radius: 10px;
     background-color: white;
+}
+.timedrop{
+  height: 50px;
+  width: 100%;
+  color: #3380F2;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.timedrop:hover{
+  background-color: #3380f2;
+  color: white;
 }
 .selectcountry{
     width: 25%;

@@ -1,0 +1,334 @@
+.popularcarhiremaindiv{
+    width: 100%;
+    margin-top: 5%;
+  }
+  
+  .popularcarhireouterdiv {
+    border: 2px solid lightgray;
+    display: flex !important;
+    flex-direction: row !important;
+    width: 96%;
+    height: 350px !important;
+    box-shadow: 4px 4px 4px rgb(211,211,211);
+    border: none;
+    transition: all 300ms ease-in-out;
+  }
+
+  .popularcarhireouterdiv:hover {
+    width: 100%;
+    padding: 5px;
+    box-shadow: 5px 10px 25px  #3380f2;
+  }
+  
+  .popularcarhireheadingcontainer {
+    background-color: #3380f2;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    /* margin: auto; */
+    margin-top: 3%;
+  }
+  
+  .popularcarhireheading1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 1.5%;
+    margin-left: 4%;
+    width:38%;
+    color: white;
+    /* color: #3380f2; */
+  }
+  
+  .popularcarhireheading2 {
+    width: 46%;
+    height: 40px;
+    justify-content: center;
+    margin: 0.6% 0 1% 1%;
+    font-size: 15px;
+    /* display: flex;
+    flex-direction: row; */
+  }
+  
+  #internationalDestinationscountryoption{
+    /* border: 2px solid red !important; */
+    width: 43% !important;
+  }
+  .internationalheading {
+    border-radius: 50px;
+  }
+  
+  .internationalheading:hover{
+    background-color: white;
+    color: #3380f2;
+  }
+  .popularcarhireheading2 div {
+    /* border: 3px solid rgb(51, 128, 242); */
+    border: 2px solid white;
+    width: 130px !important;
+    height: 33px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 4%;
+    margin-right: 4%;
+    border-radius: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: white;
+  }
+
+  .popularcarhireheading2 select{
+    /* border: 1px solid red; */
+    margin-left: 0%;
+  }
+  
+  /* .popularcarhireheading2 div:hover {
+    background-color: #3380f2;
+    color: white;
+  } */
+  .viewallpopularcarhirebuttons {
+    color: white;
+    font-weight: 700;
+    text-decoration: none !important;
+    display: flex;
+    margin: 1% 0 0 35%;
+    width: 38%;
+  }
+  
+  .popularcarhireslidercontainer{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 1.7%;
+  }
+  .popularcardestinationcardtitle {
+    color: #3380f2 !important;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .popularcardestinationcard_desc {
+    width: 100%;
+    color: #3380f2;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .popularcarhireimagetextcontainer {
+    width: 100%;
+    height: 430px;
+  }
+  
+  .popularcarhiretextcard {
+    width: 100% !important;
+  }
+
+  .popularcarhiretextcard:hover div {
+    color: white;
+  }
+  
+  .exclusivedealsimagediv {
+    width: 800px;
+    height: 200px !important;
+  }
+  .exclusivedealsimage {
+    width: 700px;
+    height: 10px;
+    margin-left: 40%;
+  }
+  
+  .popularcarhirecardimage {
+    border: none;
+    width: 100% !important;
+    object-fit: cover;
+  }
+
+  .popularcarhirecardimage img{
+    height: 200px;
+    width: 100%;
+  }
+
+  .popularcardestinationcarddescmain {
+    width: 100%;
+    margin-bottom: 25%;
+  }
+  
+  .exclusivecarddesc:hover {
+    color: white;
+  }
+
+  .viewallpopularcarhiretext{
+    margin-top: 1.5%;
+    border: 2px solid white;
+    /* padding: 3px; */
+    margin-bottom: 9%;
+    margin-left: 11px;
+    border-radius: 20px;
+    width: 35%;
+    font-size: 15px;
+    height: 35px;
+    font-weight: 700;
+    padding-left: 14px;
+    padding-top: 3px;
+    /* padding: 5px 0px 3px 12px !important; */
+    /* padding-left: 9px;
+    padding-top: 5px; */
+  }
+
+  .viewallpopularcarhiretext:hover{
+    background-color: white;
+    color: #3380f2;
+  }
+  
+  .popularcarhireheadingbuttons {
+    justify-content: flex-end;
+    width: -1%;
+    margin-left: 6%;
+  }
+
+  
+  .popularcarhireheadingbuttons button{
+    color: #3380f2 !important;
+    background-color: white !important;
+  }
+  
+  
+  .line-indicator li {
+    height: 4px;
+    width: 70px;
+    background: lightgray;
+    border-radius: 5px;
+  }
+  
+  .line-indicator li:hover {
+    background: gray;
+  }
+  
+  .line-indicator li.slick-active {
+    background: blue;
+  }
+
+  .buttons {
+    background: rgb(51, 128, 242) !important;
+    color: white !important;
+    transition: 700ms;
+  }
+  .buttons:hover {
+    transform: scale(1.1);
+  }
+  .popularcarhiredestinationbutton {
+    border: 3px solid #3380f2;
+    width: 34%;
+    border-radius: 15px !important;
+    background-color: white;
+    color: #3380f2;
+    padding: 4px 12px;
+    font-weight: 600;
+    margin-bottom: 1%;
+    font-size: 15px !important;
+  }
+  .popularcarhiredestinationbutton:hover {
+    border: 3px solid white;
+    background-color: #3380f2;
+    color: white;
+    font-weight: 600;
+    font-size: 15px !important;
+  }
+  
+  
+  @media screen and (max-width: 950px) {
+    .popularcarhireimagetextcontainer {
+      flex-direction: column;
+    }
+    .col-md-4 {
+      width: 90%;
+      height: 280px;
+      margin-left: 3%;
+      margin-top: 10%;
+    }
+    .card-title {
+      font-size: 17px;
+    }
+    .card-text {
+      font-size: 13px;
+    }
+    .viewallpopularcarhirebuttons {
+      display: none;
+    }
+    .popularcarhireheading1 {
+      display: none;
+    }
+    .popularcarhireheadingcontainer {
+      flex-direction: column;
+    }
+    .popularcarhireheading2 {
+      width: 100%;
+    }
+    .popularcarhireimagetextcontainer img {
+      width: 100%;
+      height: 100%;
+    }
+    .exclusivedealsimage {
+      width: 100%;
+      height: 100%;
+    }
+    .popularcarhiretextcard {
+      margin-left: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .popularcarhireimagetextcontainer {
+      flex-direction: column;
+    }
+    .col-md-4 {
+      width: 90%;
+      height: 280px;
+      margin-left: 3%;
+      margin-top: 5%;
+    }
+    .card-title {
+      font-size: 17px;
+    }
+    .card-text {
+      font-size: 13px;
+    }
+    .viewallpopularcarhirebuttons {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: -50px;
+      text-align: right;
+      width: 40%;
+      font-size: 14px;
+      margin-left: 52%;
+    }
+    .popularcarhireheading2 {
+      display: none;
+    }
+    .popularcarhireheadingbuttons {
+      display: none;
+    }
+    .popularcarhireheading1 {
+      display: inline-block;
+      vertical-align: top;
+      width: 40%;
+      font-size: 16px;
+      margin-left: 3%;
+    }
+    .popularcarhireheadingcontainer {
+      flex-direction: column;
+    }
+    .popularcarhireimagetextcontainer img {
+      width: 100%;
+      height: 100%;
+    }
+    .exclusivedealsimage {
+      width: 100%;
+      height: 100%;
+    }
+    .popularcarhiretextcard {
+      margin-left: 8px;
+    }
+  }
+  
