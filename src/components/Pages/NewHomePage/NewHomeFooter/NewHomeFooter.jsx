@@ -13,7 +13,7 @@ export const NewHomeFooter = () => {
         <div className="newhomefooterparentcontainer">
             <div className="newHomeFootertextcontainer1">
                 <img
-                    src="Images/travelFlapLogo.jpg"
+                    src="Images/TravelFlapLogo.jpg"
                     alt="footer logo"
                 />
             </div>
