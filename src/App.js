@@ -15,6 +15,7 @@ import { Cruise } from "./components/Pages/Cruise/Cruise";
 import { Flights } from "./components/Pages/Flights/Flights";
 import { Staycations } from "./components/Pages/Staycations/Staycations";
 import { Rentals } from "./components/Pages/Rentals/Rentals";
+import { NewHomeLayout } from "./components/Pages/NewHomePage/NewHomeLayout";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
         {/* <Router path="./components/Pages/Home/Home.jsx">Home</Router> */}
       <Routes>
         {/* <Router path="/home" element={<Home/>}></Router> */}
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<NewHomeLayout/>} />
         <Route path="/offers" element={<Offers />}   />
         <Route path="/holidays" element={<Holidays />} />
         <Route path="/hotel" element={<Hotel />} />

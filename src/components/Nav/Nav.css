@@ -103,7 +103,8 @@
 .nav-link {
   height: 36px;
   border-radius: 4px;
-  background-color: #3380f2;
+  /* background-color: #3380f2; */
+  background: transparent !important;
   cursor: pointer;
   margin: 0 5px 0 0;
   width: 70px;
@@ -149,7 +150,8 @@
 #offerlink{
   height: 36px;
   border-radius: 4px;
-  background-color: #3380f2;
+  background: transparent !important;
+  /* background-color: #3380f2; */
   cursor: pointer;
   margin: 0% 5px 0 0;
   width: 70px;
@@ -208,7 +210,8 @@
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
-  border: 2px solid white;
+  /* border: 2px solid white; */
+  border: none !important;
   background-color: #3380f2;
   width: 40%;
   padding-left: 7px;

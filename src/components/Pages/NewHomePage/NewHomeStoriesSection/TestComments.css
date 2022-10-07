@@ -1,0 +1,72 @@
+
+.testcommentsdivouter{
+    background:transparent;
+    width: 34%;
+    margin: auto;
+    height: 275px;
+    /* border: 2px solid ; */
+}
+.testcommentsprofilediv{
+    width: 50px !important;
+    height: 50px !important;
+    border: 1px solid #3380F2;
+    z-index: 100;
+    border-radius: 50%;
+    margin: auto;
+    /* background-color: white; */
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 3%;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/3135/3135715.png");
+    /* margin-top: 4%;
+    margin-left: 39.5%; */
+    /* margin-top: 5%; */
+}
+.testcommentstextdiv{
+    width: 330px;
+    height: 150px;
+    /* border: 2px solid gold; */
+    z-index: 10;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    margin-left:3.3%;
+    margin-top: 1.5%;
+    color: #3380F2;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    /* margin-left: 41%;
+    margin-top: 5%; */
+}
+.testcommentsnamediv{
+    width: 330px;
+    height: 150px;
+    border: 2px solid white;
+    z-index: 1;
+    background:transparent;
+    margin: auto;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 16.5%;
+    margin-top: 2.3%;
+    color: white;
+    font-size: 19px;
+    /* margin-left: 43%;
+    margin-top: 7.4%; */
+}
+.testcommentssliderdata{
+    width: 80%;
+    height:100%;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+.testcommentsmaindivslider{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: #3380F2;
+    border: 2px solid gold;
+    height: 80px;
+  }

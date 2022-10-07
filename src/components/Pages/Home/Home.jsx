@@ -1,21 +1,14 @@
 import React from 'react'
 import { ControlledCarousel } from "../../TopCorousel/Corousel";
 import { DataCards } from "../../Cards/Cards";
-import { Middleslider } from "../../MiddleCorousel/Middleslider";
 import { Footer } from "../../Footer/Footer";
 
-import { TitleBar } from "../../TopTitleBar/TitleBar";
 import { CardText } from "../../CardwithText/CardText";
 import { BottomBar } from "../../BottomBar/BottomBar";
 
 import ImageSlider from "../../MultipleCards/MultiCardSlider";
-
-// import {OurPartners} from "../../OurPatnersSection/OurPartners";
 import OurPartners from '../../OurPatnersSection/OurPartners';
-
-// import { Carousel } from "../../TopCorousel/Corousel";
 import { PopularDestinations } from '../../PopularDestinations/PopularDestinations';
-// import PopularDestinations from '../../ExclusiveDeals/ExclusiveDeals';
 
 import EasyVisaDestination from "../../EasyVisaDestinations/EasyVisaDestinations";
 import { Newsletter } from '../../NewsLetter/NewsLetter';
@@ -23,14 +16,18 @@ import Awards from '../../Achievements/Awards';
 import { Nav } from "../../Nav/Nav";
 import { FooterLinks } from '../../FooterLinks/FooterLinks';
 import TopCities from '../../TopCities/TopCities';
-// import ExclusiveDeals from '../../ExclusiveDeals/ExclusiveDeals';
-// import { ExclusiveDeals } from '../../ExclusiveDeals/ExclusiveDeals';
 import { ExclusiveDeals } from '../../ExclusiveDeals/ExclusiveDeals';
 import { Experiment } from '../../Tags/Tags';
 import { Plan } from '../../NextHolidaysPlan/Plan';
 import { HandPicked } from '../../HandPicked/HandPicked';
+import { NewHomeLayout } from '../NewHomePage/NewHomeLayout';
+import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar';
 export const Home = () => {
     return (
+        // <div>
+        //     <Nav/>
+        //     <ControlledCarousel/>
+        // </div>
         <div>
 
             <Nav />
@@ -46,7 +43,6 @@ export const Home = () => {
 
             <HandPicked/>
 
-            {/* <Carousel /> */}
 
             <div className='carousel'>
                 <TopCities />

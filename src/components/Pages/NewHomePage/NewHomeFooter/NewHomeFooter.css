@@ -1,0 +1,477 @@
+.newhomefooterparentcontainer {
+  height: 610px;
+  background: #3380f2;
+  /* border: 1px solid red; */
+}
+
+.newHomeFootertextcontainer1 {
+  margin-left: 3%;
+  margin-bottom: 1.5%;
+  /* height: 100px; */
+}
+
+.newHomeFootertextcontainer1 img {
+  /* width: 70%; */
+  height: 60px;
+  margin-top: 1%;
+}
+
+.newHomeFootertextcontainer2 {
+  margin-left: 3%;
+  display: flex;
+}
+
+.newHomeFooterHeadingtexts {
+  width: 50%;
+}
+
+.newHomeFooterHeadingtexts h5 {
+  width: 80%;
+  font-weight: 600;
+  color: white;
+  font-size: 18px !important;
+}
+
+.socialnewHomeFooterIcons {
+  border: 1px solid whitesmoke;
+  color: #dee2e6;
+  font-size: 40px;
+  padding: 20%;
+  border-radius: 30px;
+  gap: 50% !important;
+}
+.socialIcons:hover {
+  color: rgb(2, 2, 86);
+}
+
+.footernewHomesocialmedia {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  column-gap: 20px;
+  margin-top: -6%;
+  margin-left: 20%;
+}
+
+.newHomeFootermapMainContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  margin: auto;
+  width: 95%;
+  flex-direction: row;
+}
+
+.newHomeFooterMapContainer {
+  width: 50%;
+  margin-top: 1%;
+}
+
+.newHomeFooterMapContainer img {
+  /* object-fit: cover; */
+  width: 100%;
+  height: 400px;
+}
+
+.newHomeFooterBlogContainer {
+  /* border: 1px solid white; */
+  width: 25%;
+}
+
+.newHomeFooterBlogContainer h5 {
+  margin-top: 4%;
+  color: white;
+  font-size: 25px !important;
+  margin-left: 5%;
+  /* text-align: center; */
+}
+
+.newHomeblogsimagecontentdiv {
+  border: 1px solid whitesmoke;
+  margin-bottom: 3%;
+  width: 85%;
+  border-radius: 7px;
+  display: flex;
+  height: 85px;
+  margin-left: 5%;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.newHomeblogsimagecontentdiv:hover {
+  background-color: white;
+  color: blue;
+}
+
+.newHomeBlogimagediv img {
+  margin-top: 7%;
+  margin-left: 5%;
+  border-radius: 7px;
+  height: 72px;
+}
+
+.newHomeBlogcontent {
+  margin-left: 3%;
+}
+
+.newHomeBlogcontent h4 {
+  font-size: 16px !important;
+  margin-top: 10%;
+  font-weight: 600;
+  color: blue;
+}
+
+.newHomeBlogcontent p {
+  color: blue;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.newHomeFooterContactContainer {
+  /* border: 1px solid purple; */
+  width: 25%;
+}
+
+.newHomeFooterContactContainer h5 {
+  color: whitesmoke;
+  margin-top: 3%;
+  font-size: 24px;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+/* .newHomeFooterContact {
+  border: 1px solid red;
+} */
+
+.newHomeFooterContactContent {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid whitesmoke; */
+  margin-bottom: 3%;
+  width: 85%;
+  border-radius: 7px;
+  display: flex;
+  height: auto;
+  margin-left: 5%;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+/* .newHomeFooterContactContentInner1{
+  border: 1px solid red;
+} */
+
+.newHomeFooterContactContentInner2{
+  /* border: 1px solid black; */
+  margin-left: 3%;
+}
+
+.newHomeFooterContactContentInner2 p{
+  margin-left: 5%;
+  color: white;
+}
+
+.newHomeFooterContactContentInner2span{
+  text-align: right !important;
+}
+
+/* .newHomeFooterblogscontextcontainer{
+  border: 1px solid black;
+} */
+
+.mapnewhomeimagediv {
+  /* border: 2px solid blue; */
+  width: 40%;
+}
+.footer {
+  width: 100%;
+  background: #3380f2;
+  display: flex;
+  justify-content: center;
+  column-gap: 1%;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.footercontainer {
+  /* border: 2px solid red; */
+  /* background: #3380f2; */
+  display: flex;
+}
+
+.footernewhomeSectionMapcontainer {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 400px;
+  /* padding: 21px; */
+  display: flex;
+  flex-direction: column;
+  background: #3380f2;
+  /* border: 2px solid blue; */
+  row-gap: 16px;
+  color: white;
+}
+
+.contecticonsnewHomeFootermap {
+  font-size: 30px;
+  color: white;
+  margin-top: 10%;
+}
+
+.footernewhomeSectionMapcontainer h2 {
+  margin-left: 15%;
+  margin-top: 8%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.contecticonsnewHomeFootercall {
+  font-size: 28px;
+  margin-top: 25%;
+}
+
+.contecticonsnewHomeFootermail {
+  font-size: 30px;
+}
+
+.footerContentmail{
+  margin-top: 5%;
+}
+.contecticonsnewHomeFooterglobe {
+  font-size: 30x;
+}
+
+.footerContentwebsite{
+  margin-top: 2%;
+}
+
+/* .footernewhomeSectionMapcontainer img{
+    border: 1px solid red;
+    width: 100%;
+  } */
+
+/* .footerSectionMapdiv img{
+    width: 100%;
+    object-fit: contain;
+  } */
+
+.footernewHomeSectionbottom {
+  width: 30%;
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  row-gap: 16px;
+  color: white;
+}
+
+.footernewHomeSectionbottom h4 {
+  margin-bottom: 5%;
+  text-align: left;
+  font-size: 28px;
+}
+
+.footerSectionMapdiv {
+  width: 18%;
+  padding: 21px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid blue; */
+  row-gap: 16px;
+  color: white;
+}
+.footerSectionMapdiv .footerMap {
+  border: 1px solid red;
+  margin-left: -60%;
+  height: 285px;
+  margin-top: 22%;
+}
+.footerMap img {
+  border: 1px solid blue;
+  width: 100%;
+}
+
+.footernewHomeSectionbottom .footernewHomeLogo {
+  font-size: 24px;
+  margin-top: 0%;
+  line-height: 45px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.footernewHomeLogo img {
+  width: 70%;
+  margin: 0px 0px;
+}
+
+.footernewHomeSectionbottom .footernewHomelogodesc {
+  /* border: 1px solid red !important; */
+  font-size: 13px;
+}
+.footer-heading {
+  font-size: 15px;
+  margin-top: 0%;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 22.5px;
+  text-transform: uppercase;
+}
+
+h4 img {
+  border-radius: 56%;
+}
+
+.socialmedia div {
+  width: 54%;
+  height: 40px;
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.footernewHomeLogo {
+  font-size: 32px;
+  color: white;
+}
+.footernewHomeLogo img {
+  margin: 0px 3px;
+}
+
+.newHomeblogs {
+  display: flex;
+  column-gap: 12px;
+}
+.blognewHomeImg {
+  width: 75px;
+  height: 75px;
+}
+
+.newHomeblogsecond {
+  padding-top: 1%;
+}
+
+.blognewHomeImg img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.blognewHomeText {
+  width: 70%;
+  text-align: left;
+}
+.blognewHomeText p {
+  margin: 0;
+  font-size: 13px;
+  color: white;
+}
+.blognewHomeText p:nth-child(1) {
+  color: white;
+  margin-top: 5%;
+}
+.blognewHomeText p:nth-child(1):hover {
+  color: rgb(2, 2, 86);
+}
+
+.tags {
+  display: flex;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.tags button {
+  border: 1px solid red;
+  padding: 6px 21px;
+  font-size: 16px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 1px;
+  color: white;
+}
+.tags button:hover {
+  background-color: rgba(255, 255, 255, 0.877);
+  color: blue;
+}
+
+.footerContectText {
+  width: 70%;
+  text-align: left;
+}
+.footerContectText p {
+  margin: 0;
+  padding: 0 10px;
+  color: white;
+}
+
+.footerContect {
+  display: flex;
+  column-gap: 5px;
+}
+
+.footerContect p {
+  /* border: 1px solid red; */
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  text-align: left;
+  margin: 0;
+}
+
+#contactdetails {
+  width: 35%;
+}
+
+.footerContect {
+  font-size: 15px;
+}
+
+.contact_number > p {
+  margin: 0;
+}
+.footerContect p:hover {
+  color: rgb(2, 2, 86);
+}
+.footerContect img {
+  width: 25px;
+  height: 25px;
+  filter: invert(1);
+}
+
+.contecticonsdiv {
+  height: 40px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footernewHomeSectionbottom {
+    width: 100%;
+  }
+
+  .footernewHomeLogo {
+    font-size: 25px;
+    color: white;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1400px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footernewHomeSectionbottom {
+    width: 100%;
+  }
+}

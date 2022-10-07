@@ -1,0 +1,197 @@
+.newhomeeasyvisaouterdiv {
+  /* border: 1px solid red !important; */
+  /* height: 400px; */
+  margin-top: 1%;
+}
+
+.newEasyVisaouterHeading h2 {
+  margin-left: 2%;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #3380f2;
+}
+
+.newhomeEasyVisaSlideroutercontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.newhomeEasyVisaSlidercontentdiv h2 {
+  /* border: 1px solid green; */
+  margin-left: 3%;
+  width: 93%;
+  color: #3380f2;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+
+.newhomeEasyVisaContainer {
+  /* border: 1px solid purple; */
+  width: 96%;
+  margin-left: 1%;
+  /* margin: auto; */
+  /* gap: 5% !important; */
+}
+
+.travelstories_title {
+  font-size: 28px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-decoration: none solid rgb(45, 44, 44);
+  vertical-align: baseline;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgb(51, 128, 242);
+}
+
+.newhomeEasyVisacardwrapper {
+  position: relative;
+  width: 106%;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.newhomeEasyVisamaindiv {
+    margin-left: 3%;
+  width: 102%;
+  border-radius: 20px !important;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.newhomeEasyVisacardimage {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 360px !important;
+  border-radius: 20px !important;
+  z-index: 2;
+  background-color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.newhomeEasyVisacardimage img {
+  width: 100%;
+  filter: brightness(0.8);
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.newhomeEasyVisamaindiv:hover img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.newhomeEasyVisamaindiv:hover .newhomeEasyVisacardimage {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.newhomeEasyVisastorydetails {
+  position: absolute;
+  bottom: -62%;
+  left: 0;
+  width: 100%;
+  height: 310px;
+  z-index: 100000000;
+  padding: 10px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.newhomeEasyVisastorydetails h2 {
+  margin: 0px 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+.newhomeEasyVisastorydetails h2 .newhomeEasyVisajob-title {
+  font-size: 16px;
+  line-height: 2;
+  color: white;
+  font-weight: 300;
+  display: block;
+}
+
+.card:hover .newhomeEasyVisastorydetails {
+  bottom: 0;
+}
+
+.carousel .slick-dots {
+  bottom: -2.5vw;
+}
+
+.carousel .slick-dots li button {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.carousel .slick-dots li button:before {
+  border: 1px solid red !important;
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 10px;
+  border-radius: 210px;
+  content: "";
+  text-align: center;
+  opacity: 0.5;
+  color: #000;
+  background-color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel .slick-prev,
+.carousel .slick-next {
+  border: 2px solid #3380f2;
+  width: 40px;
+  height: 50px;
+  /* border-radius: 30px; */
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: transparent !important;
+}
+
+.carousel .slick-prev:hover,
+.carousel .slick-prev:focus,
+.carousel .slick-next:hover,
+.carousel .slick-next:focus {
+  color: #fff;
+  outline: none;
+  background: #fff;
+}
+
+.carousel .slick-prev:before,
+.carousel .slick-next:before {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+}
+
+.carousel .slick-next {
+  left: 100% !important;
+}
+
+.carousel .slick-prev {
+  left: -55px;
+}

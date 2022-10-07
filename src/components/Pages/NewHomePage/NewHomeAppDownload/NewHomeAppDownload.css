@@ -1,0 +1,41 @@
+.newhomeAppDownloadmaincontainer {
+  border: 1px solid red;
+  height: 600px;
+}
+
+.newhomeAppDownloadimagecontainer {
+  object-fit: cover;
+}
+.newhomeAppDownloadimagecontainer img {
+  height: 600px;
+  /* object-fit: cover; */
+}
+
+.newhomeAppDownloadoverlaymaincontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.newhomeAppDownloadinnerimagecontainer {
+  border: 1px solid red;
+  width: 40%;
+}
+
+.newhomeAppDownloadinnerimagecontainer img {
+  width: 100%;
+  height: 650px;
+}
+
+.newhomeAppDownloadContentmainContainer {
+  border: 1px solid darkgreen;
+  width: 35%;
+}
+
+.newhomeAppDownloadContentmainContainer h5 {
+  border: 1px solid red;
+  width: 50%;
+}
+
+.newhomeAppDownloadCodemainContainer {
+  border: 1px solid black;
+}
