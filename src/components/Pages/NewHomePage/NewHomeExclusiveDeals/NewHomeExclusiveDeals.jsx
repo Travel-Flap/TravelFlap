@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -8,11 +9,30 @@ import { useEffect } from "react";
 import "./NewHomeExclusiveDeals.css";
 import backsideImage from "./backsideImage.jpeg";
 import frontsideImage from "./frontsideImage.jpeg";
-// import { ButtonBase } from "@material-ui/core";
 import { Button } from "react-bootstrap";
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+import countrydata from '../../../../CountryData.json';
+import { NewExclusiveDealsDropdown } from './NewExclusiveDealsDropdown';
 
 export const NewHomeExclusiveDeals = () => {
+    const [countryid, setCountryid] = useState('');
+    const [state, setState] = useState([]);
+    const [stateid, setStateid] = useState('');
+
+    const handlecounty = (e) => {
+        const getcountryId = e.target.value;
+        const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
+        setState(getStatedata);
+        setCountryid(getcountryId);
+        //console.log(getcountryId);
+    }
+
+    const handlestate = (e) => {
+        const stateid = e.target.value;
+        //console.log(stateid);
+        setStateid(stateid);
+
+    }
     const sliderRef = useRef(null);
     useEffect(() => {
         console.log(sliderRef);
@@ -31,22 +51,7 @@ export const NewHomeExclusiveDeals = () => {
                         <h3>Rentals</h3>
                         <h3>Staycations</h3>
 
-                        {/* <select class="exclusivedealsselectoptions">
-                        <option>Flights</option>
-                        <option>Hotels</option>
-                        <option>Holidays</option>
-                        <option>Cruise</option>
-                        <option>Rentals</option>
-                        <option>Staycations</option>
-                    </select>
-                    <select class="exclusivedealsselectoptions">
-                        <option>Offers</option>
-                        <option>Hotels</option>
-                        <option>Holidays</option>
-                        <option>Cruise</option>
-                        <option>Rentals</option>
-                        <option>Staycations</option>
-                    </select> */}
+
                     </div>
                     <div className="viewallexclusivebuttons" >
                         {/* <p className="viewallexclusivetext">view all deals</p> */}
@@ -74,15 +79,32 @@ export const NewHomeExclusiveDeals = () => {
                             <p>Most Visited and Used</p>
                         </div>
 
+                        <NewExclusiveDealsDropdown/>
+                        {/* <select name='country' className="form-select exclusivedealsselectoptions" style={{ width: "56%" }} onChange={(e) => handlecounty(e)} aria-label="Default select example">
+                            <option id='homecarddropbox' value="">Select Country</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option y value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                        <select class="exclusivedealsselectoptions">
+                            <option>Offers</option>
+                            <option>Hotels</option>
+                            <option>Holidays</option>
+                            <option>Cruise</option>
+                            <option>Rentals</option>
+                            <option>Staycations</option>
+                        </select> */}
                     </div>
 
                     <div className="exclusivedealssliderdata">
                         <div className="exclusivedealsmaindivslider" >
                             <Slider
                                 arrows={false}
-                                // autoplay={true}
-                                // speed={1000}
-                                // autoplaySpeed={3000}
+                                autoplay={true}
+                                speed={4000}
+                                autoplaySpeed={4000}
                                 dots={true}
                                 dotsclassName="slick-dots line-indicator"
                                 ref={sliderRef}

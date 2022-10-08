@@ -1,17 +1,40 @@
+import React, { useState } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 import { useRef } from "react";
 import { useEffect } from "react";
 import "./HotelServices.css";
-// import { ButtonBase } from "@material-ui/core";
+import countrydata from '../../../../CountryData.json';
 import { Button } from "react-bootstrap";
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import { BsFillChatLeftFill, BsFillStarFill, BsStarHalf } from "react-icons/bs";
 // import { CountryDropHotel } from "./CountryDropHotel";
 
 export const NewHomeHotelServices = () => {
+    const [countryid, setCountryid] = useState('');
+    const [state, setState] = useState([]);
+    const [stateid, setStateid] = useState('');
+
+    const handlecounty = (e) => {
+        const getcountryId = e.target.value;
+        const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
+        setState(getStatedata);
+        setCountryid(getcountryId);
+        //console.log(getcountryId);
+    }
+
+    const handlestate = (e) => {
+        const stateid = e.target.value;
+        //console.log(stateid);
+        setStateid(stateid);
+
+    }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        alert("Get Country id" + countryid + " And " + stateid);
+    }
+
     const sliderRef = useRef(null);
     useEffect(() => {
         console.log(sliderRef);
@@ -20,11 +43,22 @@ export const NewHomeHotelServices = () => {
         <div className="newhomehotelservicesmaindiv">
             {/* <h1>Ipl</h1> */}
 
-            
+
             <div className="besthoteldealheadingcontainer" >
-                <div className="cardtextdropbutton">
+                <div className="cardtextnewHomedropbutton">
                     {/* <CountryDropHotel /> */}
                     <h2>Hotel Services</h2>
+                    <div className='newHomeHotelServicesDropContainer'>
+                        <select className="form-select newHotelServicesCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
+                            style={{ border: "3px solid #3380f2", width: "60%" }}>
+                            <option value="" style={{ textAlign: "center" }}>Select Country</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                    </div>
                 </div>
 
                 {/* <div className="cardtextendbuttons">
@@ -132,7 +166,7 @@ export const NewHomeHotelServices = () => {
                         </div>
 
                         <div className="hotelservicesratesdiv">
-                                <p>$300/ day</p>
+                            <p>$300/ day</p>
                         </div>
                         {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
@@ -161,7 +195,7 @@ export const NewHomeHotelServices = () => {
                         </div>
 
                         <div className="hotelservicesratesdiv">
-                                <p>$300/ day</p>
+                            <p>$300/ day</p>
                         </div>
                         {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
@@ -191,7 +225,7 @@ export const NewHomeHotelServices = () => {
                         </div>
 
                         <div className="hotelservicesratesdiv">
-                                <p>$300/ day</p>
+                            <p>$300/ day</p>
                         </div>
                         {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
@@ -220,7 +254,7 @@ export const NewHomeHotelServices = () => {
                         </div>
 
                         <div className="hotelservicesratesdiv">
-                                <p>$300/ day</p>
+                            <p>$300/ day</p>
                         </div>
                         {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
@@ -249,7 +283,7 @@ export const NewHomeHotelServices = () => {
                         </div>
 
                         <div className="hotelservicesratesdiv">
-                                <p>$300/ day</p>
+                            <p>$300/ day</p>
                         </div>
                         {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
@@ -278,7 +312,7 @@ export const NewHomeHotelServices = () => {
                         </div>
 
                         <div className="hotelservicesratesdiv">
-                                <p>$300/ day</p>
+                            <p>$300/ day</p>
                         </div>
                         {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
@@ -307,7 +341,7 @@ export const NewHomeHotelServices = () => {
                         </div>
 
                         <div className="hotelservicesratesdiv">
-                                <p>$300/ day</p>
+                            <p>$300/ day</p>
                         </div>
                         {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>

@@ -61,7 +61,7 @@ export const NewHomeCarouselForm = () => {
                     <CgMoreAlt size={"2.5em"} />
                     More
 
-                    <div className='moredropdowncontent'>
+                    <div className='newHomemoredropdownbannercontent'>
                         <div className='moreOptions'>
                             <Link to='/contact' className='moreOptions'><FaPhoneAlt className='contactIcon' /> ContactUs</Link>
                         </div>
@@ -82,15 +82,28 @@ export const NewHomeCarouselForm = () => {
 
             <div id='filter-newhomepagetrave-container'>
                 <div className='choosenewhomebanneroptions'>
-                    <button type="button" class="onewaybutton btn btn-outline-secondary">One Way</button>
+                    {/* <button type="button" class="onewaybutton btn btn-outline-secondary">One Way</button>
                     <button type="button" class="roundtripbutton btn btn-outline-secondary">Round Trip</button>
-                    <button type="button" class="multiwaybutton btn btn-outline-secondary">Multi Trip</button>
+                    <button type="button" class="multiwaybutton btn btn-outline-secondary">Multi Trip</button> */}
                     {/* <input type="radio" className='choosenewhomebanneroptions1' />
-                    <label className='radiodesc'>One Way</label>
+                    <label className='radiodesc' for="flexRadioDefault1">One Way</label>
                     <input type="radio" className='choosenewhomebanneroptions2' />
-                    <label className='radiodesc'>Round Trip</label>
+                    <label className='radiodesc' for="flexRadioDefault2">Round Trip</label>
                     <input type="radio" className='choosenewhomebanneroptions3' />
-                    <label className='radiodesc'>Multi Trip</label> */}
+                    <label className='radiodesc' for="flexRadioDefault3">Multi Trip</label> */}
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+                            <label class="form-check-label" for="inlineRadio1">One Way</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+                            <label class="form-check-label" for="inlineRadio2">Round Trip</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" />
+                            <label class="form-check-label" for="inlineRadio3">Multi Trip</label>
+                    </div>
                 </div>
                 <div className='mainnewhomedatesections'>
                     <div className='filternewhomebanner-fromTo'>

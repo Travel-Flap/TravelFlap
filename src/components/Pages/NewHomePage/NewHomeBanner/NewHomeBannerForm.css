@@ -254,36 +254,17 @@
   /* position: absolute; */
   bottom: 75%;
   /* top: 10%; */
-  left: 4%;
+  left: 5.2%;
   z-index: 1000;
   color: white !important;
   border-radius: 40px;
 }
 
-/* #borderLeftnewhomebanner{
-    border-radius: 40px 0 0 40px;
-  }
-  #borderrightnewhomebanner{
-    border-radius: 0 40px 40px 0;
-  } */
-
-/* #iconnames {
-    color: #3380f2;
-    font-size: 15px;
-    font-weight: 500;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-variant: normal;
-    line-height: normal;
-    vertical-align: baseline;
-  }
-  .iconactive{
-    color: white;
-  } */
 
 /* This css part includes to overlapping and hovering the things */
 .bottomupclass1 {
   top: 10%;
-  right: 84%;
+  right: 86%;
   z-index: 9 !important;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-size: 15px;
@@ -297,7 +278,7 @@
 
 .bottomupclass2 {
   top: 10%;
-  right: 76%;
+  right: 78%;
   z-index: 8 !important;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-size: 15px;
@@ -311,7 +292,7 @@
 
 .bottomupclass3 {
   top: 10%;
-  right: 68%;
+  right: 70%;
   z-index: 7 !important;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-size: 15px;
@@ -325,7 +306,7 @@
 
 .bottomupclass4 {
   top: 10%;
-  right: 60%;
+  right: 61.6%;
   z-index: 6 !important;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-size: 15px;
@@ -339,7 +320,7 @@
 
 .bottomupclass5 {
   top: 10%;
-  right: 51%;
+  right: 52.5%;
   z-index: 5 !important;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-size: 15px;
@@ -353,7 +334,7 @@
 
 .bottomupclass6 {
   top: 10%;
-  right: 43%;
+  right: 44%;
   z-index: 4 !important;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-size: 15px;
@@ -367,7 +348,7 @@
 
 .bottomupclass7 {
   top: 10%;
-  right: 35%;
+  right: 36%;
   z-index: 3 !important;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-size: 15px;
@@ -411,11 +392,17 @@
   color: white;
   border: none;
   width: 14%;
-  height: 50px;
+  height: 42px;
   border-radius: 15px;
   font-weight: 700;
   margin-left: 8%;
   margin-top: -1.5%;
+}
+
+.newhomesearchbutton:hover{
+  background-color: white;
+  border: 1px solid #3380f2;
+  color: #3380f2;
 }
 /* This css is for the icons and there hovering properties */
 
@@ -437,15 +424,6 @@
   position: absolute;
 }
 
-/* .carouselnewhomebannermenu-icon:hover {
-    text-decoration: none;
-    color: #3380f2;
-    background-color: white;
-    transition: all 0.5s ease;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  }
-   */
 .carouselnewhomebannermenu-icon span {
   white-space: nowrap;
   color: white;
@@ -470,106 +448,6 @@
   color: white !important;
   text-decoration: none;
 }
-/* .carouselnewhomebannermenu-icon1 {
-    height: 100px;
-    width: 18%;
-    border-radius: 12px;
-    background-color: #3380f2;
-    flex-direction: column;
-    box-sizing: border-box;
-    display: flex;
-    place-content: center;
-    align-items: center;
-    cursor: pointer;
-    border: none;
-    color: white;
-    text-decoration: none;
-    z-index: 100;
-  }
-  .carouselnewhomebannermenu-icon1:hover {
-    text-decoration: none;
-    color: #3380f2;
-    background-color: white;
-    transition: all 0.5s ease;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  }
-  
-  .carouselnewhomebannermenu-icon1 span {
-    white-space: nowrap;
-    color: white;
-    font-size: 15px;
-    font-weight: 400;
-    margin: 0;
-    text-align: center;
-  }
-  .carouselnewhomebannermenu-icon1-active {
-    background: #3380f2 !important;
-    border-color: white !important;
-    height: 70px;
-    width: 90px;
-    border-radius: 7px;
-    flex-direction: column;
-    box-sizing: border-box;
-    display: flex;
-    place-content: center;
-    align-items: center;
-    margin-right: 12px;
-    cursor: pointer;
-    color: white !important;
-    text-decoration: none;
-  } */
-
-/* this css is for the hotels icons */
-/* .carouselnewhomebannermenu-icon2 {
-    height: 100px;
-    width: 18%;
-    border-radius: 12px;
-    background-color: #3380f2;
-    flex-direction: column;
-    box-sizing: border-box;
-    display: flex;
-    place-content: center;
-    align-items: center;
-    cursor: pointer;
-    border: none;
-    color: white;
-    text-decoration: none;
-    z-index: 99;
-  }
-  .carouselnewhomebannermenu-icon2:hover {
-    text-decoration: none;
-    color: #3380f2;
-    background-color: white;
-    transition: all 0.5s ease;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  }
-  
-  .carouselnewhomebannermenu-icon2 span {
-    white-space: nowrap;
-    color: white;
-    font-size: 15px;
-    font-weight: 400;
-    margin: 0;
-    text-align: center;
-  }
-  .carouselnewhomebannermenu-icon2-active {
-    background: #3380f2 !important;
-    border-color: white !important;
-    height: 70px;
-    width: 90px;
-    border-radius: 7px;
-    flex-direction: column;
-    box-sizing: border-box;
-    display: flex;
-    place-content: center;
-    align-items: center;
-    margin-right: 12px;
-    cursor: pointer;
-    color: white !important;
-    text-decoration: none;
-  } */
 
 .flighttext {
   color: white;
@@ -611,7 +489,7 @@
   color: white !important;
   text-decoration: none;
 }
-.moredropdowncontent {
+.newHomemoredropdownbannercontent {
   display: none;
   position: absolute;
   color: white;
@@ -621,8 +499,12 @@
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 10px;
-  margin-top: 266%;
+  top: 58%;
   /* border: 2px solid red; */
+}
+
+#borderrightnewhomebanner:hover .newHomemoredropdownbannercontent {
+  display: block;
 }
 
 /* This css is for the one way round trip button */
@@ -680,9 +562,7 @@
 }
 
 
-#borderrightnewhomebanner:hover .moredropdowncontent {
-  display: block;
-}
+
 .moreOptions:hover {
   background-color: white;
   color: #3380f2;

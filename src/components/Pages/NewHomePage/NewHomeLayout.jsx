@@ -11,7 +11,7 @@ import { NewHomeFooter } from './NewHomeFooter/NewHomeFooter';
 import { NewHomeHandPicked } from './NewHomeHandPicked/NewHomeHandPicked';
 import { NewHomeNav } from './NewHomeNavbar/NewHomeNavbar';
 import NewHomeOurPartners from './NewHomeOurPartners/NewHomeOurPartners';
-import {NewHomePopularDestinations} from './NewHomePopularDetination/NewHomePopularDestination';
+import {CenterMode, NewHomePopularDestinations} from './NewHomePopularDetination/NewHomePopularDestination';
 import { NewHomeStoriesSection } from './NewHomeStoriesSection/NewHomeStoriesSection';
 import { NewHomeTopCitites } from './NewHomeTopCitites/NewHomeTopCitites';
 import { NewHomeTourDeals } from './NewHomeTourDeal/NewHomeTourDeal';
@@ -27,6 +27,9 @@ export const NewHomeLayout = () => {
                 <NewHomeExclusiveDeals/>
             </div>
             <NewHomeHandPicked />
+
+            <CenterMode/>
+
             <NewHomeHotelServices />
 
             <div className='carousel'>

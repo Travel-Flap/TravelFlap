@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import { Outlet, Link } from "react-router-dom";
 import './NewHomeHandPicked.css';
 import Slider from "react-slick";
@@ -6,9 +6,31 @@ import { useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect } from "react";
-import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+import countrydata from '../../../../CountryData.json';
 
 export const NewHomeHandPicked = () => {
+    const [countryid, setCountryid] = useState('');
+    const [state, setState] = useState([]);
+    const [stateid, setStateid] = useState('');
+
+    const handlecounty = (e) => {
+        const getcountryId = e.target.value;
+        const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
+        setState(getStatedata);
+        setCountryid(getcountryId);
+        //console.log(getcountryId);
+    }
+
+    const handlestate = (e) => {
+        const stateid = e.target.value;
+        //console.log(stateid);
+        setStateid(stateid);
+
+    }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        alert("Get Country id" + countryid + " And " + stateid);
+    }
 
     const sliderRef = useRef(null);
     useEffect(() => {
@@ -20,24 +42,22 @@ export const NewHomeHandPicked = () => {
         <>
             <div className="handpickednewhomepageoutercontainer">
 
-                {/* <div className="handpickednewhomepageheadingcontainer" >
-                    <div className="handpickednewhomepagesliderbuttons" >
-
-                        <div className="handpickednewhomepagebuttons">
-                            <div style={{ display: "flex" }}>
-                                <FaAngleLeft size={"2.5em"}
-                                    onClick={() => sliderRef.current.slickPrev()}
-                                />
-
-                                <FaAngleRight size={"2.5em"}
-                                    onClick={() => sliderRef.current.slickNext()}
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
                 <div className="newHomeHandpickedHeadingContainer">
                     <h2 className="handpickednewhomepageheading">Hand Picked Destinations</h2>
+
+
+                    <div className='newHomeHandPickedDropContainer'>
+                        <select className="form-select newHandPickedCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
+                            style={{ border: "3px solid #3380f2", width: "60%" }}>
+                            <option value="" style={{ textAlign: "center" }}>Country Deals</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                    </div>
+
                 </div>
 
                 <div className='datanewhomepage'>

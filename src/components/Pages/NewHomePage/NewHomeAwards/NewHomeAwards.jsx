@@ -68,14 +68,14 @@ export default class NewHomeAwards extends Component {
                         <div className="awardsnewhomecard card">
                             <div className='card_img'><img src="Images/AchievementsImage1.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top " alt="..." /></div>
 
-                            {/* <div className="card-body">
+                            <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
                                     <h4 className="card-title">Approved IATA Agent</h4>
                                 </div>
-                                <div className='awardsnewhomecard_desc'>
+                                {/* <div className='awardsnewhomecard_desc'>
                                     <p className="card-text">In more than 9 countries.</p>
-                                </div>
-                            </div> */}
+                                </div> */}
+                            </div>
                         </div>
                     </div>
 

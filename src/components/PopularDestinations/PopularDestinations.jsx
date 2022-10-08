@@ -152,20 +152,6 @@ export const PopularDestinations = () => {
                            <option y value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
                         ))
                      }
-                     {/* <option value>Please Select Country</option>
-                                <option value="1">India</option>
-                                <option value="2">UAE</option>
-                                <option value="3">Pakistan</option>
-                                <option value="4">France</option>
-                                <option value="5">Spain</option>
-                                <option value="6">Turkey</option>
-                                <option value="7">Italy</option>
-                                <option value="8">Thailand</option>
-                                <option value="9">Mexico</option>
-                                <option value="10">Germany</option>
-                                <option value="11">United Kingdom</option>
-                                <option value="12">China</option>
-                                <option value="13">Korea</option> */}
                   </select>
                   {/* <select class="homeexclusiveselectdrop form-select" aria-label="Default select example">
                      <option selected>Select Destination</option>

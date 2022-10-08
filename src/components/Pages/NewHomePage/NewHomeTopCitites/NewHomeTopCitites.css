@@ -160,6 +160,21 @@
     bottom: 0;
   }
 
+/* .newhomeTopCities{
+  border: 1px solid red;
+} */
+
+.newhomeTopCitiesBottomTexts h2{
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 20px;
+}
+.newhomeTopCitiesBottomTexts p{
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 14px;
+}
+
 .carousel .slick-dots {
   bottom: -2.5vw;
 }
@@ -167,7 +182,8 @@
 .carousel .slick-dots li button {
   width: 20px;
   height: 20px;
-  background: rgb(51, 128, 242);
+  background: whitesmoke !important;
+  /* background: rgb(51, 128, 242); */
   border: 1px solid rgb(51, 128, 242);
   border-radius: 20px;
 }
@@ -182,8 +198,8 @@
   content: "";
   text-align: center;
   opacity: 0.5;
-  color: #000;
-  background-color: #fff;
+  color: white !important;
+  background-color: blue !important;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-transition: all 0.3s ease-in-out;

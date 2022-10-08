@@ -10,12 +10,13 @@ export default class NewHomeEasyVisaDestination extends Component {
     render() {
         const settings = {
             dots: true,
+            dotsclassName: "slick-dots line-indicator",
             infinite: true,
-            // autoplay: true,
-            // speed: 2000,
+            autoplay: true,
+            speed: 2000,
             autoplayspeed:2000,
             slidesToShow: 5,
-            slidesToScroll: 2,
+            slidesToScroll: 1,
             cssEase: "linear",
             rtl: true,
             // arrows:true,

@@ -129,31 +129,32 @@
   bottom: 0;
 }
 
-.carousel .slick-dots {
+.newhomeEasyVisaSlideroutercontainer .slick-dots {
   bottom: -2.5vw;
 }
 
-.carousel .slick-dots li button {
+.newhomeEasyVisaSlideroutercontainer .slick-dots li button {
   width: 20px;
   height: 20px;
   border: 1px solid #fff;
   border-radius: 20px;
+  background-color: #3380f2;
 }
 
-.carousel .slick-dots li button:before {
-  border: 1px solid red !important;
+.newhomeEasyVisaSlideroutercontainer .slick-dots li button:before {
+  /* border: 1px solid red !important; */
   position: absolute;
   font-size: 20px;
   top: 50%;
   left: 50%;
-  width: 20px;
+  width: 10px;
   height: 10px;
   border-radius: 210px;
   content: "";
   text-align: center;
   opacity: 0.5;
   color: #000;
-  background-color: #fff;
+  background-color: white !important;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-transition: all 0.3s ease-in-out;

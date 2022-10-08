@@ -5,6 +5,8 @@
 
 .newHomeHandpickedHeadingContainer{
   border: 1px solid transparent;
+  display: flex;
+  flex-direction: row;
 }
 
 .handpickednewhomepagelink {
@@ -19,6 +21,25 @@
     margin-top: 3% !important;
     font-weight: 700;
     color: white;
+  }
+
+  .newHomeHandPickedDropContainer{
+    width: 20%;
+    margin-left: 45%;
+  }
+
+  .newHandPickedCountryDrop{
+    margin-top: 13% !important;
+    margin-left: 7%;
+    color: #3380f2 !important;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 20px !important;
+  }
+  .newHandPickedCountryDrop:hover{
+    background-color: #3380f2;
+    color: white !important;
+    font-weight: 700;
   }
   .handpickednewhomepagesliderbuttons {
     color: white;
@@ -119,7 +140,7 @@
   .carousel .slick-dots li button {
     width: 20px;
     height: 20px;
-    border: 1px solid #fff;
+    background-color: darkblue !important;
     border-radius: 20px;
   }
   

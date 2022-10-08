@@ -9,10 +9,11 @@ import { MdLocationCity } from "react-icons/md";
 export const NewHomeTopCitites = () => {
     const settings = {
         dots: true,
-        // infinite: true,
-        // autoplay: true,
-        // autoplayspeed:1000,
-        // speed: 1000,
+        dotsclassName: "slick-dots line-indicator",
+        infinite: true,
+        autoplay: true,
+        autoplayspeed:1000,
+        speed: 1000,
         slidesToShow: 5,
         slidesToScroll: 1,
         cssEase: "linear",
@@ -82,15 +83,16 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/abudhabhi.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <h2>Abu Dhabi <span className="job-title">"Best Holiday trip Ever"
-                                                    <p>I love the experience with the travel Flap. I surely recommend it
-                                                        other for same
-                                                    </p>
-
-                                                </span>
-                                                    <Button variant="primary">Explore</Button>
-                                                </h2>
+                                                <p>I love the experience with the travel Flap. I surely recommend it
+                                                    other for same
+                                                </p>
+                                                <Button variant="primary">Explore</Button>
                                             </div>
+                                        </div>
+
+                                        <div className='newhomeTopCitiesBottomTexts'>
+                                            <h2>Abu Dhabi</h2>
+                                            <p className="job-title">"Best Holiday trip Ever" </p>
                                         </div>
                                     </div>
 
@@ -100,14 +102,15 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/africa1.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <h2>Epupa Falls <span className="job-title">"Best Holiday trip Ever"
                                                     <p>I love the experience with the travel Flap. I surely recommend it
-                                                        other for same
+                                                        other for same.
                                                     </p>
-                                                </span>
                                                     <Button variant="primary">Explore</Button>
-                                                </h2>
                                             </div>
+                                        </div>
+                                        <div className='newhomeTopCitiesBottomTexts'>
+                                            <h2>Epupa Falls</h2>
+                                            <p className="job-title">"Best Holiday trip Ever" </p>
                                         </div>
                                     </div>
 
@@ -117,13 +120,15 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/america.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <h2>Las Vegas <span className="job-title">"Best Holiday trip Ever"
                                                     <p>I love the experience with the travel Flap. I surely recommend it
-                                                        other for same
-                                                    </p></span>
+                                                        other for same.
+                                                    </p>
                                                     <Button variant="primary">Explore</Button>
-                                                </h2>
                                             </div>
+                                        </div>
+                                        <div className='newhomeTopCitiesBottomTexts'>
+                                            <h2>Las Vegas</h2>
+                                            <p className="job-title">"Best Holiday trip Ever" </p>
                                         </div>
                                     </div>
 
@@ -133,13 +138,15 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/australia.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <h2>Sydney <span className="job-title">"Best Holiday trip Ever"
                                                     <p>I love the experience with the travel Flap. I surely recommend it
-                                                        other for same
-                                                    </p></span>
+                                                        other for same.
+                                                    </p>
                                                     <Button variant="primary">Explore</Button>
-                                                </h2>
                                             </div>
+                                        </div>
+                                        <div className='newhomeTopCitiesBottomTexts'>
+                                            <h2>Sydney</h2>
+                                            <p className="job-title">"Best Holiday trip Ever" </p>
                                         </div>
                                     </div>
 
@@ -149,31 +156,17 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/canada.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <h2>Toronto <span className="job-title">"Best Holiday trip Ever"
                                                     <p>I love the experience with the travel Flap. I surely recommend it
-                                                        other for same
-                                                    </p></span>
+                                                        other for same.
+                                                    </p>
                                                     <Button variant="primary">Explore</Button>
-                                                </h2>
                                             </div>
                                         </div>
+                                        <div className='newhomeTopCitiesBottomTexts'>
+                                            <h2>Toronto</h2>
+                                            <p className="job-title">"Best Holiday trip Ever" </p>
+                                        </div>
                                     </div>
-
-                                    {/* <div className="card-wrapper">
-                        <div className="card topcitiesnewHomePagediv">
-                            <div className="card-image topcitiesnewHomePagecardimage">
-                                <img src="https://encrypted-tbn0.gstatic.com/Images?q=tbn:ANd9GcRgA7NjrOyqboQBa3LLONUV8V8xUQI9i4wDSr1L4Y4jDw&s" />
-                            </div>
-                            <div className="topcitiesnewHomePagedetails">
-                                <h2>Australia <span className="job-title">"Best Holiday trip Ever"
-                                    <p>I love the experience with the travel Flap. I surely recommend it
-                                        other for same
-                                    </p></span>
-                                    <Button variant="primary">Explore</Button>
-                                </h2>
-                            </div>
-                        </div>
-                    </div> */}
 
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
@@ -181,13 +174,15 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/landon.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <h2>London <span className="job-title">"Best Holiday trip Ever"
                                                     <p>I love the experience with the travel Flap. I surely recommend it
-                                                        other for same
-                                                    </p></span>
+                                                        other for same.
+                                                    </p>
                                                     <Button variant="primary">Explore</Button>
-                                                </h2>
                                             </div>
+                                        </div>
+                                        <div className='newhomeTopCitiesBottomTexts'>
+                                            <h2>London</h2>
+                                            <p className="job-title">"Best Holiday trip Ever" </p>
                                         </div>
                                     </div>
 
@@ -197,13 +192,16 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/denmark.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <h2>Aarhus <span className="job-title">"Best Holiday trip Ever"
                                                     <p>I love the experience with the travel Flap. I surely recommend it
-                                                        other for same
-                                                    </p></span>
+                                                        other for same.
+                                                    </p>
                                                     <Button variant="primary">Explore</Button>
-                                                </h2>
                                             </div>
+                                        </div>
+
+                                        <div className='newhomeTopCitiesBottomTexts'>
+                                            <h2>Aarhus</h2>
+                                            <p className="job-title">"Best Holiday trip Ever" </p>
                                         </div>
                                     </div>
 
@@ -213,13 +211,16 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/zambiaafrica.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <h2>Zambia <span className="job-title">"Best Holiday trip Ever"
                                                     <p>I love the experience with the travel Flap. I surely recommend it
-                                                        other for same
-                                                    </p></span>
+                                                        other for same.
+                                                    </p>
                                                     <Button variant="primary">Explore</Button>
-                                                </h2>
                                             </div>
+                                        </div>
+
+                                        <div className='newhomeTopCitiesBottomTexts'>
+                                            <h2>Zambia</h2>
+                                            <p className="job-title">"Best Holiday trip Ever" </p>
                                         </div>
                                     </div>
 
@@ -229,13 +230,16 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/swedan.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <h2>Stockholm <span className="job-title">"Best Holiday trip Ever"
                                                     <p>I love the experience with the travel Flap. I surely recommend it
-                                                        other for same
-                                                    </p></span>
+                                                        other for same.
+                                                    </p>
                                                     <Button variant="primary">Explore</Button>
-                                                </h2>
                                             </div>
+                                        </div>
+
+                                        <div className='newhomeTopCitiesBottomTexts'>
+                                            <h2>Stockholm</h2>
+                                            <p className="job-title">"Best Holiday trip Ever" </p>
                                         </div>
                                     </div>
                                 </Slider>
