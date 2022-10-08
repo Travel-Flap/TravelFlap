@@ -86,7 +86,7 @@ export const NewHomeHotelServices = () => {
                     speed={1000}
                     autoplaySpeed={2000}
                     dots={true}
-                    dotsclassName="slick-dots line-indicator"
+                    dotsclassName="slick-dots hotelservicesslickDots line-indicator"
                     ref={sliderRef}
                     slidesToShow={5}
                     slidesToScroll={2}

@@ -1,6 +1,10 @@
 import React from 'react'
+import { FooterLinks } from '../../FooterLinks/FooterLinks'
+import { Plan } from '../../NextHolidaysPlan/Plan'
+import { NewHomeAppDownload } from '../NewHomePage/NewHomeAppDownload/NewHomeAppDownload'
 import { NewHomeCaruosel } from '../NewHomePage/NewHomeBanner/NewHomeBanner'
 import { NewHomeExclusiveDeals } from '../NewHomePage/NewHomeExclusiveDeals/NewHomeExclusiveDeals'
+import { NewHomeFooter } from '../NewHomePage/NewHomeFooter/NewHomeFooter'
 import { NewHomeHandPicked } from '../NewHomePage/NewHomeHandPicked/NewHomeHandPicked'
 import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar'
 import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDestination'
@@ -37,6 +41,11 @@ export const NewFlight = () => {
         <CheapFlights/>
 
         <FrequentlyAskedQuestions/>
+
+        <NewHomeAppDownload/>
+        <Plan/>
+        <FooterLinks/>
+        <NewHomeFooter/>
     </div>
   )
 }

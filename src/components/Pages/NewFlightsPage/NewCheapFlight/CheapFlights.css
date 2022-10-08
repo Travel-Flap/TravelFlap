@@ -113,38 +113,38 @@
 .cheapflightsicondiv{
     /* border: 2px solid g  reen; */
     width: 7.5%;
-    height: 60px;
+    height: 45px;
     background-color: white;
     border-radius: 0px 18px 18px 0px;
 }
 .cheapflightsselect1{
     /* border: 2px solid gold; */
     border: none;
-    height: 60px;
+    height: 50px;
     width: 17%;
     border-radius: 18px;
     text-align: center;
     color: #3380F2;
-    font-weight: 700;
+    font-weight: 500;
     margin-left: 30%;
 }
 .cheapflightsselect2{
     /* border: 2px solid gold; */
     border: none;
-    height: 60px;
+    height: 45px;
     width: 54%;
     padding-right: 28%;
     border-radius: 18px 0px 0px 18px;
     appearance: none;
     text-align: center;
     color: #3380F2;
-    font-weight: 700;
+    font-weight: 500;
     /* margin-left: 30%; */
 }
 .cheapflightsicon{
     color: #3380F2;
-    margin-top: 32%;
-    height: 30px;
+    margin-top: 23%;
+    height: 22px;
 }
 .cheapflightsmaindiv{
     width: 85%;
@@ -166,10 +166,10 @@
 }
 .cheapflightscountryactivediv{
     width: 60%;
-    height: 50px;
+    height: 45px;
     color: white;
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 22px;
     border-radius: 15px;
     text-align: center;
     padding-top: 1%;
@@ -179,10 +179,10 @@
 }
 .cheapflightscountrydiv{
     width: 50%;
-    height: 50px;
+    height: 40px;
     color: #3380F2;
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 22px;
     border-radius: 15px;
     text-align: center;
     padding-top: 1%;
@@ -200,13 +200,13 @@
 .cheapflightalphafilter{
     border: none;
     height: 39px;
-    width: 52%;
+    width: 53%;
     padding-right: 28%;
     border-radius: 18px;
     /* appearance: none; */
     text-align: center;
     color: #3380F2;
-    font-weight: 700;
+    font-weight: 600;
     margin-right: 50%;
     margin-left: 62%;
     margin-top: 2%;

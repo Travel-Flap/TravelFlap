@@ -195,8 +195,7 @@
   .nav-link:hover {
     text-decoration: none;
     cursor: pointer;
-    background-color: white;
-    border:3px solid #3380f2;
+    background-color: white !important;
     color: #3380f2 !important;
   }
   
@@ -208,8 +207,8 @@
     font-weight: 700;
     line-height: 36px;
     text-transform: uppercase;
-    border: 2px solid white;
-    background-color: #3380f2;
+    border: 2px solid white !important;
+    background-color: transparent;
     width: 40%;
     padding-left: 7px;
   }

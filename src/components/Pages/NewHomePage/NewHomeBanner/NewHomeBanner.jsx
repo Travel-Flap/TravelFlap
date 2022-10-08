@@ -82,11 +82,11 @@ export const NewHomeCaruosel = () => {
                 <NewHomeCarouselForm />
             </div>
             <div className="newhome_bannertitle">
-                <p>The whole world
+                <p>The whole world Awaits with 
                     <span>
-                        <i>Awaits</i>
+                        <i>TravelFlap</i>
                     </span>
-                    with TravelFlap
+                    
                 </p>
             </div>
             {/* <Services /> */}

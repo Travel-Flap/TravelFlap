@@ -32,7 +32,8 @@
     font-size: 56px;
     padding-left: 5px;
     padding-right: 5px;
-    font-style: italic !important;
+    /* font-style: italic !important; */
+    color: #3153f2;
   }
   .carousel-caption > .carouselbtn {
     /* border: 1px solid red !important; */

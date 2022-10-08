@@ -15,6 +15,8 @@ import {CenterMode, NewHomePopularDestinations} from './NewHomePopularDetination
 import { NewHomeStoriesSection } from './NewHomeStoriesSection/NewHomeStoriesSection';
 import { NewHomeTopCitites } from './NewHomeTopCitites/NewHomeTopCitites';
 import { NewHomeTourDeals } from './NewHomeTourDeal/NewHomeTourDeal';
+import { Plan } from '../../NextHolidaysPlan/Plan';
+import { FooterLinks } from '../../FooterLinks/FooterLinks';
 
 export const NewHomeLayout = () => {
     return (
@@ -53,6 +55,9 @@ export const NewHomeLayout = () => {
             <NewHomeAppDownload/>
 
             <NewHomeStoriesSection/>
+            
+            <Plan/>
+            <FooterLinks/>
 
             {/* <NewHomeAppDownload/> */}
 
