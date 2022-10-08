@@ -89,24 +89,25 @@ export const NewHomeTopCitites = () => {
                 <img src="Images/NewHomeLayout/BackgroundImages/TopCitiesBackground.jpeg" class="card-img" alt="..." />
                 <div class="card-img-overlay">
                     <div className='newhomeTopCitiesmainheading'>
-                        <h2>Top Cities To Explore</h2>
 
-                        {/* <div className='newHomeHotelServicesDropContainer'>
-                            <select className="form-select newHotelServicesCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
-                                style={{ border: "3px solid #3380f2", width: "60%" }}>
-                                <option value="" style={{ textAlign: "center" }}>Select Country</option>
-                                {
-                                    countrydata.map((getcountry, index) => (
-                                        <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                    ))
-                                }
-                            </select>
-                        </div> */}
+                        <div className='topCititesHEadingouterdiv'>
+                            <h2>Top Cities To Explore</h2>
+
+                            <div className='newHomeTopCititesDropContainer'>
+                                <select className="form-select newTopCititesCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
+                                    style={{ border: "3px solid #3380f2", width: "60%" }}>
+                                    <option value="" style={{ textAlign: "center" }}>Select Country</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                </select>
+                            </div>
+                        </div>
+
+
                         <div className='newhomeTopCititesSlidercontainer'>
-                            {/* <div className='newhomeTopCititesSlidercontentdiv'>
-                                <h2>This is the random layout for the content div</h2>
-                            </div> */}
-
                             {/* From here the next slider part starts */}
 
                             <div className='newhomeTopCitiesslickslidercontainer'>

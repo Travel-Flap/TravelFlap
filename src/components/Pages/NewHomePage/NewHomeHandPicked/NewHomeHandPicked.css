@@ -1,5 +1,7 @@
 .handpickednewhomepageoutercontainer{
   height: 580px;
+  object-fit: cover;
+  background-size: cover;
   background-image: url(/public/Images/NewHomeLayout/BackgroundImages/HandpickedBackgroundImage.jpeg);
 }
 
@@ -20,6 +22,7 @@
     margin-left: 7%;
     margin-top: 3% !important;
     font-weight: 700;
+    margin-bottom: 2%;
     color: white;
   }
 
@@ -30,16 +33,17 @@
   }
 
   .newHandPickedCountryDrop{
-    margin-top: 13% !important;
+    margin-top: 17% !important;
     margin-left: 7%;
-    color: #3380f2 !important;
+    color: white !important;
     font-weight: 700;
     cursor: pointer;
     border-radius: 20px !important;
+    background-color: #3380f2 !important;
   }
   .newHandPickedCountryDrop:hover{
-    background-color: #3380f2;
-    color: white !important;
+    background-color: white !important;
+    color: #3380f2 !important;
     font-weight: 700;
   }
   .handpickednewhomepagesliderbuttons {

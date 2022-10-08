@@ -6,7 +6,7 @@ import { NewHomeAppDownload } from './NewHomeAppDownload/NewHomeAppDownload';
 import NewHomeAwards from './NewHomeAwards/NewHomeAwards';
 import { NewHomeCaruosel } from './NewHomeBanner/NewHomeBanner';
 import { NewHomeBottomBar } from './NewHomeBottomBar/NewHomeBottomBar';
-import NewHomeEasyVisaDestination from './NewHomeEasyVisaDestination/NewHomeEasyVisaDestination';
+import  {NewHomeEasyVisaDestination} from './NewHomeEasyVisaDestination/NewHomeEasyVisaDestination';
 import { NewHomeExclusiveDeals } from './NewHomeExclusiveDeals/NewHomeExclusiveDeals';
 import { NewHomeFooter } from './NewHomeFooter/NewHomeFooter';
 import { NewHomeHandPicked } from './NewHomeHandPicked/NewHomeHandPicked';
@@ -48,12 +48,13 @@ export const NewHomeLayout = () => {
 
             <NewHomeEasyVisaDestination/>
 
-            <div className='carousel'>
-                <NewHomeAwards/>
-            </div>
 
             <NewHomeAppDownload/>
 
+            <div className='carousel'>
+                <NewHomeAwards/>
+            </div>
+            
             <NewHomeStoriesSection/>
             
             <Plan/>

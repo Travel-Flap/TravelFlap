@@ -10,14 +10,42 @@
   display: flex;
   flex-direction: row;
 } */
-.newhomeTopCitiesmainheading h2 {
+.topCititesHEadingouterdiv h2 {
   color: whitesmoke;
   margin-left: 2%;
   font-size: 30px;
   font-weight: 700;
-  margin-top: 1%;
+  margin-top: 0.5%;
   margin-bottom: 2%;
 }
+
+.topCititesHEadingouterdiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.newHomeTopCititesDropContainer {
+  width: 20%;
+  margin-left: 56%;
+  margin-top: -2%;
+  margin-bottom: 1%;
+}
+
+.newTopCititesCountryDrop {
+  margin-top: 13% !important;
+  margin-left: 35%;
+  color: #3380f2 !important;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 20px !important;
+}
+.newTopCititesCountryDrop:hover {
+  background-color: #3380f2;
+  color: white !important;
+  border: 2px solid white !important;
+  font-weight: 700;
+}
+
 
 .newhomeTopCititesSlidercontainer {
   display: flex;
@@ -131,7 +159,7 @@
 
 .topcitiesnewHomePagedetails {
   position: absolute;
-  bottom: -62%;
+  bottom: -76%;
   left: 0;
   width: 100%;
   height: 310px;
@@ -163,6 +191,10 @@
 .topcitiesnewHomePagediv:hover .topcitiesnewHomePagedetails {
     bottom: 0;
   }
+
+.topcitiesnewHomePagedetails button{
+  margin-left: 35%;
+}
 
 /* .newhomeTopCities{
   border: 1px solid red;

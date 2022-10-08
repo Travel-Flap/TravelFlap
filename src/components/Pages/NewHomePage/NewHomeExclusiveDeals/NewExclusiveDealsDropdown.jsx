@@ -47,11 +47,14 @@ export const NewExclusiveDealsDropdown = () => {
                         <div className='newExclusiveDealssingledrop1'>
                             <select className="form-select newExclusiveDealscountryDrop1" aria-label="Default select example"
                                 style={{width:"100%" ,border: "3px solid #3380f2" }}>
-                                <option value>Offers Category</option>
-                                <option value="1">Cheap</option>
-                                <option value="2">Expensive</option>
-                                <option value="3">Normal</option>
-                                <option value="3">Luxury</option>
+                                <option value>All Bank Offer</option>
+                                <option value="1">Flights Offers</option>
+                                <option value="2">Hotels Offers</option>
+                                <option value="3">Holidays Offers</option>
+                                <option value="3">Cruise Offers</option>
+                                <option value="3">Rentals Offers</option>
+                                <option value="3">Staycations Offers</option>
+                                <option value="3">All Offers</option>
                             </select>
                         </div>
                         <div className='newExclusiveDealssingledrop'>

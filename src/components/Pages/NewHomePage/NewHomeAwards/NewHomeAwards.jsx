@@ -11,13 +11,13 @@ export default class NewHomeAwards extends Component {
         const settings = {
             // dots: true,
             infinite: true,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            speed: 1000,
+            // autoplay: true,
+            // autoplaySpeed: 2000,
+            // speed: 2000,
             slidesToShow: 5,
             slidesToScroll: 1,
             cssEase: "linear",
-            arrows : false, 
+            arrows: false,
             responsive: [
                 {
                     breakpoint: 1024,
@@ -66,7 +66,9 @@ export default class NewHomeAwards extends Component {
                 <Slider {...settings} className="multiCardSlider">
                     <div className="card-wrapper awardsnewhomecardwrapper">
                         <div className="awardsnewhomecard card">
-                            <div className='card_img'><img src="Images/AchievementsImage1.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top " alt="..." /></div>
+                            <div className='card_img'>
+                                <img src="Images/AchievementsImage1.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top " alt="..." />
+                            </div>
 
                             <div className="card-body">
                                 <div className='awardsnewhomecard_title'>

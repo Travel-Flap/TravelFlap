@@ -4,6 +4,10 @@
   margin-top: 1%;
 }
 
+.newEasyVisaouterHeading{
+  display: flex;
+  flex-direction: row;
+}
 .newEasyVisaouterHeading h2 {
   margin-left: 2%;
   font-weight: 700;
@@ -11,6 +15,27 @@
   margin-top: 2%;
   margin-bottom: 2%;
   color: #3380f2;
+}
+
+.newHomeEasyVisaDropContainer {
+  width: 20%;
+  margin-left: 56%;
+  margin-top: 0.1%;
+}
+
+.newEasyVisaCountryDrop {
+ 
+  margin-top: 13% !important;
+  margin-left: 22%;
+  color: #3380f2 !important;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 20px !important;
+}
+.newEasyVisaCountryDrop:hover {
+  background-color: #3380f2;
+  color: white !important;
+  font-weight: 700;
 }
 
 .newhomeEasyVisaSlideroutercontainer {
