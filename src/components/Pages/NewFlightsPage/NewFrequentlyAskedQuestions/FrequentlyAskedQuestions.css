@@ -1,0 +1,23 @@
+.accordion-button::after{
+    content:  "\2212";
+    width: 35px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    right: 15px;
+    top: 11px;
+    position: absolute;
+    appearance: none !important; 
+    background: #e8eeff;
+}
+.accordion-button.collapsed::after{
+    content: "\002B";
+}
+
+.accordion-button::after {
+    background-image: initial;
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    background-image: initial;
+  }

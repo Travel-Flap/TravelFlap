@@ -1,41 +1,139 @@
-.newhomeAppDownloadmaincontainer {
-  border: 1px solid red;
-  height: 600px;
-}
-
-.newhomeAppDownloadimagecontainer {
+.newhomedownloadmaindiv{
+  width: 100%;
+  height: 500px;
+  background-size: cover;
   object-fit: cover;
-}
-.newhomeAppDownloadimagecontainer img {
-  height: 600px;
-  /* object-fit: cover; */
-}
-
-.newhomeAppDownloadoverlaymaincontainer {
+  background-image: url("./background.jpeg");
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
 }
-
-.newhomeAppDownloadinnerimagecontainer {
-  border: 1px solid red;
-  width: 40%;
+.mobileinhand{
+    width: 52%;
+    height: 117%;
+    margin-left: -0.6%;
+    /* border: 2px solid red;*/
+    margin-top: -5%;
 }
-
-.newhomeAppDownloadinnerimagecontainer img {
-  width: 100%;
-  height: 650px;
-}
-
-.newhomeAppDownloadContentmainContainer {
-  border: 1px solid darkgreen;
+.newhomedownloadbuttons{
   width: 35%;
+  height: 100%;
+  margin-left: -17%;
+  /* border: 2px solid gold; */
+  display: flex;
+  flex-direction: column;
 }
-
-.newhomeAppDownloadContentmainContainer h5 {
-  border: 1px solid red;
-  width: 50%;
+.newhomedownloadtext{
+  width: 80%;
+  height: 30%;
+  /* border: 2px solid red; */
+  margin: auto;
+  color: white;
+  font-size: 30px;
+  margin-top: 5%;
+  /* padding-top: 10%; */
+  text-align: center;
+  font-weight: 700;
 }
-
-.newhomeAppDownloadCodemainContainer {
-  border: 1px solid black;
+.newhomesearchbox{
+  width: 80%;
+  height: 55%;
+  /* border: 2px solid greenyellow; */
+  margin: auto;
+  margin-top: 0%;
+}
+.newhomeplaybuttons{
+  width: 100%;
+  height: 25% !important;
+  /* border: 2px solid saddlebrown; */
+  /* margin: auto; */
+  display: flex;
+  flex-direction: row;
+}
+.playstoreimage{
+  width: 35%;
+  height: 49%;
+  margin: 7%;
+}
+.googlePlayimage{
+  width: 35%;
+  height: 49%;
+  margin: 7%;
+}
+.newhomebarcode{
+  width: 30%;
+  height: 100%;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+}
+.qrcodeimage{
+  width: 35%;
+  height: 35%;
+  margin: auto;
+  margin-left: 32%;
+  margin-top: 17%;
+  /* border: 2px solid red; */
+}
+.starsimage{
+  width: 40%;
+  height: 40%;
+  margin: auto;
+  margin-left: 50%;
+}
+.qrcodetext{
+  color: white;
+  font-size: 22px;
+  width: 65%;
+  font-weight: 700;
+   margin-left: 18%;
+  /* margin-bottom: 33% !important; */
+  /* border: 2px solid red; */
+}
+.newhomecountryselectdiv{
+  /* border: 2px solid red; */
+  /* width: 75%; */
+}
+.newhomecountryselectdivouter{
+  /* border: 2px solid #338 0F2; */
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  height: 28px;
+}
+.newhomevectorimage{
+  width: 25%;
+  height: 100%;
+  /* border: 2px solid salmon; */
+}
+.newhomecountryselect{
+  border: none;
+  color: #3380F2;
+  font-weight: 700;
+  font-size: 15px;
+  padding-top: 2.5%;
+  padding-left: 5%;
+  /* width: 100%; */
+}
+/* .newhomecontactdata{
+  border: 2px solid saddlebrown;
+  margin-top: 20%;
+  margin-left: 15%;
+} */
+.newhomeflagsimage{
+  width: 38%;
+  margin-top: 30%;
+  margin-left: -162%;
+}
+.newhomestdcode{
+  margin-left: -110%;
+  margin-top: -10%;
+  margin-bottom: -5%;
+}
+.newhomecontactplaceholder{
+  height: 22px;
+  margin-left: 7%;
+  margin-top: -11%;
+  border: none;
+  /* margin-top: -2% !important; */
 }

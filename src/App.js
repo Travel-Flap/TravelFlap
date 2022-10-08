@@ -15,7 +15,9 @@ import { Cruise } from "./components/Pages/Cruise/Cruise";
 import { Flights } from "./components/Pages/Flights/Flights";
 import { Staycations } from "./components/Pages/Staycations/Staycations";
 import { Rentals } from "./components/Pages/Rentals/Rentals";
+
 import { NewHomeLayout } from "./components/Pages/NewHomePage/NewHomeLayout";
+import { NewFlight } from "./components/Pages/NewFlightsPage/NewFlight";
 
 function App() {
   return (
@@ -30,7 +32,9 @@ function App() {
       <Routes>
         {/* <Router path="/home" element={<Home/>}></Router> */}
         {/* <Route path="/" element={<Home />} /> */}
+        {/* <Route path="/flights" element={<Flights/>} /> */}
         <Route path="/" element={<NewHomeLayout/>} />
+        <Route path="/flights" element={<NewFlight/>} />
         <Route path="/offers" element={<Offers />}   />
         <Route path="/holidays" element={<Holidays />} />
         <Route path="/hotel" element={<Hotel />} />
@@ -39,7 +43,6 @@ function App() {
         <Route path="/visa" element={<Visa/>}/>
         <Route path="/visadetail" element={<VisaDetails/>} />
         <Route path="/cruise" element={<Cruise/>} />
-        <Route path="/flights" element={<Flights/>} />
         <Route path="/rentals" element={ <Rentals/>} />
         <Route path="/staycations" element={ <Staycations/>} />
       </Routes>

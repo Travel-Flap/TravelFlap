@@ -1,5 +1,6 @@
 import React from 'react'
 import { Nav } from '../../Nav/Nav'
+import { NewHomeNav } from './NewHomeNavbar/NewHomeNavbar';
 import { NewHomeHotelServices } from './HotelServices/HotelServices';
 import { NewHomeAppDownload } from './NewHomeAppDownload/NewHomeAppDownload';
 import NewHomeAwards from './NewHomeAwards/NewHomeAwards';
@@ -9,7 +10,6 @@ import NewHomeEasyVisaDestination from './NewHomeEasyVisaDestination/NewHomeEasy
 import { NewHomeExclusiveDeals } from './NewHomeExclusiveDeals/NewHomeExclusiveDeals';
 import { NewHomeFooter } from './NewHomeFooter/NewHomeFooter';
 import { NewHomeHandPicked } from './NewHomeHandPicked/NewHomeHandPicked';
-import { NewHomeNav } from './NewHomeNavbar/NewHomeNavbar';
 import NewHomeOurPartners from './NewHomeOurPartners/NewHomeOurPartners';
 import {CenterMode, NewHomePopularDestinations} from './NewHomePopularDetination/NewHomePopularDestination';
 import { NewHomeStoriesSection } from './NewHomeStoriesSection/NewHomeStoriesSection';
@@ -49,6 +49,8 @@ export const NewHomeLayout = () => {
             <div className='carousel'>
                 <NewHomeAwards/>
             </div>
+
+            <NewHomeAppDownload/>
 
             <NewHomeStoriesSection/>
 
