@@ -83,14 +83,14 @@ export default class NewHomeAwards extends Component {
                         <div className="awardsnewhomecard card">
                             <div className='card_img'><img src="Images/AchievementsImage2.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
-                            {/* <div className="card-body">
+                            <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
-                                    <h4 className="card-title">GSA of Ethiopian Airlines.</h4>
+                                    <h4 className="card-title">GSA Ethiopian Airlines.</h4>
                                 </div>
-                                <div className='awardsnewhomecard_desc'>
+                                {/* <div className='awardsnewhomecard_desc'>
                                     <p className="card-text">In more than 3 countries.</p>
-                                </div>
-                            </div> */}
+                                </div> */}
+                            </div>
                         </div>
                     </div>
 
@@ -99,14 +99,14 @@ export default class NewHomeAwards extends Component {
                         <div className="awardsnewhomecard card">
                             <div className='card_img'><img src="Images/AchievementsImage3.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
-                            {/* <div className="card-body">
+                            <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
                                     <h4 className="card-title">GSA of Rwanda Airlines.</h4>
                                 </div>
-                                <div className='awardsnewhomecard_desc'>
+                                {/* <div className='awardsnewhomecard_desc'>
                                     <p className="card-text">In Kinshasa,RDC.</p>
-                                </div>
-                            </div> */}
+                                </div> */}
+                            </div>
                         </div>
                         {/* </div> */}
                     </div>
@@ -116,14 +116,14 @@ export default class NewHomeAwards extends Component {
                         <div className="awards">
                             <div className='card_img'><img src="Images/AchievementsImage4.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
-                            {/* <div className="card-body">
+                            <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
                                     <h4 className="card-title">GSA of Tchadia Airlines</h4>
                                 </div>
-                                <div className='awardsnewhomecard_desc'>
+                                {/* <div className='awardsnewhomecard_desc'>
                                     <p className="card-text">In Bangui Car.</p>
-                                </div>
-                            </div> */}
+                                </div> */}
+                            </div>
                         </div>
                         {/* </div> */}
                     </div>
@@ -133,14 +133,14 @@ export default class NewHomeAwards extends Component {
                         <div className="awardsnewhomecard card">
                             <div className='card_img'><img src="Images/AchievementsImage5.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
-                            {/* <div className="card-body">
+                            <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
                                     <h4 className="card-title">Best Agency Award</h4>
                                 </div>
-                                <div className='awardsnewhomecard_desc'>
+                                {/* <div className='awardsnewhomecard_desc'>
                                     <p className="card-text">From Rwanda Arilines in 2017.</p>
-                                </div>
-                            </div> */}
+                                </div> */}
+                            </div>
                         </div>
                         {/* </div> */}
                     </div>
@@ -150,14 +150,14 @@ export default class NewHomeAwards extends Component {
                         <div className="awardsnewhomecard card">
                             <div className='card_img'><img src="Images/AchievementsImage6.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
-                            {/* <div className="card-body">
+                            <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
                                     <h4 className="card-title">Appreciation Award</h4>
                                 </div>
-                                <div className='awardsnewhomecard_desc'>
+                                {/* <div className='awardsnewhomecard_desc'>
                                     <p className="card-text">In Madagascar from amadues 2018.</p>
-                                </div>
-                            </div> */}
+                                </div> */}
+                            </div>
                         </div>
                         {/* </div> */}
                     </div>
@@ -167,14 +167,14 @@ export default class NewHomeAwards extends Component {
                         <div className="awardsnewhomecard card">
                             <div className='card_img'><img src="Images/AchievementsImage3.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
-                            {/* <div className="card-body">
+                            <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
                                     <h4 className="card-title">People's Choice Award</h4>
                                 </div>
-                                <div className='awardsnewhomecard_desc'>
+                                {/* <div className='awardsnewhomecard_desc'>
                                     <p className="card-text">As Most Sympathetic Agency 2018.</p>
-                                </div>
-                            </div> */}
+                                </div> */}
+                            </div>
                         </div>
 
                         {/* </div> */}
@@ -185,14 +185,14 @@ export default class NewHomeAwards extends Component {
                         <div className="awardsnewhomecard card">
                             <div className='card_img'><img src="Images/AchievementsImage2.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
-                            {/* <div className="card-body">
+                            <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
                                     <h4 className="card-title">Highest Growth Award</h4>
                                 </div>
-                                <div className='awardsnewhomecard_desc'>
+                                {/* <div className='awardsnewhomecard_desc'>
                                     <p className="card-text">from SA Airlines in Namibia(2017).</p>
-                                </div>
-                            </div> */}
+                                </div> */}
+                            </div>
                         </div>
                         {/* </div> */}
                     </div>
@@ -202,14 +202,14 @@ export default class NewHomeAwards extends Component {
                         <div className="awardsnewhomecard card">
                             <div className='card_img'><img src="Images/AchievementsImage1.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
-                            {/* <div className="card-body">
+                            <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
                                     <h4 className="card-title">Highest Growth Award</h4>
                                 </div>
-                                <div className='awardsnewhomecard_desc'>
+                                {/* <div className='awardsnewhomecard_desc'>
                                     <p className="card-text">from SA Airlines in Zimbabwe(2018).</p>
-                                </div>
-                            </div> */}
+                                </div> */}
+                            </div>
                         </div>
                         {/* </div> */}
                     </div>

@@ -1,5 +1,5 @@
 .newhomebanner_main {
-    height: 800px;
+    height: 600px;
     box-sizing: border-box;
     /* border: 3px solid red; */
   }
@@ -11,7 +11,7 @@
 
   .newhomebannerimage img{
     object-fit: cover;
-    height: 800px;
+    height: 580px;
   }
 
   .newhomebannervideo{
@@ -20,8 +20,8 @@
 
   .newhome_bannertitle p{
     position: absolute;
-    top: 8%;
-    left: 40%;
+    top: 74%;
+    left: 28%;
     color: whitesmoke;
     font-size: 40px;
     font-family: sans-serif;
@@ -31,6 +31,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 56px;
     padding-left: 5px;
+    padding-right: 5px;
     font-style: italic !important;
   }
   .carousel-caption > .carouselbtn {

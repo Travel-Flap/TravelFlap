@@ -86,6 +86,7 @@ export const NewHomeCaruosel = () => {
                     <span>
                         <i>Awaits</i>
                     </span>
+                    with TravelFlap
                 </p>
             </div>
             {/* <Services /> */}

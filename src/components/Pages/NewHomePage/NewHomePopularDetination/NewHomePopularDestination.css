@@ -10,6 +10,19 @@
   display: flex;
   flex-direction: column;
 }
+
+.newHomePopularDestinationsDropContainer{
+  border: 1px solid red !important;
+  display: flex !important;
+  flex-direction: row;
+}
+
+.newHomePopularDestinationsDropContainer{
+  width: 20%;
+  margin-left: 56%;
+  margin-top: 0% !important;
+}
+
 .popularDestinationsselectoptions{
   /* border: 2px solid gold; */
   width: 90%;
