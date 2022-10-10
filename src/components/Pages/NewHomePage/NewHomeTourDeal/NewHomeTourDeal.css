@@ -2,6 +2,7 @@
   /* border: 2px solid red !important; */
   border: none !important;
   background-color: #fafafa !important;
+  height: auto;
 }
 
 .newhomeTourDealsmainoutercontainer img {
@@ -14,6 +15,7 @@
 
 .newHomeToursDealsliderdiv {
   width: 100%;
+  height: 350px;
   border-radius: 16px;
   overflow: hidden;
   cursor: pointer;
@@ -31,6 +33,7 @@
 }
 
 .activityexperimentcardimage img {
+  filter: brightness(0.7);
   width: 100%;
   height: 100%;
   -o-object-fit: cover;

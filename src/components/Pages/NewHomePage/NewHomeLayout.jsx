@@ -39,8 +39,8 @@ export const NewHomeLayout = () => {
                 <NewHomeTourDeals />
             </div>
 
-            <div className='carousel'>
                 <NewHomeOurPartners />
+            <div className='carousel'>
             </div>
 
             <div className='carousel'>

@@ -178,7 +178,7 @@ export const NewHomeTourDeals = () => {
                             >
                                 <div onMouseLeave={cardhandleToggle} className="card-wrapper">
                                     <div className=" cardParent card newHomeToursDealsliderdiv">
-                                        <div className=" newHomeTourDealscardimage">
+                                        <div className=" activityexperimentcardimage">
                                             <img src='Images/BestBudget/Bolivia.jpg' />
                                         </div>
                                         <div className={toggle ? "none" : "newHomeToursDealdetails"}>
@@ -196,7 +196,7 @@ export const NewHomeTourDeals = () => {
 
                                 <div onMouseLeave={cardhandleToggle1} className="card-wrapper">
                                     <div className="cardParent card newHomeToursDealsliderdiv">
-                                        <div className=" newHomeTourDealscardimage">
+                                        <div className=" activityexperimentcardimage">
                                             <img src='Images/BestBudget/Cambodia.jpg' />
                                         </div>
                                         <div className={toggle1 ? "none" : "newHomeToursDealdetails"}>
@@ -212,7 +212,7 @@ export const NewHomeTourDeals = () => {
                                 </div>
                                 <div onMouseLeave={cardhandleToggle2} className="card-wrapper">
                                     <div className="card newHomeToursDealsliderdiv">
-                                        <div className=" newHomeTourDealscardimage">
+                                        <div className=" activityexperimentcardimage">
                                             <img src='Images/BestBudget/Bulgaria.jpg' />
                                         </div>
                                         <div className={toggle2 ? "none" : "newHomeToursDealdetails"}>
@@ -228,7 +228,7 @@ export const NewHomeTourDeals = () => {
                                 </div>
                                 <div onMouseLeave={cardhandleToggle3} className="card-wrapper">
                                     <div className="card newHomeToursDealsliderdiv">
-                                        <div className=" newHomeTourDealscardimage">
+                                        <div className=" activityexperimentcardimage">
                                             <img src='Images/BestBudget/El Salvador.jpg' />
                                         </div>
                                         <div className={toggle3 ? "none" : "newHomeToursDealdetails"}>
@@ -244,7 +244,7 @@ export const NewHomeTourDeals = () => {
                                 </div>
                                 <div onMouseLeave={cardhandleToggle4} className="card-wrapper">
                                     <div className="card newHomeToursDealsliderdiv">
-                                        <div className=" newHomeTourDealscardimage">
+                                        <div className=" activityexperimentcardimage">
                                             <img src='Images/BestBudget/Nicaragua.jpg' />
                                         </div>
                                         <div className={toggle4 ? "none" : "newHomeToursDealdetails"}>
