@@ -137,7 +137,7 @@
     color: white;
   }
   
-  .carousel .slick-dots {
+  /* .carousel .slick-dots {
     bottom: -2.5vw;
   }
   
@@ -165,7 +165,7 @@
     transform: translate(-50%, -50%);
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-  }
+  } */
   
   .carousel .slick-prev,
   .carousel .slick-next {

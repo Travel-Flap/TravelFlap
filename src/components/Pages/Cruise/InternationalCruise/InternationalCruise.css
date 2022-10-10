@@ -360,7 +360,7 @@
       bottom: 0;
     }
     
-    .carousel .slick-dots {
+    /* .carousel .slick-dots {
       bottom: -2.5vw;
     }
     
@@ -388,7 +388,7 @@
       -webkit-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
     }
-    
+     */
     .carousel .slick-prev,
     .carousel .slick-next {
       width: 50px;

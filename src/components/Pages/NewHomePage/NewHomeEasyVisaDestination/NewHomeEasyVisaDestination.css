@@ -166,6 +166,9 @@
   background-color: #3380f2;
 }
 
+.newhomeEasyVisaSlideroutercontainer .slick-dots li button::after{
+  background-color: #000 !important;
+}
 .newhomeEasyVisaSlideroutercontainer .slick-dots li button:before {
   /* border: 1px solid red !important; */
   position: absolute;
@@ -178,8 +181,8 @@
   content: "";
   text-align: center;
   opacity: 0.5;
-  color: #000;
-  background-color: white !important;
+  /* color: #000; */
+  background-color: #3380f2 !important;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-transition: all 0.3s ease-in-out;

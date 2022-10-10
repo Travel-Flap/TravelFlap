@@ -211,37 +211,40 @@
   font-size: 14px;
 }
 
-.carousel .slick-dots {
+.newhomeTopCitiesslickslidercontainer .slick-dots {
   bottom: -2.5vw;
 }
 
-.carousel .slick-dots li button {
+.newhomeTopCitiesslickslidercontainer .slick-dots li button {
   width: 20px;
   height: 20px;
-  background: whitesmoke !important;
-  /* background: rgb(51, 128, 242); */
-  border: 1px solid rgb(51, 128, 242);
+  /* border: 1px solid #fff; */
   border-radius: 20px;
+  background-color: white !important;
 }
 
-.carousel .slick-dots li button:before {
+.newhomeTopCitiesslickslidercontainer .slick-dots li button::after{
+  background-color: #000 !important;
+}
+.newhomeTopCitiesslickslidercontainer .slick-dots li button:before {
+  border: 1px solid white !important;
   position: absolute;
+  font-size: 20px;
   top: 50%;
   left: 50%;
   width: 10px;
   height: 10px;
-  border-radius: 10px;
+  border-radius: 210px;
   content: "";
   text-align: center;
   opacity: 0.5;
-  color: white !important;
-  background-color: blue !important;
+  /* color: #000; */
+  background-color: white !important;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
 .carousel .slick-prev,
 .carousel .slick-next {
   width: 50px;

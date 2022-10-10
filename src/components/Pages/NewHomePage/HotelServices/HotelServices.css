@@ -54,11 +54,11 @@
   width: 280px;
 }
 
-.activityaroundslidercontainer .hotelservicesslickDots {
+.newHomeHotelServicesslidercontainer .hotelservicesslickDots {
   bottom: -2.5vw;
 }
 
-.activityaroundslidercontainer .hotelservicesslickDots li button {
+.newHomeHotelServicesslidercontainer .hotelservicesslickDots li button {
   width: 20px;
   height: 20px;
   background: white !important;
@@ -67,7 +67,7 @@
   border-radius: 20px;
 }
 
-.activityaroundslidercontainer .hotelservicesslickDots li button:before {
+.newHomeHotelServicesslidercontainer .hotelservicesslickDots li button:before {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -118,6 +118,46 @@
 /* .viewallhomehotelcardtext{
   
   } */
+
+.newHomeHotelDotsdiv .slick-dots {
+  bottom: -2.5vw;
+  /* border: 1px solid red !important; */
+  margin-top: 1% !important;
+}
+
+.newHomeHotelDotsdiv .slick-dots li  {
+  /* border: 1px solid red !important; */
+  bottom: 2%;;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: white !important;
+}
+
+.newHomeHotelDotsdiv .slick-dots li button:active{
+  background-color: blue !important;
+}
+
+.newHomeHotelDotsdiv .slick-dots li:before {
+
+  position: absolute;
+  font-size: 20px;
+  top: 60%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 210px;
+  content: ".";
+  text-align: center;
+  opacity: 0.5;
+  /* color: #000; */
+  background-color: white !important;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 .experimentheading2 {
   /* border: 1px solid blue; */
   width: 60%;
@@ -183,7 +223,7 @@
   color: #3380f2;
   /* padding-top: 1%; */
 }
-.activityaroundslidercontainer {
+.newHomeHotelServicesslidercontainer {
   /* border: 2px solid red; */
   width: 90%;
   margin: auto;
@@ -252,16 +292,6 @@
   color: white;
 }
 
-/* .experimentheading2 div:hover{
-      color: white;
-      background-color: #3380F2;
-    } */
-
-/* .experimentheading2 p{
-      width: 300px;
-      color: #3380F2;
-      font-weight: 500;
-    } */
 .activityaroundheadingbuttons {
   /* border: 1px solid yellow !important; */
   justify-content: flex-end;
@@ -512,7 +542,7 @@
   color: #3380f2;
   padding-top: 1%;
 }
-.activityaroundslidercontainer {
+.newHomeHotelServicesslidercontainer {
   /* border: 2px solid red; */
   width: 90%;
   margin: auto;
@@ -543,11 +573,6 @@
   margin-left: 9% !important;
   width: 100% !important;
 }
-/* 
-    .activityaroundtextcard:hover{
-      color: white;
-      background-color: #3380F2;
-    } */
 
 .activityaroundtextcard:hover div {
   color: white;
@@ -582,16 +607,6 @@
   color: white;
 }
 
-/* .experimentheading2 div:hover{
-      color: white;
-      background-color: #3380F2;
-    } */
-
-/* .experimentheading2 p{
-      width: 300px;
-      color: #3380F2;
-      font-weight: 500;
-    } */
 .activityaroundheadingbuttons {
   /* border: 1px solid yellow !important; */
   justify-content: flex-end;
@@ -645,92 +660,6 @@
   color: white;
   font-size: 14px !important;
 }
-/* .carousel-control-prev{
-        border: 1px solid red;
-    
-    } */
-
-/* .main_container{
-        border: 1px solid red;
-        height: 500px;
-    }
-    
-    .line-indicator li {
-        height: 4px;
-        width: 70px;
-        background: lightgray;
-        border-radius: 5px;
-      }
-      
-      .line-indicator li:hover {
-        background: gray;
-      }
-      
-      .line-indicator li.slick-active {
-        background: blue;
-      }
-      .buttons {
-        background: orangered !important;
-        color: white !important;
-        transition: 700ms;
-      }
-      .buttons:hover {
-        transform: scale(1.1);
-      } */
-
-/* .partners_title{
-        font-size: 35px;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin-top: 10%;
-      margin-bottom: 4%;
-      text-decoration: none solid rgb(154, 148, 148);
-      vertical-align: baseline;
-      letter-spacing: normal;
-      text-align: center;
-      color: #3380f2;
-    }
-    
-    ._carouseldiv1{
-       position: relative;
-    }
-    ._imagediv{
-        height:100%;
-        width:100%;
-    }
-    .slick-slide > div {
-      margin: 0 10px;
-    }
-    .slick-list {
-      margin: 0 -10px;
-    }
-    ._hoverdiv{
-        border:1px solid green;
-        position: absolute;
-        top:0px;
-        width:100%;
-        height:85%;
-        background-color: yellow;
-        visibility: hidden;
-    }
-    ._carouseldiv1 > div:hover{
-        visibility: visible;
-    }
-    ._staticdiv{
-        border:1px solid darkblue;
-        position: absolute;
-        bottom:0px;
-        width:100%;
-        height:14.3%;
-        background-color:#203e50; 
-        text-align: center;
-        box-sizing: border-box;
-        font-size: larger;
-        padding-top: 4%;
-    }
-    
-       */
 
 @media screen and (max-width: 950px) {
   .activityaroundimagetextcontainer {

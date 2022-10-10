@@ -32,7 +32,7 @@ export const NewHomeTopCitites = () => {
     }
     const settings = {
         dots: true,
-        dotsclassName: "slick-dots line-indicator",
+        dotsClassName:"slick-dots topCititesSlickdots line-indicator",
         // infinite: true,
         // autoplay: true,
         // autoplayspeed:1000,

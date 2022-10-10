@@ -76,29 +76,36 @@
   border-radius: 0px 25px 25px 0px;
   padding-right: 5%;
 }
-/* .popularDestinationselect2{
-  border: 2px solid #3380F2;
-  outline: none;
-  background-color: #3380F2;
-  color: white;
-  width:35%;
-  font-size: 23px;
-  height: 50px;
-  border-radius: 25px 0px 0px 25px;
-  padding-left: 1.5%;
-  padding-right: 1.5% !important;
-  text-decoration: none;
-  font-weight: 500;
-  appearance: none;
-} */
-/* .populardestinationsicon{
-  color: white;
-  background-color: #3380F2;
-  height: 50px;
-  font-size: 18px !important;
-  right: 5% !important;
-  border-radius: 0px 25px 25px 0px;
-} */
+
+.mainCarouselDiv .slick_dots li button {
+  border: 1px solid red !important;
+  bottom: 2%;;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: white !important;
+}
+
+.slick_dots li button:before {
+  position: absolute;
+  font-size: 20px;
+  top: 60%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 210px;
+  content: "";
+  text-align: center;
+  opacity: 0.5;
+  /* color: #000; */
+  background-color: white !important;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
  .mainCarouselDiv {
   width: 100%;
   height: 500px;

@@ -35,6 +35,7 @@ export const CenterMode = () => {
     const [slideindex, setSlideindex] = useState(0)
     const settings = {
         dots: true,
+        dotsClassName: "slick_dots line-indicator",
         infinite: true,
         speed: 500,
         slidesToShow: 5,
@@ -48,12 +49,12 @@ export const CenterMode = () => {
     };
 
     const slides = [
-        { slidename: 'hello slide', img: 'https://images.unsplash.com/photo-1603378995290-8d4ce0495ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGZyYW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60', solution: 'France' },
-        { slidename: 'hello slide', img: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aXRhbHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60', solution: 'Italy' },
-        { slidename: 'hello slide', img: 'https://images.unsplash.com/photo-1526495124232-a04e1849168c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZHViYWl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60', solution: 'Dubai' },
-        { slidename: 'hello slide', img: 'https://images.unsplash.com/photo-1523544463628-d873327f5217?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fGluZGlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60', solution: "India" },
-        { slidename: 'hello slide', img: 'https://images.unsplash.com/photo-1569530593523-083e18aecc75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fHR1cmtleXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60', solution: 'Turkey' },
-        { slidename: 'hello slide', img: 'https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z3JlZWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60', solution: 'Greece' },
+        { slidename: 'hello slide', img: 'Images/NewHomeLayout/NewPopularDestinations/NewPopularFrance.jpg', solution: 'France' },
+        { slidename: 'hello slide', img: 'Images/NewHomeLayout/NewPopularDestinations/NewPopularItaly.jpg', solution: 'Italy' },
+        { slidename: 'hello slide', img: 'Images/NewHomeLayout/NewPopularDestinations/NewPopularDubai.jpg', solution: 'Dubai' },
+        { slidename: 'hello slide', img: 'Images/NewHomeLayout/NewPopularDestinations/NewPopularIndia.jpg', solution: "India" },
+        { slidename: 'hello slide', img: 'Images/NewHomeLayout/NewPopularDestinations/NewPopularTurkey.jpg', solution: 'Turkey' },
+        { slidename: 'hello slide', img: 'Images/NewHomeLayout/NewPopularDestinations/NewPopularGreece.jpg', solution: 'Greece' },
     ]
     return (
         <>

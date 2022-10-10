@@ -79,279 +79,281 @@ export const NewHomeHotelServices = () => {
                 </div> */}
             </div>
 
-            <div className="activityaroundslidercontainer">
-                <Slider
-                    arrows={false}
-                    // autoplay={true}
-                    speed={1000}
-                    autoplaySpeed={2000}
-                    dots={true}
-                    dotsclassName="slick-dots hotelservicesslickDots line-indicator"
-                    ref={sliderRef}
-                    slidesToShow={5}
-                    slidesToScroll={2}
-                    responsive={[
-                        {
-                            breakpoint: 1024,
-                            settings: {
-                                slidesToShow: 3,
-                                slidesToScroll: 1,
-                                infinite: true
+            <div className="newHomeHotelServicesslidercontainer">
+                <div className='newHomeHotelDotsdiv'>
+                    <Slider
+                        arrows={false}
+                        // autoplay={true}
+                        speed={1000}
+                        autoplaySpeed={2000}
+                        dots={true}
+                        dotsclassName="slick-dots hotelservicesslickDots line-indicator"
+                        ref={sliderRef}
+                        slidesToShow={5}
+                        slidesToScroll={2}
+                        responsive={[
+                            {
+                                breakpoint: 1024,
+                                settings: {
+                                    slidesToShow: 3,
+                                    slidesToScroll: 1,
+                                    infinite: true
+                                }
+                            },
+                            {
+                                breakpoint: 950,
+                                settings: {
+                                    slidesToShow: 2,
+                                    slidesToScroll: 1,
+                                    infinite: true
+                                }
+                            },
+                            {
+                                breakpoint: 800,
+                                settings: {
+                                    slidesToShow: 2,
+                                    slidesToScroll: 1,
+                                    infinite: true
+                                }
+                            },
+                            {
+                                breakpoint: 600,
+                                settings: {
+                                    slidesToShow: 2,
+                                    slidesToScroll: 2,
+                                    initialSlide: 2
+                                }
+                            },
+                            {
+                                breakpoint: 480,
+                                settings: {
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1
+                                }
                             }
-                        },
-                        {
-                            breakpoint: 950,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 1,
-                                infinite: true
-                            }
-                        },
-                        {
-                            breakpoint: 800,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 1,
-                                infinite: true
-                            }
-                        },
-                        {
-                            breakpoint: 600,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 2,
-                                initialSlide: 2
-                            }
-                        },
-                        {
-                            breakpoint: 480,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1
-                            }
-                        }
-                    ]}
-                    customPaging={(i) => (
-                        <div
-                            style={{
-                                // position: "absolute",
-                                width: "100%",
-                                top: "-10px",
-                                opacity: 0,
-                            }}
-                        >
-                            {i}
-                        </div>
-                    )}
-                >
+                        ]}
+                        customPaging={(i) => (
+                            <div
+                                style={{
+                                    // position: "absolute",
+                                    width: "100%",
+                                    top: "-10px",
+                                    opacity: 0,
+                                }}
+                            >
+                                {i}
+                            </div>
+                        )}
+                    >
 
-                    <div className="cardtexthotelservices_maindiv">
-                        <div className="reviewratingsection">
-                            <th>Exeptional
+                        <div className="cardtexthotelservices_maindiv">
+                            <div className="reviewratingsection">
+                                <th>Exeptional
+                                    <br />
+                                    <span style={{ fontSize: "10px" }}>1879 reviews</span>
+                                </th>
+                                <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                            </div>
+                            <img src="Images/HotelsImage/HotelImage1.jpg" alt="" />
+                            <div className="cardhotelservices_title">Single Room
                                 <br />
-                                <span style={{ fontSize: "10px" }}>1879 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div>
-                        <img src="Images/HotelsImage/HotelImage1.jpg" alt="" />
-                        <div className="cardhotelservices_title">Single Room
-                            <br />
-                            <span className="hoteltitle_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span>
-                        </div>
+                                <span className="hoteltitle_rating">
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                </span>
+                            </div>
 
-                        <div className="hotelservicesratesdiv">
-                            <p>$300/ day</p>
-                        </div>
-                        {/* <div className="hoteldicsountprice">
+                            <div className="hotelservicesratesdiv">
+                                <p>$300/ day</p>
+                            </div>
+                            {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
                             <span className="hotelPricebeforediscount">&#x24;19,662</span>
                             <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
                         </div> */}
-                    </div>
-                    <div className="cardtexthotelservices_maindiv">
-                        <div className="reviewratingsection">
-                            <th>Exeptional
+                        </div>
+                        <div className="cardtexthotelservices_maindiv">
+                            <div className="reviewratingsection">
+                                <th>Exeptional
+                                    <br />
+                                    <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                                </th>
+                                <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                            </div>
+                            <img src="Images/HotelsImage/HotelImage2.jpg" alt="" />
+                            <div className="cardhotelservices_title">Single Room
                                 <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div>
-                        <img src="Images/HotelsImage/HotelImage2.jpg" alt="" />
-                        <div className="cardhotelservices_title">Single Room
-                            <br />
-                            <span className="hoteltitle_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span>
-                        </div>
+                                <span className="hoteltitle_rating">
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                </span>
+                            </div>
 
-                        <div className="hotelservicesratesdiv">
-                            <p>$300/ day</p>
-                        </div>
-                        {/* <div className="hoteldicsountprice">
+                            <div className="hotelservicesratesdiv">
+                                <p>$300/ day</p>
+                            </div>
+                            {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
                             <span className="hotelPricebeforediscount">&#x24;19,662</span>
                             <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
                         </div> */}
-                    </div>
+                        </div>
 
-                    <div className="cardtexthotelservices_maindiv">
-                        <div className="reviewratingsection">
-                            <th>Exeptional
+                        <div className="cardtexthotelservices_maindiv">
+                            <div className="reviewratingsection">
+                                <th>Exeptional
+                                    <br />
+                                    <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                                </th>
+                                <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                            </div>
+                            <img src="Images/HotelsImage/HotelImage3.jpg" alt="" />
+                            <div className="cardhotelservices_title">Single Room
                                 <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div>
-                        <img src="Images/HotelsImage/HotelImage3.jpg" alt="" />
-                        <div className="cardhotelservices_title">Single Room
-                            <br />
-                            <span className="hoteltitle_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span>
-                        </div>
+                                <span className="hoteltitle_rating">
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                </span>
+                            </div>
 
-                        <div className="hotelservicesratesdiv">
-                            <p>$300/ day</p>
-                        </div>
-                        {/* <div className="hoteldicsountprice">
+                            <div className="hotelservicesratesdiv">
+                                <p>$300/ day</p>
+                            </div>
+                            {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
                             <span className="hotelPricebeforediscount">&#x24;19,662</span>
                             <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
                         </div> */}
-                    </div>
-                    <div className="cardtexthotelservices_maindiv">
-                        <div className="reviewratingsection">
-                            <th>Exeptional
+                        </div>
+                        <div className="cardtexthotelservices_maindiv">
+                            <div className="reviewratingsection">
+                                <th>Exeptional
+                                    <br />
+                                    <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                                </th>
+                                <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                            </div>
+                            <img src="Images/HotelsImage/HotelImage4.jpg" alt="" />
+                            <div className="cardhotelservices_title">Single Room
                                 <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div>
-                        <img src="Images/HotelsImage/HotelImage4.jpg" alt="" />
-                        <div className="cardhotelservices_title">Single Room
-                            <br />
-                            <span className="hoteltitle_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span>
-                        </div>
+                                <span className="hoteltitle_rating">
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                </span>
+                            </div>
 
-                        <div className="hotelservicesratesdiv">
-                            <p>$300/ day</p>
-                        </div>
-                        {/* <div className="hoteldicsountprice">
+                            <div className="hotelservicesratesdiv">
+                                <p>$300/ day</p>
+                            </div>
+                            {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
                             <span className="hotelPricebeforediscount">&#x24;19,662</span>
                             <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
                         </div> */}
-                    </div>
-                    <div className="cardtexthotelservices_maindiv">
-                        <div className="reviewratingsection">
-                            <th>Exeptional
+                        </div>
+                        <div className="cardtexthotelservices_maindiv">
+                            <div className="reviewratingsection">
+                                <th>Exeptional
+                                    <br />
+                                    <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                                </th>
+                                <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                            </div>
+                            <img src="Images/HotelsImage/HotelImage5.jpg" alt="" />
+                            <div className="cardhotelservices_title">Single Room
                                 <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div>
-                        <img src="Images/HotelsImage/HotelImage5.jpg" alt="" />
-                        <div className="cardhotelservices_title">Single Room
-                            <br />
-                            <span className="hoteltitle_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span>
-                        </div>
+                                <span className="hoteltitle_rating">
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                </span>
+                            </div>
 
-                        <div className="hotelservicesratesdiv">
-                            <p>$300/ day</p>
-                        </div>
-                        {/* <div className="hoteldicsountprice">
+                            <div className="hotelservicesratesdiv">
+                                <p>$300/ day</p>
+                            </div>
+                            {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
                             <span className="hotelPricebeforediscount">&#x24;19,662</span>
                             <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
                         </div> */}
-                    </div>
-                    <div className="cardtexthotelservices_maindiv">
-                        <div className="reviewratingsection">
-                            <th>Exeptional
+                        </div>
+                        <div className="cardtexthotelservices_maindiv">
+                            <div className="reviewratingsection">
+                                <th>Exeptional
+                                    <br />
+                                    <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                                </th>
+                                <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                            </div>
+                            <img src="Images/HotelsImage/HotelImage6.jpg" alt="" />
+                            <div className="cardhotelservices_title">Single Room
                                 <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div>
-                        <img src="Images/HotelsImage/HotelImage6.jpg" alt="" />
-                        <div className="cardhotelservices_title">Single Room
-                            <br />
-                            <span className="hoteltitle_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span>
-                        </div>
+                                <span className="hoteltitle_rating">
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                </span>
+                            </div>
 
-                        <div className="hotelservicesratesdiv">
-                            <p>$300/ day</p>
-                        </div>
-                        {/* <div className="hoteldicsountprice">
+                            <div className="hotelservicesratesdiv">
+                                <p>$300/ day</p>
+                            </div>
+                            {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
                             <span className="hotelPricebeforediscount">&#x24;19,662</span>
                             <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
                         </div> */}
-                    </div>
-                    <div className="cardtexthotelservices_maindiv">
-                        <div className="reviewratingsection">
-                            <th>Exeptional
+                        </div>
+                        <div className="cardtexthotelservices_maindiv">
+                            <div className="reviewratingsection">
+                                <th>Exeptional
+                                    <br />
+                                    <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                                </th>
+                                <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                            </div>
+                            <img src="Images/HotelsImage/HotelImage7.jpg" alt="" />
+                            <div className="cardhotelservices_title">Single Room
                                 <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div>
-                        <img src="Images/HotelsImage/HotelImage7.jpg" alt="" />
-                        <div className="cardhotelservices_title">Single Room
-                            <br />
-                            <span className="hoteltitle_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span>
-                        </div>
+                                <span className="hoteltitle_rating">
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                    <BsFillStarFill className="staricon" />
+                                </span>
+                            </div>
 
-                        <div className="hotelservicesratesdiv">
-                            <p>$300/ day</p>
-                        </div>
-                        {/* <div className="hoteldicsountprice">
+                            <div className="hotelservicesratesdiv">
+                                <p>$300/ day</p>
+                            </div>
+                            {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
                             <span className="hotelPricebeforediscount">&#x24;19,662</span>
                             <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
                         </div> */}
-                    </div>
+                        </div>
 
 
-                </Slider>
+                    </Slider>
+                </div>
             </div>
         </div>
     );
