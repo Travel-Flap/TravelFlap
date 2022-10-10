@@ -60,15 +60,7 @@ export const NewHomeCaruosel = () => {
                                 src={NewHomeBanner}
                                 alt="First slide"
                             />
-
-                            {/* <video width="500px" height="500px"
-                                controls="controls" >
-
-                            <source src="Images/NewHomeLayout/NewHomeBanner/NewHomeBanner.mp4"
-                                type="video/mp4" />
-                            </video> */}
-
-
+                            
                         </div>
                         <Carousel.Caption>
                             {/* <h1>Travel</h1> */}

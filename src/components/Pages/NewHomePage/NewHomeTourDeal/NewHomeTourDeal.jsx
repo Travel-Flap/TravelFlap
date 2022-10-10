@@ -7,8 +7,31 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect, useState } from "react";
 import { FaLocationArrow } from "react-icons/fa";
+import countrydata from '../../../../CountryData.json';
 
 export const NewHomeTourDeals = () => {
+    const [countryid, setCountryid] = useState('');
+    const [state, setState] = useState([]);
+    const [stateid, setStateid] = useState('');
+
+    const handlecounty = (e) => {
+        const getcountryId = e.target.value;
+        const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
+        setState(getStatedata);
+        setCountryid(getcountryId);
+        //console.log(getcountryId);
+    }
+
+    const handlestate = (e) => {
+        const stateid = e.target.value;
+        //console.log(stateid);
+        setStateid(stateid);
+
+    }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        alert("Get Country id" + countryid + " And " + stateid); 
+    }
     const sliderRef = useRef(null);
     useEffect(() => {
         console.log(sliderRef);
@@ -50,7 +73,7 @@ export const NewHomeTourDeals = () => {
     const cardhandleToggle3 = () => {
         setToggle3(false)
     }
-    
+
     const handleText4 = () => {
         setToggle4(true)
     }
@@ -76,6 +99,18 @@ export const NewHomeTourDeals = () => {
                     <div class="card-img-overlay">
                         <div className='newhomeTourDealsheadingcontainer'>
                             <h2>Tour Deals</h2>
+
+                            <div className='newHomeTourDealsDropContainer'>
+                                <select className="form-select newToursDealsCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
+                                    style={{ border: "3px solid #3380f2", width: "60%" }}>
+                                    <option value="" style={{ textAlign: "center" }}>Select Country</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                </select>
+                            </div>
                         </div>
                         <div className="tourdealsnewhomepagecardmaindiv">
                             <Slider
@@ -142,11 +177,11 @@ export const NewHomeTourDeals = () => {
                                 )}
                             >
                                 <div onMouseLeave={cardhandleToggle} className="card-wrapper">
-                                    <div className=" cardParent card activityexperimentsliderdiv">
-                                        <div className=" activityexperimentcardimage">
+                                    <div className=" cardParent card newHomeToursDealsliderdiv">
+                                        <div className=" newHomeTourDealscardimage">
                                             <img src='Images/BestBudget/Bolivia.jpg' />
                                         </div>
-                                        <div className={toggle ? "none" : "activityexperimentdetails"}>
+                                        <div className={toggle ? "none" : "newHomeToursDealdetails"}>
                                             <h2>Bolivia <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
                                             </span>
                                                 <p onClick={handleText}>Tap to read more</p>
@@ -160,11 +195,11 @@ export const NewHomeTourDeals = () => {
                                 </div>
 
                                 <div onMouseLeave={cardhandleToggle1} className="card-wrapper">
-                                    <div className="cardParent card activityexperimentsliderdiv">
-                                        <div className=" activityexperimentcardimage">
+                                    <div className="cardParent card newHomeToursDealsliderdiv">
+                                        <div className=" newHomeTourDealscardimage">
                                             <img src='Images/BestBudget/Cambodia.jpg' />
                                         </div>
-                                        <div className={toggle1 ? "none" : "activityexperimentdetails"}>
+                                        <div className={toggle1 ? "none" : "newHomeToursDealdetails"}>
                                             <h2>Cambodia <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
                                             </span>
                                                 <p onClick={handleText1}>Tap to read more</p>
@@ -176,11 +211,11 @@ export const NewHomeTourDeals = () => {
                                     </div>
                                 </div>
                                 <div onMouseLeave={cardhandleToggle2} className="card-wrapper">
-                                    <div className="card activityexperimentsliderdiv">
-                                        <div className=" activityexperimentcardimage">
+                                    <div className="card newHomeToursDealsliderdiv">
+                                        <div className=" newHomeTourDealscardimage">
                                             <img src='Images/BestBudget/Bulgaria.jpg' />
                                         </div>
-                                        <div className={toggle2 ? "none" : "activityexperimentdetails"}>
+                                        <div className={toggle2 ? "none" : "newHomeToursDealdetails"}>
                                             <h2>Bulgaria <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
                                             </span>
                                                 <p onClick={handleText2}>Tap to read more</p>
@@ -192,11 +227,11 @@ export const NewHomeTourDeals = () => {
                                     </div>
                                 </div>
                                 <div onMouseLeave={cardhandleToggle3} className="card-wrapper">
-                                    <div className="card activityexperimentsliderdiv">
-                                        <div className=" activityexperimentcardimage">
+                                    <div className="card newHomeToursDealsliderdiv">
+                                        <div className=" newHomeTourDealscardimage">
                                             <img src='Images/BestBudget/El Salvador.jpg' />
                                         </div>
-                                        <div className={toggle3 ? "none" : "activityexperimentdetails"}>
+                                        <div className={toggle3 ? "none" : "newHomeToursDealdetails"}>
                                             <h2>El Salvador <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
                                             </span>
                                                 <p onClick={handleText3}>Tap to read more</p>
@@ -208,11 +243,11 @@ export const NewHomeTourDeals = () => {
                                     </div>
                                 </div>
                                 <div onMouseLeave={cardhandleToggle4} className="card-wrapper">
-                                    <div className="card activityexperimentsliderdiv">
-                                        <div className=" activityexperimentcardimage">
+                                    <div className="card newHomeToursDealsliderdiv">
+                                        <div className=" newHomeTourDealscardimage">
                                             <img src='Images/BestBudget/Nicaragua.jpg' />
                                         </div>
-                                        <div className={toggle4 ? "none" : "activityexperimentdetails"}>
+                                        <div className={toggle4 ? "none" : "newHomeToursDealdetails"}>
                                             <h2 onClick={handleText4}>Laos <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
                                             </span>
                                                 <p>Tap to read more</p>

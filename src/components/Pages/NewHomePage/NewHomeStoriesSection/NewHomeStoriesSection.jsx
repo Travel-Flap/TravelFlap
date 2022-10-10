@@ -23,15 +23,15 @@ export const NewHomeStoriesSection = () => {
     const settings = {
         infinite: true,
         accessibility: false,
-        autoplaySpeed: 0,
-        speed: 1000,
+        // autoplay: true,
+        // autoplaySpeed: 1000,
+        // speed: 1000,
         slidesToScroll: 1,
         initialSlide: 5,
         draggable: false,
         touchMove: false,
         slidesToShow: 5,
         pauseOnHover: false,
-        autoplay: true,
         cssEase: "linear",
         arrows: false,
         responsive: [

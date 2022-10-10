@@ -1,5 +1,5 @@
 .newhomebanner_main {
-    height: 600px;
+    height: 700px;
     box-sizing: border-box;
     /* border: 3px solid red; */
   }
@@ -11,7 +11,7 @@
 
   .newhomebannerimage img{
     object-fit: cover;
-    height: 580px;
+    height: 680px;
   }
 
   .newhomebannervideo{
@@ -20,7 +20,7 @@
 
   .newhome_bannertitle p{
     position: absolute;
-    top: 74%;
+    top: 65%;
     left: 28%;
     color: whitesmoke;
     font-size: 40px;

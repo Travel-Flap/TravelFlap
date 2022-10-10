@@ -6,12 +6,12 @@ import { NewHomeAppDownload } from './NewHomeAppDownload/NewHomeAppDownload';
 import NewHomeAwards from './NewHomeAwards/NewHomeAwards';
 import { NewHomeCaruosel } from './NewHomeBanner/NewHomeBanner';
 import { NewHomeBottomBar } from './NewHomeBottomBar/NewHomeBottomBar';
-import  {NewHomeEasyVisaDestination} from './NewHomeEasyVisaDestination/NewHomeEasyVisaDestination';
+import { NewHomeEasyVisaDestination } from './NewHomeEasyVisaDestination/NewHomeEasyVisaDestination';
 import { NewHomeExclusiveDeals } from './NewHomeExclusiveDeals/NewHomeExclusiveDeals';
 import { NewHomeFooter } from './NewHomeFooter/NewHomeFooter';
 import { NewHomeHandPicked } from './NewHomeHandPicked/NewHomeHandPicked';
 import NewHomeOurPartners from './NewHomeOurPartners/NewHomeOurPartners';
-import {CenterMode, NewHomePopularDestinations} from './NewHomePopularDetination/NewHomePopularDestination';
+import { CenterMode, NewHomePopularDestinations } from './NewHomePopularDetination/NewHomePopularDestination';
 import { NewHomeStoriesSection } from './NewHomeStoriesSection/NewHomeStoriesSection';
 import { NewHomeTopCitites } from './NewHomeTopCitites/NewHomeTopCitites';
 import { NewHomeTourDeals } from './NewHomeTourDeal/NewHomeTourDeal';
@@ -21,16 +21,17 @@ import { FooterLinks } from '../../FooterLinks/FooterLinks';
 export const NewHomeLayout = () => {
     return (
         <div>
-            {/* <Nav/> */}
+            <Nav/>
             <NewHomeNav />
             <NewHomeCaruosel />
 
             <div className='carousel'>
-                <NewHomeExclusiveDeals/>
+                <NewHomeExclusiveDeals />
             </div>
+
             <NewHomeHandPicked />
 
-            <CenterMode/>
+            <CenterMode />
 
             <NewHomeHotelServices />
 
@@ -43,27 +44,25 @@ export const NewHomeLayout = () => {
             </div>
 
             <div className='carousel'>
-                <NewHomeTopCitites/>
+                <NewHomeTopCitites />
             </div>
 
-            <NewHomeEasyVisaDestination/>
+            <NewHomeEasyVisaDestination />
 
 
-            <NewHomeAppDownload/>
+            <NewHomeAppDownload />
 
             <div className='carousel'>
-                <NewHomeAwards/>
+                <NewHomeAwards />
             </div>
-            
-            <NewHomeStoriesSection/>
-            
-            <Plan/>
-            <FooterLinks/>
 
-            {/* <NewHomeAppDownload/> */}
+            {/* <NewHomeStoriesSection /> */}
 
-            <NewHomeFooter/>
-            <NewHomeBottomBar/>
+            <Plan />
+            <FooterLinks />
+
+            <NewHomeFooter />
+            <NewHomeBottomBar />
 
         </div>
     )
