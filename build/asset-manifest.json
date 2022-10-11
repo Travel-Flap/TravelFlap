@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.acce9c95.css",
-    "main.js": "/static/js/main.30908d13.js",
+    "main.css": "/static/css/main.6ac3d5cc.css",
+    "main.js": "/static/js/main.e09bca7d.js",
     "static/js/787.7886e5ff.chunk.js": "/static/js/787.7886e5ff.chunk.js",
     "static/media/UAE4.jpg": "/static/media/UAE4.7d17172021074cd0aa62.jpg",
     "static/media/NewHomeBanner.gif": "/static/media/NewHomeBanner.c6c45c16f081ded45159.gif",
+    "static/media/NewHotelBanner.gif": "/static/media/NewHotelBanner.c6c45c16f081ded45159.gif",
     "static/media/UAE1.jpg": "/static/media/UAE1.9f9431422730798fa988.jpg",
     "static/media/cheapflightsbg.jpg": "/static/media/cheapflightsbg.e4c764eed2c9b4cf145a.jpg",
-    "static/media/mobile2.png": "/static/media/mobile2.13d18945d439f8ca032c.png",
+    "static/media/mobile2.png": "/static/media/mobile2.1534b44cb6268c95b9f4.png",
     "static/media/UAE2.jpg": "/static/media/UAE2.639242c9b9c597457972.jpg",
     "static/media/Visa.jpg": "/static/media/Visa.288c56dbe9d5cebd64a4.jpg",
     "static/media/UAE3.jpg": "/static/media/UAE3.2459d07bb05be3ac58b9.jpg",
@@ -39,12 +40,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.acce9c95.css.map": "/static/css/main.acce9c95.css.map",
-    "main.30908d13.js.map": "/static/js/main.30908d13.js.map",
+    "main.6ac3d5cc.css.map": "/static/css/main.6ac3d5cc.css.map",
+    "main.e09bca7d.js.map": "/static/js/main.e09bca7d.js.map",
     "787.7886e5ff.chunk.js.map": "/static/js/787.7886e5ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acce9c95.css",
-    "static/js/main.30908d13.js"
+    "static/css/main.6ac3d5cc.css",
+    "static/js/main.e09bca7d.js"
   ]
 }

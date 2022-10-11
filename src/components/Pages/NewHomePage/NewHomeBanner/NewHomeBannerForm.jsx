@@ -80,7 +80,7 @@ export const NewHomeCarouselForm = () => {
             </div>
 
 
-            <div id='filter-newhomepagetrave-container'>
+            <div id='filter-newHotelPagetrave-container'>
                 <div className='choosenewhomebanneroptions'>
                     {/* <button type="button" class="onewaybutton btn btn-outline-secondary">One Way</button>
                     <button type="button" class="roundtripbutton btn btn-outline-secondary">Round Trip</button>

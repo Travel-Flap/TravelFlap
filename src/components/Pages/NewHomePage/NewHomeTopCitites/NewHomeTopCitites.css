@@ -10,8 +10,8 @@
   display: flex;
   flex-direction: row;
 } */
-.topCititesHEadingouterdiv h2 {
-  color: whitesmoke;
+.topCititesHeadingouterdiv h2 {
+  color: #3380f2;
   margin-left: 2%;
   font-size: 30px;
   font-weight: 700;
@@ -19,34 +19,98 @@
   margin-bottom: 2%;
 }
 
-.topCititesHEadingouterdiv{
+.topCititesHeadingouterdiv{
   display: flex;
   flex-direction: row;
 }
 
-.newHomeTopCititesDropContainer {
+/* .newHomeTopCititesDropContainer {
   width: 20%;
   margin-left: 56%;
-  margin-top: -2%;
+  
+  height: 50px;
+  border: 2px solid red;
   margin-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+} */
+.newHomeTopCititesDropContainer {
+  width: 14%;
+  margin-left: 60%;
+  margin-top: 0.1%;
+  display: flex;
+  height: 49px !important;
+  flex-direction: row;
+  border-right: none;
+  /* border: 2px solid green; */
+}
+.newHomeTopCititesDropContainer:hover .newhometopcitiesicon{
+  background-color:white;
+  color: #3380F2;
+  cursor: pointer;
+}
+.newTopCititesCountryDrop:hover {
+  background-color: white !important;
+  color: #3380F2 !important;
+  font-weight: 700;
+  border: 3px solid #3380F2;
 }
 
+.newHomeTopCititesDropContainer select{
+  background-image: none;
+}
 .newTopCititesCountryDrop {
+  border: 3px solid #3380F2 !important;
+  background-color: #3380F2 !important;
+  width: 74% !important;
+  color:white !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px !important;
+  border-right: none !important;
+  appearance: none !important;
+}
+/* .newTopCititesCountryDrop {
   margin-top: 13% !important;
   margin-left: 35%;
   color: #3380f2 !important;
   font-weight: 700;
   cursor: pointer;
-  border-radius: 20px !important;
-}
-.newTopCititesCountryDrop:hover {
+  border-right:none;
+  height: 40px !important;
+  font-size: 14px !important;
+  width: 52% !important;
+  border-radius: 20px 0px 0px 20px!important;
+} */
+/* .newTopCititesCountryDrop:hover {
   background-color: #3380f2;
   color: white !important;
   border: 2px solid white !important;
   font-weight: 700;
+} */
+/* .newhometopcitiesicon{
+  width: 10%;
+  color: white;
+  border: 3px solid  #3380F2;
+  background-color: #3380F2;
+  height: 49px;
+  font-size: 18px !important;
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
+} */
+.newhometopcitiesicon{
+  width: 14%;
+  color: white;
+  border: 3px solid  #3380F2;
+  background-color: #3380F2;
+  height: 49px;
+  font-size: 18px !important;
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
 }
-
-
 .newhomeTopCititesSlidercontainer {
   display: flex;
   flex-direction: row;
@@ -211,40 +275,37 @@
   font-size: 14px;
 }
 
-.newhomeTopCitiesslickslidercontainer .slick-dots {
+.carousel .slick-dots {
   bottom: -2.5vw;
 }
 
-.newhomeTopCitiesslickslidercontainer .slick-dots li button {
+.carousel .slick-dots li button {
   width: 20px;
   height: 20px;
-  /* border: 1px solid #fff; */
+  background: whitesmoke !important;
+  /* background: rgb(51, 128, 242); */
+  border: 1px solid rgb(51, 128, 242);
   border-radius: 20px;
-  background-color: white !important;
 }
 
-.newhomeTopCitiesslickslidercontainer .slick-dots li button::after{
-  background-color: #000 !important;
-}
-.newhomeTopCitiesslickslidercontainer .slick-dots li button:before {
-  border: 1px solid white !important;
+.carousel .slick-dots li button:before {
   position: absolute;
-  font-size: 20px;
   top: 50%;
   left: 50%;
   width: 10px;
   height: 10px;
-  border-radius: 210px;
+  border-radius: 10px;
   content: "";
   text-align: center;
   opacity: 0.5;
-  /* color: #000; */
-  background-color: white !important;
+  color: white !important;
+  background-color: blue !important;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 .carousel .slick-prev,
 .carousel .slick-next {
   width: 50px;

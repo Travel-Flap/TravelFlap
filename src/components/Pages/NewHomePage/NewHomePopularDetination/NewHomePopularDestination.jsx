@@ -35,7 +35,6 @@ export const CenterMode = () => {
     const [slideindex, setSlideindex] = useState(0)
     const settings = {
         dots: true,
-        dotsClassName: "slick_dots line-indicator",
         infinite: true,
         speed: 500,
         slidesToShow: 5,
@@ -49,26 +48,26 @@ export const CenterMode = () => {
     };
 
     const slides = [
-        { slidename: 'hello slide', img: 'Images/NewHomeLayout/NewPopularDestinations/NewPopularFrance.jpg', solution: 'France' },
-        { slidename: 'hello slide', img: 'Images/NewHomeLayout/NewPopularDestinations/NewPopularItaly.jpg', solution: 'Italy' },
-        { slidename: 'hello slide', img: 'Images/NewHomeLayout/NewPopularDestinations/NewPopularDubai.jpg', solution: 'Dubai' },
-        { slidename: 'hello slide', img: 'Images/NewHomeLayout/NewPopularDestinations/NewPopularIndia.jpg', solution: "India" },
-        { slidename: 'hello slide', img: 'Images/NewHomeLayout/NewPopularDestinations/NewPopularTurkey.jpg', solution: 'Turkey' },
-        { slidename: 'hello slide', img: 'Images/NewHomeLayout/NewPopularDestinations/NewPopularGreece.jpg', solution: 'Greece' },
+        { slidename: 'hello slide', img: 'https://images.unsplash.com/photo-1603378995290-8d4ce0495ddd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGZyYW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60', solution: 'France' },
+        { slidename: 'hello slide', img: 'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aXRhbHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60', solution: 'Italy' },
+        { slidename: 'hello slide', img: 'https://images.unsplash.com/photo-1526495124232-a04e1849168c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZHViYWl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60', solution: 'Dubai' },
+        { slidename: 'hello slide', img: 'https://images.unsplash.com/photo-1523544463628-d873327f5217?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fGluZGlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60', solution: "India" },
+        { slidename: 'hello slide', img: 'https://images.unsplash.com/photo-1569530593523-083e18aecc75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fHR1cmtleXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60', solution: 'Turkey' },
+        { slidename: 'hello slide', img: 'https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z3JlZWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60', solution: 'Greece' },
     ]
     return (
         <>
             <div className="popularDestinationsheadingdiv">
                 <p>Popular Destinations</p>
-                <div className="popularDestinationsselectoptions">
+                {/* <div className="popularDestinationsselectoptions">
                     <select class="popularDestinationselect1">
                         <option>International</option>
                         <option>Domestic</option>
-                    </select>
+                    </select> */}
 
-                    {/* <div className='newHomeHotelServicesDropContainer'>
-                        <select className="form-select newHotelServicesCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
-                            style={{ border: "3px solid #3380f2", width: "60%" }}>
+                    <div className='newHomePopularDestinationDropContainer'>
+                        <select className="form-select newPopularDestinationCountryDrop" onChange={(e) => handlecounty(e)}
+                            style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
                             <option value="" style={{ textAlign: "center" }}>Select Country</option>
                             {
                                 countrydata.map((getcountry, index) => (
@@ -76,9 +75,11 @@ export const CenterMode = () => {
                                 ))
                             }
                         </select>
-                    </div> */}
-                    <div className="populardestinationselectdiv">
-                        <select class="popularDestinationselect2">
+                        <FaAngleRight style={{fontSize:"15px"}} className="populardestinationsicon" />
+                    </div>
+                    
+                    {/* <div className="populardestinationselectdiv">
+                        <select class="popularDestinationselect2" style={{appearance:"none"}}>
                             <option value>Country</option>
                             <option value="Afghanistan">Afghanistan</option>
                             <option value="Aland Islands">Aland Islands</option>
@@ -333,9 +334,9 @@ export const CenterMode = () => {
                             <option value="Zambia">Zambia</option>
                             <option value="Zimbabwe">Zimbabwe</option>
                         </select>
-                        {/* <FaAngleRight style={{fontSize:"15px"}} className="populardestinationsicon" /> */}
-                    </div>
-                </div>
+                        <FaAngleRight style={{fontSize:"15px"}} className="populardestinationsicon" />
+                    </div> */}
+                {/* </div> */}
             </div>
             <div className="mainCarouselDiv">
                 <div className="sliderDiv">

@@ -6,6 +6,7 @@ import { useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect } from "react";
+import {FaAngleRight} from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
 
 export const NewHomeHandPicked = () => {
@@ -44,11 +45,9 @@ export const NewHomeHandPicked = () => {
 
                 <div className="newHomeHandpickedHeadingContainer">
                     <h2 className="handpickednewhomepageheading">Hand Picked Destinations</h2>
-
-
                     <div className='newHomeHandPickedDropContainer'>
                         <select className="form-select newHandPickedCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
-                            style={{ border: "3px solid #3380f2", width: "60%" }}>
+                            style={{ border: "3px solid #3380f2", width: "60%",fontWeight:"700" }}>
                             <option value="" style={{ textAlign: "center" }}>Country Deals</option>
                             {
                                 countrydata.map((getcountry, index) => (
@@ -56,6 +55,7 @@ export const NewHomeHandPicked = () => {
                                 ))
                             }
                         </select>
+                        <FaAngleRight style={{fontSize:"15px"}} className="handmadesicon" />
                     </div>
 
                 </div>

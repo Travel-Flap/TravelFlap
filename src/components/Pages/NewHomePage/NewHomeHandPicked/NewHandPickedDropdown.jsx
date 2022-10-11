@@ -19,8 +19,8 @@ export const NewHandPickedDropdown = () => {
         const stateid = e.target.value;
         //console.log(stateid);
         setStateid(stateid);
-
     }
+    
     const handleSubmit = (e) => {
         e.preventDefault();
         alert("Get Country id" + countryid + " And " + stateid);

@@ -581,8 +581,40 @@ export const CheapFlights = () => {
                         <div className="cheapflightdiv1">
                         <div class="cheapflightdropdown">
                                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
-                                    New Delhi Flights <FaPlaneDeparture className="cheapflighticon"/> 
-                                    <FaAngleDoubleDown className="cheapflightdownarrrow" size={"1em"}/>
+                                    New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"}/> 
+                                    <FaAngleDoubleDown className="cheapflightdownarrrow" size={"0.8em"}/>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item cheapflightdata">
+                                        <h6>₹ 21,286+</h6>
+                                        Flight Hyderabad - Bali (HYD - IDBA)
+                                    </a></li>
+                                    <li><a class="dropdown-item cheapflightdata">
+                                        <h6>₹ 21,286+</h6>
+                                        Flight Hyderabad - Bali (HYD - IDBA)
+                                    </a></li>
+                                    <li><a class="dropdown-item cheapflightdata">
+                                        <h6>₹ 21,286+</h6>
+                                        Flight Hyderabad - Bali (HYD - IDBA)
+                                    </a></li>
+                                    <li><a class="dropdown-item cheapflightdata" >
+                                        <h6>₹ 21,286+</h6>
+                                        Flight Hyderabad - Bali (HYD - IDBA)
+                                    </a></li>
+                                    <li><a class="dropdown-item cheapflightdata">
+                                        <h6>₹ 21,286+</h6>
+                                        Flight Hyderabad - Bali (HYD - IDBA)
+                                    </a></li>
+                                    <li><a class="dropdown-item cheapflightdata">
+                                        <h6>₹ 21,286+</h6>
+                                        Flight Hyderabad - Bali (HYD - IDBA)
+                                    </a></li>
+                                </ul>
+                        </div>
+                        <div class="cheapflightdropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                    New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"}/> 
+                                    <FaAngleDoubleDown className="cheapflightdownarrrow" size={"0.8em"}/>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                     <li><a class="dropdown-item cheapflightdata">
@@ -613,40 +645,8 @@ export const CheapFlights = () => {
                         </div>
                         <div class="cheapflightdropdown">
                                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
-                                    New Delhi Flights <FaPlaneDeparture className="cheapflighticon"/> 
-                                    <FaAngleDoubleDown className="cheapflightdownarrrow" size={"1em"}/>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
-                                    <li><a class="dropdown-item cheapflightdata">
-                                        <h6>₹ 21,286+</h6>
-                                        Flight Hyderabad - Bali (HYD - IDBA)
-                                    </a></li>
-                                    <li><a class="dropdown-item cheapflightdata">
-                                        <h6>₹ 21,286+</h6>
-                                        Flight Hyderabad - Bali (HYD - IDBA)
-                                    </a></li>
-                                    <li><a class="dropdown-item cheapflightdata">
-                                        <h6>₹ 21,286+</h6>
-                                        Flight Hyderabad - Bali (HYD - IDBA)
-                                    </a></li>
-                                    <li><a class="dropdown-item cheapflightdata" >
-                                        <h6>₹ 21,286+</h6>
-                                        Flight Hyderabad - Bali (HYD - IDBA)
-                                    </a></li>
-                                    <li><a class="dropdown-item cheapflightdata">
-                                        <h6>₹ 21,286+</h6>
-                                        Flight Hyderabad - Bali (HYD - IDBA)
-                                    </a></li>
-                                    <li><a class="dropdown-item cheapflightdata">
-                                        <h6>₹ 21,286+</h6>
-                                        Flight Hyderabad - Bali (HYD - IDBA)
-                                    </a></li>
-                                </ul>
-                        </div>
-                        <div class="cheapflightdropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
-                                    New Delhi Flights <FaPlaneDeparture className="cheapflighticon"/> 
-                                    <FaAngleDoubleDown className="cheapflightdownarrrow" size={"1em"}/>
+                                    New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"}/> 
+                                    <FaAngleDoubleDown className="cheapflightdownarrrow" size={"0.8em"}/>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                     <li><a class="dropdown-item cheapflightdata">
@@ -680,8 +680,8 @@ export const CheapFlights = () => {
                         <div className="cheapflightdiv2">
                                 <div class="cheapflightdropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
-                                            New Delhi Flights <FaPlaneDeparture className="cheapflighticon"/> 
-                                            <FaAngleDoubleDown className="cheapflightdownarrrow" size={"1em"}/>
+                                            New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"}/> 
+                                            <FaAngleDoubleDown className="cheapflightdownarrrow" size={"0.8em"}/>
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                             <li><a class="dropdown-item cheapflightdata">
@@ -712,8 +712,8 @@ export const CheapFlights = () => {
                                 </div>
                                 <div class="cheapflightdropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
-                                            New Delhi Flights <FaPlaneDeparture className="cheapflighticon"/> 
-                                            <FaAngleDoubleDown className="cheapflightdownarrrow" size={"1em"}/>
+                                            New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"}/> 
+                                            <FaAngleDoubleDown className="cheapflightdownarrrow" size={"0.8em"}/>
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                             <li><a class="dropdown-item cheapflightdata">
@@ -744,8 +744,8 @@ export const CheapFlights = () => {
                                 </div>
                                 <div class="cheapflightdropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
-                                            New Delhi Flights <FaPlaneDeparture className="cheapflighticon"/> 
-                                            <FaAngleDoubleDown className="cheapflightdownarrrow" size={"1em"}/>
+                                            New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"}/> 
+                                            <FaAngleDoubleDown className="cheapflightdownarrrow" size={"0.8em"}/>
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                             <li><a class="dropdown-item cheapflightdata">

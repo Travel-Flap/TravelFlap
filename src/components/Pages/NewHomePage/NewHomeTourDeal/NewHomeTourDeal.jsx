@@ -115,7 +115,7 @@ export const NewHomeTourDeals = () => {
                         <div className="tourdealsnewhomepagecardmaindiv">
                             <Slider
                                 arrows={false}
-                                // autoplay={true}
+                                autoplay={true}
                                 speed={2000}
                                 autoplaySpeed={2000}
                                 dots={true}

@@ -224,7 +224,7 @@ export const NewHomeNav = () => {
                             </div>
                             <div className='navbar-links-container' id='hide' >
                                 {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
-                                <Link to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
+                                <Link className='linkdecoration' to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
                                 {/* <div className='nav-link'> <p>OFFERS</p></div> */}
                                 <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
                                     <div className='chooseCountry'>

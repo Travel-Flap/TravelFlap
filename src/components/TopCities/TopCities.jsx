@@ -4,20 +4,27 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button } from 'react-bootstrap';
 import { MdLocationCity } from "react-icons/md";
+
+import SliderWrapper from '../../_SlickSliderStyle';
 import './TopCities.css';
 // import "/src/App.css";
 
 export default class TopCities extends Component {
     render() {
         const settings = {
-            // dots: true,
+            dots: true,
             infinite: true,
             autoplay: true,
             speed: 700,
-            slidesToShow: 4 ,
+            slidesToShow: 4,
             slidesToScroll: 1,
             cssEase: "linear",
             arrows: false,
+            appendDots: dots => <ul>{dots}</ul>,
+            customPaging: i => (
+                <div className="ft-slick__dots--custom">
+                    <div className="loading" />
+                </div>),
             responsive: [
                 {
                     breakpoint: 1024,
@@ -71,91 +78,92 @@ export default class TopCities extends Component {
                 </div>
 
                 <div className='slickslidercontainer'>
-                    <Slider {...settings} className="multiCardSlider">
-                        <div className="card-wrapper">
-                            <div className="card topcitiesdiv">
-                                <div className="card-image topcitiescardimage">
-                                    <img src="Images/TopCities/abudhabhi.jpg" />
-                                </div>
-                                <div className="topcitiesdetails">
-                                    <h2>Abu Dhabi <span className="job-title">"Best Holiday trip Ever"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p>
+                    <SliderWrapper>
+                        <Slider {...settings} className="multiCardSlider">
+                            <div className="card-wrapper">
+                                <div className="card topcitiesdiv">
+                                    <div className="card-image topcitiescardimage">
+                                        <img src="Images/TopCities/abudhabhi.jpg" />
+                                    </div>
+                                    <div className="topcitiesdetails">
+                                        <h2>Abu Dhabi <span className="job-title">"Best Holiday trip Ever"
+                                            <p>I love the experience with the travel Flap. I surely recommend it
+                                                other for same
+                                            </p>
 
-                                    </span>
-                                        <Button variant="primary">Explore</Button>
-                                    </h2>
+                                        </span>
+                                            <Button variant="primary">Explore</Button>
+                                        </h2>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="card-wrapper">
-                            <div className="card topcitiesdiv">
-                                <div className="card-image topcitiescardimage">
-                                    <img src="Images/TopCities/africa1.jpg" />
-                                </div>
-                                <div className="topcitiesdetails">
-                                    <h2>Epupa Falls <span className="job-title">"Best Holiday trip Ever"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p>
-                                    </span>
-                                        <Button variant="primary">Explore</Button>
-                                    </h2>
+                            <div className="card-wrapper">
+                                <div className="card topcitiesdiv">
+                                    <div className="card-image topcitiescardimage">
+                                        <img src="Images/TopCities/africa1.jpg" />
+                                    </div>
+                                    <div className="topcitiesdetails">
+                                        <h2>Epupa Falls <span className="job-title">"Best Holiday trip Ever"
+                                            <p>I love the experience with the travel Flap. I surely recommend it
+                                                other for same
+                                            </p>
+                                        </span>
+                                            <Button variant="primary">Explore</Button>
+                                        </h2>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="card-wrapper">
-                            <div className="card topcitiesdiv">
-                                <div className="card-image topcitiescardimage">
-                                    <img src="Images/TopCities/america.jpg" />
-                                </div>
-                                <div className="topcitiesdetails">
-                                    <h2>Las Vegas <span className="job-title">"Best Holiday trip Ever"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p></span>
-                                        <Button variant="primary">Explore</Button>
-                                    </h2>
+                            <div className="card-wrapper">
+                                <div className="card topcitiesdiv">
+                                    <div className="card-image topcitiescardimage">
+                                        <img src="Images/TopCities/america.jpg" />
+                                    </div>
+                                    <div className="topcitiesdetails">
+                                        <h2>Las Vegas <span className="job-title">"Best Holiday trip Ever"
+                                            <p>I love the experience with the travel Flap. I surely recommend it
+                                                other for same
+                                            </p></span>
+                                            <Button variant="primary">Explore</Button>
+                                        </h2>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="card-wrapper">
-                            <div className="card topcitiesdiv">
-                                <div className="card-image topcitiescardimage">
-                                    <img src="Images/TopCities/australia.jpg" />
-                                </div>
-                                <div className="topcitiesdetails">
-                                    <h2>Sydney <span className="job-title">"Best Holiday trip Ever"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p></span>
-                                        <Button variant="primary">Explore</Button>
-                                    </h2>
+                            <div className="card-wrapper">
+                                <div className="card topcitiesdiv">
+                                    <div className="card-image topcitiescardimage">
+                                        <img src="Images/TopCities/australia.jpg" />
+                                    </div>
+                                    <div className="topcitiesdetails">
+                                        <h2>Sydney <span className="job-title">"Best Holiday trip Ever"
+                                            <p>I love the experience with the travel Flap. I surely recommend it
+                                                other for same
+                                            </p></span>
+                                            <Button variant="primary">Explore</Button>
+                                        </h2>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="card-wrapper">
-                            <div className="card topcitiesdiv">
-                                <div className="card-image topcitiescardimage">
-                                    <img src="Images/TopCities/canada.jpg" />
-                                </div>
-                                <div className="topcitiesdetails">
-                                    <h2>Toronto <span className="job-title">"Best Holiday trip Ever"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p></span>
-                                        <Button variant="primary">Explore</Button>
-                                    </h2>
+                            <div className="card-wrapper">
+                                <div className="card topcitiesdiv">
+                                    <div className="card-image topcitiescardimage">
+                                        <img src="Images/TopCities/canada.jpg" />
+                                    </div>
+                                    <div className="topcitiesdetails">
+                                        <h2>Toronto <span className="job-title">"Best Holiday trip Ever"
+                                            <p>I love the experience with the travel Flap. I surely recommend it
+                                                other for same
+                                            </p></span>
+                                            <Button variant="primary">Explore</Button>
+                                        </h2>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        {/* <div className="card-wrapper">
+                            {/* <div className="card-wrapper">
                         <div className="card topcitiesdiv">
                             <div className="card-image topcitiescardimage">
                                 <img src="https://encrypted-tbn0.gstatic.com/Images?q=tbn:ANd9GcRgA7NjrOyqboQBa3LLONUV8V8xUQI9i4wDSr1L4Y4jDw&s" />
@@ -171,70 +179,71 @@ export default class TopCities extends Component {
                         </div>
                     </div> */}
 
-                        <div className="card-wrapper">
-                            <div className="card topcitiesdiv">
-                                <div className="card-image topcitiescardimage">
-                                    <img src="Images/TopCities/landon.jpg" />
-                                </div>
-                                <div className="topcitiesdetails">
-                                    <h2>London <span className="job-title">"Best Holiday trip Ever"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p></span>
-                                        <Button variant="primary">Explore</Button>
-                                    </h2>
+                            <div className="card-wrapper">
+                                <div className="card topcitiesdiv">
+                                    <div className="card-image topcitiescardimage">
+                                        <img src="Images/TopCities/landon.jpg" />
+                                    </div>
+                                    <div className="topcitiesdetails">
+                                        <h2>London <span className="job-title">"Best Holiday trip Ever"
+                                            <p>I love the experience with the travel Flap. I surely recommend it
+                                                other for same
+                                            </p></span>
+                                            <Button variant="primary">Explore</Button>
+                                        </h2>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="card-wrapper">
-                            <div className="card topcitiesdiv">
-                                <div className="card-image topcitiescardimage">
-                                    <img src="Images/TopCities/denmark.jpg" />
-                                </div>
-                                <div className="topcitiesdetails">
-                                    <h2>Aarhus <span className="job-title">"Best Holiday trip Ever"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p></span>
-                                        <Button variant="primary">Explore</Button>
-                                    </h2>
+                            <div className="card-wrapper">
+                                <div className="card topcitiesdiv">
+                                    <div className="card-image topcitiescardimage">
+                                        <img src="Images/TopCities/denmark.jpg" />
+                                    </div>
+                                    <div className="topcitiesdetails">
+                                        <h2>Aarhus <span className="job-title">"Best Holiday trip Ever"
+                                            <p>I love the experience with the travel Flap. I surely recommend it
+                                                other for same
+                                            </p></span>
+                                            <Button variant="primary">Explore</Button>
+                                        </h2>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="card-wrapper">
-                            <div className="card topcitiesdiv">
-                                <div className="card-image topcitiescardimage">
-                                    <img src="Images/TopCities/zambiaafrica.jpg" />
-                                </div>
-                                <div className="topcitiesdetails">
-                                    <h2>Zambia <span className="job-title">"Best Holiday trip Ever"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p></span>
-                                        <Button variant="primary">Explore</Button>
-                                    </h2>
+                            <div className="card-wrapper">
+                                <div className="card topcitiesdiv">
+                                    <div className="card-image topcitiescardimage">
+                                        <img src="Images/TopCities/zambiaafrica.jpg" />
+                                    </div>
+                                    <div className="topcitiesdetails">
+                                        <h2>Zambia <span className="job-title">"Best Holiday trip Ever"
+                                            <p>I love the experience with the travel Flap. I surely recommend it
+                                                other for same
+                                            </p></span>
+                                            <Button variant="primary">Explore</Button>
+                                        </h2>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="card-wrapper">
-                            <div className="card topcitiesdiv">
-                                <div className="card-image topcitiescardimage">
-                                    <img src="Images/TopCities/swedan.jpg" />
-                                </div>
-                                <div className="topcitiesdetails">
-                                    <h2>Stockholm <span className="job-title">"Best Holiday trip Ever"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p></span>
-                                        <Button variant="primary">Explore</Button>
-                                    </h2>
+                            <div className="card-wrapper">
+                                <div className="card topcitiesdiv">
+                                    <div className="card-image topcitiescardimage">
+                                        <img src="Images/TopCities/swedan.jpg" />
+                                    </div>
+                                    <div className="topcitiesdetails">
+                                        <h2>Stockholm <span className="job-title">"Best Holiday trip Ever"
+                                            <p>I love the experience with the travel Flap. I surely recommend it
+                                                other for same
+                                            </p></span>
+                                            <Button variant="primary">Explore</Button>
+                                        </h2>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </Slider>
+                        </Slider>
+                    </SliderWrapper>
                 </div>
 
             </div>

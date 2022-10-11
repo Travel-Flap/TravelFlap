@@ -16,7 +16,7 @@
   .cardtextnewFlightdropbutton h2{
     color: white;
     font-weight: 600;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-left: 7%;
     font-size: 32px;
   }
@@ -25,20 +25,23 @@
     width: 20%;
     margin-left: 43%;
     margin-top: 2.1%;
+    /* border: 2px solid red; */
   }
   
   .newFlightInternationalCountryDrop{
-    margin-top: 13% !important;
-    margin-left: 7%;
+    margin-top: 1% !important;
+    margin-left: 81%;
     color: #3380f2 !important;
     font-weight: 700;
     cursor: pointer;
     border-radius: 20px !important;
+  
   }
   .newFlightInternationalCountryDrop:hover{
     background-color: #3380f2;
     color: white !important;
     font-weight: 700;
+    border: 2px solid white !important;
   }
   
   .newFlightInternationmaindiv{
@@ -157,7 +160,7 @@
     /* border: 2px solid red; */
     width: 90%;
     margin: auto;
-    margin-top: 2%;
+    margin-top: -1% !important;
   }
   
   .activityaroundcardtitle {

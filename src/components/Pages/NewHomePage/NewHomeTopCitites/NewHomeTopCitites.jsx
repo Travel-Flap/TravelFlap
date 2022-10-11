@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button } from 'react-bootstrap';
 import { MdLocationCity } from "react-icons/md";
+import {FaAngleRight} from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
 
 export const NewHomeTopCitites = () => {
@@ -32,7 +33,7 @@ export const NewHomeTopCitites = () => {
     }
     const settings = {
         dots: true,
-        dotsClassName:"slick-dots topCititesSlickdots line-indicator",
+        dotsclassName: "slick-dots line-indicator",
         // infinite: true,
         // autoplay: true,
         // autoplayspeed:1000,
@@ -86,16 +87,28 @@ export const NewHomeTopCitites = () => {
     return (
         <div>
             <div class="newhomeTopCititesMaincarddiv card text-bg-dark">
-                <img src="Images/NewHomeLayout/BackgroundImages/TopCitiesBackground.jpeg" class="card-img" alt="..." />
+                <img src="Images/NewHomeLayout/BackgroundImages/TopCitiesBackground.png" class="card-img" alt="..." />
                 <div class="card-img-overlay">
                     <div className='newhomeTopCitiesmainheading'>
 
-                        <div className='topCititesHEadingouterdiv'>
+                        <div className='topCititesHeadingouterdiv'>
                             <h2>Top Cities To Explore</h2>
-
+                            
                             <div className='newHomeTopCititesDropContainer'>
+                        <select className="form-select newTopCititesCountryDrop" onChange={(e) => handlecounty(e)}
+                            style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
+                            <option value="" style={{ textAlign: "center" }}>Select Country</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                        <FaAngleRight style={{fontSize:"15px"}} className="newhometopcitiesicon"/>
+                    </div>
+                            {/* <div className='newHomeTopCititesDropContainer'>
                                 <select className="form-select newTopCititesCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
-                                    style={{ border: "3px solid #3380f2", width: "60%" }}>
+                                    style={{ border: "3px solid #3380f2", width: "60%",fontWeight:"700", }}>
                                     <option value="" style={{ textAlign: "center" }}>Select Country</option>
                                     {
                                         countrydata.map((getcountry, index) => (
@@ -103,7 +116,8 @@ export const NewHomeTopCitites = () => {
                                         ))
                                     }
                                 </select>
-                            </div>
+                                <FaAngleRight style={{fontSize:"15px"}} className="newhometopcitiesicon" />
+                            </div> */}
                         </div>
 
 
@@ -118,17 +132,17 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/abudhabhi.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <p>I love the experience with the travel Flap. I surely recommend it
+                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same
-                                                </p>
+                                                </p> */}
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
 
-                                        <div className='newhomeTopCitiesBottomTexts'>
+                                        {/* <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Abu Dhabi</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                     <div className="card-wrapper">
@@ -137,16 +151,16 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/africa1.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <p>I love the experience with the travel Flap. I surely recommend it
+                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same
-                                                </p>
+                                                </p> */}
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
-                                        <div className='newhomeTopCitiesBottomTexts'>
+                                        {/* <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Epupa Falls</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                     <div className="card-wrapper">
@@ -155,16 +169,16 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/america.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <p>I love the experience with the travel Flap. I surely recommend it
+                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
-                                                </p>
+                                                </p> */}
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
-                                        <div className='newhomeTopCitiesBottomTexts'>
+                                        {/* <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Las Vegas</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                     <div className="card-wrapper">
@@ -173,16 +187,16 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/australia.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <p>I love the experience with the travel Flap. I surely recommend it
+                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
-                                                </p>
+                                                </p> */}
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
-                                        <div className='newhomeTopCitiesBottomTexts'>
+                                        {/* <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Sydney</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                     <div className="card-wrapper">
@@ -191,16 +205,16 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/canada.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <p>I love the experience with the travel Flap. I surely recommend it
+                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
-                                                </p>
+                                                </p> */}
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
-                                        <div className='newhomeTopCitiesBottomTexts'>
+                                        {/* <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Toronto</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                     <div className="card-wrapper">
@@ -209,16 +223,16 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/landon.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <p>I love the experience with the travel Flap. I surely recommend it
+                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
-                                                </p>
+                                                </p> */}
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
-                                        <div className='newhomeTopCitiesBottomTexts'>
+                                        {/* <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>London</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                     <div className="card-wrapper">
@@ -227,17 +241,17 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/denmark.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <p>I love the experience with the travel Flap. I surely recommend it
+                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
-                                                </p>
+                                                </p> */}
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
 
-                                        <div className='newhomeTopCitiesBottomTexts'>
+                                        {/* <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Aarhus</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                     <div className="card-wrapper">
@@ -246,17 +260,17 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/zambiaafrica.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <p>I love the experience with the travel Flap. I surely recommend it
+                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
-                                                </p>
+                                                </p> */}
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
 
-                                        <div className='newhomeTopCitiesBottomTexts'>
+                                        {/* <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Zambia</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
+                                        </div> */}
                                     </div>
 
                                     <div className="card-wrapper">
@@ -265,17 +279,17 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/swedan.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                <p>I love the experience with the travel Flap. I surely recommend it
+                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
-                                                </p>
+                                                </p> */}
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
 
-                                        <div className='newhomeTopCitiesBottomTexts'>
+                                        {/* <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Stockholm</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </Slider>
                             </div>

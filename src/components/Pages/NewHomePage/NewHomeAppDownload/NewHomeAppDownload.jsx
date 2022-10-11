@@ -73,31 +73,24 @@ export const NewHomeAppDownload = () => {
                    Subscribe to get Latest News and amazing offers from TravelFlap
                </div>
                <div className='newhomesearchbox'>
-               <section>
-                <div className="bg-white w-auto h-96 pb-20 mx-5 mt-40 sm:w-full md:w-4/5 md:mx-auto lg:w-2/5 lg:mx-auto">
-                    {/* header section */}
-                    {/* <div className="h-32 flex justify-center items-center shadow">
-                        <p className="uppercase font-bold text-3xl text-center">
-                            Select Country / <br />
-                            auto flag & area code{" "}
-                        </p>
-                    </div> */}
-
-                    {/* body section */}
+                {/* <input type="text" placeholder='Search Country' className='newhomesearchcountrydiv'/>  */}
+               <section style={{width:"70% !important"}}>
+                <div className="bg-white w-auto h-96 pb-20 mx-5 mt-40 sm:w-full md:w-4/5 md:mx-auto lg:w-2/5 lg:mx-auto" style={{borderRadius:"20px"}}>
+                    
                     <div>
                         {loading === true ?
-                            <div className="flex justify-center items-center h-48">
+                            <div  style={{backgroundColor:"#5697F5",color:"white"}}>
                                 <p className="uppercase font-bold text-3xl">...loading</p>
                             </div> :
                             <div className="newhomecountryselectdivouter">
                               <div className='newhomevectorimage'>
-                                <img src={Vector}/>
+                                <img width="75% !important" height="55%" src={Vector}/>
                               </div>
                                 <div className='newhomecountryselectdiv'>
                                     <select
                                         value={selectedCountry}
                                         onChange={(e) => setSelectedCountry(e.target.value)}
-                                        className=" w-96 h-14 text-xl rounded-lg md:text-2xl newhomecountryselect"
+                                        className="newhomecountryselect" style={{width:"95% "}}
                                     >
                                         <option>--Select Country--</option>
                                         {countries.map((item) => {
@@ -109,11 +102,11 @@ export const NewHomeAppDownload = () => {
                                         })}
                                     </select>
                                 </div>
-                                <div>
+                                <div style={{marginTop:"15%",height:"auto",width:"40%"}}>
                                     {searchSelectedCountry && (
                                         <div className="flex space-x-4">
-                                            <div className="newhomecontactdata">
-                                                <img
+                                            <div className="newhomecontactdata" >
+                                                <img 
                                                     className="newhomeflagsimage"
                                                     src={
                                                         searchSelectedCountry &&
@@ -140,13 +133,24 @@ export const NewHomeAppDownload = () => {
                                         </div>
                                     )}
                                 </div>
-
                             </div>
                         }
                     </div>
                 </div>
-            </section>
+               </section>
+               <div className='newhomeappdownloadsearchbutton'>Search</div>
                </div>
+
+               
+               {/* header section */}
+                   {/* <div className="h-32 flex justify-center items-center shadow">
+                        <p className="uppercase font-bold text-3xl text-center">
+                            Select Country / <br />
+                            auto flag & area code{" "}
+                        </p>
+                    </div> */}
+
+                    {/* body section */}
                {/* <div className='newhomeplaybuttons'>
                  <img className='playstoreimage' src={PlayStore}/>
                  <img className='googlePlayimage' src={GooglePlay}/>

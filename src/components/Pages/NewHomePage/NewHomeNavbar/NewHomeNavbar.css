@@ -3,6 +3,8 @@
     z-index: 1;
     position: fixed;
     width: 80%;
+    position: absolute;
+    top: 0;
   }
   .navbar-fixed {
     background: rgb(51,128,242);
@@ -159,6 +161,10 @@
     margin-top: 0;
     font-weight: 700;
     text-decoration: none;
+  }
+
+  .linkdecoration{
+    text-decoration: none !important;
   }
   
   #offerlink p{

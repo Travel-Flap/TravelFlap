@@ -98,8 +98,8 @@
 }
 
 .newHomeblogsimagecontentdiv:hover {
-  background-color: white;
-  color: blue;
+  background-color: blue;
+  color: #3380f2 !important;
 }
 
 .newHomeBlogimagediv img {
@@ -117,11 +117,11 @@
   font-size: 16px !important;
   margin-top: 10%;
   font-weight: 600;
-  color: blue;
+  color: white;
 }
 
 .newHomeBlogcontent p {
-  color: blue;
+  color: white;
   font-weight: 500;
   font-size: 15px;
 }
@@ -240,7 +240,7 @@
   margin-top: 5%;
 }
 .contecticonsnewHomeFooterglobe {
-  font-size: 30x;
+  font-size: 30px;
 }
 
 .footerContentwebsite{
