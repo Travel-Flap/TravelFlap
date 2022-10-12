@@ -24,10 +24,6 @@ import { NewHomeLayout } from '../NewHomePage/NewHomeLayout';
 import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar';
 export const Home = () => {
     return (
-        // <div>
-        //     <Nav/>
-        //     <ControlledCarousel/>
-        // </div>
         <div>
 
             <Nav />

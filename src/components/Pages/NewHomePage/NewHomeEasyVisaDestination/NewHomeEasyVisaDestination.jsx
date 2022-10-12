@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button } from 'react-bootstrap';
 import './NewHomeEasyVisaDestination.css';
+import { FaAngleRight } from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
 // import "/src/App.css";
 
@@ -39,7 +40,7 @@ export const NewHomeEasyVisaDestination = () => {
             <div className='newEasyVisaouterHeading'>
                 <h2>Easy Visa Destinations</h2>
 
-                <div className='newHomeEasyVisaDropContainer'>
+                {/* <div className='newHomeEasyVisaDropContainer'>
                     <select className="form-select newEasyVisaCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
                         style={{ border: "3px solid #3380f2", width: "60%" }}>
                         <option value="" style={{ textAlign: "center" }}>Select Country</option>
@@ -49,15 +50,30 @@ export const NewHomeEasyVisaDestination = () => {
                             ))
                         }
                     </select>
-                </div>
+                </div> */}
+
+                   <div className='newHomeEasyvisaDropContainer'>
+                        <select className="form-select newHomeEasyvisaCountryDrop" onChange={(e) => handlecounty(e)}
+                            style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
+                            <option value="" style={{ textAlign: "center" }}>Select Country</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                        <div className='newEasyvisaicondiv'>
+                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="Easyvisaicon" />
+                        </div>
+                    </div>
             </div>
 
             <div className='newhomeEasyVisaSlideroutercontainer'>
 
                 <div className='newhomeEasyVisaContainer'>
                     <Slider
-                        dots={true}
-                        dotsclassName={"slick-dots line-indicator"}
+                        // dots={true}
+                        // dotsclassName={"slick-dots line-indicator"}
                         infinite={true}
                         autoplay={true}
                         speed={2000}

@@ -2,8 +2,10 @@
   height: 580px;
   object-fit: cover;
   background-size: cover;
-  background-image: url(/public/Images/NewHomeLayout/BackgroundImages/HandpickedBackgroundImage.jpeg);
+  background-image: url(/public/Images/NewHomeLayout/BackgroundImages/handpickimagebg1.jpg);
 }
+/* /public/Images/NewHomeLayout/BackgroundImages/TopCitiesBackground1.png */
+/* /public/Images/NewHomeLayout/BackgroundImages/HandpickedBackgroundImage.jpg */
 
 .newHomeHandpickedHeadingContainer{
   border: 1px solid transparent;
@@ -23,7 +25,7 @@
     margin-top: 3% !important;
     font-weight: 700;
     margin-bottom: 2%;
-    color: white;
+    color: #3380f2;
   }
 
   .newHomeHandPickedDropContainer{
@@ -279,3 +281,70 @@
     left: -55px;
   }
   
+
+
+  /* ----------------- New button css ----------------  */
+
+
+  .newHomehandpickedDropContainer {
+    width: 12%;
+    margin-left: 45%;
+    margin-top: 2.1%;
+    display: flex;
+    flex-direction: row;
+    border-right: none;
+    height: 45px;
+    /* border: 2px solid green; */
+  }
+  .newHomehandpickedDropContainer:hover .newHomehandpickedicondiv{
+    background-color:white;
+    color: #3380F2;
+    cursor: pointer;
+  }
+  .newHomeHandpickedCountryDrop {
+    border: 3px solid #3380F2 !important;
+    background-color: #3380F2 !important;
+    width: 89% !important;
+    height: 43px !important;
+    color:white !important;
+    font-weight: 700 !important;
+    font-size: 13.5px !important;
+    cursor: pointer;
+    border-radius: 25px 0px 0px 25px !important;
+    border-right: none !important;
+    appearance: none !important;
+  }
+  .newHomehandpickedDropContainer select{
+    /* border: 1px solid red !important; */
+    background-image: none !important;
+  }
+  
+  .newHomeHandpickedCountryDrop:hover {
+    background-color: white !important;
+    color: #3380F2 !important;
+    font-weight: 700;
+    border: 3px solid #3380F2;
+  }
+  .newHomehandpickedicondiv{
+    width: 16%;
+    color: white;
+    border: 3px solid #3380F2;
+    background-color: #3380F2;
+    height: 43px;
+    /* font-size: 18px !important; */
+    border-radius: 0px 25px 25px 0px;
+    padding-right: 5%;
+    border-left: none;
+    /* border: 2px solid red;*/
+  }
+  .handpickedicon{
+         /* width: 100% !important; */
+         color: #3380F2;
+         /* border: 3px solid #3380F2; */
+         background-color: white;
+         height: 20px;
+         font-size: 18px !important;
+         border-radius: 100%;
+         margin-top: 34% !important;
+         /* margin-bottom: 105%; */
+  }

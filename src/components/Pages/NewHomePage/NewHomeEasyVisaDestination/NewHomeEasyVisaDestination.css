@@ -7,11 +7,12 @@
 .newEasyVisaouterHeading{
   display: flex;
   flex-direction: row;
+  /* border: 2px solid red; */
 }
 .newEasyVisaouterHeading h2 {
-  margin-left: 2%;
+  margin-left: 3%;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 28px;
   margin-top: 2%;
   margin-bottom: 2%;
   color: #3380f2;
@@ -166,9 +167,6 @@
   background-color: #3380f2;
 }
 
-.newhomeEasyVisaSlideroutercontainer .slick-dots li button::after{
-  background-color: #000 !important;
-}
 .newhomeEasyVisaSlideroutercontainer .slick-dots li button:before {
   /* border: 1px solid red !important; */
   position: absolute;
@@ -181,8 +179,8 @@
   content: "";
   text-align: center;
   opacity: 0.5;
-  /* color: #000; */
-  background-color: #3380f2 !important;
+  color: #000;
+  background-color: white !important;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   -webkit-transition: all 0.3s ease-in-out;
@@ -223,4 +221,71 @@
 
 .carousel .slick-prev {
   left: -55px;
+}
+
+
+/* ----------------- New button css ----------------  */
+
+
+.newHomeEasyvisaDropContainer {
+  width: 12%;
+  margin-left: 58%;
+  margin-top: 1.1%;
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+  height: 45px;
+  /* border: 2px solid green; */
+}
+.newHomeEasyvisaDropContainer:hover .newEasyvisaicondiv{
+  background-color:white;
+  color: #3380F2;
+  cursor: pointer;
+}
+.newHomeEasyvisaCountryDrop {
+  border: 3px solid #3380F2 !important;
+  background-color: #3380F2 !important;
+  width: 89% !important;
+  height: 43px !important;
+  color:white !important;
+  font-weight: 700 !important;
+  font-size: 13.5px !important;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px !important;
+  border-right: none !important;
+  appearance: none !important;
+}
+.newHomeEasyvisaDropContainer select{
+  /* border: 1px solid red !important; */
+  background-image: none !important;
+}
+
+.newHomeEasyvisaCountryDrop:hover {
+  background-color: white !important;
+  color: #3380F2 !important;
+  font-weight: 700;
+  border: 3px solid #3380F2;
+}
+.newEasyvisaicondiv{
+  width: 16%;
+  color: white;
+  border: 3px solid #3380F2;
+  background-color: #3380F2;
+  height: 43px;
+  /* font-size: 18px !important; */
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
+  /* border: 2px solid red;*/
+}
+.Easyvisaicon{
+       /* width: 100% !important; */
+       color: #3380F2;
+       /* border: 3px solid #3380F2; */
+       background-color: white;
+       height: 20px;
+       font-size: 18px !important;
+       border-radius: 100%;
+       margin-top: 34% !important;
+       /* margin-bottom: 105%; */
 }

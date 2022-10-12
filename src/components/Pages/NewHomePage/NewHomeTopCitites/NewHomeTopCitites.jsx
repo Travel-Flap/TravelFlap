@@ -32,8 +32,8 @@ export const NewHomeTopCitites = () => {
         alert("Get Country id" + countryid + " And " + stateid);
     }
     const settings = {
-        dots: true,
-        dotsclassName: "slick-dots line-indicator",
+        // dots: true,
+        // dotsclassName: "slick-dots line-indicator",
         // infinite: true,
         // autoplay: true,
         // autoplayspeed:1000,
@@ -87,14 +87,14 @@ export const NewHomeTopCitites = () => {
     return (
         <div>
             <div class="newhomeTopCititesMaincarddiv card text-bg-dark">
-                <img src="Images/NewHomeLayout/BackgroundImages/TopCitiesBackground.png" class="card-img" alt="..." />
+                <img src="Images/NewHomeLayout/BackgroundImages/TopCitiesBackground.jpeg" class="card-img" alt="..." />
                 <div class="card-img-overlay">
                     <div className='newhomeTopCitiesmainheading'>
 
                         <div className='topCititesHeadingouterdiv'>
                             <h2>Top Cities To Explore</h2>
                             
-                            <div className='newHomeTopCititesDropContainer'>
+                            {/* <div className='newHomeTopCititesDropContainer'>
                         <select className="form-select newTopCititesCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
                             <option value="" style={{ textAlign: "center" }}>Select Country</option>
@@ -105,7 +105,24 @@ export const NewHomeTopCitites = () => {
                             }
                         </select>
                         <FaAngleRight style={{fontSize:"15px"}} className="newhometopcitiesicon"/>
+                    </div> */}
+
+
+                   <div className='newHomeTopCitiesDropContainer'>
+                        <select className="form-select newHomeTopCitiesCountryDrop" onChange={(e) => handlecounty(e)}
+                            style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
+                            <option value="" style={{ textAlign: "center" }}>Select Country</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                        <div className='newTopCitiesicondiv'>
+                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="topcitiesicon" />
+                        </div>
                     </div>
+
                             {/* <div className='newHomeTopCititesDropContainer'>
                                 <select className="form-select newTopCititesCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
                                     style={{ border: "3px solid #3380f2", width: "60%",fontWeight:"700", }}>

@@ -98,12 +98,12 @@ export const ExperimentBanner = () => {
             </div>
 
             <div className='apnatext' >
-            <p>The whole world Awaits with
+                <p>The whole world Awaits with
                     <span>
                         <i>TravelFlap</i>
                     </span>
-                </p>    
-               
+                </p>
+
             </div>
 
         </div>

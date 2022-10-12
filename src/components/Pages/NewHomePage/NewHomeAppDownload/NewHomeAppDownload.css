@@ -1,22 +1,20 @@
 .newhomedownloadmaindiv{
   width: 100%;
-  /* margin-top: 0.5%; */
+  margin-top: 3.5%;
   height: 500px;
   background-size: cover;
   object-fit: cover;
-  background-image: url("./background.jpeg");
+  background-image: url("./vplane.gif");
   /* border: 2px solid red; */
   display: flex;
   flex-direction: row;
-  margin-top: 4%;
-
 }
 .mobileinhand{
   width: 39%;
-  height: 100%;
-  margin-left: -0.6%;
+  height: 90%;
+  margin-left: -2.6%;
   /* border: 2px solid red; */
-  margin-top: 0%;
+  margin-top:3.3%;
 }
 .newhomedownloadbuttons{
   width: 35%;
@@ -33,7 +31,7 @@
   margin: auto;
   color: white;
   font-size: 27px;
-  margin-top: 5%;
+  margin-top: 12%;
   /* padding-top: 10%; */
   text-align: center;
   font-weight: 700;
@@ -58,15 +56,15 @@
   flex-direction: row;
 }
 .playstoreimage{
-  width: 30%;
-  height: 45%;
+  width: 35%;
+  height: 93%;
   margin: 7%;
-  margin-left: 23%;
+  margin-left: 17%;
   margin-top: -5%;
 }
 .googlePlayimage{
-  width: 30%;
-  height: 45%;
+  width: 32%;
+  height: 93%;
   margin: 7%;
   margin-left: -3%;
   margin-top: -5%;
@@ -80,8 +78,8 @@
   margin-top:5%;
 }
 .qrcodeimage{
-  width: 25%;
-  height: 100px;
+  width: 35%;
+  height: 155px;
   margin: auto;
   /* margin-left: 32%;*/
   margin-top: 10%;
@@ -99,6 +97,7 @@
   width: 65%;
   font-weight: 700;
    margin-left: 18%;
+   margin-top: 5%;
   /* margin-bottom: 33% !important; */
   /* border: 2px solid red; */
 }

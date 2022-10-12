@@ -11,7 +11,7 @@
   flex-direction: row;
 } */
 .topCititesHeadingouterdiv h2 {
-  color: #3380f2;
+  color: white;
   margin-left: 2%;
   font-size: 30px;
   font-weight: 700;
@@ -36,10 +36,10 @@
 } */
 .newHomeTopCititesDropContainer {
   width: 14%;
-  margin-left: 60%;
+  margin-left: 59%;
   margin-top: 0.1%;
   display: flex;
-  height: 49px !important;
+  height: 43px !important;
   flex-direction: row;
   border-right: none;
   /* border: 2px solid green; */
@@ -105,7 +105,7 @@
   color: white;
   border: 3px solid  #3380F2;
   background-color: #3380F2;
-  height: 49px;
+  height: 43px !important;
   font-size: 18px !important;
   border-radius: 0px 25px 25px 0px;
   padding-right: 5%;
@@ -223,7 +223,7 @@
 
 .topcitiesnewHomePagedetails {
   position: absolute;
-  bottom: -76%;
+  bottom: -68%;
   left: 0;
   width: 100%;
   height: 310px;
@@ -334,4 +334,73 @@
 
 .carousel .slick-prev {
   left: -55px;
+}
+
+
+
+/* ----------------- New button css ----------------  */
+
+
+.newHomeTopCitiesDropContainer {
+  width: 12%;
+  margin-left: 60%;
+  margin-top: 0.5%;
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+  height: 45px;
+  /* border: 2px solid green; */
+}
+.newHomeTopCitiesDropContainer:hover .newTopCitiesicondiv{
+  background-color:white;
+  color: #3380F2;
+  cursor: pointer;
+}
+.newHomeTopCitiesCountryDrop {
+  border: 3px solid White !important;
+  background-color: White !important;
+  width: 89% !important;
+  height: 43px !important;
+  color:#3380F2 !important;
+  font-weight: 700 !important;
+  font-size: 13.5px !important;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px !important;
+  border-right: none !important;
+  appearance: none !important;
+}
+.newHomeTopCitiesDropContainer select{
+  /* border: 1px solid red !important; */
+  background-image: none !important;
+}
+
+.newHomeTopCitiesCountryDrop:hover {
+  background-color: white !important;
+  color: #3380F2 !important;
+  font-weight: 700;
+  border: 3px solid #3380F2;
+}
+.newTopCitiesicondiv{
+  width: 16%;
+  color: #3380F2;
+  border: 3px solid #3380F2;
+  background-color: white;
+  height: 48px;
+  /* font-size: 18px !important; */
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
+  margin-top: -1.5%;
+  /* border: 2px solid red;*/
+}
+.topcitiesicon{
+       /* width: 100% !important; */
+       color: white !important;
+       border: 3px solid #3380F2;
+       background-color: #3380F2 !important;
+       height: 20px;
+       font-size: 18px !important;
+       border-radius: 100%;
+       margin-top: 56% !important;
+       /* margin-bottom: 105%; */
 }

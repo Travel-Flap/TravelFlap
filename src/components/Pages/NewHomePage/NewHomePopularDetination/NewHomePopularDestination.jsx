@@ -75,7 +75,9 @@ export const CenterMode = () => {
                                 ))
                             }
                         </select>
-                        <FaAngleRight style={{fontSize:"15px"}} className="populardestinationsicon" />
+                        <div className='populardestinationsicondiv'>
+                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="populardestinationsicon" />
+                        </div>
                     </div>
                     
                     {/* <div className="populardestinationselectdiv">

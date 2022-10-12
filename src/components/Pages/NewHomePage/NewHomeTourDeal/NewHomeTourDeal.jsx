@@ -6,7 +6,7 @@ import { useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect, useState } from "react";
-import { FaLocationArrow } from "react-icons/fa";
+import { FaAngleRight } from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
 
 export const NewHomeTourDeals = () => {
@@ -93,29 +93,36 @@ export const NewHomeTourDeals = () => {
     }, []);
     return (
         <div class="newhomeTourDealsmainoutercontainer card text-bg-dark">
-            <img src="Images/NewHomeLayout/BackgroundImages/TourDealsBackgroundImage.jpeg" class="card-img" alt="..." />
+            <img src="Images/NewHomeLayout/BackgroundImages/TopCitiesBackground1.png" class="card-img" alt="..." />
             <div class="newhomeToursDealoverimagemaindiv card-img-overlay">
                 <div className='tourdealsmaincontainer'>
                     <div class="card-img-overlay">
                         <div className='newhomeTourDealsheadingcontainer'>
                             <h2>Tour Deals</h2>
 
-                            <div className='newHomeTourDealsDropContainer'>
-                                <select className="form-select newToursDealsCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
-                                    style={{ border: "3px solid #3380f2", width: "60%" }}>
-                                    <option value="" style={{ textAlign: "center" }}>Select Country</option>
-                                    {
-                                        countrydata.map((getcountry, index) => (
-                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                        ))
-                                    }
-                                </select>
-                            </div>
+
+
+                   <div className='newHomeTourDealDropContainer'>
+                        <select className="form-select newHomeTourDealCountryDrop" onChange={(e) => handlecounty(e)}
+                            style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
+                            <option value="" style={{ textAlign: "center" }}>Select Country</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                        <div className='newTourDealicondiv'>
+                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="tourdealicon" />
+                        </div>
+                    </div>
+
+
                         </div>
                         <div className="tourdealsnewhomepagecardmaindiv">
                             <Slider
                                 arrows={false}
-                                autoplay={true}
+                                // autoplay={true}
                                 speed={2000}
                                 autoplaySpeed={2000}
                                 dots={true}
@@ -178,8 +185,8 @@ export const NewHomeTourDeals = () => {
                             >
                                 <div onMouseLeave={cardhandleToggle} className="card-wrapper">
                                     <div className=" cardParent card newHomeToursDealsliderdiv">
-                                        <div className=" activityexperimentcardimage">
-                                            <img src='Images/BestBudget/Bolivia.jpg' />
+                                        <div className="newHomeTourDealscardimage">
+                                            <img  src='Images/BestBudget/Bolivia.jpg'/>
                                         </div>
                                         <div className={toggle ? "none" : "newHomeToursDealdetails"}>
                                             <h2>Bolivia <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
@@ -196,7 +203,7 @@ export const NewHomeTourDeals = () => {
 
                                 <div onMouseLeave={cardhandleToggle1} className="card-wrapper">
                                     <div className="cardParent card newHomeToursDealsliderdiv">
-                                        <div className=" activityexperimentcardimage">
+                                        <div className=" newHomeTourDealscardimage">
                                             <img src='Images/BestBudget/Cambodia.jpg' />
                                         </div>
                                         <div className={toggle1 ? "none" : "newHomeToursDealdetails"}>
@@ -212,7 +219,7 @@ export const NewHomeTourDeals = () => {
                                 </div>
                                 <div onMouseLeave={cardhandleToggle2} className="card-wrapper">
                                     <div className="card newHomeToursDealsliderdiv">
-                                        <div className=" activityexperimentcardimage">
+                                        <div className=" newHomeTourDealscardimage">
                                             <img src='Images/BestBudget/Bulgaria.jpg' />
                                         </div>
                                         <div className={toggle2 ? "none" : "newHomeToursDealdetails"}>
@@ -228,7 +235,7 @@ export const NewHomeTourDeals = () => {
                                 </div>
                                 <div onMouseLeave={cardhandleToggle3} className="card-wrapper">
                                     <div className="card newHomeToursDealsliderdiv">
-                                        <div className=" activityexperimentcardimage">
+                                        <div className=" newHomeTourDealscardimage">
                                             <img src='Images/BestBudget/El Salvador.jpg' />
                                         </div>
                                         <div className={toggle3 ? "none" : "newHomeToursDealdetails"}>
@@ -244,7 +251,7 @@ export const NewHomeTourDeals = () => {
                                 </div>
                                 <div onMouseLeave={cardhandleToggle4} className="card-wrapper">
                                     <div className="card newHomeToursDealsliderdiv">
-                                        <div className=" activityexperimentcardimage">
+                                        <div className=" newHomeTourDealscardimage">
                                             <img src='Images/BestBudget/Nicaragua.jpg' />
                                         </div>
                                         <div className={toggle4 ? "none" : "newHomeToursDealdetails"}>
