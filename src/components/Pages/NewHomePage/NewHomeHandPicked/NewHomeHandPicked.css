@@ -1,5 +1,5 @@
 .handpickednewhomepageoutercontainer{
-  height: 580px;
+  height: 550px;
   object-fit: cover;
   background-size: cover;
   background-image: url(/public/Images/NewHomeLayout/BackgroundImages/handpickimagebg1.jpg);
@@ -120,12 +120,14 @@
     left: 7%;
     height: 70px;
     width: 100%;
+    /* filter: brightness(1.8); */
   }
   
   .handpickednewhomepagecard-title{
     color: white;
     font-size: 20px;
     margin-top: 1%;
+    /* filter: brightness(1.8); */
   }
   
   .handpickednewhomepage_title1:hover{
@@ -148,6 +150,7 @@
     font-weight: 700;
     padding-top: 3px;
     padding-left: 9px;
+    object-fit: cover;
   }
   .handpickednewhomepagecard_img {
     width: 100%;
@@ -157,6 +160,8 @@
     /* border: 2px solid red; */
     cursor: pointer;
     margin-top: 8%;
+    filter: brightness(0.9);
+    object-fit: cover;
   }
 
   .handpickednewhomepagecard_img img {

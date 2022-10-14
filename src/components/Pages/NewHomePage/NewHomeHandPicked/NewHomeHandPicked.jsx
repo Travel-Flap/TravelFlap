@@ -82,8 +82,8 @@ export const NewHomeHandPicked = () => {
                         <Slider
                             arrows={false}
                             autoplay={true}
-                            speed={1000}
-                            autoplaySpeed={1000}
+                            speed={2000}
+                            autoplaySpeed={2000}
                             dots={true}
                             dotsclassName="slick-dots line-indicator"
                             ref={sliderRef}
