@@ -228,13 +228,14 @@
 
 
 .newHomeEasyvisaDropContainer {
-  width: 12%;
-  margin-left: 58%;
-  margin-top: 1.1%;
+  width: 10%;
+  margin-left: 59%;
+  margin-top: 2.1%;
   display: flex;
   flex-direction: row;
   border-right: none;
-  height: 45px;
+  height:39px;
+  border-radius: 25px;
   /* border: 2px solid green; */
 }
 .newHomeEasyvisaDropContainer:hover .newEasyvisaicondiv{
@@ -243,17 +244,19 @@
   cursor: pointer;
 }
 .newHomeEasyvisaCountryDrop {
-  border: 3px solid #3380F2 !important;
-  background-color: #3380F2 !important;
-  width: 89% !important;
-  height: 43px !important;
-  color:white !important;
-  font-weight: 700 !important;
-  font-size: 13.5px !important;
-  cursor: pointer;
-  border-radius: 25px 0px 0px 25px !important;
-  border-right: none !important;
-  appearance: none !important;
+ /* border: 3px solid red !important; */
+ background-color: #3380F2 !important;
+ width: 80% !important;
+ height: 39px !important;
+ color:white !important;
+ font-weight: 700 !important;
+ font-size: 17px !important;
+ cursor: pointer;
+ border-radius: 25px 0px 0px 25px !important;
+ border-right: none !important;
+ appearance: none !important;
+ padding-top: 2.5% !important;
+ border: none !important;
 }
 .newHomeEasyvisaDropContainer select{
   /* border: 1px solid red !important; */
@@ -262,30 +265,32 @@
 
 .newHomeEasyvisaCountryDrop:hover {
   background-color: white !important;
-  color: #3380F2 !important;
-  font-weight: 700;
-  border: 3px solid #3380F2;
+    color: #3380F2 !important;
+    font-weight: 700;
+    /* border: 3px solid #3380F2; */
 }
 .newEasyvisaicondiv{
-  width: 16%;
+  width: 20%;
   color: white;
-  border: 3px solid #3380F2;
+  /* border: 3px solid #3380F2; */
   background-color: #3380F2;
-  height: 43px;
+  height: 39px;
   /* font-size: 18px !important; */
   border-radius: 0px 25px 25px 0px;
   padding-right: 5%;
   border-left: none;
-  /* border: 2px solid red;*/
+  /* border: 2px solid yellow; */
 }
 .Easyvisaicon{
-       /* width: 100% !important; */
-       color: #3380F2;
-       /* border: 3px solid #3380F2; */
-       background-color: white;
-       height: 20px;
-       font-size: 18px !important;
-       border-radius: 100%;
-       margin-top: 34% !important;
-       /* margin-bottom: 105%; */
+  margin-left: -37%;
+  /* width: 100% !important; */
+  color: #3380F2;
+  border: 3px solid #3380F2;
+  background-color: white;
+  height: 25px;
+  width: 25px;
+  font-size: 18px !important;
+  border-radius: 100%;
+  margin-top: 29% !important;
+  /* margin-bottom: 105%;*/
 }

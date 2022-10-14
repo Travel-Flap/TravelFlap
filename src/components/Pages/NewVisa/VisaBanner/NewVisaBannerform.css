@@ -93,7 +93,7 @@
   
   .singleNewVisaBannerdropcontainer {
     /* border: 1px solid red !important; */
-    width: 45%;
+    width: 40%;
     margin-left: 1%;
     border: none;
   }
@@ -107,6 +107,13 @@
   .singleNewVisaBannerdropcontainer select{
     /* margin-top: 2% !important; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 15px;
+    height: 32px;
+    padding-top: -5px !important;
+  }
+
+  .singleNewVisaBannerdropcontainer select::placeholder{
+    padding-top: 4px;
   }
   
   .singleNewVisaBannerdropcontainer1 {
@@ -124,6 +131,8 @@
 
   .singleNewVisaBannerdropcontainer1 select{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 15px;
+    height: 30px;
 
   }
 
@@ -144,6 +153,13 @@
   .singleNewVisaBannerdropcontainer2 select{
     /* margin-top: 2% !important; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 15px;
+    height: 32px;
+    padding-top: 2px !important;
+  }
+
+  .singleNewVisaBannerdropcontainer2 select::placeholder{
+    padding-top: 8px;
   }
 
   .newVisaform{

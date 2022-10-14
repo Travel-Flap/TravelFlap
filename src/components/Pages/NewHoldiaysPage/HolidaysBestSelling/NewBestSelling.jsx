@@ -47,11 +47,11 @@ export const NewHolidaysBestSelling = () => {
             <div className="newBestBudgetheadingcontainer" >
                 <div className="cardtextnewBestBudgetdropbutton">
                     {/* <CountryDropHotel /> */}
-                    <h2>Best Selling Destinations</h2>
+                    <h2>Best Budget Destinations</h2>
                      <div className='newHolidaysBestBudgetDropContainer'>
                         <select className="form-select newHolidaysBestBudgetCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ border: "3px solid #3380f2", width: "60%",appearance:"none", fontSize:"15px" }}>
-                            <option value="" style={{ textAlign: "center" }}>Select Country</option>
+                            <option value="" style={{ textAlign: "center" }}>Country</option>
                             {
                                 countrydata.map((getcountry, index) => (
                                     <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>

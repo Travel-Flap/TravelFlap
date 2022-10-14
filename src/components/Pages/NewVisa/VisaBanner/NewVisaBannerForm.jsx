@@ -125,8 +125,8 @@ export const NewVisaBannerForm = () => {
 
                             <div className='singleNewVisaBannerdropcontainer'>
                                 <p>Select Country</p>
-                                <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example" style={{ width: "60" }}>
-                                    <option value="" style={{ textAlign: "center" }}>Select Country</option>
+                                <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example" style={{ width: "50" }}>
+                                    <option value="" >Select Country</option>
                                     {
                                         countrydata.map((getcountry, index) => (
                                             <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
@@ -138,7 +138,7 @@ export const NewVisaBannerForm = () => {
                             <div className='singleNewVisaBannerdropcontainer1'>
                                 <p>Select Nationality</p>
                                 <select className="form-select newVisaform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%"}}>
-                                    <option value="" style={{ textAlign: "center" }}>Select State</option>
+                                    <option value="" >Select State</option>
                                     {
                                         state.map((getstate, index) => (
                                             <option value={getstate.state_id} key={index}>{getstate.state_name}</option>

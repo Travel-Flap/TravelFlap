@@ -1,3 +1,8 @@
+
+/* .famousdestinationsheadingcontainer{
+    border: 1px solid red;
+} */
+
 .new_Visadata{
     background-color: #3380f2;
     height: 350px !important;
@@ -23,12 +28,12 @@
 } */
 
 .select_TopDestinationcountry{
-    margin-left: 40%;
-    border: 1px solid red;
+    margin-left: 30%;
 }
 
 .famousvisadestinationdropdown{
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid red !important;  */
+    margin-left: 68%;
 }
 .packagedatadiv{
     width: 80%;

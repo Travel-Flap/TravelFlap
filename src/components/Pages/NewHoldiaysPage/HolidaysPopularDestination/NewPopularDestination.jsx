@@ -99,7 +99,7 @@ export const NewPopularDestination = () => {
                         <div className='newPopularDestinationsHeadingouterdiv'>
                             <h2>Top Cities To Explore</h2>
 
-                            <div className='newPopularDestinationsDropContainer'>
+                            {/* <div className='newPopularDestinationsDropContainer'>
                                 <select className="form-select newPopularDestinationsCountryDrop" onChange={(e) => handlecounty(e)}
                                     style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
                                     <option value="" style={{ textAlign: "center" }}>Select Country</option>
@@ -110,7 +110,23 @@ export const NewPopularDestination = () => {
                                     }
                                 </select>
                                 <FaAngleRight style={{ fontSize: "15px" }} className="newPopularDestinationsicon" />
-                            </div>
+                            </div> */}
+
+                   <div className='newPopularDestinationsDropContainer'>
+                        <select className="form-select newPopularDestinationsCountryDrop" onChange={(e) => handlecounty(e)}
+                            style={{ border: "3px solid #3380f2", width: "60%",appearance:"none", fontSize:"15px" }}>
+                            <option value="" style={{ textAlign: "center" }}>Country</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                        <div className='newPopularDestinationsicondiv'>
+                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="newPopularDestinationsicon" />
+                        </div>
+                    </div>
+
                         </div>
 
                         <div className='newPopularbelowHeadingdiv'>

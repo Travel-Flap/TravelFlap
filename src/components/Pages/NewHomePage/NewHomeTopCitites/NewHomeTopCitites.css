@@ -342,7 +342,7 @@
 
 
 .newHomeTopCitiesDropContainer {
-  width: 12%;
+  width: 10%;
   margin-left: 60%;
   margin-top: 0.5%;
   display: flex;
@@ -351,19 +351,15 @@
   height: 45px;
   /* border: 2px solid green; */
 }
-.newHomeTopCitiesDropContainer:hover .newTopCitiesicondiv{
-  background-color:white;
-  color: #3380F2;
-  cursor: pointer;
-}
+
 .newHomeTopCitiesCountryDrop {
   border: 3px solid White !important;
   background-color: White !important;
-  width: 89% !important;
-  height: 43px !important;
+  width: 80% !important;
+  height: 39px !important;
   color:#3380F2 !important;
   font-weight: 700 !important;
-  font-size: 13.5px !important;
+  font-size: 17px !important;
   cursor: pointer;
   border-radius: 25px 0px 0px 25px !important;
   border-right: none !important;
@@ -374,33 +370,29 @@
   background-image: none !important;
 }
 
-.newHomeTopCitiesCountryDrop:hover {
-  background-color: white !important;
-  color: #3380F2 !important;
-  font-weight: 700;
-  border: 3px solid #3380F2;
-}
+
 .newTopCitiesicondiv{
-  width: 16%;
+  width: 20%;
   color: #3380F2;
-  border: 3px solid #3380F2;
-  background-color: white;
-  height: 48px;
+  /* border: 3px solid #3380F2; */
+  background-color: White;
+  height: 39px;
   /* font-size: 18px !important; */
   border-radius: 0px 25px 25px 0px;
   padding-right: 5%;
   border-left: none;
-  margin-top: -1.5%;
-  /* border: 2px solid red;*/
+  /* border: 2px solid yellow; */
 }
 .topcitiesicon{
-       /* width: 100% !important; */
-       color: white !important;
-       border: 3px solid #3380F2;
-       background-color: #3380F2 !important;
-       height: 20px;
-       font-size: 18px !important;
-       border-radius: 100%;
-       margin-top: 56% !important;
-       /* margin-bottom: 105%; */
+  margin-left: -37%;
+  /* width: 100% !important; */
+  color: white !important;
+  border: 3px solid #3380F2;
+  background-color: #3380F2 !important;
+  height: 25px;
+  width: 25px;
+  font-size: 18px !important;
+  border-radius: 100%;
+  margin-top: 29% !important;
+  /* margin-bottom: 105%;*/
 }

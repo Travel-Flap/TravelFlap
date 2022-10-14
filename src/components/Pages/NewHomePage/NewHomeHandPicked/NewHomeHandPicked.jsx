@@ -60,8 +60,8 @@ export const NewHomeHandPicked = () => {
 
                    <div className='newHomehandpickedDropContainer'>
                         <select className="form-select newHomeHandpickedCountryDrop" onChange={(e) => handlecounty(e)}
-                            style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
-                            <option value="" style={{ textAlign: "center" }}>Select Country</option>
+                            style={{ width: "60%",appearance:"none" }}>
+                            <option value="" style={{ textAlign: "center" }}>Country</option>
                             {
                                 countrydata.map((getcountry, index) => (
                                     <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>

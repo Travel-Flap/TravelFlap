@@ -105,7 +105,7 @@ export const NewHomeTourDeals = () => {
                    <div className='newHomeTourDealDropContainer'>
                         <select className="form-select newHomeTourDealCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
-                            <option value="" style={{ textAlign: "center" }}>Select Country</option>
+                            <option value="" style={{ textAlign: "center" }}>Country</option>
                             {
                                 countrydata.map((getcountry, index) => (
                                     <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>

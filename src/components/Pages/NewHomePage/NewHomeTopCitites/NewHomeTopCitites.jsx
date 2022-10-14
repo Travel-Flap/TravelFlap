@@ -111,7 +111,7 @@ export const NewHomeTopCitites = () => {
                    <div className='newHomeTopCitiesDropContainer'>
                         <select className="form-select newHomeTopCitiesCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
-                            <option value="" style={{ textAlign: "center" }}>Select Country</option>
+                            <option value="" style={{ textAlign: "center" }}>Country</option>
                             {
                                 countrydata.map((getcountry, index) => (
                                     <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
