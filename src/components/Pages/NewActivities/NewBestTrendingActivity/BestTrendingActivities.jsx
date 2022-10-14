@@ -26,10 +26,10 @@ export default class NewTrendingActivities extends Component {
                     <div className="card-wrapper newWorldActivitywrapper">
                         <div className="card newMultisection_Activityimage">
                             <div className="card-image newWorldActivitycardImage">
-                                <img src="images/worldActivitites/Boat under Iguazu Falls.jpg" />
+                                <img src="Images/TrendingActivities/bike ride spiti valley ladakh.jpg" />
                             </div>
                             <div className="newWorldActivitydetails">
-                                <h2>Boating <span className="job-title">"Under The Iguazu Falls."
+                                <h2>Bike Ride <span className="job-title">"Spiti Valley Ladakh."
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
@@ -41,10 +41,10 @@ export default class NewTrendingActivities extends Component {
                     <div className="card-wrapper newWorldActivitywrapper">
                         <div className="card newMultisection_Activityimage">
                             <div className="card-image newWorldActivitycardImage">
-                                <img src="images/worldActivitites/Swim Through Mexico;s Cenotes.jpg" />
+                                <img src="Images/TrendingActivities/boat ride in italy.jpg" />
                             </div>
                             <div className="newWorldActivitydetails">
-                                <h2>Swimming <span className="job-title">"Through the Mexico's Cenotes"
+                                <h2>Boat Ride <span className="job-title">"Boat ride in Italy"
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
@@ -56,7 +56,7 @@ export default class NewTrendingActivities extends Component {
                     <div className="card-wrapper newWorldActivitywrapper">
                         <div className="card newMultisection_Activityimage">
                             <div className="card-image newWorldActivitycardImage">
-                                <img src="images/worldActivitites/Float along the Amazon.jpg" />
+                                <img src="Images/worldActivitites/Float along the Amazon.jpg" />
                             </div>
                             <div className="newWorldActivitydetails">
                                 <h2>Amazon river <span className="job-title">"River side Viewing."
@@ -71,7 +71,7 @@ export default class NewTrendingActivities extends Component {
                     <div className="card-wrapper newWorldActivitywrapper">
                         <div className="card newMultisection_Activityimage">
                             <div className="card-image newWorldActivitycardImage">
-                                <img src="images/worldActivitites/Surf The Pipeline in Oahu.jpg" />
+                                <img src="Images/worldActivitites/Surf The Pipeline in Oahu.jpg" />
                             </div>
                             <div className="newWorldActivitydetails">
                                 <h2>Surfing <span className="job-title">"Best Surf experience in the pipeline of the Oahu."
@@ -86,7 +86,7 @@ export default class NewTrendingActivities extends Component {
                     <div className="card-wrapper newWorldActivitywrapper">
                         <div className="card newMultisection_Activityimage">
                             <div className="card-image newWorldActivitycardImage">
-                                <img src="images/worldActivitites/Zipline Over Niagara Falls.jpg" />
+                                <img src="Images/worldActivitites/Zipline Over Niagara Falls.jpg" />
                             </div>
                             <div className="newWorldActivitydetails">
                                 <h2>Zip Line <span className="job-title">"Ziplining along the Niagar Falls."
@@ -101,7 +101,7 @@ export default class NewTrendingActivities extends Component {
                     <div className="card-wrapper newWorldActivitywrapper">
                         <div className="card newMultisection_Activityimage">
                             <div className="card-image newWorldActivitycardImage">
-                                <img src="images/worldActivitites/BungeeJump.jpg" />
+                                <img src="Images/worldActivitites/BungeeJump.jpg" />
                             </div>
                             <div className="newWorldActivitydetails">
                                 <h2>New Zealand <span className="job-title">"Bungee Jump over the  Kawaru River."
