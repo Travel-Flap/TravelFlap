@@ -86,7 +86,7 @@ export default class NewTrendingActivities extends Component {
                     <div className="card-wrapper newWorldActivitywrapper">
                         <div className="card newMultisection_Activityimage">
                             <div className="card-image newWorldActivitycardImage">
-                                <img src="Images/worldActivitites/Zipline Over Niagara Falls.jpg" />
+                                <img src="Images/worldActivitites/ZipLine Over Niagara Falls.jpg" />
                             </div>
                             <div className="newWorldActivitydetails">
                                 <h2>Zip Line <span className="job-title">"Ziplining along the Niagar Falls."
