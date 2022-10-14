@@ -26,7 +26,7 @@ export default class NewTopCityActivities extends Component {
                     <div className="card-wrapper newTopCityActivitywrapper">
                         <div className="card newTopCity_Activityimage">
                             <div className="card-image newTopCityActivitycardImage">
-                                <img src="images/worldActivitites/Boat under Iguazu Falls.jpg" />
+                                <img src="Images/worldActivitites/Boat under Iguazu Falls.jpg" />
                             </div>
                             <div className="newTopCityActivitydetails">
                                 <h2>Boating <span className="job-title">"Under The Iguazu Falls."
@@ -41,7 +41,7 @@ export default class NewTopCityActivities extends Component {
                     <div className="card-wrapper newTopCityActivitywrapper">
                         <div className="card newTopCity_Activityimage">
                             <div className="card-image newTopCityActivitycardImage">
-                                <img src="images/worldActivitites/Swim Through Mexico;s Cenotes.jpg" />
+                                <img src="Images/worldActivitites/Swim Through Mexico;s Cenotes.jpg" />
                             </div>
                             <div className="newTopCityActivitydetails">
                                 <h2>Swimming <span className="job-title">"Through the Mexico's Cenotes"
@@ -56,7 +56,7 @@ export default class NewTopCityActivities extends Component {
                     <div className="card-wrapper newTopCityActivitywrapper">
                         <div className="card newTopCity_Activityimage">
                             <div className="card-image newTopCityActivitycardImage">
-                                <img src="images/worldActivitites/Float along the Amazon.jpg" />
+                                <img src="Images/worldActivitites/Float along the Amazon.jpg" />
                             </div>
                             <div className="newTopCityActivitydetails">
                                 <h2>Amazon river <span className="job-title">"River side Viewing."
@@ -71,7 +71,7 @@ export default class NewTopCityActivities extends Component {
                     <div className="card-wrapper newTopCityActivitywrapper">
                         <div className="card newTopCity_Activityimage">
                             <div className="card-image newTopCityActivitycardImage">
-                                <img src="images/worldActivitites/Surf The Pipeline in Oahu.jpg" />
+                                <img src="Images/worldActivitites/Surf The Pipeline in Oahu.jpg" />
                             </div>
                             <div className="newTopCityActivitydetails">
                                 <h2>Surfing <span className="job-title">"Best Surf experience in the pipeline of the Oahu."
@@ -86,7 +86,7 @@ export default class NewTopCityActivities extends Component {
                     <div className="card-wrapper newTopCityActivitywrapper">
                         <div className="card newTopCity_Activityimage">
                             <div className="card-image newTopCityActivitycardImage">
-                                <img src="images/worldActivitites/Zipline Over Niagara Falls.jpg" />
+                                <img src="Images/worldActivitites/Zipline Over Niagara Falls.jpg" />
                             </div>
                             <div className="newTopCityActivitydetails">
                                 <h2>Zip Line <span className="job-title">"Ziplining along the Niagar Falls."
@@ -101,7 +101,7 @@ export default class NewTopCityActivities extends Component {
                     <div className="card-wrapper newTopCityActivitywrapper">
                         <div className="card newTopCity_Activityimage">
                             <div className="card-image newTopCityActivitycardImage">
-                                <img src="images/worldActivitites/BungeeJump.jpg" />
+                                <img src="Images/worldActivitites/BungeeJump.jpg" />
                             </div>
                             <div className="newTopCityActivitydetails">
                                 <h2>New Zealand <span className="job-title">"Bungee Jump over the  Kawaru River."
