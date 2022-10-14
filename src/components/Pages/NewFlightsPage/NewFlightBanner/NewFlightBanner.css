@@ -1,0 +1,35 @@
+.holidayBannerContainer{
+    /* border: 1px solid red; */
+    height: 740px;
+}
+
+.holidayBannerImagesmaindiv img{
+    /* border: 2px solid red; */
+    height: 730px;
+    object-fit: cover;
+    filter: brightness(0.4) !important;
+}
+
+
+.newFlightsBannerTexts{
+    width: 70%;
+    height: 100px;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    top: 75%;
+    left: 50%;
+  }
+  .newFlightsBannerTexts>p {
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: sans-serif;  
+  }
+  .newFlightsBannerTexts span {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 56px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #3153f2;
+  }

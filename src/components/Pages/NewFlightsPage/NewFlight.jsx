@@ -11,6 +11,7 @@ import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopul
 import { NewHomeTopCitites } from '../NewHomePage/NewHomeTopCitites/NewHomeTopCitites'
 import { CheapFlights } from './NewCheapFlight/CheapFlights'
 import { NewDomesticFlightsNearYou } from './NewDomesticFlights/NewDomesticFlights'
+import { NewFlightsBanner } from './NewFlightBanner/NewFlightBanner'
 import { NewFlightsNearYou } from './NewFlightsNearYou/NewFlightsNearYou'
 import { FrequentlyAskedQuestions } from './NewFrequentlyAskedQuestions/FrequentlyAskedQuestions'
 
@@ -18,8 +19,10 @@ export const NewFlight = () => {
   return (
     <div>
         <NewHomeNav/>
-        <NewHomeCaruosel/>
+        {/* <NewHomeCaruosel/> */}
         
+        <NewFlightsBanner/>
+
         <div className='carousel'>
             <NewHomeExclusiveDeals/>
         </div>

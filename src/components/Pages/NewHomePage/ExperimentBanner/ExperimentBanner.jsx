@@ -55,7 +55,7 @@ export const ExperimentBanner = () => {
                         <Carousel.Item className='experimentTopBannerdiv'>
                             <img
                                 className="d-block w-100"
-                                src="Images/NewHomeLayout/ExperimentBanner/bannerimages.jpg"
+                                src="Images/NewHomeLayout/Banners/HomePage/worldmapbanner (2).jpg"
                                 alt="First slide"
                             />
                             {/* <Carousel.Caption>
@@ -66,7 +66,7 @@ export const ExperimentBanner = () => {
                         <Carousel.Item className='experimentTopBannerdiv'>
                             <img
                                 className="d-block w-100"
-                                src="Images/NewHomeLayout/ExperimentBanner/Banners1.jpg"
+                                src="Images/NewHomeLayout/Banners/HomePage/Baneers 2.jpg"
                                 alt="Second slide"
                             />
 
@@ -78,7 +78,7 @@ export const ExperimentBanner = () => {
                         <Carousel.Item className='experimentTopBannerdiv'>
                             <img
                                 className="d-block w-100"
-                                src="Images/NewHomeLayout/ExperimentBanner/Baneers 2.jpg"
+                                src="Images/NewHomeLayout/Banners/HomePage/bannerimages.jpg"
                                 alt="Third slide"
                             />
 

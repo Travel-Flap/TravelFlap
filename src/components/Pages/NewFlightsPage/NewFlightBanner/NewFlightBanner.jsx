@@ -1,20 +1,21 @@
 import React from 'react';
-import { NewHolidayBannerForm } from './NewHolidayBannerForm';
-import "./NewHolidaysPageBanner.css";
+// import { NewHolidayBannerForm } from './NewHolidayBannerForm';
+import "./NewFlightBanner.css";
+import { NewFlightBannerForm } from './NewFlightBannerForm';
 
-export const NewHolidaysPageBanner = () => {
+export const NewFlightsBanner = () => {
     return (
         <div className='holidayBannerContainer'>
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner holidayBannerImagesmaindiv">
                     <div class="carousel-item active">
-                        <img src="Images/NewHomeLayout/Banners/Holiday/Images1.jpg" class="d-block w-100" alt="..." />
+                        <img src="Images/NewHomeLayout/Banners/Flight/Images 1.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="Images/NewHomeLayout/Banners/Holiday/Images 2.jpg" class="d-block w-100" alt="..." />
+                        <img src="Images/NewHomeLayout/Banners/Flight/Images 2.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="Images/NewHomeLayout/Banners/Holiday/Images4.jpg" class="d-block w-100" alt="..." />
+                        <img src="Images/NewHomeLayout/Banners/Flight/Images 3.jpg" class="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -27,9 +28,10 @@ export const NewHolidaysPageBanner = () => {
                 </button>
             </div>
 
-            <NewHolidayBannerForm/>
+            {/* <NewHolidayBannerForm/> */}
 
-            <div className='newHolidayBannerTexts' >
+            <NewFlightBannerForm/>
+            <div className='newFlightsBannerTexts' >
                 <p>The whole world Awaits with
                     <span>
                         <i>TravelFlap</i>

@@ -23,7 +23,7 @@ export const ExperimentBannerForm = () => {
     return (
         <>
             {/* <Menu /> */}
-            <NewHomeNav/>
+            {/* <NewHomeNav/> */}
             <div className='carouselnewExperimentbannermenu'>
 
                 <Link to="/flights" className='carouselnewExperimentbannermenu-icon bottomupExperimentclass1' id='borderLeftnewhomebanner'>

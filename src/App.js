@@ -21,6 +21,7 @@ import { NewFlight } from "./components/Pages/NewFlightsPage/NewFlight";
 import { NewHotel } from "./components/Pages/NewHotelsPage/NewHotel";
 import { NewHomeNav } from "./components/Pages/NewHomePage/NewHomeNavbar/NewHomeNavbar";
 import { NewHolidaysPage } from "./components/Pages/NewHoldiaysPage/NewHolidaysPage";
+import { NewVisa } from "./components/Pages/NewVisa/NewVisa";
 
 function App() {
   return (
@@ -39,7 +40,7 @@ function App() {
         {/* <Route path="/flights" element={<Flights/>} /> */}
         {/* <Route path="/offers" element={<Offers />}   /> */}
         {/* <Route path="/holidays" element={<Holidays />} /> */}
-
+        {/* <Route path="/visa" element={<Visa/>}/> */}
         
         <Route path="/" element={<NewHomeLayout/>} />
         <Route path="/flights" element={<NewFlight/>} />
@@ -48,7 +49,8 @@ function App() {
         <Route path="/offers" element={<Offers />}   />
         <Route path="/staycations" element={<Staycations />} />
         <Route path="/activities" element={<Activities />} />
-        <Route path="/visa" element={<Visa/>}/>
+        <Route path="/visa" element={<NewVisa/>}/>
+        
         <Route path="/visadetail" element={<VisaDetails/>} />
         <Route path="/cruise" element={<Cruise/>} />
         <Route path="/rentals" element={ <Rentals/>} />

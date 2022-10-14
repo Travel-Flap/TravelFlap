@@ -1,0 +1,17 @@
+.newVisaSteps{
+    /* border: 1px solid red !important; */
+    height: 400px;
+}
+
+.newVisaSteps h5{
+    color: #3380f2;
+    font-weight: 700;
+    margin-left: 5%;
+    font-size: 28px;
+}
+
+.newVisaSteps img{
+    object-fit: cover;
+    width: 100%;
+    /* border: 1px solid red; */
+}
