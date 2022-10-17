@@ -159,7 +159,7 @@ export const TopDemandedVisa = () => {
                   </p>
 
                 </span>
-                  <Button variant="primary">Read More</Button>
+                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
                 </h2>
               </div>
             </div>
@@ -176,7 +176,7 @@ export const TopDemandedVisa = () => {
                     other for same
                   </p>
                 </span>
-                  <Button variant="primary">Read More</Button>
+                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
                 </h2>
               </div>
             </div>
@@ -192,7 +192,7 @@ export const TopDemandedVisa = () => {
                   <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
                   </p></span>
-                  <Button variant="primary">Read More</Button>
+                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
                 </h2>
               </div>
             </div>
@@ -208,7 +208,7 @@ export const TopDemandedVisa = () => {
                   <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
                   </p></span>
-                  <Button variant="primary">Read More</Button>
+                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
                 </h2>
               </div>
             </div>
@@ -224,7 +224,7 @@ export const TopDemandedVisa = () => {
                   <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
                   </p></span>
-                  <Button variant="primary">Read More</Button>
+                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
                 </h2>
               </div>
             </div>
@@ -240,7 +240,7 @@ export const TopDemandedVisa = () => {
                   <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
                   </p></span>
-                  <Button variant="primary">Read More</Button>
+                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
                 </h2>
               </div>
             </div>
@@ -256,7 +256,7 @@ export const TopDemandedVisa = () => {
                   <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
                   </p></span>
-                  <Button variant="primary">Read More</Button>
+                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
                 </h2>
               </div>
             </div>
@@ -272,7 +272,7 @@ export const TopDemandedVisa = () => {
                   <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
                   </p></span>
-                  <Button variant="primary">Read More</Button>
+                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
                 </h2>
               </div>
             </div>

@@ -17,37 +17,20 @@
   color: white;
   font-weight: 600;
   margin-top: 2%;
-  margin-left: 7%;
+  margin-left: 5.5%;
   font-size: 35px;
 }
 
-.newHomeHotelServicesDropContainer {
-  width: 20%;
-  margin-left: 56%;
-  margin-top: 0.1%;
-}
 
-.newHotelServicesCountryDrop {
-  margin-top: 13% !important;
-  margin-left: 7%;
-  color: #3380f2 !important;
-  font-weight: 700;
-  cursor: pointer;
-  border-radius: 20px !important;
-}
-.newHotelServicesCountryDrop:hover {
-  background-color: #3380f2;
-  color: white !important;
-  font-weight: 700;
-}
+
 
 .newhomehotelservicesmaindiv {
-  /* border: 1px solid red; */
+  /* border: 2px solid red; */
   width: 100%;
-  height: 600px !important;
+  height: 500px !important;
   background-color: #3380f2;
   opacity: 0.9;
-  background-image: url(/public/Images/NewHomeLayout/BackgroundImages/HotelServicesBackground.png);
+  /* background-image: url(/public/Images/NewHomeLayout/BackgroundImages/HotelServicesBackground.png); */
 }
 
 .slick-slide {
@@ -441,10 +424,7 @@
   }
 }
 
-.newhomehotelservicesmaindiv {
-  /* border: 1px solid red; */
-  width: 100%;
-}
+
 
 .activityaroundouterdiv {
   /* border: 2px solid red !important; */
@@ -811,11 +791,11 @@
 }
 .cardtexthotelservices_maindiv {
   /* border: 2px solid red; */
-  border: 2px solid lightgray;
+  /*border: 2px solid lightgray;*/
   width: 18.5%;
-  height: 360px;
+  height: 360px !important;
   position: relative;
-  background-color: white;
+  background-color: transparent !important;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   display: flex;
@@ -823,6 +803,7 @@
   align-items: center;
   justify-content: space-around;
   border-radius: 10px;
+  border: none !important;
   /* margin-top: 15%; */
 }
 .cardtexthotelservices_maindiv:hover {
@@ -853,12 +834,13 @@
 }
 .cardtexthotelservices_maindiv > img {
   width: 100%;
-  height: 250px;
-  border-radius: 10px 10px 0px 0px;
+  height: 360px !important;
+  margin-top: 1%;
+  border-radius: 10px 10px 10px 10px;
 }
 .cardhotelservices_title {
   /* border: 1px solid red; */
-  color: #3380f2;
+  color: white !important;
   width: 90%;
   height: 50px;
   margin-top: 3%;
@@ -867,7 +849,8 @@
   margin-left: 3%;
 }
 .hoteltitle_rating {
-  color: #3380f2;
+  color: white;
+  margin-left: -2%;
 }
 
 .staricon {
@@ -876,19 +859,21 @@
 
 .hotelservicesratesdiv {
   border: 1px solid #3380f2;
-  width: 30%;
-  background-color: #3380f2;
+  width: 35% !important;
+  background-color: white;
   margin-left: 3%;
   height: 40px;
   border-radius: 7px;
+  margin-left: 0.5% !important;
+  margin-top: 3%;
 }
 
 .hotelservicesratesdiv p {
-  color: white;
+  color: #3380f2;
   font-weight: 700;
   font-size: 13px;
   padding-top: 8px;
-  padding-left: 7px;
+  padding-left: 9px !important;
 }
 
 .hoteldicsountprice {
@@ -950,4 +935,76 @@
   margin-left: -40px;
   margin-right: 20px;
   margin-top: -6px;
+}
+
+.hotelservicesdetails {
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 310px;
+  z-index: 100000000;
+  padding: 10px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  padding-left: 8% !important;
+}
+
+/* ----------------- New button css ----------------  */
+
+
+.newHomeHotelServicesDropContainer {
+  width: 10%;
+  margin-left: 63%;
+  margin-top:2%;
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+  height: 45px;
+  /* border: 2px solid green; */
+}
+
+.newHotelServicesCountryDrop {
+  border: 3px solid White !important;
+  width: 80% !important;
+  height: 39px !important;
+  color:#3380F2 !important;
+  font-weight: 700 !important;
+  font-size: 17px !important;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px !important;
+  border-right: none !important;
+  appearance: none !important;
+  /* background-color: white !important; */
+}
+.newHomeHotelServicesDropContainer select{
+  /* border: 1px solid red !important; */
+  background-image: none !important;
+}
+
+
+.newHotelServicesicondiv{
+  width: 20%;
+  /* color: #3380F2; */
+  /* border: 3px solid #3380F2; */
+  background-color: White !important;
+  height: 39px;
+  /* font-size: 18px !important; */
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
+  /* border: 2px solid yellow; */
+}
+.hotelServicesicon{
+  margin-left: -37%;
+  /* width: 100% !important; */
+  color: white !important;
+  /* border: 3px solid #3380F2; */
+  background-color: #3380F2 !important;
+  height: 25px;
+  width: 25px;
+  font-size: 18px !important;
+  border-radius: 100%;
+  margin-top: 23% !important;
+  /* margin-bottom: 105%;*/
 }

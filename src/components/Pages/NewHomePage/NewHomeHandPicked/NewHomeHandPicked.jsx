@@ -150,9 +150,9 @@ export const NewHomeHandPicked = () => {
 
                                             <div className="card-body">
                                                 <div className='handpickednewhomepage_title1'>
-                                                    <div className="handpickednewhomepagebottomheading">
+                                                    {/* <div className="handpickednewhomepagebottomheading">
                                                         <h1 >Top 11</h1>
-                                                    </div>
+                                                    </div> */}
 
                                                     <h4 className="handpickednewhomepagecard-title">Romantic Destinations</h4>
                                                 </div>
@@ -169,9 +169,9 @@ export const NewHomeHandPicked = () => {
 
                                         <div className="card-body">
                                             <div className='handpickednewhomepage_title1'>
-                                                <div className="handpickednewhomepagebottomheading">
+                                                {/* <div className="handpickednewhomepagebottomheading">
                                                     <h1 >Top 11</h1>
-                                                </div>
+                                                </div> */}
                                                 <h4 className="handpickednewhomepagecard-title">Honeymoon Destinations</h4>
                                             </div>
                                         </div>
@@ -193,9 +193,9 @@ export const NewHomeHandPicked = () => {
 
                                         <div className="card-body">
                                             <div className='handpickednewhomepage_title1'>
-                                                <div className="handpickednewhomepagebottomheading">
+                                                {/* <div className="handpickednewhomepagebottomheading">
                                                     <h1 >Top 11</h1>
-                                                </div>
+                                                </div> */}
                                                 <h4 className="handpickednewhomepagecard-title">Adventure Destinations</h4>
                                             </div>
                                         </div>
@@ -217,9 +217,9 @@ export const NewHomeHandPicked = () => {
 
                                         <div className="card-body">
                                             <div className='handpickednewhomepage_title1'>
-                                                <div className="handpickednewhomepagebottomheading">
+                                                {/* <div className="handpickednewhomepagebottomheading">
                                                     <h1 >Top 11</h1>
-                                                </div>
+                                                </div> */}
                                                 <h4 className="handpickednewhomepagecard-title">Weekend Getaways</h4>
                                             </div>
                                         </div>
@@ -241,9 +241,9 @@ export const NewHomeHandPicked = () => {
 
                                         <div className="card-body">
                                             <div className='handpickednewhomepage_title1'>
-                                                <div className="handpickednewhomepagebottomheading">
+                                                {/* <div className="handpickednewhomepagebottomheading">
                                                     <h1 >Top 11</h1>
-                                                </div>
+                                                </div> */}
                                                 <h4 className="handpickednewhomepagecard-title">Beach Destinations</h4>
                                             </div>
                                         </div>
@@ -265,9 +265,9 @@ export const NewHomeHandPicked = () => {
 
                                         <div className="card-body">
                                             <div className='handpickednewhomepage_title1'>
-                                                <div className="handpickednewhomepagebottomheading">
+                                                {/* <div className="handpickednewhomepagebottomheading">
                                                     <h1 >Top 11</h1>
-                                                </div>
+                                                </div> */}
                                                 <h4 className="handpickednewhomepagecard-title">Hill Stations</h4>
                                             </div>
                                         </div>
@@ -288,9 +288,9 @@ export const NewHomeHandPicked = () => {
 
                                         <div className="card-body">
                                             <div className='handpickednewhomepage_title1'>
-                                                <div className="handpickednewhomepagebottomheading">
+                                                {/* <div className="handpickednewhomepagebottomheading">
                                                     <h1 >Top 11</h1>
-                                                </div>
+                                                </div> */}
                                                 <h4 className="handpickednewhomepagecard-title">International Destinations</h4>
                                             </div>
                                         </div>
@@ -311,9 +311,9 @@ export const NewHomeHandPicked = () => {
 
                                         <div className="card-body">
                                             <div className='handpickednewhomepage_title1'>
-                                                <div className="handpickednewhomepagebottomheading">
+                                                {/* <div className="handpickednewhomepagebottomheading">
                                                     <h1 >Top 11</h1>
-                                                </div>
+                                                </div> */}
                                                 <h4 className="handpickednewhomepagecard-title">Heritage Destinations</h4>
                                             </div>
                                         </div>
@@ -334,9 +334,9 @@ export const NewHomeHandPicked = () => {
 
                                         <div className="card-body">
                                             <div className='handpickednewhomepage_title1'>
-                                                <div className="handpickednewhomepagebottomheading">
+                                                {/* <div className="handpickednewhomepagebottomheading">
                                                     <h1 >Top 11</h1>
-                                                </div>
+                                                </div> */}
                                                 <h4 className="handpickednewhomepagecard-title">Pilgrimage Destinations</h4>
                                             </div>
                                         </div>

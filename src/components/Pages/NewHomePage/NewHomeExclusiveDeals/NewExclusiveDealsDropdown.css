@@ -60,6 +60,7 @@
     /* border: 2px solid white; */
     display: flex;
     margin-top: 3%;
+    margin-left: 5% !important;
 }
 .newExclusiveDealssingledrop{
     /* border: 1px solid red; */

@@ -114,7 +114,7 @@
   .newBestBudgetmaindiv {
     /* border: 1px solid red !important; */
     width: 100%;
-    height: 600px !important;
+    height: 500px !important;
     background-color: whitesmoke;
     opacity: 0.9;
     /* background-image: url(/public/Images/NewHomeLayout/BackgroundImages/HotelServicesBackground.png); */
@@ -869,9 +869,9 @@
     /* border: 2px solid red; */
     border: 2px solid lightgray;
     width: 18.5%;
-    height: 360px;
+    height: 350px;
     position: relative;
-    background-color: white;
+    /* background-color: white; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
       rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: flex;
@@ -884,14 +884,14 @@
   .cardtextBestBudget_maindiv:hover {
     transform: scale(1.01);
     cursor: pointer;
-    height: 365px;
+    height: 355px;
     transition: 0.3s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
       rgba(0, 0, 0, 0.22) 0px 15px 12px;
   }
   
   .reviewratingBestBudgetsection {
-    background-color: white;
+    /* background-color: white; */
     width: 150px;
     height: 50px;
     /* border: 1px solid red; */
@@ -909,18 +909,20 @@
   }
   .cardtextBestBudget_maindiv > img {
     width: 100%;
-    height: 250px;
+    height: 350px;
     border-radius: 10px 10px 0px 0px;
+    z-index: 0;
   }
   .cardBestBudget_title {
     /* border: 1px solid red; */
-    color: #3380f2;
+    color: white;
     width: 90%;
     height: 30px;
-    margin-top: 3%;
+    margin-top: -51%;
     font-size: 25px !important;
     font-weight: 700;
-    margin-left: 3%;
+    margin-left: 4%;
+    z-index: 1;
   }
   .BestBudget_rating {
     color: #3380f2;
@@ -935,13 +937,13 @@
     width: 100%;
     /* background-color: #3380f2; */
     margin-left: 1%;
-    color: black;
+    color: white;
     height: 40px;
     border-radius: 7px;
   }
   
   .newBestBudgetratesdiv p {
-    color: black;
+    color: white;
     font-weight: 500;
     font-size: 15px;
     padding-top: 8px;
@@ -963,9 +965,9 @@
     margin-top: -6px;
   }
   .hoteldiscountpercent {
-    border: 2px solid #3380f2;
+    border: 2px solid white;
     border-radius: 5px;
-    color: #3380f2;
+    color: white;
     font-size: 12px;
     padding-left: 5px;
     padding-right: 5px;
@@ -1014,7 +1016,7 @@
 
   .newHolidaysBestBudgetDropContainer {
     width: 10%;
-    margin-left: 48%;
+    margin-left: 51%;
     margin-top: 2.1%;
     display: flex;
     flex-direction: row;

@@ -146,110 +146,110 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/abudhabhi.jpg" />
+                                                <img src="Images/TopCities/chicago.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
+                                                <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same
-                                                </p> */}
+                                                </p>
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
 
-                                        {/* <div className='newhomeTopCitiesBottomTexts'>
+                                        <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Abu Dhabi</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div> */}
+                                        </div>
                                     </div>
 
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/africa1.jpg" />
+                                                <img src="Images/TopCities/London.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
+                                                <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same
-                                                </p> */}
+                                                </p>
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
-                                        {/* <div className='newhomeTopCitiesBottomTexts'>
+                                        <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Epupa Falls</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div> */}
+                                        </div>
                                     </div>
 
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/america.jpg" />
+                                                <img src="Images/TopCities/losangeles.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
+                                                <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
-                                                </p> */}
+                                                </p>
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
-                                        {/* <div className='newhomeTopCitiesBottomTexts'>
+                                        <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Las Vegas</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div> */}
+                                        </div>
                                     </div>
 
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/australia.jpg" />
+                                                <img src="Images/TopCities/melbourne.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
+                                                <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
-                                                </p> */}
+                                                </p>
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
-                                        {/* <div className='newhomeTopCitiesBottomTexts'>
+                                        <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Sydney</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div> */}
+                                        </div>
                                     </div>
 
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/canada.jpg" />
+                                                <img src="Images/TopCities/paris.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
+                                                <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
-                                                </p> */}
+                                                </p>
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
-                                        {/* <div className='newhomeTopCitiesBottomTexts'>
+                                        <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Toronto</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div> */}
+                                        </div>
                                     </div>
 
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/landon.jpg" />
+                                                <img src="Images/TopCities/tokyo.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
+                                                <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
-                                                </p> */}
+                                                </p>
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
-                                        {/* <div className='newhomeTopCitiesBottomTexts'>
+                                        <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>London</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div> */}
+                                        </div>
                                     </div>
 
                                     <div className="card-wrapper">
@@ -258,36 +258,36 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/denmark.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
+                                                <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
-                                                </p> */}
+                                                </p>
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
 
-                                        {/* <div className='newhomeTopCitiesBottomTexts'>
+                                        <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Aarhus</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div> */}
+                                        </div>
                                     </div>
 
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/zambiaafrica.jpg" />
+                                                <img src="Images/TopCities/newyork.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
+                                                <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
-                                                </p> */}
+                                                </p>
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
 
-                                        {/* <div className='newhomeTopCitiesBottomTexts'>
+                                        <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Zambia</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div> */}
+                                        </div>
                                     </div>
 
                                     <div className="card-wrapper">
@@ -296,17 +296,17 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/TopCities/swedan.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
+                                                <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
-                                                </p> */}
+                                                </p>
                                                 <Button variant="primary">Explore</Button>
                                             </div>
                                         </div>
 
-                                        {/* <div className='newhomeTopCitiesBottomTexts'>
+                                        <div className='newhomeTopCitiesBottomTexts'>
                                             <h2>Stockholm</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div> */}
+                                        </div>
                                     </div>
                                 </Slider>
                             </div>

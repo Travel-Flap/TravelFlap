@@ -4,14 +4,14 @@
   box-sizing: border-box;
   justify-content: space-between;
   margin: auto;
-  top: 45%;
+  top: 42%;
   background-color: white;
   width: 64%;
-  /* border: 3px solid #3380f2 !important; */
+  /* border: 3px solid #3380f2 !  important; */
   color: #3380f2 !important;
   height: 245px;
   /* opacity: 0.9; */
-  left: 18%;
+  left: 18.5%;
   border-radius: 10px;
   position: absolute !important;
   z-index: 10;
@@ -54,7 +54,7 @@
   border: none !important;
   outline: none !important;
   /* padding-left: 4%; */
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .newHolidaysinputNameContainer input::placeholder {
@@ -65,7 +65,7 @@
 .newHolidaysInputicon {
   /* border: 1px solid black !important; */
   margin-top: 2.4%;
-  font-size: 25px;
+  font-size: 22px;
   color: black;
   width: 7%;
 
@@ -94,12 +94,12 @@
 .singleNewHolidaysBannerdropcontainer {
   /* border: 1px solid red; */
   /* width: 80%; */
-  margin-left: 1%;
+  margin-left: 0%;
   border: none;
 }
 
 .singleNewHolidaysBannerdropcontainer1 {
-  margin-left: -10%;
+  margin-left: -13%;
 }
 
 .singleNewHolidaysBannerdropcontainerbutton .holidayformbutton {
@@ -217,17 +217,17 @@
   padding-bottom: 8%;
 }
 
-.experimentHomeGuestIcon {
-  /* border: 1px solid red; */
+/* .experimentHomeGuestIcon {
+  border: 1px solid red;
   font-size: 24px;
   margin-left: 15% !important;
   margin-top: 11% !important;
   background-color: white !important;
-  /* background-color: #8DBBFF; */
-}
+  background-color: #8DBBFF;
+} */
 
-.experiment_SearchButton {
-  /* border: 1px solid blue; */
+/* .experiment_SearchButton {
+  border: 1px solid blue;
   width: 10%;
 }
 
@@ -235,7 +235,8 @@
   margin-top: 10%;
   width: 90%;
   height: 45px;
-}
+} */
+
 
 /* This is prior css code for the homepage */
 .choosenewhomebanneroptions {

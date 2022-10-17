@@ -4,13 +4,13 @@
   box-sizing: border-box;
   justify-content: space-between;
   margin: auto;
-  top: 30%;
+  top: 33%;
   background-color: white;
   /* opacity: 0.3; */
   width:64%;
   /* border: 3px solid #3380f2 !important; */
   color: #3380f2 !important;
-  height: 245px;
+  height: 150px;
   /* opacity: 0.9; */
   left: 18%;
   border-radius: 10px;
@@ -48,8 +48,10 @@
 }
 
 .newHotelNameInput{
-  /* border: 1px solid purple; */
-  background-color: #8DBBFF;
+  border: 1px solid #3380F2;
+  /* background-color: #8DBBFF; */
+  color: #3380F2;
+  font-weight: 700;
   width: 22%;
   margin-left: 2%;
   display: flex;
@@ -58,26 +60,29 @@
 }
 
 .hotelinputNameContainer input{
-  background-color: #8DBBFF;
+  /* background-color: #8DBBFF; */
   height: auto;
   margin-top: 5% !important;
   width: 90% !important;
-  color: black;
+  color: #3380F2;
   border: none !important;
   outline: none !important;
-  padding-left: 4%;
+  padding-left: 10%;
   font-size: 18px;
+  padding-top: 2% !important;
 }
 
 .hotelinputNameContainer input::placeholder{
   /* padding-left: 5%; */
-  color: black;
+  color: #3380F2;
+  font-weight: 700;
+  padding-top: 5% !important;
 }
 .hotelInputicon{
-  margin-top: 4%;
-  font-size: 25px;
-  color: black;
-  margin-right: 4%;
+  margin-top: 6%;
+  font-size: 23px;
+  color: #3380F2;
+  margin-right: 9%;
 }
 .hotelinputNameContainer .hotelinputIconContainer{
   font-size: 30px !important;
@@ -88,50 +93,52 @@
   width: 100%;
   border: none;
   outline: none !important;
+  color: #3380F2;
 }
 
 .newHotelCheckIn_Date{
-  /* border: 1px solid green; */
+  border: 1px solid #3380F2;
   border-radius: 5px;
   width: 22%;
   margin-left: 2%;
-  background-color: #8DBBFF;
+  color: #3380F2;
+  /* background-color: #8DBBFF; */
 }
 
 .newHotelCheckIn_Date input{
-  background-color: #8DBBFF;
+  /* background-color: #8DBBFF; */
   height: auto;
-  margin-top: 9% !important;
+  margin-top: 6% !important;
   width: 90% !important;
-  color: black;
+  color:#3380F2;
   border: none !important;
   outline: none !important;
-  padding-left: 4%;
+  padding-left: 9%;
   font-size: 18px;
 }
 
 
 .newHotelCheckOut_Date{
-  /* border: 1px solid orange; */
+  border: 1px solid #3380F2;
   width: 22%;
   margin-left: 2%;
-  background-color: #8DBBFF;
+  /* background-color: #8DBBFF; */
   border-radius: 5px;
 }
 
 .newHotelCheckOut_Date input{
-  /* border: 1px solid green; */
+  border: 1px solid #3380F2;
   width: 100%;
   border: none;
   outline: none !important;
-  background-color: #8DBBFF;
+  /* background-color: #8DBBFF; */
   height: auto;
-  margin-top: 9% !important;
+  margin-top: 6% !important;
   width: 90% !important;
-  color: black;
+  color: #3380F2;
   border: none !important;
   outline: none !important;
-  padding-left: 4%;
+  padding-left: 9%;
   font-size: 18px;
 }
 
@@ -145,13 +152,13 @@
 }
 
 #newHotelPage_departure {
-  /* border: 1px solid red; */
+  border: 1px solid #3380F2;
   display: flex;
   flex-direction: row;
   width: 100%;
   /* color: #3380f2; */
-  color: black;
-  background-color: #8DBBFF !important;
+  color: #3380F2;
+  /* background-color: #8DBBFF !important; */
   border-radius: 5px;
 }
 
@@ -170,11 +177,11 @@
 }
 
 .hotelGuestIcon{
-  /* border: 1px solid red; */
+  /* border: 1px solid #3380F2; */
   font-size: 24px;
   margin-left: 20%;
   margin-top: 6%;
-  background-color: #8DBBFF !important;
+  /* background-color: #8DBBFF !important; */
 }
 
 .dropdownnewHotelPage-content {
@@ -432,8 +439,9 @@
 .newHotel_checkmark {
   display: flex;
   flex-direction: row;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   height: 20px;
+  margin-top: 1%;
 }
 
 .flights_newHotelcheckbox {
@@ -454,7 +462,7 @@
   top: 10%;
   right: 86%;
   z-index: 9 !important;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   font-size: 15px;
   font-weight: 500;
 }
@@ -468,7 +476,7 @@
   top: 10%;
   right: 78%;
   z-index: 8 !important;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   font-size: 15px;
   font-weight: 500;
 }
@@ -482,7 +490,7 @@
   top: 10%;
   right: 70%;
   z-index: 7 !important;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   font-size: 15px;
   font-weight: 500;
 }
@@ -496,7 +504,7 @@
   top: 10%;
   right: 61.6%;
   z-index: 6 !important;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   font-size: 15px;
   font-weight: 500;
 }
@@ -510,7 +518,7 @@
   top: 10%;
   right: 52.5%;
   z-index: 5 !important;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   font-size: 15px;
   font-weight: 500;
 }
@@ -524,7 +532,7 @@
   top: 10%;
   right: 44%;
   z-index: 4 !important;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   font-size: 15px;
   font-weight: 500;
 }
@@ -538,7 +546,7 @@
   top: 10%;
   right: 36%;
   z-index: 3 !important;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   font-size: 15px;
   font-weight: 500;
 }
@@ -552,7 +560,7 @@
   top: 10%;
   right: 27%;
   z-index: 2 !important;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   font-size: 15px;
   font-weight: 500;
 }
@@ -566,7 +574,7 @@
   top: 10%;
   right: 19%;
   z-index: 1 !important;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   font-size: 15px;
   font-weight: 500;
 }
@@ -582,14 +590,14 @@
   height: 98px;
   width: 10%;
   border-radius: 12px;
-  background-color: #3380f2;
+  background-color: transparent;
   flex-direction: column;
   box-sizing: border-box;
   display: flex;
   place-content: center;
   align-items: center;
   cursor: pointer;
-  border: none;
+  border: none !important;
   color: white;
   text-decoration: none;
   z-index: 100;

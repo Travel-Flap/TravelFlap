@@ -297,7 +297,7 @@
   }
   
   .newVisa_SearchButton {
-    /* border: 1px solid blue; */
+    /* border: 1px solid red; */
     width: 15%;
   }
   
@@ -306,6 +306,8 @@
     width: 90%;
     height: 45px;
     margin-left: 4%;
+    padding-left: 25%;
+    padding-top: 7%;
   }
   
   /* This is prior css code for the homepage */

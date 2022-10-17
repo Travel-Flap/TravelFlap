@@ -186,7 +186,7 @@ export const NewHomeTourDeals = () => {
                                 <div onMouseLeave={cardhandleToggle} className="card-wrapper">
                                     <div className=" cardParent card newHomeToursDealsliderdiv">
                                         <div className="newHomeTourDealscardimage">
-                                            <img  src='Images/BestBudget/Bolivia.jpg'/>
+                                            <img  src='Images/BestBudget/Cambodia.jpg'/>
                                         </div>
                                         <div className={toggle ? "none" : "newHomeToursDealdetails"}>
                                             <h2>Bolivia <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
@@ -204,7 +204,7 @@ export const NewHomeTourDeals = () => {
                                 <div onMouseLeave={cardhandleToggle1} className="card-wrapper">
                                     <div className="cardParent card newHomeToursDealsliderdiv">
                                         <div className=" newHomeTourDealscardimage">
-                                            <img src='Images/BestBudget/Cambodia.jpg' />
+                                            <img src='Images/BestBudget/Greenland.jpg' />
                                         </div>
                                         <div className={toggle1 ? "none" : "newHomeToursDealdetails"}>
                                             <h2>Cambodia <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
@@ -220,7 +220,7 @@ export const NewHomeTourDeals = () => {
                                 <div onMouseLeave={cardhandleToggle2} className="card-wrapper">
                                     <div className="card newHomeToursDealsliderdiv">
                                         <div className=" newHomeTourDealscardimage">
-                                            <img src='Images/BestBudget/Bulgaria.jpg' />
+                                            <img src='Images/BestBudget/Cambodge.jpg' />
                                         </div>
                                         <div className={toggle2 ? "none" : "newHomeToursDealdetails"}>
                                             <h2>Bulgaria <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
@@ -236,10 +236,10 @@ export const NewHomeTourDeals = () => {
                                 <div onMouseLeave={cardhandleToggle3} className="card-wrapper">
                                     <div className="card newHomeToursDealsliderdiv">
                                         <div className=" newHomeTourDealscardimage">
-                                            <img src='Images/BestBudget/El Salvador.jpg' />
+                                            <img src='Images/BestBudget/paris.jpg' />
                                         </div>
                                         <div className={toggle3 ? "none" : "newHomeToursDealdetails"}>
-                                            <h2>El Salvador <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
+                                            <h2>Paris <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
                                             </span>
                                                 <p onClick={handleText3}>Tap to read more</p>
                                             </h2>
@@ -252,10 +252,10 @@ export const NewHomeTourDeals = () => {
                                 <div onMouseLeave={cardhandleToggle4} className="card-wrapper">
                                     <div className="card newHomeToursDealsliderdiv">
                                         <div className=" newHomeTourDealscardimage">
-                                            <img src='Images/BestBudget/Nicaragua.jpg' />
+                                            <img src='Images/BestBudget/Prague.jpg' />
                                         </div>
                                         <div className={toggle4 ? "none" : "newHomeToursDealdetails"}>
-                                            <h2 onClick={handleText4}>Laos <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
+                                            <h2 onClick={handleText4}>Prague <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
                                             </span>
                                                 <p>Tap to read more</p>
                                             </h2>

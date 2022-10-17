@@ -1,0 +1,22 @@
+.newhome_bannertitle span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 56px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  z-index: 2;
+  /* position: fixed !important; */
+  /* font-style: italic !important; */
+  color: #3153f2;
+}
+
+.newhome_bannertitle p {
+  color: whitesmoke;
+  font-size: 40px;
+  font-family: sans-serif;  
+}
+
+.newhome_bannertitle {
+  /* position: absolute; */
+  background: transparent !important;
+}

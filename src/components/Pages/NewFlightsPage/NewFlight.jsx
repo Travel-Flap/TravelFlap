@@ -14,6 +14,8 @@ import { NewDomesticFlightsNearYou } from './NewDomesticFlights/NewDomesticFligh
 import { NewFlightsBanner } from './NewFlightBanner/NewFlightBanner'
 import { NewFlightsNearYou } from './NewFlightsNearYou/NewFlightsNearYou'
 import { FrequentlyAskedQuestions } from './NewFrequentlyAskedQuestions/FrequentlyAskedQuestions'
+import NewHomeAwards  from "../NewHomePage/NewHomeAwards/NewHomeAwards";
+import { NewHomeBottomBar } from '../NewHomePage/NewHomeBottomBar/NewHomeBottomBar'
 
 export const NewFlight = () => {
   return (
@@ -45,10 +47,13 @@ export const NewFlight = () => {
 
         <FrequentlyAskedQuestions/>
 
+        <NewHomeAwards/>
+
         <NewHomeAppDownload/>
         <Plan/>
-        <FooterLinks/>
+        {/* <FooterLinks/> */}
         <NewHomeFooter/>
+        <NewHomeBottomBar/>
     </div>
   )
 }

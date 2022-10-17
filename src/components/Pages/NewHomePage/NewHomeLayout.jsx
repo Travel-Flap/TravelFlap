@@ -24,7 +24,7 @@ export const NewHomeLayout = () => {
     return (
         <div>
             {/* <Nav/> */}
-            {/* <NewHomeNav /> */}
+            <NewHomeNav />
             {/* <NewHomeCaruosel /> */}
 
             <ExperimentBanner/>
@@ -60,11 +60,11 @@ export const NewHomeLayout = () => {
                 <NewHomeAwards />
             </div>
 
-            {/* <NewHomeStoriesSection /> */}
+            <NewHomeStoriesSection />
 
             <Plan />
             <FooterLinks />
-            {/* <NewHomeFooterLinks/> */}
+            <NewHomeFooterLinks/>
             <NewHomeFooter />
             <NewHomeBottomBar />
 
