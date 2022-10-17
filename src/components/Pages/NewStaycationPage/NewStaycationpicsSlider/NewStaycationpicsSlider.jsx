@@ -22,7 +22,7 @@ export const NewStaycationpicsSlider = () => {
                 <div className="NewStaycationpicsSliderdealsconatinerdiv" >
                     <div className="NewStaycationpicsSliderdealsimageheading">
                         {/* <img className="NewStaycationpicsSliderdealsimagebackside" src={backsideImage} /> */}
-                        {/* <img className="NewStaycationpicsSliderdealsimagefrontside" src={frontsideImage} /> */}
+                        <img className="NewStaycationpicsSliderdealsimagefrontside" src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (1).jpg" />
                         <div className="NewStaycationpicsSliderdealsheadings">
                             <p className="NewStaycationpicsSliderheadingsboldheadings">NewStaycationpicsSlider <br /> Deals</p>
                             <p>Most Visited and Used</p>
@@ -34,8 +34,8 @@ export const NewStaycationpicsSlider = () => {
                             <Slider
                                 arrows={false}
                                 autoplay={true}
-                                speed={4000}
-                                autoplaySpeed={4000}
+                                speed={2000}
+                                autoplaySpeed={2000}
                                 dots={true}
                                 dotsclassName="slick-dots line-indicator"
                                 ref={sliderRef}
@@ -101,7 +101,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-4 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/Cruise/NewStaycationpicsSliderCruise/CruiseImage1.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (1).jpg" class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -116,7 +116,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/Cruise/NewStaycationpicsSliderCruise/CruiseImage2.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (2).jpg" class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -131,7 +131,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/Cruise/NewStaycationpicsSliderCruise/CruiseImage3.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (3).jpg" class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -146,7 +146,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/Cruise/NewStaycationpicsSliderCruise/CruiseImage4.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (4).jpg" class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -161,7 +161,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/Cruise/NewStaycationpicsSliderCruise/CruiseImage5.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (2).jpg" class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -176,7 +176,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/Cruise/NewStaycationpicsSliderCruise/CruiseImage6.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (3).jpg" class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -191,7 +191,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/Cruise/NewStaycationpicsSliderCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (1).jpg" class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -205,7 +205,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/Cruise/NewStaycationpicsSliderCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (4).jpg" class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -219,7 +219,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/Cruise/NewStaycationpicsSliderCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (3).jpg" class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -233,7 +233,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/Cruise/NewStaycationpicsSliderCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (1).jpg" class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">

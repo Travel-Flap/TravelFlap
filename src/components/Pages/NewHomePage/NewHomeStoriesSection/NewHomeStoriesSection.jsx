@@ -23,9 +23,9 @@ export const NewHomeStoriesSection = () => {
     const settings = {
         infinite: true,
         accessibility: false,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        speed: 2000,
+        // autoplay: true,
+        // autoplaySpeed: 1000,
+        // speed: 1000,
         slidesToScroll: 1,
         initialSlide: 5,
         draggable: false,
