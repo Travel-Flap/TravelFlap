@@ -64,7 +64,7 @@ export const NewHomeLayout = () => {
 
             <Plan />
             <FooterLinks />
-            {/* <NewHomeFooterLinks/> */}
+            <NewHomeFooterLinks/>
             <NewHomeFooter />
             <NewHomeBottomBar />
 

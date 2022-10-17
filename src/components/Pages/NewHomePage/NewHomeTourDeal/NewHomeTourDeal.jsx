@@ -186,7 +186,11 @@ export const NewHomeTourDeals = () => {
                                 <div onMouseLeave={cardhandleToggle} className="card-wrapper">
                                     <div className=" cardParent card newHomeToursDealsliderdiv">
                                         <div className="newHomeTourDealscardimage">
+<<<<<<< HEAD
                                             <img  src='Images/NewHomeLayout/NewHomeTourDeals/Cambodia.jpg'/>
+=======
+                                            <img  src='Images/BestBudget/Cambodia.jpg'/>
+>>>>>>> 1f5f92cd1e52f243a46271e711d93a7bb5dd2559
                                         </div>
                                         <div className={toggle ? "none" : "newHomeToursDealdetails"}>
                                             <h2>Bolivia <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
@@ -204,7 +208,11 @@ export const NewHomeTourDeals = () => {
                                 <div onMouseLeave={cardhandleToggle1} className="card-wrapper">
                                     <div className="cardParent card newHomeToursDealsliderdiv">
                                         <div className=" newHomeTourDealscardimage">
+<<<<<<< HEAD
                                             <img src='Images/NewHomeLayout/NewHomeTourDeals/Greenland.jpg' />
+=======
+                                            <img src='Images/BestBudget/Greenland.jpg' />
+>>>>>>> 1f5f92cd1e52f243a46271e711d93a7bb5dd2559
                                         </div>
                                         <div className={toggle1 ? "none" : "newHomeToursDealdetails"}>
                                             <h2>Cambodia <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
@@ -220,7 +228,11 @@ export const NewHomeTourDeals = () => {
                                 <div onMouseLeave={cardhandleToggle2} className="card-wrapper">
                                     <div className="card newHomeToursDealsliderdiv">
                                         <div className=" newHomeTourDealscardimage">
+<<<<<<< HEAD
                                             <img src='Images/NewHomeLayout/NewHomeTourDeals/Cambodge.jpg' />
+=======
+                                            <img src='Images/BestBudget/Cambodge.jpg' />
+>>>>>>> 1f5f92cd1e52f243a46271e711d93a7bb5dd2559
                                         </div>
                                         <div className={toggle2 ? "none" : "newHomeToursDealdetails"}>
                                             <h2>Bulgaria <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
@@ -236,7 +248,11 @@ export const NewHomeTourDeals = () => {
                                 <div onMouseLeave={cardhandleToggle3} className="card-wrapper">
                                     <div className="card newHomeToursDealsliderdiv">
                                         <div className=" newHomeTourDealscardimage">
+<<<<<<< HEAD
                                             <img src='Images/NewHomeLayout/NewHomeTourDeals/paris.jpg' />
+=======
+                                            <img src='Images/BestBudget/paris.jpg' />
+>>>>>>> 1f5f92cd1e52f243a46271e711d93a7bb5dd2559
                                         </div>
                                         <div className={toggle3 ? "none" : "newHomeToursDealdetails"}>
                                             <h2>Paris <span className="activityexperimentjobtitle">"Best Holiday trip Ever"
@@ -252,7 +268,11 @@ export const NewHomeTourDeals = () => {
                                 <div onMouseLeave={cardhandleToggle4} className="card-wrapper">
                                     <div className="card newHomeToursDealsliderdiv">
                                         <div className=" newHomeTourDealscardimage">
+<<<<<<< HEAD
                                             <img src='Images/NewHomeLayout/NewHomeTourDeals/Prague.jpg' />
+=======
+                                            <img src='Images/BestBudget/Prague.jpg' />
+>>>>>>> 1f5f92cd1e52f243a46271e711d93a7bb5dd2559
                                         </div>
                                         <div className={toggle4 ? "none" : "newHomeToursDealdetails"}>
                                             <h2 onClick={handleText4}>Prague <span className="activityexperimentjobtitle">"Best Holiday trip Ever"

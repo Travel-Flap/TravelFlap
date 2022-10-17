@@ -529,7 +529,7 @@
       margin-top: 30%;
     }
   }
-  @media screen and (max-width: 450px) {
+  /* @media screen and (max-width: 450px) {
     .navbar-container{
         width: 25%;
         margin: auto;
@@ -611,6 +611,6 @@
       background-color: #3380f2;
       color: white;
     }
-  }
+  } */
   
   
