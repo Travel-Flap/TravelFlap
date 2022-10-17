@@ -1,0 +1,311 @@
+.trendingcruiseoutercontainer{
+  height: 520px;
+  width: 100%;
+  margin: auto;
+  object-fit: cover;
+  background-size: cover;
+  /* border: 2px solid red; */
+}
+
+.newTrendingCruiseHeadingContainer{
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: row;
+}
+
+.trendingCruisenewhomepagelink {
+    text-decoration: none;
+    height: 430px;
+  }
+  .trendingcruisenewhomepageheading {
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    width: 30%;
+    margin-left: 7.5%;
+    margin-top: 1% !important;
+    font-weight: 700;
+    margin-bottom: 0%;
+    color: #3380f2;
+  }
+
+  .newTrendingCruiseHeadingContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: #3380f2 !important; */
+    height: 75px;
+    margin-top: 2%;
+  }
+  .newTreendingCruisecardmaindiv {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-left: 7%;
+    margin-top: -1%;
+    /* border: 2px solid b  lue; */
+  }
+  
+  .trendingCruisenewhomepagecardwrapper {
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .trendingCruisecard {
+    width: 100%;
+    height: 350px;
+    /* border: 2px solid black; */
+  }
+  
+  .trendingCruisenewhomepage_title1 {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 80%;
+    left: 13%;
+    height: 70px;
+    width: 72%;
+  }
+  
+  .trendingCruisenewhomepagecard-title{
+    color: Black !important;
+    font-size: 20px;
+    margin-top: -8%;
+    text-align: left !important;
+    font-weight: 600;
+  }
+  
+  .trendingCruisenewhomepage_title1:hover{
+    position: absolute;
+    height: 70px;
+  }
+  
+  .trendingCruisenewhomepagebottomheading {
+    top: 65%;
+    background-color: white;
+    border-radius: 12px;
+    left: 10%;
+    width: 35%;
+    height: 26px;
+  }
+  
+  .trendingCruisenewhomepagebottomheading h1{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 9px;
+  }
+  .trendingCruisenewhomepagecard_img {
+    width: 90%;
+    height: 350px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /* border: 2px solid red; */
+    cursor: pointer;
+    margin-top: 8%;
+  }
+
+  .trendingCruisenewhomepagecard_img img {
+    width: 100% !important;
+    height: 350px !important;
+    /* filter: brightness(0.8); */
+    border-radius: 10px;
+    margin: auto;
+    /* margin-top:2%; */
+  }
+  
+  .carousel .slick-dots {
+    bottom: -2.5vw;
+  }
+  
+  .carousel .slick-dots li button {
+    width: 20px;
+    height: 20px;
+    background-color: darkblue !important;
+    border-radius: 20px;
+  }
+  
+  .carousel .slick-dots li button:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    content: "";
+    text-align: center;
+    opacity: 0.5;
+    color: #000;
+    background-color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .carousel .slick-prev,
+  .carousel .slick-next {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+  }
+  
+  .carousel .slick-prev:before,
+  .carousel .slick-next:before {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .carousel .slick-next {
+    right: -55px;
+  }
+  
+  .carousel .slick-prev {
+    left: -55px;
+  }
+  
+  img {
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .trendingCruisenewhomepagecardwrapper {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .carousel .slick-dots {
+    bottom: -2.5vw;
+  }
+  
+  .carousel .slick-dots li button {
+    width: 20px;
+    height: 20px;
+    background: rgb(51, 128, 242);
+    border: 1px solid rgb(51, 128, 242);
+    border-radius: 20px;
+  }
+  
+  .carousel .slick-dots li button:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    content: "";
+    text-align: center;
+    opacity: 0.5;
+    color: #000;
+    background-color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .carousel .slick-prev,
+  .carousel .slick-next {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+  }
+  
+  .carousel .slick-prev:before,
+  .carousel .slick-next:before {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .carousel .slick-next {
+    right: -55px;
+  }
+  
+  .carousel .slick-prev {
+    left: -55px;
+  }
+  
+
+
+  /* ----------------- New button css ----------------  */
+
+
+  .newTrendingCruiseDropContainer {
+    width: 10%;
+    margin-left: 46.5%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    border-right: none;
+    height:39px;
+    border-radius: 25px;
+    /* border: 2px solid green; */
+  }
+  /* .newTrendingCruiseDropContainer:hover .domesticCruiseicondiv{
+    background-color:white;
+    color: #3380F2;
+    cursor: pointer;
+  } */
+  .domesticCruiseCountryDrop {
+    border: 3px solid red !important;
+    background-color: white !important;
+    width: 80% !important;
+    height: 39px !important;
+    color:#3380F2 !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    cursor: pointer;
+    border-radius: 25px 0px 0px 25px !important;
+    border-right: none !important;
+    appearance: none !important;
+    padding-top: 3% !important;
+    border: none !important;
+  }
+  .newTrendingCruiseDropContainer select{
+    /* border: 1px solid red !important; */
+    background-image: none !important;
+  }
+  
+  /* .domesticCruiseCountryDrop:hover {
+    background-color: white !important;
+    color: #3380F2 !important;
+    font-weight: 700;
+    border: 3px solid #3380F2 !important;
+  } */
+  .domesticCruiseicondiv{
+    width: 20%;
+    color: white;
+    /* border: 3px solid #3380F2; */
+    background-color: white;
+    height: 39px;
+    /* font-size: 18px !important; */
+    border-radius: 0px 25px 25px 0px;
+    padding-right: 5%;
+    border-left: none;
+    /* border: 2px solid yellow; */
+  }
+  .domesticCruiseicon{
+    margin-left: -37%;
+    /* width: 100% !important; */
+    color: white;
+    border: 3px solid #3380F2;
+    background-color: #3380F2;
+    height: 25px;
+    width: 25px;
+    font-size: 18px !important;
+    border-radius: 100%;
+    margin-top: 29% !important;
+    /* margin-bottom: 105%;*/
+  }
+
+  .trendingCruisecard-img-top{
+      /* border: 2px solid red; */
+      margin-top: 2%;
+      height: 200px !important;
+  }

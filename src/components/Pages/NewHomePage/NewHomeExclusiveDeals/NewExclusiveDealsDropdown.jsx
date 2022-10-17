@@ -34,7 +34,7 @@ export const NewExclusiveDealsDropdown = () => {
                     <div className='newExclusiveDealsoptionsContainer'>
                         <div className='newExclusiveDealssingledrop'>
                             <select className="form-select newExclusiveDealscountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
-                                style={{ border: "3px solid #3380f2", width: "60%" }}>
+                                style={{ border: "3px solid #3380f2", width: "60%",fontSize:"14px"}}>
                                 <option value="" style={{ textAlign: "center" }}>Select Country</option>
                                 {
                                     countrydata.map((getcountry, index) => (
@@ -46,7 +46,7 @@ export const NewExclusiveDealsDropdown = () => {
 
                         <div className='newExclusiveDealssingledrop1'>
                             <select className="form-select newExclusiveDealscountryDrop1" aria-label="Default select example"
-                                style={{width:"100%" ,border: "3px solid #3380f2" }}>
+                                style={{width:"100%" ,border: "3px solid #3380f2" ,width:"90%",fontSize:"14px"}}>
                                 <option value>All Bank Offer</option>
                                 <option value="1">Flights Offers</option>
                                 <option value="2">Hotels Offers</option>

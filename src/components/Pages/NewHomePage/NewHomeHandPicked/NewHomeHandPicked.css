@@ -1,5 +1,5 @@
 .handpickednewhomepageoutercontainer{
-  height: 550px;
+  height: 580px;
   object-fit: cover;
   background-size: cover;
   background-image: url(/public/Images/NewHomeLayout/BackgroundImages/handpickimagebg1.jpg);
@@ -22,7 +22,7 @@
     font-weight: 700 !important;
     width: 30%;
     margin-left: 5.5%;
-    margin-top: 3% !important;
+    margin-top: 2.1% !important;
     font-weight: 700;
     margin-bottom: 2%;
     color: #3380f2;
@@ -120,14 +120,15 @@
     left: 7%;
     height: 70px;
     width: 100%;
-    /* filter: brightness(1.8); */
   }
   
   .handpickednewhomepagecard-title{
     color: white;
     font-size: 20px;
     margin-top: 1%;
-    /* filter: brightness(1.8); */
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
   }
   
   .handpickednewhomepage_title1:hover{
@@ -150,7 +151,6 @@
     font-weight: 700;
     padding-top: 3px;
     padding-left: 9px;
-    object-fit: cover;
   }
   .handpickednewhomepagecard_img {
     width: 100%;
@@ -160,8 +160,6 @@
     /* border: 2px solid red; */
     cursor: pointer;
     margin-top: 8%;
-    filter: brightness(0.9);
-    object-fit: cover;
   }
 
   .handpickednewhomepagecard_img img {
@@ -293,7 +291,7 @@
 
   .newHomehandpickedDropContainer {
     width: 10%;
-    margin-left: 45%;
+    margin-left: 48.5%;
     margin-top: 2.1%;
     display: flex;
     flex-direction: row;

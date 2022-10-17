@@ -7,12 +7,12 @@
     margin: auto;
     top: 45%;
     background-color: white;
-    width:64%;
+    width:70%;
     /* border: 3px solid #3380f2 !important; */
     color: #3380f2 !important;
-    height: 245px;
+    height: 150px !important;
     /* opacity: 0.9; */
-    left: 18%;
+    left: 16%;
     border-radius: 10px;
     position: absolute !important;
     z-index: 10;
@@ -66,12 +66,12 @@
   }
   
   .newFlightsNameInput{
-    /* border: 1px solid black ; */
+    border: 1px solid #3380f2 ;
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     color: #212529;
     /* background-color: #8DBBFF; */
-    width: 100%;
+    width: 95%;
     height: 40px;
     display: flex;
     padding-left: 5px;
@@ -80,11 +80,11 @@
     flex-direction: row;
   }
   .newFlightsNameInput1{
-    /* border: 1px solid black !important;    */
+    border: 1px solid #3380f2 !important;   
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     /* background-color: #8DBBFF; */
-    width: 100%;
+    width: 95%;
     margin-left: 2%;
     margin-right: 2% !important;
     padding-left: 5px;
@@ -99,12 +99,13 @@
     /* background-color: #8DBBFF; */
     height: auto;
     margin-top: 1% !important;
-    width: 100% !important;
+    width: 90% !important;
     color: black;
     border: none !important;
     outline: none !important;
     padding-left: 4%;
-    font-size: 18px;
+    font-size: 15px;
+    border: 2px solid red;
   }
   
   .newFlightsinputNameContainer input::placeholder{
@@ -129,6 +130,7 @@
   .newFlightsCheckIn_dateContainer{
     /* border: 1px solid purple; */
     width: 20%;
+    /* margin-top: 1%; */
   }
   
   .newFlightsCheckIn_dateContainer p{
@@ -143,10 +145,10 @@
   
   .newFlightsCheckIn_dateContainer input{
     /* border-left: 1px solid black !important; */
-    /* border: 1px solid black !important; */
+    border: 1px solid #3380f2 !important;
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-top: -7%;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    margin-top: -5%;
     margin-left: 5%;
     width: 100%;
     border: none;
@@ -158,12 +160,13 @@
     /* border: none !important; */
     outline: none !important;
     padding-left: 4%;
-    font-size: 18px;
+    font-size: 15px;
   }
   
   .newFlightsCheckout_DateContainer{
     /* border-right: 1px solid orange; */
     width: 22%;
+    /* margin-top: 1%; */
     /* background-color: #8DBBFF; */
   }
 
@@ -176,10 +179,10 @@
   }
   
   .newFlightsCheckout_DateContainer input{
-    /* border: 1px solid black !important; */
+    border: 1px solid #3380f2 !important;
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-top: -7%;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    margin-top: -5%;
     width: 100%;
     border: none;
     outline: none !important;
@@ -189,7 +192,7 @@
     color: black;
     outline: none !important;
     padding-left: 4%;
-    font-size: 18px;
+    font-size: 15px;
   }
   
   .newFlightsGuest_outerDiv{
@@ -203,16 +206,17 @@
   
   #newFlightsPage_departure {
     display: flex;
-    /* border: 1px solid black !important; */
+    border: 1px solid #3380f2 !important;
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     flex-direction: row;
     width: 100%;
-    margin-top: -8% !important;
+    margin-top: -5% !important;
     /* color: #3380f2; */
     color: black;
     background-color: white !important;
     border-radius: 0px;
+    padding-left: 3%;
   }
   
   #newFlightsPage_departure h5 {
@@ -230,18 +234,18 @@
   .dropdownnewHotelPage-content {
     display: none;
     position: absolute;
-    color: #3380f2 !important;
-    background-color: white;
-    width: 400px;
+    color:white !important;
+    background-color: #3380f2;
+    width: 200px;
     height: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1000 !important;
-    margin-top: 5%;
-    border: 1px solid red !important;
+    margin-top: 4%;
+    /* border: 1px solid red !important; */
   }
   .dropdownnewHotelPage-content div:hover {
-    background-color: #3380f2 !important;
-    color: white !important;
+    background-color: white !important;
+    color: #3380f2 !important;
   }
   #newFlightsPage_departure:hover .dropdownnewHotelPage-content {
     display: block;
@@ -257,22 +261,24 @@
   .newFlightHomeGuestIcon{
     /* border: 1px solid red; */
     font-size: 24px;
-    /* margin-left: 15% !important; */
-    margin-top: 5% !important;
+    margin-left: 15% !important;
+    margin-top: 3% !important;
     background-color: white !important;
     /* background-color: #8DBBFF; */
   }
   
   .newFlight_SearchButton{
     /* border: 1px solid blue; */
-    width: 17%;
+    width: 18%;
   }
   
   .newFlight_SearchButton button{
-    margin-top: 23.5%;
+    margin-top: 18%;
     width: 90%;
     height: 45px;
-    margin-left: 3%;
+    margin-left: 7%;
+    padding-left: 25%;
+    padding-top: 7%;
   }
   
   

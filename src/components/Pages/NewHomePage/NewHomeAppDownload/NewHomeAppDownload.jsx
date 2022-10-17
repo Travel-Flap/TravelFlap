@@ -157,6 +157,7 @@ export const NewHomeAppDownload = () => {
                </div> */}
             </div>
             <div className='newhomebarcode'>
+            <p className='qrcodetext1'>Download The App Now!!!!</p>
                 <img className='qrcodeimage' src={qrcode}/>
                 <p className='qrcodetext'>Scan QR Code to get our app</p>
                 <div className='newhomeplaybuttons'>

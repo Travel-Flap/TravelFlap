@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.97b2d882.css",
-    "main.js": "/static/js/main.532e2ae6.js",
+    "main.css": "/static/css/main.9f2bdbaf.css",
+    "main.js": "/static/js/main.ad436b9c.js",
     "static/js/787.7886e5ff.chunk.js": "/static/js/787.7886e5ff.chunk.js",
     "static/media/UAE4.jpg": "/static/media/UAE4.7d17172021074cd0aa62.jpg",
     "static/media/NewHomeBanner.gif": "/static/media/NewHomeBanner.c6c45c16f081ded45159.gif",
@@ -20,6 +20,7 @@
     "static/media/reviewbg.png": "/static/media/reviewbg.32b72a62a1cf68f62eea.png",
     "static/media/frontsideImage.jpeg": "/static/media/frontsideImage.c884d203696944ede3d7.jpeg",
     "static/media/experience.png": "/static/media/experience.5ae03eb4e4e6b0135b42.png",
+    "static/media/cruiseinternationalbackground.png": "/static/media/cruiseinternationalbackground.5c34e07665e9d1b363cb.png",
     "static/media/assistance.png": "/static/media/assistance.cb8ae5daf9281a11f586.png",
     "static/media/offers.png": "/static/media/offers.2af63d2de7bf1986072c.png",
     "static/media/island.png": "/static/media/island.95c9e3f869097aa036b3.png",
@@ -41,12 +42,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.97b2d882.css.map": "/static/css/main.97b2d882.css.map",
-    "main.532e2ae6.js.map": "/static/js/main.532e2ae6.js.map",
+    "main.9f2bdbaf.css.map": "/static/css/main.9f2bdbaf.css.map",
+    "main.ad436b9c.js.map": "/static/js/main.ad436b9c.js.map",
     "787.7886e5ff.chunk.js.map": "/static/js/787.7886e5ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97b2d882.css",
-    "static/js/main.532e2ae6.js"
+    "static/css/main.9f2bdbaf.css",
+    "static/js/main.ad436b9c.js"
   ]
 }

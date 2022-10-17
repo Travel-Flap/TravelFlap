@@ -132,7 +132,7 @@ export const NewHomeCarouselForm = () => {
                         </div>
                     </div>
 
-                    <div id='newhomepagetrave' >
+                    <div id='newhomepagetrave'>
                         <div id='newhomepage_departure'>
                             <h3>Travellers <FaAngleDown className='downarrowicon' /></h3>
                             {/* <input className='newhometravellers' type="search" placeholder="5" /> */}

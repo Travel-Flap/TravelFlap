@@ -156,7 +156,8 @@ export const NewHomeFooter = () => {
                                     <p>Mobile India : +918209366227,
                                         <span className="newHomeFooterContactContentInner2span"> +917877680588</span>
                                     </p>
-                                    <p className="">Mobile USA : +19176726964 <BsWhatsapp style={{ fontSize: "26px", color: "white" }} /></p>
+                                    <p className="">Mobile USA : +19176726964</p>
+                                    {/* <p className="">Mobile USA : +19176726964 <BsWhatsapp style={{ fontSize: "26px", color: "white" }} /></p> */}
                                     <p>Mobile DXB : +971 58 597 8776</p>
                                 </div>
 

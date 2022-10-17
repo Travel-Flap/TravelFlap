@@ -1,1005 +1,1008 @@
-.all_hotel_card_div{
-    display: flex !important;
-  }
-  
-  .cardtextendbuttons{
-    /* border: 1px solid red; */
-    width: 20%;
-  }
-  
-  .cardtextnewFlightdropbutton{
-    width: 100% !important;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .cardtextnewFlightdropbutton h2{
-    color: white;
-    font-weight: 600;
-    margin-top: 2%;
-    margin-left: 7%;
-    font-size: 32px;
-  }
+.all_hotel_card_div {
+  display: flex !important;
+}
 
-  .newFlightInternationalDropContainer{
-    width: 20%;
-    margin-left: 43%;
-    margin-top: 2.1%;
-    /* border: 2px solid red; */
-  }
-  
-  .newFlightInternationalCountryDrop{
-    margin-top: 1% !important;
-    margin-left: 81%;
-    color: #3380f2 !important;
-    font-weight: 700;
-    cursor: pointer;
-    border-radius: 20px !important;
-  
-  }
-  .newFlightInternationalCountryDrop:hover{
-    background-color: #3380f2;
-    color: white !important;
-    font-weight: 700;
-    border: 2px solid white !important;
-  }
-  
-  .newFlightInternationmaindiv{
-    /* border: 1px solid red; */
-    width: 100%;
-    height: 600px !important;
-    background-color: #3380f2;
-    opacity: 0.9;
-    background-image: url(/public/Images/NewHomeLayout/BackgroundImages/HotelServicesBackground.png);
-  }
-  
-  .slick-slide{
-    width: 280px;
-  }
-  
-  .activityaroundouterdiv {
-    /* border: 2px solid red !important; */
-    height: 460px !important;
-    /* border: 2px solid lightgray; */
-    display: flex !important;
-    flex-direction: row !important;
-    width: 96%;
-    /* border: none; */
-  }
-  .bestFlightInternationHeadingcontainer {
-  
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: #3380f2;
-    height: 80px;
-    margin: auto;
-    /* margin-top: 2%; */
-    /* border: 1px solid black; */
-  }
-  
-  .activityaroundheading1 {
-    /* border: 1px solid black; */
-    font-size: 25px;
-    font-weight: 600;
-    width:30%;
-    margin: auto;
-    margin-left: 5.5% !important;
-    color: white;
-  }
-  
-  /* .viewallhomehotelcardtext{
+.cardtextendbuttons {
+  /* border: 1px solid red; */
+  width: 20%;
+}
+
+.cardtextnewHomedropbutton {
+  width: 100% !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.cardtextnewHomedropbutton h2 {
+  color: white;
+  font-weight: 600;
+  margin-top: 2%;
+  margin-left: 5.5%;
+  font-size: 35px;
+}
+
+
+
+
+.newflightsnearyoumaindiv {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 500px !important;
+  background-color: #3380f2;
+  opacity: 0.9;
+  /* background-image: url(/public/Images/NewHomeLayout/BackgroundImages/HotelServicesBackground.png); */
+}
+
+.slick-slide {
+  width: 280px;
+}
+
+.newHomeHotelServicesslidercontainer .hotelservicesslickDots {
+  bottom: -2.5vw;
+}
+
+.newHomeHotelServicesslidercontainer .hotelservicesslickDots li button {
+  width: 20px;
+  height: 20px;
+  background: white !important;
+  /* background: rgb(51, 128, 242); */
+  border: 1px solid rgb(51, 128, 242);
+  border-radius: 20px;
+}
+
+.newHomeHotelServicesslidercontainer .hotelservicesslickDots li button:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  content: "";
+  text-align: center;
+  opacity: 0.5;
+  color: white !important;
+  background-color: blue !important;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.activityaroundouterdiv {
+  /* border: 2px solid red !important; */
+  height: 460px !important;
+  /* border: 2px solid lightgray; */
+  display: flex !important;
+  flex-direction: row !important;
+  width: 96%;
+  /* border: none; */
+}
+.besthoteldealheadingcontainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #3380f2;
+  height: 80px;
+  margin: auto;
+  /* margin-top: 2%; */
+  /* border: 1px solid black; */
+}
+
+.activityaroundheading1 {
+  /* border: 1px solid black; */
+  font-size: 25px;
+  font-weight: 600;
+  width: 30%;
+  margin: auto;
+  margin-left: 5.5% !important;
+  color: white;
+}
+
+/* .viewallhomehotelcardtext{
   
   } */
-  .experimentheading2 {
-    /* border: 1px solid blue; */
-    width: 60%;
-    height: 40px;
-    justify-content: center;
-    margin: -0.5% 0 1% 1%;
-    font-size: 15px;
-    display: flex;
-    flex-direction: row;
-    /* padding: 0px 0px; */
-  }
-  .experimentheading {
-    border-radius: 50px;
-  }
-  
-  .experimentheading2 div {
-    border: 3px solid rgb(51, 128, 242);
-    width: 100px !important;
-    height: 33px;
-    font-size: 17px;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 0.5%;
-    margin-right: 4%;
-    border-radius: 25px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    color: #3380f2;
-  }
-  
-  .experimentheading2 div:hover {
-    background-color: #3380f2;
-    color: white;
-  }
-  .viewallactivityhotelcardbuttons {
-    color: white;
-    font-weight: 700;
-    /* text-decoration: underline; */
-    /* border: 1px solid red; */
-    display: flex;
-    margin: 6.5% 2% 0 5% !important;
-    width: 55% !important; 
-    margin-left: 40% !important;
-  }
-  
-  .viewallhomehotelcardtext{
-    margin-top: 0px !important;
-    border: 2px solid white;
-    border-radius: 20px;
-    height: 38px !important;
-    width: 57% !important;
-    font-size: 14px;
-    height: 30px;
-    font-weight: 700;
-    padding-left: 15px !important;
-    padding-top: 5.3px !important;
-    margin-bottom: 8%;
-    text-decoration: none !important;
-  }
-  
-  .viewallhomehotelcardtext:hover{
-    background-color: white;
-    color: #3380f2;
-    /* padding-top: 1%; */
-  }
-  .activityaroundnewFlightSlidercontainer{
-    /* border: 2px solid red; */
-    width: 90%;
-    margin: auto;
-    margin-top: -1% !important;
-  }
-  
-  .activityaroundcardtitle {
-    color: #3380f2 !important;
-    font-size: 22px;
-    margin-top: 1%;
-  }
-  
-  .activityaroundcard_desc {
-    /* border: 1px solid red; */
-    width: 90%;
-    color: #3380f2;
-    font-size: 13px;
-    text-align: left;
-  }
-  
-  .activityaroundimagetextcontainer {
-    width: 100%;
-    height: 440px !important;
-  }
-  
-  .activityaroundtextcard {
-    margin-left: 9% !important;
-    width: 100% !important;
-  }
-  /* 
+
+.newHomeHotelDotsdiv .slick-dots {
+  bottom: -2.5vw;
+  /* border: 1px solid red !important; */
+  margin-top: 1% !important;
+}
+
+.newHomeHotelDotsdiv .slick-dots li  {
+  /* border: 1px solid red !important; */
+  bottom: 2%;;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: white !important;
+}
+
+.newHomeHotelDotsdiv .slick-dots li button:active{
+  background-color: blue !important;
+}
+
+.newHomeHotelDotsdiv .slick-dots li:before {
+
+  position: absolute;
+  font-size: 20px;
+  top: 60%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 210px;
+  content: ".";
+  text-align: center;
+  opacity: 0.5;
+  /* color: #000; */
+  background-color: white !important;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.experimentheading2 {
+  /* border: 1px solid blue; */
+  width: 60%;
+  height: 40px;
+  justify-content: center;
+  margin: -0.5% 0 1% 1%;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  /* padding: 0px 0px; */
+}
+.experimentheading {
+  border-radius: 50px;
+}
+
+.experimentheading2 div {
+  border: 3px solid rgb(51, 128, 242);
+  width: 100px !important;
+  height: 33px;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0.5%;
+  margin-right: 4%;
+  border-radius: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #3380f2;
+}
+
+.experimentheading2 div:hover {
+  background-color: #3380f2;
+  color: white;
+}
+.viewallactivityhotelcardbuttons {
+  color: white;
+  font-weight: 700;
+  /* text-decoration: underline; */
+  /* border: 1px solid red; */
+  display: flex;
+  margin: 6.5% 2% 0 5% !important;
+  width: 55% !important;
+  margin-left: 40% !important;
+}
+
+.viewallhomehotelcardtext {
+  margin-top: 0px !important;
+  border: 2px solid white;
+  border-radius: 20px;
+  height: 38px !important;
+  width: 57% !important;
+  font-size: 14px;
+  height: 30px;
+  font-weight: 700;
+  padding-left: 15px !important;
+  padding-top: 5.3px !important;
+  margin-bottom: 8%;
+  text-decoration: none !important;
+}
+
+.viewallhomehotelcardtext:hover {
+  background-color: white;
+  color: #3380f2;
+  /* padding-top: 1%; */
+}
+.newHomeHotelServicesslidercontainer {
+  /* border: 2px solid red; */
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.activityaroundcardtitle {
+  color: #3380f2 !important;
+  font-size: 22px;
+  margin-top: 1%;
+}
+
+.activityaroundcard_desc {
+  /* border: 1px solid red; */
+  width: 90%;
+  color: #3380f2;
+  font-size: 13px;
+  text-align: left;
+}
+
+.activityaroundimagetextcontainer {
+  width: 100%;
+  height: 440px !important;
+}
+
+.activityaroundtextcard {
+  margin-left: 9% !important;
+  width: 100% !important;
+}
+/* 
     .activityaroundtextcard:hover{
       color: white;
       background-color: #3380F2;
     } */
-  
-  .activityaroundtextcard:hover div {
-    color: white;
+
+.activityaroundtextcard:hover div {
+  color: white;
+}
+
+.exclusivedealsimagediv {
+  /* border: 2px solid red !important; */
+  width: 800px;
+  height: 200px !important;
+}
+.exclusivedealsimage {
+  /* border: 1px solid black !important; */
+  width: 700px;
+  height: 10px;
+  margin-left: 40%;
+}
+
+.activityaroundcardimage {
+  /* border: 1px solid red !important; */
+  /* height: 300px; */
+  border: none;
+  width: 100% !important;
+}
+
+.activityaroundcarddescmain {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-left: -9%;
+}
+
+.exclusivecarddesc:hover {
+  color: white;
+}
+
+.activityaroundheadingbuttons {
+  /* border: 1px solid yellow !important; */
+  justify-content: flex-end;
+  /* width: -1%; */
+  margin-left: 6%;
+  margin-top: -2%;
+}
+
+.line-indicator li {
+  /* border: 2px solid; */
+  height: 4px;
+  width: 70px;
+  background: lightgray;
+  border-radius: 5px;
+}
+
+.line-indicator li:hover {
+  background: gray;
+}
+
+.line-indicator li.slick-active {
+  background: blue;
+}
+.buttons {
+  /* background: orangered !important; */
+  background: rgb(51, 128, 242) !important;
+  color: white !important;
+  transition: 700ms;
+  border: 3px solid red;
+}
+.buttons:hover {
+  /* background: white !important; */
+  /* color: orangered !important; */
+  transform: scale(1.1);
+}
+.activityaroundbutton {
+  border: 3px solid #3380f2;
+  width: 34%;
+  border-radius: 15px !important;
+  background-color: white;
+  color: #3380f2;
+  padding: 4px 12px;
+  font-weight: 500;
+  margin-bottom: 1%;
+  margin-top: 4%;
+  font-size: 15px !important;
+}
+.activityaroundbutton:hover {
+  border: 3px solid white;
+  background-color: #3380f2;
+  color: white;
+  font-size: 14px !important;
+}
+
+@media screen and (max-width: 950px) {
+  .activityaroundimagetextcontainer {
+    flex-direction: column;
   }
-  
-  .exclusivedealsimagediv {
-    /* border: 2px solid red !important; */
-    width: 800px;
-    height: 200px !important;
+  .col-md-4 {
+    width: 90%;
+    height: 280px;
+    margin-left: 3%;
+    margin-top: 10%;
   }
-  .exclusivedealsimage {
-    /* border: 1px solid black !important; */
-    width: 700px;
-    height: 10px;
-    margin-left: 40%;
-  }
-  
-  .activityaroundcardimage {
-    /* border: 1px solid red !important; */
-    /* height: 300px; */
-    border: none;
-    width: 100% !important;
-  }
-  
-  .activityaroundcarddescmain {
-    /* border: 1px solid red; */
-    width: 100%;
-    margin-left: -9%;
-  }
-  
-  .exclusivecarddesc:hover {
-    color: white;
-  }
-  
-  /* .experimentheading2 div:hover{
-      color: white;
-      background-color: #3380F2;
-    } */
-  
-  /* .experimentheading2 p{
-      width: 300px;
-      color: #3380F2;
-      font-weight: 500;
-    } */
-  .activityaroundheadingbuttons {
-    /* border: 1px solid yellow !important; */
-    justify-content: flex-end;
-    /* width: -1%; */
-    margin-left: 6%;
-    margin-top: -2%;
-  }
-  
-  .line-indicator li {
-    /* border: 2px solid; */
-    height: 4px;
-    width: 70px;
-    background: lightgray;
-    border-radius: 5px;
-  }
-  
-  .line-indicator li:hover {
-    background: gray;
-  }
-  
-  .line-indicator li.slick-active {
-    background: blue;
-  }
-  .buttons {
-    /* background: orangered !important; */
-    background: rgb(51, 128, 242) !important;
-    color: white !important;
-    transition: 700ms;
-    border: 3px solid red;
-  }
-  .buttons:hover {
-    /* background: white !important; */
-    /* color: orangered !important; */
-    transform: scale(1.1);
-  }
-  .activityaroundbutton {
-    border: 3px solid #3380f2;
-    width: 34%;
-    border-radius: 15px !important;
-    background-color: white;
-    color: #3380f2;
-    padding: 4px 12px;
-    font-weight: 500;
-    margin-bottom: 1%;
-    margin-top: 4%;
-    font-size: 15px !important;
-  }
-  .activityaroundbutton:hover {
-    border: 3px solid white;
-    background-color: #3380f2;
-    color: white;
-    font-size: 14px !important;
-  }
-  /* .carousel-control-prev{
-        border: 1px solid red;
-    
-    } */
-  
-  /* .main_container{
-        border: 1px solid red;
-        height: 500px;
-    }
-    
-    .line-indicator li {
-        height: 4px;
-        width: 70px;
-        background: lightgray;
-        border-radius: 5px;
-      }
-      
-      .line-indicator li:hover {
-        background: gray;
-      }
-      
-      .line-indicator li.slick-active {
-        background: blue;
-      }
-      .buttons {
-        background: orangered !important;
-        color: white !important;
-        transition: 700ms;
-      }
-      .buttons:hover {
-        transform: scale(1.1);
-      } */
-  
-  /* .partners_title{
-        font-size: 35px;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin-top: 10%;
-      margin-bottom: 4%;
-      text-decoration: none solid rgb(154, 148, 148);
-      vertical-align: baseline;
-      letter-spacing: normal;
-      text-align: center;
-      color: #3380f2;
-    }
-    
-    ._carouseldiv1{
-       position: relative;
-    }
-    ._imagediv{
-        height:100%;
-        width:100%;
-    }
-    .slick-slide > div {
-      margin: 0 10px;
-    }
-    .slick-list {
-      margin: 0 -10px;
-    }
-    ._hoverdiv{
-        border:1px solid green;
-        position: absolute;
-        top:0px;
-        width:100%;
-        height:85%;
-        background-color: yellow;
-        visibility: hidden;
-    }
-    ._carouseldiv1 > div:hover{
-        visibility: visible;
-    }
-    ._staticdiv{
-        border:1px solid darkblue;
-        position: absolute;
-        bottom:0px;
-        width:100%;
-        height:14.3%;
-        background-color:#203e50; 
-        text-align: center;
-        box-sizing: border-box;
-        font-size: larger;
-        padding-top: 4%;
-    }
-    
-       */
-  
-  @media screen and (max-width: 950px) {
-    .activityaroundimagetextcontainer {
-      flex-direction: column;
-    }
-    .col-md-4 {
-      width: 90%;
-      height: 280px;
-      margin-left: 3%;
-      margin-top: 10%;
-    }
-    .card-title {
-      font-size: 17px;
-    }
-    .card-text {
-      font-size: 13px;
-    }
-    .viewallactivityhotelcardbuttons {
-      display: none;
-    }
-    .activityaroundheading1 {
-      display: none;
-    }
-    .bestFlightInternationHeadingcontainer {
-      flex-direction: column;
-    }
-    .experimentheading2 {
-      width: 100%;
-    }
-    .activityaroundimagetextcontainer img {
-      width: 100%;
-      height: 100%;
-    }
-    .exclusivedealsimage {
-      width: 100%;
-      height: 100%;
-    }
-    .activityaroundtextcard {
-      margin-left: 8px;
-    }
-  }
-  
-  @media screen and (max-width: 450px) {
-    .activityaroundimagetextcontainer {
-      flex-direction: column;
-    }
-    .col-md-4 {
-      width: 90%;
-      height: 280px;
-      margin-left: 3%;
-      margin-top: 5%;
-    }
-    .card-title {
-      font-size: 17px;
-    }
-    .card-text {
-      font-size: 13px;
-    }
-    .viewallactivityhotelcardbuttons {
-      display: inline-block;
-      vertical-align: top;
-      margin-top: -50px;
-      text-align: right;
-      width: 40%;
-      font-size: 14px;
-      margin-left: 52%;
-    }
-    .experimentheading2 {
-      display: none;
-    }
-    .activityaroundheadingbuttons {
-      display: none;
-    }
-    .activityaroundheading1 {
-      display: inline-block;
-      vertical-align: top;
-      width: 40%;
-      font-size: 16px;
-      margin-left: 3%;
-    }
-    .bestFlightInternationHeadingcontainer {
-      flex-direction: column;
-    }
-    .activityaroundimagetextcontainer img {
-      width: 100%;
-      height: 100%;
-    }
-    .exclusivedealsimage {
-      width: 100%;
-      height: 100%;
-    }
-    .activityaroundtextcard {
-      margin-left: 8px;
-    }
-  }
-  
-  
-  
-  .newFlightInternationmaindiv{
-    /* border: 1px solid red; */
-    width: 100%;
-  }
-  
-  .activityaroundouterdiv {
-    /* border: 2px solid red !important; */
-    height: 460px !important;
-    /* border: 2px solid lightgray; */
-    display: flex !important;
-    flex-direction: row !important;
-    width: 96%;
-    /* border: none; */
-  }
-  .bestFlightInternationHeadingcontainer {
-  
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: #3380f2;
-    height: 80px;
-    margin: auto;
-    /* margin-top: 2%; */
-    /* border: 1px solid black; */
-  }
-  
-  .activityaroundheading1 {
-    /* border: 1px solid black; */
-    font-size: 25px;
-    font-weight: 600;
-    width:30%;
-    margin: auto;
-    margin-left: 5.5% !important;
-    color: white;
-  }
-  
-  /* .viewallhomehotelcardtext{
-  
-  } */
-  .experimentheading2 {
-    /* border: 1px solid blue; */
-    width: 60%;
-    height: 40px;
-    justify-content: center;
-    margin: -0.5% 0 1% 1%;
-    font-size: 15px;
-    display: flex;
-    flex-direction: row;
-    /* padding: 0px 0px; */
-  }
-  .experimentheading {
-    border-radius: 50px;
-  }
-  
-  .experimentheading2 div {
-    border: 3px solid rgb(51, 128, 242);
-    width: 100px !important;
-    height: 33px;
+  .card-title {
     font-size: 17px;
-    font-weight: 500;
-    text-align: center;
-    margin-top: 0.5%;
-    margin-right: 4%;
-    border-radius: 25px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    color: #3380f2;
   }
-  
-  .experimentheading2 div:hover {
-    background-color: #3380f2;
-    color: white;
+  .card-text {
+    font-size: 13px;
   }
   .viewallactivityhotelcardbuttons {
-    color: white;
-    font-weight: 700;
-    /* text-decoration: underline; */
-    /* border: 1px solid red; */
-    display: flex;
-    margin: 47.5% 2% 0 5%;
-    width: 65%;
-    margin-left: 70% !important;
+    display: none;
   }
-  
-  .viewallhomehotelcardtext{
-    margin-top: 0.5%;
-    border: 2px solid white;
-    border-radius: 20px;
-    width: 38%;
-    font-size: 14px;
-    font-weight: 700;
-    padding-left: 6px;
-    padding-top: 2.3px;
-    margin-bottom: 9%;
-    text-decoration: none !important;
+  .activityaroundheading1 {
+    display: none;
   }
-  
-  .viewallhomehotelcardtext:hover{
-    background-color: white;
-    color: #3380f2;
-    padding-top: 1%;
+  .besthoteldealheadingcontainer {
+    flex-direction: column;
   }
-  .activityaroundnewFlightSlidercontainer{
-    /* border: 2px solid red; */
-    width: 90%;
-    margin: auto;
-    margin-top: 2%;
-    /* background-color: #3380f2; */
-  }
-  
-  .activityaroundcardtitle {
-    color: #3380f2 !important;
-    font-size: 22px;
-    margin-top: 1%;
-  }
-  
-  .activityaroundcard_desc {
-    /* border: 1px solid red; */
-    width: 90%;
-    color: #3380f2;
-    font-size: 13px;
-    text-align: left;
-  }
-  
-  .activityaroundimagetextcontainer {
+  .experimentheading2 {
     width: 100%;
-    height: 440px !important;
   }
-  
-  .activityaroundtextcard {
-    margin-left: 9% !important;
-    width: 100% !important;
-  }
-  /* 
-    .activityaroundtextcard:hover{
-      color: white;
-      background-color: #3380F2;
-    } */
-  
-  .activityaroundtextcard:hover div {
-    color: white;
-  }
-  
-  .exclusivedealsimagediv {
-    /* border: 2px solid red !important; */
-    width: 800px;
-    height: 200px !important;
+  .activityaroundimagetextcontainer img {
+    width: 100%;
+    height: 100%;
   }
   .exclusivedealsimage {
-    /* border: 1px solid black !important; */
-    width: 700px;
-    height: 10px;
-    margin-left: 40%;
-  }
-  
-  .activityaroundcardimage {
-    /* border: 1px solid red !important; */
-    /* height: 300px; */
-    border: none;
-    width: 100% !important;
-  }
-  
-  .activityaroundcarddescmain {
-    /* border: 1px solid red; */
     width: 100%;
-    margin-left: -9%;
+    height: 100%;
   }
-  
-  .exclusivecarddesc:hover {
-    color: white;
+  .activityaroundtextcard {
+    margin-left: 8px;
   }
-  
-  /* .experimentheading2 div:hover{
-      color: white;
-      background-color: #3380F2;
-    } */
-  
-  /* .experimentheading2 p{
-      width: 300px;
-      color: #3380F2;
-      font-weight: 500;
-    } */
+}
+
+@media screen and (max-width: 450px) {
+  .activityaroundimagetextcontainer {
+    flex-direction: column;
+  }
+  .col-md-4 {
+    width: 90%;
+    height: 280px;
+    margin-left: 3%;
+    margin-top: 5%;
+  }
+  .card-title {
+    font-size: 17px;
+  }
+  .card-text {
+    font-size: 13px;
+  }
+  .viewallactivityhotelcardbuttons {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -50px;
+    text-align: right;
+    width: 40%;
+    font-size: 14px;
+    margin-left: 52%;
+  }
+  .experimentheading2 {
+    display: none;
+  }
   .activityaroundheadingbuttons {
-    /* border: 1px solid yellow !important; */
-    justify-content: flex-end;
-    /* width: -1%; */
-    margin-left: 6%;
-    margin-top: -2%;
+    display: none;
   }
-  
-  .line-indicator li {
-    /* border: 2px solid; */
-    height: 4px;
-    width: 70px;
-    background: lightgray;
-    border-radius: 5px;
-  }
-  
-  .line-indicator li:hover {
-    background: gray;
-  }
-  
-  .line-indicator li.slick-active {
-    background: blue;
-  }
-  .buttons {
-    /* background: orangered !important; */
-    background: rgb(51, 128, 242) !important;
-    color: white !important;
-    transition: 700ms;
-    border: 3px solid red;
-  }
-  .buttons:hover {
-    /* background: white !important; */
-    /* color: orangered !important; */
-    transform: scale(1.1);
-  }
-  .activityaroundbutton {
-    border: 3px solid #3380f2;
-    width: 34%;
-    border-radius: 15px !important;
-    background-color: white;
-    color: #3380f2;
-    padding: 4px 12px;
-    font-weight: 500;
-    margin-bottom: 1%;
-    margin-top: 4%;
-    font-size: 15px !important;
-  }
-  .activityaroundbutton:hover {
-    border: 3px solid white;
-    background-color: #3380f2;
-    color: white;
-    font-size: 14px !important;
-  }
-
-  
-  @media screen and (max-width: 950px) {
-    .activityaroundimagetextcontainer {
-      flex-direction: column;
-    }
-    .col-md-4 {
-      width: 90%;
-      height: 280px;
-      margin-left: 3%;
-      margin-top: 10%;
-    }
-    .card-title {
-      font-size: 17px;
-    }
-    .card-text {
-      font-size: 13px;
-    }
-    .viewallactivityhotelcardbuttons {
-      display: none;
-    }
-    .activityaroundheading1 {
-      display: none;
-    }
-    .bestFlightInternationHeadingcontainer {
-      flex-direction: column;
-    }
-    .experimentheading2 {
-      width: 100%;
-    }
-    .activityaroundimagetextcontainer img {
-      width: 100%;
-      height: 100%;
-    }
-    .exclusivedealsimage {
-      width: 100%;
-      height: 100%;
-    }
-    .activityaroundtextcard {
-      margin-left: 8px;
-    }
-  }
-  
-  @media screen and (max-width: 450px) {
-    .activityaroundimagetextcontainer {
-      flex-direction: column;
-    }
-    .col-md-4 {
-      width: 90%;
-      height: 280px;
-      margin-left: 3%;
-      margin-top: 5%;
-    }
-    .card-title {
-      font-size: 17px;
-    }
-    .card-text {
-      font-size: 13px;
-    }
-    .viewallactivityhotelcardbuttons {
-      display: inline-block;
-      vertical-align: top;
-      margin-top: -50px;
-      text-align: right;
-      width: 40%;
-      font-size: 14px;
-      margin-left: 52%;
-    }
-    .experimentheading2 {
-      display: none;
-    }
-    .activityaroundheadingbuttons {
-      display: none;
-    }
-    .activityaroundheading1 {
-      display: inline-block;
-      vertical-align: top;
-      width: 40%;
-      font-size: 16px;
-      margin-left: 3%;
-    }
-    .bestFlightInternationHeadingcontainer {
-      flex-direction: column;
-    }
-    .activityaroundimagetextcontainer img {
-      width: 100%;
-      height: 100%;
-    }
-    .exclusivedealsimage {
-      width: 100%;
-      height: 100%;
-    }
-    .activityaroundtextcard {
-      margin-left: 8px;
-    }
-  }
-  
-  
-  
-  /* This css is for the card reference taken from the hotels page */
-  .hotelroomfilterdrop{
-    /* border: 2px solid red; */
-    display: flex;
-    margin-top: 1.2%;
-    margin-left: 5%;
-  }
-  
-  .hotelroomfilterdrop h5{
-    margin-top: 2%;
-    color: white;
-    font-size: 19px;
-    font-weight: 700;
-  }
-  
-  .hoteltop-heading {
-    /* border: 1px solid red; */
-    /* margin-bottom: 0.5%; */
-    margin-top: 3.5%;
-    margin-right: 55%;
-    text-align: left !important;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 43.2px;
-    color: white;
-    width: 100%;
-    /* color: rgb(51, 128, 242); */
-  }
-  .hotelhomecardtextheading {
-    /* border: 2px solid red !important; */
-    /* background-color: red; */
-    width: 26% !important;
-    margin-left: 24%;
-    text-align: left;
-  }
-  .home_hotelmaincard{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 88%;
-    margin: auto;
-  }
-  .hotelmaincardouter{
-   /* border: 2px solid red; */
-    width: 100%;
-    /* height: 400px; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 30px;
-  }
-  .cardtextnewFlightInternational_maindiv{
-    /* border: 2px solid red; */
-    border: 2px solid lightgray;
-    width: 18.5%;
-    height: 360px;
-    position: relative;
-    background-color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 10px;
-    margin-top: 15%;
-   
-  }
-  .cardtextnewFlightInternational_maindiv:hover{
-    transform: scale(1.01);
-    cursor: pointer;
-    height: 365px;
-    transition: 0.3s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  }
-  
-  
-  
-   .reviewratingsection{
-    background-color: white ;
-    width: 150px;
-    height: 50px;
-    /* border: 1px solid red; */
-    font-size: 12px;
-    top: 25px;
-    right: 25px;
-    display: flex;
-    position: absolute;
-    /* color: rgb(244, 244, 249); */
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 3px;
-  
-    z-index: 10;
-  }
-  .cardtextnewFlightInternational_maindiv>img{
-    width: 100%;
-    height: 250px;
-    border-radius: 10px 10px 0px 0px;
-    
-  }
-  .cardInternationalFlight_title{
-    /* border: 1px solid red; */
-    color: #3380f2;
-    width: 90%;
-    height: 50px;
-    margin-top: 3%;
-    font-size: 15px;
-    font-weight: 700;
+  .activityaroundheading1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    font-size: 16px;
     margin-left: 3%;
   }
-  .InternationalFlightstitle_rating{
-    color: #3380f2;
-  }
-
-  .staricon{
-    margin-left: 2%;
-  }
-  
-  .internationalFlightsratesdiv{
-    border: 1px solid #3380f2;
-    width: 30%;
-    background-color: #3380f2;
-    margin-left: 3%;
-    height: 40px;
-    border-radius: 7px;
-  }
-
-  .internationalFlightsratesdiv p{
-    color: white;
-    font-weight: 700;
-    font-size: 13px;
-    padding-top: 8px;
-    padding-left: 7px;
-  }
-
-  .hoteldicsountprice{
-    width: 90%;
-    /* border: 1px solid red; */
-    display: flex;
+  .besthoteldealheadingcontainer {
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
   }
-  .review_rating_num{
-    color: white;
-    margin-left: -40px;
-    margin-right: 20px;
-    margin-top: -6px;
+  .activityaroundimagetextcontainer img {
+    width: 100%;
+    height: 100%;
   }
-  .hoteldiscountpercent{
-     border: 2px solid #3380F2;
-     border-radius:5px ;
-     color: #3380F2;
-     font-size: 12px;
-    padding-left: 5px;
-    padding-right: 5px;
+  .exclusivedealsimage {
+    width: 100%;
+    height: 100%;
   }
-  .hotelPricebeforediscount{
-    text-decoration: line-through;
+  .activityaroundtextcard {
+    margin-left: 8px;
+  }
+}
+
+.newflightsnearyoumaindiv {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.activityaroundouterdiv {
+  /* border: 2px solid red !important; */
+  height: 460px !important;
+  /* border: 2px solid lightgray; */
+  display: flex !important;
+  flex-direction: row !important;
+  width: 96%;
+  /* border: none; */
+}
+.besthoteldealheadingcontainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #3380f2;
+  height: 80px;
+  margin: auto;
+  /* margin-top: 2%; */
+  /* border: 1px solid black; */
+}
+
+.activityaroundheading1 {
+  /* border: 1px solid black; */
+  font-size: 25px;
+  font-weight: 600;
+  width: 30%;
+  margin: auto;
+  margin-left: 5.5% !important;
+  color: white;
+}
+
+/* .viewallhomehotelcardtext{
+  
+  } */
+.experimentheading2 {
+  /* border: 1px solid blue; */
+  width: 60%;
+  height: 40px;
+  justify-content: center;
+  margin: -0.5% 0 1% 1%;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  /* padding: 0px 0px; */
+}
+.experimentheading {
+  border-radius: 50px;
+}
+
+.experimentheading2 div {
+  border: 3px solid rgb(51, 128, 242);
+  width: 100px !important;
+  height: 33px;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0.5%;
+  margin-right: 4%;
+  border-radius: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #3380f2;
+}
+
+.experimentheading2 div:hover {
+  background-color: #3380f2;
+  color: white;
+}
+.viewallactivityhotelcardbuttons {
+  color: white;
+  font-weight: 700;
+  /* text-decoration: underline; */
+  /* border: 1px solid red; */
+  display: flex;
+  margin: 47.5% 2% 0 5%;
+  width: 65%;
+  margin-left: 70% !important;
+}
+
+.viewallhomehotelcardtext {
+  margin-top: 0.5%;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 38%;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 6px;
+  padding-top: 2.3px;
+  margin-bottom: 9%;
+  text-decoration: none !important;
+}
+
+.viewallhomehotelcardtext:hover {
+  background-color: white;
+  color: #3380f2;
+  padding-top: 1%;
+}
+.newHomeHotelServicesslidercontainer {
+  /* border: 2px solid red; */
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+  /* background-color: #3380f2; */
+}
+
+.activityaroundcardtitle {
+  color: #3380f2 !important;
+  font-size: 22px;
+  margin-top: 1%;
+}
+
+.activityaroundcard_desc {
+  /* border: 1px solid red; */
+  width: 90%;
+  color: #3380f2;
+  font-size: 13px;
+  text-align: left;
+}
+
+.activityaroundimagetextcontainer {
+  width: 100%;
+  height: 440px !important;
+}
+
+.activityaroundtextcard {
+  margin-left: 9% !important;
+  width: 100% !important;
+}
+
+.activityaroundtextcard:hover div {
+  color: white;
+}
+
+.exclusivedealsimagediv {
+  /* border: 2px solid red !important; */
+  width: 800px;
+  height: 200px !important;
+}
+.exclusivedealsimage {
+  /* border: 1px solid black !important; */
+  width: 700px;
+  height: 10px;
+  margin-left: 40%;
+}
+
+.activityaroundcardimage {
+  /* border: 1px solid red !important; */
+  /* height: 300px; */
+  border: none;
+  width: 100% !important;
+}
+
+.activityaroundcarddescmain {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-left: -9%;
+}
+
+.exclusivecarddesc:hover {
+  color: white;
+}
+
+.activityaroundheadingbuttons {
+  /* border: 1px solid yellow !important; */
+  justify-content: flex-end;
+  /* width: -1%; */
+  margin-left: 6%;
+  margin-top: -2%;
+}
+
+.line-indicator li {
+  /* border: 2px solid; */
+  height: 4px;
+  width: 70px;
+  background: lightgray;
+  border-radius: 5px;
+}
+
+.line-indicator li:hover {
+  background: gray;
+}
+
+.line-indicator li.slick-active {
+  background: blue;
+}
+.buttons {
+  /* background: orangered !important; */
+  background: rgb(51, 128, 242) !important;
+  color: white !important;
+  transition: 700ms;
+  border: 3px solid red;
+}
+.buttons:hover {
+  /* background: white !important; */
+  /* color: orangered !important; */
+  transform: scale(1.1);
+}
+.activityaroundbutton {
+  border: 3px solid #3380f2;
+  width: 34%;
+  border-radius: 15px !important;
+  background-color: white;
+  color: #3380f2;
+  padding: 4px 12px;
+  font-weight: 500;
+  margin-bottom: 1%;
+  margin-top: 4%;
+  font-size: 15px !important;
+}
+.activityaroundbutton:hover {
+  border: 3px solid white;
+  background-color: #3380f2;
+  color: white;
+  font-size: 14px !important;
+}
+
+@media screen and (max-width: 950px) {
+  .activityaroundimagetextcontainer {
+    flex-direction: column;
+  }
+  .col-md-4 {
+    width: 90%;
+    height: 280px;
+    margin-left: 3%;
+    margin-top: 10%;
+  }
+  .card-title {
+    font-size: 17px;
+  }
+  .card-text {
     font-size: 13px;
   }
-  .hotel_Priceafterdiscount{
-   color: #3380F2;
-   font-weight: bold;
-   font-size: 13px;
+  .viewallactivityhotelcardbuttons {
+    display: none;
   }
-  .Favouite_hotels{
-    color: #3380F2;
-    margin-left:38%;
-    font-weight: 700;
-  }  
-  
-  .reviwe{
-    background-color: white;
-    width: 150px;
-    height: 50px;
-    /* border: 1px solid red; */
-    font-size: 12px;
-    display: flex;
-    /* color: rgb(244, 244, 249); */
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 3px;
-    margin-top: 10px;
-    margin-bottom: -82px;
-    margin-right: -60px;
-    z-index: 10;
+  .activityaroundheading1 {
+    display: none;
   }
-  
-  .reviwe_rating_num{
-    color: white;
-    margin-left: -40px;
-    margin-right: 20px;
-    margin-top: -6px;
+  .besthoteldealheadingcontainer {
+    flex-direction: column;
   }
+  .experimentheading2 {
+    width: 100%;
+  }
+  .activityaroundimagetextcontainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .exclusivedealsimage {
+    width: 100%;
+    height: 100%;
+  }
+  .activityaroundtextcard {
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .activityaroundimagetextcontainer {
+    flex-direction: column;
+  }
+  .col-md-4 {
+    width: 90%;
+    height: 280px;
+    margin-left: 3%;
+    margin-top: 5%;
+  }
+  .card-title {
+    font-size: 17px;
+  }
+  .card-text {
+    font-size: 13px;
+  }
+  .viewallactivityhotelcardbuttons {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -50px;
+    text-align: right;
+    width: 40%;
+    font-size: 14px;
+    margin-left: 52%;
+  }
+  .experimentheading2 {
+    display: none;
+  }
+  .activityaroundheadingbuttons {
+    display: none;
+  }
+  .activityaroundheading1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    font-size: 16px;
+    margin-left: 3%;
+  }
+  .besthoteldealheadingcontainer {
+    flex-direction: column;
+  }
+  .activityaroundimagetextcontainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .exclusivedealsimage {
+    width: 100%;
+    height: 100%;
+  }
+  .activityaroundtextcard {
+    margin-left: 8px;
+  }
+}
+
+/* This css is for the card reference taken from the hotels page */
+.hotelroomfilterdrop {
+  /* border: 2px solid red; */
+  display: flex;
+  margin-top: 1.2%;
+  margin-left: 5%;
+}
+
+.hotelroomfilterdrop h5 {
+  margin-top: 2%;
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.hoteltop-heading {
+  /* border: 1px solid red; */
+  /* margin-bottom: 0.5%; */
+  margin-top: 3.5%;
+  margin-right: 55%;
+  text-align: left !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 43.2px;
+  color: white;
+  width: 100%;
+  /* color: rgb(51, 128, 242); */
+}
+.hotelhomecardtextheading {
+  /* border: 2px solid red !important; */
+  /* background-color: red; */
+  width: 26% !important;
+  margin-left: 24%;
+  text-align: left;
+}
+.home_hotelmaincard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 88%;
+  margin: auto;
+}
+.hotelmaincardouter {
+  /* border: 2px solid red; */
+  width: 100%;
+  /* height: 400px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.cardtexthotelservices_maindiv {
+  /* border: 2px solid red; */
+  border: 2px solid lightgray;
+  width: 18.5%;
+  height: 360px;
+  position: relative;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  /* margin-top: 15%; */
+}
+.cardtexthotelservices_maindiv:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+  height: 365px;
+  transition: 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.reviewratingsection {
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  /* border: 1px solid red; */
+  font-size: 12px;
+  top: 25px;
+  right: 10px !important;
+  display: flex;
+  position: absolute;
+  /* color: rgb(244, 244, 249); */
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 3px;
+
+  z-index: 10;
+}
+.cardtexthotelservices_maindiv > img {
+  width: 100%;
+  height: 350px;
+  margin-top: 1%;
+  border-radius: 10px 10px 10px 10px;
+}
+.cardhotelservices_title {
+  /* border: 1px solid red; */
+  color: white !important;
+  width: 90%;
+  height: 50px;
+  margin-top: 3%;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 3%;
+}
+.hoteltitle_rating {
+  color: white;
+}
+
+.staricon {
+  margin-left: 2%;
+}
+
+.hotelservicesratesdiv {
+  border: 1px solid #3380f2;
+  width: 30%;
+  background-color: white;
+  margin-left: 3%;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.hotelservicesratesdiv p {
+  color: #3380f2;
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 8px;
+  padding-left: 7px;
+}
+
+.hoteldicsountprice {
+  width: 90%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.review_rating_num {
+  color: white;
+  margin-left: -40px;
+  margin-right: 20px;
+  margin-top: -6px;
+}
+.hoteldiscountpercent {
+  border: 2px solid #3380f2;
+  border-radius: 5px;
+  color: #3380f2;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.hotelPricebeforediscount {
+  text-decoration: line-through;
+  font-size: 13px;
+}
+.hotel_Priceafterdiscount {
+  color: #3380f2;
+  font-weight: bold;
+  font-size: 13px;
+}
+.Favouite_hotels {
+  color: #3380f2;
+  margin-left: 38%;
+  font-weight: 700;
+}
+
+.reviwe {
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  /* border: 1px solid red; */
+  font-size: 12px;
+  display: flex;
+  /* color: rgb(244, 244, 249); */
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: -82px;
+  margin-right: -60px;
+  z-index: 10;
+}
+
+.reviwe_rating_num {
+  color: white;
+  margin-left: -40px;
+  margin-right: 20px;
+  margin-top: -6px;
+}
+
+.hotelservicesdetails {
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 310px;
+  z-index: 100000000;
+  padding: 10px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+/* ----------------- New button css ----------------  */
+
+
+.newHomeHotelServicesDropContainer {
+  width: 10%;
+  margin-left: 63%;
+  margin-top:2%;
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+  height: 45px;
+  /* border: 2px solid green; */
+}
+
+.newHotelServicesCountryDrop {
+  border: 3px solid White !important;
+  width: 80% !important;
+  height: 39px !important;
+  color:#3380F2 !important;
+  font-weight: 700 !important;
+  font-size: 17px !important;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px !important;
+  border-right: none !important;
+  appearance: none !important;
+  /* background-color: white !important; */
+}
+.newHomeHotelServicesDropContainer select{
+  /* border: 1px solid red !important; */
+  background-image: none !important;
+}
+
+
+.newHotelServicesicondiv{
+  width: 20%;
+  /* color: #3380F2; */
+  /* border: 3px solid #3380F2; */
+  background-color: White !important;
+  height: 39px;
+  /* font-size: 18px !important; */
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
+  /* border: 2px solid yellow; */
+}
+.hotelServicesicon{
+  margin-left: -37%;
+  /* width: 100% !important; */
+  color: white !important;
+  /* border: 3px solid #3380F2; */
+  background-color: #3380F2 !important;
+  height: 25px;
+  width: 25px;
+  font-size: 18px !important;
+  border-radius: 100%;
+  margin-top: 23% !important;
+  /* margin-bottom: 105%;*/
+}

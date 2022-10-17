@@ -1,0 +1,55 @@
+.rentals_accordionmain_container{
+    background-color: #3380f2;
+    margin-top: 3%;
+    height: 600px;
+}
+
+.faq_Rentalsmaincontainer{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    gap: 5%;
+    /* margin-top: 3%; */
+}
+
+.rentals_dropdowncontext{
+    /* border: 1px solid red; */
+    background-color: #5293F5;
+    border-radius: 9px;
+    color: whitesmoke;
+}
+
+.accordion_Rentalsdropdownmaincontainer1{
+    /* border: 2px solid red; */
+    margin-top: 2%;
+    width: 45%;
+    color: whitesmoke;
+    margin-left: 2%;
+}
+
+.accordion_RentalsDropdownmaincontainer2{
+    /* border: 2px solid blue; */
+    margin-top: 2%;
+    color: whitesmoke;
+    width: 45%;
+}
+
+.faq_RentalsHeading{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 20px;
+    /* color: #3380f2; */
+}
+
+
+.accordion_Rentalsdropdownmaincontainer3{
+    /* border: 1px solid red; */
+    margin-top: 3% !important;
+    width: 50%;
+    color: whitesmoke;
+    margin: auto;
+    text-align: center;
+    /* height: 200px; */
+}

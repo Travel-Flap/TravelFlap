@@ -1,0 +1,299 @@
+.newRentalsPopularCarHireouterdiv {
+  /* border: 1px solid red !important; */
+  background-color: #3380f2;
+  margin-top: 1%;
+  height: 500px;
+}
+
+.newRentalsPopularCarHireouterHeading {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+}
+.newRentalsPopularCarHireouterHeading h2 {
+  margin-left: 3%;
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: white;
+}
+
+.newHomeEasyVisaDropContainer {
+  width: 20%;
+  margin-left: 56%;
+  margin-top: 0.1%;
+}
+
+.newEasyVisaCountryDrop {
+  margin-top: 13% !important;
+  margin-left: 22%;
+  color: #3380f2 !important;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 20px !important;
+}
+.newEasyVisaCountryDrop:hover {
+  background-color: #3380f2;
+  color: white !important;
+  font-weight: 700;
+}
+
+.newRentalsCarHireSlideroutercontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.newhomeEasyVisaSlidercontentdiv h2 {
+  /* border: 1px solid green; */
+  margin-left: 3%;
+  width: 93%;
+  color: #3380f2;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.newRentalsCarHireContainer {
+  /* border: 1px solid purple; */
+  width: 96%;
+  margin-left: 1%;
+  /* margin: auto; */
+  /* gap: 5% !important; */
+}
+
+.travelstories_title {
+  font-size: 28px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-decoration: none solid rgb(45, 44, 44);
+  vertical-align: baseline;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgb(51, 128, 242);
+}
+
+.newRentalsCarHirecardwrapper {
+  /* border: 1px solid red; */
+  position: relative;
+  width: 106%;
+  padding: 0 10px;
+  /* -webkit-box-sizing: border-box; */
+  box-sizing: border-box;
+}
+
+.newRentalsCarHiremaindiv {
+    border: 1px solid #3380f2;
+  margin-left: 3%;
+  width: 102%;
+  border-radius: 20px !important;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.newRentalsCarHirecardimage {
+    /* border: 1px solid red; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 350px !important;
+  /* border-radius: 20px !important; */
+  z-index: 2;
+  background-color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.newRentalsCarHirecardimage img {
+  width: 100%;
+  filter: brightness(0.8);
+  -o-object-fit: cover;
+  object-fit: cover;
+  background: cover;
+  border-radius: 20px;
+}
+
+.newRentalsCarHiremaindiv:hover img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.newRentalsCarHiremaindiv:hover .newRentalsCarHirecardimage {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.newRentalsCarHirestorydetails {
+  position: absolute;
+  bottom: -62%;
+  left: 0;
+  width: 100%;
+  height: 310px;
+  z-index: 100000000;
+  padding: 10px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  line-height: 15px;
+}
+
+.newRentalsCarHirestorydetails h2 {
+  margin: 0px 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+.newRentalsCarHirestorydetails h2 .newRentalsCarHirejob-title {
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 300;
+  display: block;
+}
+
+.card:hover .newRentalsCarHirestorydetails {
+  bottom: 0;
+}
+
+.newRentalsCarHireSlideroutercontainer .slick-dots {
+  bottom: -2.5vw;
+}
+
+.newRentalsCarHireSlideroutercontainer .slick-dots li button {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: #3380f2;
+}
+
+.newRentalsCarHireSlideroutercontainer .slick-dots li button:before {
+  /* border: 1px solid red !important; */
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 210px;
+  content: "";
+  text-align: center;
+  opacity: 0.5;
+  color: #000;
+  background-color: white !important;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel .slick-prev,
+.carousel .slick-next {
+  border: 2px solid #3380f2;
+  width: 40px;
+  height: 50px;
+  /* border-radius: 30px; */
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: transparent !important;
+}
+
+.carousel .slick-prev:hover,
+.carousel .slick-prev:focus,
+.carousel .slick-next:hover,
+.carousel .slick-next:focus {
+  color: #fff;
+  outline: none;
+  background: #fff;
+}
+
+.carousel .slick-prev:before,
+.carousel .slick-next:before {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+}
+
+.carousel .slick-next {
+  left: 100% !important;
+}
+
+.carousel .slick-prev {
+  left: -55px;
+}
+
+/* ----------------- New button css ----------------  */
+
+.newRentalsPopularCarHireDropContainer {
+  width: 10%;
+  margin-left: 58%;
+  margin-top: 2.1%;
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+  height: 39px;
+  border-radius: 25px;
+  /* border: 2px solid green; */
+}
+/* .newRentalsPopularCarHireDropContainer:hover .newRentalsCarHireicondiv{
+    background-color:white;
+    color: #3380F2;
+    cursor: pointer;
+    border: 2px solid #3380F2;
+  } */
+.newRentalsPopularCarHireCountryDrop {
+  /* border: 3px solid red !important; */
+  background-color: white !important;
+  width: 80% !important;
+  height: 39px !important;
+  color: #3380f2 !important;
+  font-weight: 700 !important;
+  font-size: 17px !important;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px !important;
+  border-right: none !important;
+  appearance: none !important;
+  padding-top: 3% !important;
+  border: none !important;
+}
+.newRentalsPopularCarHireDropContainer select {
+  /* border: 1px solid red !important; */
+  background-image: none !important;
+}
+
+/* .newRentalsPopularCarHireCountryDrop:hover {
+    background-color: white !important;
+      color: #3380F2 !important;
+      font-weight: 700;
+  } */
+.newRentalsCarHireicondiv {
+  width: 20%;
+  color: white;
+  /* border: 3px solid #3380F2; */
+  background-color: white;
+  height: 39px;
+  /* font-size: 18px !important; */
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
+  /* border: 2px solid yellow; */
+}
+.newCarHireicon {
+  margin-left: -37%;
+  /* width: 100% !important; */
+  color: #3380f2;
+  border: 3px solid #3380f2;
+  background-color: white;
+  height: 25px;
+  width: 25px;
+  font-size: 18px !important;
+  border-radius: 100%;
+  margin-top: 29% !important;
+  /* margin-bottom: 105%;*/
+}

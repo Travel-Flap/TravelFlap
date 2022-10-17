@@ -18,7 +18,7 @@
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .newHomeTourDealscardimage{
   /* border: 2px solid red; */
@@ -363,7 +363,7 @@ img {
 
 .newHomeTourDealDropContainer {
   width: 10%;
-  margin-left: 65%;
+  margin-left: 70%;
   margin-top: 1%;
   display: flex;
   flex-direction: row;

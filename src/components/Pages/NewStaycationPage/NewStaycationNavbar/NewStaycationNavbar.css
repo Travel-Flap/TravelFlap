@@ -1,0 +1,123 @@
+.newStaycationNavbarmaindiv{
+    width: 70%;
+    height: 80px;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.newStaycationNavbaricon{
+    width: 79%;
+    height: 82%;
+    margin: auto;
+    margin-left: 11%;
+    margin-top: 1%;
+}
+.newStaycationNavbaricondiv1{
+    width: 7%;
+    height: 65px;
+    border: 2px solid lightgray;
+    border-radius: 100%;
+    margin-left: 7%;
+}
+.newStaycationNavbaricondiv2{
+    width: 7%;
+    height: 65px;
+    border: 2px solid lightgray;
+    border-radius: 100%;
+    margin-left: 3%;
+}
+.newStaycationNavbaricondiv3{
+    width: 7%;
+    height: 65px;
+    border: 2px solid lightgray;
+    border-radius: 100%;
+    margin-left: 3%;
+}
+.newStaycationNavbaricondiv4{
+    width: 7%;
+    height: 65px;
+    border: 2px solid lightgray;
+    border-radius: 100%;
+    margin-left: 4%;
+}
+.newStaycationviewallbutton{
+    width: 16%;
+    height: 50px;
+    border: 2px solid #3380F2;
+    border-radius: 15px !important;
+    margin-left: 35%;
+    margin-top: 1%;
+}
+
+ /* ----------------- New button css ----------------  */
+
+
+ .newStaycationNavbarDropContainer {
+    width: 18%;
+    margin-left: 48.5%;
+    margin-top: 2.1%;
+    display: flex;
+    flex-direction: row;
+    border-right: none;
+    height:39px;
+    border-radius: 25px;
+    /* border: 2px solid green; */
+  }
+  /* .newStaycationNavbarDropContainer:hover .newStaycationNavbaricondiv{
+    background-color:white;
+    color: #3380F2;
+    cursor: pointer;
+    border: 2px solid #3380F2;
+  } */
+  .newStaycationNavbarCountryDrop {
+    /* border: 3px solid red !important; */
+    background-color: #3380F2 !important;
+    width: 80% !important;
+    height: 39px !important;
+    color:white !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    cursor: pointer;
+    border-radius: 25px 0px 0px 25px !important;
+    border-right: none !important;
+    appearance: none !important;
+    padding-top: 2% !important;
+    border: none !important;
+  }
+  .newStaycationNavbarDropContainer select{
+    /* border: 1px solid red !important; */
+    background-image: none !important;
+  }
+/*   
+  .newStaycationNavbarCountryDrop:hover {
+    background-color: white !important;
+    color: #3380F2 !important;
+    font-weight: 700;
+  } */
+  .newStaycationNavbaricondiv{
+    width: 20%;
+    color: white;
+    /* border: 3px solid #3380F2; */
+    background-color: #3380F2;
+    height: 39px;
+    /* font-size: 18px !important; */
+    border-radius: 0px 25px 25px 0px;
+    padding-right: 5%;
+    border-left: none;
+    /* border: 2px solid yellow; */
+  }
+  .staycationNavbaricon{
+    margin-left: -37%;
+    /* width: 100% !important; */
+    color: #3380F2;
+    border: 3px solid #3380F2;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    font-size: 18px !important;
+    border-radius: 100%;
+    margin-top: 29% !important;
+    /* margin-bottom: 105%;*/
+  }

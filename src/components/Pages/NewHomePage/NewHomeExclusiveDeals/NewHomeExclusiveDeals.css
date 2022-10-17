@@ -1,5 +1,5 @@
 .exclusivemaindiv{
-    width: 100%;
+    width: 99.3%;
     height: 550px;
     margin-bottom: 4%;
     /* border: 2px solid green; */
@@ -101,12 +101,13 @@
     color: white;
     margin-top: -60%;
     z-index: 10;
-    margin-left: 11%;
+    margin-left: 15%;
     width: 70%;
 }
 .exclusiveheadingsboldheadings{
     font-weight: 700;
     font-size: 35px;
+    /* margin-left: 5%; */
 }
 .exclusivedealssliderdata{
     width: 60%;
@@ -143,21 +144,22 @@
   }
   .exclusivedealsbutton {
     border: 3px solid #3380f2;
-    width: 55%;
+    width: 43%;
     border-radius: 25px !important;
     background-color: white;
     color: #3380f2;
-    padding: 4px 12px;
+    padding: 2px 12px;
     font-weight: 700 !important;
     margin-bottom: 0% !important;
+    margin-top: -4%;
     font-size: 14px !important;
   }
   .exclusivedealsbutton:hover {
     border: 3px solid white;
     background-color: #3380f2;
     color: white;
-    padding: 7px 7px;
-    font-size: 14px !important;
+    /* padding: 7px 7px;
+    font-size: 14px !important; */
   }
   .exclusivedealscard_desc{
     font-size: 14px;

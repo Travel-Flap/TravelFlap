@@ -133,13 +133,13 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/bolivia.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Bolivia <span className="newhomeEasyVisajob-title">"Best Holiday trip Ever"
+                                    <h2>Bolivia <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p>
 
                                     </span>
-                                        <Button variant="primary">Read More</Button>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -151,12 +151,12 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/dubai.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Dubai <span className="newhomeEasyVisajob-title">"Best Holiday trip Ever"
+                                    <h2>Dubai <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p>
                                     </span>
-                                        <Button variant="primary">Read More</Button>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -168,11 +168,11 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/fiji islands.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Fiji islands <span className="newhomeEasyVisajob-title">"Best Holiday trip Ever"
+                                    <h2>Fiji islands <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>
-                                        <Button variant="primary">Read More</Button>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -184,11 +184,11 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/jordan.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Jordan <span className="newhomeEasyVisajob-title">"Best Holiday trip Ever"
+                                    <h2>Jordan <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>
-                                        <Button variant="primary">Read More</Button>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -200,11 +200,11 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/Kenya.jpg " />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Kenya <span className="newhomeEasyVisajob-title">"Best Holiday trip Ever"
+                                    <h2>Kenya <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>
-                                        <Button variant="primary">Read More</Button>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -216,11 +216,11 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/TravelStories/river.jpg " />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>ladakh <span className="newhomeEasyVisajob-title">"Best Holiday trip Ever"
+                                    <h2>ladakh <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>
-                                        <Button variant="primary">Read More</Button>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -232,11 +232,11 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/madgascar.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>1Madgascar <span className="newhomeEasyVisajob-title">"Best Holiday trip Ever"
+                                    <h2>Madgascar <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>
-                                        <Button variant="primary">Read More</Button>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -248,11 +248,11 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/Seychelles.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Seychelles <span className="newhomeEasyVisajob-title">"Best Holiday trip Ever"
+                                    <h2>Seychelles <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
                                         <p>I love the experience with the travel Flap. I surely recommend it
                                             other for same
                                         </p></span>
-                                        <Button variant="primary">Read More</Button>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>

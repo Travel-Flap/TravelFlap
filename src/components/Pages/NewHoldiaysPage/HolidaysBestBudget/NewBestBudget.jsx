@@ -47,11 +47,11 @@ export const NewHolidaysBestBudget = () => {
             <div className="newBestBudgetheadingcontainer" >
                 <div className="cardtextnewBestBudgetdropbutton">
                     {/* <CountryDropHotel /> */}
-                    <h2>Best Budget Destinations</h2>
+                    <h2>Best Selling Destinations</h2>
                      <div className='newHolidaysBestBudgetDropContainer'>
                         <select className="form-select newHolidaysBestBudgetCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ border: "3px solid #3380f2", width: "60%",appearance:"none", fontSize:"15px" }}>
-                            <option value="" style={{ textAlign: "center" }}>Select Country</option>
+                            <option value="" style={{ textAlign: "center" }}>Country</option>
                             {
                                 countrydata.map((getcountry, index) => (
                                     <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
@@ -85,7 +85,7 @@ export const NewHolidaysBestBudget = () => {
             <div className="newBestBudgetslidercontainer">
                 <Slider
                     arrows={false}
-                    autoplay={true}
+                    // autoplay={true}
                     speed={2000}
                     autoplaySpeed={2000}
                     dots={true}
@@ -156,8 +156,8 @@ export const NewHolidaysBestBudget = () => {
                             </th>
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div> */}
-                        <img src="Images/NewHomeLayout/BestBudgetDestination/Belogradchik, Bulgaria.jpg" alt="" />
-                        <div className="cardBestBudget_title">Bulgaria
+                        <img src="Images/NewHOmeLayout/BestSelling/Brandenburg Gate, Berlin, Germany.jpg" alt="" />
+                        <div className="cardBestBudget_title">Germany
                             <br />
                             {/* <span className="BestBudget_rating">
                                 <BsFillStarFill className="staricon" />
@@ -169,7 +169,7 @@ export const NewHolidaysBestBudget = () => {
                         </div>
 
                         <div className="newBestBudgetratesdiv">
-                            <p>Belogradchik.</p>
+                            <p>Berlin, Brandenburg Gate.</p>
                         </div>
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>
@@ -184,8 +184,8 @@ export const NewHolidaysBestBudget = () => {
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div> */}
 
-                        <img src="Images/NewHomeLayout/BestBudgetDestination/Greece.jpg" alt="" />
-                        <div className="cardBestBudget_title">Greece
+                        <img src="Images/NewHOmeLayout/BestSelling/Embarcadero, San Francisco, USA.jpg" alt="" />
+                        <div className="cardBestBudget_title">USA
                             <br />
                             {/* <span className="BestBudget_rating">
                                 <BsFillStarFill className="staricon" />
@@ -197,7 +197,7 @@ export const NewHolidaysBestBudget = () => {
                         </div>
 
                         <div className="newBestBudgetratesdiv">
-                            <p>Best Place to visit.</p>
+                            <p>San Francisco</p>
                         </div>
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>
@@ -215,8 +215,8 @@ export const NewHolidaysBestBudget = () => {
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div> */}
                         
-                        <img src="Images/NewHomeLayout/BestBudgetDestination/Millennium Bridge, London, United Kingdom.jpg" alt="" />
-                        <div className="cardBestBudget_title">UK
+                        <img src="Images/NewHOmeLayout/BestSelling/Great Wall of China, China.jpg" alt="" />
+                        <div className="cardBestBudget_title">China
                             <br />
                             {/* <span className="BestBudget_rating">
                                 <BsFillStarFill className="staricon" />
@@ -228,7 +228,29 @@ export const NewHolidaysBestBudget = () => {
                         </div>
 
                         <div className="newBestBudgetratesdiv">
-                            <p>Millenium Bridge, London.</p>
+                            <p>The Great Wall of China.</p>
+                        </div>
+                        {/* <div className="hoteldicsountprice">
+                            <span className="hoteldiscountpercent">41% DISCOUNT</span>
+                            <span className="hotelPricebeforediscount">&#x24;19,662</span>
+                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
+                        </div> */}
+                    </div>
+                    <div className="cardtextBestBudget_maindiv">
+                        {/* <div className="reviewratingBestBudgetsection">
+                            <th>Exeptional
+                                <br />
+                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                            </th>
+                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                        </div> */}
+
+                        <img src="Images/NewHOmeLayout/BestSelling/Laon France.jpg" alt="" />
+                        <div className="cardBestBudget_title">France
+                        </div>
+
+                        <div className="newBestBudgetratesdiv">
+                            <p>Laon</p>
                         </div>
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>
@@ -245,12 +267,49 @@ export const NewHolidaysBestBudget = () => {
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div> */}
 
-                        <img src="Images/NewHomeLayout/BestBudgetDestination/Nepal.jpg" alt="" />
-                        <div className="cardBestBudget_title">Nepal
+                        <img src="Images/NewHOmeLayout/BestSelling/Metropolitan City of Venice, Italy.jpg" alt="" />
+                        <div className="cardBestBudget_title">Italy
+                            <br />
+                            {/* <span className="BestBudget_rating">
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                            </span> */}
                         </div>
 
                         <div className="newBestBudgetratesdiv">
-                            <p>Best neighbouring country to visit.</p>
+                            <p>Metropolitan City of Venice.</p>
+                        </div>
+                        <div className="hoteldicsountprice">
+                            <span className="hoteldiscountpercent">Book Now</span>
+                            {/* <span className="hotelPricebeforediscount">&#x24;19,662</span>
+                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
+                        </div>
+                    </div>
+                    <div className="cardtextBestBudget_maindiv">
+                        {/* <div className="reviewratingBestBudgetsection">
+                            <th>Exeptional
+                                <br />
+                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                            </th>
+                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
+                        </div> */}
+                        <img src="Images/NewHOmeLayout/BestSelling/Santuario de la virgen de los remedios, san pedro cholula, mexico.jpg" alt="" />
+                        <div className="cardBestBudget_title">Mexico
+                            <br />
+                            {/* <span className="BestBudget_rating">
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                                <BsFillStarFill className="staricon" />
+                            </span> */}
+                        </div>
+
+                        <div className="newBestBudgetratesdiv">
+                            <p>Santuario de la virgen de los remedios, san pedro cholula.</p>
                         </div>
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>
@@ -267,8 +326,8 @@ export const NewHolidaysBestBudget = () => {
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div> */}
 
-                        <img src="Images/NewHomeLayout/BestBudgetDestination/Phi Phi Islands, Thailand.jpg" alt="" />
-                        <div className="cardBestBudget_title">Thailand
+                        <img src="Images/NewHOmeLayout/BestSelling/Sevilla, Spain.jpg" alt="" />
+                        <div className="cardBestBudget_title">Sevilla
                             <br />
                             {/* <span className="BestBudget_rating">
                                 <BsFillStarFill className="staricon" />
@@ -280,66 +339,7 @@ export const NewHolidaysBestBudget = () => {
                         </div>
 
                         <div className="newBestBudgetratesdiv">
-                            <p>Phi Phi Islands.</p>
-                        </div>
-                        <div className="hoteldicsountprice">
-                            <span className="hoteldiscountpercent">Book Now</span>
-                            {/* <span className="hotelPricebeforediscount">&#x24;19,662</span>
-                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
-                        </div>
-                    </div>
-                    <div className="cardtextBestBudget_maindiv">
-                        {/* <div className="reviewratingBestBudgetsection">
-                            <th>Exeptional
-                                <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div> */}
-                        <img src="Images/NewHomeLayout/BestBudgetDestination/Porto, Portugal.jpg" alt="" />
-                        <div className="cardBestBudget_title">Portugal
-                            <br />
-                            {/* <span className="BestBudget_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span> */}
-                        </div>
-
-                        <div className="newBestBudgetratesdiv">
-                            <p>Porto beautifull place to visit.</p>
-                        </div>
-                        <div className="hoteldicsountprice">
-                            <span className="hoteldiscountpercent">Book Now</span>
-                            {/* <span className="hotelPricebeforediscount">&#x24;19,662</span>
-                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
-                        </div>
-                    </div>
-                    <div className="cardtextBestBudget_maindiv">
-                        {/* <div className="reviewratingBestBudgetsection">
-                            <th>Exeptional
-                                <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div> */}
-
-                        <img src="Images/NewHomeLayout/BestBudgetDestination/Unnamed Road, Cuba, Mayari.jpg" alt="" />
-                        <div className="cardBestBudget_title">Cuba
-                            <br />
-                            {/* <span className="BestBudget_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span> */}
-                        </div>
-
-                        <div className="newBestBudgetratesdiv">
-                            <p>Unnamed Road, Mayari.</p>
+                            <p>Spain</p>
                         </div>
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>

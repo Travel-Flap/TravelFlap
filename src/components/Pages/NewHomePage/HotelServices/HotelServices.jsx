@@ -40,7 +40,7 @@ export const NewHomeHotelServices = () => {
         console.log(sliderRef);
     }, []);
     return (
-        <div className="newhomehotelservicesmaindiv">
+        <div className="newhomehotelservicesmaindiv" style={{height:"500px !important"}}>
             {/* <h1>Ipl</h1> */}
 
 
@@ -48,7 +48,7 @@ export const NewHomeHotelServices = () => {
                 <div className="cardtextnewHomedropbutton">
                     {/* <CountryDropHotel /> */}
                     <h2>Hotel Services</h2>
-                    <div className='newHomeHotelServicesDropContainer'>
+                    {/* <div className='newHomeHotelServicesDropContainer'>
                         <select className="form-select newHotelServicesCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
                             style={{ border: "3px solid #3380f2", width: "60%" }}>
                             <option value="" style={{ textAlign: "center" }}>Select Country</option>
@@ -58,7 +58,22 @@ export const NewHomeHotelServices = () => {
                                 ))
                             }
                         </select>
-                    </div>
+                    </div> */}
+
+                    {/* <div className='newHomeHotelServicesDropContainer'>
+                        <select className="form-select newHotelServicesCountryDrop" onChange={(e) => handlecounty(e)}
+                            style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
+                            <option value="" style={{ textAlign: "center" }}>Country</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                        <div className='newHomeHotelServicesicondiv'>
+                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="hotelServicesicon" />
+                        </div>
+                    </div> */}
                 </div>
 
                 {/* <div className="cardtextendbuttons">
@@ -86,7 +101,7 @@ export const NewHomeHotelServices = () => {
                         // autoplay={true}
                         speed={1000}
                         autoplaySpeed={2000}
-                        dots={true}
+                        // dots={true}
                         dotsclassName="slick-dots hotelservicesslickDots line-indicator"
                         ref={sliderRef}
                         slidesToShow={5}
@@ -155,7 +170,7 @@ export const NewHomeHotelServices = () => {
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                             </div>
                             <img src="Images/HotelsImage/HotelImage1.jpg" alt="" />
-                            <div className="cardhotelservices_title">Single Room
+                            <div className="hotelservicesdetails" style={{color:"white"}}>Single Room
                                 <br />
                                 <span className="hoteltitle_rating">
                                     <BsFillStarFill className="staricon" />
@@ -164,10 +179,11 @@ export const NewHomeHotelServices = () => {
                                     <BsFillStarFill className="staricon" />
                                     <BsFillStarFill className="staricon" />
                                 </span>
-                            </div>
+                            
 
                             <div className="hotelservicesratesdiv">
                                 <p>$300/ day</p>
+                            </div>
                             </div>
                             {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
@@ -184,7 +200,7 @@ export const NewHomeHotelServices = () => {
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                             </div>
                             <img src="Images/HotelsImage/HotelImage2.jpg" alt="" />
-                            <div className="cardhotelservices_title">Single Room
+                            <div className="hotelservicesdetails" style={{color:"white"}}>Single Room
                                 <br />
                                 <span className="hoteltitle_rating">
                                     <BsFillStarFill className="staricon" />
@@ -193,10 +209,11 @@ export const NewHomeHotelServices = () => {
                                     <BsFillStarFill className="staricon" />
                                     <BsFillStarFill className="staricon" />
                                 </span>
-                            </div>
+                            
 
                             <div className="hotelservicesratesdiv">
                                 <p>$300/ day</p>
+                            </div>
                             </div>
                             {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
@@ -214,7 +231,7 @@ export const NewHomeHotelServices = () => {
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                             </div>
                             <img src="Images/HotelsImage/HotelImage3.jpg" alt="" />
-                            <div className="cardhotelservices_title">Single Room
+                           <div className="hotelservicesdetails" style={{color:"white"}}>Single Room
                                 <br />
                                 <span className="hoteltitle_rating">
                                     <BsFillStarFill className="staricon" />
@@ -223,10 +240,11 @@ export const NewHomeHotelServices = () => {
                                     <BsFillStarFill className="staricon" />
                                     <BsFillStarFill className="staricon" />
                                 </span>
-                            </div>
+                            
 
                             <div className="hotelservicesratesdiv">
                                 <p>$300/ day</p>
+                            </div>
                             </div>
                             {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
@@ -243,7 +261,7 @@ export const NewHomeHotelServices = () => {
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                             </div>
                             <img src="Images/HotelsImage/HotelImage4.jpg" alt="" />
-                            <div className="cardhotelservices_title">Single Room
+                           <div className="hotelservicesdetails" style={{color:"white"}}>Single Room
                                 <br />
                                 <span className="hoteltitle_rating">
                                     <BsFillStarFill className="staricon" />
@@ -252,10 +270,11 @@ export const NewHomeHotelServices = () => {
                                     <BsFillStarFill className="staricon" />
                                     <BsFillStarFill className="staricon" />
                                 </span>
-                            </div>
+                           
 
                             <div className="hotelservicesratesdiv">
                                 <p>$300/ day</p>
+                            </div>
                             </div>
                             {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
@@ -272,7 +291,7 @@ export const NewHomeHotelServices = () => {
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                             </div>
                             <img src="Images/HotelsImage/HotelImage5.jpg" alt="" />
-                            <div className="cardhotelservices_title">Single Room
+                           <div className="hotelservicesdetails" style={{color:"white"}}>Single Room
                                 <br />
                                 <span className="hoteltitle_rating">
                                     <BsFillStarFill className="staricon" />
@@ -281,10 +300,11 @@ export const NewHomeHotelServices = () => {
                                     <BsFillStarFill className="staricon" />
                                     <BsFillStarFill className="staricon" />
                                 </span>
-                            </div>
+                           
 
                             <div className="hotelservicesratesdiv">
                                 <p>$300/ day</p>
+                            </div>
                             </div>
                             {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
@@ -301,7 +321,7 @@ export const NewHomeHotelServices = () => {
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                             </div>
                             <img src="Images/HotelsImage/HotelImage6.jpg" alt="" />
-                            <div className="cardhotelservices_title">Single Room
+                           <div className="hotelservicesdetails" style={{color:"white"}}>Single Room
                                 <br />
                                 <span className="hoteltitle_rating">
                                     <BsFillStarFill className="staricon" />
@@ -330,7 +350,7 @@ export const NewHomeHotelServices = () => {
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                             </div>
                             <img src="Images/HotelsImage/HotelImage7.jpg" alt="" />
-                            <div className="cardhotelservices_title">Single Room
+                           <div className="hotelservicesdetails" style={{color:"white"}}>Single Room
                                 <br />
                                 <span className="hoteltitle_rating">
                                     <BsFillStarFill className="staricon" />

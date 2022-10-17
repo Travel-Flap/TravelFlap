@@ -188,3 +188,13 @@
   height: 40px;
   margin-left: -9%;
 }
+.qrcodetext1{
+  color: white;
+  font-size: 20px;
+  width: 65%;
+  font-weight: 700;
+   margin-left: 20%;
+   margin-top: 0%;
+  /* margin-bottom: 33% !important; */
+  /* border: 2px solid red; */
+}
