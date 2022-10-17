@@ -146,7 +146,7 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/chicago.jpg" />
+                                                <img src="Images/NewHomeLayout/NewHomeTopCities/chicago.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
                                                 <p>I love the experience with the travel Flap. I surely recommend it
@@ -165,7 +165,7 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/London.jpg" />
+                                                <img src="Images/NewHomeLayout/NewHomeTopCities/London.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
                                                 <p>I love the experience with the travel Flap. I surely recommend it
@@ -183,7 +183,7 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/losangeles.jpg" />
+                                                <img src="Images/NewHomeLayout/NewHomeTopCities/losangeles.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
                                                 <p>I love the experience with the travel Flap. I surely recommend it
@@ -201,7 +201,7 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/melbourne.jpg" />
+                                                <img src="Images/NewHomeLayout/NewHomeTopCities/melbourne.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
                                                 <p>I love the experience with the travel Flap. I surely recommend it
@@ -219,7 +219,7 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/paris.jpg" />
+                                                <img src="Images/NewHomeLayout/NewHomeTopCities/paris.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
                                                 <p>I love the experience with the travel Flap. I surely recommend it
@@ -237,7 +237,7 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/tokyo.jpg" />
+                                                <img src="Images/NewHomeLayout/NewHomeTopCities/tokyo.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
                                                 <p>I love the experience with the travel Flap. I surely recommend it
@@ -255,7 +255,7 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/denmark.jpg" />
+                                                <img src="Images/NewHomeLayout/NewHomeTopCities/denmark.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
                                                 <p>I love the experience with the travel Flap. I surely recommend it
@@ -274,7 +274,7 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/newyork.jpg" />
+                                                <img src="Images/NewHomeLayout/NewHomeTopCities/newyork.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
                                                 <p>I love the experience with the travel Flap. I surely recommend it
@@ -293,7 +293,7 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/TopCities/swedan.jpg" />
+                                                <img src="Images/NewHomeLayout/NewHomeTopCities/swedan.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
                                                 <p>I love the experience with the travel Flap. I surely recommend it
