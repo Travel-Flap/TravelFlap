@@ -112,8 +112,8 @@ export const NewHolidayBannerForm = () => {
                 <div className='newHolidaysinputmaindiv'>
                     <div className='newHolidayDestinationInputContainer'>
                         <div className='newHolidaysNameInput'>
-                            <BsSearch className='newHolidaysInputicon' />
                             <div className='newHolidaysinputNameContainer'>
+                                <BsSearch className='newHolidaysInputicon' />
                                 <input type="text" placeholder='Search destination,Hotels' />
                             </div>
                         </div>
@@ -124,7 +124,7 @@ export const NewHolidayBannerForm = () => {
                         <div className='innerNewHolidaydropdowncontainer2'>
                             <div className='optionsNewHolidaysBannercontainer'>
                                 <div className='singleNewHolidaysBannerdropcontainer'>
-                                    <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example" style={{ width: "60%", border: "1px solid black" }}>
+                                    <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example" style={{ width: "60%", border: "1px solid #3380f2" }}>
                                         <option value="" style={{ textAlign: "center" }}>Select Country</option>
                                         {
                                             countrydata.map((getcountry, index) => (
@@ -135,7 +135,7 @@ export const NewHolidayBannerForm = () => {
                                 </div>
 
                                 <div className='singleNewHolidaysBannerdropcontainer1'>
-                                    <select className="form-select holidayform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%", border: "1px solid black" }}>
+                                    <select className="form-select holidayform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%", border: "1px solid #3380f2" }}>
                                         <option value="" style={{ textAlign: "center" }}>Select State</option>
                                         {
                                             state.map((getstate, index) => (
@@ -146,7 +146,7 @@ export const NewHolidayBannerForm = () => {
                                 </div>
 
                                 <div className='singleNewHolidaysBannerdropcontainer'>
-                                    <select className="form-select" aria-label="Default select example" style={{ marginLeft: "6%", width: "100%", border: "1px solid black" }}>
+                                    <select className="form-select" aria-label="Default select example" style={{ marginLeft: "6%", width: "100%", border: "1px solid #3380f2" }}>
                                         <option value>Package Category</option>
                                         <option value="1">Family</option>
                                         <option value="2">Holiday</option>
@@ -162,126 +162,11 @@ export const NewHolidayBannerForm = () => {
                         </div>
 
                     </div>
-                    <div className='experiment_SearchButton'>
+                    <div className='newHolidays_SearchButton'>
                         <button type="button" class="btn btn-primary">Search</button>
                     </div>
                 </div>
 
-                {/* From this part below form is starting for multi choices */}
-                {/* <div className='newHolidaysBannerMultiInput'>
-
-                    <div className='innerNewHolidaydropdowncontainer2'>
-                        <div className='optionsNewHolidaysBannercontainer'>
-                            <div className='singleNewHolidaysBannerdropcontainer'>
-                                <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example" style={{ width: "60%", border: "1px solid black" }}>
-                                    <option value="" style={{ textAlign: "center" }}>Select Country</option>
-                                    {
-                                        countrydata.map((getcountry, index) => (
-                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                        ))
-                                    }
-                                </select>
-                            </div>
-
-                            <div className='singleNewHolidaysBannerdropcontainer1'>
-                                <select className="form-select holidayform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%",  border: "1px solid black" }}>
-                                    <option value="" style={{ textAlign: "center" }}>Select State</option>
-                                    {
-                                        state.map((getstate, index) => (
-                                            <option value={getstate.state_id} key={index}>{getstate.state_name}</option>
-                                        ))
-                                    }
-                                </select>
-                            </div>
-
-                            <div className='singleNewHolidaysBannerdropcontainer'>
-                                <select className="form-select" aria-label="Default select example" style={{ marginLeft: "6%", width: "100%",  border: "1px solid black" }}>
-                                    <option value>Package Category</option>
-                                    <option value="1">Family</option>
-                                    <option value="2">Holiday</option>
-                                    <option value="3">Solo</option>
-                                    <option value="3">Friends</option>
-                                    <option value="3">Romantic</option>
-                                </select>
-                            </div>
-                           
-                        </div>
-
-
-                    </div>
-
-                </div> */}
-
-
-                {/* <div className='choosenewhomebanneroptions'>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
-                            <label class="form-check-label" for="inlineRadio1">One Way</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
-                            <label class="form-check-label" for="inlineRadio2">Round Trip</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" />
-                            <label class="form-check-label" for="inlineRadio3">Multi Trip</label>
-                    </div>
-                </div>
-                <div className='mainnewhomedatesections'>
-                    <div className='filternewhomebanner-fromTo'>
-                        <div className='fromnewhomebanner-name'>
-                            <h5>FROM</h5>
-                            <input className='citynewhomebannerinput1' type="search" placeholder="Jaipur" />
-                        </div>
-                        <div className='fromnewhomebanner-name2'>
-                            <h5>TO </h5>
-                            <input className='citynewhomebannerinput2' type="search" placeholder="Delhi" />
-                        </div>
-                    </div>
-
-
-                    <div id='formnewhomepagedates'>
-                        <div className='selectnewhomepagedate'>
-                            <h5>Departure <AiFillCalendar /></h5>
-                            <DatePicker placeholderText='Departure' id='dateonewaynewhomebannerform' />
-                        </div>
-                        <div id='selectnewhomepageReturndate1'>
-                            <h5>Return <AiFillCalendar /></h5>
-                            <DatePicker placeholderText='Return' id='dateonewaynewhomebannerform' />
-                        </div>
-                    </div>
-
-                    <div id='newhomepagetrave' >
-                        <div id='newhomepage_departure'>
-                            <h3>Travellers <FaAngleDown className='downarrowicon' /></h3>
-                            <div className="dropdownnewhomepage-content">
-                                <div className='navbarnewhomepageOptions'>
-                                    <FaPlusCircle className='contactIcon' />   <FaMinusCircle className='decrease' /> Adults
-                                </div>
-                                <div className='navbarnewhomepageOptions '>
-                                    <FaPlusCircle className='miceIcon' />   <FaMinusCircle className='decrease' /> Children
-                                </div>
-                                <div className='navbarnewhomepageOptions'>
-                                    <FaPlusCircle className='offersIcon' />  <FaMinusCircle className='decrease' /> Infants
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div> */}
-
-                {/* <div className='checkmark'>
-                    <input type="checkbox" className='flightscheckbox' />
-                    <label className='flightscheckbox1'>Flights You've searched for</label>
-                    <input type="checkbox" className='flightscheckbox' />
-                    <label className='flightscheckbox1'>Flights from Jaipur</label>
-                    <input type="checkbox" className='flightscheckbox' />
-                    <label className='flightscheckbox1'> Direct Flight</label>
-                    <input type="checkbox" className='flightscheckbox' />
-                    <label className='flightscheckbox1'> Defence fare</label>
-                    <button className='newhomesearchbutton'>Search Flight</button>
-                </div> */}
             </div>
         </>
     )

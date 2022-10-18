@@ -78,40 +78,8 @@
   border: 1px solid red;
 } */
 
-.innerNewHolidaydropdowncontainer2 {
-  /* border: 1px solid red; */
-  /* border: 3px solid white; */
-  /* background-color: blue; */
-  width: 70%;
-}
 
-.optionsNewHolidaysBannercontainer {
-  /* border: 2px solid white; */
-  display: flex;
-  margin-top: 2%;
-}
 
-.singleNewHolidaysBannerdropcontainer {
-  /* border: 1px solid red; */
-  /* width: 80%; */
-  margin-left: 0%;
-  border: none;
-}
-
-.singleNewHolidaysBannerdropcontainer1 {
-  margin-left: -13%;
-}
-
-.singleNewHolidaysBannerdropcontainerbutton .holidayformbutton {
-  width: 100%;
-  background-color: #3380f2 !important;
-  color: white;
-}
-
-.singleNewHolidaysBannerdropcontainerbutton .holidayformbutton:hover {
-  background-color: white !important;
-  color: #3380f2 !important;
-}
 
 .newOffersInputNameContainer .hotelinputIconContainer {
   font-size: 30px !important;

@@ -124,51 +124,6 @@ export const NewOffersBannerForm = () => {
                     </div>
                 </div>
 
-                {/* From this part below form is starting for multi choices */}
-                {/* <div className='newHolidaysBannerMultiInput'>
-
-                    <div className='innerNewHolidaydropdowncontainer2'>
-                        <div className='optionsNewHolidaysBannercontainer'>
-                            <div className='singleNewHolidaysBannerdropcontainer'>
-                                <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example" style={{ width: "60%", border: "1px solid black" }}>
-                                    <option value="" style={{ textAlign: "center" }}>Select Country</option>
-                                    {
-                                        countrydata.map((getcountry, index) => (
-                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                        ))
-                                    }
-                                </select>
-                            </div>
-
-                            <div className='singleNewHolidaysBannerdropcontainer1'>
-                                <select className="form-select holidayform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%",  border: "1px solid black" }}>
-                                    <option value="" style={{ textAlign: "center" }}>Select State</option>
-                                    {
-                                        state.map((getstate, index) => (
-                                            <option value={getstate.state_id} key={index}>{getstate.state_name}</option>
-                                        ))
-                                    }
-                                </select>
-                            </div>
-
-                            <div className='singleNewHolidaysBannerdropcontainer'>
-                                <select className="form-select" aria-label="Default select example" style={{ marginLeft: "6%", width: "100%",  border: "1px solid black" }}>
-                                    <option value>Package Category</option>
-                                    <option value="1">Family</option>
-                                    <option value="2">Holiday</option>
-                                    <option value="3">Solo</option>
-                                    <option value="3">Friends</option>
-                                    <option value="3">Romantic</option>
-                                </select>
-                            </div>
-                        </div>
-
-
-                    </div>
-                    
-
-                </div> */}
-
             </div>
         </>
     )

@@ -15,24 +15,24 @@
   border-radius: 10px;
   position: absolute !important;
   z-index: 10;
-  height: 65px;
+  height: 60px;
 }
 
 /* This css is for the experiment input div part */
 .newHolidaysinputmaindiv {
   display: flex;
   flex-direction: row;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
 }
 
 .newHolidayDestinationInputContainer {
-  border: 1px solid red;
-  width: 30% !important;
+  /* border: 1px solid red; */
+  width: 30%;
   height: 65px;
 }
 
 .newHolidaysNameInput {
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
   /* background-color: #8DBBFF; */
   width: 100%;
   height: 65px;
@@ -42,15 +42,23 @@
 }
 
 .newHolidaysinputNameContainer {
-  border: 1px solid maroon;
+  border: 1px solid #3380f2;
+  height: 40px;
+  border-radius: 9px;
+  margin-top: 4%;
+  margin-left: 4%;
+  display: flex;
+  flex-direction: row;
   width: 90%;
 }
 .newHolidaysinputNameContainer input {
+  
   /* background-color: #8DBBFF; */
   /* border: 1px solid red; */
-  height: 65px;
+  height: 35px;
   /* margin-top: 3% !important; */
   width: 100%;
+  border-radius: 9px;
   color: black;
   border: none !important;
   outline: none !important;
@@ -65,7 +73,7 @@
 
 .newHolidaysInputicon {
   /* border: 1px solid black !important; */
-  margin-top: 8%;
+  margin-top: 3.5%;
   font-size: 18px;
   color: black;
   width: 7%;
@@ -125,7 +133,7 @@
 
 .newHolidaysCheckIn_dateContainer input {
   width: 100%;
-  border-left: 1px solid black !important;
+  /* border-left: 1px solid black !important; */
   outline: none !important;
 }
 
@@ -227,15 +235,15 @@
   background-color: #8DBBFF;
 } */
 
-.experiment_SearchButton {
+.newHolidays_SearchButton {
   /* border: 1px solid blue; */
   width: 15%;
 }
 
-.experiment_SearchButton button {
+.newHolidays_SearchButton button {
   margin-top: 6%;
   width: 90%;
-  height: 45px;
+  height: 40px;
   padding-left: 25% !important;
   padding-top: 6%;
 }
