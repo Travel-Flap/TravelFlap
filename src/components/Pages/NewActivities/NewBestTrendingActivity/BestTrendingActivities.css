@@ -1,234 +1,239 @@
-.newTrendingAtivitycontainer {
-  /* border: 1px solid red; */
-  width: 90%;
-  margin: auto;
-}
+.newTrendingAtivitycontainer{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+  }
 
-.newTrendingActivityHeadingContainer {
-  /* border: 1px solid red; */
-  display: flex;
-  flex-direction: row;
-}
+  .newTrendingActivityHeadingContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+  }
 
-.newTrendingActivityHeadingContainer h2 {
-  font-size: 30px;
-  font-weight: 700;
-  margin-top: 3%;
-  margin-left: 1%;
-  margin-bottom: 2%;
-  width: 65%;
-  color: #3380f2;
-}
+  .newTrendingActivityHeadingContainer h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 3%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    width:65%;
+    color: #3380f2;
+  }
 
-.clientstestimonial_title {
-  font-size: 27px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 4%;
-  margin-bottom: 3%;
-  text-decoration: none solid rgb(45, 44, 44);
-  vertical-align: baseline;
-  letter-spacing: normal;
-  text-align: center;
-  color: rgb(51, 128, 242);
-}
+  
+  /* .clientstestimonial_title {
+    font-size: 27px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    text-decoration: none solid rgb(45,44,44);
+    vertical-align: baseline;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgb(51,128,242);
+  } */
+  
+  
+  /* .newWorldActivitywrapper {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  } */
+  
 
-.newWorldActivitywrapper {
-  position: relative;
-  width: 100%;
-  padding: 0 10px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  /* border: 2px solid red; */
-}
+  /* .newMultisection_Activityimage {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+  } */
 
-.newMultisection_Activityimage {
-  width: 100%;
-  border-radius: 16px;
-  overflow: hidden;
-  cursor: pointer;
-  position: relative;
-}
+/* 
+  .newWorldActivitycardImage {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px !important;
+    z-index: 2;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .newWorldActivitycardImage img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  } */
+  
+  /* .newMultisection_Activityimage:hover img {
+    opacity: 0.4;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .newMultisection_Activityimage:hover .newWorldActivitycardImage {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
+  } */
+  
+  /* .newWorldActivitydetails {
+    position: absolute;
+    bottom: -62%;
+    left: 0;
+    background: #3380f2;
+    width: 100%;
+    height: 220px;
+    z-index: 100000000;
+    padding: 10px;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+   */
+  /* .newWorldActivitydetails h2 {
+    margin: 30px 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+  }
+   */
+  /* .newWorldActivitydetails h2 .job-title {
+    font-size: 16px;
+    line-height: 2;
+    color: white;
+    font-weight: 300;
+    display: block;
+  }
+  
+  .card:hover .newWorldActivitydetails {
+    bottom: 0;
+  } */
+  
+  .carousel .slick-dots {
+    bottom: -2.5vw;
+  }
+  
+  .carousel .slick-dots li button {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+  }
+  
+  .carousel .slick-dots li button:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    content: "";
+    text-align: center;
+    opacity: 0.5;
+    color: #000;
+    background-color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  
+  .carousel .slick-prev,
+  .carousel .slick-next {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+  }
+  
+  .carousel .slick-prev:hover,
+  .carousel .slick-prev:focus,
+  .carousel .slick-next:hover,
+  .carousel .slick-next:focus {
+    color: #fff;
+    outline: none;
+    background: #fff;
+  }
+  
+  .carousel .slick-prev:before,
+  .carousel .slick-next:before {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .carousel .slick-next {
+    right: -55px;
+  }
+  
+  .carousel .slick-prev {
+    left: -55px;
+  }
 
-.newWorldActivitycardImage {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 400px !important;
-  z-index: 2;
-  /* background-color: #000; */
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
+  
+  /* .clientstestimonial_title {
+    font-size: 27px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    text-decoration: none solid rgb(45,44,44);
+    vertical-align: baseline;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgb(51,128,242);
+  } */
+  
 
-.newWorldActivitycardImage img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-
-.newMultisection_Activityimage:hover img {
-  opacity: 0.4;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.newMultisection_Activityimage:hover .newWorldActivitycardImage {
-  -webkit-transform: translateY(-100px);
-  transform: translateY(-100px);
-  -webkit-transition: all 0.9s;
-  transition: all 0.9s;
-}
-
-.newWorldActivitydetails {
-  position: absolute;
-  bottom: -62%;
-  left: 0;
-  background: #3380f2;
-  width: 100%;
-  height: 220px;
-  z-index: 100000000;
-  padding: 10px;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.newWorldActivitydetails h2 {
-  margin: 30px 0;
-  padding: 0;
-  text-align: center;
-  color: white;
-}
-
-.newWorldActivitydetails h2 .job-title {
-  font-size: 16px;
-  line-height: 2;
-  color: white;
-  font-weight: 300;
-  display: block;
-}
-
-.card:hover .newWorldActivitydetails {
-  bottom: 0;
-}
-
-.carousel .slick-dots {
-  bottom: -2.5vw;
-}
-
-.carousel .slick-dots li button {
-  width: 20px;
-  height: 20px;
-  border: 1px solid #fff;
-  border-radius: 20px;
-}
-
-.carousel .slick-dots li button:before {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
-  content: "";
-  text-align: center;
-  opacity: 0.5;
-  color: #000;
-  background-color: #fff;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.carousel .slick-prev,
-.carousel .slick-next {
-  width: 50px;
-  height: 50px;
-  background-color: #fff;
-}
-
-.carousel .slick-prev:hover,
-.carousel .slick-prev:focus,
-.carousel .slick-next:hover,
-.carousel .slick-next:focus {
-  color: #fff;
-  outline: none;
-  background: #fff;
-}
-
-.carousel .slick-prev:before,
-.carousel .slick-next:before {
-  color: #000;
-  font-family: "Raleway", sans-serif;
-}
-
-.carousel .slick-next {
-  right: -55px;
-}
-
-.carousel .slick-prev {
-  left: -55px;
-}
-
-.clientstestimonial_title {
-  font-size: 27px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 4%;
-  margin-bottom: 3%;
-  text-decoration: none solid rgb(45, 44, 44);
-  vertical-align: baseline;
-  letter-spacing: normal;
-  text-align: center;
-  color: rgb(51, 128, 242);
-}
-
-.newMultisection_Activityimage {
-  width: 100%;
-  border-radius: 16px;
-  overflow: hidden;
-  cursor: pointer;
-  position: relative;
-}
-
-.newWorldActivitycardImage {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 450px;
-  z-index: 2;
-  background-color: #000;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.newWorldActivitycardImage img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-
-.newMultisection_Activityimage:hover img {
-  opacity: 0.4;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.newMultisection_Activityimage:hover .newWorldActivitycardImage {
-  -webkit-transform: translateY(-100px);
-  transform: translateY(-100px);
-  -webkit-transition: all 0.9s;
-  transition: all 0.9s;
-}
-
-/* .newWorldActivitydetails {
+  
+  /* .newMultisection_Activityimage {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+  }
+   */
+  /* .newWorldActivitycardImage {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    z-index: 2;
+    background-color: #000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+   */
+  /* .newWorldActivitycardImage img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .newMultisection_Activityimage:hover img {
+    opacity: 0.4;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .newMultisection_Activityimage:hover .newWorldActivitycardImage {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    -webkit-transition: all 0.9s;
+    transition: all 0.9s;
+  } */
+  
+  /* .newWorldActivitydetails {
     position: absolute;
     bottom: -50%;
     left: 0;
@@ -259,153 +264,77 @@
   .card:hover .newWorldActivitydetails {
     bottom: 0;
   } */
+  
+  .carousel .slick-dots {
+    bottom: -2.5vw;
+  }
+  
+  .carousel .slick-dots li button {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+  }
+  
+  .carousel .slick-dots li button:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    content: "";
+    text-align: center;
+    opacity: 0.5;
+    color: #000;
+    background-color: #fff;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  
+  .carousel .slick-prev,
+  .carousel .slick-next {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+  }
+  
+  .carousel .slick-prev:hover,
+  .carousel .slick-prev:focus,
+  .carousel .slick-next:hover,
+  .carousel .slick-next:focus {
+    color: #fff;
+    outline: none;
+    background: #fff;
+  }
+  
+  .carousel .slick-prev:before,
+  .carousel .slick-next:before {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .carousel .slick-next {
+    right: -55px;
+  }
+  
+  .carousel .slick-prev {
+    left: -55px;
+  }
+    
 
-.carousel .slick-dots {
-  bottom: -2.5vw;
-}
-
-.carousel .slick-dots li button {
-  width: 20px;
-  height: 20px;
-  border: 1px solid #fff;
-  border-radius: 20px;
-}
-
-.carousel .slick-dots li button:before {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
-  content: "";
-  text-align: center;
-  opacity: 0.5;
-  color: #000;
-  background-color: #fff;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.carousel .slick-prev,
-.carousel .slick-next {
-  width: 50px;
-  height: 50px;
-  background-color: #fff;
-}
-
-.carousel .slick-prev:hover,
-.carousel .slick-prev:focus,
-.carousel .slick-next:hover,
-.carousel .slick-next:focus {
-  color: #fff;
-  outline: none;
-  background: #fff;
-}
-
-.carousel .slick-prev:before,
-.carousel .slick-next:before {
-  color: #000;
-  font-family: "Raleway", sans-serif;
-}
-
-.carousel .slick-next {
-  right: -55px;
-}
-
-.carousel .slick-prev {
-  left: -55px;
-}
-
-/* This css refeence ius taken from the easy visa destinations */
-.newhomeeasyvisaouterdiv {
-  /* border: 1px solid red !important; */
-  /* height: 400px; */
-  margin-top: 1%;
-}
-
-.newEasyVisaouterHeading {
-  display: flex;
-  flex-direction: row;
-  /* border: 2px solid red; */
-}
-.newEasyVisaouterHeading h2 {
-  margin-left: 3%;
-  font-weight: 700;
-  font-size: 28px;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  color: #3380f2;
-}
-
-.newHomeEasyVisaDropContainer {
-  width: 20%;
-  margin-left: 56%;
-  margin-top: 0.1%;
-}
-
-.newEasyVisaCountryDrop {
-  margin-top: 13% !important;
-  margin-left: 22%;
-  color: #3380f2 !important;
-  font-weight: 700;
-  cursor: pointer;
-  border-radius: 20px !important;
-}
-.newEasyVisaCountryDrop:hover {
-  background-color: #3380f2;
-  color: white !important;
-  font-weight: 700;
-}
-
-.newhomeEasyVisaSlideroutercontainer {
-  display: flex;
-  flex-direction: row;
-}
-
-.newhomeEasyVisaSlidercontentdiv h2 {
-  /* border: 1px solid green; */
-  margin-left: 3%;
-  width: 93%;
-  color: #3380f2;
-  font-weight: 700;
-  font-size: 30px;
-}
-
-.newhomeEasyVisaContainer {
-  /* border: 1px solid purple; */
-  width: 96%;
-  margin-left: 1%;
-  /* margin: auto; */
-  /* gap: 5% !important; */
-}
-
-.travelstories_title {
-  font-size: 28px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  text-decoration: none solid rgb(45, 44, 44);
-  vertical-align: baseline;
-  letter-spacing: normal;
-  text-align: center;
-  color: rgb(51, 128, 242);
-}
-
-.newhomeEasyVisacardwrapper {
-  position: relative;
-  width: 106%;
-  padding: 0 10px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.newhomeEasyVisamaindiv {
+  .newWorldActivitywrapper {
+    position: relative;
+    width: 106%;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .newMultisection_Activityimage {
   margin-left: 3%;
   width: 102%;
   border-radius: 20px !important;
@@ -413,202 +342,69 @@
   cursor: pointer;
   position: relative;
 }
-
-.newhomeEasyVisacardimage {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 360px !important;
-  border-radius: 20px !important;
-  z-index: 2;
-  background-color: #000;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.newhomeEasyVisacardimage img {
-  width: 100%;
-  filter: brightness(0.8);
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-
-.newhomeEasyVisamaindiv:hover img {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.newhomeEasyVisamaindiv:hover .newhomeEasyVisacardimage {
-  -moz-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
-
-.newhomeEasyVisastorydetails {
-  position: absolute;
-  bottom: -62%;
-  left: 0;
-  width: 100%;
-  height: 310px;
-  z-index: 100000000;
-  padding: 10px;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.newhomeEasyVisastorydetails h2 {
-  margin: 0px 0;
-  padding: 0;
-  text-align: center;
-  color: white;
-}
-
-.newhomeEasyVisastorydetails h2 .newhomeEasyVisajob-title {
-  font-size: 16px;
-  line-height: 2;
-  color: white;
-  font-weight: 300;
-  display: block;
-}
-
-.card:hover .newhomeEasyVisastorydetails {
-  bottom: 0;
-}
-
-.newhomeEasyVisaSlideroutercontainer .slick-dots {
-  bottom: -2.5vw;
-}
-
-.newhomeEasyVisaSlideroutercontainer .slick-dots li button {
-  width: 20px;
-  height: 20px;
-  border: 1px solid #fff;
-  border-radius: 20px;
-  background-color: #3380f2;
-}
-
-.newhomeEasyVisaSlideroutercontainer .slick-dots li button:before {
-  /* border: 1px solid red !important; */
-  position: absolute;
-  font-size: 20px;
-  top: 50%;
-  left: 50%;
-  width: 10px;
-  height: 10px;
-  border-radius: 210px;
-  content: "";
-  text-align: center;
-  opacity: 0.5;
-  color: #000;
-  background-color: white !important;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.carousel .slick-prev,
-.carousel .slick-next {
-  border: 2px solid #3380f2;
-  width: 40px;
-  height: 50px;
-  /* border-radius: 30px; */
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
-  background-color: transparent !important;
-}
-
-.carousel .slick-prev:hover,
-.carousel .slick-prev:focus,
-.carousel .slick-next:hover,
-.carousel .slick-next:focus {
-  color: #fff;
-  outline: none;
-  background: #fff;
-}
-
-.carousel .slick-prev:before,
-.carousel .slick-next:before {
-  color: #000;
-  font-family: "Raleway", sans-serif;
-}
-
-.carousel .slick-next {
-  left: 100% !important;
-}
-
-.carousel .slick-prev {
-  left: -55px;
-}
-
-/* ----------------- New button css ----------------  */
-
-.newHomeEasyvisaDropContainer {
-  width: 10%;
-  margin-left: 59%;
-  margin-top: 2.1%;
-  display: flex;
-  flex-direction: row;
-  border-right: none;
-  height: 39px;
-  border-radius: 25px;
-  /* border: 2px solid green; */
-}
-.newHomeEasyvisaDropContainer:hover .newEasyvisaicondiv {
-  background-color: white;
-  color: #3380f2;
-  cursor: pointer;
-}
-.newHomeEasyvisaCountryDrop {
-  /* border: 3px solid red !important; */
-  background-color: #3380f2 !important;
-  width: 80% !important;
-  height: 39px !important;
-  color: white !important;
-  font-weight: 700 !important;
-  font-size: 17px !important;
-  cursor: pointer;
-  border-radius: 25px 0px 0px 25px !important;
-  border-right: none !important;
-  appearance: none !important;
-  padding-top: 2.5% !important;
-  border: none !important;
-}
-.newHomeEasyvisaDropContainer select {
-  /* border: 1px solid red !important; */
-  background-image: none !important;
-}
-
-.newHomeEasyvisaCountryDrop:hover {
-  background-color: white !important;
-  color: #3380f2 !important;
-  font-weight: 700;
-  /* border: 3px solid #3380F2; */
-}
-.newEasyvisaicondiv {
-  width: 20%;
-  color: white;
-  /* border: 3px solid #3380F2; */
-  background-color: #3380f2;
-  height: 39px;
-  /* font-size: 18px !important; */
-  border-radius: 0px 25px 25px 0px;
-  padding-right: 5%;
-  border-left: none;
-  /* border: 2px solid yellow; */
-}
-.Easyvisaicon {
-  margin-left: -37%;
-  /* width: 100% !important; */
-  color: #3380f2;
-  border: 3px solid #3380f2;
-  background-color: white;
-  height: 25px;
-  width: 25px;
-  font-size: 18px !important;
-  border-radius: 100%;
-  margin-top: 29% !important;
-  /* margin-bottom: 105%;*/
-}
+  .newMultisection_Activityimage:hover img {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .newMultisection_Activityimage:hover .newWorldActivitycardImage {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  .newWorldActivitycardImage {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 360px !important;
+    border-radius: 20px !important;
+    z-index: 2;
+    background-color: #000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .newWorldActivitycardImage img {
+    width: 100%;
+    filter: brightness(0.8);
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .newMultisection_Activityimage:hover .newWorldActivitycardImage {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  .newWorldActivitydetails {
+    position: absolute;
+    bottom: -62%;
+    left: 0;
+    width: 100%;
+    height: 310px;
+    z-index: 100000000;
+    padding: 10px;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    line-height: 15px;
+  }
+  
+  .newWorldActivitydetails h2 {
+    margin: 0px 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .newWorldActivitydetails h2 .job-title {
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    font-weight: 300;
+    display: block;
+  }
+  
+  .card:hover .newWorldActivitydetails {
+    bottom: 0;
+  }
+  
+  

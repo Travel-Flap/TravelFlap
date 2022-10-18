@@ -22,7 +22,7 @@ export const Offers = () => {
 
         <MiddleForm />
         <MultiDropdown />
-        <HotelCards />
+        {/* <HotelCards /> */}
         <Newsletter/>
         <FooterLinks/>
         <Experiment/>

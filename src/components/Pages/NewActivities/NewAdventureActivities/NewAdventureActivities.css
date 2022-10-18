@@ -35,58 +35,9 @@
     color: rgb(51,128,242);
   }
   
-  
-  .newAdventureActivitywrapper {
-    position: relative;
-    width: 100%;
-    padding: 0 10px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    /* border: 2px solid red; */
-  }
-  
 
-  .newAdventure_Activityimage {
-    width: 100%;
-    border-radius: 16px;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-  }
-
-
-  .newAdventureActivitycardImage {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 400px !important;
-    z-index: 2;
-    /* background-color: #000; */
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-  }
-  
-  .newAdventureActivitycardImage img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-  
-  .newAdventure_Activityimage:hover img {
-    opacity: 0.4;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-  }
-  
-  .newAdventure_Activityimage:hover .newAdventureActivitycardImage {
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
-    -webkit-transition: all 0.9s;
-    transition: all 0.9s;
-  }
-  
-  .newAdventureActivitydetails {
+ 
+  /* .newAdventureActivitydetails {
     position: absolute;
     bottom: -62%;
     left: 0;
@@ -98,7 +49,7 @@
     -webkit-transition: 0.6s;
     transition: 0.6s;
   }
-  
+   */
   .newAdventureActivitydetails h2 {
     margin: 30px 0;
     padding: 0;
@@ -193,79 +144,7 @@
     text-align: center;
     color: rgb(51,128,242);
   }
-  
-
-  
-  .newAdventure_Activityimage {
-    width: 100%;
-    border-radius: 16px;
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-  }
-  
-  .newAdventureActivitycardImage {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 450px;
-    z-index: 2;
-    background-color: #000;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-  }
-  
-  .newAdventureActivitycardImage img {
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-  }
-  
-  .newAdventure_Activityimage:hover img {
-    opacity: 0.4;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-  }
-  
-  .newAdventure_Activityimage:hover .newAdventureActivitycardImage {
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px);
-    -webkit-transition: all 0.9s;
-    transition: all 0.9s;
-  }
-  
-  /* .newAdventureActivitydetails {
-    position: absolute;
-    bottom: -50%;
-    left: 0;
-    background: #3380f2;
-    width: 100%;
-    height: 213px;
-    z-index: 100000000;
-    padding: 10px;
-    -webkit-transition: 0.6s;
-    transition: 0.6s;
-  }
-  
-  .newAdventureActivitydetails h2 {
-    margin: 30px 0;
-    padding: 0;
-    text-align: center;
-    color: white;
-  }
-  
-  .newAdventureActivitydetails h2 .job-title {
-    font-size: 16px;
-    line-height: 2;
-    color: white;
-    font-weight: 300;
-    display: block;
-  }
-  
-  .card:hover .newAdventureActivitydetails {
-    bottom: 0;
-  } */
+ 
   
   .carousel .slick-dots {
     bottom: -2.5vw;
@@ -328,3 +207,94 @@
     left: -55px;
   }
     
+  .newAdventureActivitywrapper {
+    position: relative;
+    width: 106%;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .newTopCity_Activityimage {
+    margin-left: 3%;
+    width: 102%;
+    border-radius: 20px !important;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+  }
+   .newTopCity_Activityimage:hover img {
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    }
+    
+  .newTopCity_Activityimage:hover .newAdventureActivitycardImage {
+      -moz-transform: scale(1.5);
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+    }
+
+    .newTopCity_Activityimage:hover .newAdventureActivitycardImage {
+      -moz-transform: scale(1.5);
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+    }
+
+    .newMultisection_Activityimage:hover .newAdventureActivitycardImage {
+      -moz-transform: scale(1.5);
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+    }
+    .newAdventureActivitycardImage {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 360px !important;
+      border-radius: 20px !important;
+      z-index: 2;
+      background-color: #000;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    }
+    
+    .newAdventureActivitycardImage img {
+      width: 100%;
+      filter: brightness(0.8);
+      -o-object-fit: cover;
+      object-fit: cover;
+    }
+    .newMultisection_Activityimage:hover .newAdventureActivitycardImage {
+      -moz-transform: scale(1.5);
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+    }
+    .newAdventureActivitydetails {
+      position: absolute;
+      bottom: -62%;
+      left: 0;
+      width: 100%;
+      height: 310px;
+      z-index: 100000000;
+      padding: 10px;
+      -webkit-transition: 0.6s;
+      transition: 0.6s;
+      line-height: 15px;
+    }
+    
+    .newAdventureActivitydetails h2 {
+      margin: 0px 0;
+      padding: 0;
+      text-align: center;
+      color: white;
+    }
+    
+    .newAdventureActivitydetails h2 .job-title {
+      font-size: 16px;
+      line-height: 1.5;
+      color: white;
+      font-weight: 300;
+      display: block;
+    }
+    
+    .card:hover .newAdventureActivitydetails {
+      bottom: 0;
+    }

@@ -3,7 +3,7 @@
     height: 730px;
     background-image: url("./reviewbg.png");
     /* border: 2px solid red; */
-    /* background-color: #3380f2; */
+    background-color: #3380f2;
     padding: 20px 0;
     position: relative;
   }

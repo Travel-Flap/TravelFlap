@@ -34,10 +34,10 @@ export const NewHomeTopCitites = () => {
     const settings = {
         // dots: true,
         // dotsclassName: "slick-dots line-indicator",
-        // infinite: true,
-        // autoplay: true,
-        // autoplayspeed:1000,
-        // speed: 1000,
+        infinite: true,
+        autoplay: true,
+        autoplayspeed: 2000,
+        speed: 2000,
         slidesToShow: 5,
         slidesToScroll: 1,
         cssEase: "linear",
@@ -201,7 +201,7 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/NewHomeLayout/NewHomeTopCities/melbourne.jpg" />
+                                                <img src="Images/NewHomeLayout/NewHomeTopCities/Melbourne.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
                                                 <p>I love the experience with the travel Flap. I surely recommend it
@@ -219,7 +219,7 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/NewHomeLayout/NewHomeTopCities/paris.jpg" />
+                                                <img src="Images/NewHomeLayout/NewHomeTopCities/Paris.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
                                                 <p>I love the experience with the travel Flap. I surely recommend it
@@ -237,7 +237,7 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/NewHomeLayout/NewHomeTopCities/tokyo.jpg" />
+                                                <img src="Images/NewHomeLayout/NewHomeTopCities/Tokyo.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
                                                 <p>I love the experience with the travel Flap. I surely recommend it

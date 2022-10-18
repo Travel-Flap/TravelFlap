@@ -1,0 +1,29 @@
+
+.select_NewOffersdiv1{
+    width: 17%;
+}
+
+.select_NewOffersdiv2{
+    width: 17%;
+}
+
+.select_NewOffersdiv3{
+    width: 17%;
+}
+
+.select_NewOffersdiv4{
+    width: 17%;
+}
+
+.select_NewOffersdiv5{
+    width: 15%;
+}
+.newOffers_selectDiv{
+    margin: auto;
+    display: flex;
+    gap: 1.5%;
+    margin-left: 11%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+
+}

@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './NewAdventureActivities.css';
+import { Button } from 'react-bootstrap';
 // import "/src/App.css";
 
 export default class NewAdventureActivities extends Component {
@@ -33,6 +34,7 @@ export default class NewAdventureActivities extends Component {
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
+                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
                         </div>
@@ -48,6 +50,7 @@ export default class NewAdventureActivities extends Component {
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
+                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
                         </div>
@@ -63,6 +66,7 @@ export default class NewAdventureActivities extends Component {
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
+                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
                         </div>
@@ -78,6 +82,7 @@ export default class NewAdventureActivities extends Component {
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
+                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
                         </div>
@@ -93,6 +98,7 @@ export default class NewAdventureActivities extends Component {
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
+                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
                         </div>
@@ -108,6 +114,7 @@ export default class NewAdventureActivities extends Component {
                                     <p>I love the experience with the travel Flap. I surely recommend it
                                         other for same
                                     </p></span>
+                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
                         </div>

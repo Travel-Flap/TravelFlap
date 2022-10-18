@@ -2,9 +2,15 @@
     border: 1px solid red;
 } */
 
+.newhomeTopCititesMaincarddiv{
+  /* border: 2px solid red; */
+  border: none !important;
+  outline: none !important;
+}
 .newhomeTopCititesMaincarddiv img {
   height: 500px;
   /* border: 2px solid red; */
+  outline: none !important;
 }
 
 /* .newhomeTopCitiesmainheading{
