@@ -15,7 +15,7 @@ export const NewFlightsBanner = () => {
                         <img src="Images/NewHomeLayout/Banners/Flight/Images 2.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="Images/NewHomeLayout/Banners/Flight/Images 3.jpg" class="d-block w-100" alt="..." />
+                        <img src="Images/NewHomeLayout/Banners/Flight/images 3.jpg" class="d-block w-100" alt="..." />
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
