@@ -11,9 +11,9 @@ export default class NewHomeAwards extends Component {
         const settings = {
             // dots: true,
             infinite: true,
-            // autoplay: true,
-            // autoplaySpeed: 2000,
-            // speed: 2000,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            speed: 2000,
             slidesToShow: 5,
             slidesToScroll: 1,
             cssEase: "linear",
@@ -113,8 +113,7 @@ export default class NewHomeAwards extends Component {
                         {/* </div> */}
                     </div>
 
-                    <div className="card-wrapper awardsnewhomecardwrapper">
-                        {/* <div className="card travelstoriesdiv"> */}
+                    {/* <div className="card-wrapper awardsnewhomecardwrapper">
                         <div className="awards">
                             <div className='card_img'><img src="Images/AchievementsImage4.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
@@ -122,18 +121,18 @@ export default class NewHomeAwards extends Component {
                                 <div className='awardsnewhomecard_title'>
                                     <h4 className="card-title">GSA of Tchadia Airlines</h4>
                                 </div>
-                                {/* <div className='awardsnewhomecard_desc'>
+                                <div className='awardsnewhomecard_desc'>
                                     <p className="card-text">In Bangui Car.</p>
-                                </div> */}
+                                </div>
                             </div>
                         </div>
-                        {/* </div> */}
-                    </div>
+                    </div> */}
 
                     <div className="card-wrapper awardsnewhomecardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="awardsnewhomecard card">
-                            <div className='card_img'><img src="Images/AchievementsImage5.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'>
+                                <img src="Images/AchievementsImage5.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awardsnewhomecard_title'>

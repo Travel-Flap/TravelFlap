@@ -101,6 +101,7 @@
   .singleNewVisaBannerdropcontainer p{
     /* border: 1px solid red; */
     height: 10px;
+    color: #818090;
     /* margin-top: -4%; */
   }
 
@@ -108,8 +109,9 @@
     /* margin-top: 2% !important; */
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     font-size: 15px;
-    height: 32px;
-    padding-top: -5px !important;
+    height: 36px;
+    border: 2px solid #dddddd78 !important;
+    /* padding-top: -5px !important; */
   }
 
   .singleNewVisaBannerdropcontainer select::placeholder{
@@ -126,14 +128,16 @@
   .singleNewVisaBannerdropcontainer1 p{
      /* border: 1px solid red; */
      height: 10px;
+     color: #818090;
      /* margin-top: -7%; */
   }
 
   .singleNewVisaBannerdropcontainer1 select{
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     font-size: 15px;
-    height: 30px;
-
+    height: 35px;
+    padding: 5px 10px;
+    border: 2px solid #dddddd78;
   }
 
   .singleNewVisaBannerdropcontainer2 {
@@ -147,6 +151,7 @@
     /* border: 1px solid red; */
     /* margin-left: 40% !important; */
     height: 10px;
+    color: #818090;
     /* margin-top: -4%; */
   }
 
@@ -154,13 +159,11 @@
     /* margin-top: 2% !important; */
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     font-size: 15px;
-    height: 32px;
-    padding-top: 2px !important;
+    height: 35px;
+    border: 2px solid #dddddd78;
+    padding: 5px 10px !important;
   }
 
-  .singleNewVisaBannerdropcontainer2 select::placeholder{
-    padding-top: 8px;
-  }
 
   .newVisaform{
     /* border: 1px solid red; */

@@ -1,4 +1,4 @@
-import React from 'react';
+  import React from 'react';
 import { Footer } from '../../Footer/Footer';
 import { FooterLinks } from '../../FooterLinks/FooterLinks';
 import { Nav } from '../../Nav/Nav';

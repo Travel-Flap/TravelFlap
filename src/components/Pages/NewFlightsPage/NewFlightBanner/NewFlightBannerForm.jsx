@@ -88,7 +88,14 @@ export const NewFlightBannerForm = () => {
             <div id='filter-newFlightsPagetrave-container'>
 
                 <div className='multiroundbuttons'>
-                    <div class="form-check form-check-inline">
+
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose</option>
+                        <option value="1">One Way</option>
+                        <option value="2">Two Way</option>
+                        <option value="3">Round Trip</option>
+                    </select>
+                    {/* <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
                         <label class="form-check-label" for="inlineRadio1">One Way</label>
                     </div>
@@ -99,7 +106,7 @@ export const NewFlightBannerForm = () => {
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" />
                         <label class="form-check-label" for="inlineRadio3">Round Trip</label>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className='newFlightsinputmaindiv'>

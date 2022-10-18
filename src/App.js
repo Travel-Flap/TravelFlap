@@ -36,7 +36,8 @@ function App() {
         {/* <Route path="/offers" element={<Offers />}   /> */}
 
         
-        <Route path="/" element={<NewHomeLayout/>} />
+        {/* <Route path="/" element={<NewHomeLayout/>} /> */}
+        <Route path="/" element={<NewFlight/>} />
         <Route path="/flights" element={<NewFlight/>} />
         <Route path="/hotel" element={<NewHotel/>} />
         <Route path="/holidays" element={<NewHolidaysPage/>} />

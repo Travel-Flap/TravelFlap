@@ -114,7 +114,7 @@ export const NewHolidayBannerForm = () => {
                         <div className='newHolidaysNameInput'>
                             <div className='newHolidaysinputNameContainer'>
                                 <BsSearch className='newHolidaysInputicon' />
-                                <input type="text" placeholder='Search destination,Hotels' />
+                                <input type="text" placeholder='Search destination' />
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@ export const NewHolidayBannerForm = () => {
                         <div className='innerNewHolidaydropdowncontainer2'>
                             <div className='optionsNewHolidaysBannercontainer'>
                                 <div className='singleNewHolidaysBannerdropcontainer'>
-                                    <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example" style={{ width: "60%", border: "1px solid #3380f2" }}>
+                                    <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example" style={{width: "60%", border: "border: 2px solid #dddddd75;" }}>
                                         <option value="" style={{ textAlign: "center" }}>Select Country</option>
                                         {
                                             countrydata.map((getcountry, index) => (
@@ -135,7 +135,7 @@ export const NewHolidayBannerForm = () => {
                                 </div>
 
                                 <div className='singleNewHolidaysBannerdropcontainer1'>
-                                    <select className="form-select holidayform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%", border: "1px solid #3380f2" }}>
+                                    <select className="form-select holidayform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%", border: "border: 2px solid #dddddd75;" }}>
                                         <option value="" style={{ textAlign: "center" }}>Select State</option>
                                         {
                                             state.map((getstate, index) => (
@@ -146,7 +146,7 @@ export const NewHolidayBannerForm = () => {
                                 </div>
 
                                 <div className='singleNewHolidaysBannerdropcontainer'>
-                                    <select className="form-select" aria-label="Default select example" style={{ marginLeft: "6%", width: "100%", border: "1px solid #3380f2" }}>
+                                    <select className="form-select" aria-label="Default select example" style={{marginLeft:"5%", width: "100%", border: "border: 2px solid #dddddd75;" }}>
                                         <option value>Package Category</option>
                                         <option value="1">Family</option>
                                         <option value="2">Holiday</option>

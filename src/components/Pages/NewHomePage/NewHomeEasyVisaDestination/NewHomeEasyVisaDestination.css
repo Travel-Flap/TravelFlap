@@ -126,7 +126,7 @@
 
 .newhomeEasyVisastorydetails {
   position: absolute;
-  bottom: -62%;
+  bottom: -45%;
   left: 0;
   width: 100%;
   height: 310px;
@@ -152,9 +152,9 @@
   display: block;
 }
 
-.card:hover .newhomeEasyVisastorydetails {
+/* .card:hover .newhomeEasyVisastorydetails {
   bottom: 0;
-}
+} */
 
 .newhomeEasyVisaSlideroutercontainer .slick-dots {
   bottom: -2.5vw;

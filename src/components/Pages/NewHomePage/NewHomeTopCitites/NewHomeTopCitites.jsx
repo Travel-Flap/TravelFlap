@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button } from 'react-bootstrap';
 import { MdLocationCity } from "react-icons/md";
-import {FaAngleRight} from "react-icons/fa";
+import { FaAngleRight } from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
 
 export const NewHomeTopCitites = () => {
@@ -93,7 +93,7 @@ export const NewHomeTopCitites = () => {
 
                         <div className='topCititesHeadingouterdiv'>
                             <h2>Top Cities To Explore</h2>
-                            
+
                             {/* <div className='newHomeTopCititesDropContainer'>
                         <select className="form-select newTopCititesCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
@@ -108,20 +108,20 @@ export const NewHomeTopCitites = () => {
                     </div> */}
 
 
-                   <div className='newHomeTopCitiesDropContainer'>
-                        <select className="form-select newHomeTopCitiesCountryDrop" onChange={(e) => handlecounty(e)}
-                            style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
-                            <option value="" style={{ textAlign: "center" }}>Country</option>
-                            {
-                                countrydata.map((getcountry, index) => (
-                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                ))
-                            }
-                        </select>
-                        <div className='newTopCitiesicondiv'>
-                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="topcitiesicon" />
-                        </div>
-                    </div>
+                            <div className='newHomeTopCitiesDropContainer'>
+                                <select className="form-select newHomeTopCitiesCountryDrop" onChange={(e) => handlecounty(e)}
+                                    style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
+                                    <option value="" style={{ textAlign: "center" }}>Country</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                </select>
+                                <div className='newTopCitiesicondiv'>
+                                    <FaAngleRight style={{ fontSize: "15px" }} size={"1em"} className="topcitiesicon" />
+                                </div>
+                            </div>
 
                             {/* <div className='newHomeTopCititesDropContainer'>
                                 <select className="form-select newTopCititesCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
@@ -146,9 +146,11 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/NewHomeLayout/NewHomeTopCities/chicago.jpg" />
+                                                {/* <img src="Images/NewHomeLayout/NewHomeTopCities/chicago.jpg" /> */}
+                                                <img src="Images/BestBudget/Cambodia.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
+                                                <h5>Cambodia</h5>
                                                 <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same
                                                 </p>
@@ -168,6 +170,7 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/NewHomeLayout/NewHomeTopCities/London.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
+                                                <h5>London</h5>
                                                 <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same
                                                 </p>
@@ -183,9 +186,11 @@ export const NewHomeTopCitites = () => {
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
-                                                <img src="Images/NewHomeLayout/NewHomeTopCities/losangeles.jpg" />
+                                                {/* <img src="Images/NewHomeLayout/NewHomeTopCities/losangeles.jpg" /> */}
+                                                <img src="Images/BestBudget/Greenland.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
+                                                <h5>Greenland</h5>
                                                 <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
                                                 </p>
@@ -204,6 +209,7 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/NewHomeLayout/NewHomeTopCities/Melbourne.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
+                                                <h5>Melbourne</h5>
                                                 <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
                                                 </p>
@@ -222,6 +228,7 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/NewHomeLayout/NewHomeTopCities/Paris.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
+                                                <h5>Paris</h5>
                                                 <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
                                                 </p>
@@ -240,6 +247,7 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/NewHomeLayout/NewHomeTopCities/Tokyo.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
+                                                <h5>Tokyo</h5>
                                                 <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
                                                 </p>
@@ -252,7 +260,7 @@ export const NewHomeTopCitites = () => {
                                         </div>
                                     </div>
 
-                                    <div className="card-wrapper">
+                                    {/* <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
                                             <div className="card-image topcitiesnewHomePagecardimage">
                                                 <img src="Images/NewHomeLayout/NewHomeTopCities/denmark.jpg" />
@@ -269,7 +277,7 @@ export const NewHomeTopCitites = () => {
                                             <h2>Aarhus</h2>
                                             <p className="job-title">"Best Holiday trip Ever" </p>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                     <div className="card-wrapper">
                                         <div className="card topcitiesnewHomePagediv">
@@ -277,6 +285,7 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/NewHomeLayout/NewHomeTopCities/newyork.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
+                                                <h5>New York</h5>
                                                 <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
                                                 </p>
@@ -296,6 +305,7 @@ export const NewHomeTopCitites = () => {
                                                 <img src="Images/NewHomeLayout/NewHomeTopCities/swedan.jpg" />
                                             </div>
                                             <div className="topcitiesnewHomePagedetails">
+                                                <h5>Swedan</h5>
                                                 <p>I love the experience with the travel Flap. I surely recommend it
                                                     other for same.
                                                 </p>

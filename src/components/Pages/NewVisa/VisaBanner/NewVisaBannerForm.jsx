@@ -137,7 +137,7 @@ export const NewVisaBannerForm = () => {
 
                             <div className='singleNewVisaBannerdropcontainer1'>
                                 <p>Select Nationality</p>
-                                <select className="form-select newVisaform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%"}}>
+                                <select className="form-select newVisaform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%" }}>
                                     <option value="" >Select State</option>
                                     {
                                         state.map((getstate, index) => (

@@ -85,8 +85,8 @@ export const TopDemandedVisa = () => {
         <Slider
           arrows={false}
           // autoplay={true}
-          // speed={1000}
-          // autoplaySpeed={1000}
+          // speed={2000}
+          // autoplaySpeed={2000}
           dotsclassName="slick-dots line-indicator"
           ref={sliderRef}
           slidesToShow={4}
@@ -150,129 +150,106 @@ export const TopDemandedVisa = () => {
           <div className="card-wrapper newTopDemandedVisacardmain">
             <div className="card newTopDemandedVisadestinationsdiv">
               <div className="card-image newTopDestinationVisacardimage">
-                <img src="https://lccintl.ezeeibe.com/cruisextranet/ITPL0071_Ship_Cruise_468.jpeg" />
+                <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/IndiaVisa.jpg" />
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
-                <h2>Olivia <span className="job-title">"Best Holiday trip Ever"
-                  <p>I love the experience with the travel Flap. I surely recommend it
+                <h2>Indian Visa <span className="job-title">"Best Holiday trip Ever"
+                  {/* <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
-                  </p>
+                  </p> */}
 
                 </span>
-                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
+                  <Button variant="primary" style={{ marginLeft: "30%" }}>Read More</Button>
                 </h2>
               </div>
             </div>
           </div>
 
           <div className="card-wrapper newTopDemandedVisacardmain">
-            <div className="card internationalcruisedestinationsdiv">
+            <div className="card newTopDemandedVisadestinationsdiv">
               <div className="card-image newTopDestinationVisacardimage">
-                <img src="https://lccintl.ezeeibe.com/cruisextranet/ITPL0073_Ship_Cruise_277.jpeg" />
+                <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/SingaporeVisa.jpg" />
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
-                <h2>Amirt Maan <span className="job-title">"Best Holiday trip Ever"
-                  <p>I love the experience with the travel Flap. I surely recommend it
+                <h2>Singapore Visa <span className="job-title">"Best Holiday trip Ever"
+                  {/* <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
-                  </p>
+                  </p> */}
+
                 </span>
-                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
+                  <Button variant="primary" style={{ marginLeft: "30%" }}>Read More</Button>
                 </h2>
               </div>
             </div>
           </div>
 
           <div className="card-wrapper newTopDemandedVisacardmain">
-            <div className="card internationalcruisedestinationsdiv">
+            <div className="card newTopDemandedVisadestinationsdiv">
               <div className="card-image newTopDestinationVisacardimage">
-                <img src="https://lccintl.ezeeibe.com/cruisextranet/ITPL0073_Ship_Cruise_973.jpeg" />
+                <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/SouthAfricaVisa.jpg" />
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
-                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
-                  <p>I love the experience with the travel Flap. I surely recommend it
+                <h2>South Africa Visa <span className="job-title">"Best Holiday trip Ever"
+                  {/* <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
-                  </p></span>
-                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
+                  </p> */}
+
+                </span>
+                  <Button variant="primary" style={{ marginLeft: "30%" }}>Read More</Button>
                 </h2>
               </div>
             </div>
           </div>
 
           <div className="card-wrapper newTopDemandedVisacardmain">
-            <div className="card internationalcruisedestinationsdiv">
+            <div className="card newTopDemandedVisadestinationsdiv">
               <div className="card-image newTopDestinationVisacardimage">
-                <img src="https://lccintl.ezeeibe.com/cruisextranet/ITPL0033_Ship_Cruise_570.jpeg" />
+                <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/TurkeyVisa.jpg" />
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
-                <h2>Aman Gupta <span className="job-title">"Best Holiday trip Ever"
-                  <p>I love the experience with the travel Flap. I surely recommend it
+                <h2>Turkey Visa <span className="job-title">"Best Holiday trip Ever"
+                  {/* <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
-                  </p></span>
-                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
+                  </p> */}
+
+                </span>
+                  <Button variant="primary" style={{ marginLeft: "30%" }}>Read More</Button>
                 </h2>
               </div>
             </div>
           </div>
 
           <div className="card-wrapper newTopDemandedVisacardmain">
-            <div className="card internationalcruisedestinationsdiv">
+            <div className="card newTopDemandedVisadestinationsdiv">
               <div className="card-image newTopDestinationVisacardimage">
-                <img src="https://lccintl.ezeeibe.com/cruisextranet/ITPL0073_Ship_Cruise_663.jpeg" />
+                <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/UAEVisa.jpg" />
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
-                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
-                  <p>I love the experience with the travel Flap. I surely recommend it
+                <h2>UAE Visa <span className="job-title">"Best Holiday trip Ever"
+                  {/* <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
-                  </p></span>
-                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
+                  </p> */}
+
+                </span>
+                  <Button variant="primary" style={{ marginLeft: "30%" }}>Read More</Button>
                 </h2>
               </div>
             </div>
           </div>
 
           <div className="card-wrapper newTopDemandedVisacardmain">
-            <div className="card internationalcruisedestinationsdiv">
+            <div className="card newTopDemandedVisadestinationsdiv">
               <div className="card-image newTopDestinationVisacardimage">
-                <img src="https://lccintl.ezeeibe.com/cruisextranet/ITPL0033_Ship_Cruise_570.jpeg" />
+                <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/UnitesStatesVisa.jpg" />
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
-                <h2>John Doe <span className="job-title">"Best Holiday trip Ever"
-                  <p>I love the experience with the travel Flap. I surely recommend it
+                <h2>United States Visa <span className="job-title">"Best Holiday trip Ever"
+                  {/* <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
-                  </p></span>
-                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
-                </h2>
-              </div>
-            </div>
-          </div>
+                  </p> */}
 
-          <div className="card-wrapper newTopDemandedVisacardmain">
-            <div className="card internationalcruisedestinationsdiv">
-              <div className="card-image newTopDestinationVisacardimage">
-                <img src="https://lccintl.ezeeibe.com/cruisextranet/ITPL0033_Ship_Cruise_570.jpeg" />
-              </div>
-              <div className="newTopDemandedVisadestinationsdetails">
-                <h2>Yuvraj <span className="job-title">"Best Holiday trip Ever"
-                  <p>I love the experience with the travel Flap. I surely recommend it
-                    other for same
-                  </p></span>
-                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
-                </h2>
-              </div>
-            </div>
-          </div>
-
-          <div className="card-wrapper newTopDemandedVisacardmain">
-            <div className="card internationalcruisedestinationsdiv">
-              <div className="card-image newTopDestinationVisacardimage">
-                <img src="https://lccintl.ezeeibe.com/cruisextranet/ITPL0033_Ship_Cruise_570.jpeg" />
-              </div>
-              <div className="newTopDemandedVisadestinationsdetails">
-                <h2>Charles Darvin <span className="job-title">"Best Holiday trip Ever"
-                  <p>I love the experience with the travel Flap. I surely recommend it
-                    other for same
-                  </p></span>
-                  <Button variant="primary" style={{marginLeft:"30%"}}>Read More</Button>
+                </span>
+                  <Button variant="primary" style={{ marginLeft: "30%" }}>Read More</Button>
                 </h2>
               </div>
             </div>
