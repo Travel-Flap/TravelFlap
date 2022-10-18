@@ -141,7 +141,7 @@ export const NewFlightBannerForm = () => {
                         <div id='newFlightsPage_departure'>
                             <h5>Choose Travellers </h5>
                             {/* <FaAngleDown className='downHotelPagearrowicon' /> */}
-                            <div className="dropdownnewHotelPage-content">
+                            <div className="dropdownnewFlightsPage-content">
                                 <div className='navbarnewHotelPageOptions'>
                                     <FaPlusCircle className='contactIcon' />   <FaMinusCircle className='decrease' /> Adults
                                 </div>
@@ -422,7 +422,7 @@ export const NewFlightBannerForm = () => {
 // //         <div id='newHomePage_flights_Departure'>
 // //             <h3>Travellers </h3>
 // //             {/* <FaAngleDown className='downHotelPagearrowicon' /> */}
-// //             <div className="dropdownnewHotelPage-content">
+// //             <div className="dropdownnewFlightsPage-content">
 // //                 <div className='navbarnewHotelPageOptions'>
 // //                     <FaPlusCircle className='contact_Flights_icon' />   <FaMinusCircle className='decrease' /> Adults
 // //                 </div>

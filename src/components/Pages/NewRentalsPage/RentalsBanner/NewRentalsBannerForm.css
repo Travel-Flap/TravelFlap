@@ -25,7 +25,7 @@
     font-family: Arial, Helvetica, sans-serif !important;
     /* color: black; */
     color: #818090;
-    margin-top: 1%;
+    margin-top: 2%;
   }
   
   /* This css is for the experiment input div part */
@@ -71,14 +71,15 @@
   .newRentalsNameInput{
     /* border: 1px solid black ; */
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     color: #212529;
     /* background-color: #8DBBFF; */
     width: 100%;
+    border: 1px solid #3380f2;
     height: 40px;
     display: flex;
-    padding-left: 5px;
-    padding-top: 5px;
+    /* padding-left: 2px; */
+    padding-top: 2px;
     /* border-radius: 5px; */
     flex-direction: row;
   }
@@ -113,15 +114,15 @@
   .newRentalsInputNameContainer input::placeholder{
     /* padding-left: 5%; */
     color: black;
-    font-size: 16px;
+    font-size: 15px;
   }
   
   .newRentalsInputicon{
-    margin-top: 1.4%;
-    font-size: 22px;
+    margin-top: 2%;
+    font-size: 18px;
     color: black;
     /* margin-right: 4%; */
-    margin-left: 4%;
+    margin-left: 2%;
   
   }
   
@@ -130,12 +131,12 @@
   }
   
   
-  .newFlightsCheckIn_dateContainer{
+  .newRentalsCheckIn_dateContainer{
     /* border: 1px solid purple; */
     width: 20%;
   }
   
-  .newFlightsCheckIn_dateContainer p{
+  .newRentalsCheckIn_dateContainer p{
     /* border: 1px solid maroon; */
     height: 20px;
     margin-left: 5%;
@@ -145,17 +146,17 @@
   }
   
   
-  .newFlightsCheckIn_dateContainer input{
+  .newRentalsCheckIn_dateContainer input{
     /* border-left: 1px solid black !important; */
     /* border: 1px solid black !important; */
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    border: 1px solid #3380f2 !important;
     margin-top: -7%;
     margin-left: 5%;
     width: 100%;
-    border: none;
     outline: none !important;
-    padding-top: 2%;
+    padding-top: 3%;
     height: 40px;
     width: 90% !important;
     color: black;
@@ -165,6 +166,12 @@
     font-size: 16px;
   }
   
+
+  .newRentalsCheckIn_dateContainer input::placeholder{
+    padding-top: 12px !important;
+  }
+
+
   .newRentalsCheckout_DateContainer{
     /* border-right: 1px solid orange; */
     width: 22%;
@@ -182,10 +189,10 @@
   .newRentalsCheckout_DateContainer input{
     /* border: 1px solid black !important; */
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     margin-top: -7%;
     width: 100%;
-    border: none;
+    border: 1px solid #3380f2;
     outline: none !important;
     padding-top: 2%;
     height: 40px;
@@ -196,40 +203,32 @@
     font-size: 16px;
   }
   
-  .newFlightsGuest_outerDiv{
-    /* border: 1px solid black; */
-    width: 30%;
-    margin-left:-1%;
-    font-family: Arial, Helvetica, sans-serif !important;
-    color: #818090;
-    font-size: 15px;
-  }
-  
-  #newFlightsPage_departure {
+
+  /* #newFlightsPage_departure {
     display: flex;
-    /* border: 1px solid black !important; */
-    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+    border: 1px solid black !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     flex-direction: row;
     width: 100%;
     margin-top: -8% !important;
-    /* color: #3380f2; */
+    color: #3380f2;
     color: black;
     background-color: white !important;
     border-radius: 0px;
-  }
+  } */
   
-  #newFlightsPage_departure h5 {
+  /* #newFlightsPage_departure h5 {
     
     font-size: 17px;
-    /* font-weight: 700; */
-    /* margin-left: -7%; */
+    font-weight: 700;
+    margin-left: -7%;
     padding-top: 9px;
     padding-left: 6px;
     margin-top: 0% !important;
     height: 30px;
-    /* padding-top: 10% !important; */
-  }
+    padding-top: 10% !important;
+  } */
   
   .dropdownnewHotelPage-content {
     display: none;
@@ -240,17 +239,17 @@
     height: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1000 !important;
-    margin-top: 5%;
-    border: 1px solid red !important;
+    /* margin-top: 2%;*/
+    border: 1px solid #3380f2 !important;  
   }
   .dropdownnewHotelPage-content div:hover {
     background-color: #3380f2 !important;
     color: white !important;
   }
-  #newFlightsPage_departure:hover .dropdownnewHotelPage-content {
+  /* #newFlightsPage_departure:hover .dropdownnewHotelPage-content {
     display: block;
-    /* z-index: 100 !important; */
-  }
+    z-index: 100 !important;
+  } */
   
   .navbarnewHotelPageOptions {
     margin-top: 5%;
@@ -274,11 +273,16 @@
   
   .newRentals_SearchButton button{
     margin-top: 15%;
-    width: 90%;
+    width: 80%;
     height: 45px;
+    padding-left: 25% !important;
+    padding-top: 5%;
     margin-left: 3%;
+    font-size: 17px;
   }
   
+
+
   .newRentals_SearchButton button:hover{
     border: 2px solid #3380f2;
     background-color: white;

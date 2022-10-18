@@ -126,7 +126,7 @@ export const NewRentalBannerForm = () => {
                     </div> */}
 
 
-                    <div className='newFlightsCheckIn_dateContainer'>
+                    <div className='newRentalsCheckIn_dateContainer'>
                         <p>Pickup Date/Time</p>
                         <input type="datetime-local" placeholder='Pickup Date/Time' />
                     </div>
@@ -136,26 +136,6 @@ export const NewRentalBannerForm = () => {
                         <p>Drop off Date/Time</p>
                         <input type="datetime-local" placeholder='DropOff Date/Time' />
                     </div>
-
-                    {/* <div className='newFlightsGuest_outerDiv'>
-                        <p>Travellers</p>
-                        <div id='newFlightsPage_departure'>
-                            <h5>Choose Travellers </h5>
-                            <FaAngleDown className='downHotelPagearrowicon' />
-                            <div className="dropdownnewHotelPage-content">
-                                <div className='navbarnewHotelPageOptions'>
-                                    <FaPlusCircle className='contactIcon' />   <FaMinusCircle className='decrease' /> Adults
-                                </div>
-                                <div className='navbarnewHotelPageOptions '>
-                                    <FaPlusCircle className='miceIcon' />   <FaMinusCircle className='decrease' /> Children
-                                </div>
-                                <div className='navbarnewHotelPageOptions'>
-                                    <FaPlusCircle className='offersIcon' />  <FaMinusCircle className='decrease' /> Infants
-                                </div>
-                            </div>
-                            <BsPerson className='newFlightHomeGuestIcon' />
-                        </div>
-                    </div> */}
 
                     <div className='newRentals_SearchButton'>
                         <button type="button" class="btn btn-primary">Search</button>
