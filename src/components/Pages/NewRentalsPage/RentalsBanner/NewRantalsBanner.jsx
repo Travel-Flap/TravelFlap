@@ -71,13 +71,21 @@ export const NewRentalBanner = () => {
                         </Carousel.Item>
                     </Carousel>
 
-                    <NewRentalBannerForm/>
+                    <NewRentalBannerForm />
                 </div>
 
                 {/* <Services /> */}
             </div>
 
-            
+
+            <div className='newHolidayBannerTexts' >
+                <p> Your car rental partner -
+                    <span>
+                        <i>TravelFlap</i>
+                    </span>
+                </p>
+
+            </div>
 
         </div>
 

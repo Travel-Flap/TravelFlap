@@ -52,7 +52,7 @@ export const FavouriteHotelGlobe = () => {
 
                     <div className='newFavHotelsDropContainer'>
                         <select className="form-select newFavHotelsCountryDrop" onChange={(e) => handlecounty(e)}
-                            style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
+                            style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
                             <option value="" style={{ textAlign: "center" }}>Country</option>
                             {
                                 countrydata.map((getcountry, index) => (
@@ -61,7 +61,7 @@ export const FavouriteHotelGlobe = () => {
                             }
                         </select>
                         <div className='newFavHotelsicondiv'>
-                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="favHotelsicon" />
+                            <FaAngleRight style={{ fontSize: "15px" }} size={"1em"} className="favHotelsicon" />
                         </div>
                     </div>
 

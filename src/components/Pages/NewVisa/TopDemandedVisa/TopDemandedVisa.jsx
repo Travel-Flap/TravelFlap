@@ -73,20 +73,32 @@ export const TopDemandedVisa = () => {
             </div> */}
 
       <div className='newTopDemandedVisaHeadingContainer'>
+        <div>
+          
+        </div>
         <h5>
           Top Demanded Visa
         </h5>
-        {/* <select>
+        {/* <div className="internationalcruiseheading2">
+          <select name='country' className="form-select countrycruisecardselectdrop" id='internationalcruisecountrydrop' onChange={(e) => handlecounty(e)} aria-label="Default select example">
+            <option id='homecarddropbox' value="">Select Country</option>
+            {
+              countrydata.map((getcountry, index) => (
+                <option y value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+              ))
+            }
 
-        </select> */}
+          </select>
+
+        </div> */}
       </div>
 
       <div className="internationalslidercontainer">
         <Slider
           arrows={false}
-          // autoplay={true}
-          // speed={2000}
-          // autoplaySpeed={2000}
+          autoplay={true}
+          speed={2000}
+          autoplaySpeed={2000}
           dotsclassName="slick-dots line-indicator"
           ref={sliderRef}
           slidesToShow={4}

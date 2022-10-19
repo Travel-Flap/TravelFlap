@@ -132,7 +132,7 @@
   padding-top:4%;
   padding-left: 5%;
   appearance: none;
-  /* width: 100%; */
+  width: 138% !important;
 }
 /* .newhomecontactdata{
   border: 2px solid saddlebrown;

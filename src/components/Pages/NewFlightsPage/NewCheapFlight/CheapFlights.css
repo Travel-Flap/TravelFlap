@@ -207,6 +207,7 @@
     /* border: 2px solid black  ; */
     margin: auto;
     background-image: url("./cheapflightsbg.jpg");
+    /* filter: brightness(0.5); */
     object-fit: cover;
     background-size: cover;
     border-radius: 18px;

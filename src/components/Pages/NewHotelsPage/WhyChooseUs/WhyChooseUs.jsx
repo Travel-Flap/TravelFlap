@@ -16,13 +16,13 @@ export const WhyChooseUs = () => {
                             </div>
 
                         </div>
-                        <div className="newChoose_data">
+                        <div id="contentDiv" className="newChoose_data">
                             <h6>Search for the best hotel deals</h6>
                             <span>Compare deals from 3M+ hotels and accommodations in one place.</span>
                         </div>
                     </div>
-                    <div id="chid2_part2" className="newChoose_commonchild">
 
+                    <div id="chid2_part2" className="newChoose_commonchild">
                         <div className="newChoose_icons">
                             <div className="chooseUsIconsdiv">
                                 <MdHome className="choseUsIcons" />

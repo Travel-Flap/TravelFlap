@@ -7,6 +7,7 @@ import { NewHomeBottomBar } from '../NewHomePage/NewHomeBottomBar/NewHomeBottomB
 import { NewHomeEasyVisaDestination } from '../NewHomePage/NewHomeEasyVisaDestination/NewHomeEasyVisaDestination';
 import { NewHomeExclusiveDeals } from '../NewHomePage/NewHomeExclusiveDeals/NewHomeExclusiveDeals';
 import { NewHomeFooter } from '../NewHomePage/NewHomeFooter/NewHomeFooter';
+import { NewHomeStoriesSection } from '../NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection';
 import { NewOurPackage } from './NewOurPackages/OurPackages';
 import { NewProceedApplication } from './NewProceedApplication/NewProceedApplication';
 import { NewWhychooseTravelflap } from './NewWhyChooseTravelFlap/NewWhyChooseTravelFlap';
@@ -32,6 +33,8 @@ export const NewVisa = () => {
       <NewWhychooseTravelflap/>
 
       <NewProceedApplication/>
+
+      <NewHomeStoriesSection/>
 
       <NewHomeAwards/>
 

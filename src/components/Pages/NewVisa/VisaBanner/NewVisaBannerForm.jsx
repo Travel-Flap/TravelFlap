@@ -18,6 +18,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import { AiFillCalendar } from "react-icons/ai";
 import { BsSearch, BsPerson } from "react-icons/bs";
 import countrydata from '../../../../CountryData.json';
+// export const NewVisaBannerForm = () => {
 // import { NewHomeNav } from '../NewHomeNavbar/NewHomeNavbar';
 
 export const NewVisaBannerForm = () => {
@@ -110,15 +111,6 @@ export const NewVisaBannerForm = () => {
             <div id='filter-newVisaTrave-container'>
 
                 <div className='newVisainputmaindiv'>
-                    {/* <div className='newHolidayDestinationInputContainer'>
-                        <div className='newHolidaysNameInput'>
-                            <BsSearch className='newHolidaysInputicon' />
-                            <div className='newHolidaysinputNameContainer'>
-                                <input type="text" placeholder='Search destination,Hotels' />
-                            </div>
-                        </div>
-
-                    </div> */}
 
                     <div className='innerNewVisadropdowncontainer2'>
                         <div className='optionsNewVisaBannercontainer'>
@@ -138,7 +130,7 @@ export const NewVisaBannerForm = () => {
                             <div className='singleNewVisaBannerdropcontainer1'>
                                 <p>Select Nationality</p>
                                 <select className="form-select newVisaform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%" }}>
-                                    <option value="" >Select State</option>
+                                    <option value="" >Select City</option>
                                     {
                                         state.map((getstate, index) => (
                                             <option value={getstate.state_id} key={index}>{getstate.state_name}</option>

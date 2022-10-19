@@ -74,11 +74,11 @@ export const NewHotelCaruosel = () => {
                 <NewHotelCarouselForm />
             </div>
             <div className="newHotel_bannertitle">
-                <p>Find Your Dream
+                <p>Your comfort is our priority at -
                     <span>
-                        <i>Hotel</i>
+                        <i>TravelFlap</i>
                     </span>
-                    Today.
+                    {/* Today. */}
                 </p>
             </div>
             {/* <Services /> */}

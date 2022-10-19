@@ -15,7 +15,7 @@
   border-radius: 10px;
   position: absolute !important;
   z-index: 10;
-  height: 60px;
+  height: 90px;
 }
 
 /* This css is for the experiment input div part */
@@ -29,6 +29,8 @@
   /* border: 1px solid red; */
   width: 30%;
   height: 65px;
+  /* flex-direction: row;
+  display: flex; */
 }
 
 .newHolidaysNameInput {
@@ -36,10 +38,13 @@
   /* background-color: #8DBBFF; */
   width: 100%;
   height: 65px;
-  display: flex;
-  /* border-radius: 5px; */
-  flex-direction: row;
   color: grey !important;
+}
+
+.newHolidaysNameInput h5{
+  font-size: 15px;
+  padding-left: 14px;
+  margin-top: 3%;
 }
 
 .newHolidaysinputNameContainer {
@@ -113,26 +118,25 @@
   border: none;
 }
 
+.singleNewHolidaysBannerdropcontainer select{
+  margin-top: 1%;
+}
+.singleNewHolidaysBannerdropcontainer h5{
+  color: grey;
+  font-size: 15px;
+}
 .singleNewHolidaysBannerdropcontainer1 {
   margin-left: -18%;
-  border: 2px solid #dddddd78 !important;  
+  /* border: 2px solid #dddddd78 !important;   */
   font-size: 15px !important;
   border-radius: 10px;
   /* font-size: 15px;
   padding: 5px 10px; */
 }
 
-.singleNewHolidaysBannerdropcontainerbutton .holidayformbutton {
-  width: 100%;
-  background-color: #3380f2 !important;
+.singleNewHolidaysBannerdropcontainer1 h5{
+  color: grey;
   font-size: 15px;
-  padding: 5px 10px;
-  color: white;
-}
-
-.singleNewHolidaysBannerdropcontainerbutton .holidayformbutton:hover {
-  background-color: white !important;
-  color: #3380f2 !important;
 }
 
 .newHolidaysinputNameContainer .hotelinputIconContainer {
@@ -256,9 +260,17 @@
 .newHolidays_SearchButton button {
   margin-top: 6%;
   width: 90%;
-  height: 40px;
-  padding-left: 25% !important;
-  padding-top: 6%;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 35px !important;
+  padding-top: 10px;
+  font-weight: 500;
+  margin-top: 20% !important;
+}
+
+.newHolidays_SearchButton button:hover{
+  background-color: white;
+  color: #3380f2;
 }
 
 

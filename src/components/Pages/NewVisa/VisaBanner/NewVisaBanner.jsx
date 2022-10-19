@@ -30,7 +30,7 @@ export const NewVisaPageBanner = () => {
             <NewVisaBannerForm/>
 
             <div className='newHolidayBannerTexts' >
-                <p>The whole world Awaits with
+                <p>Get hassle-free visa services with - 
                     <span>
                         <i>TravelFlap</i>
                     </span>

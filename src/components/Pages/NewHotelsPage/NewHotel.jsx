@@ -37,7 +37,7 @@ export const NewHotel = () => {
             <div className='carousel'>
                 <FavouriteHotelGlobe/>
             </div>
-            <NewHomeEasyVisaDestination/>
+            {/* <NewHomeEasyVisaDestination/> */}
             <NewHomeAppDownload/>
             <div>
                 <NewHomeAwards />

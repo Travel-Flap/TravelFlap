@@ -128,8 +128,7 @@ export default class NewHomeAwards extends Component {
                         </div>
                     </div> */}
 
-                    <div className="card-wrapper awardsnewhomecardwrapper">
-                        {/* <div className="card travelstoriesdiv"> */}
+                    {/* <div className="card-wrapper awardsnewhomecardwrapper">
                         <div className="awardsnewhomecard card">
                             <div className='card_img'>
                                 <img src="Images/AchievementsImage5.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
@@ -138,13 +137,9 @@ export default class NewHomeAwards extends Component {
                                 <div className='awardsnewhomecard_title'>
                                     <h4 className="card-title">Best Agency Award</h4>
                                 </div>
-                                {/* <div className='awardsnewhomecard_desc'>
-                                    <p className="card-text">From Rwanda Arilines in 2017.</p>
-                                </div> */}
                             </div>
                         </div>
-                        {/* </div> */}
-                    </div>
+                    </div> */}
 
                     <div className="card-wrapper awardsnewhomecardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}

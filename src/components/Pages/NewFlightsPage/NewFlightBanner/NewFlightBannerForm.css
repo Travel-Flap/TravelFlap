@@ -292,6 +292,10 @@
   padding-top: 7%;
 }
 
+.newFlight_SearchButton button:hover{
+  background-color: white;
+  color: #3380f2;
+}
 
 
 

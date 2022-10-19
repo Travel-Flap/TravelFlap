@@ -32,9 +32,9 @@ export const NewFlightsBanner = () => {
 
             <NewFlightBannerForm/>
             <div className='newFlightsBannerTexts' >
-                <p>The whole world Awaits with
+                <p>Travelflap lifts your -
                     <span>
-                        <i>TravelFlap</i>
+                        <i>Vacation Mood</i>
                     </span>
                 </p>
 
