@@ -46,28 +46,30 @@
   flex-direction: row;
 }
 .newhomeplaybuttons{
+  /* border: 1px solid red; */
   width: 100%;
   height: 25% !important;
   /* border: 2px solid saddlebrown; */
   /* margin: auto; */
-  margin-top: 15%;
-  margin-bottom: 7%;
+  /* margin-top: 7%; */
+  margin-top: -2%;
   display: flex;
   flex-direction: row;
 }
 .playstoreimage{
-  width: 35%;
-  height: 93%;
-  margin: 7%;
+  /* border: 1px solid red; */
+  width: 30%;
+  height: 45%;
+  margin: 5%;
   margin-left: 17%;
-  margin-top: -5%;
+  /* margin-top: -5%; */
 }
 .googlePlayimage{
-  width: 32%;
-  height: 93%;
-  margin: 7%;
+  width: 30%;
+  height: 45%;
+  margin: 5%;
   margin-left: -3%;
-  margin-top: -5%;
+  /* margin-top: -5%; */
 }
 .newhomebarcode{
   width: 30%;
@@ -186,7 +188,7 @@
   padding-top: 1%;
   width: 25%;
   height: 40px;
-  margin-left: -9%;
+  margin-left: -7% !important;
 }
 .qrcodetext1{
   color: white;

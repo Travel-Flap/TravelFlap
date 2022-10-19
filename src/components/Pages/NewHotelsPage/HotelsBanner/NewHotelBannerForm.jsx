@@ -121,8 +121,9 @@ export const NewHotelCarouselForm = () => {
                             <BsPerson className='hotelGuestIcon' />
                         </div>
                     </div>
+                    <button className='newHotelsearchbutton'>Search Hotel</button>
                 </div>
-                <div className='newHotel_checkmark'>
+                {/* <div className='newHotel_checkmark'>
                     <input type="checkbox" className='flights_newHotelcheckbox' />
                     <label className='flights_newHotelcheckbox1'>Free Cancellation</label>
                     <input type="checkbox" className='flights_newHotelcheckbox' />
@@ -132,7 +133,7 @@ export const NewHotelCarouselForm = () => {
                     <input type="checkbox" className='flights_newHotelcheckbox' />
                     <label className='flights_newHotelcheckbox1'> Defence Discount</label>
                     <button className='newHotelsearchbutton'>Search Hotel</button>
-                </div>
+                </div> */}
             </div>
         </>
     )

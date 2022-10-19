@@ -1,4 +1,5 @@
-import React from "react";
+
+import React, { useState } from 'react';
 import "./NewHomeFooter.css";
 import { BsFacebook, BsPinterest, BsTwitter, BsInstagram, BsBehance, BsLinkedin, } from "react-icons/bs";
 import { FiPhoneCall } from "react-icons/fi";
@@ -6,9 +7,32 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
 import { IconContext } from "react-icons";
+import countrydata from '../../../../CountryData.json';
 import { BsWhatsapp } from "react-icons/bs"
 
 export const NewHomeFooter = () => {
+    const [countryid, setCountryid] = useState('');
+    const [state, setState] = useState([]);
+    const [stateid, setStateid] = useState('');
+
+    const handlecounty = (e) => {
+        const getcountryId = e.target.value;
+        const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
+        setState(getStatedata);
+        setCountryid(getcountryId);
+        //console.log(getcountryId);
+    }
+
+    const handlestate = (e) => {
+        const stateid = e.target.value;
+        //console.log(stateid);
+        setStateid(stateid);
+
+    }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        alert("Get Country id" + countryid + " And " + stateid);
+    }
     return (
         <div className="newhomefooterparentcontainer">
             <div className="newHomeFootertextcontainer1">
@@ -16,15 +40,7 @@ export const NewHomeFooter = () => {
                     src="Images/TravelFlapLogo.jpg"
                     alt="footer logo"
                 />
-            </div>
 
-            <div className="newHomeFootertextcontainer2">
-                <div className="newHomeFooterHeadingtexts">
-                    <h5>
-                        TravelFlap is one of the best service provider in the industry. We are a organization with a dream to provide our customers a
-                        safer and the best experience of there life.
-                    </h5>
-                </div>
                 <div className="newHomeFooterHeadingIcons">
                     <IconContext.Provider value={{ className: "socialnewHomeFooterIcons" }}>
 
@@ -38,6 +54,46 @@ export const NewHomeFooter = () => {
                         </div>
                     </IconContext.Provider>
                 </div>
+
+
+            </div>
+
+            <div className="newHomeFootertextcontainer2">
+                <div className="newHomeFooterHeadingtexts">
+                    <h5>
+                        TravelFlap is one of the best service provider in the industry. We are a organization with a dream to provide our customers a
+                        safer and the best experience of there life.
+                    </h5>
+                </div>
+
+                <div className="newFooterCurrencyDropDown">
+                    <h5>State/Currency</h5>
+                    <div className="countryselect">
+                        <select className="form-select newFooterCountryDrop" onChange={(e) => handlecounty(e)}
+                            style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
+                            <option value="" >Country</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                    </div>
+    
+                    <div className="countryselect">
+                        <select className="form-select newFooterCountryDrop" onChange={(e) => handlecounty(e)}
+                            style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
+                            <option value="" >Currency</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                    </div>
+
+                    
+                </div>
             </div>
 
 
@@ -45,7 +101,7 @@ export const NewHomeFooter = () => {
 
                 <div className="newHomeFooterMapContainer">
                     <img
-                        src="Images/WorldMap/FooterMap.png"
+                        src="Images/NewHomeLayout/FooterContent/world-map-gif.gif"
                         alt="footer logo"
                     />
                 </div>
@@ -92,45 +148,7 @@ export const NewHomeFooter = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="footernewHomeSectionbottom">
-                        <h6 className="footer-heading">BLOG POSTS</h6>
-                        <div className="newHomenewHomeblogs">
-                            <div className="blognewHomeImg">
-                                <img
-                                    src="https://preview.colorlib.com/theme/travelix/images/xfooter_blog_1.jpg.pagespeed.ic.FLhgS0NlTD.webp"
-                                    alt=""
-                                />
-                            </div>
-                            <div className="blognewHomeText">
-                                <p>Travel with us this year</p>
-                                <p className="newHomeblogsecond">Nov 29, 2020</p>
-                            </div>
-                        </div>
-                        <div className="newHomeblogs">
-                            <div className="blognewHomeImg">
-                                <img
-                                    src="https://preview.colorlib.com/theme/travelix/images/xfooter_blog_1.jpg.pagespeed.ic.FLhgS0NlTD.webp"
-                                    alt=""
-                                />
-                            </div>
-                            <div className="blognewHomeText">
-                                <p>Travel with us this year</p>
-                                <p className="newHomeblogsecond">Nov 29, 2020</p>
-                            </div>
-                        </div>
-                        <div className="newHomeblogs">
-                            <div className="blognewHomeImg">
-                                <img
-                                    src="https://preview.colorlib.com/theme/travelix/images/xfooter_blog_1.jpg.pagespeed.ic.FLhgS0NlTD.webp"
-                                    alt=""
-                                />
-                            </div>
-                            <div className="blognewHomeText">
-                                <p>Travel with us this year</p>
-                                <p className="newHomeblogsecond">Nov 29, 2020</p>
-                            </div>
-                        </div>
-                    </div> */}
+                    
                 </div>
 
                 <div className="newHomeFooterContactContainer">

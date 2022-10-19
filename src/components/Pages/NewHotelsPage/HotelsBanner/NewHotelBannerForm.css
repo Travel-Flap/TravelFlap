@@ -10,7 +10,7 @@
   width:64%;
   /* border: 3px solid #3380f2 !important; */
   color: #3380f2 !important;
-  height: 150px;
+  height: 100px;
   /* opacity: 0.9; */
   left: 18%;
   border-radius: 10px;
@@ -48,13 +48,14 @@
 }
 
 .newHotelNameInput{
-  border: 1px solid #3380F2;
+  border: 2px solid #dddddd78;
   /* background-color: #8DBBFF; */
   color: #3380F2;
-  font-weight: 700;
+  /* font-weight: 700; */
   width: 22%;
   margin-left: 2%;
   display: flex;
+  height: 35px;
   border-radius: 5px;
   flex-direction: row;
 }
@@ -62,26 +63,28 @@
 .hotelinputNameContainer input{
   /* background-color: #8DBBFF; */
   height: auto;
-  margin-top: 5% !important;
+  /* margin-top: 5% !important; */
   width: 90% !important;
-  color: #3380F2;
+  /* color: #3380F2; */
+  color: grey;
   border: none !important;
   outline: none !important;
   padding-left: 10%;
-  font-size: 18px;
-  padding-top: 2% !important;
+  font-size: 15px;
+  padding-top: 5px !important;
 }
 
 .hotelinputNameContainer input::placeholder{
   /* padding-left: 5%; */
-  color: #3380F2;
+  /* color: #3380f2; */
   font-weight: 700;
-  padding-top: 5% !important;
+  /* padding-top: 5% !important; */
 }
 .hotelInputicon{
-  margin-top: 6%;
-  font-size: 23px;
-  color: #3380F2;
+  margin-top: 2%;
+  font-size: 20px;
+  /* color: #3380F2; */
+  color: grey !important;
   margin-right: 9%;
 }
 .hotelinputNameContainer .hotelinputIconContainer{
@@ -93,53 +96,58 @@
   width: 100%;
   border: none;
   outline: none !important;
-  color: #3380F2;
+  /* color: #3380f2; */
 }
 
 .newHotelCheckIn_Date{
-  border: 1px solid #3380F2;
+  border: 2px solid #dddddd78;
   border-radius: 5px;
   width: 22%;
   margin-left: 2%;
-  color: #3380F2;
+  /* color: #3380f2; */
+  height: 35px;
   /* background-color: #8DBBFF; */
 }
 
 .newHotelCheckIn_Date input{
   /* background-color: #8DBBFF; */
-  height: auto;
-  margin-top: 6% !important;
+  height: 35px;
+  /* margin-top: 6% !important; */
   width: 90% !important;
-  color:#3380F2;
+  /* color:#3380f2; */
+  color: grey;
   border: none !important;
   outline: none !important;
   padding-left: 9%;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 
 .newHotelCheckOut_Date{
-  border: 1px solid #3380F2;
+  border: 2px solid #dddddd78;
   width: 22%;
   margin-left: 2%;
   /* background-color: #8DBBFF; */
   border-radius: 5px;
+  height: 35px;
 }
 
 .newHotelCheckOut_Date input{
-  border: 1px solid #3380F2;
+  border: 2px solid #dddddd78;
   width: 100%;
   border: none;
   outline: none !important;
   /* background-color: #8DBBFF; */
-  height: auto;
-  margin-top: 6% !important;
+  height: 32px !important;
+  /* margin-top: 6% !important; */
   width: 90% !important;
-  color: #3380F2;
+  /* color: #3380F2; */
+  color: grey;
   border: none !important;
   outline: none !important;
-  padding-left: 9%;
-  font-size: 18px;
+  padding-left: 9px;
+  /* padding-top: -5px !important; */
+  font-size: 15px;
 }
 
 
@@ -152,23 +160,26 @@
 }
 
 #newHotelPage_departure {
-  border: 1px solid #3380F2;
+  
+  border: 2px solid #dddddd78;
   display: flex;
   flex-direction: row;
   width: 100%;
   /* color: #3380f2; */
-  color: #3380F2;
+  /* color: #3380F2; */
+  color: grey;
   /* background-color: #8DBBFF !important; */
   border-radius: 5px;
+  height: 35px;
 }
 
 #newHotelPage_departure h3 {
-  font-size: 20px;
+  font-size: 15px;
   /* font-weight: 700; */
   /* margin-left: -7%; */
   padding: 7px;
   padding-left: 16px;
-  padding-top: 6%;
+  padding-top: 7px;
 }
 
 .downHotelPagearrowicon {
@@ -178,9 +189,10 @@
 
 .hotelGuestIcon{
   /* border: 1px solid #3380F2; */
-  font-size: 24px;
-  margin-left: 20%;
-  margin-top: 6%;
+  font-size: 20px;
+  margin-left: 30%;
+  margin-top: 2%;
+  /* margin-right: 1%; */
   /* background-color: #8DBBFF !important; */
 }
 
@@ -211,10 +223,10 @@
   border: none;
   width: 14%;
   height: 42px;
-  border-radius: 15px;
+  border-radius: 9px;
   font-weight: 700;
-  margin-left: 10%;
-  margin-top: -2.5%;
+  margin-left: 1%;
+  margin-top: -0.5%;
 
 }
 

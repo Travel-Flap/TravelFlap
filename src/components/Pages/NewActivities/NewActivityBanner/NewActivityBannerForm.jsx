@@ -99,76 +99,54 @@ export const ActivityBannerForm = () => {
 
             <div id='filter-newActivityTrave-container'>
 
-                {/* <div className='newCruiseinputOptions'>
-                    <div className='newCruiseNameInput'>
-                        <div className='cruiseinputNameContainer'>
-                            <input type="text" placeholder='Cruise' />
-                        </div>
-                        <BsSearch className='cruiseInputicon' />
-                    </div>
-
-                    <div className='newCruiseCheckIn_Date'>
-                       
-                        <input type="datetime-local" placeholder='Check-In Date' />
-                        
-                    </div>
-
-                    <div className='newCruiseCheckOut_Date'>
-                        <input type="datetime-local" placeholder='Check-Out Date' />
-                    </div>
-
-                    <div className='newHotelGuestNumber'>
-                        <div id='newCruisePage_departure'>
-                            <h3>Travellers </h3>
-                            <div className="dropdownnewHotelPage-content">
-                                <div className='navbarnewHotelPageOptions'>
-                                    <FaPlusCircle className='contactIcon' />   <FaMinusCircle className='decrease' /> Adults
-                                </div>
-                                <div className='navbarnewHotelPageOptions'>
-                                    <FaPlusCircle className='miceIcon' />   <FaMinusCircle className='decrease' /> Children
-                                </div>
-                                <div className='navbarnewHotelPageOptions'>
-                                    <FaPlusCircle className='offersIcon' />  <FaMinusCircle className='decrease' /> Infants
-                                </div>
-                            </div>
-                            <BsPerson className='hotelGuestIcon' />
-                        </div>
-                    </div>
-                </div> */}
                 <div className='filter-newActivityTrave-container'>
-                        <select className="form-select newActivityCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
-                            style={{ width: "60%",fontWeight:"700" }}>
-                            <option value="" >Country</option>
-                            {
-                                countrydata.map((getcountry, index) => (
-                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                ))
-                            }
-                        </select>
+                    
+                    <select className="form-select newActivityCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
+                        style={{ width: "60%", fontWeight: "700" }}>
+                        <option value="" >Country</option>
+                        {
+                            countrydata.map((getcountry, index) => (
+                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                            ))
+                        }
+                    </select>
 
-                        <select className="form-select newActivityCityDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
-                            style={{ width: "60%",fontWeight:"700" }}>
-                            <option value="" >City</option>
-                            {
-                                countrydata.map((getcountry, index) => (
-                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                ))
-                            }
-                        </select>
+                    <select className="form-select newActivityCityDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
+                        style={{ width: "100%", fontWeight: "700" }}>
+                        <option value="" >City</option>
+                        {
+                            countrydata.map((getcountry, index) => (
+                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                            ))
+                        }
+                    </select>
 
-                        <select className="form-select newActivityCategoryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
-                            style={{ width: "60%",fontWeight:"700" }}>
-                            <option value="" >Category</option>
-                            {
-                                countrydata.map((getcountry, index) => (
-                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                ))
-                            }
+                    <select className="form-select newActivityCategoryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
+                        style={{ width: "100%", fontWeight: "700" }}>
+                        <option value="" >Category</option>
+                        {
+                            countrydata.map((getcountry, index) => (
+                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                            ))
+                        }
+                    </select>
+
+                    {/* <div className='singleNewHolidaysBannerdropcontainer'>
+                        <select className="form-select" aria-label="Default select example" style={{ color: "grey", fontSize: "15px", marginLeft: "5%", width: "100%", border: "2px solid #dddddd78" }}>
+                            <option value>Package Category</option>
+                            <option value="1">Family</option>
+                            <option value="2">Holiday</option>
+                            <option value="3">Solo</option>
+                            <option value="3">Friends</option>
+                            <option value="3">Romantic</option>
                         </select>
+                    </div> */}
+
+                    <button className='newCruisesearchbutton'>Search</button>
                 </div>
 
 
-                <div className='newActivity_checkmark'>
+                {/* <div className='newActivity_checkmark'>
                     <input type="checkbox" className='flights_newActivitycheckbox' />
                     <label className='flights_newActivitycheckbox1'>Free Cancellation</label>
                     <input type="checkbox" className='flights_newActivitycheckbox' />
@@ -178,7 +156,7 @@ export const ActivityBannerForm = () => {
                     <input type="checkbox" className='flights_newActivitycheckbox' />
                     <label className='flights_newActivitycheckbox1'> Defence Discount</label>
                     <button className='newCruisesearchbutton'>Search</button>
-                </div>
+                </div> */}
             </div>
         </>
     )

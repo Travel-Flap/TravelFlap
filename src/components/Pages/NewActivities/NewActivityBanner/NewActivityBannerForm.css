@@ -8,7 +8,7 @@
   background-color: white;
   width:61%;
   color: #3380f2 !important;
-  height: 130px;
+  height: 100px;
   left: 20.2%;
   border-radius: 10px;
   position: absolute !important;
@@ -23,8 +23,8 @@
   height: 45px;
   border-radius: 10px;
   font-weight: 700;
-  margin-left: 13%;
-  margin-top: -3.5%;
+  /* margin-left: 13%; */
+  margin-top: 1.5%;
 
 }
 
@@ -61,25 +61,36 @@
 .newActivityCountryDrop{
   width: 25% !important;
   /* border: 1px solid #3380f2 !important; */
-  border-radius: 0px !important;
-  color: #3380f2 !important;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 7px !important;
+  color: grey !important;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  border: 2px solid #dddddd78;
   margin: 2% !important;
   margin-left: 3% !important;
+  box-shadow: none !important;
+  outline: none !important;
+  font-size: 15px;
 }
 .newActivityCityDrop{
   width: 25% !important;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  border: 2px solid #dddddd78;
   border-radius: 0px !important;
-  color: #3380f2 !important;
+  color: grey !important;
   margin: 2% 1.5% 0 0;
   height: 39px;
+  font-size: 15px;
+  font-weight: lighter;
 }
 .newActivityCategoryDrop{
   width: 25% !important;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  border: 2px solid #dddddd78;
+
   border-radius: 0px !important;
-  color: #3380f2 !important;
+  color: grey !important;
   margin: 2% 1.5% 0 0;
   height: 39px;
+  font-size: 15px;
+  font-weight: 300px !important;
 }

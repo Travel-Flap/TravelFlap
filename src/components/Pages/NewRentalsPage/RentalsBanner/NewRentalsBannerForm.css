@@ -16,7 +16,7 @@
     border-radius: 10px;
     position: absolute !important;
     z-index: 10;
-    height: 130px;
+    height: 100px;
   }
 
   .multiCheckboxButtons{
@@ -50,7 +50,7 @@
     margin-left: 2%;
     font-family: Arial, Helvetica, sans-serif !important;
     color: #818090;
-    font-size: 15px;
+    font-size: 14px;
   }
   
   .newRentalsDestinationInputContainer1{
@@ -65,7 +65,7 @@
     margin-left: 2%;
     font-family: Arial, Helvetica, sans-serif !important;
     color: #818090;
-    font-size: 15px;
+    font-size: 14px !important;
   }
   
   .newRentalsNameInput{
@@ -75,9 +75,10 @@
     color: #212529;
     /* background-color: #8DBBFF; */
     width: 100%;
-    border: 1px solid #3380f2;
+    border: 2px solid #dddddd78;
     height: 40px;
     display: flex;
+    border-radius: 9px;
     /* padding-left: 2px; */
     padding-top: 2px;
     /* border-radius: 5px; */
@@ -104,7 +105,7 @@
     height: auto;
     margin-top: 1% !important;
     width: 130% !important;
-    color: black;
+    color: grey;
     border: none !important;
     outline: none !important;
     padding-left: 4%;
@@ -113,14 +114,14 @@
   
   .newRentalsInputNameContainer input::placeholder{
     /* padding-left: 5%; */
-    color: black;
+    color: grey;
     font-size: 15px;
   }
   
   .newRentalsInputicon{
     margin-top: 2%;
-    font-size: 18px;
-    color: black;
+    font-size: 17px;
+    color: grey;
     /* margin-right: 4%; */
     margin-left: 2%;
   
@@ -142,7 +143,7 @@
     margin-left: 5%;
     font-family: Arial, Helvetica, sans-serif !important;
     color: #818090;
-    font-size: 15px;
+    font-size: 14px;
   }
   
   
@@ -151,19 +152,20 @@
     /* border: 1px solid black !important; */
     /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-    border: 1px solid #3380f2 !important;
+    border: 2px solid #dddddd78 !important;
     margin-top: -7%;
     margin-left: 5%;
     width: 100%;
     outline: none !important;
-    padding-top: 3%;
+    padding-top: 2%;
+    border-radius: 7px;
     height: 40px;
     width: 90% !important;
-    color: black;
+    color: grey;
     /* border: none !important; */
     outline: none !important;
-    padding-left: 4%;
-    font-size: 16px;
+    padding-left: 8px;
+    font-size: 15px;
   }
   
 
@@ -183,7 +185,7 @@
     margin-left: 2%;
     font-family: Arial, Helvetica, sans-serif !important;
     color: #818090;
-    font-size: 15px;
+    font-size: 14px;
   }
   
   .newRentalsCheckout_DateContainer input{
@@ -192,15 +194,16 @@
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     margin-top: -7%;
     width: 100%;
-    border: 1px solid #3380f2;
+    border: 2px solid #dddddd78 !important;
     outline: none !important;
     padding-top: 2%;
     height: 40px;
     width: 90% !important;
-    color: black;
+    border-radius: 7px;
+    color: grey;
     outline: none !important;
     padding-left: 4%;
-    font-size: 16px;
+    font-size: 15px;
   }
   
 

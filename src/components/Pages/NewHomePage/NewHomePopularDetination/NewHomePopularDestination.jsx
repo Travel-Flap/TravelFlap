@@ -48,10 +48,10 @@ export const CenterMode = () => {
     };
 
     const slides = [
-        { slidename: 'hello slide', img: 'Images/PopularDestinationImages/italy.jpg', desc:"Italy, a European country with a long Mediterranean coastline.", solution: 'Italy' },
         { slidename: 'hello slide', img: 'Images/PopularDestinationImages/indonesia.jpg', desc:"Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans.", solution: 'Indonesia' },
+       { slidename: 'hello slide', img: 'Images/PopularDestinationImages/indonesia.jpg', desc:"Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans.", solution: 'Indonesia' },
         { slidename: 'hello slide', img: 'Images/PopularDestinationImages/Rome.jpg', desc :"Rome is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome.", solution: 'Rome' },
-        { slidename: 'hello slide', img: 'Images/PopularDestinationImages/thailand.jpg',desc:"Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces.", solution: "Thailand" },
+        { slidename: 'hello slide', img: 'Images/PopularDestinationImages/thailand.jpg',desc:"Thailand is a Southeast Asian country. It's known for tropical beaches.", solution: "Thailand" },
         { slidename: 'hello slide', img: 'Images/PopularDestinationImages/vietnam.jpg', desc:"Vietnam is a Southeast Asian country known for its beaches, rivers, Buddhist pagodas.", solution: 'Vietnam' },
         { slidename: 'hello slide', img: 'Images/PopularDestinationImages/italy.jpg', desc:"Greece is a country in southeastern Europe with thousands of islands throughout the Aegean and Ionian seas.", solution: 'Greece' },
     ]
@@ -59,12 +59,6 @@ export const CenterMode = () => {
         <>
             <div className="popularDestinationsheadingdiv">
                 <p>Popular Destinations</p>
-                {/* <div className="popularDestinationsselectoptions">
-                    <select class="popularDestinationselect1">
-                        <option>International</option>
-                        <option>Domestic</option>
-                    </select> */}
-
                     <div className='newHomePopularDestinationDropContainer'>
                         <select className="form-select newPopularDestinationCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
@@ -85,9 +79,14 @@ export const CenterMode = () => {
                     <Slider {...settings}>
                         {slides.map((item, index) => (
                             <div className={index === slideindex ? 'populardestinationsslide populardestinationsslide-active' : 'populardestinationsslide'} key={index}>
-                                <img src={item.img} alt="" />
-                                <p>{item.desc}</p>
+                               
+                               <div className='populardestinationimagestransition'>
+                                 <img  src={item.img} alt="" /> 
+                               </div>
+
+
                                 <h5>{item.solution}</h5>
+                                <p>{item.desc}</p>
                             </div>
                         ))}
                     </Slider>

@@ -2,7 +2,7 @@ import React from 'react';
 import "./NewHomeAppDownload.css";
 import mobile2 from "./mobile2.png";
 import qrcode from "./qrcode.png";
-import Vector from "./Vector.png" ;
+import Vector from "./Vector.png";
 import PlayStore from "./PlayStore.png";
 import GooglePlay from "./GooglePlay.png";
 import { useState, useEffect } from "react";
@@ -66,84 +66,84 @@ export const NewHomeAppDownload = () => {
 
     return (
         <>
-         <div className='newhomedownloadmaindiv'>
-            <img className='mobileinhand' src={mobile2}/>
-            <div className='newhomedownloadbuttons'>
-               <div className='newhomedownloadtext'>
-                   Subscribe to get Latest News and amazing offers from TravelFlap
-               </div>
-               <div className='newhomesearchbox'>
-                {/* <input type="text" placeholder='Search Country' className='newhomesearchcountrydiv'/>  */}
-               <section style={{width:"70% !important"}}>
-                <div className="bg-white w-auto h-96 pb-20 mx-5 mt-40 sm:w-full md:w-4/5 md:mx-auto lg:w-2/5 lg:mx-auto" style={{borderRadius:"20px"}}>
-                    
-                    <div>
-                        {loading === true ?
-                            <div  style={{backgroundColor:"#5697F5",color:"white"}}>
-                                <p className="uppercase font-bold text-3xl">...loading</p>
-                            </div> :
-                            <div className="newhomecountryselectdivouter">
-                              <div className='newhomevectorimage'>
-                                <img width="75% !important" height="55%" src={Vector}/>
-                              </div>
-                                <div className='newhomecountryselectdiv'>
-                                    <select
-                                        value={selectedCountry}
-                                        onChange={(e) => setSelectedCountry(e.target.value)}
-                                        className="newhomecountryselect" style={{width:"95% "}}
-                                    >
-                                        <option>--Select Country--</option>
-                                        {countries.map((item) => {
-                                            return (
-                                                <option key={uuidv4()} value={item.name.common}>
-                                                    {item.name.common}
-                                                </option>
-                                            );
-                                        })}
-                                    </select>
-                                </div>
-                                <div style={{marginTop:"15%",height:"auto",width:"40%"}}>
-                                    {searchSelectedCountry && (
-                                        <div className="flex space-x-4">
-                                            <div className="newhomecontactdata" >
-                                                <img 
-                                                    className="newhomeflagsimage"
-                                                    src={
-                                                        searchSelectedCountry &&
-                                                        searchSelectedCountry.flags.png
-                                                    }
-                                                    alt=""
-                                                />
+            <div className='newhomedownloadmaindiv'>
+                <img className='mobileinhand' src={mobile2} />
+                <div className='newhomedownloadbuttons'>
+                    <div className='newhomedownloadtext'>
+                        Subscribe to get Latest News and amazing offers from TravelFlap
+                    </div>
+                    <div className='newhomesearchbox'>
+                        {/* <input type="text" placeholder='Search Country' className='newhomesearchcountrydiv'/>  */}
+                        <section style={{ width: "70% !important" }}>
+                            <div className="bg-white w-auto h-96 pb-20 mx-5 mt-40 sm:w-full md:w-4/5 md:mx-auto lg:w-2/5 lg:mx-auto" style={{ borderRadius: "20px" }}>
+
+                                <div>
+                                    {loading === true ?
+                                        <div style={{ backgroundColor: "#5697F5", color: "white" }}>
+                                            <p className="uppercase font-bold text-3xl">...loading</p>
+                                        </div> :
+                                        <div className="newhomecountryselectdivouter">
+                                            <div className='newhomevectorimage'>
+                                                <img width="75% !important" height="55%" src={Vector} />
                                             </div>
-                                            <div style={{display:"flex",flexDirection:"row"}}>
-                                                <p className="newhomestdcode">
-                                                    {searchSelectedCountry &&
-                                                        searchSelectedCountry.idd.root}
-                                                    {searchSelectedCountry &&
-                                                        searchSelectedCountry.idd.suffixes}
-                                                </p>
-                                            
-                                            
-                                                <input
-                                                    type="tel"
-                                                    placeholder="Phone"
-                                                    className="newhomecontactplaceholder"
-                                                />
+                                            <div className='newhomecountryselectdiv'>
+                                                <select
+                                                    value={selectedCountry}
+                                                    onChange={(e) => setSelectedCountry(e.target.value)}
+                                                    className="newhomecountryselect" style={{ width: "95% " }}
+                                                >
+                                                    <option>--Select Country--</option>
+                                                    {countries.map((item) => {
+                                                        return (
+                                                            <option key={uuidv4()} value={item.name.common}>
+                                                                {item.name.common}
+                                                            </option>
+                                                        );
+                                                    })}
+                                                </select>
+                                            </div>
+                                            <div style={{ marginTop: "15%", height: "auto", width: "40%" }}>
+                                                {searchSelectedCountry && (
+                                                    <div className="flex space-x-4">
+                                                        <div className="newhomecontactdata" >
+                                                            <img
+                                                                className="newhomeflagsimage"
+                                                                src={
+                                                                    searchSelectedCountry &&
+                                                                    searchSelectedCountry.flags.png
+                                                                }
+                                                                alt=""
+                                                            />
+                                                        </div>
+                                                        <div style={{ display: "flex", flexDirection: "row" }}>
+                                                            <p className="newhomestdcode">
+                                                                {searchSelectedCountry &&
+                                                                    searchSelectedCountry.idd.root}
+                                                                {searchSelectedCountry &&
+                                                                    searchSelectedCountry.idd.suffixes}
+                                                            </p>
+
+
+                                                            <input
+                                                                type="tel"
+                                                                placeholder="Phone"
+                                                                className="newhomecontactplaceholder"
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                )}
                                             </div>
                                         </div>
-                                    )}
+                                    }
                                 </div>
                             </div>
-                        }
+                        </section>
+                        <div className='newhomeappdownloadsearchbutton'>Search</div>
                     </div>
-                </div>
-               </section>
-               <div className='newhomeappdownloadsearchbutton'>Search</div>
-               </div>
 
-               
-               {/* header section */}
-                   {/* <div className="h-32 flex justify-center items-center shadow">
+
+                    {/* header section */}
+                    {/* <div className="h-32 flex justify-center items-center shadow">
                         <p className="uppercase font-bold text-3xl text-center">
                             Select Country / <br />
                             auto flag & area code{" "}
@@ -151,22 +151,22 @@ export const NewHomeAppDownload = () => {
                     </div> */}
 
                     {/* body section */}
-               {/* <div className='newhomeplaybuttons'>
+                    {/* <div className='newhomeplaybuttons'>
                  <img className='playstoreimage' src={PlayStore}/>
                  <img className='googlePlayimage' src={GooglePlay}/>
                </div> */}
+                </div>
+                <div className='newhomebarcode'>
+                    <p className='qrcodetext1'>Download The App Now!!!!</p>
+                    <img className='qrcodeimage' src={qrcode} />
+                    <p className='qrcodetext'>Scan QR Code to get our app</p>
+                    <div className='newhomeplaybuttons'>
+                        <img className='playstoreimage' src={PlayStore} />
+                        <img className='googlePlayimage' src={GooglePlay} />
+                    </div>
+                    {/* <img className='starsimage' src={stars}/> */}
+                </div>
             </div>
-            <div className='newhomebarcode'>
-            <p className='qrcodetext1'>Download The App Now!!!!</p>
-                <img className='qrcodeimage' src={qrcode}/>
-                <p className='qrcodetext'>Scan QR Code to get our app</p>
-                <div className='newhomeplaybuttons'>
-                 <img className='playstoreimage' src={PlayStore}/>
-                 <img className='googlePlayimage' src={GooglePlay}/>
-               </div>
-                  {/* <img className='starsimage' src={stars}/> */}
-            </div>
-         </div>
         </>
     )
 }

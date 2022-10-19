@@ -142,7 +142,7 @@ export const NewRentalBannerForm = () => {
                     </div>
                 </div>
 
-                <div className='multiCheckboxButtons'>
+                {/* <div className='multiCheckboxButtons'>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
                         <label class="form-check-label" for="inlineCheckbox1">Family Trip</label>
@@ -159,7 +159,7 @@ export const NewRentalBannerForm = () => {
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4" />
                         <label class="form-check-label" for="inlineCheckbox3">Solo Trip</label>
                     </div>
-                </div>
+                </div> */}
 
             </div>
         </>
