@@ -222,7 +222,7 @@ export const NewHomeNav = () => {
                             </div>
                             <div className='navbar-links-container' id='hide' >
                                 {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
-                                <Link className='linkdecoration' to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
+                                <Link style={{textDecoration:"none"}} className='linkdecoration' to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
                                 {/* <div className='nav-link'> <p>OFFERS</p></div> */}
                                 <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
                                     <div className='chooseCountry'>
@@ -298,7 +298,7 @@ export const NewHomeNav = () => {
                                 </Link>
                                 <div className='navbar-links-container1'>
                                     {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
-                                    <Link to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
+                                    <Link style={{textDecoration:"none"}} to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
                                     <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
                                         <div className='chooseCountry'>
                                             <div className='countrynames'>

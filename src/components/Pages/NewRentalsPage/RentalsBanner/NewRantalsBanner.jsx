@@ -35,7 +35,7 @@ export const NewRentalBanner = () => {
                         <Carousel.Item className='experimentTopBannerdiv'>
                             <img
                                 className="d-block w-100"
-                                src="Images/NewHomeLayout/Banners/Car Rental/image 3.jpg"
+                                src="Images/NewHomeLayout/Banners/Car Rental/Image 3.jpg"
                                 alt="First slide"
                             />
                             {/* <Carousel.Caption>

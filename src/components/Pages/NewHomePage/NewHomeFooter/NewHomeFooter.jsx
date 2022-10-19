@@ -172,11 +172,11 @@ export const NewHomeFooter = () => {
                                 </div>
                                 <div className="newHomeFooterContactContentInner2">
                                     <p>Mobile India : +918209366227,
-                                        <span className="newHomeFooterContactContentInner2span"> +917877680588</span>
+                                        <span className="newHomeFooterContactContentInner2span"> +917877680588 <BsWhatsapp/></span>
                                     </p>
-                                    <p className="">Mobile USA : +19176726964</p>
+                                    <p className="">Mobile USA : +19176726964 <BsWhatsapp/></p>
                                     {/* <p className="">Mobile USA : +19176726964 <BsWhatsapp style={{ fontSize: "26px", color: "white" }} /></p> */}
-                                    <p>Mobile DXB : +971 58 597 8776</p>
+                                    <p>Mobile DXB : +971 58 597 8776 <BsWhatsapp /></p>
                                 </div>
 
                             </div>
@@ -203,7 +203,33 @@ export const NewHomeFooter = () => {
                         </div>
                     </div>
                 </div>
-            </div>-
+            </div>
+            
+            <div className='newFooterPaymentGateways'>
+                <h5>We accept</h5>
+
+                <div className='newFooterPaymentImages'>
+                    <div className='gatewayImage1'>
+                        <img src='Images/NewHomeLayout/FooterContent/RupayLogo.png'/>
+                    </div>
+                    <div className='gatewayImage2'>
+                        <img src='Images/NewHomeLayout/FooterContent/Masterclass.png'/>
+                    </div>
+                    <div className='gatewayImage3'>
+                        <img src='Images/NewHomeLayout/FooterContent/visa.png'/>
+                    </div>
+                    <div className='gatewayImage1'>
+                        <img src='Images/NewHomeLayout/FooterContent/RupayLogo.png'/>
+                    </div>
+                    <div className='gatewayImage2'>
+                        <img src='Images/NewHomeLayout/FooterContent/Masterclass.png'/>
+                    </div>
+                    {/* <div className='gatewayImage3'>
+                        <img src='Images/NewHomeLayout/FooterContent/visa.png'/>
+                    </div> */}
+                </div>
+            </div>
+
         </div>
     );
 };

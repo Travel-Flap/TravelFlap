@@ -156,7 +156,7 @@ export const NewHolidaysBestSelling = () => {
                             </th>
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div> */}
-                        <img src="Images/NewHOmeLayout/BestSelling/Brandenburg Gate, Berlin, Germany.jpg" alt="" />
+                        <img src="Images/NewHomeLayout/BestSelling/Brandenburg Gate, Berlin, Germany.jpg" alt="" />
                         <div className="cardBestBudget_title">Germany
                             <br />
                             {/* <span className="BestBudget_rating">
@@ -184,7 +184,7 @@ export const NewHolidaysBestSelling = () => {
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div> */}
 
-                        <img src="Images/NewHOmeLayout/BestSelling/Embarcadero, San Francisco, USA.jpg" alt="" />
+                        <img src="Images/NewHomeLayout/BestSelling/Embarcadero, San Francisco, USA.jpg" alt="" />
                         <div className="cardBestBudget_title">USA
                             <br />
                             {/* <span className="BestBudget_rating">
@@ -215,7 +215,7 @@ export const NewHolidaysBestSelling = () => {
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div> */}
                         
-                        <img src="Images/NewHOmeLayout/BestSelling/Great Wall of China, China.jpg" alt="" />
+                        <img src="Images/NewHomeLayout/BestSelling/Great Wall of China, China.jpg" alt="" />
                         <div className="cardBestBudget_title">China
                             <br />
                             {/* <span className="BestBudget_rating">
@@ -250,7 +250,7 @@ export const NewHolidaysBestSelling = () => {
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div> */}
 
-                        <img src="Images/NewHOmeLayout/BestSelling/Laon France.jpg" alt="" />
+                        <img src="Images/NewHomeLayout/BestSelling/Laon France.jpg" alt="" />
                         <div className="cardBestBudget_title">France
                         </div>
 
@@ -272,7 +272,7 @@ export const NewHolidaysBestSelling = () => {
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div> */}
 
-                        <img src="Images/NewHOmeLayout/BestSelling/Metropolitan City of Venice, Italy.jpg" alt="" />
+                        <img src="Images/NewHomeLayout/BestSelling/Metropolitan City of Venice, Italy.jpg" alt="" />
                         <div className="cardBestBudget_title">Italy
                             <br />
                             {/* <span className="BestBudget_rating">
@@ -301,7 +301,7 @@ export const NewHolidaysBestSelling = () => {
                             </th>
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div> */}
-                        <img src="Images/NewHOmeLayout/BestSelling/Santuario de la virgen de los remedios, san pedro cholula, mexico.jpg" alt="" />
+                        <img src="Images/NewHomeLayout/BestSelling/Santuario de la virgen de los remedios, san pedro cholula, mexico.jpg" alt="" />
                         <div className="cardBestBudget_title">Mexico
                             <br />
                             {/* <span className="BestBudget_rating">
@@ -331,7 +331,7 @@ export const NewHolidaysBestSelling = () => {
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div> */}
 
-                        <img src="Images/NewHOmeLayout/BestSelling/Sevilla, Spain.jpg" alt="" />
+                        <img src="Images/NewHomeLayout/BestSelling/Sevilla, Spain.jpg" alt="" />
                         <div className="cardBestBudget_title">Sevilla
                             <br />
                             {/* <span className="BestBudget_rating">

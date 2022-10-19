@@ -1,5 +1,5 @@
 .newhomefooterparentcontainer {
-  height: 610px;
+  height: 700px;
   background: #3380f2;
   /* border: 1px solid red; */
 }
@@ -14,9 +14,10 @@
   height: 100px;
 }
 
-/* .newHomeFooterHeadingIcons{
-  border: 1px solid white;
-} */
+.newHomeFooterHeadingIcons{
+  /* border: 1px solid white; */
+  margin-left: 4%;
+}
 
 .socialnewHomeFooterIcons {
   border: 2px solid whitesmoke;
@@ -316,6 +317,80 @@
     object-fit: contain;
   } */
 
+.newFooterPaymentGateways{
+  border: 1px solid #3380f2 !important;
+  background-color: #3380f2;
+  height: 200px;
+}
+
+.newFooterPaymentGateways h5{
+  color: white;
+  margin-left: 42%;
+  font-size: 25px;
+  margin-bottom: 1%;
+  font-family: sans-serif;
+}
+
+.newFooterPaymentImages{
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid white; */
+  width: 50%;
+  margin-left: 40%;
+}
+
+.gatewayImage1{
+  /* border: 1px solid red; */
+  height: 60px;
+  width: 120px;
+  background-color: white;
+  margin-left: 3%;
+  border-radius: 9px;
+}
+
+.gatewayImage1 img{
+  object-fit: cover;
+  height: 60px;
+  width: 70px;
+  margin-left: 20%;
+  /* width: 60px; */
+}
+.gatewayImage2{
+  /* border: 1px solid red; */
+  height: 60px;
+  width: 120px;
+  background-color: white;
+  margin-left: 3%;
+  border-radius: 9px;
+
+}
+
+.gatewayImage2 img{
+  object-fit: cover;
+  height: 60px;
+  width: 70px;
+  margin-left: 20%;
+  /* width: 60px; */
+}
+.gatewayImage3{
+   /* border: 1px solid red; */
+  height: 60px;
+  width: 120px;
+  background-color: white;
+  margin-left: 3%;
+  border-radius: 9px;
+}
+
+.gatewayImage3 img{
+  object-fit: cover;
+  height: 60px;
+  width: 70px;
+  margin-left: 20%;
+  /* width: 60px; */
+}
+
+
+
 .footernewHomeSectionbottom {
   width: 30%;
   padding: 45px;
@@ -505,12 +580,6 @@ h4 img {
 .contecticonsdiv {
   height: 40px;
 }
-
-
-
-
-
-
 
 
 @media only screen and (min-width: 300px) and (max-width: 800px) {
