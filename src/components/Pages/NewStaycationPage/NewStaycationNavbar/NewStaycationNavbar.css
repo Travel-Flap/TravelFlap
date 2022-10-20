@@ -1,5 +1,5 @@
 .newStaycationNavbarmaindiv{
-    width: 70%;
+    width:82%;
     height: 80px;
     /* border: 2px solid red; */
     margin: auto;
@@ -15,29 +15,29 @@
     margin-top: 1%;
 }
 .newStaycationNavbaricondiv1{
-    width: 7%;
-    height: 65px;
+    width: 5%;
+    height: 60px;
     border: 2px solid lightgray;
     border-radius: 100%;
     margin-left: 7%;
 }
 .newStaycationNavbaricondiv2{
-    width: 7%;
-    height: 65px;
+    width: 5%;
+    height: 60px;
     border: 2px solid lightgray;
     border-radius: 100%;
     margin-left: 3%;
 }
 .newStaycationNavbaricondiv3{
-    width: 7%;
-    height: 65px;
+    width: 5%;
+    height: 60px;
     border: 2px solid lightgray;
     border-radius: 100%;
     margin-left: 3%;
 }
 .newStaycationNavbaricondiv4{
-    width: 7%;
-    height: 65px;
+    width: 5%;
+    height: 60px;
     border: 2px solid lightgray;
     border-radius: 100%;
     margin-left: 4%;
@@ -55,15 +55,15 @@
 
 
  .newStaycationNavbarDropContainer {
-    width: 18%;
-    margin-left: 48.5%;
-    margin-top: 2.1%;
-    display: flex;
-    flex-direction: row;
-    border-right: none;
-    height:39px;
-    border-radius: 25px;
-    /* border: 2px solid green; */
+  width: 11.5%;
+  margin-left: 52%;
+  margin-top: 1.5%;
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+  height: 39px;
+  border-radius: 25px;
+  /* border: 2px solid green;*/
   }
   /* .newStaycationNavbarDropContainer:hover .newStaycationNavbaricondiv{
     background-color:white;
@@ -83,7 +83,7 @@
     border-radius: 25px 0px 0px 25px !important;
     border-right: none !important;
     appearance: none !important;
-    padding-top: 2% !important;
+    padding-top: 5px !important;
     border: none !important;
   }
   .newStaycationNavbarDropContainer select{

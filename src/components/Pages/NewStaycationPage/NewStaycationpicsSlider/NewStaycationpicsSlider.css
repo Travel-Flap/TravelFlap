@@ -93,9 +93,10 @@
 }
 .NewStaycationpicsSliderdealsimagefrontside{
     z-index: 1;
+    /* border: 2px solid red; */
     width: 78%;
     height: 104%;
-    /* margin-top: -77%; */
+    margin-top: 2%;
     margin-left: 9%;
 }
 .NewStaycationpicsSliderdealsheadings{
@@ -111,9 +112,11 @@
     /* margin-left: 5%; */
 }
 .NewStaycationpicsSliderdealssliderdata{
-    width: 60%;
+    width: 59%;
     height:100%;
-    margin-top: 1%;
+    margin-top: 2%;
+    margin-left: -2%;
+    /* border: 2px solid gold; */
 }
 .NewStaycationpicsSlidercardimage {
     border: none;
@@ -132,7 +135,8 @@
   .NewStaycationpicsSliderouterdivtop{
     /* border: 2px solid blue; */
     border-radius: 15px;
-    width: 40%;
+    width: 95% !important;
+    /* margin-left: 4%; */
   }
   .NewStaycationpicsSliderimagetextcontainer {
     width: 100%;

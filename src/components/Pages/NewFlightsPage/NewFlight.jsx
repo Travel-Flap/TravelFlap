@@ -42,19 +42,23 @@ export const NewFlight = () => {
         <CenterMode/>
         <NewHomeHandPicked/>
 
-        <div className='carousel'>
+        
+
+        {/* <div className='carousel'>
             <NewHomeTopCitites/>
-        </div>
+        </div> */}
 
         <CheapFlights/>
 
-        <FrequentlyAskedQuestions/>
-
-        <NewHomeAwards/>
-
         <NewHomeAppDownload/>
+        
+        <FooterLinks/>
+        {/* <FrequentlyAskedQuestions/> */}
+
+        {/* <NewHomeAwards/> */}
+
+       
         <Plan/>
-        {/* <FooterLinks/> */}
         <NewHomeFooter/>
         <NewHomeBottomBar/>
     </div>

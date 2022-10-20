@@ -1,4 +1,5 @@
 import React from 'react';
+import "./NewHotel.css";
 import { FooterLinks } from '../../FooterLinks/FooterLinks';
 import { Plan } from '../../NextHolidaysPlan/Plan';
 import { NewHomeAppDownload } from '../NewHomePage/NewHomeAppDownload/NewHomeAppDownload';
@@ -21,27 +22,30 @@ export const NewHotel = () => {
             <NewHomeNav />
             <NewHotelCaruosel/>
             
-            {/* <NewHomeCaruosel /> */}
-            <WhyChooseUs />
-
             <div className='carousel'>
                 <NewHomeExclusiveDeals/>
             </div>
 
-            <CenterMode/>
+            {/* <NewHomeCaruosel /> */}
+            <WhyChooseUs />
 
             <div className='carousel'>
                 <NewHomeHandPicked/>
             </div>
+
+            <CenterMode/>
+
 
             <div className='carousel'>
                 <FavouriteHotelGlobe/>
             </div>
             {/* <NewHomeEasyVisaDestination/> */}
             <NewHomeAppDownload/>
-            <div>
+
+            <div className='hotelawardsdiv'>
                 <NewHomeAwards />
             </div>
+
             <Plan />
             <FooterLinks />
             <NewHomeFooter />

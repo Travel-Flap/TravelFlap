@@ -98,7 +98,7 @@ export const ExperimentBanner = () => {
             </div>
 
             <div className='apnatext' >
-                <p>Planning a Staycation? contact 
+                <p>The whole world Awaits with
                     <span>
                         <i>TravelFlap</i>
                     </span>

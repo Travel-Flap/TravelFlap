@@ -6,8 +6,8 @@ import { useRef } from "react";
 import { useEffect } from "react";
 import "./NewStaycationpicsSlider.css";
 // import backsideImage from "./backsideImage.jpeg";
-// import frontsideImage from "./frontsideImage.jpeg";
-
+import staycation1 from "./staycation1.jpg";
+import Manali from "./Manali.jpg";
 
 export const NewStaycationpicsSlider = () => {
     const sliderRef = useRef(null);
@@ -22,11 +22,11 @@ export const NewStaycationpicsSlider = () => {
                 <div className="NewStaycationpicsSliderdealsconatinerdiv" >
                     <div className="NewStaycationpicsSliderdealsimageheading">
                         {/* <img className="NewStaycationpicsSliderdealsimagebackside" src={backsideImage} /> */}
-                        <img className="NewStaycationpicsSliderdealsimagefrontside" src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (1).jpg" />
-                        <div className="NewStaycationpicsSliderdealsheadings">
+                        <img className="NewStaycationpicsSliderdealsimagefrontside" src={staycation1} />
+                        {/* <div className="NewStaycationpicsSliderdealsheadings">
                             <p className="NewStaycationpicsSliderheadingsboldheadings">NewStaycationpicsSlider <br /> Deals</p>
                             <p>Most Visited and Used</p>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="NewStaycationpicsSliderdealssliderdata">
@@ -34,8 +34,8 @@ export const NewStaycationpicsSlider = () => {
                             <Slider
                                 arrows={false}
                                 autoplay={true}
-                                speed={2000}
-                                autoplaySpeed={2000}
+                                speed={4000}
+                                autoplaySpeed={4000}
                                 dots={true}
                                 dotsclassName="slick-dots line-indicator"
                                 ref={sliderRef}
@@ -101,7 +101,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-4 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (1).jpg" class="img-fluid rounded-start" alt="..." />
+                                            <img src={Manali} class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -116,7 +116,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (2).jpg" class="img-fluid rounded-start" alt="..." />
+                                        <img src={Manali} class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -131,7 +131,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (3).jpg" class="img-fluid rounded-start" alt="..." />
+                                        <img src={Manali} class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -146,7 +146,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (4).jpg" class="img-fluid rounded-start" alt="..." />
+                                        <img src={Manali} class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -161,7 +161,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (2).jpg" class="img-fluid rounded-start" alt="..." />
+                                        <img src={Manali} class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -176,7 +176,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (3).jpg" class="img-fluid rounded-start" alt="..." />
+                                        <img src={Manali} class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -191,7 +191,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (1).jpg" class="img-fluid rounded-start" alt="..." />
+                                        <img src={Manali} class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -205,7 +205,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (4).jpg" class="img-fluid rounded-start" alt="..." />
+                                        <img src={Manali} class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -219,7 +219,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (3).jpg" class="img-fluid rounded-start" alt="..." />
+                                        <img src={Manali} class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">
@@ -233,7 +233,7 @@ export const NewStaycationpicsSlider = () => {
                                 <div className="card mb-3 NewStaycationpicsSliderouterdivtop" >
                                     <div className="row g-0 NewStaycationpicsSliderimagetextcontainer">
                                         <div className="col-md-8 NewStaycationpicsSlidercardimage">
-                                            <img src="Images/NewHomeLayout/NewCruiseStaycatiionSlider/switzerland (1).jpg" class="img-fluid rounded-start" alt="..." />
+                                        <img src={Manali} class="img-fluid rounded-start" alt="..." />
                                         </div>
                                         {/* <div className="col-md-4 NewStaycationpicsSliderdealstextcard">
                                             <div className="card-body NewStaycationpicsSlidercarddescmain">

@@ -19,11 +19,11 @@ export const NewCruisePage = () => {
 
             <NewCruiseExperimentBanner/>
 
-            <TrendingCruise/>
-
             <div className='carousel'>
                 <NewHomeExclusiveDeals/>
             </div>
+            
+            <TrendingCruise/>
 
             <CruiseInternationalDestination/>
 

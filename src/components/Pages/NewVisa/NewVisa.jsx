@@ -24,23 +24,23 @@ export const NewVisa = () => {
       
       <TopDemandedVisa/>  
 
-      <NewHomeExclusiveDeals/>
-      
-      {/* <NewOurPackage/> */}
-
       <NewHomeEasyVisaDestination/>
 
       <NewWhychooseTravelflap/>
+      {/* <NewHomeExclusiveDeals/> */}
+      
+      {/* <NewOurPackage/> */}
+
 
       <NewProceedApplication/>
 
       <NewHomeStoriesSection/>
 
-      <NewHomeAwards/>
+      {/* <NewHomeAwards/> */}
 
       <NewHomeAppDownload/>
 
-      <Plan/>
+      {/* <Plan/> */}
 
       <FooterLinks/>
 

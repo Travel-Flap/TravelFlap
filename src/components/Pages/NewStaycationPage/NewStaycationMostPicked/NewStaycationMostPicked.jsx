@@ -36,22 +36,38 @@ export const NewStaycationMostPicked = () => {
         console.log(sliderRef);
     }, []);
     return (
-        <div className="newflightsnearyoumaindiv">
-            <div className="besthoteldealheadingcontainer" >
+        <div className="newstaycationmostpickedmaindiv">
+            <div className="newStaycationmostPickedheadingcontainer" >
                 <div className="cardtextnewHomedropbutton">
                     <h2>Most Picked</h2>
                 </div>
+
+                <div className='newStaycationdealsbutton'>
+                    <p className='newStaycationMostPickedCountryDrop'>Deals</p>
+                    <div className='newStaycationMostPickedicondiv'>
+                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="mostPickedicon" />
+                    </div>
+                </div>
+                {/* <div className='newStaycationdealsbutton'> 
+                        <select className="form-select newStaycationMostPickedCountryDrop" onChange={(e) => handlecounty(e)}
+                            style={{ width: "60%",appearance:"none" }}>
+                            <option value="" style={{textAlign:"center"}}>Deals</option>
+                        </select>
+                        <div className='newStaycationMostPickedicondiv'>
+                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="mostPickedicon" />
+                        </div>
+                </div> */}
             </div>
 
-            <div className="newHomeHotelServicesslidercontainer">
-                <div className='newHomeHotelDotsdiv'>
+            <div className="newHomestaycationmostpickedslidercontainer">
+                <div className='newstaycationMostPickedDotsdiv'>
                     <Slider
                         arrows={false}
                         // autoplay={true}
                         speed={1000}
                         autoplaySpeed={2000}
                         // dots={true}
-                        dotsclassName="slick-dots hotelservicesslickDots line-indicator"
+                        dotsclassName="slick-dots staycationmostpickedslickDots line-indicator"
                         ref={sliderRef}
                         slidesToShow={5}
                         slidesToScroll={2}
@@ -110,74 +126,97 @@ export const NewStaycationMostPicked = () => {
                         )}
                     >
 
-                        <div className="cardtexthotelservices_maindiv">
-                            <img src="Images/HotelsImage/HotelImage1.jpg" alt="" />
-                            <div className="hotelservicesdetails" style={{color:"white"}}>Travel Talk
-                                <br />
-                                <span className="hoteltitle_rating">
-                                 <p style={{marginLeft:"0%",marginTop:"-11%"}}>Travel Community </p>
-                                 <p style={{marginLeft:"0%",marginTop:"-8%"}}>2,366 Travellers</p>
+                        <div className="cardtextstaycationmostpicked_maindiv">
+                            <div className='staycationsMostPickedzoomming'>
+                            <img  src="Images/HotelsImage/HotelImage1.jpg" alt="" />
+                            </div>
+                            <div className="staycationmostpickeddetails" style={{color:"white",fontWeight:"700",fontSize:"22px",marginLeft:"7%"}}>
+                                 <p className='newstaycationMostpickeddivheadiing'>Travel Talk</p>
+                                 <br />
+                                 <span className="hoteltitle_rating">
+                                 <p className='newStaycationMostPickedcommunityheading'>Travel Community </p>
+                                 <p  className='newstaycationMostpickedTravellers'>2,366 Travellers</p>
                                 </span>
                             </div>
                         </div>
-                        <div className="cardtexthotelservices_maindiv">
+                        <div className="cardtextstaycationmostpicked_maindiv">
+                            <div className='staycationsMostPickedzoomming'>
                             <img src="Images/HotelsImage/HotelImage2.jpg" alt="" />
-                            <div className="hotelservicesdetails" style={{color:"white"}}>Travel Talk
-                                <br />
-                                <span className="hoteltitle_rating">
-                                <p style={{marginLeft:"0%",marginTop:"-11%"}}>Travel Community </p>
-                                 <p style={{marginLeft:"0%",marginTop:"-8%"}}>2,366 Travellers</p>
+                            
+                            </div>
+                            <div className="staycationmostpickeddetails" style={{color:"white",fontWeight:"700",fontSize:"22px",marginLeft:"7%"}}>
+                                 <p className='newstaycationMostpickeddivheadiing'>Travel Talk</p>
+                                 <br />
+                                 <span className="hoteltitle_rating">
+                                 <p className='newStaycationMostPickedcommunityheading'>Travel Community </p>
+                                 <p className='newstaycationMostpickedTravellers'>2,366 Travellers</p>
                                 </span>
                             </div>
                         </div>
 
-                        <div className="cardtexthotelservices_maindiv">
-                            <img src="Images/HotelsImage/HotelImage3.jpg" alt="" />
-                           <div className="hotelservicesdetails" style={{color:"white"}}>Travel Talk
-                                <br />
-                                <span className="hoteltitle_rating">
-                                    <p style={{marginLeft:"0%",marginTop:"-11%"}}>Travel Community </p>
-                                 <p style={{marginLeft:"0%",marginTop:"-8%"}}>2,366 Travellers</p>
+                        <div className="cardtextstaycationmostpicked_maindiv">
+                            <div className='staycationsMostPickedzoomming'>
+                            <img  src="Images/HotelsImage/HotelImage3.jpg" alt="" />
+                            </div>
+                            
+                           <div className="staycationmostpickeddetails" style={{color:"white",fontWeight:"700",fontSize:"22px",marginLeft:"7%"}}>
+                           <p className='newstaycationMostpickeddivheadiing'>Travel Talk</p>
+                                 <br />
+                                 <span className="hoteltitle_rating">
+                                 <p className='newStaycationMostPickedcommunityheading'>Travel Community </p>
+                                 <p  className='newstaycationMostpickedTravellers'>2,366 Travellers</p>
                                 </span>
                             </div>
                         </div>
-                        <div className="cardtexthotelservices_maindiv">
+                        <div className="cardtextstaycationmostpicked_maindiv">
+                            <div className='staycationsMostPickedzoomming'>
                             <img src="Images/HotelsImage/HotelImage4.jpg" alt="" />
-                           <div className="hotelservicesdetails" style={{color:"white"}}>Travel Talk
-                                <br />
-                                <span className="hoteltitle_rating">
-                                <p style={{marginLeft:"0%",marginTop:"-11%"}}>Travel Community </p>
-                                 <p style={{marginLeft:"0%",marginTop:"-8%"}}>2,366 Travellers</p>
+                            </div>
+                           <div className="staycationmostpickeddetails" style={{color:"white",fontWeight:"700",fontSize:"22px",marginLeft:"7%"}}>
+                                 <p className='newstaycationMostpickeddivheadiing'>Travel Talk</p>
+                                 <br />
+                                 <span className="hoteltitle_rating">
+                                 <p className='newStaycationMostPickedcommunityheading'>Travel Community </p>
+                                 <p  className='newstaycationMostpickedTravellers'>2,366 Travellers</p>
                                 </span>
                             </div>
                         </div>
-                        <div className="cardtexthotelservices_maindiv">
+                        <div className="cardtextstaycationmostpicked_maindiv">
+                            <div className='staycationsMostPickedzoomming'>
                             <img src="Images/HotelsImage/HotelImage5.jpg" alt="" />
-                           <div className="hotelservicesdetails" style={{color:"white"}}>Travel Talk
-                                <br />
-                                <span className="hoteltitle_rating">
-                                 <p style={{marginLeft:"0%",marginTop:"-11%"}}>Travel Community </p>
-                                 <p style={{marginLeft:"0%",marginTop:"-8%"}}>2,366 Travellers</p>
+                            </div>
+                           <div className="staycationmostpickeddetails" style={{color:"white",fontWeight:"700",fontSize:"22px",marginLeft:"7%"}}>
+                                 <p className='newstaycationMostpickeddivheadiing'>Travel Talk</p>
+                                 <br />
+                                 <span className="hoteltitle_rating">
+                                 <p className='newStaycationMostPickedcommunityheading'>Travel Community </p>
+                                 <p  className='newstaycationMostpickedTravellers'>2,366 Travellers</p>
                                 </span>
                             </div>
                         </div>
-                        <div className="cardtexthotelservices_maindiv">
+                        <div className="cardtextstaycationmostpicked_maindiv">
+                            <div className='staycationsMostPickedzoomming'>
                             <img src="Images/HotelsImage/HotelImage6.jpg" alt="" />
-                           <div className="hotelservicesdetails" style={{color:"white"}}>Travel Talk
-                                <br />
-                                <span className="hoteltitle_rating">
-                                <p style={{marginLeft:"0%",marginTop:"-11%"}}>Travel Community </p>
-                                 <p style={{marginLeft:"0%",marginTop:"-8%"}}>2,366 Travellers</p>
+                            </div>
+                           <div className="staycationmostpickeddetails" style={{color:"white",fontWeight:"700",fontSize:"22px",marginLeft:"7%"}}>
+                                 <p className='newstaycationMostpickeddivheadiing'>Travel Talk</p>
+                                 <br />
+                                 <span className="hoteltitle_rating">
+                                 <p className='newStaycationMostPickedcommunityheading'>Travel Community </p>
+                                 <p  className='newstaycationMostpickedTravellers'>2,366 Travellers</p>
                                 </span>
                             </div>
                         </div>
-                        <div className="cardtexthotelservices_maindiv">
+                        <div className="cardtextstaycationmostpicked_maindiv">
+                            <div className='staycationsMostPickedzoomming'>
                             <img src="Images/HotelsImage/HotelImage7.jpg" alt="" />
-                           <div className="hotelservicesdetails" style={{color:"white"}}>Travel Talk
-                                <br />
-                                <span className="hoteltitle_rating">
-                                 Travel Community 
-                                 12,366 Travellers
+                            </div>
+                           <div className="staycationmostpickeddetails" style={{color:"white",fontWeight:"700",fontSize:"22px",marginLeft:"7%"}}>
+                                 <p className='newstaycationMostpickeddivheadiing'>Travel Talk</p>
+                                 <br />
+                                 <span className="hoteltitle_rating">
+                                 <p className='newStaycationMostPickedcommunityheading'>Travel Community </p>
+                                 <p  className='newstaycationMostpickedTravellers'>2,366 Travellers</p>
                                 </span>
                             </div>
                         </div>

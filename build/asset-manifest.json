@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9017c938.css",
-    "main.js": "/static/js/main.1045262c.js",
+    "main.css": "/static/css/main.7a829cbe.css",
+    "main.js": "/static/js/main.3b2b701d.js",
     "static/js/787.7886e5ff.chunk.js": "/static/js/787.7886e5ff.chunk.js",
     "static/media/UAE4.jpg": "/static/media/UAE4.7d17172021074cd0aa62.jpg",
     "static/media/NewHomeBanner.gif": "/static/media/NewHomeBanner.c6c45c16f081ded45159.gif",
@@ -11,8 +11,10 @@
     "static/media/mobile2.png": "/static/media/mobile2.1534b44cb6268c95b9f4.png",
     "static/media/UAE2.jpg": "/static/media/UAE2.639242c9b9c597457972.jpg",
     "static/media/vplane.gif": "/static/media/vplane.3f77d31d5b2baa6a9025.gif",
+    "static/media/Manali.jpg": "/static/media/Manali.5a258cb5d656adbb7d34.jpg",
     "static/media/handpickimagebg1.jpg": "/static/media/handpickimagebg1.a5a9083fa5d907fee746.jpg",
     "static/media/UAE3.jpg": "/static/media/UAE3.2459d07bb05be3ac58b9.jpg",
+    "static/media/staycation1.jpg": "/static/media/staycation1.6375ce8c3a5bfaa92bc4.jpg",
     "static/media/HotelServicesBackground.png": "/static/media/HotelServicesBackground.835d9c2c3abb84c5aef3.png",
     "static/media/reviewbg.png": "/static/media/reviewbg.32b72a62a1cf68f62eea.png",
     "static/media/frontsideImage.jpeg": "/static/media/frontsideImage.c884d203696944ede3d7.jpeg",
@@ -23,12 +25,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.9017c938.css.map": "/static/css/main.9017c938.css.map",
-    "main.1045262c.js.map": "/static/js/main.1045262c.js.map",
+    "main.7a829cbe.css.map": "/static/css/main.7a829cbe.css.map",
+    "main.3b2b701d.js.map": "/static/js/main.3b2b701d.js.map",
     "787.7886e5ff.chunk.js.map": "/static/js/787.7886e5ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9017c938.css",
-    "static/js/main.1045262c.js"
+    "static/css/main.7a829cbe.css",
+    "static/js/main.3b2b701d.js"
   ]
 }

@@ -1,171 +1,262 @@
-#filter-newhomepagetrave-container {
-  display: flex;
-  flex-direction:column;
+#filter-newStaycationsPagetrave-container {
+  /* border: 1px solid red; */
+  /* display: flex;
+  flex-direction: column; */
   box-sizing: border-box;
   justify-content: space-between;
   margin: auto;
   top: 45%;
   background-color: white;
-  width:64%;
-  /* border: 3px solid brown !important; */
+  width:70%;
+  /* border: 3px solid #3380f2 !important; */
   color: #3380f2 !important;
-  height: 245px;
+  height: 110px !important;
   /* opacity: 0.9; */
-  left: 18%;
+  left: 16%;
   border-radius: 10px;
   position: absolute !important;
   z-index: 10;
-  height: 65px;
+  height: 130px;
 }
 
+.multiroundbuttons{
+  /* border-bottom: 1px solid blue; */
+  margin-left: 2%;
+  margin-top: 1%;
+}
 
 /* This css is for the experiment input div part */
-.experimentinputmaindiv{
+.newStaycationsinputmaindiv{
+  /* border: 1px solid black; */
+  margin-top: 1.5% !important;
+  margin-left: 0.9%;
+  width: 99%;
   display: flex;
   flex-direction: row;
-  /* border: 2px solid red; */
 }
 
-.experimentDestinationInputContainer{
-  /* border: 2px solid green; */
+.newStaycationsDestinationInputContainer{
+  /* border: 1px solid red; */
   width: 30%;
   height: 65px;
 }
 
-.newExperimentNameInput{
-  /* border: 1px solid purple; */
+.newStaycationsDestinationInputContainer p{
+  /* border: 1px solid maroon; */
+  height: 10px;
+  margin-left: 2%;
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #818090;
+  font-size: 15px;
+}
+
+.newStaycationsDestinationInputContainer1{
+  /* border: 1px solid red; */
+  width: 30%;
+  height: 65px;
+}
+
+.newStaycationsDestinationInputContainer1 p{
+  /* border: 1px solid maroon; */
+  height: 10px;
+  margin-left: 2%;
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #818090;
+  font-size: 15px;
+}
+
+.newStaycationsNameInput{
+  border: 1px solid lightgray ;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  color: #212529;
   /* background-color: #8DBBFF; */
   width: 100%;
-  height: 70px;
+  height: 40px;
+  display: flex;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin-left: 2%;
+  /* border-radius: 5px; */
+  flex-direction: row;
+}
+.newStaycationsNameInput1{
+  border: 1px solid lightgray !important;   
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  /* background-color: #8DBBFF; */
+  width: 95%;
+  margin-left: 2%;
+  margin-right: 2% !important;
+  padding-left: 5px;
+  padding-top: 5px;
+  height: 40px;
   display: flex;
   /* border-radius: 5px; */
   flex-direction: row;
 }
-
-.experimentinputNameContainer input{
+.newStaycationsinputNameContainer{
+  display: flex;
+  flex-direction: row;
+}
+.newStaycationsinputNameContainer input{
+  width: 100%;
   /* background-color: #8DBBFF; */
   height: auto;
-  margin-top: 9% !important;
-  width: 100% !important;
+  margin-top: -1% !important;
+  width: 130% !important;
   color: black;
   border: none !important;
   outline: none !important;
   padding-left: 4%;
-  font-size: 18px;
+  /* margin-left: 4%; */
+  font-size: 14px;
+  /* border: 2px solid red !important; */
 }
 
-.experimentinputNameContainer input::placeholder{
+.newStaycationsinputNameContainer input::placeholder{
   /* padding-left: 5%; */
   color: black;
+  /* margin-left: 2%; */
 }
 
-.experimentInputicon{
-  margin-top: 7%;
+.newStaycationsInputicon{
+  margin-top: 1%;
   font-size: 25px;
   color: black;
+  /* margin-right: 4%; */
   margin-left: 4%;
-  /* border: 2px solid blue; */
+
 }
 
-.experimentinputNameContainer .hotelinputIconContainer{
+.newStaycationsinputNameContainer .hotelinputIconContainer{
   font-size: 30px !important;
 }
 
 
-.experimentCheckIn_dateContainer{
+.newStaycationsCheckIn_dateContainer{
   /* border: 1px solid purple; */
   width: 20%;
+  /* margin-top: 1%; */
 }
 
-.experimentCheckIn_dateContainer input{
-  width: 100%;
-  border-left: 1px solid black !important;
-  outline: none !important;
+.newStaycationsCheckIn_dateContainer p{
+  /* border: 1px solid maroon; */
+  height: 20px;
+  margin-left: 5%;
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #818090;
+  font-size: 15px;
 }
 
 
-.experimentCheckIn_dateContainer input{
-  border-left: 1px solid black !important;
-  margin-top: 4%;
+.newStaycationsCheckIn_dateContainer input{
+  /* border-left: 1px solid black !important; */
+  border: 1px solid lightgray !important;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  margin-top: -5%;
+  margin-left: 5%;
   width: 100%;
   border: none;
   outline: none !important;
   padding-top: 2%;
-  height: 50px;
+  height: 40px;
   width: 90% !important;
   color: black;
   /* border: none !important; */
   outline: none !important;
   padding-left: 4%;
-  font-size: 18px;
+  font-size: 15px;
 }
 
-.experimentCheckout_DateContainer{
+.newStaycationsCheckout_DateContainer{
   /* border-right: 1px solid orange; */
-  width: 22%;
+  width: 20%;
+  /* margin-top: 1%; */
   /* background-color: #8DBBFF; */
 }
 
-.experimentCheckout_DateContainer input{
-  border-left: 1px solid black !important;
-  margin-top: 4%;
+.newStaycationsCheckout_DateContainer p{
+  height: 20px;
+  margin-left: 2%;
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #818090;
+  font-size: 15px;
+}
+
+.newStaycationsCheckout_DateContainer input{
+  border: 1px solid lightgray !important;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  margin-top: -5%;
   width: 100%;
   border: none;
   outline: none !important;
   padding-top: 2%;
-  height: 50px;
+  height: 40px;
   width: 90% !important;
   color: black;
   outline: none !important;
   padding-left: 4%;
-  font-size: 18px;
+  font-size: 15px;
 }
 
-.experimentGuest_outerDiv{
+.newStaycationsGuest_outerDiv{
   /* border: 1px solid black; */
-  width: 20%;
+  width: 22%;
+  margin-left:-1%;
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #818090;
+  font-size: 15px;
 }
 
-#newHomePage_departure {
+#newStaycationsPage_departure {
   display: flex;
+  border: 1px solid lightgray !important;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   flex-direction: row;
   width: 100%;
+  margin-top: -5% !important;
   /* color: #3380f2; */
   color: black;
   background-color: white !important;
-  border-radius: 5px;
+  border-radius: 0px;
+  padding-left: 3%;
 }
 
-#newHomePage_departure h3 {
-  border-left: 1px solid black;
-  font-size: 20px;
+#newStaycationsPage_departure h5 {
+  
+  font-size: 17px;
   /* font-weight: 700; */
   /* margin-left: -7%; */
-  padding: 7px;
-  padding-left: 16px;
-  padding-top: 7%;
-  margin-top: 4%;
-  height: 48px;
-  /* border: 2px solid blue; */
+  padding-top: 9px;
+  padding-left: 6px;
+  margin-top: 0% !important;
+  height: 30px;
+  /* padding-top: 10% !important; */
 }
 
 .dropdownnewHotelPage-content {
   display: none;
   position: absolute;
-  color: white;
-  background-color: white;
+  color:white !important;
+  background-color: #3380f2;
   width: 200px;
   height: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  margin-top: 5%;
+  z-index: 1000 !important;
+  margin-top: 4%;
+  /* border: 1px solid red !important; */
 }
 .dropdownnewHotelPage-content div:hover {
-  background-color: white;
-  color: #3380f2;
+  background-color: white !important;
+  color: #3380f2 !important;
 }
-#newHomePage_departure:hover .dropdownnewHotelPage-content {
+#newStaycationsPage_departure:hover .dropdownnewHotelPage-content {
   display: block;
+  /* z-index: 100 !important; */
 }
 
 .navbarnewHotelPageOptions {
@@ -174,26 +265,28 @@
   padding-bottom: 8%;
 }
 
-.experimentHomeGuestIcon{
+.newStaycationHomeGuestIcon{
   /* border: 1px solid red; */
   font-size: 24px;
   margin-left: 15% !important;
-  margin-top: 11% !important;
+  margin-top: 3% !important;
   background-color: white !important;
   /* background-color: #8DBBFF; */
 }
 
-.experiment_SearchButton{
+.newStaycation_SearchButton{
   /* border: 1px solid blue; */
-  width: 10%;
+  width: 15% !important;
 }
 
-.experiment_SearchButton button{
-  margin-top: 10%;
+.newStaycation_SearchButton button{
+  margin-top: 16%;
   width: 90%;
   height: 45px;
-  padding-left: 17%;
-  padding-top: 9%;
+  margin-left: 7%;
+  margin-right: 7% !important;
+  padding-left: 25%;
+  padding-top: 7%;
 }
 
 
@@ -803,12 +896,12 @@
   margin-bottom: 2%;
   height: 20px;
 }
-.flightscheckbox {
+.Staycationscheckbox {
   margin-left: 5%;
   margin-bottom: -0.5%;
   margin-top: -3%;
 }
-.flightscheckbox1 {
+.Staycationscheckbox1 {
   margin-left: 0.5%;
   margin-top: -1.4%;
   font-size: 15px;
@@ -836,7 +929,7 @@
     margin-top: 8%;
   }
 
-  .filter-newhomepagetrave-container {
+  .filter-newStaycationsPagetrave-container {
     flex-direction: column;
     margin-top: 5%;
   }
@@ -875,177 +968,6 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
-  
-  
-  #filter-newhomepagetrave-container {
-    display: flex;
-    flex-direction:column;
-    box-sizing: border-box;
-    justify-content: space-between;
-    margin: auto;
-    top: 15%;
-    background-color: white;
-    width:55%;
-    /* border: 3px solid brown !important; */
-    color: #3380f2 !important;
-    height: 40px !important;
-    /* opacity: 0.9; */
-    left: 22%;
-    border-radius: 10px;
-    position: absolute !important;
-    z-index: 10;
-    height: 65px;
-  }
-  .experimentinputmaindiv{
-    display: flex;
-    flex-direction: column;
-    /* border: 2px solid red; */
-    width: 100%;
-  }
-  .experimentDestinationInputContainer{
-    /* border: 2px solid green; */
-    width: 100%;
-    height: 35px;
-    border-radius: 15px;
-  }
-  .newExperimentNameInput{
-    /* border: 1px solid purple; */
-    width: 100%;
-    height: 35px;
-    display: flex;
-    flex-direction: row;
-  }
-  .experimentInputicon{
-    margin-top: 4%;
-    font-size: 20px;
-    color: black;
-    margin-left: 4%;
-    /* border: 2px solid blue; */
-  }
-  .experimentinputNameContainer input{
-    /* background-color: #8DBBFF; */
-    height: auto;
-    margin-top: 4% !important;
-    width: 100% !important;
-    color: black;
-    font-weight: 700;
-    border: none !important;
-    outline: none !important;
-    padding-left: 4%;
-    font-size: 11px;
-    padding-top: 5%;
-  }
-  .experimentCheckIn_dateContainer{
-    /* border: 2px solid purple; */
-    width: 100%;
-    height: 35px;
-    margin-top: 15%;
-  }
-  .experimentCheckIn_dateContainer input{
-    width: 100%;
-    height: 35px;
-    margin-top: -2%;
-    border-left: 1px solid black !important;
-    outline: none !important;
-  }
-  .experimentCheckIn_dateContainer input{
-    /* border-left: 1px solid black !important; */
-    /* margin-top: 4%; */
-    width: 100% !important;
-    border: none;
-    outline: none !important;
-    /* padding-top: 2%; */
-    /* margin-left: 4%; */
-    height: 35px;
-    width: 100% !important;
-    color: black;
-    outline: none !important;
-    padding-left: 11%;
-    font-size: 15px;
-    border-radius: 15px;
-    padding-right: 10%;
-  }
-  .experimentCheckout_DateContainer{
-    /* border-right: 1px solid orange; */
-    width: 100%;
-    /* border: 2px solid salmon; */
-    margin-top: 8%;
-    height: 35px;
-    /* background-color: #8DBBFF; */
-  }
-  
-  .experimentCheckout_DateContainer input{
-    border-left: 1px solid black !important;
-    margin-top: 0%;
-    width: 110%;
-    border: none;
-    outline: none !important;
-    /* padding-top: 2%; */
-    height: 35px;
-    width: 100% !important;
-    color: black;
-    outline: none !important;
-    padding-left: 15%;
-    font-size: 15px;
-    /* margin-left: 5%; */
-    border-radius: 15px;
-    padding-right: 10%;
-  }
-  .experimentGuest_outerDiv{
-    /* border: 1px solid black; */
-    width: 100%;
-    /* margin-left: 5%; */
-    margin-top: 10%;
-    height: 35px;
-  }
-  
-  #newHomePage_departure {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    color: black;
-    background-color: white !important;
-    border-radius: 5px;
-    height: 35px;
-    border-radius: 15px;
-  }
-  #newHomePage_departure h3 {
-    border-left:none;
-    font-size: 15px;
-    height: 28px;
-    /*font-weight: 700;*/
-    /*margin-left:3%;*/
-    padding: 7px;
-    padding-left: 30px;
-    /*padding-top: 7%;*/
-    margin-top: 1%;
-    /* border: 2px solid blue; */
-  }
-  .experimentHomeGuestIcon{
-    /* border: 1px solid red; */
-    font-size: 20px !important;
-    margin-top: 3% !important;
-    margin-left: 26% !important;
-  }
-  
-.experiment_SearchButton{
-  /* border: 3px solid blue; */
-  width: 100%;
-  height: 40px;
-  margin-top: 10%;
-  /* margin-left: 9%; */
-}
-
-.experiment_SearchButton button{
-  margin-top: 0%;
-  border-radius: 15px;
-  width: 100%;
-  height: 40px;
-  
-}
-
-
-
   .selectnewhomepagedate {
     margin-top: -8%;
     margin-left: 3%;
@@ -1095,11 +1017,11 @@
     flex-direction: row;
     /* border: 1px solid; */
   }
-  .filter-newhomepagetrave-container {
+  .filter-newStaycationsPagetrave-container {
     flex-direction: column;
     border: none;
   }
-  .filter-newhomepagetrave-container {
+  .filter-newStaycationsPagetrave-container {
     flex-direction: column;
   }
   .filternewhomebanner-fromTo {
@@ -1121,5 +1043,7 @@
     flex-direction: row;
     font-size: 13px;
   }
-  
+  #newhomepage_departure {
+    margin-top: 1%;
+  }
 }

@@ -32,7 +32,7 @@ export const NewStaycationNavbar = () => {
         <>
            <div className="newStaycationNavbarmaindiv">
               <div className="newStaycationNavbaricondiv1">
-                    <img className="newStaycationNavbaricon" src={pickup}/>
+              <img className="newStaycationNavbaricon" src={pickup}/>
               </div>
               <div className="newStaycationNavbaricondiv2">
               <img className="newStaycationNavbaricon" src={pickup}/>
@@ -43,6 +43,8 @@ export const NewStaycationNavbar = () => {
               <div className="newStaycationNavbaricondiv4">
               <img className="newStaycationNavbaricon" src={pickup}/>
               </div>
+              
+              
               {/* <div className="newStaycationviewallbutton"> */}
               <div className='newStaycationNavbarDropContainer'>
                         <select className="form-select newStaycationNavbarCountryDrop" onChange={(e) => handlecounty(e)}

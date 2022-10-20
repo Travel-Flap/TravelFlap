@@ -21,27 +21,24 @@
     font-size: 35px;
   }
   
-  
-  
-  
-  .newflightsnearyoumaindiv {
+  .newstaycationmostpickedmaindiv {
     /* border: 1px solid red; */
     width: 100%;
     height: 500px !important;
-    background-color: #3380f2;
     opacity: 0.9;
-    /* background-image: url(/public/Images/NewHomeLayout/BackgroundImages/HotelServicesBackground.png); */
+    background-color: #3380F2 !important;
+    /* background-image: url(/public/Images/NewHomeLayout/BackgroundImages/staycationmostpickedBackground.png); */
   }
   
   .slick-slide {
     width: 280px;
   }
   
-  .newHomeHotelServicesslidercontainer .hotelservicesslickDots {
+  .newHomestaycationmostpickedslidercontainer .staycationmostpickedslickDots {
     bottom: -2.5vw;
   }
   
-  .newHomeHotelServicesslidercontainer .hotelservicesslickDots li button {
+  .newHomestaycationmostpickedslidercontainer .staycationmostpickedslickDots li button {
     width: 20px;
     height: 20px;
     background: white !important;
@@ -50,7 +47,7 @@
     border-radius: 20px;
   }
   
-  .newHomeHotelServicesslidercontainer .hotelservicesslickDots li button:before {
+  .newHomestaycationmostpickedslidercontainer .staycationmostpickedslickDots li button:before {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -77,11 +74,11 @@
     width: 96%;
     /* border: none; */
   }
-  .besthoteldealheadingcontainer {
+  .newStaycationmostPickedheadingcontainer {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: #3380f2;
+    /* background-color: #3380f2; */
     height: 80px;
     margin: auto;
     /* margin-top: 2%; */
@@ -102,13 +99,13 @@
     
     } */
   
-  .newHomeHotelDotsdiv .slick-dots {
+  .newstaycationMostPickedDotsdiv .slick-dots {
     bottom: -2.5vw;
     /* border: 1px solid red !important; */
     margin-top: 1% !important;
   }
   
-  .newHomeHotelDotsdiv .slick-dots li  {
+  .newstaycationMostPickedDotsdiv .slick-dots li  {
     /* border: 1px solid red !important; */
     bottom: 2%;;
     width: 20px;
@@ -118,11 +115,11 @@
     background-color: white !important;
   }
   
-  .newHomeHotelDotsdiv .slick-dots li button:active{
+  .newstaycationMostPickedDotsdiv .slick-dots li button:active{
     background-color: blue !important;
   }
   
-  .newHomeHotelDotsdiv .slick-dots li:before {
+  .newstaycationMostPickedDotsdiv .slick-dots li:before {
   
     position: absolute;
     font-size: 20px;
@@ -206,7 +203,7 @@
     color: #3380f2;
     /* padding-top: 1%; */
   }
-  .newHomeHotelServicesslidercontainer {
+  .newHomestaycationmostpickedslidercontainer {
     /* border: 2px solid red; */
     width: 90%;
     margin: auto;
@@ -303,7 +300,7 @@
     background: rgb(51, 128, 242) !important;
     color: white !important;
     transition: 700ms;
-    border: 3px solid red;
+    /* border: 3px solid re d; */
   }
   .buttons:hover {
     /* background: white !important; */
@@ -351,7 +348,7 @@
     .activityaroundheading1 {
       display: none;
     }
-    .besthoteldealheadingcontainer {
+    .newStaycationmostPickedheadingcontainer {
       flex-direction: column;
     }
     .experimentheading2 {
@@ -408,7 +405,7 @@
       font-size: 16px;
       margin-left: 3%;
     }
-    .besthoteldealheadingcontainer {
+    .newStaycationmostPickedheadingcontainer {
       flex-direction: column;
     }
     .activityaroundimagetextcontainer img {
@@ -424,7 +421,7 @@
     }
   }
   
-  .newflightsnearyoumaindiv {
+  .newstaycationmostpickedmaindiv {
     /* border: 1px solid red; */
     width: 100%;
   }
@@ -438,11 +435,11 @@
     width: 96%;
     /* border: none; */
   }
-  .besthoteldealheadingcontainer {
+  .newStaycationmostPickedheadingcontainer {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: #3380f2;
+    /* background-color: #3380f2; */
     height: 80px;
     margin: auto;
     /* margin-top: 2%; */
@@ -525,7 +522,7 @@
     color: #3380f2;
     padding-top: 1%;
   }
-  .newHomeHotelServicesslidercontainer {
+  .newHomestaycationmostpickedslidercontainer {
     /* border: 2px solid red; */
     width: 90%;
     margin: auto;
@@ -618,7 +615,7 @@
     background: rgb(51, 128, 242) !important;
     color: white !important;
     transition: 700ms;
-    border: 3px solid red;
+    /* border: 3px solid red; */
   }
   .buttons:hover {
     /* background: white !important; */
@@ -666,7 +663,7 @@
     .activityaroundheading1 {
       display: none;
     }
-    .besthoteldealheadingcontainer {
+    .newStaycationmostPickedheadingcontainer {
       flex-direction: column;
     }
     .experimentheading2 {
@@ -723,7 +720,7 @@
       font-size: 16px;
       margin-left: 3%;
     }
-    .besthoteldealheadingcontainer {
+    .newStaycationmostPickedheadingcontainer {
       flex-direction: column;
     }
     .activityaroundimagetextcontainer img {
@@ -792,13 +789,10 @@
     justify-content: space-between;
     margin-top: 30px;
   }
-  .cardtexthotelservices_maindiv {
-    /* border: 2px solid red; */
-    border: 2px solid lightgray;
-    width: 18.5%;
-    height: 360px;
+  /* .cardtextstaycationmostpicked_maindiv {
+    width: 25%;
+    height: 350px;
     position: relative;
-    background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
       rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: flex;
@@ -806,16 +800,15 @@
     align-items: center;
     justify-content: space-around;
     border-radius: 10px;
-    /* margin-top: 15%; */
   }
-  .cardtexthotelservices_maindiv:hover {
+  .cardtextstaycationmostpicked_maindiv:hover {
     transform: scale(1.01);
     cursor: pointer;
-    height: 365px;
+    height: 350px;
     transition: 0.3s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
       rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  }
+  } */
   
   .reviewratingsection {
     background-color: white;
@@ -834,13 +827,12 @@
   
     z-index: 10;
   }
-  .cardtexthotelservices_maindiv > img {
+  /* .cardtextstaycationmostpicked_maindiv > img {
     width: 100%;
     height: 350px;
-    margin-top: 1%;
     border-radius: 10px 10px 10px 10px;
-  }
-  .cardhotelservices_title {
+  } */
+  .cardstaycationmostpicked_title {
     /* border: 1px solid red; */
     color: white !important;
     width: 90%;
@@ -854,11 +846,31 @@
     color: white;
   }
   
+
+  .newstaycationMostpickeddivheadiing{
+    color: white;
+    font-weight: 700;
+    font-size: 27px;
+    margin-top: -29%;
+    margin-left: -38.5%;
+  }
+  .newStaycationMostPickedcommunityheading{
+    margin-left: -31%;
+    margin-top: -30%;
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .newstaycationMostpickedTravellers{
+    margin-left: -40.5%;
+    margin-top: -5%;
+    font-size: 17px;
+    font-weight: 500;
+  }
   .staricon {
     margin-left: 2%;
   }
   
-  .hotelservicesratesdiv {
+  .staycationmostpickedratesdiv {
     border: 1px solid #3380f2;
     width: 30%;
     background-color: white;
@@ -867,7 +879,7 @@
     border-radius: 7px;
   }
   
-  .hotelservicesratesdiv p {
+  .staycationmostpickedratesdiv p {
     color: #3380f2;
     font-weight: 700;
     font-size: 13px;
@@ -936,7 +948,7 @@
     margin-top: -6px;
   }
   
-  .hotelservicesdetails {
+  .staycationmostpickeddetails {
     position: absolute;
     bottom: -50%;
     left: 0;
@@ -948,61 +960,143 @@
     transition: 0.6s;
   }
   
-  /* ----------------- New button css ----------------  */
-  
-  
-  .newHomeHotelServicesDropContainer {
-    width: 10%;
-    margin-left: 63%;
-    margin-top:2%;
-    display: flex;
-    flex-direction: row;
-    border-right: none;
-    height: 45px;
-    /* border: 2px solid green; */
-  }
-  
-  .newHotelServicesCountryDrop {
-    border: 3px solid White !important;
-    width: 80% !important;
-    height: 39px !important;
-    color:#3380F2 !important;
-    font-weight: 700 !important;
-    font-size: 17px !important;
-    cursor: pointer;
-    border-radius: 25px 0px 0px 25px !important;
-    border-right: none !important;
-    appearance: none !important;
-    /* background-color: white !important; */
-  }
-  .newHomeHotelServicesDropContainer select{
-    /* border: 1px solid red !important; */
-    background-image: none !important;
-  }
-  
-  
-  .newHotelServicesicondiv{
-    width: 20%;
-    /* color: #3380F2; */
-    /* border: 3px solid #3380F2; */
-    background-color: White !important;
-    height: 39px;
-    /* font-size: 18px !important; */
-    border-radius: 0px 25px 25px 0px;
-    padding-right: 5%;
-    border-left: none;
-    /* border: 2px solid yellow; */
-  }
-  .hotelServicesicon{
-    margin-left: -37%;
-    /* width: 100% !important; */
-    color: white !important;
-    /* border: 3px solid #3380F2; */
-    background-color: #3380F2 !important;
-    height: 25px;
-    width: 25px;
-    font-size: 18px !important;
-    border-radius: 100%;
-    margin-top: 23% !important;
-    /* margin-bottom: 105%;*/
-  }
+ 
+
+   /* ----------------- New button css ----------------  */
+
+
+ .newStaycationdealsbutton {
+  width: 10%;
+  margin-left: -18%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+  height: 39px;
+  padding-top: 0%;
+  border-radius: 25px;
+  /* border: 2px solid green; */
+}
+/* .newStaycationdealsbutton:hover .newStaycationMostPickedicondiv{
+  background-color:white;
+  color: #3380F2;
+  cursor: pointer;
+  border: 2px solid #3380F2;
+} */
+.newStaycationMostPickedCountryDrop {
+  /* border: 3px solid red !important; */
+  background-color: white !important;
+  width: 80% !important;
+  height: 39px !important;
+  color:#3380F2 !important;
+  font-weight: 700 !important;
+  font-size: 17px !important;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px !important;
+  border-right: none !important;
+  appearance: none !important;
+  padding-top: 4% !important;
+  border: none !important;
+  padding-left: 38px;
+}
+.newStaycationdealsbutton select{
+  /* border: 1px solid red !important; */
+  background-image: none !important;
+}
+/*   
+.newStaycationMostPickedCountryDrop:hover {
+  background-color: white !important;
+  color: #3380F2 !important;
+  font-weight: 700;
+} */
+.newStaycationMostPickedicondiv{
+  width: 20%;
+  color: white;
+  /* border: 3px solid #3380F2; */
+  background-color: white;
+  height: 39px;
+  /* font-size: 18px !important; */
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
+  /* border: 2px solid yellow; */
+}
+.mostPickedicon{
+  margin-left: -37%;
+  /* width: 100% !important; */
+  color: white;
+  border: 3px solid #3380F2;
+  background-color: #3380F2;
+  height: 25px;
+  width: 25px;
+  font-size: 18px !important;
+  border-radius: 100%;
+  margin-top: 29% !important;
+  /* margin-bottom: 105%;*/
+}
+
+
+
+/* -----------------------------zoomming effect ----------------------------*/
+
+.cardtextstaycationmostpicked_maindiv{
+  width: 115% !important;
+  height: 410px !important;
+  text-align: center;
+  /* border: 2px solid gold; */
+  transform: scale(0.8);
+  transition: .7s;
+  border-radius: 20px;
+  margin-left: -3%;
+  margin-top: -11%;
+  width: 102%;
+  border-radius: 20px !important;
+  overflow: hidden !important;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+/* .cardtextstaycationmostpicked_maindiv {
+margin-left: 3%;
+width: 102%;
+border-radius: 20px !important;
+overflow: hidden !important;
+cursor: pointer;
+position: relative;
+text-align: center;
+} */
+
+.staycationsMostPickedzoomming >img {
+width: 100%;
+height: 100%;
+border-radius: 25px;
+}
+
+.cardtextstaycationmostpicked_maindiv:hover .staycationsMostPickedzoomming >img {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+
+.staycationsMostPickedzoomming {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100% !important;
+  border-radius: 20px !important;
+  z-index: -1;
+  background-color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.staycationsMostPickedzoomming img {
+  width: 100%;
+  filter: brightness(0.8);
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: 1;
+  position: relative;
+}
