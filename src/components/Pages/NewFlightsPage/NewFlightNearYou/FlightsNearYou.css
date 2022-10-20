@@ -14,6 +14,7 @@
     /* box-shadow: 4px 4px 4px rgb(211,211,211); */
     border: none;
     transition: all 300ms ease-in-out;
+    cursor: pointer;
   }
 
   .newFlightsNearYououterdiv:hover {
@@ -124,17 +125,42 @@
     background-color: #3380f2;
   }
   .newFlightsNearYouCardtitle {
+    /* border: 1px dotted slateblue; */
     color: #3380f2 !important;
     font-size: 22px;
-    margin-top: 1%;
+    /* margin-top: -6%; */
+  }
+
+  /* .newFlightNearContentImagediv{
+    border: 1px solid red;
+  } */
+
+  .newFlightNearContentImagediv img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
   }
 
   .newFlightsContentDiv1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
   }
   
+  .newFlightNearContentDatediv{
+    /* border: 1px solid black; */
+    margin-left: 2%;
+  }
+
+
+  .newFlightNearContentDatediv h5{
+    color: grey;
+    font-size: 18px;
+  }
+  .newFlightNearContentDatediv p{
+    color: grey;
+    font-size: 11px;
+  }
   .newFlightsNearYouCard_desc {
     width: 90%;
     color: #3380f2;
@@ -144,11 +170,12 @@
   
   .newFlightsNearYouImagetextcontainer {
     width: 100%;
-    height: 430px;
+    height: 440px;
   }
   
   .newFlightsNearYouTextcard {
-    margin-left: 9% !important;
+    /* border: 1px solid black; */
+    /* margin-left: 9% !important; */
     width: 100% !important;
   }
 
@@ -168,20 +195,22 @@
   
   .newFlightsNearYouCardimage {
     border: none;
-    width: 92% !important;
-    height: 230px;
-    margin-left: 4%;
-    margin-top: 4%;
+    width: 96% !important;
+    height: 180px;
+    margin-left: 2%;
+    margin-top: 2%;
   }
 
   .activityAroundimage{
-    height: 230px;
+    height: 180px;
+    object-fit: cover;
     width: 100%;
   }
   
   .newFlightsNearYouCarddescmain {
+    /* border: 1px solid red; */
     width: 100%;
-    margin-left: -9%;
+    /* margin-top: -2%; */
   }
   
   .exclusivecarddesc:hover {
@@ -246,8 +275,8 @@
     transform: scale(1.1);
   }
   .newFlightsNearYouButton {
-    border: 3px solid #3380f2;
-    width: 34%;
+    /* border: 3px solid #3380f2; */
+    width: 40%;
     border-radius: 15px !important;
     background-color: white;
     color: #3380f2;
@@ -255,7 +284,10 @@
     font-weight: 500;
     margin-bottom: 1%;
     margin-top: 3%;
+    margin-left: 65%;
     font-size: 15px !important;
+    text-align: right;
+    align-items: flex-end;
   }
   .newFlightsNearYouButton:hover {
     border: 3px solid white;

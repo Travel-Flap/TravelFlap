@@ -124,10 +124,38 @@ export const FlightsNearYou = () => {
                                     <h3 class="card-title newFlightsNearYouCardtitle">Dhaka</h3>
 
                                     <div className="newFlightsContentDiv1">
+                                        <div className="newFlightNearContentImagediv">
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                        </div>
 
-                                        <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        <div className="newFlightNearContentDatediv">
+                                            <h5>Thu, 10 Nov</h5>
+                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                        </div>
+
+                                        <div className="newFlightNaerContent">
+
+                                        </div>
+                                        {/* <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                                     </div>
-                                    <Button className="newFlightsNearYouButton" variant="primary" >Book Now</Button>
+
+                                    <div className="newFlightsContentDiv1">
+                                        <div className="newFlightNearContentImagediv">
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                        </div>
+
+                                        <div className="newFlightNearContentDatediv">
+                                            <h5>Thu, 10 Nov</h5>
+                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                        </div>
+
+                                        <div className="newFlightNaerContent">
+
+                                        </div>
+                                        {/* <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                    </div>
+                                    <p className="newFlightsNearYouButton" variant="primary" >from ₹ 9,222</p>
+                                    {/* <Button className="newFlightsNearYouButton" variant="primary" >from ₹ 9,222</Button> */}
                                 </div>
                             </div>
                         </div>
@@ -140,9 +168,39 @@ export const FlightsNearYou = () => {
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
-                                    <h3 class="card-title newFlightsNearYouCardtitle">Scuba Diving Goa</h3>
-                                    <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="newFlightsNearYouButton" variant="primary" >Book Now</Button>
+                                    <h3 class="card-title newFlightsNearYouCardtitle">Kathmadnu</h3>
+                                    <div className="newFlightsContentDiv1">
+                                        <div className="newFlightNearContentImagediv">
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouContentImage2.jpg" />
+                                        </div>
+
+                                        <div className="newFlightNearContentDatediv">
+                                            <h5>Mon, 19 Dec</h5>
+                                            <p>DEL-KTM with Indigo Airlines.</p>
+                                        </div>
+
+                                        <div className="newFlightNaerContent">
+
+                                        </div>
+                                        {/* <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                    </div>
+                                    <div className="newFlightsContentDiv1">
+                                        <div className="newFlightNearContentImagediv">
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouContentImage2.jpg" />
+                                        </div>
+
+                                        <div className="newFlightNearContentDatediv">
+                                            <h5>Mon, 26 Dec</h5>
+                                            <p>KTM-DEL with Indigp Airlines.</p>
+                                        </div>
+
+                                        <div className="newFlightNaerContent">
+
+                                        </div>
+                                        {/* <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                    </div>
+                                    <p className="newFlightsNearYouButton" variant="primary" >from ₹ 12,191</p>
+                                    {/* <Button className="newFlightsNearYouButton" variant="primary" >Book Now</Button> */}
                                 </div>
                             </div>
                         </div>
@@ -155,9 +213,39 @@ export const FlightsNearYou = () => {
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
-                                    <h3 class="card-title newFlightsNearYouCardtitle">Paragliding</h3>
-                                    <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="newFlightsNearYouButton" variant="primary" >Book Now</Button>
+                                    <h3 class="card-title newFlightsNearYouCardtitle">Da Nang</h3>
+                                    <div className="newFlightsContentDiv1">
+                                        <div className="newFlightNearContentImagediv">
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouContentImage3.jpg" />
+                                        </div>
+
+                                        <div className="newFlightNearContentDatediv">
+                                            <h5>Fri, 4 Nov</h5>
+                                            <p>DEL-DAD with VietJet Airlines.</p>
+                                        </div>
+
+                                        <div className="newFlightNaerContent">
+
+                                        </div>
+                                        {/* <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                    </div>
+                                    <div className="newFlightsContentDiv1">
+                                        <div className="newFlightNearContentImagediv">
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouContentImage3.jpg" />
+                                        </div>
+
+                                        <div className="newFlightNearContentDatediv">
+                                            <h5>Sat, 26 Nov</h5>
+                                            <p>DAD-DEL with VietJet Airlines.</p>
+                                        </div>
+
+                                        <div className="newFlightNaerContent">
+
+                                        </div>
+                                        {/* <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                    </div>
+                                    <p className="newFlightsNearYouButton" variant="primary" >from ₹ 12,355</p>
+                                    {/* <Button className="newFlightsNearYouButton" variant="primary" >Book Now</Button> */}
                                 </div>
                             </div>
                         </div>
@@ -170,9 +258,39 @@ export const FlightsNearYou = () => {
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
-                                    <h3 class="card-title newFlightsNearYouCardtitle">Volcano trekking Indonesia</h3>
-                                    <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="newFlightsNearYouButton" variant="primary" >Book Now</Button>
+                                    <h3 class="card-title newFlightsNearYouCardtitle">Singapore</h3>
+                                    <div className="newFlightsContentDiv1">
+                                        <div className="newFlightNearContentImagediv">
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouContentImage4.jpg" />
+                                        </div>
+
+                                        <div className="newFlightNearContentDatediv">
+                                            <h5>Tue, 8 Nov</h5>
+                                            <p>MAA-SIN with Air India.</p>
+                                        </div>
+
+                                        <div className="newFlightNaerContent">
+
+                                        </div>
+                                        {/* <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                    </div>
+                                    <div className="newFlightsContentDiv1">
+                                        <div className="newFlightNearContentImagediv">
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouContentImage4.jpg" />
+                                        </div>
+
+                                        <div className="newFlightNearContentDatediv">
+                                            <h5>Fri, 11 Nov</h5>
+                                            <p>SIN-MAA with Air India.</p>
+                                        </div>
+
+                                        <div className="newFlightNaerContent">
+
+                                        </div>
+                                        {/* <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                    </div>
+                                    <p className="newFlightsNearYouButton" variant="primary" >from ₹ 13,248</p>
+                                    {/* <Button className="newFlightsNearYouButton" variant="primary" >Book Now</Button> */}
                                 </div>
                             </div>
                         </div>
@@ -186,8 +304,38 @@ export const FlightsNearYou = () => {
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
                                     <h3 class="card-title newFlightsNearYouCardtitle">XLine</h3>
-                                    <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="newFlightsNearYouButton" variant="primary" >Book Now</Button>
+                                    <div className="newFlightsContentDiv1">
+                                        <div className="newFlightNearContentImagediv">
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                        </div>
+
+                                        <div className="newFlightNearContentDatediv">
+                                            <h5>Thu, 10 Nov</h5>
+                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                        </div>
+
+                                        <div className="newFlightNaerContent">
+
+                                        </div>
+                                        {/* <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                    </div>
+                                    <div className="newFlightsContentDiv1">
+                                        <div className="newFlightNearContentImagediv">
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                        </div>
+
+                                        <div className="newFlightNearContentDatediv">
+                                            <h5>Thu, 10 Nov</h5>
+                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                        </div>
+
+                                        <div className="newFlightNaerContent">
+
+                                        </div>
+                                        {/* <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                    </div>
+                                    <p className="newFlightsNearYouButton" variant="primary" >Book Now</p>
+                                    {/* <Button className="newFlightsNearYouButton" variant="primary" >Book Now</Button> */}
                                 </div>
                             </div>
                         </div>
@@ -201,8 +349,38 @@ export const FlightsNearYou = () => {
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
                                     <h3 class="card-title newFlightsNearYouCardtitle">Downhill Bike Riding</h3>
-                                    <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="newFlightsNearYouButton" variant="primary" >Book Now</Button>
+                                    <div className="newFlightsContentDiv1">
+                                        <div className="newFlightNearContentImagediv">
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                        </div>
+
+                                        <div className="newFlightNearContentDatediv">
+                                            <h5>Thu, 10 Nov</h5>
+                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                        </div>
+
+                                        <div className="newFlightNaerContent">
+
+                                        </div>
+                                        {/* <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                    </div>
+                                    <div className="newFlightsContentDiv1">
+                                        <div className="newFlightNearContentImagediv">
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                        </div>
+
+                                        <div className="newFlightNearContentDatediv">
+                                            <h5>Thu, 10 Nov</h5>
+                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                        </div>
+
+                                        <div className="newFlightNaerContent">
+
+                                        </div>
+                                        {/* <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                    </div>
+                                    <p className="newFlightsNearYouButton" variant="primary" >Book Now</p>
+                                    {/* <Button className="newFlightsNearYouButton" variant="primary" >Book Now</Button> */}
                                 </div>
                             </div>
                         </div>
@@ -216,16 +394,43 @@ export const FlightsNearYou = () => {
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
                                     <h3 class="card-title newFlightsNearYouCardtitle">DuneBashing Dubai</h3>
-                                    <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <Button className="newFlightsNearYouButton" variant="primary" >Book Now</Button>
+                                    <div className="newFlightsContentDiv1">
+                                        <div className="newFlightNearContentImagediv">
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                        </div>
+
+                                        <div className="newFlightNearContentDatediv">
+                                            <h5>Thu, 10 Nov</h5>
+                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                        </div>
+
+                                        <div className="newFlightNaerContent">
+
+                                        </div>
+                                        {/* <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                    </div>
+                                    <div className="newFlightsContentDiv1">
+                                        <div className="newFlightNearContentImagediv">
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                        </div>
+
+                                        <div className="newFlightNearContentDatediv">
+                                            <h5>Thu, 10 Nov</h5>
+                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                        </div>
+
+                                        <div className="newFlightNaerContent">
+
+                                        </div>
+                                        {/* <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
+                                    </div>
+                                    <p className="newFlightsNearYouButton" variant="primary" >Book Now</p>
+                                    {/* <Button className="newFlightsNearYouButton" variant="primary" >Book Now</Button> */}
                                 </div>
                             </div>
                         </div>
                     </div>
                     {/* </div> */}
-
-
-
                 </Slider>
             </div>
         </div>
