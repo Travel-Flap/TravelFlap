@@ -81,7 +81,7 @@ export const NewHomeHandPicked = () => {
 
                         <Slider
                             arrows={false}
-                            autoplay={true}
+                            autoplay={false}
                             speed={2000}
                             autoplaySpeed={2000}
                             dots={true}
@@ -157,13 +157,14 @@ export const NewHomeHandPicked = () => {
                                                     <h4 className="handpickednewhomepagecard-title">Romantic Destinations</h4>
                                                 </div>
                                             </div>
-                                            <img src='Images/Handpicked Destination/Romantic Destination3.jpg' className="handpickedcard-img-top " alt="..." />
+                                            <img src='Images/Handpicked Destination/Romantic Destination3.jpg' className="handpickedcard-img-top  testhover" alt="..." />
                                         </div>
                                     </div>
                                 </div>
                             </Link>
 
-                            <Link to="/weekendgetaways" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
+                            <Link to="/weekendgetaways" className="handpickednewhomepagelink">
+                                <div className="card-wrapper handpickednewhomepagecardwrapper">
                                 <div className="handpickedcard">
                                     <div className='handpickednewhomepagecard_img'>
 
@@ -175,13 +176,8 @@ export const NewHomeHandPicked = () => {
                                                 <h4 className="handpickednewhomepagecard-title">Honeymoon Destinations</h4>
                                             </div>
                                         </div>
-                                        <img src='Images/Handpicked Destination/Romantic Destination2.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." /></div>
-
-                                    {/* <div className="card-body">
-                           <div className='handpicked_title'>
-                              <h4 className="handpickednewhomepagecard-title">Honeymoon Destinations</h4>
-                           </div>
-                        </div> */}
+                                        <img src='Images/Handpicked Destination/Romantic Destination2.jpg'  className="handpickedcard-img-top testhover" alt="..." />
+                                        </div>
                                 </div>
                             </div>
                             </Link>
@@ -199,7 +195,7 @@ export const NewHomeHandPicked = () => {
                                                 <h4 className="handpickednewhomepagecard-title">Adventure Destinations</h4>
                                             </div>
                                         </div>
-                                        <img src='Images/Handpicked Destination/Adventure4.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
+                                        <img src='Images/Handpicked Destination/Adventure4.jpg'  className="handpickedcard-img-top testhover" alt="..." />
                                     </div>
                                     {/* <div className="card-body">
                            <div className='handpicked_title'>
@@ -223,7 +219,7 @@ export const NewHomeHandPicked = () => {
                                                 <h4 className="handpickednewhomepagecard-title">Weekend Getaways</h4>
                                             </div>
                                         </div>
-                                        <img src='Images/Handpicked Destination/Weekend Getaway2.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
+                                        <img src='Images/Handpicked Destination/Weekend Getaway2.jpg'  className="handpickedcard-img-top testhover" alt="..." />
                                     </div>
                                     {/* <div className="card-body">
                            <div className='handpicked_title'>
@@ -247,7 +243,7 @@ export const NewHomeHandPicked = () => {
                                                 <h4 className="handpickednewhomepagecard-title">Beach Destinations</h4>
                                             </div>
                                         </div>
-                                        <img src='Images/Handpicked Destination/Beach2.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
+                                        <img src='Images/Handpicked Destination/Beach2.jpg'  className="handpickedcard-img-top testhover" alt="..." />
                                     </div>
                                     {/* <div className="card-body">
                            <div className='handpicked_title'>
@@ -271,7 +267,7 @@ export const NewHomeHandPicked = () => {
                                                 <h4 className="handpickednewhomepagecard-title">Hill Stations</h4>
                                             </div>
                                         </div>
-                                        <img src='Images/Handpicked Destination/HillStation2.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
+                                        <img src='Images/Handpicked Destination/HillStation2.jpg'  className="handpickedcard-img-top testhover" alt="..." />
                                     </div>
                                     {/* <div className="card-body">
                            <div className='handpicked_title'>
@@ -294,7 +290,7 @@ export const NewHomeHandPicked = () => {
                                                 <h4 className="handpickednewhomepagecard-title">International Destinations</h4>
                                             </div>
                                         </div>
-                                        <img src='Images/Handpicked Destination/International Destination1.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
+                                        <img src='Images/Handpicked Destination/International Destination1.jpg'  className="handpickedcard-img-top testhover" alt="..." />
                                     </div>
                                     {/* <div className="card-body">
                            <div className='handpicked_title'>
@@ -317,7 +313,7 @@ export const NewHomeHandPicked = () => {
                                                 <h4 className="handpickednewhomepagecard-title">Heritage Destinations</h4>
                                             </div>
                                         </div>
-                                        <img src='Images/Handpicked Destination/Heritage TajMahal.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
+                                        <img src='Images/Handpicked Destination/Heritage TajMahal.jpg'  className="handpickedcard-img-top testhover" alt="..." />
                                     </div>
                                     {/* <div className="card-body">
                            <div className='handpicked_title'>
@@ -341,7 +337,7 @@ export const NewHomeHandPicked = () => {
                                             </div>
                                         </div>
 
-                                        <img src='Images/Handpicked Destination/Pilgrimage.jpg' style={{ height: "100px", width: "90%" }} className="handpickedcard-img-top" alt="..." />
+                                        <img src='Images/Handpicked Destination/Pilgrimage.jpg'  className="handpickedcard-img-top testhover" alt="..." />
                                     </div>
                                     {/* <div className="card-body handpickednewhomepagecardwrapper">
                            <div className='handpicked_title'>

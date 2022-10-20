@@ -1,262 +1,186 @@
 #filter-newActivityTrave-container {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   box-sizing: border-box;
   justify-content: space-between;
   margin: auto;
   top: 45%;
   background-color: white;
-  width: 64%;
-  /* border: 3px solid #3380f2 !important; */
+  width:64%;
+  /* border: 3px solid brown !important; */
   color: #3380f2 !important;
   height: 245px;
   /* opacity: 0.9; */
   left: 18%;
-  border-radius: 10px;
+  border-radius: 6px;
   position: absolute !important;
   z-index: 10;
-  height: 90px;
+  height: 65px;
 }
 
+
 /* This css is for the experiment input div part */
-.newActivityInputmaindiv {
+.newActivityInputmaindiv{
   display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+}
+
+.newActivityDestinationInputContainer{
+  border: 2px solid lightgray;
+  border-radius: 6px;
+  width: 25%;
+  height: 40px;
+  margin-top: 1.5%;
+  margin-left: 2%;
+}
+
+.newActivityNameInput{
+  /* border: 1px solid purple; */
+  /* background-color: #8DBBFF; */
+  width: 100%;
+  height: 70px;
+  display: flex;
+  /* border-radius: 5px; */
   flex-direction: row;
 }
 
-.newHolidayDestinationInputContainer {
-  /* border: 1px solid red; */
-  width: 40%;
-  height: 65px;
+.newActivityInputNameContainer input{
+      /* background-color: #8DBBFF; */
+      height: auto;
+      margin-top: 3% !important;
+      width: 100% !important;
+      color: black;
+      border: none !important;
+      outline: none !important;
+      padding-left: 0%;
+      font-size: 16px;
+      margin-left: -3%;
 }
 
-
-.newHolidaysinputNameContainer {
-  /* border: 1px solid maroon; */
-  width: 90%;
-}
-.newHolidaysinputNameContainer input {
-  /* background-color: #8DBBFF; */
-  /* border: 1px solid red; */
-  height: 65px;
-  /* margin-top: 3% !important; */
-  width: 100%;
-  color: black;
-  border: none !important;
-  outline: none !important;
-  /* padding-left: 4%; */
-  font-size: 18px;
-}
-
-.newHolidaysinputNameContainer input::placeholder {
+.newActivityInputNameContainer input::placeholder{
   /* padding-left: 5%; */
   color: black;
 }
 
-.newHolidaysInputicon {
-  /* border: 1px solid black !important; */
-  margin-top: 2.4%;
-  font-size: 25px;
+.newActivityInputicon{
+  margin-top: 4%;
+  font-size: 16px;
   color: black;
-  width: 7%;
-
-  /* margin-right: 4%; */
-  margin-left: 4%;
+  margin-left: 0%;
+  width: 20%;
 }
 
-/* This css is for the below form */
-/* .newHolidaysBannerMultiInput{
-  border: 1px solid red;
-} */
-
-.innerNewActivitydropdowncontainer2 {
-  /* border: 1px solid red; */
-  /* border: 3px solid white; */
-  /* background-color: blue; */
-  width: 90%;
-}
-
-.optionsNewActivityBannercontainer {
-  /* border: 2px solid white; */
-  display: flex;
-  margin-top: 2%;
-}
-
-.singleNewActivityBannerdropcontainer {
-  /* border: 1px solid red !important; */
-  width: 40%;
-  margin-left: 1%;
-  border: none;
-}
-
-.singleNewActivityBannerdropcontainer p{
-  /* border: 1px solid red; */
-  height: 10px;
-  color: #818090;
-  /* margin-top: -4%; */
-}
-
-.singleNewActivityBannerdropcontainer select{
-  /* margin-top: 2% !important; */
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-  font-size: 15px;
-  height: 36px;
-  border: 2px solid #dddddd78 !important;
-  /* padding-top: -5px !important; */
-}
-
-.singleNewActivityBannerdropcontainer select::placeholder{
-  padding-top: 4px;
-}
-
-.singleNewActivityBannerdropcontainer1 {
-  margin-left: 1%;
-  width: 35%;
-  /* margin-top: 2%; */
-  /* border: 1px solid red; */
-}
-
-.singleNewActivityBannerdropcontainer1 p{
-   /* border: 1px solid red; */
-   height: 10px;
-   color: #818090;
-   /* margin-top: -7%; */
-}
-
-.singleNewActivityBannerdropcontainer1 select{
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-  font-size: 15px;
-  height: 35px;
-  padding: 5px 10px;
-  border: 2px solid #dddddd78;
-}
-
-.singleNewActivityBannerdropcontainer2 {
-  /* border: 1px solid red !important; */
-  width: 33%;
-  margin-left: 1%;
-  border: none;
-}
-
-.singleNewActivityBannerdropcontainer2 p{
-  /* border: 1px solid red; */
-  /* margin-left: 40% !important; */
-  height: 10px;
-  color: #818090;
-  /* margin-top: -4%; */
-}
-
-.singleNewActivityBannerdropcontainer2 select{
-  /* margin-top: 2% !important; */
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-  font-size: 15px;
-  height: 35px;
-  border: 2px solid #dddddd78;
-  padding: 5px 10px !important;
-}
-
-
-.newVisaform{
-  /* border: 1px solid red; */
-  width: 100% !important;
-}
-
-.newActivityLivingdrop{
-  /* border: 1px solid red; */
-  margin-left: 0% !important;
-}
-
-.singleNewActivityBannerdropcontainerbutton .holidayformbutton {
-  width: 100%;
-  background-color: #3380f2 !important;
-  color: white;
-}
-
-.singleNewActivityBannerdropcontainerbutton .holidayformbutton:hover {
-  background-color: white !important;
-  color: #3380f2 !important;
-}
-
-.newHolidaysinputNameContainer .hotelinputIconContainer {
+.newActivityInputNameContainer .hotelinputIconContainer{
   font-size: 30px !important;
 }
 
-.newHolidaysCheckIn_dateContainer {
-  /* border: 1px solid purple; */
-  width: 20%;
+
+.newActivityCheckIn_dateContainer{
+  width: 18% !important;
+  border: 2px solid lightgray;
+  border-radius: 6px;
+  margin-top: 1.5% !important;
+  height:40px;
+  margin-left: 1%;
 }
 
-.newHolidaysCheckIn_dateContainer input {
+.newActivityCheckIn_dateContainer input{
   width: 100%;
-  border-left: 1px solid black !important;
+  /* border: 2px solid rebeccapurple; */
+  /* border-left: 1px solid black !important; */
+  border: 2px solid lightgray;
+  border-radius: 6px;
+  /* margin-top: -1% !important; */
+  height:35px;
   outline: none !important;
 }
 
-.newHolidaysCheckIn_dateContainer input {
-  border-left: 1px solid black !important;
-  margin-top: 4%;
+
+.newActivityCheckIn_dateContainer input{
+  /* border-left: 1px solid black !important; */
+  margin-top: 0%;
   width: 100%;
   border: none;
   outline: none !important;
-  padding-top: 2%;
-  height: 50px;
+  padding-top: 4.5%;
+  height: 25px;
+  padding-right: 0%;
   width: 90% !important;
-  color: black;
+  /* color: black; */
   /* border: none !important; */
   outline: none !important;
-  padding-left: 4%;
-  font-size: 18px;
+  padding-left: 9%;
+  font-size: 16px;
+  /* border: 2px solid red; */
 }
 
-.newHolidaysCheckout_DateContainer {
-  /* border-right: 1px solid orange; */
-  width: 22%;
-  /* background-color: #8DBBFF; */
+.newActivityCheckout_DateContainer{
+  width: 18% !important;
+  border: 2px solid lightgray;
+  border-radius: 6px;
+  margin-top: 1.5% !important;
+  height:40px;
+  margin-left: 1%;
 }
 
-.newHolidaysCheckout_DateContainer input {
-  border-left: 1px solid black !important;
-  margin-top: 4%;
+.newActivityCheckout_DateContainer input{
+  /* border-left: 1px solid black !important; */
+  /* margin-top:8%; */
   width: 100%;
   border: none;
   outline: none !important;
-  padding-top: 2%;
-  height: 50px;
-  width: 90% !important;
-  color: black;
+  padding-top: 1%;
+  height: 35px;
+  padding-right: 6%;
+  /* border: 2px solid lightgray; */
+  width: 100% !important;
+  /* color: black; */
   outline: none !important;
-  padding-left: 4%;
-  font-size: 18px;
+  padding-left: 9%;
+  font-size: 16px;
+  border-radius: 6px;
+  /* margin-left: 4%; */
 }
 
-.newHolidaysGuest_outerDiv {
-  /* border: 1px solid black; */
-  width: 20%;
+.newActivityGuest_outerDiv{
+  width: 18%;
+  border: 2px solid lightgray;
+  border-radius: 6px;
+  margin-top: 1.5% !important;
+  height:40px;
+  margin-left: 1%;
 }
 
-#newHolidaysPage_departure {
+#newActivity_departure {
   display: flex;
   flex-direction: row;
   width: 100%;
-  /* color: #3380f2; */
   color: black;
   background-color: white !important;
   border-radius: 5px;
+  height: 35px;
+  /* border: 2px solid lightgray; */
+  border-radius: 6px;
+  margin-top: 0%;
 }
 
-#newHolidaysPage_departure h3 {
-  border-left: 1px solid black;
-  font-size: 20px;
+#newActivity_departure h3 {
+  /* border-left: 1px solid black; */
+  font-size: 17px;
   /* font-weight: 700; */
   /* margin-left: -7%; */
   padding: 7px;
-  padding-left: 16px;
-  margin-top: 4%;
-  height: 50px;
-  /* padding-top: 10% !important; */
+  padding-left: 25px;
+  padding-top: 4%;
+  margin-top: 0.5%;
+  /* height: 35px;
+  border: 2px solid lightgray;
+  border-radius: 6px;
+  margin-top: 8%; */
 }
 
-.dropdownnewHotelPage-content {
+.dropdownNewActivity-content {
   display: none;
   position: absolute;
   color: white;
@@ -267,47 +191,46 @@
   z-index: 1;
   margin-top: 5%;
 }
-.dropdownnewHotelPage-content div:hover {
+.dropdownNewActivity-content div:hover {
   background-color: white;
   color: #3380f2;
 }
-#newHolidaysPage_departure:hover .dropdownnewHotelPage-content {
+#newActivity_departure:hover .dropdownNewActivity-content {
   display: block;
 }
 
-.navbarnewHotelPageOptions {
+.navbarNewActivityPageOptions {
   margin-top: 5%;
   padding-top: 8%;
   padding-bottom: 8%;
 }
 
-.experimentHomeGuestIcon {
+.newActivityGuestIcon{
   /* border: 1px solid red; */
-  font-size: 24px;
-  margin-left: 15% !important;
-  margin-top: 11% !important;
+  font-size: 23px;
+  margin-left: 4% !important;
+  margin-top: 3% !important;
   background-color: white !important;
   /* background-color: #8DBBFF; */
 }
 
-.newActivity_SearchButton {
-  /* border: 1px solid red; */
-  width: 15%;
+.newActivity_SearchButton{
+  /* border: 1px solid blue; */
+  width: 10%;
 }
 
-.newActivity_SearchButton button {
-  margin-top: 22%;
+.newActivity_SearchButton button{
+  margin-top: 10%;
+  margin-left: 8%;
   width: 90%;
   height: 45px;
-  margin-left: 4%;
-  padding-left: 25%;
-  padding-top: 7%;
+  padding-left: 17%;
+  padding-top: 9%;
 }
 
-.newActivity_SearchButton button:hover{
-  background-color: white;
-  color: #3380f2;
-}
+
+
+
 
 /* This is prior css code for the homepage */
 .choosenewhomebanneroptions {
@@ -405,8 +328,8 @@
   font-size: 17px;
   margin-left: 13%;
   width: 100%;
-  padding-left: 60px;
-  margin-top: -7%;
+    padding-left: 60px;
+    margin-top: -7%;
   /* border-right: 2px solid #3380f2; */
 }
 .citynewhomebannerinput1 {
@@ -482,13 +405,14 @@
   /* border: 1px solid; */
   height: 70px;
   margin-top: 3%;
+ 
 }
 #newhomepage_departure {
   margin: 12px;
   /* border: 1.4px solid #3380f2; */
   /* background-color: #3380f2; */
   width: 100%;
-  /* border-radius: 8px; */
+  /* border-radius: 6px; */
   /* height: 43px; */
   /* cursor: pointer; */
   margin-left: 0.5%;
@@ -503,7 +427,7 @@
   padding: 12px;
   padding-left: 16px;
 }
-.newhometravellers {
+.newhometravellers{
   margin-top: -10.5%;
   margin-left: 10%;
   color: #3380f2 !important;
@@ -522,7 +446,7 @@
   text-transform: capitalize;
   color: white !important;
   border: 2px solid #3380f2 !important;
-  border-radius: 10px;
+  border-radius: 6px;
   margin-top: 3%;
   height: 45px;
   width: 40%;
@@ -552,8 +476,9 @@
   border-radius: 40px;
 }
 
+
 /* This css part includes to overlapping and hovering the things */
-.bottomupHolidaysclass1 {
+.bottomupExperimentclass1 {
   top: 10%;
   right: 86%;
   z-index: 9 !important;
@@ -562,12 +487,12 @@
   font-weight: 500;
 }
 
-.bottomupHolidaysclass1:hover {
+.bottomupExperimentclass1:hover {
   z-index: 107 !important;
   margin-top: -2%;
 }
 
-.bottomupHolidaysclass2 {
+.bottomupExperimentclass2 {
   top: 10%;
   right: 78%;
   z-index: 8 !important;
@@ -576,12 +501,12 @@
   font-weight: 500;
 }
 
-.bottomupHolidaysclass2:hover {
+.bottomupExperimentclass2:hover {
   z-index: 106 !important;
   margin-top: -2%;
 }
 
-.bottomupHolidaysclass3 {
+.bottomupExperimentclass3 {
   top: 10%;
   right: 70%;
   z-index: 7 !important;
@@ -590,12 +515,12 @@
   font-weight: 500;
 }
 
-.bottomupHolidaysclass3:hover {
+.bottomupExperimentclass3:hover {
   z-index: 106 !important;
   margin-top: -2%;
 }
 
-.bottomupHolidaysclass4 {
+.bottomupExperimentclass4 {
   top: 10%;
   right: 61.6%;
   z-index: 6 !important;
@@ -604,12 +529,12 @@
   font-weight: 500;
 }
 
-.bottomupHolidaysclass4:hover {
+.bottomupExperimentclass4:hover {
   z-index: 105 !important;
   margin-top: -2%;
 }
 
-.bottomupHolidaysclass5 {
+.bottomupExperimentclass5 {
   top: 10%;
   right: 52.5%;
   z-index: 5 !important;
@@ -618,12 +543,12 @@
   font-weight: 500;
 }
 
-.bottomupHolidaysclass5:hover {
+.bottomupExperimentclass5:hover {
   z-index: 104 !important;
   margin-top: -2%;
 }
 
-.bottomupHolidaysclass6 {
+.bottomupExperimentclass6 {
   top: 10%;
   right: 44%;
   z-index: 4 !important;
@@ -632,12 +557,12 @@
   font-weight: 500;
 }
 
-.bottomupHolidaysclass6:hover {
+.bottomupExperimentclass6:hover {
   z-index: 103 !important;
   margin-top: -2%;
 }
 
-.bottomupHolidaysclass7 {
+.bottomupExperimentclass7 {
   top: 10%;
   right: 36%;
   z-index: 3 !important;
@@ -646,12 +571,12 @@
   font-weight: 500;
 }
 
-.bottomupHolidaysclass7:hover {
+.bottomupExperimentclass7:hover {
   z-index: 102 !important;
   margin-top: -2%;
 }
 
-.bottomupHolidaysclass8 {
+.bottomupExperimentclass8 {
   top: 10%;
   right: 27%;
   z-index: 2 !important;
@@ -660,12 +585,12 @@
   font-weight: 500;
 }
 
-.bottomupHolidaysclass8:hover {
+.bottomupExperimentclass8:hover {
   z-index: 101 !important;
   margin-top: -2%;
 }
 
-.bottomupHolidaysclass9 {
+.bottomupExperimentclass9 {
   top: 10%;
   right: 19%;
   z-index: 1 !important;
@@ -674,12 +599,12 @@
   font-weight: 500;
 }
 
-.bottomupHolidaysclass9:hover {
+.bottomupExperimentclass9:hover {
   z-index: 100 !important;
 }
 
 /* This is the next part css */
-.newhomesearchbutton {
+.newhomesearchbutton{
   background-color: #3380f2;
   color: white;
   border: none;
@@ -691,7 +616,7 @@
   margin-top: -1.5%;
 }
 
-.newhomesearchbutton:hover {
+.newhomesearchbutton:hover{
   background-color: white;
   border: 1px solid #3380f2;
   color: #3380f2;
@@ -791,7 +716,7 @@
   height: 245px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  border-radius: 10px;
+  border-radius: 6px;
   top: 58%;
   /* border: 2px solid red; */
 }
@@ -848,11 +773,13 @@
   border: 2px solid #3380f2 !important;
 }
 
-.multiwaybutton:hover {
-  background-color: #3380f2 !important;
-  color: white !important;
-  border: 2px solid white !important;
+.multiwaybutton:hover{
+    background-color: #3380f2 !important;
+    color: white !important;
+    border: 2px solid white !important;
 }
+
+
 
 .moreOptions:hover {
   background-color: white;
@@ -980,6 +907,174 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
+  
+  
+  #filter-newActivityTrave-container {
+    display: flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: auto;
+    top: 15%;
+    background-color: white;
+    width:55%;
+    /* border: 3px solid brown !important; */
+    color: #3380f2 !important;
+    height: 40px !important;
+    /* opacity: 0.9; */
+    left: 22%;
+    border-radius: 6px;
+    position: absolute !important;
+    z-index: 10;
+    height: 65px;
+  }
+  .newActivityInputmaindiv{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 100%;
+  }
+  .newActivityDestinationInputContainer{
+    border: 2px solid green;
+    width: 100%;
+    height: 35px;
+    border-radius: 15px;
+  }
+  .newActivityNameInput{
+    border: 1px solid purple;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  .newActivityInputNameContainer input{
+    /* background-color: #8DBBFF; */
+    height: auto;
+    margin-top: 10% !important;
+    width: 100% !important;
+    color: black;
+    font-weight: 700;
+    border: none !important;
+    outline: none !important;
+    padding-left: -2%;
+    font-size: 11px;
+    padding-top: 5%;
+    margin-left: -4%;
+  }
+  .newActivityCheckIn_dateContainer{
+    /* border: 2px solid purple; */
+    width: 100%;
+    height: 35px;
+    margin-top: 15%;
+  }
+  .newActivityCheckIn_dateContainer input{
+    width: 100%;
+    height: 35px;
+    margin-top: -2%;
+    border: 2px solid red;
+    /* border: 1px solid black !important; */
+    outline: none !important;
+  }
+  .newActivityCheckIn_dateContainer input{
+    /* border-left: 1px solid black !important; */
+    /* margin-top: 4%; */
+    width: 100% !important;
+    border: none;
+    outline: none !important;
+    /* padding-top: 2%; */
+    /* margin-left: 4%; */
+    height: 35px;
+    width: 100% !important;
+    color: black;
+    outline: none !important;
+    padding-left: 11%;
+    font-size: 15px;
+    border-radius: 15px;
+    padding-right: 10%;
+  }
+  .newActivityCheckout_DateContainer{
+    /* border-right: 1px solid orange; */
+    width: 100%;
+    /* border: 2px solid salmon; */
+    margin-top: 1.5% !important;
+    height: 35px;
+    /* background-color: #8DBBFF; */
+  }
+  
+  .newActivityCheckout_DateContainer input{
+    /* border-left: 1px solid black !important; */
+    margin-top: 1%;
+    width: 110%;
+    border: none;
+    outline: none !important;
+    /* padding-top: 2%; */
+    height: 35px;
+    width: 100% !important;
+    color: black;
+    outline: none !important;
+    padding-left: 15%;
+    font-size: 15px;
+    /* margin-left: 5%; */
+    border-radius: 15px;
+    padding-right: 10%;
+  }
+  .newActivityGuest_outerDiv{
+    /* border: 1px solid black; */
+    width: 100%;
+    /* margin-left: 5%; */
+    margin-top: 10%;
+    height: 35px;
+  }
+  
+  #newActivity_departure {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    color: black;
+    background-color: white !important;
+    border-radius: 5px;
+    height: 35px;
+    border-radius: 15px;
+    border: 2px solid red;
+  }
+  #newActivity_departure h3 {
+    /* border-left:none; */
+    font-size: 15px;
+    height: 28px;
+    /*font-weight: 700;*/
+    /*margin-left:3%;*/
+    padding: 7px;
+    padding-left: 30px;
+    /*padding-top: 7%;*/
+    margin-top: 1%;
+    /* border: 2px solid blue; */
+  }
+  .newActivityGuestIcon{
+    /* border: 1px solid red; */
+    font-size: 20px !important;
+    margin-top: 3% !important;
+    margin-left: 26% !important;
+  }
+  
+.newActivity_SearchButton{
+  /* border: 3px solid blue; */
+  width: 100%;
+  height: 40px;
+  margin-top: 10%;
+  /* margin-left: 9%; */
+}
+
+.newActivity_SearchButton button{
+  margin-top: 0%;
+  border-radius: 15px;
+  width: 100%;
+  height: 40px;
+  
+}
+
+
+
   .selectnewhomepagedate {
     margin-top: -8%;
     margin-left: 3%;
@@ -1055,7 +1150,5 @@
     flex-direction: row;
     font-size: 13px;
   }
-  #newhomepage_departure {
-    margin-top: 1%;
-  }
+  
 }

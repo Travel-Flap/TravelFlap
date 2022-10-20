@@ -121,29 +121,7 @@
   margin-top: -140% !important;
   /* margin-bottom: 105%;*/
 }
-/* .popularDestinationselect2{
-  border: 2px solid #3380F2;
-  outline: none;
-  background-color: #3380F2;
-  color: white;
-  width:35%;
-  font-size: 23px;
-  height: 50px;
-  border-radius: 25px 0px 0px 25px;
-  padding-left: 1.5%;
-  padding-right: 1.5% !important;
-  text-decoration: none;
-  font-weight: 500;
-  appearance: none;
-} */
-/* .populardestinationsicon{
-  color: white;
-  background-color: #3380F2;
-  height: 50px;
-  font-size: 18px !important;
-  right: 5% !important;
-  border-radius: 0px 25px 25px 0px;
-} */
+
  .mainCarouselDiv {
   width: 100%;
   height: 500px;
@@ -172,30 +150,12 @@
 
 .populardestinationsslide{
     width: 105% !important;
-    /* filter: brightness(0.8); */
     height: 410px;
-    /* border: 2px solid red; */
     text-align: center;
     transform: scale(0.8);
     transition: .7s;
-    /* filter: blur(2px); */
     border-radius: 20px;
 }
-
-/* .populardestinationsslide>img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-    border: 2px solid red;
-    /* filter: blur(2px); */
-    /* margin-left: 5%; */
-
-/* .populardestinationslide:hover img{
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-} */
-
 
 .populardestinationsslide {
   margin-left: 3%;
@@ -256,13 +216,53 @@
     z-index: 2;
     position: absolute;
 }
+.populardestinationsslide>h6{
+  padding: 5px;
+  text-align: left;
+  color: white;
+  font-weight: 500;
+  font-size: 19px;
+  margin-top: -86%;
+  margin-left: 23%;
+  /* border: 2px solid red; */
+  z-index: 2;
+  position: absolute;
+}
+.populardestinationsslide>h3{
+  padding: 5px;
+  text-align: left;
+  color: white;
+  /* font-weight: 500; */
+  font-size: 19px;
+  margin-top: -93%;
+  margin-left: 36%;
+  /* font-weight: bold !important; */
+  /* border: 2px solid red; */
+  z-index: 2;
+  position: absolute;
+}
+.populardestinationsslide>h4{
+    padding: 5px;
+    text-align: left;
+    color: white;
+    /* font-weight: 500; */
+    font-size: 19px;
+    margin-top: -93%;
+    margin-left: 32%;
+    font-weight: bold !important;
+    /* border: 2px solid red; */
+    z-index: 2;
+    position: absolute;
+}
+
 .populardestinationsslide>p{
   padding: 5px;
   text-align: center;
   color: white;
   font-weight: 700;
   font-size: 15px;
-  margin-top: -65%;
+  margin-top: -94%;
+  margin-left: 22%;
   z-index: 2;
   position: absolute;
 }

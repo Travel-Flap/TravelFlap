@@ -39,7 +39,7 @@ export const CenterMode = () => {
         speed: 500,
         slidesToShow: 5,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000,
         cssEase: "linear",
         centerMode: true,
@@ -48,12 +48,12 @@ export const CenterMode = () => {
     };
 
     const slides = [
-        { slidename: 'hello slide', img: 'Images/PopularDestinationImages/indonesia.jpg', desc:"Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans.", solution: 'Indonesia' },
-       { slidename: 'hello slide', img: 'Images/PopularDestinationImages/indonesia.jpg', desc:"Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans.", solution: 'Indonesia' },
-        { slidename: 'hello slide', img: 'Images/PopularDestinationImages/Rome.jpg', desc :"Rome is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome.", solution: 'Rome' },
-        { slidename: 'hello slide', img: 'Images/PopularDestinationImages/thailand.jpg',desc:"Thailand is a Southeast Asian country. It's known for tropical beaches.", solution: "Thailand" },
-        { slidename: 'hello slide', img: 'Images/PopularDestinationImages/vietnam.jpg', desc:"Vietnam is a Southeast Asian country known for its beaches, rivers, Buddhist pagodas.", solution: 'Vietnam' },
-        { slidename: 'hello slide', img: 'Images/PopularDestinationImages/italy.jpg', desc:"Greece is a country in southeastern Europe with thousands of islands throughout the Aegean and Ionian seas.", solution: 'Greece' },
+        { slidename: 'hello slide', img: 'Images/PopularDestinationImages/indonesia.jpg', days: "7 Nights / 8 Days", package:"All Inclusive Package",start:"Starts @",rate:"AED 4,199", solution: 'Indonesia' },
+        { slidename: 'hello slide', img: 'Images/PopularDestinationImages/indonesia.jpg', days: "7 Nights / 8 Days", package:"All Inclusive Package",start:"Starts @",rate:"AED 4,199", solution: 'Indonesia' },
+        { slidename: 'hello slide', img: 'Images/PopularDestinationImages/indonesia.jpg', days: "7 Nights / 8 Days", package:"All Inclusive Package",start:"Starts @",rate:"AED 4,199", solution: 'Indonesia' },
+        { slidename: 'hello slide', img: 'Images/PopularDestinationImages/indonesia.jpg', days: "7 Nights / 8 Days", package:"All Inclusive Package",start:"Starts @",rate:"AED 4,199", solution: 'Indonesia' },
+        { slidename: 'hello slide', img: 'Images/PopularDestinationImages/indonesia.jpg', days: "7 Nights / 8 Days", package:"All Inclusive Package",start:"Starts @",rate:"AED 4,199", solution: 'Indonesia' },
+        { slidename: 'hello slide', img: 'Images/PopularDestinationImages/indonesia.jpg', days: "7 Nights / 8 Days", package:"All Inclusive Package",start:"Starts @",rate:"AED 4,199", solution: 'Indonesia' },
     ]
     return (
         <>
@@ -83,10 +83,18 @@ export const CenterMode = () => {
                                <div className='populardestinationimagestransition'>
                                  <img  src={item.img} alt="" /> 
                                </div>
-
-
-                                <h5>{item.solution}</h5>
-                                <p>{item.desc}</p>
+                               <h5>{item.solution}</h5>
+                               <br/>
+                               <h6>{item.days}</h6>
+                               <br/>
+                               <br/>
+                               <p>{item.package}</p>
+                               <br/>
+                               <h3>{item.start}</h3>
+                               <br/>
+                               <h4>{item.rate}</h4>
+                               <br/>
+                               
                             </div>
                         ))}
                     </Slider>
