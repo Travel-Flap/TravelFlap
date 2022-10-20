@@ -1,12 +1,12 @@
 #filter-newActivityTrave-container {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   box-sizing: border-box;
   justify-content: space-between;
   margin: auto;
   top: 45%;
   background-color: white;
-  width:64%;
+  width: 64%;
   /* border: 3px solid brown !important; */
   color: #3380f2 !important;
   height: 245px;
@@ -15,123 +15,124 @@
   border-radius: 6px;
   position: absolute !important;
   z-index: 10;
-  height: 65px;
+  height: 90px !important;
 }
 
-
 /* This css is for the experiment input div part */
-.newActivityInputmaindiv{
+.newActivityInputmaindiv {
   display: flex;
   flex-direction: row;
   /* border: 2px solid red; */
 }
 
-.newActivityDestinationInputContainer{
-  border: 2px solid lightgray;
+.newActivityDestinationInputContainer {
+  /* border: 2px solid lightgray; */
   border-radius: 6px;
   width: 25%;
   height: 40px;
-  margin-top: 1.5%;
+  margin-top: 1%;
   margin-left: 2%;
 }
 
-.newActivityNameInput{
-  /* border: 1px solid purple; */
-  /* background-color: #8DBBFF; */
+.newActivityDestinationInputContainer h5 {
+  font-size: 15px;
+  color: grey;
+  margin-top: 1%;
+}
+
+.newActivityNameInput {
+  border: 2px solid #dddddd78;
+  border-radius: 6px;
   width: 100%;
-  height: 70px;
+  height: 40px;
+  /* background-color: #8DBBFF; */
   display: flex;
   /* border-radius: 5px; */
   flex-direction: row;
 }
 
-.newActivityInputNameContainer input{
-      /* background-color: #8DBBFF; */
-      height: auto;
-      margin-top: 3% !important;
-      width: 100% !important;
-      color: black;
-      border: none !important;
-      outline: none !important;
-      padding-left: 0%;
-      font-size: 16px;
-      margin-left: -3%;
+.newActivityInputNameContainer input {
+  /* background-color: #8DBBFF; */
+  height: auto;
+  margin-top: 3% !important;
+  width: 100% !important;
+  color: grey !important;
+  border: none !important;
+  outline: none !important;
+  padding-left: 0%;
+  font-size: 16px;
+  margin-left: -3%;
 }
 
-.newActivityInputNameContainer input::placeholder{
+.newActivityInputNameContainer input::placeholder {
   /* padding-left: 5%; */
-  color: black;
+  color: grey;
 }
 
-.newActivityInputicon{
+.newActivityInputicon {
   margin-top: 4%;
   font-size: 16px;
-  color: black;
+  color: grey;
   margin-left: 0%;
   width: 20%;
 }
 
-.newActivityInputNameContainer .hotelinputIconContainer{
+.newActivityInputNameContainer .hotelinputIconContainer {
   font-size: 30px !important;
 }
 
-
-.newActivityCheckIn_dateContainer{
+.newActivityCheckIn_dateContainer {
   width: 18% !important;
-  border: 2px solid lightgray;
   border-radius: 6px;
-  margin-top: 1.5% !important;
-  height:40px;
+  margin-top: 1% !important;
+  height: 40px;
   margin-left: 1%;
 }
 
-.newActivityCheckIn_dateContainer input{
-  width: 100%;
-  /* border: 2px solid rebeccapurple; */
-  /* border-left: 1px solid black !important; */
-  border: 2px solid lightgray;
-  border-radius: 6px;
-  /* margin-top: -1% !important; */
-  height:35px;
-  outline: none !important;
+.newActivityCheckIn_dateContainer h5 {
+  font-size: 15px;
+  color: grey;
+  margin-top: 1% !important;
 }
 
-
-.newActivityCheckIn_dateContainer input{
+.newActivityCheckIn_dateContainer input {
   /* border-left: 1px solid black !important; */
-  margin-top: 0%;
   width: 100%;
-  border: none;
+  border: 2px solid #dddddd78;
   outline: none !important;
-  padding-top: 4.5%;
-  height: 25px;
+  height: 40px;
   padding-right: 0%;
-  width: 90% !important;
+  border-radius: 6px;
   /* color: black; */
   /* border: none !important; */
   outline: none !important;
   padding-left: 9%;
+  color: grey !important;
   font-size: 16px;
   /* border: 2px solid red; */
 }
 
-.newActivityCheckout_DateContainer{
+.newActivityCheckout_DateContainer {
   width: 18% !important;
-  border: 2px solid lightgray;
   border-radius: 6px;
-  margin-top: 1.5% !important;
-  height:40px;
+  margin-top: 1% !important;
+  height: 40px;
   margin-left: 1%;
 }
 
-.newActivityCheckout_DateContainer input{
+.newActivityCheckout_DateContainer h5 {
+  font-size: 15px;
+  color: grey;
+  margin-top: 1%;
+}
+
+.newActivityCheckout_DateContainer input {
   /* border-left: 1px solid black !important; */
   /* margin-top:8%; */
   width: 100%;
-  border: none;
+  border: 2px solid #dddddd78;
   outline: none !important;
-  padding-top: 1%;
-  height: 35px;
+  height: 40px;
   padding-right: 6%;
   /* border: 2px solid lightgray; */
   width: 100% !important;
@@ -140,38 +141,47 @@
   padding-left: 9%;
   font-size: 16px;
   border-radius: 6px;
+  color: grey !important;
   /* margin-left: 4%; */
 }
 
-.newActivityGuest_outerDiv{
+.newActivityGuest_outerDiv {
   width: 18%;
-  border: 2px solid lightgray;
   border-radius: 6px;
-  margin-top: 1.5% !important;
-  height:40px;
+  margin-top: 1% !important;
+  height: 40px;
   margin-left: 1%;
 }
 
+.newActivityGuest_outerDiv h5 {
+  font-size: 15px;
+  color: grey;
+  margin-top: 1%;
+}
+
 #newActivity_departure {
+  border: 2px solid #dddddd78;
+  border-radius: 6px;
   display: flex;
   flex-direction: row;
   width: 100%;
-  color: black;
+  color: grey;
   background-color: white !important;
   border-radius: 5px;
-  height: 35px;
+  height: 40px !important;
   /* border: 2px solid lightgray; */
   border-radius: 6px;
   margin-top: 0%;
 }
 
 #newActivity_departure h3 {
-  /* border-left: 1px solid black; */
-  font-size: 17px;
+  /* border: 1px solid black; */
+  font-size: 15px !important;
   /* font-weight: 700; */
   /* margin-left: -7%; */
   padding: 7px;
-  padding-left: 25px;
+  color: grey !important;
+  padding-left: 15px !important;
   padding-top: 4%;
   margin-top: 0.5%;
   /* height: 35px;
@@ -184,7 +194,7 @@
   display: none;
   position: absolute;
   color: white;
-  background-color: white;
+  background-color: #3380f2 !important;
   width: 200px;
   height: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -192,7 +202,7 @@
   margin-top: 5%;
 }
 .dropdownNewActivity-content div:hover {
-  background-color: white;
+  background-color: white !important;
   color: #3380f2;
 }
 #newActivity_departure:hover .dropdownNewActivity-content {
@@ -205,32 +215,35 @@
   padding-bottom: 8%;
 }
 
-.newActivityGuestIcon{
+.newActivityGuestIcon {
   /* border: 1px solid red; */
   font-size: 23px;
   margin-left: 4% !important;
   margin-top: 3% !important;
   background-color: white !important;
+  color: grey !important;
   /* background-color: #8DBBFF; */
 }
 
-.newActivity_SearchButton{
+.newActivity_SearchButton {
   /* border: 1px solid blue; */
-  width: 10%;
+  width: 15% !important;
 }
 
-.newActivity_SearchButton button{
-  margin-top: 10%;
+.newActivity_SearchButton button {
+  margin-top: 15% !important;
   margin-left: 8%;
   width: 90%;
-  height: 45px;
-  padding-left: 17%;
-  padding-top: 9%;
+  height: 50px !important;
+  padding-left: 33px !important;
+  padding-top: 11px !important;
+  font-size: 20px !important;
 }
 
-
-
-
+.newActivity_SearchButton button:hover{
+  background-color: whitesmoke;
+  color: #3380f2;
+}
 
 /* This is prior css code for the homepage */
 .choosenewhomebanneroptions {
@@ -328,8 +341,8 @@
   font-size: 17px;
   margin-left: 13%;
   width: 100%;
-    padding-left: 60px;
-    margin-top: -7%;
+  padding-left: 60px;
+  margin-top: -7%;
   /* border-right: 2px solid #3380f2; */
 }
 .citynewhomebannerinput1 {
@@ -405,7 +418,6 @@
   /* border: 1px solid; */
   height: 70px;
   margin-top: 3%;
- 
 }
 #newhomepage_departure {
   margin: 12px;
@@ -427,7 +439,7 @@
   padding: 12px;
   padding-left: 16px;
 }
-.newhometravellers{
+.newhometravellers {
   margin-top: -10.5%;
   margin-left: 10%;
   color: #3380f2 !important;
@@ -475,7 +487,6 @@
   color: white !important;
   border-radius: 40px;
 }
-
 
 /* This css part includes to overlapping and hovering the things */
 .bottomupExperimentclass1 {
@@ -604,7 +615,7 @@
 }
 
 /* This is the next part css */
-.newhomesearchbutton{
+.newhomesearchbutton {
   background-color: #3380f2;
   color: white;
   border: none;
@@ -616,7 +627,7 @@
   margin-top: -1.5%;
 }
 
-.newhomesearchbutton:hover{
+.newhomesearchbutton:hover {
   background-color: white;
   border: 1px solid #3380f2;
   color: #3380f2;
@@ -773,13 +784,11 @@
   border: 2px solid #3380f2 !important;
 }
 
-.multiwaybutton:hover{
-    background-color: #3380f2 !important;
-    color: white !important;
-    border: 2px solid white !important;
+.multiwaybutton:hover {
+  background-color: #3380f2 !important;
+  color: white !important;
+  border: 2px solid white !important;
 }
-
-
 
 .moreOptions:hover {
   background-color: white;
@@ -907,17 +916,15 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
-  
-  
   #filter-newActivityTrave-container {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     box-sizing: border-box;
     justify-content: space-between;
     margin: auto;
     top: 15%;
     background-color: white;
-    width:55%;
+    width: 55%;
     /* border: 3px solid brown !important; */
     color: #3380f2 !important;
     height: 40px !important;
@@ -928,27 +935,27 @@
     z-index: 10;
     height: 65px;
   }
-  .newActivityInputmaindiv{
+  .newActivityInputmaindiv {
     display: flex;
     flex-direction: column;
     border: 2px solid red;
     width: 100%;
   }
-  .newActivityDestinationInputContainer{
+  .newActivityDestinationInputContainer {
     border: 2px solid green;
     width: 100%;
     height: 35px;
     border-radius: 15px;
   }
-  .newActivityNameInput{
+  .newActivityNameInput {
     border: 1px solid purple;
     width: 100%;
     height: 35px;
     display: flex;
     flex-direction: row;
   }
- 
-  .newActivityInputNameContainer input{
+
+  .newActivityInputNameContainer input {
     /* background-color: #8DBBFF; */
     height: auto;
     margin-top: 10% !important;
@@ -962,13 +969,13 @@
     padding-top: 5%;
     margin-left: -4%;
   }
-  .newActivityCheckIn_dateContainer{
+  .newActivityCheckIn_dateContainer {
     /* border: 2px solid purple; */
     width: 100%;
     height: 35px;
     margin-top: 15%;
   }
-  .newActivityCheckIn_dateContainer input{
+  .newActivityCheckIn_dateContainer input {
     width: 100%;
     height: 35px;
     margin-top: -2%;
@@ -976,7 +983,7 @@
     /* border: 1px solid black !important; */
     outline: none !important;
   }
-  .newActivityCheckIn_dateContainer input{
+  .newActivityCheckIn_dateContainer input {
     /* border-left: 1px solid black !important; */
     /* margin-top: 4%; */
     width: 100% !important;
@@ -993,7 +1000,7 @@
     border-radius: 15px;
     padding-right: 10%;
   }
-  .newActivityCheckout_DateContainer{
+  .newActivityCheckout_DateContainer {
     /* border-right: 1px solid orange; */
     width: 100%;
     /* border: 2px solid salmon; */
@@ -1001,8 +1008,8 @@
     height: 35px;
     /* background-color: #8DBBFF; */
   }
-  
-  .newActivityCheckout_DateContainer input{
+
+  .newActivityCheckout_DateContainer input {
     /* border-left: 1px solid black !important; */
     margin-top: 1%;
     width: 110%;
@@ -1019,14 +1026,14 @@
     border-radius: 15px;
     padding-right: 10%;
   }
-  .newActivityGuest_outerDiv{
+  .newActivityGuest_outerDiv {
     /* border: 1px solid black; */
     width: 100%;
     /* margin-left: 5%; */
     margin-top: 10%;
     height: 35px;
   }
-  
+
   #newActivity_departure {
     display: flex;
     flex-direction: row;
@@ -1050,30 +1057,27 @@
     margin-top: 1%;
     /* border: 2px solid blue; */
   }
-  .newActivityGuestIcon{
+  .newActivityGuestIcon {
     /* border: 1px solid red; */
     font-size: 20px !important;
     margin-top: 3% !important;
     margin-left: 26% !important;
   }
-  
-.newActivity_SearchButton{
-  /* border: 3px solid blue; */
-  width: 100%;
-  height: 40px;
-  margin-top: 10%;
-  /* margin-left: 9%; */
-}
 
-.newActivity_SearchButton button{
-  margin-top: 0%;
-  border-radius: 15px;
-  width: 100%;
-  height: 40px;
-  
-}
+  .newActivity_SearchButton {
+    /* border: 3px solid blue; */
+    width: 100%;
+    height: 40px;
+    margin-top: 10%;
+    /* margin-left: 9%; */
+  }
 
-
+  .newActivity_SearchButton button {
+    margin-top: 0%;
+    border-radius: 15px;
+    width: 100%;
+    height: 40px;
+  }
 
   .selectnewhomepagedate {
     margin-top: -8%;
@@ -1150,5 +1154,4 @@
     flex-direction: row;
     font-size: 13px;
   }
-  
 }

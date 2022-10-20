@@ -43,6 +43,9 @@ export const FlightsNearYou = () => {
                     </div>
 
                 </div> */}
+                <div className="newFlightsNearYouAllDeals">
+                    <h5>See all deals</h5>
+                </div>
             </div>
 
             <div className="newFlightsNearYouSliderContainer">
@@ -119,7 +122,11 @@ export const FlightsNearYou = () => {
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
                                     <h3 class="card-title newFlightsNearYouCardtitle">Dhaka</h3>
-                                    <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                                    <div className="newFlightsContentDiv1">
+
+                                        <p class="card-text newFlightsNearYouCard_desc">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
                                     <Button className="newFlightsNearYouButton" variant="primary" >Book Now</Button>
                                 </div>
                             </div>

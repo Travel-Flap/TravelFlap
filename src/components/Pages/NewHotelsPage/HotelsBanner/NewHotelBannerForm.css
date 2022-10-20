@@ -1,22 +1,251 @@
-#filter-newHotelPageTrave-container {
+#filter-newHotelTrave-container {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   justify-content: space-between;
   margin: auto;
-  top: 33%;
+  top: 45%;
   background-color: white;
-  /* opacity: 0.3; */
-  width:64%;
-  /* border: 3px solid #3380f2 !important; */
+  width: 64%;
+  /* border: 3px solid brown !important; */
   color: #3380f2 !important;
-  height: 100px;
+  height: 245px;
   /* opacity: 0.9; */
   left: 18%;
-  border-radius: 10px;
+  border-radius: 6px;
   position: absolute !important;
   z-index: 10;
+  height: 90px !important;
 }
+
+/* This css is for the experiment input div part */
+.newHotelInputmaindiv {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+}
+
+.newHotelInputContainer {
+  /* border: 2px solid lightgray; */
+  border-radius: 6px;
+  width: 25%;
+  height: 40px;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.newHotelInputContainer h5 {
+  font-size: 15px;
+  color: grey;
+  margin-top: 1%;
+}
+
+.newHotelNameInput {
+  border: 2px solid #dddddd78;
+  border-radius: 6px;
+  width: 100%;
+  height: 40px;
+  /* background-color: #8DBBFF; */
+  display: flex;
+  /* border-radius: 5px; */
+  flex-direction: row;
+}
+
+.newHotelInputNameContainer input {
+  /* background-color: #8DBBFF; */
+  height: auto;
+  margin-top: 3% !important;
+  width: 100% !important;
+  color: grey !important;
+  border: none !important;
+  outline: none !important;
+  padding-left: 0%;
+  font-size: 16px;
+  margin-left: -3%;
+}
+
+.newHotelInputNameContainer input::placeholder {
+  /* padding-left: 5%; */
+  color: grey;
+}
+
+.newHotelInputicon {
+  margin-top: 4%;
+  font-size: 16px;
+  color: grey;
+  margin-left: 0%;
+  width: 20%;
+}
+
+.newHotelInputNameContainer .hotelinputIconContainer {
+  font-size: 30px !important;
+}
+
+.newHotelCheckIn_dateContainer {
+  width: 18% !important;
+  border-radius: 6px;
+  margin-top: 1% !important;
+  height: 40px;
+  margin-left: 1%;
+}
+
+.newHotelCheckIn_dateContainer h5 {
+  font-size: 15px;
+  color: grey;
+  margin-top: 1% !important;
+}
+
+.newHotelCheckIn_dateContainer input {
+  /* border-left: 1px solid black !important; */
+  width: 100%;
+  border: 2px solid #dddddd78;
+  outline: none !important;
+  height: 40px;
+  padding-right: 0%;
+  border-radius: 6px;
+  /* color: black; */
+  /* border: none !important; */
+  outline: none !important;
+  padding-left: 9%;
+  color: grey !important;
+  font-size: 16px;
+  /* border: 2px solid red; */
+}
+
+.newHotelCheckout_DateContainer {
+  width: 18% !important;
+  border-radius: 6px;
+  margin-top: 1% !important;
+  height: 40px;
+  margin-left: 1%;
+}
+
+.newHotelCheckout_DateContainer h5 {
+  font-size: 15px;
+  color: grey;
+  margin-top: 1%;
+}
+
+.newHotelCheckout_DateContainer input {
+  /* border-left: 1px solid black !important; */
+  /* margin-top:8%; */
+  width: 100%;
+  border: 2px solid #dddddd78;
+  outline: none !important;
+  height: 40px;
+  padding-right: 6%;
+  /* border: 2px solid lightgray; */
+  width: 100% !important;
+  /* color: black; */
+  outline: none !important;
+  padding-left: 9%;
+  font-size: 16px;
+  border-radius: 6px;
+  color: grey !important;
+  /* margin-left: 4%; */
+}
+
+.newHotelGuest_outerDiv {
+  width: 18%;
+  border-radius: 6px;
+  margin-top: 1% !important;
+  height: 40px;
+  margin-left: 1%;
+}
+
+.newHotelGuest_outerDiv h5 {
+  font-size: 15px;
+  color: grey;
+  margin-top: 1%;
+}
+
+#newHotel_departure {
+  border: 2px solid #dddddd78;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: grey;
+  background-color: white !important;
+  border-radius: 5px;
+  height: 40px !important;
+  /* border: 2px solid lightgray; */
+  border-radius: 6px;
+  margin-top: 0%;
+}
+
+#newHotel_departure h3 {
+  /* border: 1px solid black; */
+  font-size: 15px !important;
+  /* font-weight: 700; */
+  /* margin-left: -7%; */
+  padding: 7px;
+  color: grey !important;
+  padding-left: 15px !important;
+  padding-top: 4%;
+  margin-top: 0.5%;
+  /* height: 35px;
+  border: 2px solid lightgray;
+  border-radius: 6px;
+  margin-top: 8%; */
+}
+
+.dropdownNewHotel-content {
+  display: none;
+  position: absolute;
+  color: white;
+  background-color: #3380f2 !important;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 5%;
+}
+.dropdownNewHotel-content div:hover {
+  background-color: white !important;
+  color: #3380f2;
+}
+#newHotel_departure:hover .dropdownNewHotel-content {
+  display: block;
+}
+
+.navbarNewHotelPageOptions {
+  margin-top: 5%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.newHotelGuestIcon {
+  /* border: 1px solid red; */
+  font-size: 23px;
+  margin-left: 4% !important;
+  margin-top: 3% !important;
+  background-color: white !important;
+  color: grey !important;
+  /* background-color: #8DBBFF; */
+}
+
+.newHotel_SearchButton {
+  /* border: 1px solid blue; */
+  width: 15% !important;
+}
+
+.newHotel_SearchButton button {
+  margin-top: 15% !important;
+  margin-left: 8%;
+  width: 90%;
+  height: 50px !important;
+  padding-left: 33px !important;
+  padding-top: 11px !important;
+  font-size: 20px !important;
+}
+
+.newHotel_SearchButton button:hover{
+  background-color: whitesmoke;
+  color: #3380f2;
+}
+
+/* This is prior css code for the homepage */
 .choosenewhomebanneroptions {
   display: flex;
   flex-direction: row;
@@ -33,211 +262,6 @@
   /* border: 1px solid red; */
   margin-left: 0.6%;
 }
-
-
-
-
-/* This css is for the new hotel input options */
-.newHotelinputOptions{
-  /* border: 1px solid red; */
-  display: flex;
-  flex-direction: row;
-  /* margin-top: 5%; */
-  width: 98%;
-  margin: auto;
-}
-
-.newHotelNameInput{
-  border: 2px solid #dddddd78;
-  /* background-color: #8DBBFF; */
-  color: #3380F2;
-  /* font-weight: 700; */
-  width: 22%;
-  margin-left: 2%;
-  display: flex;
-  height: 35px;
-  border-radius: 5px;
-  flex-direction: row;
-}
-
-.hotelinputNameContainer input{
-  /* background-color: #8DBBFF; */
-  height: auto;
-  /* margin-top: 5% !important; */
-  width: 90% !important;
-  /* color: #3380F2; */
-  color: grey;
-  border: none !important;
-  outline: none !important;
-  padding-left: 10%;
-  font-size: 15px;
-  padding-top: 5px !important;
-}
-
-.hotelinputNameContainer input::placeholder{
-  /* padding-left: 5%; */
-  /* color: #3380f2; */
-  font-weight: 700;
-  /* padding-top: 5% !important; */
-}
-.hotelInputicon{
-  margin-top: 2%;
-  font-size: 20px;
-  /* color: #3380F2; */
-  color: grey !important;
-  margin-right: 9%;
-}
-.hotelinputNameContainer .hotelinputIconContainer{
-  font-size: 30px !important;
-}
-
-
-.newHotelCheckIn_Date input{
-  width: 100%;
-  border: none;
-  outline: none !important;
-  /* color: #3380f2; */
-}
-
-.newHotelCheckIn_Date{
-  border: 2px solid #dddddd78;
-  border-radius: 5px;
-  width: 22%;
-  margin-left: 2%;
-  /* color: #3380f2; */
-  height: 35px;
-  /* background-color: #8DBBFF; */
-}
-
-.newHotelCheckIn_Date input{
-  /* background-color: #8DBBFF; */
-  height: 35px;
-  /* margin-top: 6% !important; */
-  width: 90% !important;
-  /* color:#3380f2; */
-  color: grey;
-  border: none !important;
-  outline: none !important;
-  padding-left: 9%;
-  font-size: 15px;
-}
-
-
-.newHotelCheckOut_Date{
-  border: 2px solid #dddddd78;
-  width: 22%;
-  margin-left: 2%;
-  /* background-color: #8DBBFF; */
-  border-radius: 5px;
-  height: 35px;
-}
-
-.newHotelCheckOut_Date input{
-  border: 2px solid #dddddd78;
-  width: 100%;
-  border: none;
-  outline: none !important;
-  /* background-color: #8DBBFF; */
-  height: 32px !important;
-  /* margin-top: 6% !important; */
-  width: 90% !important;
-  /* color: #3380F2; */
-  color: grey;
-  border: none !important;
-  outline: none !important;
-  padding-left: 9px;
-  /* padding-top: -5px !important; */
-  font-size: 15px;
-}
-
-
-.newHotelGuestNumber{
-  /* border: 1px solid black; */
-  width: 22%;
-  display: flex;
-  flex-direction: row;
-  margin-left: 2%;
-}
-
-#newHotelPage_departure {
-  
-  border: 2px solid #dddddd78;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  /* color: #3380f2; */
-  /* color: #3380F2; */
-  color: grey;
-  /* background-color: #8DBBFF !important; */
-  border-radius: 5px;
-  height: 35px;
-}
-
-#newHotelPage_departure h3 {
-  font-size: 15px;
-  /* font-weight: 700; */
-  /* margin-left: -7%; */
-  padding: 7px;
-  padding-left: 16px;
-  padding-top: 7px;
-}
-
-.downHotelPagearrowicon {
-  margin-top: 1%;
-  color: black;
-}
-
-.hotelGuestIcon{
-  /* border: 1px solid #3380F2; */
-  font-size: 20px;
-  margin-left: 30%;
-  margin-top: 2%;
-  /* margin-right: 1%; */
-  /* background-color: #8DBBFF !important; */
-}
-
-.dropdownnewHotelPage-content {
-  display: none;
-  position: absolute;
-  color: white;
-  background-color: #3380f2;
-  width: 200px;
-  height: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  margin-top: 5%;
-  border: none !important;
-}
-.dropdownnewHotelPage-content div:hover {
-  background-color: white;
-  color: #3380f2;
-}
-#newHotelPage_departure:hover .dropdownnewHotelPage-content {
-  display: block;
-}
-
-.newHotelsearchbutton{
-  /* border: 1px solid red !important; */
-  background-color: #3380f2;
-  color: white;
-  border: none;
-  width: 14%;
-  height: 42px;
-  border-radius: 9px;
-  font-weight: 700;
-  margin-left: 1%;
-  margin-top: -0.5%;
-
-}
-
-.newHotelsearchbutton:hover{
-  background-color: white;
-  border: 1px solid #3380f2;
-  color: #3380f2;
-}
-
-/* This is  the new older css from the banner taken reference */
-
 .choosenewhomebanneroptions1 label {
   margin-top: 1% !important;
   margin-left: 0.5%;
@@ -248,9 +272,8 @@
 .choosenewhomebanneroptions3 {
   margin-left: 5%;
 }
-.mainnewHotelDatesections {
-  margin-top: 5%;
-  border: 1px solid red;
+.mainnewhomedatesections {
+  border-bottom: 1px solid lightblue;
   width: 100%;
   height: 90px;
   margin-bottom: 2%;
@@ -270,7 +293,7 @@
   border-right: 2px solid #3380f2;
 }
 
-#dateonewaynewHotelBannerform {
+#dateonewaynewhomebannerform {
   border: none;
   /* border: 2px solid #3380f2; */
   width: 100% !important;
@@ -280,20 +303,20 @@
   height: 45px;
 }
 
-#dateonewaynewHotelBannerform::placeholder {
+#dateonewaynewhomebannerform::placeholder {
   /* border: 2px solid #3380F2; */
   font-size: 28px !important;
   font-weight: 500;
   color: #3380f2;
 }
-.selectnewHotelpagedate {
+.selectnewhomepagedate {
   /* border: 1px solid ; */
   height: 70%;
   margin-top: 2%;
   margin-left: 5%;
   border-right: 2px solid #3380f2;
 }
-.selectnewHotelpagedate h5 {
+.selectnewhomepagedate h5 {
   font-size: 18px !important;
   /* font-weight: 600; */
   margin-top: -5%;
@@ -301,28 +324,28 @@
   padding-left: 15px;
   /* border-right: 2px solid #3380f2; */
 }
-.fromnewHotelBanner-name {
+.fromnewhomebanner-name {
   line-height: 1px;
   width: 45% !important;
   font-size: 11.5px;
   /* border-right: 2px solid #3380f2; */
 }
-.fromnewHotelBanner-name h5 {
+.fromnewhomebanner-name h5 {
   font-size: 17px;
   margin-left: 13%;
   width: 97%;
   margin-top: -9%;
   border-right: 2px solid #3380f2;
 }
-.fromnewHotelBanner-name2 h5 {
+.fromnewhomebanner-name2 h5 {
   font-size: 17px;
   margin-left: 13%;
   width: 100%;
-    padding-left: 60px;
-    margin-top: -7%;
+  padding-left: 60px;
+  margin-top: -7%;
   /* border-right: 2px solid #3380f2; */
 }
-.citynewHotelBannerinput1 {
+.citynewhomebannerinput1 {
   margin-top: 1%;
   margin-left: 10%;
   color: #3380f2;
@@ -333,10 +356,10 @@
   font-size: 25px !important;
   border-right: 2px solid #3380f2;
 }
-.citynewHotelBannerinput1::placeholder {
+.citynewhomebannerinput1::placeholder {
   color: #3380f2;
 }
-.citynewHotelBannerinput2 {
+.citynewhomebannerinput2 {
   margin-top: -5%;
   margin-left: 10%;
   color: #3380f2;
@@ -348,10 +371,10 @@
   /* border-right: 2px solid #3380f2; */
   padding-left: 44px;
 }
-.citynewHotelBannerinput2::placeholder {
+.citynewhomebannerinput2::placeholder {
   color: #3380f2;
 }
-.fromnewHotelBanner-name2 {
+.fromnewhomebanner-name2 {
   line-height: 5px;
   width: 45%;
   margin-left: 4%;
@@ -359,7 +382,7 @@
   font-size: 11.5px;
   /* border-right: 2px solid #3380f2; */
 }
-#formnewHotelpagedates {
+#formnewhomepagedates {
   display: flex;
   width: 450px;
   margin: 12px;
@@ -368,17 +391,17 @@
   /* border: 2px solid red; */
 }
 
-.selectnewHotelpagedate {
+.selectnewhomepagedate {
   line-height: 2px;
 }
-#selectnewHotelsPageReturndate1 {
+#selectnewhomepageReturndate1 {
   line-height: 2px;
   margin-left: 7%;
   height: 70%;
   margin-top: 2%;
   border-right: 2px solid #3380f2;
 }
-#selectnewHotelsPageReturndate1 h5 {
+#selectnewhomepageReturndate1 h5 {
   font-size: 20px;
   font-weight: 600;
   font-weight: 500;
@@ -387,7 +410,7 @@
   margin-bottom: 13%;
   /* border-right: 2px solid #3380f2; */
 }
-#newHotelPagetrave {
+#newhomepagetrave {
   /* display: flex;
   flex-direction: row;
   margin-right: 10px; */
@@ -395,10 +418,28 @@
   /* border: 1px solid; */
   height: 70px;
   margin-top: 3%;
- 
+}
+#newhomepage_departure {
+  margin: 12px;
+  /* border: 1.4px solid #3380f2; */
+  /* background-color: #3380f2; */
+  width: 100%;
+  /* border-radius: 6px; */
+  /* height: 43px; */
+  /* cursor: pointer; */
+  margin-left: 0.5%;
+  margin-top: -13%;
+  color: #3380f2;
 }
 
-.newhometravellers{
+#newhomepage_departure h3 {
+  font-size: 25px;
+  /* font-weight: 700; */
+  margin-left: -7%;
+  padding: 12px;
+  padding-left: 16px;
+}
+.newhometravellers {
   margin-top: -10.5%;
   margin-left: 10%;
   color: #3380f2 !important;
@@ -417,7 +458,7 @@
   text-transform: capitalize;
   color: white !important;
   border: 2px solid #3380f2 !important;
-  border-radius: 10px;
+  border-radius: 6px;
   margin-top: 3%;
   height: 45px;
   width: 40%;
@@ -429,7 +470,7 @@
   border: 3px solid blue !important;
   color: white !important;
 }
-.carouselnewHotelbannermenu {
+.carouselnewHotelBannermenu {
   width: 64%;
   height: 90px;
   margin: auto;
@@ -440,37 +481,15 @@
   align-items: center;
   position: relative;
   /* position: absolute; */
-  bottom: 73%;
+  bottom: 61%;
   left: 5.2%;
-  z-index: 1000;
+  z-index: 10000000;
   color: white !important;
   border-radius: 40px;
 }
 
-
-.newHotel_checkmark {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 1%;
-  height: 20px;
-  margin-top: 1%;
-}
-
-.flights_newHotelcheckbox {
-  border: 1px solid red !important;
-  margin-left: 5%;
-  margin-bottom: -0.5%;
-  margin-top: -3%;
-}
-.flights_newHotelcheckbox1 {
-  margin-left: 0.5%;
-  margin-top: -1.4%;
-  font-size: 15px;
-}
-
-
 /* This css part includes to overlapping and hovering the things */
-.bottomupHotelclass1 {
+.bottomupExperimentclass1 {
   top: 10%;
   right: 86%;
   z-index: 9 !important;
@@ -479,12 +498,12 @@
   font-weight: 500;
 }
 
-.bottomupHotelclass1:hover {
+.bottomupExperimentclass1:hover {
   z-index: 107 !important;
   margin-top: -2%;
 }
 
-.bottomupHotelclass2 {
+.bottomupExperimentclass2 {
   top: 10%;
   right: 78%;
   z-index: 8 !important;
@@ -493,12 +512,12 @@
   font-weight: 500;
 }
 
-.bottomupHotelclass2:hover {
+.bottomupExperimentclass2:hover {
   z-index: 106 !important;
   margin-top: -2%;
 }
 
-.bottomupHotelclass3 {
+.bottomupExperimentclass3 {
   top: 10%;
   right: 70%;
   z-index: 7 !important;
@@ -507,12 +526,12 @@
   font-weight: 500;
 }
 
-.bottomupHotelclass3:hover {
+.bottomupExperimentclass3:hover {
   z-index: 106 !important;
   margin-top: -2%;
 }
 
-.bottomupHotelclass4 {
+.bottomupExperimentclass4 {
   top: 10%;
   right: 61.6%;
   z-index: 6 !important;
@@ -521,12 +540,12 @@
   font-weight: 500;
 }
 
-.bottomupHotelclass4:hover {
+.bottomupExperimentclass4:hover {
   z-index: 105 !important;
   margin-top: -2%;
 }
 
-.bottomupHotelclass5 {
+.bottomupExperimentclass5 {
   top: 10%;
   right: 52.5%;
   z-index: 5 !important;
@@ -535,12 +554,12 @@
   font-weight: 500;
 }
 
-.bottomupHotelclass5:hover {
+.bottomupExperimentclass5:hover {
   z-index: 104 !important;
   margin-top: -2%;
 }
 
-.bottomupHotelclass6 {
+.bottomupExperimentclass6 {
   top: 10%;
   right: 44%;
   z-index: 4 !important;
@@ -549,12 +568,12 @@
   font-weight: 500;
 }
 
-.bottomupHotelclass6:hover {
+.bottomupExperimentclass6:hover {
   z-index: 103 !important;
   margin-top: -2%;
 }
 
-.bottomupHotelclass7 {
+.bottomupExperimentclass7 {
   top: 10%;
   right: 36%;
   z-index: 3 !important;
@@ -563,12 +582,12 @@
   font-weight: 500;
 }
 
-.bottomupHotelclass7:hover {
+.bottomupExperimentclass7:hover {
   z-index: 102 !important;
   margin-top: -2%;
 }
 
-.bottomupHotelclass8 {
+.bottomupExperimentclass8 {
   top: 10%;
   right: 27%;
   z-index: 2 !important;
@@ -577,12 +596,12 @@
   font-weight: 500;
 }
 
-.bottomupHotelclass8:hover {
+.bottomupExperimentclass8:hover {
   z-index: 101 !important;
   margin-top: -2%;
 }
 
-.bottomupHotelclass9 {
+.bottomupExperimentclass9 {
   top: 10%;
   right: 19%;
   z-index: 1 !important;
@@ -591,18 +610,36 @@
   font-weight: 500;
 }
 
-.bottomupHotelclass9:hover {
+.bottomupExperimentclass9:hover {
   z-index: 100 !important;
-  
 }
 
+/* This is the next part css */
+.newhomesearchbutton {
+  background-color: #3380f2;
+  color: white;
+  border: none;
+  width: 14%;
+  height: 42px;
+  border-radius: 15px;
+  font-weight: 700;
+  margin-left: 8%;
+  margin-top: -1.5%;
+}
+
+.newhomesearchbutton:hover {
+  background-color: white;
+  border: 1px solid #3380f2;
+  color: #3380f2;
+}
 /* This css is for the icons and there hovering properties */
 
-.carouselnewHotelbannermenu-icon {
+.carouselnewHotelBannermenu-icon {
   height: 98px;
   width: 10%;
   border-radius: 12px;
-  background-color: transparent;
+  /* background-color: #3380f2; */
+  background: transparent;
   flex-direction: column;
   box-sizing: border-box;
   display: flex;
@@ -616,7 +653,7 @@
   position: absolute;
 }
 
-.carouselnewHotelbannermenu-icon span {
+.carouselnewHotelBannermenu-icon span {
   white-space: nowrap;
   color: white;
   font-size: 15px;
@@ -624,7 +661,7 @@
   margin: 0;
   text-align: center;
 }
-.carouselnewHotelbannermenu-icon-active {
+.carouselnewHotelBannermenu-icon-active {
   background: #3380f2 !important;
   border-color: white !important;
   height: 70px;
@@ -648,7 +685,7 @@
 .flighttext:hover {
   color: #3380f2;
 }
-.carouselnewHotelbannermenu-icon:hover {
+.carouselnewHotelBannermenu-icon:hover {
   text-decoration: none;
   color: #3380f2;
   background-color: white;
@@ -657,7 +694,7 @@
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.carouselnewHotelbannermenu-icon span {
+.carouselnewHotelBannermenu-icon span {
   white-space: nowrap;
   color: white;
   font-size: 15px;
@@ -665,7 +702,7 @@
   margin: 0;
   text-align: center;
 }
-.carouselnewHotelbannermenu-icon-active {
+.carouselnewHotelBannermenu-icon-active {
   background: #3380f2 !important;
   border-color: white !important;
   height: 70px;
@@ -690,7 +727,7 @@
   height: 245px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  border-radius: 10px;
+  border-radius: 6px;
   top: 58%;
   /* border: 2px solid red; */
 }
@@ -747,13 +784,11 @@
   border: 2px solid #3380f2 !important;
 }
 
-.multiwaybutton:hover{
-    background-color: #3380f2 !important;
-    color: white !important;
-    border: 2px solid white !important;
+.multiwaybutton:hover {
+  background-color: #3380f2 !important;
+  color: white !important;
+  border: 2px solid white !important;
 }
-
-
 
 .moreOptions:hover {
   background-color: white;
@@ -772,9 +807,28 @@
   width: 100%;
   border: none;
 }
-
-
-.navbarnewHotelPageOptions {
+.downarrowicon {
+  margin-top: 1%;
+}
+.dropdownnewhomepage-content {
+  display: none;
+  position: absolute;
+  color: white;
+  background-color: #3380f2;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: -1%;
+}
+.dropdownnewhomepage-content div:hover {
+  background-color: white;
+  color: #3380f2;
+}
+#newhomepage_departure:hover .dropdownnewhomepage-content {
+  display: block;
+}
+.navbarnewhomepageOptions {
   margin-top: 5%;
   padding-top: 8%;
   padding-bottom: 8%;
@@ -784,18 +838,34 @@
   margin-right: 20px;
 }
 
+.checkmark {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+  height: 20px;
+}
+.flightscheckbox {
+  margin-left: 5%;
+  margin-bottom: -0.5%;
+  margin-top: -3%;
+}
+.flightscheckbox1 {
+  margin-left: 0.5%;
+  margin-top: -1.4%;
+  font-size: 15px;
+}
 
 @media screen and (min-width: 560px) and (max-width: 950px) {
-  .carouselnewHotelbannermenu {
+  .carouselnewHotelBannermenu {
     display: none;
   }
-  .selectnewHotelpagedate {
+  .selectnewhomepagedate {
     margin-top: 2%;
   }
-  #selectnewHotelsPageReturndate1 {
+  #selectnewhomepageReturndate1 {
     margin-top: 2%;
   }
-  /* .fromnewHotelBanner-name{
+  /* .fromnewhomebanner-name{
           border: 1px solid red;
       } */
   .filternewhomebanner-fromTo {
@@ -803,11 +873,11 @@
     margin-top: 0% !important;
   }
 
-  .dropdownnewHotelPage-content {
+  .dropdownnewhomepage-content {
     margin-top: 8%;
   }
 
-  .filter-newHotelPageTrave-container {
+  .filter-newHotelTrave-container {
     flex-direction: column;
     margin-top: 5%;
   }
@@ -815,7 +885,7 @@
     margin: auto;
     margin-top: 25px;
   }
-  #formnewHotelpagedates {
+  #formnewhomepagedates {
     width: 33%;
     margin: auto;
     margin-top: -3%;
@@ -823,7 +893,7 @@
     border: 1px solid;
   }
 
-  #newHotelPagetrave {
+  #newhomepagetrave {
     margin: auto;
     margin-top: 1%;
     margin-left: 16%;
@@ -846,30 +916,193 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 500px) {
-  .selectnewHotelpagedate {
+  #filter-newHotelTrave-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: auto;
+    top: 15%;
+    background-color: white;
+    width: 55%;
+    /* border: 3px solid brown !important; */
+    color: #3380f2 !important;
+    height: 40px !important;
+    /* opacity: 0.9; */
+    left: 22%;
+    border-radius: 6px;
+    position: absolute !important;
+    z-index: 10;
+    height: 65px;
+  }
+  .newHotelInputmaindiv {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 100%;
+  }
+  .newHotelInputContainer {
+    border: 2px solid green;
+    width: 100%;
+    height: 35px;
+    border-radius: 15px;
+  }
+  .newHotelNameInput {
+    border: 1px solid purple;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .newHotelInputNameContainer input {
+    /* background-color: #8DBBFF; */
+    height: auto;
+    margin-top: 10% !important;
+    width: 100% !important;
+    color: black;
+    font-weight: 700;
+    border: none !important;
+    outline: none !important;
+    padding-left: -2%;
+    font-size: 11px;
+    padding-top: 5%;
+    margin-left: -4%;
+  }
+  .newHotelCheckIn_dateContainer {
+    /* border: 2px solid purple; */
+    width: 100%;
+    height: 35px;
+    margin-top: 15%;
+  }
+  .newHotelCheckIn_dateContainer input {
+    width: 100%;
+    height: 35px;
+    margin-top: -2%;
+    border: 2px solid red;
+    /* border: 1px solid black !important; */
+    outline: none !important;
+  }
+  .newHotelCheckIn_dateContainer input {
+    /* border-left: 1px solid black !important; */
+    /* margin-top: 4%; */
+    width: 100% !important;
+    border: none;
+    outline: none !important;
+    /* padding-top: 2%; */
+    /* margin-left: 4%; */
+    height: 35px;
+    width: 100% !important;
+    color: black;
+    outline: none !important;
+    padding-left: 11%;
+    font-size: 15px;
+    border-radius: 15px;
+    padding-right: 10%;
+  }
+  .newHotelCheckout_DateContainer {
+    /* border-right: 1px solid orange; */
+    width: 100%;
+    /* border: 2px solid salmon; */
+    margin-top: 1.5% !important;
+    height: 35px;
+    /* background-color: #8DBBFF; */
+  }
+
+  .newHotelCheckout_DateContainer input {
+    /* border-left: 1px solid black !important; */
+    margin-top: 1%;
+    width: 110%;
+    border: none;
+    outline: none !important;
+    /* padding-top: 2%; */
+    height: 35px;
+    width: 100% !important;
+    color: black;
+    outline: none !important;
+    padding-left: 15%;
+    font-size: 15px;
+    /* margin-left: 5%; */
+    border-radius: 15px;
+    padding-right: 10%;
+  }
+  .newHotelGuest_outerDiv {
+    /* border: 1px solid black; */
+    width: 100%;
+    /* margin-left: 5%; */
+    margin-top: 10%;
+    height: 35px;
+  }
+
+  #newHotel_departure {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    color: black;
+    background-color: white !important;
+    border-radius: 5px;
+    height: 35px;
+    border-radius: 15px;
+    border: 2px solid red;
+  }
+  #newHotel_departure h3 {
+    /* border-left:none; */
+    font-size: 15px;
+    height: 28px;
+    /*font-weight: 700;*/
+    /*margin-left:3%;*/
+    padding: 7px;
+    padding-left: 30px;
+    /*padding-top: 7%;*/
+    margin-top: 1%;
+    /* border: 2px solid blue; */
+  }
+  .newHotelGuestIcon {
+    /* border: 1px solid red; */
+    font-size: 20px !important;
+    margin-top: 3% !important;
+    margin-left: 26% !important;
+  }
+
+  .newHotel_SearchButton {
+    /* border: 3px solid blue; */
+    width: 100%;
+    height: 40px;
+    margin-top: 10%;
+    /* margin-left: 9%; */
+  }
+
+  .newHotel_SearchButton button {
+    margin-top: 0%;
+    border-radius: 15px;
+    width: 100%;
+    height: 40px;
+  }
+
+  .selectnewhomepagedate {
     margin-top: -8%;
     margin-left: 3%;
   }
-  #selectnewHotelsPageReturndate1 {
+  #selectnewhomepageReturndate1 {
     margin-top: -8%;
     margin-left: 4%;
   }
-  #dateonewaynewHotelBannerform::placeholder {
+  #dateonewaynewhomebannerform::placeholder {
     margin-top: -2% !important;
     font-size: 13px;
     border: none;
   }
 
-  .carouselnewHotelbannermenu {
+  .carouselnewHotelBannermenu {
     display: none;
   }
-  .fromnewHotelBanner-name {
+  .fromnewhomebanner-name {
     margin-top: -2%;
     line-height: -20px;
     /* border: 1px solid green; */
   }
 
-  .fromnewHotelBanner-name2 {
+  .fromnewhomebanner-name2 {
     margin-top: -6%;
     line-height: -20px;
     border: 2px solid red;
@@ -879,7 +1112,7 @@
     border: none;
   }
 
-  .dropdownnewHotelPage-content {
+  .dropdownnewhomepage-content {
     margin-top: 13%;
   }
 
@@ -890,16 +1123,16 @@
     font-size: 12px;
   }
 
-  #formnewHotelpagedates {
+  #formnewhomepagedates {
     display: flex;
     flex-direction: row;
     /* border: 1px solid; */
   }
-  .filter-newHotelPageTrave-container {
+  .filter-newHotelTrave-container {
     flex-direction: column;
     border: none;
   }
-  .filter-newHotelPageTrave-container {
+  .filter-newHotelTrave-container {
     flex-direction: column;
   }
   .filternewhomebanner-fromTo {
@@ -910,18 +1143,15 @@
     /* border:1px solid blueviolet; */
     width: 100%;
   }
-  #formnewHotelpagedates {
+  #formnewhomepagedates {
     margin: auto;
     margin-top: 25px;
   }
-  #newHotelPagetrave {
+  #newhomepagetrave {
     margin: auto;
     margin-right: 14%;
     margin-top: 3%;
     flex-direction: row;
     font-size: 13px;
-  }
-  #newHotelPage_departure {
-    margin-top: 1%;
   }
 }

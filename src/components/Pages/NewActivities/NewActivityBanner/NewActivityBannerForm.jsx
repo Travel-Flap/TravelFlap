@@ -85,8 +85,9 @@ export const ActivityBannerForm = () => {
             <div id='filter-newActivityTrave-container'>
                 <div className='newActivityInputmaindiv'>
                     <div className='newActivityDestinationInputContainer'>
+                        <h5>Enter Destination</h5>
                         <div className='newActivityNameInput'>
-                            <BsSearch className='newActivityInputicon'/>
+                            <BsSearch className='newActivityInputicon' />
                             <div className='newActivityInputNameContainer'>
                                 <input type="text" placeholder='Search destination,Hotels' />
                             </div>
@@ -95,16 +96,19 @@ export const ActivityBannerForm = () => {
                     </div>
 
                     <div className='newActivityCheckIn_dateContainer'>
+                        <h5>Checkin Date</h5>
                         <input type="datetime-local" placeholder='Check-In Date' />
                     </div>
 
                     <div className='newActivityCheckout_DateContainer'>
+                        <h5>Checkin Date</h5>
                         <input type="datetime-local" placeholder='Check-Out Date' />
                     </div>
 
                     <div className='newActivityGuest_outerDiv'>
+                        <h5>Travellers</h5>
                         <div id='newActivity_departure'>
-                            <h3>Travellers </h3>
+                            <h3>Choose travellers </h3>
                             {/* <FaAngleDown className='downHotelPagearrowicon' /> */}
                             <div className="dropdownNewActivity-content">
                                 <div className='navbarNewActivityPageOptions'>

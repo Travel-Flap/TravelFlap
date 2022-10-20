@@ -41,6 +41,34 @@
     color: white;
     /* color: #3380f2; */
   }
+
+  .newFlightsNearYouAllDeals{
+    /* border: 1px solid red; */
+    margin-left: 16%;
+    width: 20%;
+  }
+
+  .newFlightsNearYouAllDeals h5{
+    border: 1px solid white;
+    color: white;
+    margin-top: 12%;
+    margin-left: 15%;
+    width: 45%;
+    height: 32px;
+    font-size: 16px;
+    padding-left: 18px;
+    padding-top: 6px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .newFlightsNearYouAllDeals h5:hover{
+    /* text-decoration: underline; */
+    background-color: white;
+    color: #3380f2;
+  }
+
+
 /*   
   .internationalheading2 {
     width: 50%;
@@ -99,6 +127,12 @@
     color: #3380f2 !important;
     font-size: 22px;
     margin-top: 1%;
+  }
+
+  .newFlightsContentDiv1{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
   }
   
   .newFlightsNearYouCard_desc {
