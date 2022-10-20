@@ -298,7 +298,7 @@ export const CheapFlights = () => {
                         <div className='cheapflightscountrydiv'>
                             Bangalore
                         </div>
-                        <div className='cheapflightscountrydiv'>
+                        <div className='cheapflightscountrydiv'>    
                             Jaipur
                         </div>
                         <div className='cheapflightscountrydiv'>

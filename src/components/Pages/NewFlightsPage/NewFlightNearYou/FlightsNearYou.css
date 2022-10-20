@@ -1,0 +1,329 @@
+.newFlightsNearYoumaindiv{
+    width: 100%;
+    /* margin-top: 5%; */
+    background-color: #3380f2;
+    height: 620px;
+  }
+  
+  .newFlightsNearYououterdiv {
+    border: 2px solid lightgray;
+    display: flex !important;
+    flex-direction: row !important;
+    width: 96%;
+    height: 430px !important;
+    /* box-shadow: 4px 4px 4px rgb(211,211,211); */
+    border: none;
+    transition: all 300ms ease-in-out;
+  }
+
+  .newFlightsNearYououterdiv:hover {
+    width: 100%;
+    padding: 5px;
+    box-shadow: 5px 10px 25px  #3380f2;
+  }
+  
+  .newFlightsNearYouHeadingcontainer {
+    background-color: #3380f2;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    /* margin: auto; */
+    margin-top: 3%;
+  }
+  
+  .newFlightNeearYouHeading1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 2%;
+    margin-left: 5%;
+    width:65%;
+    color: white;
+    /* color: #3380f2; */
+  }
+/*   
+  .internationalheading2 {
+    width: 50%;
+    height: 40px;
+    justify-content: center;
+    margin: -0.5% 0 1% 1%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+  } */
+  /* .internationalheading {
+    border-radius: 50px;
+  } */
+  
+ 
+  /* .internationalheading:hover{
+    background-color: white;
+    color: #3380f2;
+  }
+  .internationalheading2 div {
+    border: 2px solid white;
+    width: 130px !important;
+    height: 33px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 4%;
+    margin-right: 4%;
+    border-radius: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: white;
+  } */
+  
+  /* .internationalheading2 div:hover {
+    background-color: #3380f2;
+    color: white;
+  } */
+  .newviewallActivityAroundbuttons {
+    color: white;
+    font-weight: 700;
+    text-decoration: none !important;
+    display: flex;
+    margin: 1.5% 0 0 55%;
+    width: 56%;
+  }
+  
+  .newFlightsNearYouSliderContainer{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 1.7%;
+    background-color: #3380f2;
+  }
+  .newFlightsNearYouCardtitle {
+    color: #3380f2 !important;
+    font-size: 22px;
+    margin-top: 1%;
+  }
+  
+  .newFlightsNearYouCard_desc {
+    width: 90%;
+    color: #3380f2;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .newFlightsNearYouImagetextcontainer {
+    width: 100%;
+    height: 430px;
+  }
+  
+  .newFlightsNearYouTextcard {
+    margin-left: 9% !important;
+    width: 100% !important;
+  }
+
+  .newFlightsNearYouTextcard:hover div {
+    color: white;
+  }
+  
+  .exclusivedealsimagediv {
+    width: 800px;
+    height: 200px !important;
+  }
+  .exclusivedealsimage {
+    width: 700px;
+    height: 10px;
+    margin-left: 40%;
+  }
+  
+  .newFlightsNearYouCardimage {
+    border: none;
+    width: 92% !important;
+    height: 230px;
+    margin-left: 4%;
+    margin-top: 4%;
+  }
+
+  .activityAroundimage{
+    height: 230px;
+    width: 100%;
+  }
+  
+  .newFlightsNearYouCarddescmain {
+    width: 100%;
+    margin-left: -9%;
+  }
+  
+  .exclusivecarddesc:hover {
+    color: white;
+  }
+
+  .newviewallActivityAroundtext{
+    margin-top: 0.5%;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 34%;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 16px;
+    padding-top: 4px;
+    margin-bottom: 8%;
+    text-decoration: none !important;
+  }
+
+  .newviewallActivityAroundtext:hover{
+    background-color: white;
+    color: #3380f2;
+  }
+  
+  .newActivityAroundHeadingbuttons {
+    justify-content: flex-end;
+    /* width: -1%; */
+    margin-left: 6%;
+    margin-top: -1%;
+    background-color: #3380f2 !important;
+  }
+
+  
+  .newActivityAroundHeadingbuttons button{
+    color: #3380f2 !important;
+    background-color: white !important;
+  }
+  
+  
+  .line-indicator li {
+    height: 4px;
+    width: 70px;
+    background: lightgray;
+    border-radius: 5px;
+  }
+  
+  .line-indicator li:hover {
+    background: gray;
+  }
+  
+  .line-indicator li.slick-active {
+    background: blue;
+  }
+
+  .buttons {
+    background: rgb(51, 128, 242) !important;
+    color: white !important;
+    transition: 700ms;
+  }
+  .buttons:hover {
+    transform: scale(1.1);
+  }
+  .newFlightsNearYouButton {
+    border: 3px solid #3380f2;
+    width: 34%;
+    border-radius: 15px !important;
+    background-color: white;
+    color: #3380f2;
+    padding: 4px 9px;
+    font-weight: 500;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    font-size: 15px !important;
+  }
+  .newFlightsNearYouButton:hover {
+    border: 3px solid white;
+    background-color: #3380f2;
+    color: white;
+   
+    font-size: 14px !important;
+  }
+  
+  
+  @media screen and (max-width: 950px) {
+    .newFlightsNearYouImagetextcontainer {
+      flex-direction: column;
+    }
+    .col-md-4 {
+      width: 90%;
+      height: 280px;
+      margin-left: 3%;
+      margin-top: 10%;
+    }
+    .card-title {
+      font-size: 17px;
+    }
+    .card-text {
+      font-size: 13px;
+    }
+    .newviewallActivityAroundbuttons {
+      display: none;
+    }
+    .newFlightNeearYouHeading1 {
+      display: none;
+    }
+    .newFlightsNearYouHeadingcontainer {
+      flex-direction: column;
+    }
+    .internationalheading2 {
+      width: 100%;
+    }
+    .newFlightsNearYouImagetextcontainer img {
+      width: 100%;
+      height: 100%;
+    }
+    .exclusivedealsimage {
+      width: 100%;
+      height: 100%;
+    }
+    .newFlightsNearYouTextcard {
+      margin-left: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .newFlightsNearYouImagetextcontainer {
+      flex-direction: column;
+    }
+    .col-md-4 {
+      width: 90%;
+      height: 280px;
+      margin-left: 3%;
+      margin-top: 5%;
+    }
+    .card-title {
+      font-size: 17px;
+    }
+    .card-text {
+      font-size: 13px;
+    }
+    .newviewallActivityAroundbuttons {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: -50px;
+      text-align: right;
+      width: 40%;
+      font-size: 14px;
+      margin-left: 52%;
+    }
+    .internationalheading2 {
+      display: none;
+    }
+    .newActivityAroundHeadingbuttons {
+      display: none;
+    }
+    .newFlightNeearYouHeading1 {
+      display: inline-block;
+      vertical-align: top;
+      width: 40%;
+      font-size: 16px;
+      margin-left: 3%;
+    }
+    .newFlightsNearYouHeadingcontainer {
+      flex-direction: column;
+    }
+    .newFlightsNearYouImagetextcontainer img {
+      width: 100%;
+      height: 100%;
+    }
+    .exclusivedealsimage {
+      width: 100%;
+      height: 100%;
+    }
+    .newFlightsNearYouTextcard {
+      margin-left: 8px;
+    }
+  }
+  
