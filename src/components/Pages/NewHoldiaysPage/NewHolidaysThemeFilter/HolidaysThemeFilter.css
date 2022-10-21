@@ -2,6 +2,7 @@
     /* border: 1px solid red; */
     width: 90%;
     margin: auto;
+    margin-top: 2%;
 }
 
 
@@ -13,6 +14,9 @@
 
 .holidayFilterInnerdiv1{
     width: 85%;
+    color: #3380F2;
+    font-size: 30px;
+    font-weight: 700;
     /* border: 1px solid black; */
 }
 
@@ -127,3 +131,26 @@
     font-weight: 700;
 }
 
+/* ----------------- view all deals button css ----------------  */
+
+
+.newHolidaysThemedealsbutton {
+    width: 8%;
+    margin-left: 5%;
+    /* margin-top: 3%; */
+    display: flex;
+    padding-top: 5px;
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    flex-direction: row;
+    border-right: none;
+    height: 40px;
+    color: #3380F2;
+    text-decoration: underline;
+    font-weight: 700;
+    /* border: 2px solid green;*/
+  }
+  .newHolidaysThemedealsbutton:hover{
+    background-color: #3380F2;
+    color: white;
+  }
