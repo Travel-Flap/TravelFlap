@@ -1,248 +1,132 @@
-import React, { useState } from 'react';
-import { Outlet, Link } from "react-router-dom";
-import './CruiseInternationalDestination.css';
+import React, { Component } from 'react';
 import Slider from "react-slick";
-import { useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useEffect } from "react";
-import {FaAngleRight} from "react-icons/fa";
+import './CruiseInternationalDestination.css';
+import { Button } from 'react-bootstrap';
 import countrydata from '../../../../CountryData.json';
-
-export const CruiseInternationalDestination = () => {
-    const [countryid, setCountryid] = useState('');
-    const [state, setState] = useState([]);
-    const [stateid, setStateid] = useState('');
-
-    const handlecounty = (e) => {
-        const getcountryId = e.target.value;
-        const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
-        setState(getStatedata);
-        setCountryid(getcountryId);
-        //console.log(getcountryId);
-    }
-
-    const handlestate = (e) => {
-        const stateid = e.target.value;
-        //console.log(stateid);
-        setStateid(stateid);
-
-    }
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        alert("Get Country id" + countryid + " And " + stateid);
-    }
-
-    const sliderRef = useRef(null);
-    useEffect(() => {
-        console.log(sliderRef);
-    }, []);
+import {FaAngleRight} from "react-icons/fa";
 
 
-    return (
-        <>
-            <div className="cruisePopularDestinationoutercontainer">
+// import "/src/App.css";
 
-                <div className="cruiseInternationalDestinationHeadingContainer">
-                    <h2 className="cruiseInternationalDestinationpageheading">International Destination</h2>
-                   <div className='cruiseInternationalDestinationDropContainer'>
-                        <select className="form-select cruiseInternationalDestinationCountryDrop" onChange={(e) => handlecounty(e)}
-                            style={{ width: "60%",appearance:"none" }}>
-                            <option value="" style={{ textAlign: "center" }}>Country</option>
-                            {
-                                countrydata.map((getcountry, index) => (
-                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                ))
-                            }
-                        </select>
-                        <div className='cruiseInternationalDestinationicondiv'>
-                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="cruiseInternationalDestinationicon" />
+export default class CruiseInternationalDestination extends Component {
+    render() {
+        const settings = {
+            // dots: true,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed:2000,
+            speed: 2000,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            cssEase: "linear",
+            arrows:false,
+        };
+        return (
+            
+            <div className='newInternationalCruisecontainer'>
+                <div style={{width:"90%" ,margin:"auto"}}>
+                <div className='newInternationalCruiseHeadingContainer'>
+                    <h2>International Cruise</h2>
+
+                    <div className='newInternationalCruisedealsbutton'> 
+                        View all Deals
+                    </div>
+
+                </div>
+                <Slider {...settings} className="multiCardSlider">
+                    <div className="card-wrapper newInternationalCruisewrapper">
+                        <div className="card newMultisection_InternationalCruiseimage">
+                            <div className="card-image newInternationalCruisecardImage">
+                                <img src="https://www.celebritycruises.com/blog/content/uploads/2019/03/best-cruise-destinations-celebrity-flora-galapagos-1024x683.jpg" />
+                            </div>
+                            <div className="newWorldInternationalCruisedetails">
+                                <h2> Galapagos Islands <span className="job-title">
+                                    <p>Join an expedition to the Galapagos Islands, where you can swim with sea lions,</p></span>
+                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                </h2>
+                            </div>
                         </div>
                     </div>
 
-                </div>
-
-                <div className='datanewhomepage'>
-
-                    <div className="cruiseInternationalDestinationcardmaindiv">
-
-                        <Slider
-                            arrows={false}
-                            autoplay={true}
-                            speed={1000}
-                            autoplaySpeed={1000}
-                            dots={true}
-                            dotsclassName="slick-dots line-indicator"
-                            ref={sliderRef}
-                            slidesToShow={4}
-                            slidesToScroll={2}
-                            responsive={[
-                                {
-                                    breakpoint: 1024,
-                                    settings: {
-                                        slidesToShow: 3,
-                                        slidesToScroll: 1,
-                                        infinite: true
-                                    }
-                                },
-                                {
-                                    breakpoint: 950,
-                                    settings: {
-                                        slidesToShow: 2,
-                                        slidesToScroll: 1,
-                                        infinite: true
-                                    }
-                                },
-                                {
-                                    breakpoint: 800,
-                                    settings: {
-                                        slidesToShow: 2,
-                                        slidesToScroll: 1,
-                                        infinite: true
-                                    }
-                                },
-                                {
-                                    breakpoint: 600,
-                                    settings: {
-                                        slidesToShow: 2,
-                                        slidesToScroll: 2,
-                                        initialSlide: 2
-                                    }
-                                },
-                                {
-                                    breakpoint: 480,
-                                    settings: {
-                                        slidesToShow: 1,
-                                        slidesToScroll: 1
-                                    }
-                                }
-                            ]}
-                            customPaging={(i) => (
-                                <div
-                                    style={{
-                                        width: "100%",
-                                        top: "-10px",
-                                        opacity: 0,
-                                    }}
-                                >
-                                    {i}
-                                </div>
-                            )}
-                        >
-
-                            <Link to="/cruiseinternational" className="cuiseInternationalDestinationpagelink">
-                             <div className="card-wrapper cruiseInternationalDestinationcardwrapper">
-                                <div className="cruiseInternationalDestinationcard">
-                                    <div className='cruiseInternationalDestinationcard_img'>
-                                        <div className="card-body">
-                                            <div className='trendingCruisenewhomepage_title1'>
-                                                    <div className="cruiseInternationalDestinationbottomheading">
-                                                        <h1>Cruise</h1>
-                                                    </div>
-                                                {/* <h4 className="trendingCruisenewhomepagecard-title">Cruise</h4> */}
-                                            </div>
-                                        </div>
-                                        <img src='https://images.unsplash.com/photo-1578530332818-6ba472e67b9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3J1aXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' style={{ height: "100px", width: "90%" }} className="trendingCruisecard-img-top" alt="..." />
-                                    </div>
-                                </div>
-                             </div>
-                            </Link>
-
-                            <Link to="/cruiseinternational" className="cuiseInternationalDestinationpagelink">
-                             <div className="card-wrapper cruiseInternationalDestinationcardwrapper">
-                                <div className="cruiseInternationalDestinationcard">
-                                    <div className='cruiseInternationalDestinationcard_img'>
-                                        <div className="card-body">
-                                            <div className='trendingCruisenewhomepage_title1'>
-                                                    <div className="cruiseInternationalDestinationbottomheading">
-                                                        <h1>Cruise</h1>
-                                                    </div>
-                                                {/* <h4 className="trendingCruisenewhomepagecard-title">Cruise</h4> */}
-                                            </div>
-                                        </div>
-                                        <img src='https://images.unsplash.com/photo-1578530332818-6ba472e67b9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3J1aXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' style={{ height: "100px", width: "90%" }} className="trendingCruisecard-img-top" alt="..." />
-                                    </div>
-                                </div>
-                             </div>
-                            </Link>
-                            <Link to="/cruiseinternational" className="cuiseInternationalDestinationpagelink">
-                             <div className="card-wrapper cruiseInternationalDestinationcardwrapper">
-                                <div className="cruiseInternationalDestinationcard">
-                                    <div className='cruiseInternationalDestinationcard_img'>
-                                        <div className="card-body">
-                                            <div className='trendingCruisenewhomepage_title1'>
-                                                    <div className="cruiseInternationalDestinationbottomheading">
-                                                        <h1>Cruise</h1>
-                                                    </div>
-                                                {/* <h4 className="trendingCruisenewhomepagecard-title">Cruise</h4> */}
-                                            </div>
-                                        </div>
-                                        <img src='https://images.unsplash.com/photo-1578530332818-6ba472e67b9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3J1aXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' style={{ height: "100px", width: "90%" }} className="trendingCruisecard-img-top" alt="..." />
-                                    </div>
-                                </div>
-                             </div>
-                            </Link>
-                            <Link to="/cruiseinternational" className="cuiseInternationalDestinationpagelink">
-                             <div className="card-wrapper cruiseInternationalDestinationcardwrapper">
-                                <div className="cruiseInternationalDestinationcard">
-                                    <div className='cruiseInternationalDestinationcard_img'>
-                                        <div className="card-body">
-                                            <div className='trendingCruisenewhomepage_title1'>
-                                                    <div className="cruiseInternationalDestinationbottomheading">
-                                                        <h1>Cruise</h1>
-                                                    </div>
-                                                {/* <h4 className="trendingCruisenewhomepagecard-title">Cruise</h4> */}
-                                            </div>
-                                        </div>
-                                        <img src='https://images.unsplash.com/photo-1578530332818-6ba472e67b9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3J1aXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' style={{ height: "100px", width: "90%" }} className="trendingCruisecard-img-top" alt="..." />
-                                    </div>
-                                </div>
-                             </div>
-                            </Link>
-                            <Link to="/cruiseinternational" className="cuiseInternationalDestinationpagelink">
-                             <div className="card-wrapper cruiseInternationalDestinationcardwrapper">
-                                <div className="cruiseInternationalDestinationcard">
-                                    <div className='cruiseInternationalDestinationcard_img'>
-                                        <div className="card-body">
-                                            <div className='trendingCruisenewhomepage_title1'>
-                                                    <div className="cruiseInternationalDestinationbottomheading">
-                                                        <h1>Cruise</h1>
-                                                    </div>
-                                                {/* <h4 className="trendingCruisenewhomepagecard-title">Cruise</h4> */}
-                                            </div>
-                                        </div>
-                                        <img src='https://images.unsplash.com/photo-1578530332818-6ba472e67b9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3J1aXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' style={{ height: "100px", width: "90%" }} className="trendingCruisecard-img-top" alt="..." />
-                                    </div>
-                                </div>
-                             </div>
-                            </Link>
-                            <Link to="/cruiseinternational" className="cuiseInternationalDestinationpagelink">
-                             <div className="card-wrapper cruiseInternationalDestinationcardwrapper">
-                                <div className="cruiseInternationalDestinationcard">
-                                    <div className='cruiseInternationalDestinationcard_img'>
-                                        <div className="card-body">
-                                            <div className='trendingCruisenewhomepage_title1'>
-                                                    <div className="cruiseInternationalDestinationbottomheading">
-                                                        <h1>Cruise</h1>
-                                                    </div>
-                                                {/* <h4 className="trendingCruisenewhomepagecard-title">Cruise</h4> */}
-                                            </div>
-                                        </div>
-                                        <img src='https://images.unsplash.com/photo-1578530332818-6ba472e67b9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3J1aXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60' style={{ height: "100px", width: "90%" }} className="trendingCruisecard-img-top" alt="..." />
-                                    </div>
-                                </div>
-                             </div>
-                            </Link>
-                           
-
-                           
-
-                        </Slider >
+                    <div className="card-wrapper newInternationalCruisewrapper">
+                        <div className="card newMultisection_InternationalCruiseimage">
+                            <div className="card-image newInternationalCruisecardImage">
+                                <img src="https://www.celebritycruises.com/blog/content/uploads/2019/03/best-cruise-destinations-blue-lagoon-iceland-1024x684.jpg" />
+                            </div>
+                            <div className="newWorldInternationalCruisedetails">
+                                <h2>Iceland <span className="job-title">
+                                    <p>Iceland is an incredible cruise destination for nature lovers. You’ll get the chance to see cascading waterfalls.
+                                        </p></span>
+                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                </h2>
+                            </div>
+                        </div>
                     </div>
+
+                    <div className="card-wrapper newInternationalCruisewrapper">
+                        <div className="card newMultisection_InternationalCruiseimage">
+                            <div className="card-image newInternationalCruisecardImage">
+                                <img src="https://www.celebritycruises.com/blog/content/uploads/2019/03/best-cruise-destinations-hubbard-glacier-alaska-1024x683.jpg" />
+                            </div>
+                            <div className="newWorldInternationalCruisedetails">
+                                <h2>Alaska <span className="job-title">
+                                    <p>Thanks to its majestic wildlife, wild terrain, and breathtaking glaciers, Alaska is arguably one of the best cruise destinations in the world.
+                                        </p></span>
+                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="card-wrapper newInternationalCruisewrapper">
+                        <div className="card newMultisection_InternationalCruiseimage">
+                            <div className="card-image newInternationalCruisecardImage">
+                                <img src="https://www.celebritycruises.com/blog/content/uploads/2020/05/best-cruise-destinations-sydney-skyline-1536x1151.jpg" />
+                            </div>
+                            <div className="newWorldInternationalCruisedetails">
+                                <h2>The Great Barrier Reef <span className="job-title">
+                                    <p>The Great Barrier Reef is the world’s largest reef system, lying beneath the Coral Sea along Australia’s northeast coast
+                                        </p></span>
+                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="card-wrapper newInternationalCruisewrapper">
+                        <div className="card newMultisection_InternationalCruiseimage">
+                            <div className="card-image newInternationalCruisecardImage">
+                                <img src="https://www.celebritycruises.com/blog/content/uploads/2020/05/best-cruise-destinations-promenade-des-anglais-nice-france-1536x1025.jpg" />
+                            </div>
+                            <div className="newWorldInternationalCruisedetails">
+                                <h2>Western Europe <span className="job-title">
+                                    <p>Discover the highlights of Western Europe on a cruise along the Mediterranean’s northern coastline and Portugal’s Atlantic ports
+                                    </p></span>
+                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="card-wrapper newInternationalCruisewrapper">
+                        <div className="card newMultisection_InternationalCruiseimage">
+                            <div className="card-image newInternationalCruisecardImage">
+                                <img src="https://www.celebritycruises.com/blog/content/uploads/2019/03/best-cruise-destinations-kabira-bay-ishigaki-japan-1024x683.jpg" />
+                            </div>
+                            <div className="newWorldInternationalCruisedetails">
+                                <h2>Southern Japan <span className="job-title">
+                                    <p>In Tokyo, marvel at the fascinating combination of modern design and technology with ancient architecture and tradition.
+                                    </p></span>
+                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                </h2>
+                            </div>
+                        </div>
+                    </div> 
+                </Slider>
                 </div>
             </div>
-
-        </>
-    );
+        )
+    }
 }
-

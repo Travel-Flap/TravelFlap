@@ -1,8 +1,9 @@
 .handpickednewhomepageoutercontainer {
   height: 580px;
-  object-fit: cover;
-  background-size: cover;
-  background-image: url(/public/Images/NewHomeLayout/BackgroundImages/handpickimagebg1.jpg);
+  background-color: #3380f2;
+  /* object-fit: cover; */
+  /* background-size: cover; */
+  /* background-image: url(/public/Images/NewHomeLayout/BackgroundImages/handpickimagebg1.jpg); */
 }
 /* /public/Images/NewHomeLayout/BackgroundImages/TopCitiesBackground1.png */
 /* /public/Images/NewHomeLayout/BackgroundImages/HandpickedBackgroundImage.jpg */
@@ -25,7 +26,7 @@
   margin-top: 2.1% !important;
   font-weight: 700;
   margin-bottom: 2%;
-  color: #3380f2;
+  color: white;
 }
 
 .newHomeHandPickedDropContainer {
@@ -135,13 +136,9 @@
   font-size: 18px;
   font-weight: 700;
   text-align: left;
-}
-
-.handpickednewhomepage_title1:hover {
+  z-index: 2;
   position: absolute;
-  height: 70px;
 }
-
 .handpickednewhomepagebottomheading {
   top: 65%;
   background-color: white;
@@ -189,9 +186,6 @@
   width: 100% !important;
   border-radius: 20px !important;
   overflow: hidden !important;
-  cursor: pointer;
-  position: relative;
-  text-align: center;
   margin-top: 3%
 }
 
@@ -229,6 +223,7 @@ border-radius: 25px;
   background-color: #000;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  position: relative;
 }
 
 .testhover img {
@@ -377,17 +372,17 @@ img {
 }
 .newHomeHandpickedCountryDrop {
   /* border: 3px solid red !important; */
-  background-color: #3380f2 !important;
+  background-color: white !important;
   width: 80% !important;
   height: 39px !important;
-  color: white !important;
+  color: #3380f2 !important;
   font-weight: 700 !important;
   font-size: 17px !important;
   cursor: pointer;
   border-radius: 25px 0px 0px 25px !important;
   border-right: none !important;
   appearance: none !important;
-  padding-top: 2% !important;
+  padding-top: 3% !important;
   border: none !important;
 }
 .newHomehandpickedDropContainer select {
@@ -405,7 +400,7 @@ img {
   width: 20%;
   color: white;
   /* border: 3px solid #3380F2; */
-  background-color: #3380f2;
+  background-color: white;
   height: 39px;
   /* font-size: 18px !important; */
   border-radius: 0px 25px 25px 0px;
@@ -416,9 +411,9 @@ img {
 .handpickedicon {
   margin-left: -37%;
   /* width: 100% !important; */
-  color: #3380f2;
-  border: 3px solid #3380f2;
-  background-color: white;
+  color: white;
+  /* border: 3px solid #3380f2; */
+  background-color: #3380f2;
   height: 25px;
   width: 25px;
   font-size: 18px !important;

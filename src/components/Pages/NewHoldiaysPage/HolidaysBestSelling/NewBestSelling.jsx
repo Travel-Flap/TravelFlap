@@ -40,16 +40,16 @@ export const NewHolidaysBestSelling = () => {
         console.log(sliderRef);
     }, []);
     return (
-        <div className="newBestBudgetmaindiv">
+        <div className="newBestSellingmaindiv">
             {/* <h1>Ipl</h1> */}
 
 
-            <div className="newBestBudgetheadingcontainer" >
-                <div className="cardtextnewBestBudgetdropbutton">
+            <div className="newBestSellingheadingcontainer" >
+                <div className="cardtextnewBestSellingDropbutton">
                     {/* <CountryDropHotel /> */}
-                    <h2>Best Budget Destinations</h2>
-                     <div className='newHolidaysBestBudgetDropContainer'>
-                        <select className="form-select newHolidaysBestBudgetCountryDrop" onChange={(e) => handlecounty(e)}
+                    <h2>Best Selling Destinations</h2>
+                     <div className='newHolidaysBestSellingDropContainer'>
+                        <select className="form-select newHolidaysBestSellingCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ border: "3px solid #3380f2", width: "60%",appearance:"none", fontSize:"15px" }}>
                             <option value="" style={{ textAlign: "center" }}>Country</option>
                             {
@@ -58,8 +58,8 @@ export const NewHolidaysBestSelling = () => {
                                 ))
                             }
                         </select>
-                        <div className='newBestBudgeticondiv'>
-                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="newBestBudgeticon" />
+                        <div className='newBestSellingIcondiv'>
+                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="newBestSellingIcon" />
                         </div>
                     </div>
                 </div>
@@ -82,14 +82,14 @@ export const NewHolidaysBestSelling = () => {
                 </div> */}
             </div>
 
-            <div className="newBestBudgetslidercontainer">
+            <div className="newBestSellingSlidercontainer">
                 <Slider
                     arrows={false}
                     // autoplay={true}
                     speed={2000}
                     autoplaySpeed={2000}
                     dots={true}
-                    dotsclassName="slick-dots bestBudgetslickDots line-indicator"
+                    dotsclassName="slick-dots bestSellingSlickDots line-indicator"
                     ref={sliderRef}
                     slidesToShow={5}
                     slidesToScroll={2}
@@ -148,7 +148,7 @@ export const NewHolidaysBestSelling = () => {
                     )}
                 >
 
-                    <div className="cardtextBestBudget_maindiv">
+                    <div className="cardtextBestSelling_maindiv">
                         {/* <div className="reviewratingBestBudgetsection">
                             <th>Exeptional
                                 <br />
@@ -157,7 +157,7 @@ export const NewHolidaysBestSelling = () => {
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div> */}
                         <img src="Images/NewHomeLayout/BestSelling/Brandenburg Gate, Berlin, Germany.jpg" alt="" />
-                        <div className="cardBestBudget_title">Germany
+                        <div className="cardBestSelling_title">Germany
                             <br />
                             {/* <span className="BestBudget_rating">
                                 <BsFillStarFill className="staricon" />
@@ -168,14 +168,14 @@ export const NewHolidaysBestSelling = () => {
                             </span> */}
                         </div>
 
-                        <div className="newBestBudgetratesdiv">
+                        <div className="newBestSellingRatesdiv">
                             <p>Berlin, Brandenburg Gate.</p>
                         </div>
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>
                         </div>
                     </div>
-                    <div className="cardtextBestBudget_maindiv">
+                    <div className="cardtextBestSelling_maindiv">
                         {/* <div className="reviewratingBestBudgetsection">
                             <th>Exeptional
                                 <br />
@@ -185,7 +185,7 @@ export const NewHolidaysBestSelling = () => {
                         </div> */}
 
                         <img src="Images/NewHomeLayout/BestSelling/Embarcadero, San Francisco, USA.jpg" alt="" />
-                        <div className="cardBestBudget_title">USA
+                        <div className="cardBestSelling_title">USA
                             <br />
                             {/* <span className="BestBudget_rating">
                                 <BsFillStarFill className="staricon" />
@@ -196,7 +196,7 @@ export const NewHolidaysBestSelling = () => {
                             </span> */}
                         </div>
 
-                        <div className="newBestBudgetratesdiv">
+                        <div className="newBestSellingRatesdiv">
                             <p>San Francisco</p>
                         </div>
                         <div className="hoteldicsountprice">
@@ -206,7 +206,7 @@ export const NewHolidaysBestSelling = () => {
                         </div>
                     </div>
 
-                    <div className="cardtextBestBudget_maindiv">
+                    <div className="cardtextBestSelling_maindiv">
                         {/* <div className="reviewratingBestBudgetsection">
                             <th>Exeptional
                                 <br />
@@ -216,7 +216,7 @@ export const NewHolidaysBestSelling = () => {
                         </div> */}
                         
                         <img src="Images/NewHomeLayout/BestSelling/Great Wall of China, China.jpg" alt="" />
-                        <div className="cardBestBudget_title">China
+                        <div className="cardBestSelling_title">China
                             <br />
                             {/* <span className="BestBudget_rating">
                                 <BsFillStarFill className="staricon" />
@@ -227,7 +227,7 @@ export const NewHolidaysBestSelling = () => {
                             </span> */}
                         </div>
 
-                        <div className="newBestBudgetratesdiv">
+                        <div className="newBestSellingRatesdiv">
                             <p>The Great Wall of China.</p>
                         </div>
                         <div className="hoteldicsountprice">
@@ -241,7 +241,7 @@ export const NewHolidaysBestSelling = () => {
                             <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
                         </div> */}
                     </div>
-                    <div className="cardtextBestBudget_maindiv">
+                    <div className="cardtextBestSelling_maindiv">
                         {/* <div className="reviewratingBestBudgetsection">
                             <th>Exeptional
                                 <br />
@@ -251,10 +251,10 @@ export const NewHolidaysBestSelling = () => {
                         </div> */}
 
                         <img src="Images/NewHomeLayout/BestSelling/Laon France.jpg" alt="" />
-                        <div className="cardBestBudget_title">France
+                        <div className="cardBestSelling_title">France
                         </div>
 
-                        <div className="newBestBudgetratesdiv">
+                        <div className="newBestSellingRatesdiv">
                             <p>Laon</p>
                         </div>
                         <div className="hoteldicsountprice">
@@ -263,7 +263,7 @@ export const NewHolidaysBestSelling = () => {
                             <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
                         </div>
                     </div>
-                    <div className="cardtextBestBudget_maindiv">
+                    <div className="cardtextBestSelling_maindiv">
                         {/* <div className="reviewratingBestBudgetsection">
                             <th>Exeptional
                                 <br />
@@ -273,7 +273,7 @@ export const NewHolidaysBestSelling = () => {
                         </div> */}
 
                         <img src="Images/NewHomeLayout/BestSelling/Metropolitan City of Venice, Italy.jpg" alt="" />
-                        <div className="cardBestBudget_title">Italy
+                        <div className="cardBestSelling_title">Italy
                             <br />
                             {/* <span className="BestBudget_rating">
                                 <BsFillStarFill className="staricon" />
@@ -284,7 +284,7 @@ export const NewHolidaysBestSelling = () => {
                             </span> */}
                         </div>
 
-                        <div className="newBestBudgetratesdiv">
+                        <div className="newBestSellingRatesdiv">
                             <p>Metropolitan City of Venice.</p>
                         </div>
                         <div className="hoteldicsountprice">
@@ -293,7 +293,7 @@ export const NewHolidaysBestSelling = () => {
                             <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
                         </div>
                     </div>
-                    <div className="cardtextBestBudget_maindiv">
+                    <div className="cardtextBestSelling_maindiv">
                         {/* <div className="reviewratingBestBudgetsection">
                             <th>Exeptional
                                 <br />
@@ -302,7 +302,7 @@ export const NewHolidaysBestSelling = () => {
                             <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                         </div> */}
                         <img src="Images/NewHomeLayout/BestSelling/Santuario de la virgen de los remedios, san pedro cholula, mexico.jpg" alt="" />
-                        <div className="cardBestBudget_title">Mexico
+                        <div className="cardBestSelling_title">Mexico
                             <br />
                             {/* <span className="BestBudget_rating">
                                 <BsFillStarFill className="staricon" />
@@ -313,7 +313,7 @@ export const NewHolidaysBestSelling = () => {
                             </span> */}
                         </div>
 
-                        <div className="newBestBudgetratesdiv">
+                        <div className="newBestSellingRatesdiv">
                             <p>Santuario de la virgen de los remedios, san pedro cholula.</p>
                         </div>
                         <div className="hoteldicsountprice">
@@ -322,7 +322,7 @@ export const NewHolidaysBestSelling = () => {
                             <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
                         </div>
                     </div>
-                    <div className="cardtextBestBudget_maindiv">
+                    <div className="cardtextBestSelling_maindiv">
                         {/* <div className="reviewratingBestBudgetsection">
                             <th>Exeptional
                                 <br />
@@ -332,7 +332,7 @@ export const NewHolidaysBestSelling = () => {
                         </div> */}
 
                         <img src="Images/NewHomeLayout/BestSelling/Sevilla, Spain.jpg" alt="" />
-                        <div className="cardBestBudget_title">Sevilla
+                        <div className="cardBestSelling_title">Sevilla
                             <br />
                             {/* <span className="BestBudget_rating">
                                 <BsFillStarFill className="staricon" />
@@ -343,7 +343,7 @@ export const NewHolidaysBestSelling = () => {
                             </span> */}
                         </div>
 
-                        <div className="newBestBudgetratesdiv">
+                        <div className="newBestSellingRatesdiv">
                             <p>Spain</p>
                         </div>
                         <div className="hoteldicsountprice">

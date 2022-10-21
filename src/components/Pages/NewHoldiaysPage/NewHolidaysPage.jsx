@@ -12,39 +12,45 @@ import { NewHolidaysBestBudget } from './HolidaysBestBudget/NewBestBudget';
 import { NewHolidaysBestSelling } from './HolidaysBestSelling/NewBestSelling';
 import { NewPopularDestination } from './HolidaysPopularDestination/NewPopularDestination';
 import { NewHolidaysPageBanner } from './NewHolidaysPageBanner/NewHolidaysPageBanner';
+import { HolidaysThemeFilter } from './NewHolidaysThemeFilter/HolidaysThemeFilter';
 
 export const NewHolidaysPage = () => {
   return (
     <div>
-        {/* <NewHomeNav/> */}
-        <NewHolidaysPageBanner/>
+      {/* <NewHomeNav/> */}
+      <NewHolidaysPageBanner />
 
-        <div className=''>
-            <NewHolidaysBestSelling/>
-        </div>
+      <HolidaysThemeFilter />
 
-        <NewHomeExclusiveDeals/>
-        
-        <div className=''>
-            <NewHolidaysBestBudget/>
-        </div>
+      <div className=''>
+        <NewPopularDestination />
+      </div>
 
-        <div className=''>
-            <NewPopularDestination/>
-        </div>
+      <div className=''>
+        <NewHolidaysBestBudget />
+      </div>
+      
+      <NewHomeExclusiveDeals />
 
-        <NewHomeEasyVisaDestination/>
 
-        <NewHomeAppDownload/>
+      <div className=''>
+        <NewHolidaysBestSelling />
+      </div>
 
-        {/* <NewHomeAwards/> */}
 
-        <Plan/>
 
-        <FooterLinks/>
-        
-        <NewHomeFooter/>
-        <NewHomeBottomBar/>
+      <NewHomeEasyVisaDestination />
+
+      <NewHomeAppDownload />
+
+      {/* <NewHomeAwards/> */}
+
+      <Plan />
+
+      <FooterLinks />
+
+      <NewHomeFooter />
+      <NewHomeBottomBar />
     </div>
   )
 }

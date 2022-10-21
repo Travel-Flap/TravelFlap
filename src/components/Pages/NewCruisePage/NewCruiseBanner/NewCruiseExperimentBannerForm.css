@@ -116,6 +116,15 @@
   height: 65px;
 }
 
+.newHolidaysNameInput {
+  /* border: 1px solid purple; */
+  /* background-color: #8DBBFF; */
+  width: 100%;
+  height: 65px;
+  display: flex;
+  /* border-radius: 5px; */
+  flex-direction: row;
+}
 
 .newHolidaysinputNameContainer {
   /* border: 1px solid maroon; */
@@ -179,7 +188,8 @@
   /* border: 1px solid red; */
   height: 10px;
   font-size: 15px;
-  padding-left: 9%;
+  font-weight: bold;
+  padding-left: 8.5%;
   /* margin-top: -4%; */
 }
 
@@ -209,6 +219,7 @@
    /* border: 1px solid red; */
   height: 10px;
   font-size: 15px;
+  font-weight: bold;
   padding-left: 1.5%;
    /* margin-top: -7%; */
 }
@@ -233,6 +244,7 @@
   /* margin-left: 40% !important; */
   height: 10px;
   font-size: 15px;
+  font-weight: bold;
   padding-left: 1.5%;
   /* margin-top: -4%; */
 }
@@ -246,7 +258,6 @@
   height: 35px;
   padding-top: 2px !important;
   border: 2px solid #dddddd78;
-  color: grey;
 }
 
 .singleNewcruiseBannerdropcontainer2 select::placeholder{
@@ -400,12 +411,6 @@
   padding-left: 22%;
   padding-top: 9%;
   font-weight: 700;
-}
-
-.newcruise_SearchButton button:hover{
-  background-color: white !important;
-  color: #3380f2;
-  /* transition: all; */
 }
 
 /* This is prior css code for the homepage */

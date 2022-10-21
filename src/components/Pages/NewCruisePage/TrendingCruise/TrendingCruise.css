@@ -1,311 +1,507 @@
-.trendingcruiseoutercontainer{
-    height: 520px;
-    width: 100%;
-    margin: auto;
-    object-fit: cover;
-    background-size: cover;
-    /* border: 2px solid red; */
-  }
- 
-  .newTrendingCruiseHeadingContainer{
-    border: 1px solid transparent;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .trendingCruisenewhomepagelink {
-      text-decoration: none;
-      height: 430px;
-    }
-    .trendingcruisenewhomepageheading {
-      font-size: 30px !important;
-      font-weight: 700 !important;
-      width: 30%;
-      margin-left: 7.5%;
-      margin-top: 1% !important;
-      font-weight: 700;
-      margin-bottom: 0%;
-      color: #3380f2;
-    }
-  
-    .newTrendingCruiseHeadingContainer {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      /* background-color: #3380f2 !important; */
-      height: 75px;
-      margin-top: 2%;
-    }
-    .newTreendingCruisecardmaindiv {
-      width: 90%;
-      height: 400px;
-      margin: auto;
-      margin-left: 7%;
-      margin-top: -1%;
-      /* border: 2px solid b  lue; */
-    }
-    
-    .trendingCruisenewhomepagecardwrapper {
-      align-items: center;
-      position: relative;
-      width: 100%;
-      padding: 0 10px;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-    }
-    
-    .trendingCruisecard {
-      width: 100%;
-      height: 350px;
-      /* border: 2px solid black; */
-    }
-    
-    .trendingCruisenewhomepage_title1 {
-      /* border: 2px solid red; */
-      position: absolute;
-      top: 80%;
-      left: 13%;
-      height: 70px;
-      width: 72%;
-    }
-    
-    .trendingCruisenewhomepagecard-title{
-      color: Black !important;
-      font-size: 20px;
-      margin-top: -8%;
-      text-align: left !important;
-      font-weight: 600;
-    }
-    
-    .trendingCruisenewhomepage_title1:hover{
-      position: absolute;
-      height: 70px;
-    }
-    
-    .trendingCruisenewhomepagebottomheading {
-      top: 65%;
-      background-color: white;
-      border-radius: 12px;
-      left: 10%;
-      width: 35%;
-      height: 26px;
-    }
-    
-    .trendingCruisenewhomepagebottomheading h1{
-      font-size: 18px;
-      font-weight: 700;
-      padding-top: 3px;
-      padding-left: 9px;
-    }
-    .trendingCruisenewhomepagecard_img {
-      width: 90%;
-      height: 350px;
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-      /* border: 2px solid red; */
-      cursor: pointer;
-      margin-top: 8%;
-    }
-  
-    .trendingCruisenewhomepagecard_img img {
-      width: 100% !important;
-      height: 350px !important;
-      /* filter: brightness(0.8); */
-      border-radius: 10px;
-      margin: auto;
-      /* margin-top:2%; */
-    }
-    
-    .carousel .slick-dots {
-      bottom: -2.5vw;
-    }
-    
-    .carousel .slick-dots li button {
-      width: 20px;
-      height: 20px;
-      background-color: darkblue !important;
-      border-radius: 20px;
-    }
-    
-    .carousel .slick-dots li button:before {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 10px;
-      height: 10px;
-      border-radius: 10px;
-      content: "";
-      text-align: center;
-      opacity: 0.5;
-      color: #000;
-      background-color: #fff;
-      -webkit-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      -webkit-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out;
-    }
-    
-    .carousel .slick-prev,
-    .carousel .slick-next {
-      width: 50px;
-      height: 50px;
-      background-color: #fff;
-    }
-    
-    .carousel .slick-prev:before,
-    .carousel .slick-next:before {
-      color: #000;
-      font-family: "Raleway", sans-serif;
-    }
-    
-    .carousel .slick-next {
-      right: -55px;
-    }
-    
-    .carousel .slick-prev {
-      left: -55px;
-    }
-    
-    img {
-      -moz-transition: all 0.3s;
-      -webkit-transition: all 0.3s;
-      transition: all 0.3s;
-    }
-    
-    .trendingCruisenewhomepagecardwrapper {
-      position: relative;
-      width: 100%;
-      padding: 0 10px;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-    }
-    
-    .carousel .slick-dots {
-      bottom: -2.5vw;
-    }
-    
-    .carousel .slick-dots li button {
-      width: 20px;
-      height: 20px;
-      background: rgb(51, 128, 242);
-      border: 1px solid rgb(51, 128, 242);
-      border-radius: 20px;
-    }
-    
-    .carousel .slick-dots li button:before {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 10px;
-      height: 10px;
-      border-radius: 10px;
-      content: "";
-      text-align: center;
-      opacity: 0.5;
-      color: #000;
-      background-color: #fff;
-      -webkit-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      -webkit-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out;
-    }
-    
-    .carousel .slick-prev,
-    .carousel .slick-next {
-      width: 50px;
-      height: 50px;
-      background-color: #fff;
-    }
-    
-    .carousel .slick-prev:before,
-    .carousel .slick-next:before {
-      color: #000;
-      font-family: "Raleway", sans-serif;
-    }
-    
-    .carousel .slick-next {
-      right: -55px;
-    }
-    
-    .carousel .slick-prev {
-      left: -55px;
-    }
-    
-  
-  
-    /* ----------------- New button css ----------------  */
-  
-  
-    .newTrendingCruiseDropContainer {
-      width: 10%;
-      margin-left: 46.5%;
-      margin-top: 1%;
-      display: flex;
-      flex-direction: row;
-      border-right: none;
-      height:39px;
-      border-radius: 25px;
-      /* border: 2px solid green; */
-    }
-    /* .newTrendingCruiseDropContainer:hover .newTrendingCruiseicondiv{
-      background-color:white;
-      color: #3380F2;
-      cursor: pointer;
-    } */
-    .newTrendingCruiseCountryDrop {
-      border: 3px solid red !important;
-      background-color: #3380F2 !important;
-      width: 80% !important;
-      height: 39px !important;
-      color:white !important;
-      font-weight: 700 !important;
-      font-size: 17px !important;
-      cursor: pointer;
-      border-radius: 25px 0px 0px 25px !important;
-      border-right: none !important;
-      appearance: none !important;
-      padding-top: 3% !important;
-      border: none !important;
-    }
-    .newTrendingCruiseDropContainer select{
-      /* border: 1px solid red !important; */
-      background-image: none !important;
-    }
-    
-    /* .newTrendingCruiseCountryDrop:hover {
-      background-color: white !important;
-      color: #3380F2 !important;
-      font-weight: 700;
-      border: 3px solid #3380F2 !important;
-    } */
-    .newTrendingCruiseicondiv{
-      width: 20%;
-      color: white;
-      /* border: 3px solid #3380F2; */
-      background-color: #3380F2;
-      height: 39px;
-      /* font-size: 18px !important; */
-      border-radius: 0px 25px 25px 0px;
-      padding-right: 5%;
-      border-left: none;
-      /* border: 2px solid yellow; */
-    }
-    .trendingCruiseicon{
-      margin-left: -37%;
-      /* width: 100% !important; */
-      color: #3380F2;
-      border: 3px solid #3380F2;
-      background-color: white;
-      height: 25px;
-      width: 25px;
-      font-size: 18px !important;
-      border-radius: 100%;
-      margin-top: 29% !important;
-      /* margin-bottom: 105%;*/
-    }
+.newTrendingCruisecontainer{
+  /* border: 1px solid red; */
+  width: 100% !important;
+  margin: auto;
+  background-color: #3380F2;
+  height: 520px;
+}
 
-    .trendingCruisecard-img-top{
-        /* border: 2px solid red; */
-        margin-top: 2%;
-        height: 200px !important;
-    }
+.newTrendingCruiseHeadingContainer{
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+}
+
+.newTrendingCruiseHeadingContainer h2{
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-bottom: 2%;
+  width:65%;
+  color: white !important;
+}
+
+
+/* .clientstestimonial_title {
+  font-size: 27px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  text-decoration: none solid rgb(45,44,44);
+  vertical-align: baseline;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgb(51,128,242);
+} */
+
+
+/* .newTrendingCruisewrapper {
+  position: relative;
+  width: 100%;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+} */
+
+
+/* .newMultisection_TrendingCruiseimage {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+} */
+
+/* 
+.newTrendingCruisecardImage {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400px !important;
+  z-index: 2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.newTrendingCruisecardImage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+} */
+
+/* .newMultisection_TrendingCruiseimage:hover img {
+  opacity: 0.4;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.newMultisection_TrendingCruiseimage:hover .newTrendingCruisecardImage {
+  -webkit-transform: translateY(-100px);
+  transform: translateY(-100px);
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+} */
+
+/* .newWorldTrendingCruisedetails {
+  position: absolute;
+  bottom: -62%;
+  left: 0;
+  background: #3380f2;
+  width: 100%;
+  height: 220px;
+  z-index: 100000000;
+  padding: 10px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+ */
+/* .newWorldTrendingCruisedetails h2 {
+  margin: 30px 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+ */
+/* .newWorldTrendingCruisedetails h2 .job-title {
+  font-size: 16px;
+  line-height: 2;
+  color: white;
+  font-weight: 300;
+  display: block;
+}
+
+.card:hover .newWorldTrendingCruisedetails {
+  bottom: 0;
+} */
+
+.carousel .slick-dots {
+  bottom: -2.5vw;
+}
+
+.carousel .slick-dots li button {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.carousel .slick-dots li button:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  content: "";
+  text-align: center;
+  opacity: 0.5;
+  color: #000;
+  background-color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.carousel .slick-prev,
+.carousel .slick-next {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+
+.carousel .slick-prev:hover,
+.carousel .slick-prev:focus,
+.carousel .slick-next:hover,
+.carousel .slick-next:focus {
+  color: #fff;
+  outline: none;
+  background: #fff;
+}
+
+.carousel .slick-prev:before,
+.carousel .slick-next:before {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+}
+
+.carousel .slick-next {
+  right: -55px;
+}
+
+.carousel .slick-prev {
+  left: -55px;
+}
+
+
+/* .clientstestimonial_title {
+  font-size: 27px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  text-decoration: none solid rgb(45,44,44);
+  vertical-align: baseline;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgb(51,128,242);
+} */
+
+
+
+/* .newMultisection_TrendingCruiseimage {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+ */
+/* .newTrendingCruisecardImage {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 450px;
+  z-index: 2;
+  background-color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+ */
+/* .newTrendingCruisecardImage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.newMultisection_TrendingCruiseimage:hover img {
+  opacity: 0.4;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.newMultisection_TrendingCruiseimage:hover .newTrendingCruisecardImage {
+  -webkit-transform: translateY(-100px);
+  transform: translateY(-100px);
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+} */
+
+/* .newWorldTrendingCruisedetails {
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  background: #3380f2;
+  width: 100%;
+  height: 213px;
+  z-index: 100000000;
+  padding: 10px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.newWorldTrendingCruisedetails h2 {
+  margin: 30px 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+.newWorldTrendingCruisedetails h2 .job-title {
+  font-size: 16px;
+  line-height: 2;
+  color: white;
+  font-weight: 300;
+  display: block;
+}
+
+.card:hover .newWorldTrendingCruisedetails {
+  bottom: 0;
+} */
+
+.carousel .slick-dots {
+  bottom: -2.5vw;
+}
+
+.carousel .slick-dots li button {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.carousel .slick-dots li button:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  content: "";
+  text-align: center;
+  opacity: 0.5;
+  color: #000;
+  background-color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.carousel .slick-prev,
+.carousel .slick-next {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+
+.carousel .slick-prev:hover,
+.carousel .slick-prev:focus,
+.carousel .slick-next:hover,
+.carousel .slick-next:focus {
+  color: #fff;
+  outline: none;
+  background: #fff;
+}
+
+.carousel .slick-prev:before,
+.carousel .slick-next:before {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+}
+
+.carousel .slick-next {
+  right: -55px;
+}
+
+.carousel .slick-prev {
+  left: -55px;
+}
+  
+
+.newTrendingCruisewrapper {
+  position: relative;
+  width: 90%;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+}
+.newMultisection_TrendingCruiseimage {
+margin-left: 1%;
+width: 95%;
+height: 350px;
+border: 2px solid #3380F2 !important;
+border-radius: 20px !important;
+overflow: hidden;
+cursor: pointer;
+position: relative;
+background-color: #3380F2;
+}
+.newMultisection_TrendingCruiseimage:hover img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.newMultisection_TrendingCruiseimage:hover .newTrendingCruisecardImage {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.newTrendingCruisecardImage {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 360px !important;
+  border-radius: 20px !important;
+  z-index: 2;
+  /* border: 2px solid red !important; */
+  background-color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.newTrendingCruisecardImage img {
+  width: 100%;
+  filter: brightness(0.8);
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.newMultisection_TrendingCruiseimage:hover .newTrendingCruisecardImage {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.newWorldTrendingCruisedetails {
+  position: absolute;
+  bottom: -62%;
+  left: 0;
+  width: 100%;
+  height: 310px;
+  z-index: 100000000;
+  padding: 10px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  line-height: 15px;
+}
+
+.newWorldTrendingCruisedetails h2 {
+  margin: 0px 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.newWorldTrendingCruisedetails h2 .job-title {
+  font-size: 14px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 300;
+  display: block;
+}
+
+.card:hover .newWorldTrendingCruisedetails {
+  bottom: 0;
+}
+
+
+/* ----------------- view all deals button css ----------------  */
+
+
+.newTrendingCruisedealsbutton {
+  /* width: 10%; */
+  margin-left: 20%;
+  margin-top: 3%;
+  display: flex;
+  padding-top: 5px;
+  /* border: 2px solid red; */
+  border-radius:8px;
+  flex-direction: row;
+  border-right: none;
+  height: 40px;
+  color: White;
+  text-decoration: underline;
+  font-weight: 700;
+  /* border: 2px solid green; */
+}
+.newTrendingCruisedealsbutton:hover{
+  background-color: white;
+  color: #3380F2;
+}
+
+/* -----------------------------zoomming effect ----------------------------*/
+
+.cardtextTrendingCruisemostpicked_maindiv{
+  width: 115% !important;
+  height: 410px !important;
+  text-align: center;
+  /* border: 2px solid gold; */
+  transform: scale(0.8);
+  transition: .7s;
+  border-radius: 20px;
+  margin-left: -3%;
+  margin-top: -11%;
+  width: 102%;
+  border-radius: 20px !important;
+  overflow: hidden !important;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+/* .cardtextTrendingCruisemostpicked_maindiv {
+margin-left: 3%;
+width: 102%;
+border-radius: 20px !important;
+overflow: hidden !important;
+cursor: pointer;
+position: relative;
+text-align: center;
+} */
+
+.TrendingCruisesMostPickedzoomming >img {
+width: 100%;
+height: 100%;
+border-radius: 25px;
+}
+
+.cardtextTrendingCruisemostpicked_maindiv:hover .TrendingCruisesMostPickedzoomming >img {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+
+.TrendingCruisesMostPickedzoomming {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100% !important;
+  border-radius: 20px !important;
+  z-index: -1;
+  background-color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.TrendingCruisesMostPickedzoomming img {
+  width: 100%;
+  filter: brightness(0.8);
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: 1;
+  position: relative;
+}

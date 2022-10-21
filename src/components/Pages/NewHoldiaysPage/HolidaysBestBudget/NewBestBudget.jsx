@@ -47,7 +47,7 @@ export const NewHolidaysBestBudget = () => {
             <div className="newBestBudgetheadingcontainer" >
                 <div className="cardtextnewBestBudgetdropbutton">
                     {/* <CountryDropHotel /> */}
-                    <h2>Best Selling Destinations</h2>
+                    <h2>Best Budget Destinations</h2>
                      <div className='newHolidaysBestBudgetDropContainer'>
                         <select className="form-select newHolidaysBestBudgetCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ border: "3px solid #3380f2", width: "60%",appearance:"none", fontSize:"15px" }}>

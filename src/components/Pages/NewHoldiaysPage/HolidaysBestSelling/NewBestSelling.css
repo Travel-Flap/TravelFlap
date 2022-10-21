@@ -7,14 +7,14 @@
     width: 20%;
   }
   
-  .cardtextnewBestBudgetdropbutton {
+  .cardtextnewBestSellingDropbutton {
     width: 100% !important;
     display: flex;
     flex-direction: row;
   }
   
-  .cardtextnewBestBudgetdropbutton h2 {
-    color: #3380f2;
+  .cardtextnewBestSellingDropbutton h2 {
+    color: whitesmoke;
     font-weight: 600;
     margin-top: 2%;
     margin-left: 5%;
@@ -22,7 +22,7 @@
   }
   
   
-  .newHolidaysBestBudgetDropContainer {
+  .newHolidaysBestSellingDropContainer {
     width: 12%;
     margin-left: 47%;
     margin-top: 0.1%;
@@ -32,12 +32,12 @@
     height: 50px;
     /* border: 2px solid green; */
   }
-  .newHolidaysBestBudgetDropContainer:hover .newBestBudgeticondiv{
-    background-color:#3380f2 !important;
-    color: whitesmoke !important;
+  .newHolidaysBestSellingDropContainer:hover .newBestSellingIcondiv{
+    background-color: whitesmoke !important;
+    color: #3380f2 !important;
     cursor: pointer;
   }
-  .newHolidaysBestBudgetCountryDrop {
+  .newHolidaysBestSellingCountryDrop {
     border: 3px solid white !important;
     background-color: #3380f2 !important;
     width: 85% !important;
@@ -52,22 +52,23 @@
     border: 2px solid gold;
     margin-top: 15%;
   }
-  .newHolidaysBestBudgetDropContainer select{
+  .newHolidaysBestSellingDropContainer select{
     /* border: 1px solid red !important; */
     background-image: none !important;
-    background-color:#3380f2 !important;
+    background-color:whitesmoke !important;
     height: 48px;
     margin-top: 13%;
-    color: whitesmoke !important;
+    color: #3380f2 !important;
   }
   
-  .newHolidaysBestBudgetCountryDrop:hover {
+  /* .newHolidaysBestSellingCountryDrop:hover {
     background-color: #3380f2 !important;
     color: whitesmoke !important;
     font-weight: 700;
-    border: 3px solid #3380F2;
-  }
-  .newBestBudgeticondiv{
+    border: 3px solid whitesmoke !important;
+  } */
+
+  .newBestSellingIcondiv{
     width: 16%;
     color: white;
     border: 3px solid #3380F2;
@@ -80,7 +81,7 @@
     margin-top: 14%;
     /* border: 2px solid red; */
   }
-  .newBestBudgeticon{
+  .newBestSellingIcon{
          /* width: 100% !important; */
          color: white;
          /* border: 3px solid #3380F2; */
@@ -91,13 +92,13 @@
          margin-top: 68%;
          /* margin-bottom: 105%; */
   }
-  /* .newHolidaysBestBudgetDropContainer {
+  /* .newHolidaysBestSellingDropContainer {
     width: 20%;
     margin-left: 56%;
     margin-top: 0.1%;
   }
   
-  .newHolidaysBestBudgetCountryDrop {
+  .newHolidaysBestSellingCountryDrop {
     margin-top: 13% !important;
     margin-left: 7%;
     color: #3380f2 !important;
@@ -105,17 +106,17 @@
     cursor: pointer;
     border-radius: 20px !important;
   }
-  .newHolidaysBestBudgetCountryDrop:hover {
+  .newHolidaysBestSellingCountryDrop:hover {
     background-color: #3380f2;
     color: white !important;
     font-weight: 700;
   } */
   
-  .newBestBudgetmaindiv {
+  .newBestSellingmaindiv {
     /* border: 1px solid red !important; */
     width: 100%;
     height: 500px !important;
-    background-color: whitesmoke;
+    background-color: #3380f2;
     opacity: 0.9;
     /* background-image: url(/public/Images/NewHomeLayout/BackgroundImages/HotelServicesBackground.png); */
   }
@@ -124,11 +125,11 @@
     width: 280px;
   }
   
-  .newBestBudgetslidercontainer .bestBudgetslickDots {
+  .newBestSellingSlidercontainer .bestSellingSlickDots {
     bottom: -2.5vw;
   }
   
-  .newBestBudgetslidercontainer .bestBudgetslickDots li {
+  .newBestSellingSlidercontainer .bestSellingSlickDots li {
     width: 20px;
     height: 20px;
     background: #3380f2 !important;
@@ -137,7 +138,7 @@
     border-radius: 20px;
   }
   
-  .newBestBudgetslidercontainer .bestBudgetslickDots li :before {
+  .newBestSellingSlidercontainer .bestSellingSlickDots li :before {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -164,11 +165,11 @@
     width: 96%;
     /* border: none; */
   }
-  .newBestBudgetheadingcontainer {
+  .newBestSellingheadingcontainer {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: whitesmoke !important;
+    background-color: #3380f2 !important;
     height: 80px;
     margin: auto;
     /* margin-top: 2%; */
@@ -253,7 +254,7 @@
     color: #3380f2;
     /* padding-top: 1%; */
   }
-  .newBestBudgetslidercontainer {
+  .newBestSellingSlidercontainer {
     /* border: 2px solid red; */
     width: 90%;
     margin: auto;
@@ -408,7 +409,7 @@
     .activityaroundheading1 {
       display: none;
     }
-    .newBestBudgetheadingcontainer {
+    .newBestSellingheadingcontainer {
       flex-direction: column;
     }
     .experimentheading2 {
@@ -465,7 +466,7 @@
       font-size: 16px;
       margin-left: 3%;
     }
-    .newBestBudgetheadingcontainer {
+    .newBestSellingheadingcontainer {
       flex-direction: column;
     }
     .activityaroundimagetextcontainer img {
@@ -481,7 +482,7 @@
     }
   }
   
-  .newBestBudgetmaindiv {
+  .newBestSellingmaindiv {
     /* border: 1px solid red; */
     width: 100%;
   }
@@ -495,7 +496,7 @@
     width: 96%;
     /* border: none; */
   }
-  .newBestBudgetheadingcontainer {
+  .newBestSellingheadingcontainer {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -582,7 +583,7 @@
     color: #3380f2;
     padding-top: 1%;
   }
-  .newBestBudgetslidercontainer {
+  .newBestSellingSlidercontainer {
     /* border: 2px solid red; */
     width: 90%;
     margin: auto;
@@ -739,7 +740,7 @@
     .activityaroundheading1 {
       display: none;
     }
-    .newBestBudgetheadingcontainer {
+    .newBestSellingheadingcontainer {
       flex-direction: column;
     }
     .experimentheading2 {
@@ -796,7 +797,7 @@
       font-size: 16px;
       margin-left: 3%;
     }
-    .newBestBudgetheadingcontainer {
+    .newBestSellingheadingcontainer {
       flex-direction: column;
     }
     .activityaroundimagetextcontainer img {
@@ -865,7 +866,7 @@
     justify-content: space-between;
     margin-top: 30px;
   }
-  .cardtextBestBudget_maindiv {
+  .cardtextBestSelling_maindiv {
     /* border: 2px solid red; */
     border: 2px solid lightgray;
     width: 18.5%;
@@ -881,7 +882,7 @@
     border-radius: 10px;
     /* margin-top: 15%; */
   }
-  .cardtextBestBudget_maindiv:hover {
+  .cardtextBestSelling_maindiv:hover {
     transform: scale(1.01);
     cursor: pointer;
     height: 355px;
@@ -907,13 +908,13 @@
   
     z-index: 10;
   }
-  .cardtextBestBudget_maindiv > img {
+  .cardtextBestSelling_maindiv > img {
     width: 100%;
     height: 350px;
     border-radius: 10px 10px 0px 0px;
     z-index: 0;
   }
-  .cardBestBudget_title {
+  .cardBestSelling_title {
     /* border: 1px solid red; */
     color: white;
     width: 90%;
@@ -932,7 +933,7 @@
     margin-left: 2%;
   }
   
-  .newBestBudgetratesdiv {
+  .newBestSellingRatesdiv {
     /* border: 1px solid #3380f2; */
     width: 100%;
     /* background-color: #3380f2; */
@@ -942,7 +943,7 @@
     border-radius: 7px;
   }
   
-  .newBestBudgetratesdiv p {
+  .newBestSellingRatesdiv p {
     color: white;
     font-weight: 500;
     font-size: 15px;
@@ -1014,7 +1015,7 @@
   /* ----------------- New button css ----------------  */
 
 
-  .newHolidaysBestBudgetDropContainer {
+  .newHolidaysBestSellingDropContainer {
     width: 10%;
     margin-left: 51%;
     margin-top: 2.1%;
@@ -1025,12 +1026,12 @@
     border-radius: 25px;
     /* border: 2px solid green; */
   }
-  .newHolidaysBestBudgetDropContainer:hover .newBestBudgeticondiv{
+  .newHolidaysBestSellingDropContainer:hover .newBestSellingIcondiv{
     background-color:white;
     color: #3380F2;
     cursor: pointer;
   }
-  .newHolidaysBestBudgetCountryDrop {
+  .newHolidaysBestSellingCountryDrop {
     /* border: 3px solid red !important; */
     background-color: #3380F2 !important;
     width: 80% !important;
@@ -1046,18 +1047,18 @@
     padding-top: 5% !important;
     border: none !important;
   }
-  .newHolidaysBestBudgetDropContainer select{
+  .newHolidaysBestSellingDropContainer select{
     /* border: 1px solid red !important; */
     background-image: none !important;
   }
   
-  /* .newHolidaysBestBudgetCountryDrop:hover {
+  /* .newHolidaysBestSellingCountryDrop:hover {
     background-color: white !important;
     color: #3380F2 !important;
     font-weight: 700;
     border: 3px solid #3380F2 !important;
   } */
-  .newBestBudgeticondiv{
+  .newBestSellingIcondiv{
     width: 20%;
     color: white;
     /* border: 3px solid #3380F2; */
@@ -1070,7 +1071,7 @@
     margin-top: 0% !important;
     /* border: 2px solid yellow; */
   }
-  .newBestBudgeticon{
+  .newBestSellingIcon{
     margin-left: -37%;
     /* width: 100% !important; */
     color: #3380F2;
