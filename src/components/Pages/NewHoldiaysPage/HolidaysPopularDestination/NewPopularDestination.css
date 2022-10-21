@@ -9,6 +9,7 @@
   
   .newPopularDestinationsContainer{
     background-color: #3380f2 !important;
+    /* border: 2px solid red !important; */
   }
   /* .newPopularDestinationsmainheading{
     display: flex;
@@ -235,6 +236,8 @@
     padding: 0;
     text-align: center;
     color: white;
+    font-size: 22px;
+    font-weight: 700;
   }
   
   .newPopularDestinationsdetails h2 .job-title {

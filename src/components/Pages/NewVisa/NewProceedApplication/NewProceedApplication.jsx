@@ -86,19 +86,19 @@ export const NewProceedApplication = () => {
                     <div className="details_NewApplication_card">
                         <div className="newApplicationbottomcontainer">
                             <h1>{year}</h1>
-                            <h5>Years</h5>
+                            <h5 style={{marginTop:"-5%"}}>Years</h5>
                         </div>
                         <div className="newApplicationbottomcontainer1">
                             <h2>{branch}</h2>
-                            <h5>Globally Branches</h5>
+                            <h5 style={{marginTop:"-5%"}}>Globally Branches</h5>
                         </div>
                         <div className="newApplicationbottomcontainer2">
                             <h1>{countclients}</h1>
-                            <h5>Clients</h5>
+                            <h5 style={{marginTop:"-5%"}}>Clients</h5>
                         </div>
                         <div className="newApplicationbottomcontainer3">
                             <h1>{count}</h1>
-                            <h5>Visa Processes</h5>
+                            <h5 style={{marginTop:"-5%"}}>Visa Processes</h5>
                         </div>
                     </div>
                 </div>

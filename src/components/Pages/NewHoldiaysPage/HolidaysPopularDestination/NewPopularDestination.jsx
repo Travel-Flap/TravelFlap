@@ -149,10 +149,13 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/abudhabhi.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                                    other for same
-                                                </p> */}
-                                                {/* <Button variant="primary">Explore</Button> */}
+                                            <h2>Abu Dhabi <span className="newhomeEasyVisajob-title">
+                                                <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                                <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                                <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                                </span>
+                                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                                </h2>
                                             </div>
                                         </div>
 
@@ -168,10 +171,13 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/africa1.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                                    other for same
-                                                </p> */}
-                                                {/* <Button variant="primary">Explore</Button> */}
+                                            <h2>Epupa Falls <span className="newhomeEasyVisajob-title">
+                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            </span>
+                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                            </h2>
                                             </div>
                                         </div>
                                         <div className='newhomeTopCitiesBottomTexts'>
@@ -186,10 +192,13 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/america.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                                    other for same.
-                                                </p> */}
-                                                {/* <Button variant="primary">Explore</Button> */}
+                                            <h2>Las Vegas <span className="newhomeEasyVisajob-title">
+                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            </span>
+                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                            </h2>
                                             </div>
                                         </div>
                                         <div className='newhomeTopCitiesBottomTexts'>
@@ -204,10 +213,13 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/australia.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                                    other for same.
-                                                </p> */}
-                                                {/* <Button variant="primary">Explore</Button> */}
+                                            <h2>Sydney <span className="newhomeEasyVisajob-title">
+                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            </span>
+                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                            </h2>
                                             </div>
                                         </div>
                                         <div className='newhomeTopCitiesBottomTexts'>
@@ -222,10 +234,13 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/canada.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                                    other for same.
-                                                </p> */}
-                                                {/* <Button variant="primary">Explore</Button> */}
+                                            <h2>Toronto <span className="newhomeEasyVisajob-title">
+                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            </span>
+                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                            </h2>
                                             </div>
                                         </div>
                                         <div className='newhomeTopCitiesBottomTexts'>
@@ -240,10 +255,13 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/landon.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                                    other for same.
-                                                </p> */}
-                                                {/* <Button variant="primary">Explore</Button> */}
+                                            <h2>London <span className="newhomeEasyVisajob-title">
+                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            </span>
+                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                            </h2>
                                             </div>
                                         </div>
                                         <div className='newhomeTopCitiesBottomTexts'>
@@ -258,10 +276,13 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/denmark.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                                    other for same.
-                                                </p> */}
-                                                {/* <Button variant="primary">Explore</Button> */}
+                                            <h2>Aarhus <span className="newhomeEasyVisajob-title">
+                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            </span>
+                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                            </h2>
                                             </div>
                                         </div>
 
@@ -277,10 +298,13 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/zambiaafrica.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                                    other for same.
-                                                </p> */}
-                                                {/* <Button variant="primary">Explore</Button> */}
+                                            <h2>Zambia <span className="newhomeEasyVisajob-title">
+                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            </span>
+                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                            </h2>
                                             </div>
                                         </div>
 
@@ -296,10 +320,13 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/swedan.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                                    other for same.
-                                                </p> */}
-                                                {/* <Button variant="primary">Explore</Button> */}
+                                            <h2>Stockholm <span className="newhomeEasyVisajob-title">
+                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            </span>
+                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                            </h2>
                                             </div>
                                         </div>
 

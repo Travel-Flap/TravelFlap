@@ -42,7 +42,9 @@ export default class TrendingCruise extends Component {
                             </div>
                             <div className="newWorldTrendingCruisedetails">
                                 <h2> Greece Cruise <span className="job-title">
-                                    <p>Explore the endless beauty of Greece on a cruise to the Greek Islands</p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -56,8 +58,9 @@ export default class TrendingCruise extends Component {
                             </div>
                             <div className="newWorldTrendingCruisedetails">
                                 <h2>The Caribbean <span className="job-title">
-                                    <p>Enjoy two different cultures on the Eastern Caribbean island of St. Maarten.
-                                    </p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -71,8 +74,9 @@ export default class TrendingCruise extends Component {
                             </div>
                             <div className="newWorldTrendingCruisedetails">
                                 <h2>Mexican Riviera <span className="job-title">
-                                    <p>For many, the Mexican Riviera is a highlight of the Pacific coast.
-                                    </p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -86,8 +90,9 @@ export default class TrendingCruise extends Component {
                             </div>
                             <div className="newWorldTrendingCruisedetails">
                                 <h2>Panama Canal <span className="job-title">
-                                    <p>Admire a masterpiece of engineering during a cruise to the Panama Canal. Get a front-row seat to see the incredible design.
-                                    </p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -101,8 +106,9 @@ export default class TrendingCruise extends Component {
                             </div>
                             <div className="newWorldTrendingCruisedetails">
                                 <h2>Western Europe <span className="job-title">
-                                    <p>Discover the highlights of Western Europe on a cruise along the Mediterranean’s northern coastline and Portugal’s Atlantic ports
-                                    </p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -116,8 +122,9 @@ export default class TrendingCruise extends Component {
                             </div>
                             <div className="newWorldTrendingCruisedetails">
                                 <h2>Southern Japan <span className="job-title">
-                                    <p>In Tokyo, marvel at the fascinating combination of modern design and technology with ancient architecture and tradition.
-                                    </p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>

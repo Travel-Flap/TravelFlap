@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.582612cb.css",
-    "main.js": "/static/js/main.ffc771ca.js",
+    "main.css": "/static/css/main.93a9143a.css",
+    "main.js": "/static/js/main.6e3838d6.js",
     "static/js/787.7886e5ff.chunk.js": "/static/js/787.7886e5ff.chunk.js",
     "static/media/UAE4.jpg": "/static/media/UAE4.7d17172021074cd0aa62.jpg",
     "static/media/NewHomeBanner.gif": "/static/media/NewHomeBanner.c6c45c16f081ded45159.gif",
@@ -17,18 +17,29 @@
     "static/media/HotelServicesBackground.png": "/static/media/HotelServicesBackground.835d9c2c3abb84c5aef3.png",
     "static/media/reviewbg.png": "/static/media/reviewbg.32b72a62a1cf68f62eea.png",
     "static/media/frontsideImage.jpeg": "/static/media/frontsideImage.c884d203696944ede3d7.jpeg",
+    "static/media/island.png": "/static/media/island.95c9e3f869097aa036b3.png",
+    "static/media/cabin.png": "/static/media/cabin.6d751febc677f8e36181.png",
+    "static/media/Farmhouse.png": "/static/media/Farmhouse.0b0a368a06a29371f7dc.png",
+    "static/media/Amazingppl.png": "/static/media/Amazingppl.b311b12414f3d6e7b888.png",
+    "static/media/Earthhomes.png": "/static/media/Earthhomes.d0b3c89edfcbfa6f7db4.png",
+    "static/media/cave.png": "/static/media/cave.7b132a0050024172f771.png",
     "static/media/backsideImage.jpeg": "/static/media/backsideImage.b173c60d5a675c14fb61.jpeg",
+    "static/media/lakefront.png": "/static/media/lakefront.4af75c07958ed54f9411.png",
+    "static/media/nationalpark.png": "/static/media/nationalpark.15bba0da2265d667c087.png",
+    "static/media/breakfast.png": "/static/media/breakfast.506be0a1f41373952ff4.png",
+    "static/media/arctic.png": "/static/media/arctic.f45e7d7bfd08770eb966.png",
+    "static/media/Countryside.png": "/static/media/Countryside.8f55a1d95e9d98d098a4.png",
     "index.html": "/index.html",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.582612cb.css.map": "/static/css/main.582612cb.css.map",
-    "main.ffc771ca.js.map": "/static/js/main.ffc771ca.js.map",
+    "main.93a9143a.css.map": "/static/css/main.93a9143a.css.map",
+    "main.6e3838d6.js.map": "/static/js/main.6e3838d6.js.map",
     "787.7886e5ff.chunk.js.map": "/static/js/787.7886e5ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.582612cb.css",
-    "static/js/main.ffc771ca.js"
+    "static/css/main.93a9143a.css",
+    "static/js/main.6e3838d6.js"
   ]
 }

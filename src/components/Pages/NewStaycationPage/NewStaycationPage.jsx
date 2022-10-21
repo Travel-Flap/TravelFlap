@@ -12,6 +12,7 @@ import { NewHomeBottomBar } from "../NewHomePage/NewHomeBottomBar/NewHomeBottomB
 import { NewStaycationMostPicked } from "./NewStaycationMostPicked/NewStaycationMostPicked";
 import { NewStaycationpicsSlider } from "./NewStaycationpicsSlider/NewStaycationpicsSlider";
 import { NewStaycationNavbar } from "./NewStaycationNavbar/NewStaycationNavbar";
+import { Staycationsnavbar } from "./Staycationsnavbar/Staycationsnavbar";
 
 export const NewStaycationPage = () => {
    
@@ -19,7 +20,8 @@ export const NewStaycationPage = () => {
         <>
            <ExperimentBanner/>
 
-            <NewStaycationNavbar/>
+            <Staycationsnavbar/>
+            {/* <NewStaycationNavbar/> */}
             <NewStaycationpicsSlider/>
             <NewStaycationMostPicked/>
 

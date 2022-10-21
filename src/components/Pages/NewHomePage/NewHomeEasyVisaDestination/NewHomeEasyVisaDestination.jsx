@@ -52,20 +52,20 @@ export const NewHomeEasyVisaDestination = () => {
                     </select>
                 </div> */}
 
-                <div className='newHomeEasyvisaDropContainer'>
-                    <select className="form-select newHomeEasyvisaCountryDrop" onChange={(e) => handlecounty(e)}
-                        style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
-                        <option value="" style={{ textAlign: "center" }}>Country</option>
-                        {
-                            countrydata.map((getcountry, index) => (
-                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                            ))
-                        }
-                    </select>
-                    <div className='newEasyvisaicondiv'>
-                        <FaAngleRight style={{ fontSize: "15px" }} size={"1em"} className="Easyvisaicon" />
+                   <div className='newHomeEasyvisaDropContainer'>
+                        <select className="form-select newHomeEasyvisaCountryDrop" onChange={(e) => handlecounty(e)}
+                            style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
+                            <option value="" style={{ textAlign: "center" }}>Country</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                        <div className='newEasyvisaicondiv'>
+                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="Easyvisaicon" />
+                        </div>
                     </div>
-                </div>
             </div>
 
             <div className='newhomeEasyVisaSlideroutercontainer'>
@@ -75,7 +75,7 @@ export const NewHomeEasyVisaDestination = () => {
                         // dots={true}
                         // dotsclassName={"slick-dots line-indicator"}
                         infinite={true}
-                        // autoplay={true}
+                        autoplay={true}
                         speed={2000}
                         autoplayspeed={2000}
                         slidesToShow={5}
@@ -133,13 +133,12 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/bolivia.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Bolivia <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
-                                        {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p> */}
-
+                                    <h2>Bolivia <span className="newhomeEasyVisajob-title">
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -151,12 +150,12 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/dubai.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Dubai <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
-                                        {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p> */}
+                                    <h2>Dubai <span className="newhomeEasyVisajob-title">
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -168,12 +167,11 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/fiji islands.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Fiji islands <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
-                                        {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p> */}
-                                    </span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                    <h2>Fiji islands <span className="newhomeEasyVisajob-title">
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -185,12 +183,11 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/jordan.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Jordan <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
-                                        {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p> */}
-                                    </span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                    <h2>Jordan <span className="newhomeEasyVisajob-title">
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -202,12 +199,11 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/Kenya.jpg " />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Kenya <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
-                                        {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p> */}
-                                    </span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                    <h2>Kenya <span className="newhomeEasyVisajob-title">
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -219,12 +215,11 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/TravelStories/river.jpg " />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>ladakh <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
-                                        {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p> */}
-                                    </span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                    <h2>ladakh <span className="newhomeEasyVisajob-title">
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -236,12 +231,11 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/madgascar.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Madgascar <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
-                                        {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p> */}
-                                    </span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                    <h2>Madgascar <span className="newhomeEasyVisajob-title">
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -253,23 +247,17 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/Seychelles.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Seychelles <span className="newhomeEasyVisajob-title">"Get your visa with TravelFlap Now!"
-                                        {/* <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p> */}
-                                    </span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                    <h2>Seychelles <span className="newhomeEasyVisajob-title">
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
                         </div>
                     </Slider>
                 </div>
-
-                {/* <div className='newhomeEasyVisaSlidercontentdiv'>
-                        <h2>This is the random div for the content of the page</h2>
-                    </div> */}
-
             </div>
 
         </div>

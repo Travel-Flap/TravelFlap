@@ -35,7 +35,7 @@
     /* border: 2px solid #3380f2; */
     margin: auto;
     /* margin-top: 2.5%; */
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     /* opacity: 0.9; */
 }
 
@@ -48,7 +48,7 @@
     border-radius: 20px 20px 0px 0px;
     padding-top: 1%;
     text-align: center;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     /* margin-top:  %; */
     /* margin-left: 30%; */
     /* opacity: 0.9; */
@@ -87,24 +87,28 @@
 
 .newApplicationbottomcontainer{
     /* border: 1px solid red; */
+    padding-top: 12px;
     background-color: #3380f2;
     color: whitesmoke;
 }
 
 .newApplicationbottomcontainer1{
     /* border: 1px solid red; */
+    padding-top: 18px;
     background-color: #3380f2;
     color: whitesmoke;
 }
 
 .newApplicationbottomcontainer2{
     /* border: 1px solid red; */
+    padding-top: 12px;
     background-color: #3380f2;
     color: whitesmoke;
 }
 
 .newApplicationbottomcontainer3{
     /* border: 1px solid red; */
+    padding-top: 12px;
     background-color: #3380f2;
     color: whitesmoke;
 }

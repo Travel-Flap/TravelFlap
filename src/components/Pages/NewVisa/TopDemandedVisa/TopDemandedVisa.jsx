@@ -165,7 +165,7 @@ export const TopDemandedVisa = () => {
                 <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/IndiaVisa.jpg" />
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
-                <h2>Indian Visa <span className="job-title">"Best Holiday trip Ever"
+                <h2>Indian Visa <span className="job-title">AED 3000
                   {/* <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
                   </p> */}
@@ -183,7 +183,7 @@ export const TopDemandedVisa = () => {
                 <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/SingaporeVisa.jpg" />
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
-                <h2>Singapore Visa <span className="job-title">"Best Holiday trip Ever"
+                <h2>Singapore Visa <span className="job-title">AED 3000
                   {/* <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
                   </p> */}
@@ -201,7 +201,7 @@ export const TopDemandedVisa = () => {
                 <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/SouthAfricaVisa.jpg" />
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
-                <h2>South Africa Visa <span className="job-title">"Best Holiday trip Ever"
+                <h2>South Africa Visa <span className="job-title">AED 3000
                   {/* <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
                   </p> */}
@@ -219,7 +219,7 @@ export const TopDemandedVisa = () => {
                 <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/TurkeyVisa.jpg" />
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
-                <h2>Turkey Visa <span className="job-title">"Best Holiday trip Ever"
+                <h2>Turkey Visa <span className="job-title">AED 3000
                   {/* <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
                   </p> */}
@@ -237,7 +237,7 @@ export const TopDemandedVisa = () => {
                 <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/UAEVisa.jpg" />
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
-                <h2>UAE Visa <span className="job-title">"Best Holiday trip Ever"
+                <h2>UAE Visa <span className="job-title">AED 3000
                   {/* <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
                   </p> */}
@@ -255,7 +255,7 @@ export const TopDemandedVisa = () => {
                 <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/UnitesStatesVisa.jpg" />
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
-                <h2>United States Visa <span className="job-title">"Best Holiday trip Ever"
+                <h2>United States Visa <span className="job-title">AED 3000
                   {/* <p>I love the experience with the travel Flap. I surely recommend it
                     other for same
                   </p> */}
@@ -381,4 +381,3 @@ export const TopDemandedVisa = () => {
     </div>
   );
 };
-

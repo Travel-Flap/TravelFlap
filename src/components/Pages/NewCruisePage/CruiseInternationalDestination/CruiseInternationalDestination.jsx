@@ -43,7 +43,9 @@ export default class CruiseInternationalDestination extends Component {
                             </div>
                             <div className="newWorldInternationalCruisedetails">
                                 <h2> Galapagos Islands <span className="job-title">
-                                    <p>Join an expedition to the Galapagos Islands, where you can swim with sea lions,</p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -57,8 +59,9 @@ export default class CruiseInternationalDestination extends Component {
                             </div>
                             <div className="newWorldInternationalCruisedetails">
                                 <h2>Iceland <span className="job-title">
-                                    <p>Iceland is an incredible cruise destination for nature lovers. You’ll get the chance to see cascading waterfalls.
-                                        </p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -72,8 +75,9 @@ export default class CruiseInternationalDestination extends Component {
                             </div>
                             <div className="newWorldInternationalCruisedetails">
                                 <h2>Alaska <span className="job-title">
-                                    <p>Thanks to its majestic wildlife, wild terrain, and breathtaking glaciers, Alaska is arguably one of the best cruise destinations in the world.
-                                        </p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -87,8 +91,9 @@ export default class CruiseInternationalDestination extends Component {
                             </div>
                             <div className="newWorldInternationalCruisedetails">
                                 <h2>The Great Barrier Reef <span className="job-title">
-                                    <p>The Great Barrier Reef is the world’s largest reef system, lying beneath the Coral Sea along Australia’s northeast coast
-                                        </p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -102,8 +107,9 @@ export default class CruiseInternationalDestination extends Component {
                             </div>
                             <div className="newWorldInternationalCruisedetails">
                                 <h2>Western Europe <span className="job-title">
-                                    <p>Discover the highlights of Western Europe on a cruise along the Mediterranean’s northern coastline and Portugal’s Atlantic ports
-                                    </p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -117,8 +123,9 @@ export default class CruiseInternationalDestination extends Component {
                             </div>
                             <div className="newWorldInternationalCruisedetails">
                                 <h2>Southern Japan <span className="job-title">
-                                    <p>In Tokyo, marvel at the fascinating combination of modern design and technology with ancient architecture and tradition.
-                                    </p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>

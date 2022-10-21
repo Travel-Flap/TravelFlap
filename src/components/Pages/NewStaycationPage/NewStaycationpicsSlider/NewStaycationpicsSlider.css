@@ -109,6 +109,9 @@
 .NewStaycationpicsSliderheadingsboldheadings{
     font-weight: 700;
     font-size: 35px;
+    margin: auto;
+    margin-top: 8%;
+    font-style: italic;
     /* margin-left: 5%; */
 }
 .NewStaycationpicsSliderdealssliderdata{

@@ -21,12 +21,10 @@ export const NewStaycationpicsSlider = () => {
 
                 <div className="NewStaycationpicsSliderdealsconatinerdiv" >
                     <div className="NewStaycationpicsSliderdealsimageheading">
-                        {/* <img className="NewStaycationpicsSliderdealsimagebackside" src={backsideImage} /> */}
                         <img className="NewStaycationpicsSliderdealsimagefrontside" src={staycation1} />
-                        {/* <div className="NewStaycationpicsSliderdealsheadings">
-                            <p className="NewStaycationpicsSliderheadingsboldheadings">NewStaycationpicsSlider <br /> Deals</p>
-                            <p>Most Visited and Used</p>
-                        </div> */}
+                        <div className="NewStaycationpicsSliderdealsheadings">
+                            <p className="NewStaycationpicsSliderheadingsboldheadings"> Planning a staycation? Contact TravelFlap !!!! </p>
+                        </div>
                     </div>
 
                     <div className="NewStaycationpicsSliderdealssliderdata">

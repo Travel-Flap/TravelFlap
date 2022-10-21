@@ -41,7 +41,9 @@ export default class DomesticCruise extends Component {
                             </div>
                             <div className="newWorldDomesticCruisedetails">
                                 <h2> The Golden Triangle Cruise <span className="job-title">
-                                    <p>planning a luxuriously royal 12-night cruise vacation in India is one that cannot be missed.</p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -55,8 +57,9 @@ export default class DomesticCruise extends Component {
                             </div>
                             <div className="newWorldDomesticCruisedetails">
                                 <h2>Kochi Cruise <span className="job-title">
-                                    <p>Head to Kochi – the most popular beach cruise destination in India.
-                                    </p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -70,8 +73,9 @@ export default class DomesticCruise extends Component {
                             </div>
                             <div className="newWorldDomesticCruisedetails">
                                 <h2>Brahmaputra River Cruise <span className="job-title">
-                                    <p>Embark on a cruise on the mighty Brahmaputra River for one of the most incredible river journeys and discover the enchanting countryside
-                                        </p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -85,7 +89,9 @@ export default class DomesticCruise extends Component {
                             </div>
                             <div className="newWorldDomesticCruisedetails">
                                 <h2>Kerala Backwater Cruise <span className="job-title">
-                                    <p>It goes without saying that the backwaters of Kerala are a popular cruise destination in India</p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -99,8 +105,9 @@ export default class DomesticCruise extends Component {
                             </div>
                             <div className="newWorldDomesticCruisedetails">
                                 <h2>Ganges River Cruise <span className="job-title">
-                                    <p>Take a cruise tour in India in the holy waters of the river Ganges between Kolkata and Farakka for a historically scenic splendor.
-                                    </p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
@@ -114,8 +121,9 @@ export default class DomesticCruise extends Component {
                             </div>
                             <div className="newWorldDomesticCruisedetails">
                                 <h2>Dibru Saikhowa River Cruise <span className="job-title">
-                                    <p>Home to some of the rare and endemic species of India like the White-winged wood duck
-                                     </p></span>
+                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
                             </div>
