@@ -94,13 +94,13 @@ export const NewVisaBannerForm = () => {
                             <Link to='/contact' className='moreOptions'><FaPhoneAlt className='contactIcon' /> ContactUs</Link>
                         </div>
                         <div className='moreOptions '>
-                            <Link to='/mice' className='moreOptions'><GiPalmTree className='miceIcon' />  Mice </Link>
+                            <Link to='/mice' className='moreOptions'><GiPalmTree className='miceIcon' />  Safe Stay </Link>
                         </div>
                         <div className='moreOptions'>
                             <Link to='/offers' className='moreOptions'>   <FaTags className='offersIcon' /> Offers </Link>
                         </div>
                         <div className='moreOptions'>
-                            <Link to='/inspire' className='moreOptions'> <FaShip className='inspireIcon' /> Inspire </Link>
+                            <Link to='/inspire' className='moreOptions'> <FaShip className='inspireIcon' /> Top Deals </Link>
                         </div>
                     </div>
 
@@ -128,7 +128,7 @@ export const NewVisaBannerForm = () => {
                             </div>
 
                             <div className='singleNewVisaBannerdropcontainer1'>
-                                <p>Select Nationality</p>
+                                <p>Select City</p>
                                 <select className="form-select newVisaform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%" }}>
                                     <option value="" >Select City</option>
                                     {
@@ -140,7 +140,7 @@ export const NewVisaBannerForm = () => {
                             </div>
 
                             <div className='singleNewVisaBannerdropcontainer2'>
-                                <p>Select Country at Living</p>
+                                <p>Select Visa Category</p>
                                 <select className="form-select newVisaLivingdrop" aria-label="Default select example" style={{ marginLeft: "0%", width: "100%" }}>
                                     <option value>Category</option>
                                     <option value="1">Family</option>

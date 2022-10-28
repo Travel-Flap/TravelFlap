@@ -71,13 +71,13 @@
                                 <Link to='/contact' className='moreOptions'><FaPhoneAlt className='contactIcon' /> ContactUs</Link>
                             </div>
                             <div className='moreOptions'>
-                                <Link to='/mice' className='moreOptions'><GiPalmTree className='miceIcon' />  Mice </Link>
+                                <Link to='/mice' className='moreOptions'><GiPalmTree className='miceIcon' />  Safe Stay </Link>
                             </div>
                             <div className='moreOptions'>
                                 <Link to='/offers' className='moreOptions'>   <FaTags className='offersIcon' /> Offers </Link>
                             </div>
                             <div className='moreOptions'>
-                                <Link to='/inspire' className='moreOptions'> <FaShip className='inspireIcon' /> Inspire </Link>
+                                <Link to='/inspire' className='moreOptions'> <FaShip className='inspireIcon' /> Top Deals </Link>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                         <div className='newHotelInputContainer'>
                             <h5>Enter Destination</h5>
                             <div className='newHotelNameInput'>
-                                <BsSearch className='newHotelInputicon' />
+                                <BsSearch className='newHotelInputicon'/>
                                 <div className='newHotelInputNameContainer'>
                                     <input type="text" placeholder='Search destination,Hotels' />
                                 </div>
@@ -103,7 +103,8 @@
                         </div>
     
                         <div className='newHotelCheckout_DateContainer'>
-                            <h5>Checkin Date</h5>
+                            <h5>
+                                Checkout Date</h5>
                             <input type="datetime-local" placeholder='Check-Out Date' />
                         </div>
     

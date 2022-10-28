@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button } from 'react-bootstrap';
 import { MdLocationCity } from "react-icons/md";
-import {FaAngleRight} from "react-icons/fa";
+import {FaAngleDown} from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
 
 
@@ -109,7 +109,7 @@ export const NewPopularDestination = () => {
                                         ))
                                     }
                                 </select>
-                                <FaAngleRight style={{ fontSize: "15px" }} className="newPopularDestinationsicon" />
+                                <FaAngleDown style={{ fontSize: "15px" }} className="newPopularDestinationsicon" />
                             </div> */}
 
                    <div className='newPopularDestinationsDropContainer'>
@@ -123,7 +123,7 @@ export const NewPopularDestination = () => {
                             }
                         </select>
                         <div className='newPopularDestinationsicondiv'>
-                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="newPopularDestinationsicon" />
+                        <FaAngleDown style={{fontSize:"15px"}} size={"1em"} className="newPopularDestinationsicon" />
                         </div>
                     </div>
 

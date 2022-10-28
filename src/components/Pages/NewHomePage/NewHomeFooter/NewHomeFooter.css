@@ -85,11 +85,11 @@
 
 .newFooterCountryDrop {
   /* border: 3px solid red !important; */
-  background-color: #dddddd78 !important;
+  background-color: white !important;
   width: 65% !important;
   height: 35px !important;
   margin-bottom: 3%;
-  color:white !important;
+  color:#3380F2 !important;
   font-weight: 400 !important;
   font-size: 15px !important;
   cursor: pointer;
@@ -108,10 +108,10 @@
  }
  
  .newFooterCountryDrop:hover {
-   background-color: white !important;
-   color: #3380F2 !important;
+   background-color: #3380F2 !important;
+   color: white !important;
    font-weight: 700;
-   /* border: 3px solid #3380F2; */
+   border: 3px solid white !important;
  }
 
 
@@ -161,10 +161,10 @@
   cursor: pointer;
 }
 
-.newHomeblogsimagecontentdiv:hover {
+/* .newHomeblogsimagecontentdiv:hover {
   background-color: blue;
   color: #3380f2 !important;
-}
+} */
 
 .newHomeBlogimagediv img {
   margin-top: 7%;
@@ -345,8 +345,8 @@
 
 .gatewayImage1{
   /* border: 1px solid red; */
-  height: 45px;
-  width: 120px;
+  height: 35px;
+  width: 90px;
   background-color: white;
   margin-left: 3%;
   border-radius: 9px;
@@ -354,15 +354,15 @@
 
 .gatewayImage1 img{
   object-fit: cover;
-  height: 45px;
-  width: 70px;
-  margin-left: 20%;
+  height: 35px;
+  width: 90px;
+  margin-left: 3%;
   /* width: 60px; */
 }
 .gatewayImage2{
   /* border: 1px solid red; */
-  height: 45px;
-  width: 120px;
+  height: 35px;
+  width: 90px;
   background-color: white;
   margin-left: 3%;
   border-radius: 9px;
@@ -371,16 +371,16 @@
 
 .gatewayImage2 img{
   object-fit: cover;
-  height: 45px;
-  width: 70px;
-  margin-left: 20%;
+  height: 27px;
+  width: 73px;
+  margin-left:10%;
   /* margin-top: 4%; */
   /* width: 60px; */
 }
 .gatewayImage3{
    /* border: 1px solid red; */
-  height: 45px;
-  width: 120px;
+   height: 35px;
+   width: 90px;
   background-color: white;
   margin-left: 3%;
   border-radius: 9px;
@@ -388,9 +388,9 @@
 
 .gatewayImage3 img{
   object-fit: cover;
-  height: 45px;
-  width: 70px;
-  margin-left: 20%;
+  height: 32px;
+    width: 80px;
+    margin-left: 2%;
   /* width: 60px; */
 }
 

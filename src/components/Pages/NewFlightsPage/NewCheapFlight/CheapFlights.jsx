@@ -41,7 +41,7 @@ export const CheapFlights = () => {
                                 <option value="Bermuda">Bermuda</option>
                                 <option value="Bhutan">Bhutan</option>
                                 <option value="Bolivia">Bolivia</option>
-                                <option value="Bonaire, Sint Eustatius and Saba">Bonaire, Sint Eustatius and Saba</option>
+                                {/* <option value="Bonaire, Sint Eustatius and Saba">Bonaire, Sint Eustatius and Saba</option> */}
                                 <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
                                 <option value="Botswana">Botswana</option>
                                 <option value="Bouvet Island">Bouvet Island</option>
@@ -65,7 +65,7 @@ export const CheapFlights = () => {
                                 <option value="Colombia">Colombia</option>
                                 <option value="Comoros">Comoros</option>
                                 <option value="Congo">Congo</option>
-                                <option value="Congo, Democratic Republic of the Congo">Congo, Democratic Republic of the Congo</option>
+                                {/* <option value="Congo, Democratic Republic of the Congo">Congo, Democratic Republic of the Congo</option> */}
                                 <option value="Cook Islands">Cook Islands</option>
                                 <option value="Costa Rica">Costa Rica</option>
                                 <option value="Cote D'Ivoire">Cote D'Ivoire</option>
@@ -131,12 +131,12 @@ export const CheapFlights = () => {
                                 <option value="Kazakhstan">Kazakhstan</option>
                                 <option value="Kenya">Kenya</option>
                                 <option value="Kiribati">Kiribati</option>
-                                <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
+                                {/* <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option> */}
                                 <option value="Korea, Republic of">Korea, Republic of</option>
                                 <option value="Kosovo">Kosovo</option>
                                 <option value="Kuwait">Kuwait</option>
                                 <option value="Kyrgyzstan">Kyrgyzstan</option>
-                                <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+                                {/* <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option> */}
                                 <option value="Latvia">Latvia</option>
                                 <option value="Lebanon">Lebanon</option>
                                 <option value="Lesotho">Lesotho</option>
@@ -146,7 +146,7 @@ export const CheapFlights = () => {
                                 <option value="Lithuania">Lithuania</option>
                                 <option value="Luxembourg">Luxembourg</option>
                                 <option value="Macao">Macao</option>
-                                <option value="Macedonia, the Former Yugoslav Republic of">Macedonia, the Former Yugoslav Republic of</option>
+                                {/* <option value="Macedonia, the Former Yugoslav Republic of">Macedonia, the Former Yugoslav Republic of</option> */}
                                 <option value="Madagascar">Madagascar</option>
                                 <option value="Malawi">Malawi</option>
                                 <option value="Malaysia">Malaysia</option>
@@ -185,7 +185,7 @@ export const CheapFlights = () => {
                                 <option value="Oman">Oman</option>
                                 <option value="Pakistan">Pakistan</option>
                                 <option value="Palau">Palau</option>
-                                <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+                                {/* <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option> */}
                                 <option value="Panama">Panama</option>
                                 <option value="Papua New Guinea">Papua New Guinea</option>
                                 <option value="Paraguay">Paraguay</option>
@@ -223,7 +223,7 @@ export const CheapFlights = () => {
                                 <option value="Solomon Islands">Solomon Islands</option>
                                 <option value="Somalia">Somalia</option>
                                 <option value="South Africa">South Africa</option>
-                                <option value="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option>
+                                {/* <option value="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option> */}
                                 <option value="South Sudan">South Sudan</option>
                                 <option value="Spain">Spain</option>
                                 <option value="Sri Lanka">Sri Lanka</option>
@@ -253,7 +253,7 @@ export const CheapFlights = () => {
                                 <option value="United Arab Emirates">United Arab Emirates</option>
                                 <option value="United Kingdom">United Kingdom</option>
                                 <option value="United States">United States</option>
-                                <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                                {/* <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option> */}
                                 <option value="Uruguay">Uruguay</option>
                                 <option value="Uzbekistan">Uzbekistan</option>
                                 <option value="Vanuatu">Vanuatu</option>
@@ -274,7 +274,7 @@ export const CheapFlights = () => {
 
                         <div className="cheapflightselectdiv1">
                             <select class="cheapflightsselect1">
-                                <option value>International</option>
+                                <option value>International   </option>
                                 <option value="domestic">Domestic</option>
                             </select>
                             <div className='cheapflightsicondiv'>

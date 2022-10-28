@@ -100,6 +100,7 @@ export const NewProceedApplication = () => {
                             <h1>{count}</h1>
                             <h5 style={{marginTop:"-5%"}}>Visa Processes</h5>
                         </div>
+                        <div className="processApplicationimage"></div>
                     </div>
                 </div>
             </div>

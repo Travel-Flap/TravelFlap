@@ -69,13 +69,13 @@ export const ExperimentBannerForm = () => {
                             <Link to='/contact' className='moreOptions'><FaPhoneAlt className='contactIcon' /> ContactUs</Link>
                         </div>
                         <div className='moreOptions '>
-                            <Link to='/mice' className='moreOptions'><GiPalmTree className='miceIcon' />  Mice </Link>
+                            <Link to='/mice' className='moreOptions'><GiPalmTree className='miceIcon' />  Safe Stay </Link>
                         </div>
                         <div className='moreOptions'>
                             <Link to='/offers' className='moreOptions'>   <FaTags className='offersIcon' /> Offers </Link>
                         </div>
                         <div className='moreOptions'>
-                            <Link to='/inspire' className='moreOptions'> <FaShip className='inspireIcon' /> Inspire </Link>
+                            <Link to='/inspire' className='moreOptions'> <FaShip className='inspireIcon' /> Top Deals </Link>
                         </div>
                     </div>
 

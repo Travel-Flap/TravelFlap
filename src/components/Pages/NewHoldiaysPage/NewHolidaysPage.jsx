@@ -13,6 +13,7 @@ import { NewHolidaysBestSelling } from './HolidaysBestSelling/NewBestSelling';
 import { NewPopularDestination } from './HolidaysPopularDestination/NewPopularDestination';
 import { NewHolidaysPageBanner } from './NewHolidaysPageBanner/NewHolidaysPageBanner';
 import { HolidaysThemeFilter } from './NewHolidaysThemeFilter/HolidaysThemeFilter';
+import { NewHomeStoriesSection } from "../../Pages/NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection";
 
 export const NewHolidaysPage = () => {
   return (
@@ -46,7 +47,7 @@ export const NewHolidaysPage = () => {
       {/* <NewHomeAwards/> */}
 
       <Plan />
-
+      <NewHomeStoriesSection/>
       <FooterLinks />
 
       <NewHomeFooter />

@@ -166,7 +166,7 @@ export const NewHomeFooter = () => {
 
                             </div>
 
-                            <div className="newHomeFooterContactContent">
+                            {/* <div className="newHomeFooterContactContent">
                                 <div className="newHomeFooterContactContentInner1">
                                     <IconContext.Provider value={{ color: "white", className: "contecticonsnewHomeFootercall" }}><FiPhoneCall /></IconContext.Provider>
                                 </div>
@@ -174,11 +174,20 @@ export const NewHomeFooter = () => {
                                     <p>Mobile India : +918209366227,
                                         <span className="newHomeFooterContactContentInner2span"> +917877680588 <BsWhatsapp/></span>
                                     </p>
-                                    <p className="">Mobile USA : +19176726964 <BsWhatsapp/></p>
-                                    {/* <p className="">Mobile USA : +19176726964 <BsWhatsapp style={{ fontSize: "26px", color: "white" }} /></p> */}
+                                    <p className="">Mobile USA : +19176726964<BsWhatsapp/></p>
                                     <p>Mobile DXB : +971 58 597 8776 <BsWhatsapp /></p>
                                 </div>
+                            </div> */}
 
+                            <div className="newHomeFooterContactContent">
+                                <div className="newHomeFooterContactContentInner1">
+                                    <IconContext.Provider value={{ color: "white", className: "contecticonsnewHomeFootercall" }}><BsWhatsapp/></IconContext.Provider>
+                                </div>
+                                <div className = "newHomeFooterContactContentInner2">
+                                    <p className="">Mobile USA : +19176726964 </p>
+                            
+                                    <p className="">Mobile DXB : +971 58 597 8776 </p>
+                                </div>
                             </div>
 
                             <div className="newHomeFooterContactContent">

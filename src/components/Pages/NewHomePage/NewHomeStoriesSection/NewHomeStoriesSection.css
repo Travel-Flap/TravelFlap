@@ -1,6 +1,6 @@
 .storiesSection {
     width: 99.3%;
-    height: 730px;
+    height: 480px;
     background-image: url("./reviewbg.png");
     /* border: 2px solid red; */
     background-color: #3380f2;
@@ -36,6 +36,15 @@
     top: 25px;
     left: 25px;
     font-size: 15px;
+    color: white;
+    opacity: 1;
+    z-index: 1;
+  }
+  .testText{
+    position: absolute;
+    top: 55%;
+    left: 25px;
+    font-size: 10px;
     color: white;
     opacity: 1;
     z-index: 1;

@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import "./FavouriteHotelGlobe.css";
 import countrydata from '../../../../CountryData.json';
 import { Button } from "react-bootstrap";
-import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+import { FaAngleLeft, FaAngleDown } from 'react-icons/fa';
 import { BsFillChatLeftFill, BsFillStarFill, BsStarHalf } from "react-icons/bs";
 // import { CountryDropHotel } from "./CountryDropHotel";
 
@@ -61,7 +61,7 @@ export const FavouriteHotelGlobe = () => {
                             }
                         </select>
                         <div className='newFavHotelsicondiv'>
-                            <FaAngleRight style={{ fontSize: "15px" }} size={"1em"} className="favHotelsicon" />
+                            <FaAngleDown style={{ fontSize: "15px" }} size={"1em"} className="favHotelsicon" />
                         </div>
                     </div>
 
@@ -85,7 +85,7 @@ export const FavouriteHotelGlobe = () => {
                                 <FaAngleLeft size={"2.5em"}
                                     onClick={() => sliderRef.current.slickPrev()}
                                 />
-                                <FaAngleRight size={"2.5em"}
+                                <FaAngleDown size={"2.5em"}
                                     onClick={() => sliderRef.current.slickNext()}
                                 />
                             </div>

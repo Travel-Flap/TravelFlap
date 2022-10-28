@@ -17,7 +17,7 @@ export const FlightsNearYou = () => {
     return (
         <div className="newFlightsNearYoumaindiv">
             {/* <h1>Ipl</h1> */}
-            <div className="newFlightsNearYouHeadingcontainer" >
+            <div className="newFlightsNearYouHeadingcontainer">
                 <h2 className="newFlightNeearYouHeading1">Flights Near You</h2>
                 {/* <div className="internationalheading2">
                     <div className="internationalheading">Asia</div>
@@ -218,7 +218,6 @@ export const FlightsNearYou = () => {
                                         <div className="newFlightNearContentImagediv">
                                             <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouContentImage3.jpg" />
                                         </div>
-
                                         <div className="newFlightNearContentDatediv">
                                             <h5>Fri, 4 Nov</h5>
                                             <p>DEL-DAD with VietJet Airlines.</p>

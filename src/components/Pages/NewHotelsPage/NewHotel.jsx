@@ -15,6 +15,7 @@ import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopul
 import { FavouriteHotelGlobe } from './FavouriteHotelGlobe/FavouriteHotelGlobe';
 import { NewHotelCaruosel } from './HotelsBanner/NewHotelBanner';
 import { WhyChooseUs } from './WhyChooseUs/WhyChooseUs';
+import { NewHomeStoriesSection } from "../../Pages/NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection";
 
 export const NewHotel = () => {
     return (
@@ -45,6 +46,8 @@ export const NewHotel = () => {
             <div className='hotelawardsdiv'>
                 <NewHomeAwards />
             </div>
+
+            <NewHomeStoriesSection/>
 
             <Plan />
             <FooterLinks />

@@ -53,7 +53,7 @@ export const HolidaysThemeFilter = () => {
           <div class="holidaysOfferImageCard card text-bg-dark">
             <img src="Images/NewHomeLayout/Holidays/HolidaysOfferImage.jpg" class="card-img" alt="Holidays Offer Image" />
               <div class="card-img-overlay holidayFilterHeading">
-                <h5 class="card-title">Holiday Offers</h5>
+                <h5 class="card-title">International Holiday Offers</h5>
                 {/* <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <p class="card-text"><small>Last updated 3 mins ago</small></p> */}
               </div>
@@ -64,7 +64,7 @@ export const HolidaysThemeFilter = () => {
           <div class="holidayThemeImageCard card text-bg-dark">
             <img src="Images/NewHomeLayout/Holidays/HolidaysThemeImage.jpg" class="card-img" alt="Holidays Theme Image" />
               <div class="card-img-overlay holidayFilterHeading1">
-                <h5 class="card-title">Holiday Themes</h5>
+                <h5 class="card-title"> Domestic Holiday offers</h5>
                 {/* <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 <p class="card-text"><small>Last updated 3 mins ago</small></p> */}
               </div>

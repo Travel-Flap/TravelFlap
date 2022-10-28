@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button } from 'react-bootstrap';
 import './PopularCarHireDestinaton.css';
-import { FaAngleRight } from "react-icons/fa";
+import { FaAngleDown } from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
 // import "/src/App.css";
 
@@ -63,7 +63,7 @@ export const NewPopularCarHireDestination = () => {
                         }
                     </select>
                     <div className='newRentalsCarHireicondiv'>
-                        <FaAngleRight style={{ fontSize: "15px" }} size={"1em"} className="newCarHireicon" />
+                        <FaAngleDown style={{ fontSize: "15px" }} size={"1em"} className="newCarHireicon" />
                     </div>
                 </div>
             </div>

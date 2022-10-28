@@ -33,7 +33,7 @@
     height: 270px;
     border-radius: 20px;
     /* border: 2px solid #3380f2; */
-    margin: auto;
+    /* margin: auto; */
     /* margin-top: 2.5%; */
     /* background-color: whitesmoke; */
     /* opacity: 0.9; */
@@ -47,10 +47,10 @@
     margin-bottom: 3%;
     border-radius: 20px 20px 0px 0px;
     padding-top: 1%;
-    text-align: center;
+    text-align: left;
     /* background-color: whitesmoke; */
     /* margin-top:  %; */
-    /* margin-left: 30%; */
+    margin-left: 2%;
     /* opacity: 0.9; */
     font-weight: 700 !important;
     /* border: 2px solid #3380F2; */
@@ -60,13 +60,14 @@
     font-weight: 600 !important;
     /* border: 1px solid red; */
     font-size: 32px;
+    margin-left: 2% !important;
 }
 .details_NewApplication_card{
     display: flex;
     height: 100px;
     display: flex;
     /* border: 1px solid red; */
-    justify-content: space-around;
+    /* justify-content: space-around; */
     color: #3380f2;
 }
 .details_NewApplication_card h1{
@@ -80,7 +81,7 @@
 }
 .details_NewApplication_card>div{
     height:100% ;
-    width: 15%;
+    /* width: 15%; */
     /* border: 2px solid red; */
     text-align: center;
 }
@@ -88,29 +89,50 @@
 .newApplicationbottomcontainer{
     /* border: 1px solid red; */
     padding-top: 12px;
-    background-color: #3380f2;
-    color: whitesmoke;
+    /* background-color: #3380f2; */
+    color: #3380F2;
+    width: 15%;
 }
 
 .newApplicationbottomcontainer1{
     /* border: 1px solid red; */
     padding-top: 18px;
-    background-color: #3380f2;
-    color: whitesmoke;
+    width: 16% !important;
+    text-align: center;
+   /* background-color: #3380f2; */
+   color: #3380F2;
+   margin-left: 3%;
+   border-left: 1px solid #3380F2;
+   /* border-right: 1px solid #3380F2; */
 }
 
 .newApplicationbottomcontainer2{
     /* border: 1px solid red; */
     padding-top: 12px;
-    background-color: #3380f2;
-    color: whitesmoke;
+   /* background-color: #3380f2; */
+    color: #3380F2;
+    margin-left: 3%;
+    width: 18%;
+    border-left: 1px solid #3380F2;
+   border-right: 1px solid #3380F2;
 }
 
 .newApplicationbottomcontainer3{
     /* border: 1px solid red; */
     padding-top: 12px;
-    background-color: #3380f2;
-    color: whitesmoke;
+    width: 15%;
+    /* background-color: #3380f2; */
+    color: #3380F2;
+    margin-left: 3%;
+}
+.processApplicationimage{
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 276px !important;
+    margin-top: -10%;
+    background-image: url("./worldImage.png");
+    background-size: cover;
+    object-fit: cover;
 }
 
 

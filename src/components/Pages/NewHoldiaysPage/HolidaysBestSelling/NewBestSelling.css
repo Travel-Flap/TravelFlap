@@ -968,10 +968,16 @@
   .hoteldiscountpercent {
     border: 2px solid white;
     border-radius: 5px;
-    color: white;
-    font-size: 12px;
+    color: #3380F2;
+    font-size: 13px;
+    font-weight: 700;
     padding-left: 5px;
     padding-right: 5px;
+    background-color: white;
+  }
+  .hoteldiscountpercent:hover{
+    background-color: #3380F2;
+    color: white;
   }
   .hotelPricebeforediscount {
     text-decoration: line-through;
@@ -1026,20 +1032,20 @@
     border-radius: 25px;
     /* border: 2px solid green; */
   }
-  .newHolidaysBestSellingDropContainer:hover .newBestSellingIcondiv{
+  /* .newHolidaysBestSellingDropContainer:hover .newBestSellingIcondiv{
     background-color:white;
     color: #3380F2;
     cursor: pointer;
-  }
+  } */
   .newHolidaysBestSellingCountryDrop {
     /* border: 3px solid red !important; */
     background-color: #3380F2 !important;
     width: 80% !important;
-    height: 39px !important;
+    height: 44px !important;
     color:white !important;
     font-weight: 700 !important;
     font-size: 17px !important;
-    margin-top: 0% !important;
+    margin-top: -1.7% !important;
     cursor: pointer;
     border-radius: 25px 0px 0px 25px !important;
     border-right: none !important;
@@ -1062,25 +1068,26 @@
     width: 20%;
     color: white;
     /* border: 3px solid #3380F2; */
-    background-color: #3380F2;
-    height: 39px;
+    background-color: white;
+    height: 48.5px;
     /* font-size: 18px !important; */
     border-radius: 0px 25px 25px 0px;
     padding-right: 5%;
     border-left: none;
-    margin-top: 0% !important;
+    margin-top: -3% !important;
     /* border: 2px solid yellow; */
   }
   .newBestSellingIcon{
     margin-left: -37%;
     /* width: 100% !important; */
-    color: #3380F2;
+    color: white;
     border: 3px solid #3380F2;
-    background-color: white;
+    background-color: #3380F2;
     height: 25px;
     width: 25px;
     font-size: 18px !important;
     border-radius: 100%;
-    margin-top: 25% !important;
+    margin-top: 41% !important;
+    padding-top: 2px;
     /* margin-bottom: 105%;*/
   }

@@ -4,7 +4,9 @@ import "./NewHomePopularDestination.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FaAngleRight } from "react-icons/fa";
+import MagicSliderDots from 'react-magic-slider-dots';
+import 'react-magic-slider-dots/dist/magic-dots.css';
+import { FaAngleDown } from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
 
 export const CenterMode = () => {
@@ -36,7 +38,6 @@ export const CenterMode = () => {
     const settings = {
         dots: true,
         infinite: true,
-
         speed: 2000,
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -45,7 +46,10 @@ export const CenterMode = () => {
         cssEase: "linear",
         centerMode: true,
         arrows: false,
-        beforeChange: (current, next) => setSlideindex(next)
+        beforeChange: (current, next) => setSlideindex(next),
+        appendDots: dots => {
+            return <MagicSliderDots dots={dots} numDotsToShow={4} dotWidth={30} />;
+          }
     };
 
     const slides = [
@@ -63,9 +67,9 @@ export const CenterMode = () => {
         <>
             <div className="popularDestinationsheadingdiv">
                 <p>Popular Destinations</p>
-                <div className='newHomePopularDestinationDropContainer'>
-                    <select className="form-select newPopularDestinationCountryDrop" onChange={(e) => handlecounty(e)}
-                        style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
+                {/* <div className='newHomePopularDestinationDropContainer'> */}
+                    <select className="form-select newHomePopularDestinationDropContainer" onChange={(e) => handlecounty(e)}
+                        style={{ border: "3px solid #3380f2", width: "60%"}}>
                         <option value="" style={{ textAlign: "center" }}>Country</option>
                         {
                             countrydata.map((getcountry, index) => (
@@ -73,10 +77,10 @@ export const CenterMode = () => {
                             ))
                         }
                     </select>
-                    <div className='populardestinationsicondiv'>
-                        <FaAngleRight style={{ fontSize: "15px" }} size={"1em"} className="populardestinationsicon" />
-                    </div>
-                </div>
+                    {/* <div className='populardestinationsicondiv'>
+                        <FaAngleDown style={{ fontSize: "15px" }} size={"1em"} className="populardestinationsicon" />
+                    </div> */}
+                {/* </div> */}
             </div>
             <div className="mainCarouselDiv">
                 <div className="sliderDiv">
