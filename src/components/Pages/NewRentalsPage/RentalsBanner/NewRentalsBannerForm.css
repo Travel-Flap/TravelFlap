@@ -260,14 +260,14 @@
     padding-bottom: 8%;
   }
   
-  .newFlightHomeGuestIcon{
+  /* .newFlightHomeGuestIcon{ */
     /* border: 1px solid red; */
-    font-size: 24px;
+    /* font-size: 24px; */
     /* margin-left: 15% !important; */
-    margin-top: 5% !important;
-    background-color: white !important;
+    /* margin-top: 5% !important; */
+    /* background-color: white !important; */
     /* background-color: #8DBBFF; */
-  }
+  /* } */
   
   .newRentals_SearchButton{
     /* border: 1px solid blue; */

@@ -50,20 +50,19 @@ export const FavouriteHotelGlobe = () => {
                     <h2>Favourite Hotel Around Globe</h2>
 
 
-                    <div className='newFavHotelsDropContainer'>
-                        <select className="form-select newFavHotelsCountryDrop" onChange={(e) => handlecounty(e)}
-                            style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
-                            <option value="" style={{ textAlign: "center" }}>Country</option>
-                            {
-                                countrydata.map((getcountry, index) => (
-                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                ))
-                            }
-                        </select>
-                        <div className='newFavHotelsicondiv'>
+                    {/* <div className='newFavHotelsDropContainer'> */}
+                    <select className="newFavHotelsDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
+                        <option style={{textAlign:"Left"}}>Country</option>
+                        {
+                            countrydata.map((getcountry, index) => (
+                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                            ))
+                        }
+                    </select>
+                        {/* <div className='newFavHotelsicondiv'>
                             <FaAngleDown style={{ fontSize: "15px" }} size={"1em"} className="favHotelsicon" />
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* <div className='newFavHotelsDropContainer'>
                         <select className="form-select newFavHotelsCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"

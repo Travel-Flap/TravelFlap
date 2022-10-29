@@ -10,45 +10,49 @@
   display: flex;
   flex-direction: row;
 }
+
 .newHomePopularDestinationDropContainer {
-  width: 8% !important;
-  margin-left: 59%;
-  margin-top: 1%;
+  width: 9% !important;
+  margin-left: 58.5%;
+  margin-top: 2.1%;
   display: flex;
   flex-direction: row;
   border-right: none;
-  font-size: 700;
   height: 39px;
   border-radius: 25px;
-  padding-top: 5px;
-  color: white;
-  border: 2px solid green;
-  background-color: #3380f2;
-  /* background-color: red; */
+  background-color: #3380F2 !important;
+  display: flex;
+  align-items: center;
+  color: white !important;
+  font-weight: 700;
+  justify-content: space-between;
+  border: 2px solid #3380F2;
+  outline: none;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 10PX;
 }
-.newHomePopularDestinationDropContainer:after{
+/* .newHomePopularDestinationDropContainer:after{
   color: white;
-}
+} */
 /* .newHomePopularDestinationDropContainer:hover .populardestinationsicondiv {
   background-color: white;
   color: #3380f2;
   cursor: pointer;
 } */
-.newPopularDestinationCountryDrop {
-  /* border: 3px solid red !important; */
-  /* background-color: #3380f2 !important; */
-  width: 100% !important;
+/* .newPopularDestinationCountryDrop {
+  width: 80% !important;
   height: 39px !important;
   color: #3380f2 !important;
   font-weight: 700 !important;
-  font-size: 17px !important;
+  font-size: 14px !important;
   cursor: pointer;
-  border-radius: 25px 25px 25px 25px !important;
+  border-radius: 25px 0px 0px 25px !important;
   border-right: none !important;
   appearance: none !important;
   padding-top: 2.5% !important;
   border: none;
-}
+} */
 /* .newHomePopularDestinationDropContainer select {
   background-image: none !important;
 } */

@@ -52,7 +52,7 @@ export const NewPopularCarHireDestination = () => {
                     </select>
                 </div> */}
 
-                <div className='newRentalsPopularCarHireDropContainer'>
+                {/* <div className='newRentalsPopularCarHireDropContainer'>
                     <select className="form-select newRentalsPopularCarHireCountryDrop" onChange={(e) => handlecounty(e)}
                         style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
                         <option value="" style={{ textAlign: "center" }}>Country</option>
@@ -65,7 +65,16 @@ export const NewPopularCarHireDestination = () => {
                     <div className='newRentalsCarHireicondiv'>
                         <FaAngleDown style={{ fontSize: "15px" }} size={"1em"} className="newCarHireicon" />
                     </div>
-                </div>
+                </div> */}
+
+                    <select className="newRentalsPopularCarHireDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
+                        <option style={{textAlign:"Left"}}>Country</option>
+                        {
+                            countrydata.map((getcountry, index) => (
+                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                            ))
+                        }
+                    </select>
             </div>
 
             <div className='newRentalsCarHireSlideroutercontainer'>

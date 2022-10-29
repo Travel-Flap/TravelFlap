@@ -51,7 +51,7 @@
   }
 
   .newFlightsNearYouAllDeals h5{
-    /* border: 1px solid #3380f2; */
+    border: 1px solid white;
     color: white;
     margin-top: 12%;
     margin-left: 15%;
@@ -62,7 +62,7 @@
     padding-top: 6px;
     border-radius: 15px;
     cursor: pointer;
-    text-decoration: underline;
+    /* text-decoration: underline; */
   }
 
   .newFlightsNearYouAllDeals h5:hover{

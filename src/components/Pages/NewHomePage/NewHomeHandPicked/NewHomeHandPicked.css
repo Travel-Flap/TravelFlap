@@ -355,7 +355,7 @@ img {
 /* ----------------- New button css ----------------  */
 
 .newHomehandpickedDropContainer {
-  width: 8% !important;
+  width: 9% !important;
   margin-left: 48.5%;
   margin-top: 2.1%;
   display: flex;
@@ -366,9 +366,12 @@ img {
   background-color: #3380F2 !important;
   display: flex;
   align-items: center;
-  color: white;
+  color: white !important;
+  font-weight: 700;
   justify-content: space-between;
-  border: 2px solid green;
+  border: 2px solid #3380F2;
+  outline: none;
+  padding-left: 15px;
 }
 /* .newHomehandpickedDropContainer:hover .newHomehandpickedicondiv{
   background-color:#3380F2;

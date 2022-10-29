@@ -40,7 +40,7 @@ export const NewHolidaysPage = () => {
 
 
 
-      <NewHomeEasyVisaDestination />
+      {/* <NewHomeEasyVisaDestination /> */}
 
       <NewHomeAppDownload />
 

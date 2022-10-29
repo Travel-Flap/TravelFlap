@@ -54,7 +54,7 @@
 .newFlightsDestinationInputContainer p{
   /* border: 1px solid maroon; */
   height: 10px;
-  margin-left: 2%;
+  margin-left: 5%;
   font-family: Arial, Helvetica, sans-serif !important;
   color: #818090;
   font-size: 15px;
@@ -83,13 +83,14 @@
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   color: #212529;
   /* background-color: #8DBBFF; */
-  width: 95%;
+  width: 92%;
   height: 40px;
   display: flex;
   padding-left: 5px;
   padding-top: 5px;
   /* border-radius: 5px; */
   flex-direction: row;
+  margin-left: 5%;
 }
 .newFlightsNameInput1{
   border: 1px solid #dddddd75 !important;   
@@ -222,7 +223,7 @@
   /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   flex-direction: row;
-  width: 100%;
+  width: 90%;
   margin-top: -5% !important;
   /* color: #3380f2; */
   color: black;
@@ -275,9 +276,9 @@
   /* border: 1px solid red; */
   font-size: 24px;
   margin-left: 15% !important;
-  margin-top: 3% !important;
+  margin-top: 2% !important;
+  margin-left: 7% !important;
   background-color: white !important;
-  /* background-color: #8DBBFF; */
 }
 
 .newFlight_SearchButton{
@@ -286,10 +287,10 @@
 }
 
 .newFlight_SearchButton button{
-  margin-top: 18%;
+  margin-top: 16%;
   width: 90%;
   height: 45px;
-  margin-left: 7%;
+  margin-left: -2%;
   padding-left: 25%;
   padding-top: 7%;
 }

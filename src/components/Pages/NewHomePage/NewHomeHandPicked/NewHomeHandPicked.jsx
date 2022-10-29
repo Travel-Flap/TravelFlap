@@ -72,10 +72,9 @@ export const NewHomeHandPicked = () => {
                         <FaAngleDown style={{fontSize:"15px"}} size={"1em"} className="handpickedicon" />
                         </div>
                     </div> */}
-
-                   <select className="form-select newHomehandpickedDropContainer" onChange={(e) => handlecounty(e)}
-                        style={{ border: "3px solid #3380f2", width: "60%"}}>
-                        <option value="" style={{ textAlign: "center" }}>Country</option>
+                
+                   <select className="newHomehandpickedDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
+                        <option style={{textAlign:"Left"}}>Country</option>
                         {
                             countrydata.map((getcountry, index) => (
                                 <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>

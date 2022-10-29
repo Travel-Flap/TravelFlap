@@ -112,7 +112,7 @@ export const NewPopularDestination = () => {
                                 <FaAngleDown style={{ fontSize: "15px" }} className="newPopularDestinationsicon" />
                             </div> */}
 
-                   <div className='newPopularDestinationsDropContainer'>
+                   {/* <div className='newPopularDestinationsDropContainer'>
                         <select className="form-select newPopularDestinationsCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ border: "3px solid #3380f2", width: "60%",appearance:"none", fontSize:"15px" }}>
                             <option value="" style={{ textAlign: "center" }}>Country</option>
@@ -125,7 +125,16 @@ export const NewPopularDestination = () => {
                         <div className='newPopularDestinationsicondiv'>
                         <FaAngleDown style={{fontSize:"15px"}} size={"1em"} className="newPopularDestinationsicon" />
                         </div>
-                    </div>
+                    </div> */}
+
+                    <select className="newPopularDestinationsDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
+                        <option style={{textAlign:"Left"}}>Country</option>
+                        {
+                            countrydata.map((getcountry, index) => (
+                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                            ))
+                        }
+                    </select>
 
                         </div>
 

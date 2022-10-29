@@ -231,15 +231,23 @@
 /* ----------------- New button css ----------------  */
 
 .newRentalsPopularCarHireDropContainer {
-  width: 10%;
-  margin-left: 58%;
+  width: 9% !important;
+  margin-left:59%;
   margin-top: 2.1%;
   display: flex;
   flex-direction: row;
   border-right: none;
   height: 39px;
   border-radius: 25px;
-  /* border: 2px solid green; */
+  background-color: white !important;
+  display: flex;
+  align-items: center;
+  color: #3380F2 !important;
+  font-weight: 700;
+  justify-content: space-between;
+  border: 2px solid #3380F2;
+  outline: none;
+  padding-left: 15px;
 }
 /* .newRentalsPopularCarHireDropContainer:hover .newRentalsCarHireicondiv{
     background-color:white;

@@ -1022,15 +1022,23 @@
 
 
   .newHolidaysBestSellingDropContainer {
-    width: 10%;
-    margin-left: 51%;
+    width: 9% !important;
+    margin-left:53%;
     margin-top: 2.1%;
     display: flex;
     flex-direction: row;
     border-right: none;
-    height:39px;
+    height: 39px;
     border-radius: 25px;
-    /* border: 2px solid green; */
+    background-color: white !important;
+    display: flex;
+    align-items: center;
+    color: #3380F2 !important;
+    font-weight: 700;
+    justify-content: space-between;
+    border: 2px solid #3380F2;
+    outline: none;
+    padding-left: 15px;
   }
   /* .newHolidaysBestSellingDropContainer:hover .newBestSellingIcondiv{
     background-color:white;
