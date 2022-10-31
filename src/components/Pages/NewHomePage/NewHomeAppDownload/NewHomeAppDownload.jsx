@@ -84,13 +84,17 @@ export const NewHomeAppDownload = () => {
                                         </div> :
                                         <div className="newhomecountryselectdivouter">
                                             <div className='newhomevectorimage'>
+<<<<<<< HEAD
                                                 <img width="90% !important" height="55%" src={Vector} />
+=======
+                                                <img width="100% !important" height="80%" src={Vector} />
+>>>>>>> 5ec4e97b4f5317241ef790c093009013818de078
                                             </div>
                                             <div className='newhomecountryselectdiv'>
                                                 <select
                                                     value={selectedCountry}
                                                     onChange={(e) => setSelectedCountry(e.target.value)}
-                                                    className="newhomecountryselect" style={{ width: "100% " }}
+                                                    className="newhomecountryselect" style={{ outline:"none",width: "100% " }}
                                                 >
                                                     <option>--Select Country--</option>
                                                     {countries.map((item) => {

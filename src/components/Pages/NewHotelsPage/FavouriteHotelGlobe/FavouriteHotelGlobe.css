@@ -872,7 +872,7 @@
   /* position: absolute; */
   color: #3380f2;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 97%;
   height: 90px;
   margin-top: 3%;
