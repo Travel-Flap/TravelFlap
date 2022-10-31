@@ -34,7 +34,7 @@
   margin-top: 12%;
   /* padding-top: 10%; */
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
 }
 .newhomesearchbox{
   width: 94%;
@@ -61,7 +61,7 @@
   width: 30%;
   height: 45%;
   margin: 5%;
-  margin-left: 17%;
+  margin-left: 20%;
   /* margin-top: -5%; */
 }
 .googlePlayimage{
@@ -74,6 +74,7 @@
 .newhomebarcode{
   width: 30%;
   height: auto;
+  text-align: center;
   /* border: 2px solid green; */
   display: flex;
   flex-direction: column;

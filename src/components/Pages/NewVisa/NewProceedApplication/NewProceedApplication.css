@@ -61,6 +61,7 @@
     /* border: 1px solid red; */
     font-size: 32px;
     margin-left: 2% !important;
+    color: #3380f2;
 }
 .details_NewApplication_card{
     display: flex;

@@ -142,13 +142,12 @@ export const NewPopularCarHireDestination = () => {
                                     <img src="Images/EasyVisaDestinations/bolivia.jpg" />
                                 </div>
                                 <div className="newRentalsCarHirestorydetails">
-                                    <h2>Bolivia <span className="newRentalsCarHirejob-title">"Get your visa with TravelFlap Now!"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p>
-
+                                    <h2>Bolivia <span>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -160,12 +159,12 @@ export const NewPopularCarHireDestination = () => {
                                     <img src="Images/EasyVisaDestinations/dubai.jpg" />
                                 </div>
                                 <div className="newRentalsCarHirestorydetails">
-                                    <h2>Dubai <span className="newRentalsCarHirejob-title">"Get your visa with TravelFlap Now!"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p>
+                                    <h2>Dubai <span>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -177,11 +176,12 @@ export const NewPopularCarHireDestination = () => {
                                     <img src="Images/EasyVisaDestinations/fiji islands.jpg" />
                                 </div>
                                 <div className="newRentalsCarHirestorydetails">
-                                    <h2>Fiji islands <span className="newRentalsCarHirejob-title">"Get your visa with TravelFlap Now!"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p></span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                    <h2>Fiji <span>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                    </span>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -193,11 +193,12 @@ export const NewPopularCarHireDestination = () => {
                                     <img src="Images/EasyVisaDestinations/jordan.jpg" />
                                 </div>
                                 <div className="newRentalsCarHirestorydetails">
-                                    <h2>Jordan <span className="newRentalsCarHirejob-title">"Get your visa with TravelFlap Now!"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p></span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                    <h2>Jordan <span>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                    </span>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -209,11 +210,12 @@ export const NewPopularCarHireDestination = () => {
                                     <img src="Images/EasyVisaDestinations/Kenya.jpg " />
                                 </div>
                                 <div className="newRentalsCarHirestorydetails">
-                                    <h2>Kenya <span className="newRentalsCarHirejob-title">"Get your visa with TravelFlap Now!"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p></span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                    <h2>Kenya <span>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                    </span>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -225,11 +227,12 @@ export const NewPopularCarHireDestination = () => {
                                     <img src="Images/TravelStories/river.jpg " />
                                 </div>
                                 <div className="newRentalsCarHirestorydetails">
-                                    <h2>ladakh <span className="newRentalsCarHirejob-title">"Get your visa with TravelFlap Now!"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p></span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                    <h2>Ladakh <span>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                    </span>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -241,11 +244,12 @@ export const NewPopularCarHireDestination = () => {
                                     <img src="Images/EasyVisaDestinations/madgascar.jpg" />
                                 </div>
                                 <div className="newRentalsCarHirestorydetails">
-                                    <h2>Madgascar <span className="newRentalsCarHirejob-title">"Get your visa with TravelFlap Now!"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p></span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                    <h2>Madagaskar <span>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                    </span>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>
@@ -257,11 +261,12 @@ export const NewPopularCarHireDestination = () => {
                                     <img src="Images/EasyVisaDestinations/Seychelles.jpg" />
                                 </div>
                                 <div className="newRentalsCarHirestorydetails">
-                                    <h2>Seychelles <span className="newRentalsCarHirejob-title">"Get your visa with TravelFlap Now!"
-                                        <p>I love the experience with the travel Flap. I surely recommend it
-                                            other for same
-                                        </p></span>
-                                        <Button variant="primary" style={{ marginLeft: "30%" }} >Read More</Button>
+                                    <h2>Seychelles <span>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                    </span>
+                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>

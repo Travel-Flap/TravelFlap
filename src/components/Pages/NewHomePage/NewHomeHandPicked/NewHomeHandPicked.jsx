@@ -90,7 +90,7 @@ export const NewHomeHandPicked = () => {
 
                         <Slider
                             arrows={false}
-                            autoplay={false}
+                            autoplay={true}
                             speed={2000}
                             autoplaySpeed={2000}
                             dots={true}

@@ -84,7 +84,7 @@ export const NewHomeAppDownload = () => {
                                         </div> :
                                         <div className="newhomecountryselectdivouter">
                                             <div className='newhomevectorimage'>
-                                                <img width="100% !important" height="55%" src={Vector} />
+                                                <img width="90% !important" height="55%" src={Vector} />
                                             </div>
                                             <div className='newhomecountryselectdiv'>
                                                 <select

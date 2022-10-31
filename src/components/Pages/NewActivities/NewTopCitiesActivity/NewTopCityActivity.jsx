@@ -32,8 +32,8 @@ export default class NewTopCityActivities extends Component {
                             <div className="newTopCityActivitydetails">
                                 <h2>Boating <span className="job-title">
                                     {/* "Under The Iguazu Falls." */}
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
@@ -49,8 +49,8 @@ export default class NewTopCityActivities extends Component {
                             <div className="newTopCityActivitydetails">
                                 <h2>Swimming <span className="job-title">
                                     {/* "Through the Mexico's Cenotes" */}
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
@@ -66,8 +66,8 @@ export default class NewTopCityActivities extends Component {
                             <div className="newTopCityActivitydetails">
                                 <h2>Amazon river <span className="job-title">
                                     {/* "River side Viewing." */}
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
@@ -83,8 +83,8 @@ export default class NewTopCityActivities extends Component {
                             <div className="newTopCityActivitydetails">
                                 <h2>Surfing <span className="job-title">
                                     {/* "Best Surf experience in the pipeline of the Oahu." */}
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
@@ -100,8 +100,8 @@ export default class NewTopCityActivities extends Component {
                             <div className="newTopCityActivitydetails">
                                 <h2>Zip Line <span className="job-title">
                                     {/* "Ziplining along the Niagar Falls." */}
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>
@@ -117,8 +117,8 @@ export default class NewTopCityActivities extends Component {
                             <div className="newTopCityActivitydetails">
                                 <h2>New Zealand <span className="job-title">
                                     {/* "Bungee Jump over the  Kawaru River." */}
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                    <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                 </h2>

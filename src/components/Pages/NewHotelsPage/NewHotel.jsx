@@ -11,11 +11,12 @@ import { NewHomeExclusiveDeals } from '../NewHomePage/NewHomeExclusiveDeals/NewH
 import { NewHomeFooter } from '../NewHomePage/NewHomeFooter/NewHomeFooter';
 import { NewHomeHandPicked } from '../NewHomePage/NewHomeHandPicked/NewHomeHandPicked';
 import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar'
-import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDestination';
+// import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDestination';
 import { FavouriteHotelGlobe } from './FavouriteHotelGlobe/FavouriteHotelGlobe';
 import { NewHotelCaruosel } from './HotelsBanner/NewHotelBanner';
 import { WhyChooseUs } from './WhyChooseUs/WhyChooseUs';
 import { NewHomeStoriesSection } from "../../Pages/NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection";
+import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDetination/NewHomePopularDestination';
 
 export const NewHotel = () => {
     return (
@@ -34,8 +35,9 @@ export const NewHotel = () => {
                 <NewHomeHandPicked/>
             </div>
 
-            <CenterMode/>
+            {/* <CenterMode/> */}
 
+            <CenterMode/>
 
             <div className='carousel'>
                 <FavouriteHotelGlobe/>

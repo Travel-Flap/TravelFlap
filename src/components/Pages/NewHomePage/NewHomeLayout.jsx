@@ -11,7 +11,6 @@ import { NewHomeExclusiveDeals } from './NewHomeExclusiveDeals/NewHomeExclusiveD
 import { NewHomeFooter } from './NewHomeFooter/NewHomeFooter';
 import { NewHomeHandPicked } from './NewHomeHandPicked/NewHomeHandPicked';
 import NewHomeOurPartners from './NewHomeOurPartners/NewHomeOurPartners';
-import { CenterMode, NewHomePopularDestinations } from './NewHomePopularDetination/NewHomePopularDestination';
 import { NewHomeStoriesSection } from './NewHomeStoriesSection/NewHomeStoriesSection';
 import { NewHomeTopCitites } from './NewHomeTopCitites/NewHomeTopCitites';
 import { NewHomeTourDeals } from './NewHomeTourDeal/NewHomeTourDeal';
@@ -19,6 +18,7 @@ import { Plan } from '../../NextHolidaysPlan/Plan';
 import { FooterLinks } from '../../FooterLinks/FooterLinks';
 import { NewHomeFooterLinks } from './NewHomeFooterLinks/NewHomeFooterLinks';
 import { ExperimentBanner } from './ExperimentBanner/ExperimentBanner';
+import { CenterMode } from './NewHomePopularDetination/NewHomePopularDetination/NewHomePopularDestination';
 
 export const NewHomeLayout = () => {
     return (
@@ -35,7 +35,9 @@ export const NewHomeLayout = () => {
 
             <NewHomeHandPicked />
 
-            <CenterMode />
+            {/* <CenterMode /> */}
+
+            <CenterMode/>
 
             <NewHomeHotelServices />
 

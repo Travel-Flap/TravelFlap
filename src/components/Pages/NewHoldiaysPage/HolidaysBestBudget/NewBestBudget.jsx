@@ -239,6 +239,12 @@ export const NewHolidaysBestBudget = () => {
                         <div className="newBestBudgetratesdiv">
                             <p>The Great Wall of China.</p>
                         </div>
+
+                        <div className="hoteldicsountprice">
+                            <span className="hoteldiscountpercent">Book Now</span>
+                            {/* <span className="hotelPricebeforediscount">&#x24;19,662</span>
+                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
+                        </div>
                         {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
                             <span className="hotelPricebeforediscount">&#x24;19,662</span>

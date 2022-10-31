@@ -14,6 +14,7 @@ import { NewPopularDestination } from './HolidaysPopularDestination/NewPopularDe
 import { NewHolidaysPageBanner } from './NewHolidaysPageBanner/NewHolidaysPageBanner';
 import { HolidaysThemeFilter } from './NewHolidaysThemeFilter/HolidaysThemeFilter';
 import { NewHomeStoriesSection } from "../../Pages/NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection";
+import { NewHolidaysCategory } from './NewHolidaysCategory/NewHolidaysCategory';
 
 export const NewHolidaysPage = () => {
   return (
@@ -21,7 +22,9 @@ export const NewHolidaysPage = () => {
       {/* <NewHomeNav/> */}
       <NewHolidaysPageBanner />
 
-      <HolidaysThemeFilter />
+      <NewHolidaysCategory/>
+      
+      {/* <HolidaysThemeFilter /> */}
 
       <div className=''>
         <NewPopularDestination />
@@ -38,6 +41,7 @@ export const NewHolidaysPage = () => {
         <NewHolidaysBestSelling />
       </div>
 
+      <NewHomeAwards/>
 
 
       {/* <NewHomeEasyVisaDestination /> */}
