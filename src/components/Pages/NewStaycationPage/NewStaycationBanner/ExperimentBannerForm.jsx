@@ -67,13 +67,13 @@ export const ExperimentBannerForm = () => {
                             <Link to='/contact' className='moreOptions'><FaPhoneAlt className='contactIcon' /> ContactUs</Link>
                         </div>
                         <div className='moreOptions'>
-                            <Link to='/mice' className='moreOptions'><GiPalmTree className='miceIcon' />  Mice </Link>
+                            <Link to='/mice' className='moreOptions'><GiPalmTree className='miceIcon' />  Safe Stay </Link>
                         </div>
                         <div className='moreOptions'>
                             <Link to='/offers' className='moreOptions'>   <FaTags className='offersIcon' /> Offers </Link>
                         </div>
                         <div className='moreOptions'>
-                            <Link to='/inspire' className='moreOptions'> <FaShip className='inspireIcon' /> Inspire </Link>
+                            <Link to='/inspire' className='moreOptions'> <FaShip className='inspireIcon' /> Top Deals </Link>
                         </div>
                     </div>
                 </div>
@@ -107,14 +107,14 @@ export const ExperimentBannerForm = () => {
         <p>Travellers</p>
         <div id='newStaycationsPage_departure'>
             <h5>Choose Travellers </h5>
-            <div className="dropdownnewHotelPage-content">
-                <div className='navbarnewHotelPageOptions'>
+            <div className="dropdownnewStaycationPage-content">
+                <div className='navbarnewStaycationPageOptions'>
                     <FaPlusCircle className='contactIcon' />   <FaMinusCircle className='decrease' /> Adults
                 </div>
-                <div className='navbarnewHotelPageOptions '>
+                <div className='navbarnewStaycationPageOptions '>
                     <FaPlusCircle className='miceIcon' />   <FaMinusCircle className='decrease' /> Children
                 </div>
-                <div className='navbarnewHotelPageOptions'>
+                <div className='navbarnewStaycationPageOptions'>
                     <FaPlusCircle className='offersIcon' />  <FaMinusCircle className='decrease' /> Infants
                 </div>
             </div>

@@ -1,9 +1,9 @@
 .handpickednewhomepageoutercontainer {
   height: 580px;
-  background-color: #3380f2;
+  /* background-color: #3380f2; */
   /* object-fit: cover; */
   /* background-size: cover; */
-  /* background-image: url(/public/Images/NewHomeLayout/BackgroundImages/handpickimagebg1.jpg); */
+  /* background-image: url(/public/Images/NewHomeLayout/BackgroundImages/background.jpg); */
 }
 /* /public/Images/NewHomeLayout/BackgroundImages/TopCitiesBackground1.png */
 /* /public/Images/NewHomeLayout/BackgroundImages/HandpickedBackgroundImage.jpg */
@@ -26,7 +26,7 @@
   margin-top: 2.1% !important;
   font-weight: 700;
   margin-bottom: 2%;
-  color: white;
+  color: #3380F2;
 }
 
 .newHomeHandPickedDropContainer {
@@ -38,12 +38,12 @@
   flex-direction: row;
   height: 46px;
 }
-.newHomeHandPickedDropContainer select {
+/* .newHomeHandPickedDropContainer select {
   background-image: none;
-}
+} */
 .handmadesicon {
   width: 10%;
-  color: white !important;
+  color: #3380F2 !important;
   border: 3px solid #3380f2;
   background-color: #3380f2 !important;
   height: 43px;
@@ -355,7 +355,7 @@ img {
 /* ----------------- New button css ----------------  */
 
 .newHomehandpickedDropContainer {
-  width: 10%;
+  width: 9% !important;
   margin-left: 48.5%;
   margin-top: 2.1%;
   display: flex;
@@ -363,46 +363,67 @@ img {
   border-right: none;
   height: 39px;
   border-radius: 25px;
-  /* border: 2px solid green; */
+  background-color: #3380F2 !important;
+  display: flex;
+  align-items: center;
+  color: white !important;
+  font-weight: 700;
+  justify-content: space-between;
+  border: 2px solid #3380F2;
+  outline: none;
+  padding-left: 15px;
 }
-.newHomehandpickedDropContainer:hover .newHomehandpickedicondiv {
-  background-color: white;
-  color: #3380f2;
+/* .newHomehandpickedDropContainer:hover .newHomehandpickedicondiv{
+  background-color:#3380F2;
+  color: white;
   cursor: pointer;
-}
-.newHomeHandpickedCountryDrop {
-  /* border: 3px solid red !important; */
-  background-color: white !important;
-  width: 80% !important;
-  height: 39px !important;
-  color: #3380f2 !important;
-  font-weight: 700 !important;
-  font-size: 17px !important;
-  cursor: pointer;
-  border-radius: 25px 0px 0px 25px !important;
-  border-right: none !important;
-  appearance: none !important;
-  padding-top: 3% !important;
-  border: none !important;
-}
-.newHomehandpickedDropContainer select {
-  /* border: 1px solid red !important; */
-  background-image: none !important;
 }
 
-.newHomeHandpickedCountryDrop:hover {
-  background-color: white !important;
-  color: #3380f2 !important;
+.newHomehandpickedDropContainer:hover .newHomeHandpickedCountryDrop{
+  background-color: white;
+  color: #3380F2;
+}
+.newHomehandpickedDropContainer:hover {
+  background-color: white;
+  color: white;
+  cursor: pointer;
+  border: 2px solid #3380F2;
+} */
+.newHomeHandpickedCountryDrop {
+  /* border: 3px solid red; */
+  background-color: transparent ;
+  width: 100%;
+  height: 100%;
+  color: white;
   font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px;
+  border-right: none;
+  appearance: none;
+  padding-top: 3%;
+  border: none;
+  outline: none;
+}
+/* .newHomehandpickedDropContainer select {
+  background-image: none;
+} */
+
+.newHomeHandpickedCountryDrop:hover {
+  background-color: white ;
+  color: #3380f2 ;
+  font-weight: 700;
+  border: none;
+  outline: none;
   /* border: 3px solid #3380F2; */
 }
 .newHomehandpickedicondiv {
   width: 20%;
-  color: white;
+  color: #3380F2;
   /* border: 3px solid #3380F2; */
-  background-color: white;
-  height: 39px;
-  /* font-size: 18px !important; */
+  background-color: transparent;
+  height: 100%;
+  /* font-size: 18px; */
   border-radius: 0px 25px 25px 0px;
   padding-right: 5%;
   border-left: none;
@@ -410,14 +431,16 @@ img {
 }
 .handpickedicon {
   margin-left: -37%;
-  /* width: 100% !important; */
-  color: white;
+  /* width: 100%; */
+  color: #3380F2;
   /* border: 3px solid #3380f2; */
-  background-color: #3380f2;
+  background-color: white;
   height: 25px;
   width: 25px;
-  font-size: 18px !important;
+  font-size: 18px;
   border-radius: 100%;
-  margin-top: 29% !important;
+  margin-top: 29%;
+  padding-top: 2px;
+  /* border: 1px solid green; */
   /* margin-bottom: 105%;*/
 }

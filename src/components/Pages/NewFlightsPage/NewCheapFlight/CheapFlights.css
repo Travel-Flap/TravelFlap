@@ -149,7 +149,7 @@
     /* border: 2px solid gold !important; */
     border: none;
     height: 35px;
-    width: 60%;
+    width: 50%;
     /* padding-right: 20%; */
     border-radius: 18px 0px 0px 18px;
     appearance: none;
@@ -159,6 +159,7 @@
     font-weight: 500;
     font-size: 14px;
     font-weight: 700;
+    outline: none;
     /* margin-left: 30%; */
 }
 
@@ -166,7 +167,7 @@
     /* border: 2px solid gold !important; */
     border: none;
     height: 35px;
-    width: 74%;
+    width: 60%;
     padding-right: 20%;
     border-radius: 18px 0px 0px 18px;
     appearance: none;
@@ -176,6 +177,7 @@
     font-weight: 500;
     font-size: 14px;
     font-weight: 700;
+    outline: none !important;
     /* margin-left: 30%; */
 }
 .cheapflightsselect3{

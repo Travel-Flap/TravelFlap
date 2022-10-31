@@ -196,10 +196,10 @@
   color: white;
   background-color: #3380f2 !important;
   width: 200px;
-  height: 200px;
+  height: 170px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 .dropdownNewActivity-content div:hover {
   background-color: white !important;
@@ -210,9 +210,9 @@
 }
 
 .navbarNewActivityPageOptions {
-  margin-top: 5%;
-  padding-top: 8%;
-  padding-bottom: 8%;
+  margin-top: 3%;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 .newActivityGuestIcon {
@@ -231,13 +231,13 @@
 }
 
 .newActivity_SearchButton button {
-  margin-top: 15% !important;
+  margin-top: 22% !important;
   margin-left: 8%;
   width: 90%;
-  height: 50px !important;
-  padding-left: 33px !important;
-  padding-top: 11px !important;
-  font-size: 20px !important;
+  height: 45px !important;
+  padding-left: 38px !important;
+  padding-top:9px !important;
+  font-size: 16px !important;
 }
 
 .newActivity_SearchButton button:hover{
@@ -1067,7 +1067,7 @@
   .newActivity_SearchButton {
     /* border: 3px solid blue; */
     width: 100%;
-    height: 40px;
+    height: 35px;
     margin-top: 10%;
     /* margin-left: 9%; */
   }
@@ -1076,7 +1076,7 @@
     margin-top: 0%;
     border-radius: 15px;
     width: 100%;
-    height: 40px;
+    height: 35px;
   }
 
   .selectnewhomepagedate {

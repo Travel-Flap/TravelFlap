@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button } from 'react-bootstrap';
 import { MdLocationCity } from "react-icons/md";
-import {FaAngleRight} from "react-icons/fa";
+import {FaAngleDown} from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
 
 
@@ -109,10 +109,10 @@ export const NewPopularDestination = () => {
                                         ))
                                     }
                                 </select>
-                                <FaAngleRight style={{ fontSize: "15px" }} className="newPopularDestinationsicon" />
+                                <FaAngleDown style={{ fontSize: "15px" }} className="newPopularDestinationsicon" />
                             </div> */}
 
-                   <div className='newPopularDestinationsDropContainer'>
+                   {/* <div className='newPopularDestinationsDropContainer'>
                         <select className="form-select newPopularDestinationsCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ border: "3px solid #3380f2", width: "60%",appearance:"none", fontSize:"15px" }}>
                             <option value="" style={{ textAlign: "center" }}>Country</option>
@@ -123,9 +123,18 @@ export const NewPopularDestination = () => {
                             }
                         </select>
                         <div className='newPopularDestinationsicondiv'>
-                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="newPopularDestinationsicon" />
+                        <FaAngleDown style={{fontSize:"15px"}} size={"1em"} className="newPopularDestinationsicon" />
                         </div>
-                    </div>
+                    </div> */}
+
+                    <select className="newPopularDestinationsDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
+                        <option style={{textAlign:"Left"}}>Country</option>
+                        {
+                            countrydata.map((getcountry, index) => (
+                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                            ))
+                        }
+                    </select>
 
                         </div>
 

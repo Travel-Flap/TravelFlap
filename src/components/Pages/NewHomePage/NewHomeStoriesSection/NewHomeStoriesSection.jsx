@@ -99,6 +99,7 @@ export const NewHomeStoriesSection = () => {
         },
         {
             BrandName: "ScaleForce",
+            text:"TravelFlap is a wonderfull team with great efforts and passion,Their Services and communications have have exceeded my expectations.",
             brandImage: "Images/NewHomeLayout/NewHomeStoriesSection/stories1.png",
             name: "Venus Wills",
             role: "Senior Director of Demand Execution",
@@ -159,6 +160,7 @@ export const NewHomeStoriesSection = () => {
                             <BsPlayCircle />
                         </IconContext.Provider>
                         <p className="storiesBrandName">{item.BrandName}</p>
+                        <p className="testText">"{item.text}"</p>
                         <p className="storiesFloating">{item.BrandName}</p>
                         <div className="storiesContentDiv">
                             <div className="storiesImageDiv">
@@ -180,14 +182,13 @@ export const NewHomeStoriesSection = () => {
             </IconContext.Provider></p>
 
 
-            <div className="testcommentssliderdata">
-                {/* <div className="exclusivedealsmaindivslider" > */}
+            {/* <div className="testcommentssliderdata">
                 <Slider
                     arrows={false}
                     autoplay={true}
-                    // speed={1000}
-                    // autoplaySpeed={1000}
-                    // dots={true}
+                    speed={1000}
+                    autoplaySpeed={1000}
+                    dots={true}
                     dotsclassName="slick-dots line-indicator"
                     ref={sliderRef}
                     slidesToShow={2}
@@ -238,7 +239,6 @@ export const NewHomeStoriesSection = () => {
                     customPaging={(i) => (
                         <div
                             style={{
-                                // position: "absolute",
                                 width: "100%",
                                 top: "-10px",
                                 opacity: 0,
@@ -249,8 +249,6 @@ export const NewHomeStoriesSection = () => {
                     )}
                 >
 
-                    {/* <div className="card mb-4 exclusiveouterdivtop" >
-                    <div className="row g-0 exclusiveimagetextcontainer"> */}
                     <div className="testcommentsdivouter">
                         <div className="testcommentsprofilediv">
                             <img width={"100%"} height={"100%"} src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
@@ -262,11 +260,6 @@ export const NewHomeStoriesSection = () => {
                             <p style={{ marginTop: "35%", marginLeft: "5%" }}>Chris</p>
                         </div>
                     </div>
-                    {/* </div>
-          </div> */}
-
-                    {/* <div className="card mb-4 exclusiveouterdivtop" >
-                <div className="row g-0 exclusiveimagetextcontainer"> */}
                     <div className="testcommentsdivouter">
                         <div className="testcommentsprofilediv">
                             <img width={"100%"} height={"100%"} src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
@@ -278,11 +271,7 @@ export const NewHomeStoriesSection = () => {
                             <p style={{ marginTop: "35%", marginLeft: "5%" }}>Chris</p>
                         </div>
                     </div>
-                    {/* </div>
-          </div> */}
-
-                    {/* <div className="card mb-4 exclusiveouterdivtop" >
-                    <div className="row g-0 exclusiveimagetextcontainer"> */}
+                    
                     <div className="testcommentsdivouter">
                         <div className="testcommentsprofilediv">
                             <img width={"100%"} height={"100%"} src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" />
@@ -294,15 +283,11 @@ export const NewHomeStoriesSection = () => {
                             <p style={{ marginTop: "35%", marginLeft: "5%" }}>Chris</p>
                         </div>
                     </div>
-                    {/* </div>
-          </div> */}
-
                 </Slider>
-            </div>
+            </div> */}
 
 
         </div>
     );
 };
 
-// export default StoriesSection;

@@ -2,6 +2,7 @@
     width: 100%;
     /* margin-top: 5%; */
     background-color: #3380f2;
+     /* background-image: url("./clouds.png"); */
     height: 620px;
   }
   
@@ -61,6 +62,7 @@
     padding-top: 6px;
     border-radius: 15px;
     cursor: pointer;
+    /* text-decoration: underline; */
   }
 
   .newFlightsNearYouAllDeals h5:hover{
@@ -136,9 +138,10 @@
   } */
 
   .newFlightNearContentImagediv img{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     object-fit: cover;
+    /* border: 2px solid red; */
   }
 
   .newFlightsContentDiv1{

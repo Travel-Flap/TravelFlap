@@ -375,12 +375,12 @@
 }
 
 .newcruise_SearchButton button {
-  margin-top: 14%;
+  margin-top: 22%;
   width: 85%;
-  height: 55px;
+  height: 45px;
   margin-left: 3%;
   padding-left: 22%;
-  padding-top: 9%;
+  padding-top: 9px;
   font-weight: 700;
 }
 

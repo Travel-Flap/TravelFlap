@@ -383,27 +383,27 @@ border: none !important;
 }
 .newWorldDomesticCruisedetails {
   position: absolute;
-  bottom: -62%;
+  bottom: -18%;
   left: 0;
   width: 100%;
   height: 310px;
   z-index: 100000000;
   padding: 10px;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
+  /* -webkit-transition: 0.6s; */
+  /* transition: 0.6s; */
   line-height: 15px;
 }
 
-.newWorldDomesticCruisedetails h2 {
+.newWorldDomesticCruisedetails h5 {
   margin: 0px 0;
   padding: 0;
   text-align: center;
   color: white;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
 }
 
-.newWorldDomesticCruisedetails h2 .job-title {
+.newWorldDomesticCruisedetails h5 .job-title {
   font-size: 14px;
   line-height: 1.5;
   color: white;
@@ -411,9 +411,9 @@ border: none !important;
   display: block;
 }
 
-.card:hover .newWorldDomesticCruisedetails {
+/* .card:hover .newWorldDomesticCruisedetails {
   bottom: 0;
-}
+} */
 
 /* ----------------- view all deals button css ----------------  */
 

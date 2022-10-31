@@ -15,7 +15,7 @@ export default class TrendingCruise extends Component {
         const settings = {
             // dots: true,
             infinite: true,
-            autoplay: false,
+            autoplay: true,
             autoplaySpeed:2000,
             speed: 2000,
             slidesToShow: 4,
@@ -41,12 +41,12 @@ export default class TrendingCruise extends Component {
                                 <img src="https://www.celebritycruises.com/blog/content/uploads/2019/03/best-cruise-destinations-hydra-island-greece-1024x724.jpg" />
                             </div>
                             <div className="newWorldTrendingCruisedetails">
-                                <h2> Greece Cruise <span className="job-title">
-                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
-                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
-                                </h2>
+                                <h5> Greece Cruise <span className="job-title">
+                                    <p style={{fontSize:"14px"}}>4 Nights / 5 Days</p>
+                                    <h6 style={{fontSize:"14px"}}>All Inclusive Packages</h6>
+                                    <h3 style={{marginTop:"5%",fontSize:"17px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"21px"}}>AED 3000</h4> </h3></span>
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                </h5>
                             </div>
                         </div>
                     </div>
@@ -57,12 +57,12 @@ export default class TrendingCruise extends Component {
                                 <img src="https://www.celebritycruises.com/blog/content/uploads/2019/03/best-cruise-destinations-st-maarten-grand-anse-beach-and-rainbow-cafe-1024x683.jpg" />
                             </div>
                             <div className="newWorldTrendingCruisedetails">
-                                <h2>The Caribbean <span className="job-title">
-                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
-                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
-                                </h2>
+                                <h5>The Caribbean <span className="job-title">
+                                    <p style={{fontSize:"14px"}}>4 Nights / 5 Days</p>
+                                    <h6 style={{fontSize:"14px"}}>All Inclusive Packages</h6>
+                                    <h3 style={{marginTop:"5%",fontSize:"17px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"21px"}}>AED 3000</h4> </h3></span>
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                </h5>
                             </div>
                         </div>
                     </div>
@@ -73,12 +73,12 @@ export default class TrendingCruise extends Component {
                                 <img src="https://www.celebritycruises.com/blog/content/uploads/2020/05/best-cruise-destinations-el-arco-cabo-san-lucas-mexico-1536x1022.jpg" />
                             </div>
                             <div className="newWorldTrendingCruisedetails">
-                                <h2>Mexican Riviera <span className="job-title">
-                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
-                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
-                                </h2>
+                                <h5>Mexican Riviera <span className="job-title">
+                                    <p style={{fontSize:"14px"}}>4 Nights / 5 Days</p>
+                                    <h6 style={{fontSize:"14px"}}>All Inclusive Packages</h6>
+                                    <h3 style={{marginTop:"5%",fontSize:"17px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"21px"}}>AED 3000</h4> </h3></span>
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                </h5>
                             </div>
                         </div>
                     </div>
@@ -89,12 +89,12 @@ export default class TrendingCruise extends Component {
                                 <img src="https://www.celebritycruises.com/blog/content/uploads/2019/03/best-cruise-destinations-panama-canal-1024x683.jpg" />
                             </div>
                             <div className="newWorldTrendingCruisedetails">
-                                <h2>Panama Canal <span className="job-title">
-                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
-                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
-                                </h2>
+                                <h5>Panama Canal <span className="job-title">
+                                    <p style={{fontSize:"14px"}}>4 Nights / 5 Days</p>
+                                    <h6 style={{fontSize:"14px"}}>All Inclusive Packages</h6>
+                                    <h3 style={{marginTop:"5%",fontSize:"17px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"21px"}}>AED 3000</h4> </h3></span>
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                </h5>
                             </div>
                         </div>
                     </div>
@@ -105,12 +105,12 @@ export default class TrendingCruise extends Component {
                                 <img src="https://www.celebritycruises.com/blog/content/uploads/2020/05/best-cruise-destinations-promenade-des-anglais-nice-france-1536x1025.jpg" />
                             </div>
                             <div className="newWorldTrendingCruisedetails">
-                                <h2>Western Europe <span className="job-title">
-                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
-                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
-                                </h2>
+                                <h5>Western Europe <span className="job-title">
+                                    <p style={{fontSize:"14px"}}>4 Nights / 5 Days</p>
+                                    <h6 style={{fontSize:"14px"}}>All Inclusive Packages</h6>
+                                    <h3 style={{marginTop:"5%",fontSize:"17px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"21px"}}>AED 3000</h4> </h3></span>
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                </h5>
                             </div>
                         </div>
                     </div>
@@ -121,12 +121,12 @@ export default class TrendingCruise extends Component {
                                 <img src="https://www.celebritycruises.com/blog/content/uploads/2019/03/best-cruise-destinations-kabira-bay-ishigaki-japan-1024x683.jpg" />
                             </div>
                             <div className="newWorldTrendingCruisedetails">
-                                <h2>Southern Japan <span className="job-title">
-                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700"}}>AED 3000</h4> </p></span>
-                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
-                                </h2>
+                                <h5>Southern Japan <span className="job-title">
+                                    <p style={{fontSize:"14px"}}>4 Nights / 5 Days</p>
+                                    <h6 style={{fontSize:"14px"}}>All Inclusive Packages</h6>
+                                    <h3 style={{marginTop:"5%",fontSize:"17px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"21px"}}>AED 3000</h4> </h3></span>
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                </h5>
                             </div>
                         </div>
                     </div> 

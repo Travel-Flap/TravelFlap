@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Button } from 'react-bootstrap';
 import './PopularCarHireDestinaton.css';
-import { FaAngleRight } from "react-icons/fa";
+import { FaAngleDown } from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
 // import "/src/App.css";
 
@@ -52,7 +52,7 @@ export const NewPopularCarHireDestination = () => {
                     </select>
                 </div> */}
 
-                <div className='newRentalsPopularCarHireDropContainer'>
+                {/* <div className='newRentalsPopularCarHireDropContainer'>
                     <select className="form-select newRentalsPopularCarHireCountryDrop" onChange={(e) => handlecounty(e)}
                         style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
                         <option value="" style={{ textAlign: "center" }}>Country</option>
@@ -63,9 +63,18 @@ export const NewPopularCarHireDestination = () => {
                         }
                     </select>
                     <div className='newRentalsCarHireicondiv'>
-                        <FaAngleRight style={{ fontSize: "15px" }} size={"1em"} className="newCarHireicon" />
+                        <FaAngleDown style={{ fontSize: "15px" }} size={"1em"} className="newCarHireicon" />
                     </div>
-                </div>
+                </div> */}
+
+                    <select className="newRentalsPopularCarHireDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
+                        <option style={{textAlign:"Left"}}>Country</option>
+                        {
+                            countrydata.map((getcountry, index) => (
+                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                            ))
+                        }
+                    </select>
             </div>
 
             <div className='newRentalsCarHireSlideroutercontainer'>

@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import "./NewStaycationMostPicked.css";
 import countrydata from '../../../../CountryData.json';
 import { Button } from "react-bootstrap";
-import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+import { FaAngleLeft, FaAngleDown } from 'react-icons/fa';
 import { BsFillChatLeftFill, BsFillStarFill, BsStarHalf } from "react-icons/bs";
 
 export const NewStaycationMostPicked = () => {
@@ -42,19 +42,23 @@ export const NewStaycationMostPicked = () => {
                     <h2>Most Picked</h2>
                 </div>
 
-                <div className='newStaycationdealsbutton'>
+                <div className="newStaycationYouAllDeals">
+                    <h5>All deals</h5>
+                </div>
+
+                {/* <div className='newStaycationdealsbutton'>
                     <p className='newStaycationMostPickedCountryDrop'>Deals</p>
                     <div className='newStaycationMostPickedicondiv'>
-                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="mostPickedicon" />
+                        <FaAngleDown style={{fontSize:"15px"}} size={"1em"} className="mostPickedicon" />
                     </div>
-                </div>
+                </div> */}
                 {/* <div className='newStaycationdealsbutton'> 
                         <select className="form-select newStaycationMostPickedCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ width: "60%",appearance:"none" }}>
                             <option value="" style={{textAlign:"center"}}>Deals</option>
                         </select>
                         <div className='newStaycationMostPickedicondiv'>
-                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="mostPickedicon" />
+                        <FaAngleDown style={{fontSize:"15px"}} size={"1em"} className="mostPickedicon" />
                         </div>
                 </div> */}
             </div>

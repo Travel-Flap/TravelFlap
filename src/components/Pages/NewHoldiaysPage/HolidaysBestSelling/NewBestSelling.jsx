@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import "./NewBestSelling.css";
 import countrydata from '../../../../CountryData.json';
 import { Button } from "react-bootstrap";
-import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+import { FaAngleLeft, FaAngleDown } from 'react-icons/fa';
 import { BsFillChatLeftFill, BsFillStarFill, BsStarHalf } from "react-icons/bs";
 // import { CountryDropHotel } from "./CountryDropHotel";
 
@@ -48,7 +48,7 @@ export const NewHolidaysBestSelling = () => {
                 <div className="cardtextnewBestSellingDropbutton">
                     {/* <CountryDropHotel /> */}
                     <h2>Best Selling Destinations</h2>
-                     <div className='newHolidaysBestSellingDropContainer'>
+                     {/* <div className='newHolidaysBestSellingDropContainer'>
                         <select className="form-select newHolidaysBestSellingCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ border: "3px solid #3380f2", width: "60%",appearance:"none", fontSize:"15px" }}>
                             <option value="" style={{ textAlign: "center" }}>Country</option>
@@ -59,9 +59,18 @@ export const NewHolidaysBestSelling = () => {
                             }
                         </select>
                         <div className='newBestSellingIcondiv'>
-                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="newBestSellingIcon" />
+                        <FaAngleDown style={{fontSize:"15px"}} size={"1em"} className="newBestSellingIcon" />
                         </div>
-                    </div>
+                    </div> */}
+
+                    <select className="newHolidaysBestSellingDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
+                        <option style={{textAlign:"Left"}}>Country</option>
+                        {
+                            countrydata.map((getcountry, index) => (
+                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                            ))
+                        }
+                    </select>
                 </div>
 
                 {/* <div className="cardtextendbuttons">
@@ -71,7 +80,7 @@ export const NewHolidaysBestSelling = () => {
                                 <FaAngleLeft size={"2.5em"}
                                     onClick={() => sliderRef.current.slickPrev()}
                                 />
-                                <FaAngleRight size={"2.5em"}
+                                <FaAngleDown size={"2.5em"}
                                     onClick={() => sliderRef.current.slickNext()}
                                 />
                             </div>

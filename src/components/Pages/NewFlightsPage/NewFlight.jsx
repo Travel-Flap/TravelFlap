@@ -16,7 +16,8 @@ import { NewFlightsNearYou } from './NewFlightsNearYou/NewFlightsNearYou'
 import { FrequentlyAskedQuestions } from './NewFrequentlyAskedQuestions/FrequentlyAskedQuestions'
 import NewHomeAwards  from "../NewHomePage/NewHomeAwards/NewHomeAwards";
 import { NewHomeBottomBar } from '../NewHomePage/NewHomeBottomBar/NewHomeBottomBar'
-import { FlightsNearYou } from './NewFlightNearYou/FlightsNaerYou'
+import { FlightsNearYou } from './NewFlightNearYou/FlightsNearYou'
+import { NewHomeStoriesSection } from '../NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection'
 
 export const NewFlight = () => {
   return (
@@ -57,8 +58,9 @@ export const NewFlight = () => {
 
         {/* <NewHomeAwards/> */}
 
-       
+        <NewHomeStoriesSection/>
         <Plan/>
+        
         <NewHomeFooter/>
         <NewHomeBottomBar/>
     </div>

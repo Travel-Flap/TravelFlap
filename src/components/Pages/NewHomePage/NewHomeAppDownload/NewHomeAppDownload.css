@@ -133,6 +133,7 @@
   padding-left: 5%;
   appearance: none;
   width: 138% !important;
+  outline: none;
 }
 /* .newhomecontactdata{
   border: 2px solid saddlebrown;
@@ -189,6 +190,11 @@
   width: 25%;
   height: 40px;
   margin-left: -7% !important;
+}
+.newhomeappdownloadsearchbutton:hover{
+  background-color: white;
+  color: #3380F2;
+  cursor: pointer;
 }
 .qrcodetext1{
   color: white;

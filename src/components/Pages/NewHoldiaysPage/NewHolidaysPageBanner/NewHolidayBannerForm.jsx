@@ -93,13 +93,13 @@ export const NewHolidayBannerForm = () => {
                             <Link to='/contact' className='moreOptions'><FaPhoneAlt className='contactIcon' /> ContactUs</Link>
                         </div>
                         <div className='moreOptions '>
-                            <Link to='/mice' className='moreOptions'><GiPalmTree className='miceIcon' />  Mice </Link>
+                            <Link to='/mice' className='moreOptions'><GiPalmTree className='miceIcon' />  Safe Stay </Link>
                         </div>
                         <div className='moreOptions'>
                             <Link to='/offers' className='moreOptions'>   <FaTags className='offersIcon' /> Offers </Link>
                         </div>
                         <div className='moreOptions'>
-                            <Link to='/inspire' className='moreOptions'> <FaShip className='inspireIcon' /> Inspire </Link>
+                            <Link to='/inspire' className='moreOptions'> <FaShip className='inspireIcon' /> Top Deals </Link>
                         </div>
                     </div>
 
@@ -137,7 +137,7 @@ export const NewHolidayBannerForm = () => {
                                 </div>
 
                                 <div className='singleNewHolidaysBannerdropcontainer1'>
-                                    <h5>Select City</h5>
+                                    <h5>Select State</h5>
                                     <select className="form-select holidayform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{color:"grey",fontSize:"15px", width: "100%", border: "2px solid #dddddd78" }}>
                                         <option value="" style={{ textAlign: "center" }}>Select State</option>
                                         {

@@ -6,7 +6,7 @@ import { useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect } from "react";
-import {FaAngleRight} from "react-icons/fa";
+import {FaAngleDown} from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
 
 export const NewHomeHandPicked = () => {
@@ -55,13 +55,13 @@ export const NewHomeHandPicked = () => {
                                 ))
                             }
                         </select>
-                        <FaAngleRight style={{fontSize:"15px"}} className="handmadesicon" />
+                        <FaAngleDown style={{fontSize:"15px"}} className="handmadesicon" />
                     </div> */}
 
-                   <div className='newHomehandpickedDropContainer'>
+                   {/* <div className='newHomehandpickedDropContainer'>
                         <select className="form-select newHomeHandpickedCountryDrop" onChange={(e) => handlecounty(e)}
-                            style={{ width: "60%",appearance:"none" }}>
-                            <option value="" style={{ textAlign: "center" }}>Country</option>
+                            style={{ width: "100%",appearance:"none" }}>
+                            <option value="">Country</option>
                             {
                                 countrydata.map((getcountry, index) => (
                                     <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
@@ -69,9 +69,18 @@ export const NewHomeHandPicked = () => {
                             }
                         </select>
                         <div className='newHomehandpickedicondiv'>
-                        <FaAngleRight style={{fontSize:"15px"}} size={"1em"} className="handpickedicon" />
+                        <FaAngleDown style={{fontSize:"15px"}} size={"1em"} className="handpickedicon" />
                         </div>
-                    </div>
+                    </div> */}
+                
+                   <select className="newHomehandpickedDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
+                        <option style={{textAlign:"Left"}}>Country</option>
+                        {
+                            countrydata.map((getcountry, index) => (
+                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                            ))
+                        }
+                    </select>
 
                 </div>
 

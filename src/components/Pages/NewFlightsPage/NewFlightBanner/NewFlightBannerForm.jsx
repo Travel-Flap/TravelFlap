@@ -69,13 +69,13 @@ export const NewFlightBannerForm = () => {
                             <Link to='/contact' className='moreOptions'><FaPhoneAlt className='contactIcon' /> ContactUs</Link>
                         </div>
                         <div className='moreOptions '>
-                            <Link to='/mice' className='moreOptions'><GiPalmTree className='miceIcon' />  Mice </Link>
+                            <Link to='/mice' className='moreOptions'><GiPalmTree className='miceIcon' />  Safe Stay </Link>
                         </div>
                         <div className='moreOptions'>
                             <Link to='/offers' className='moreOptions'>   <FaTags className='offersIcon' /> Offers </Link>
                         </div>
                         <div className='moreOptions'>
-                            <Link to='/inspire' className='moreOptions'> <FaShip className='inspireIcon' /> Inspire </Link>
+                            <Link to='/inspire' className='moreOptions'> <FaShip className='inspireIcon' /> Top Deals </Link>
                         </div>
                     </div>
 
@@ -89,13 +89,14 @@ export const NewFlightBannerForm = () => {
 
                 <div className='multiroundbuttons'>
 
-                    <select class="form-select" aria-label="Default select example">
+                    {/* <select class="form-select" aria-label="Default select example">
                         <option selected>Choose</option>
                         <option value="1">One Way</option>
                         <option value="2">Two Way</option>
                         <option value="3">Round Trip</option>
-                    </select>
-                    {/* <div class="form-check form-check-inline">
+                    </select> */}
+
+                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
                         <label class="form-check-label" for="inlineRadio1">One Way</label>
                     </div>
@@ -106,7 +107,7 @@ export const NewFlightBannerForm = () => {
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" />
                         <label class="form-check-label" for="inlineRadio3">Round Trip</label>
-                    </div> */}
+                    </div>
                 </div>
 
                 <div className='newFlightsinputmaindiv'>
@@ -149,13 +150,13 @@ export const NewFlightBannerForm = () => {
                             <h5>Choose Travellers </h5>
                             {/* <FaAngleDown className='downHotelPagearrowicon' /> */}
                             <div className="dropdownnewFlightsPage-content">
-                                <div className='navbarnewHotelPageOptions'>
+                                <div className='navbarnewFlightPageOptions'>
                                     <FaPlusCircle className='contactIcon' />   <FaMinusCircle className='decrease' /> Adults
                                 </div>
-                                <div className='navbarnewHotelPageOptions '>
+                                <div className='navbarnewFlightPageOptions '>
                                     <FaPlusCircle className='miceIcon' />   <FaMinusCircle className='decrease' /> Children
                                 </div>
-                                <div className='navbarnewHotelPageOptions'>
+                                <div className='navbarnewFlightPageOptions'>
                                     <FaPlusCircle className='offersIcon' />  <FaMinusCircle className='decrease' /> Infants
                                 </div>
                             </div>
