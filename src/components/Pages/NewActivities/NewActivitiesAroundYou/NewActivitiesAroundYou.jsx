@@ -114,7 +114,7 @@ export const NewActivitiesAround = () => {
                     <div class="card mb-3 newActivityAroundouterdiv" >
                         <div class="row g-0 newActivityAroundImagetextcontainer">
                             <div class="col-md-8 newActivityAroundCardimage">
-                                <img src="Images/ActivityAround/boat along amazon rain forest.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/ActivityAround/boat along amazon rain forest.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newActivityAroundTextcard">
                                 <div class="card-body newActivityAroundCarddescmain">
@@ -129,7 +129,7 @@ export const NewActivitiesAround = () => {
                     <div class="card mb-3 newActivityAroundouterdiv" >
                         <div class="row g-0 newActivityAroundImagetextcontainer">
                             <div class="col-md-8 newActivityAroundCardimage">
-                                <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newActivityAroundTextcard">
                                 <div class="card-body newActivityAroundCarddescmain">
@@ -144,7 +144,7 @@ export const NewActivitiesAround = () => {
                     <div class="card mb-3 newActivityAroundouterdiv" >
                         <div class="row g-0 newActivityAroundImagetextcontainer">
                             <div class="col-md-8 newActivityAroundCardimage">
-                                <img src="Images/ActivityAround/canoe safari botswana.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/ActivityAround/canoe safari botswana.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newActivityAroundTextcard">
                                 <div class="card-body newActivityAroundCarddescmain">
@@ -159,7 +159,7 @@ export const NewActivitiesAround = () => {
                     <div class="card mb-3 newActivityAroundouterdiv" >
                         <div class="row g-0 newActivityAroundImagetextcontainer">
                             <div class="col-md-8 newActivityAroundCardimage">
-                                <img src="Images/ActivityAround/Dune buggy ride dubai.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/ActivityAround/Dune buggy ride dubai.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newActivityAroundTextcard">
                                 <div class="card-body newActivityAroundCarddescmain">
@@ -174,7 +174,7 @@ export const NewActivitiesAround = () => {
                     <div class="card mb-3 newActivityAroundouterdiv" >
                         <div class="row g-0 newActivityAroundImagetextcontainer">
                             <div class="col-md-8 newActivityAroundCardimage">
-                                <img src="Images/ActivityAround/glacier hunt in greenland.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/ActivityAround/glacier hunt in greenland.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newActivityAroundTextcard">
                                 <div class="card-body newActivityAroundCarddescmain">
@@ -189,7 +189,7 @@ export const NewActivitiesAround = () => {
                     <div class="card mb-3 newActivityAroundouterdiv" >
                         <div class="row g-0 newActivityAroundImagetextcontainer">
                             <div class="col-md-8 newActivityAroundCardimage">
-                                <img src="Images/ActivityAround/machu pichu climb.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/ActivityAround/machu pichu climb.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newActivityAroundTextcard">
                                 <div class="card-body newActivityAroundCarddescmain">
@@ -204,7 +204,7 @@ export const NewActivitiesAround = () => {
                     <div class="card mb-3 newActivityAroundouterdiv" >
                         <div class="row g-0 newActivityAroundImagetextcontainer">
                             <div class="col-md-8 newActivityAroundCardimage">
-                                <img src="Images/ActivityAround/mountain hiking usa.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/ActivityAround/mountain hiking usa.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newActivityAroundTextcard">
                                 <div class="card-body newActivityAroundCarddescmain">

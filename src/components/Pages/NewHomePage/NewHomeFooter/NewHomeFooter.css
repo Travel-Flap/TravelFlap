@@ -16,22 +16,22 @@
 
 .newHomeFooterHeadingIcons{
   /* border: 1px solid white; */
-  margin-left: 4%;
+  /* margin-left: 4%; */
 }
 
 .socialnewHomeFooterIcons {
-  border: 2px solid whitesmoke;
-  color: #dee2e6;
-  font-size: 29px;
+  /* border: 2px solid whitesmoke; */
+  color: white;
+  font-size: 26px;
   margin-top: 100% !important;
   /* padding: 20%; */
-  border-radius: 30px;
+  /* border-radius: 30px; */
   gap: 50% !important;
 }
-.socialnewHomeFooterIcons:hover {
+/* .socialnewHomeFooterIcons:hover {
   color: blue;
   background-color: white;
-}
+} */
 
 
 .footernewHomesocialmedia {
@@ -42,6 +42,7 @@
   column-gap: 20px;
   margin-top: 5%;
   margin-left: 20%;
+  color: white;
 }
 
 /* .footernewHomesocialmedia:hover{

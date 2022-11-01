@@ -13,6 +13,7 @@ import { NewStaycationMostPicked } from "./NewStaycationMostPicked/NewStaycation
 import { NewStaycationpicsSlider } from "./NewStaycationpicsSlider/NewStaycationpicsSlider";
 import { NewStaycationNavbar } from "./NewStaycationNavbar/NewStaycationNavbar";
 import { Staycationsnavbar } from "./Staycationsnavbar/Staycationsnavbar";
+import { NewStaycationStaticBanners } from "./NewStaycationStaticBanners/NewStaycationStaticBanners";
 
 export const NewStaycationPage = () => {
    
@@ -22,7 +23,10 @@ export const NewStaycationPage = () => {
 
             <Staycationsnavbar/>
             {/* <NewStaycationNavbar/> */}
-            <NewStaycationpicsSlider/>
+            {/* <NewStaycationpicsSlider/> */}
+
+            <NewStaycationStaticBanners/>
+            
             <NewStaycationMostPicked/>
 
            <div className='carousel'>

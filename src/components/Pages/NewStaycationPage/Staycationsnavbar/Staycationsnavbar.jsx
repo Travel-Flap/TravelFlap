@@ -6,19 +6,16 @@ import { useRef } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect } from "react";
-import Amazingppl from "./Amazingppl.png";
 import arctic from "./arctic.png";
+import iconic from "./iconic.png";
 import breakfast from "./breakfast.png";
 import cabin from "./cabin.png";
 import campervan from "./campervan.png";
 import cave from "./cave.png";
-import Countryside from "./Countryside.png";
-import Designhouse from "./Designhouse.png";
-import Earthhomes from "./Earthhomes.png";
-import Farmhouse from "./Farmhouse.png";
-import island from "./island.png";
-import lakefront from "./lakefront.png";
+import container from "./container.png";
+import Mansion from "./Mansion.png";
 import nationalpark from "./nationalpark.png";
+import island from "./island.png";
 
 export const Staycationsnavbar = () => {
 
@@ -33,7 +30,7 @@ export const Staycationsnavbar = () => {
            <div className="staycationnavbariconsdiv">
            <Slider
                     arrows={false}
-                      autoplay={true}
+                    autoplay={true}
                     speed={2000}
                     autoplaySpeed={3000}
                     dots
@@ -98,7 +95,7 @@ export const Staycationsnavbar = () => {
 
        
                <div className="staycationnavbaricons">
-                <img className="staycationsnavbarimages"  src={Amazingppl}/>
+                <img className="staycationsnavbarimages"  src={iconic}/>
                 BeachFront
                </div>
                <div className="staycationnavbaricons">
@@ -122,19 +119,19 @@ export const Staycationsnavbar = () => {
                BeachFront
                </div>
                <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={Countryside}/>
+               <img className="staycationsnavbarimages"  src={cave}/>
                BeachFront
                </div>
                <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={Designhouse}/>
+               <img className="staycationsnavbarimages"  src={container}/>
                BeachFront
                </div>
                <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={Earthhomes}/>
+               <img className="staycationsnavbarimages"  src={Mansion}/>
                BeachFront
                </div>
                <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={Farmhouse}/>
+               <img className="staycationsnavbarimages"  src={nationalpark}/>
                BeachFront
                </div>
                <div className="staycationnavbaricons">
@@ -142,43 +139,43 @@ export const Staycationsnavbar = () => {
                BeachFront
                </div> 
                <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={lakefront}/>
+               <img className="staycationsnavbarimages"  src={island}/>
                BeachFront
                </div>
                <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={nationalpark}/>
+               <img className="staycationsnavbarimages"  src={island}/>
                BeachFront
                </div>
                <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={nationalpark}/>
+               <img className="staycationsnavbarimages"  src={island}/>
                BeachFront
                </div>
                <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={nationalpark}/>
+               <img className="staycationsnavbarimages"  src={island}/>
                BeachFront
                </div>
                <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={nationalpark}/>
+               <img className="staycationsnavbarimages"  src={island}/>
                BeachFront
                </div> 
                <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={nationalpark}/>
+               <img className="staycationsnavbarimages"  src={island}/>
                BeachFront
                </div>
                <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={nationalpark}/>
+               <img className="staycationsnavbarimages"  src={island}/>
                BeachFront
                </div>
                <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={nationalpark}/>
+               <img className="staycationsnavbarimages"  src={island}/>
                BeachFront
                </div>
                <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={nationalpark}/>
+               <img className="staycationsnavbarimages"  src={island}/>
                BeachFront
                </div>
                <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={nationalpark}/>
+               <img className="staycationsnavbarimages"  src={island}/>
                BeachFront
                </div>
                </Slider>

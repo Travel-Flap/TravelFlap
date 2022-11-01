@@ -114,7 +114,7 @@ export const NewNatureLove = () => {
                     <div class="card mb-3 newNatureLoveouterdiv" >
                         <div class="row g-0 newNatureLoveImagetextcontainer">
                             <div class="col-md-8 newNatureLoveCardimage">
-                                <img src="Images/NatureLove/Bird Park.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/NatureLove/Bird Park.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newNatureLoveTextcard">
                                 <div class="card-body newNatureLoveCarddescmain">
@@ -129,7 +129,7 @@ export const NewNatureLove = () => {
                     <div class="card mb-3 newNatureLoveouterdiv" >
                         <div class="row g-0 newNatureLoveImagetextcontainer">
                             <div class="col-md-8 newNatureLoveCardimage">
-                                <img src="Images/NatureLove/Gardens of the Bay.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/NatureLove/Gardens of the Bay.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newActivityAroundTextcard">
                                 <div class="card-body newNatureLoveCarddescmain">
@@ -144,7 +144,7 @@ export const NewNatureLove = () => {
                     <div class="card mb-3 newNatureLoveouterdiv" >
                         <div class="row g-0 newNatureLoveImagetextcontainer">
                             <div class="col-md-8 newNatureLoveCardimage">
-                                <img src="Images/NatureLove/Green Planet Dubai.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/NatureLove/Green Planet Dubai.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newActivityAroundTextcard">
                                 <div class="card-body newNatureLoveCarddescmain">
@@ -159,7 +159,7 @@ export const NewNatureLove = () => {
                     <div class="card mb-3 newNatureLoveouterdiv" >
                         <div class="row g-0 newNatureLoveImagetextcontainer">
                             <div class="col-md-8 newNatureLoveCardimage">
-                                <img src="Images/NatureLove/JungleSafari.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/NatureLove/JungleSafari.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newActivityAroundTextcard">
                                 <div class="card-body newNatureLoveCarddescmain">
@@ -174,7 +174,7 @@ export const NewNatureLove = () => {
                     <div class="card mb-3 newNatureLoveouterdiv" >
                         <div class="row g-0 newNatureLoveImagetextcontainer">
                             <div class="col-md-8 newNatureLoveCardimage">
-                                <img src="Images/NatureLove/NightSafari.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/NatureLove/NightSafari.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newActivityAroundTextcard">
                                 <div class="card-body newNatureLoveCarddescmain">
@@ -189,7 +189,7 @@ export const NewNatureLove = () => {
                     <div class="card mb-3 newNatureLoveouterdiv" >
                         <div class="row g-0 newNatureLoveImagetextcontainer">
                             <div class="col-md-8 newNatureLoveCardimage">
-                                <img src="Images/NatureLove/Zoo Tour.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/NatureLove/Zoo Tour.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newActivityAroundTextcard">
                                 <div class="card-body newNatureLoveCarddescmain">
@@ -204,7 +204,7 @@ export const NewNatureLove = () => {
                     <div class="card mb-3 newNatureLoveouterdiv" >
                         <div class="row g-0 newNatureLoveImagetextcontainer">
                             <div class="col-md-8 newNatureLoveCardimage">
-                                <img src="Images/NatureLove/Natural Habbitats.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/NatureLove/Natural Habbitats.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newActivityAroundTextcard">
                                 <div class="card-body newNatureLoveCarddescmain">

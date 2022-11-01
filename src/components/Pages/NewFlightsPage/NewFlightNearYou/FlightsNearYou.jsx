@@ -117,7 +117,7 @@ export const FlightsNearYou = () => {
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
-                                <img src="Images/ActivityAround/boat along amazon rain forest.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/ActivityAround/boat along amazon rain forest.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
@@ -125,7 +125,7 @@ export const FlightsNearYou = () => {
 
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Component2.png" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -141,7 +141,7 @@ export const FlightsNearYou = () => {
 
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Component2.png" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -164,14 +164,14 @@ export const FlightsNearYou = () => {
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
-                                <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
                                     <h3 class="card-title newFlightsNearYouCardtitle">Kathmadnu</h3>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouContentImage2.jpg" />
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/IndiGo.png" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -186,7 +186,7 @@ export const FlightsNearYou = () => {
                                     </div>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouContentImage2.jpg" />
+                                        <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/IndiGo.png" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -209,14 +209,14 @@ export const FlightsNearYou = () => {
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
-                                <img src="Images/ActivityAround/canoe safari botswana.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/ActivityAround/canoe safari botswana.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
                                     <h3 class="card-title newFlightsNearYouCardtitle">Da Nang</h3>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouContentImage3.jpg" />
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Component1.png" />
                                         </div>
                                         <div className="newFlightNearContentDatediv">
                                             <h5>Fri, 4 Nov</h5>
@@ -230,7 +230,7 @@ export const FlightsNearYou = () => {
                                     </div>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouContentImage3.jpg" />
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Component1.png" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -253,14 +253,14 @@ export const FlightsNearYou = () => {
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
-                                <img src="Images/ActivityAround/Dune buggy ride dubai.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/ActivityAround/Dune buggy ride dubai.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
                                     <h3 class="card-title newFlightsNearYouCardtitle">Singapore</h3>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouContentImage4.jpg" />
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Component3.png" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -275,7 +275,7 @@ export const FlightsNearYou = () => {
                                     </div>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouContentImage4.jpg" />
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Component3.png" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -298,7 +298,7 @@ export const FlightsNearYou = () => {
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
-                                <img src="Images/ActivityAround/glacier hunt in greenland.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/ActivityAround/glacier hunt in greenland.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
@@ -343,7 +343,7 @@ export const FlightsNearYou = () => {
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
-                                <img src="Images/ActivityAround/machu pichu climb.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/ActivityAround/machu pichu climb.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
@@ -388,7 +388,7 @@ export const FlightsNearYou = () => {
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
-                                <img src="Images/ActivityAround/mountain hiking usa.jpg" class="img-fluid activityAroundimage rounded-start" alt="..." />
+                                <img src="Images/ActivityAround/mountain hiking usa.jpg" class="img-fluid activityAroundimage" alt="..." />
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">

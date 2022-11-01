@@ -9,6 +9,7 @@ import { GoLocation } from "react-icons/go";
 import { IconContext } from "react-icons";
 import countrydata from '../../../../CountryData.json';
 import { BsWhatsapp } from "react-icons/bs"
+import { FaInstagram } from "react-icons/fa";
 
 export const NewHomeFooter = () => {
     const [countryid, setCountryid] = useState('');
@@ -45,12 +46,12 @@ export const NewHomeFooter = () => {
                     <IconContext.Provider value={{ className: "socialnewHomeFooterIcons" }}>
 
                         <div className="footernewHomesocialmedia">
-                            <a href="https://www.pinterest.com/travelflap/"><BsPinterest /></a>
+                            <a href="https://www.pinterest.com/travelflap/"><BsPinterest/></a>
                             <a href=" https://www.facebook.com/travelflap/"><BsFacebook /></a>
-                            <a href="https://www.instagram.com/travelflap/"><BsInstagram /></a>
+                            <a href="https://www.linkedin.com/company/travelflap/"><BsLinkedin /></a>
+                            <a href="https://www.instagram.com/travelflap/"><FaInstagram /></a>
                             <a href="https://www.behance.net/travelflap"><BsBehance /></a>
                             <a href="https://twitter.com/TravelFlap"><BsTwitter /></a>
-                            <a href="https://www.linkedin.com/company/travelflap/"><BsLinkedin /></a>
                         </div>
                     </IconContext.Provider>
                 </div>

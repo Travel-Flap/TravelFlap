@@ -404,11 +404,12 @@ border: none !important;
 }
 
 .newWorldDomesticCruisedetails h5 .job-title {
-  font-size: 14px;
+  font-size: 13.5px;
   line-height: 1.5;
   color: white;
   font-weight: 300;
   display: block;
+  /* border: 2px solid red; */
 }
 
 /* .card:hover .newWorldDomesticCruisedetails {

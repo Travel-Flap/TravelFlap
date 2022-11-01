@@ -167,9 +167,9 @@ export const TopDemandedVisa = () => {
               <div className="newTopDemandedVisadestinationsdetails">
                    <h2 style={{marginTop:"-25%"}}>India 
                         <span>
-                        <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                        <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                         </span>
                         {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                     </h2>
@@ -185,9 +185,9 @@ export const TopDemandedVisa = () => {
               <div className="newTopDemandedVisadestinationsdetails">
               <h2 style={{marginTop:"-25%"}}>Singapore 
                         <span>
-                        <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                        <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                         </span>
                         {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                     </h2>
@@ -203,9 +203,9 @@ export const TopDemandedVisa = () => {
               <div className="newTopDemandedVisadestinationsdetails">
               <h2 style={{marginTop:"-25%"}}>South Africa 
                         <span>
-                        <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                        <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                         </span>
                         {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                     </h2>
@@ -221,9 +221,9 @@ export const TopDemandedVisa = () => {
               <div className="newTopDemandedVisadestinationsdetails">
               <h2 style={{marginTop:"-25%"}}>Turkey 
                         <span>
-                        <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                        <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                         </span>
                         {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                     </h2>
@@ -239,9 +239,9 @@ export const TopDemandedVisa = () => {
               <div className="newTopDemandedVisadestinationsdetails">
               <h2 style={{marginTop:"-25%"}}>UAE 
                         <span>
-                        <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                        <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                         </span>
                         {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                     </h2>
@@ -257,9 +257,9 @@ export const TopDemandedVisa = () => {
               <div className="newTopDemandedVisadestinationsdetails">
               <h2 style={{marginTop:"-25%"}}>United States 
                         <span>
-                        <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                        <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                         </span>
                         {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                     </h2>

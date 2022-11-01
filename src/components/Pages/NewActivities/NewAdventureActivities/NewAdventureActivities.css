@@ -55,6 +55,8 @@
     padding: 0;
     text-align: center;
     color: white;
+    font-size: 22px;
+    font-weight: 700;
   }
   
   .newAdventureActivitydetails h2 .job-title {
@@ -211,8 +213,6 @@
     position: relative;
     width: 106%;
     padding: 0 10px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
   }
   .newTopCity_Activityimage {
     margin-left: 3%;
@@ -261,6 +261,7 @@
       filter: brightness(0.8);
       -o-object-fit: cover;
       object-fit: cover;
+      border-radius: 10px;
     }
     .newMultisection_Activityimage:hover .newAdventureActivitycardImage {
       -moz-transform: scale(1.5);
@@ -269,7 +270,7 @@
     }
     .newAdventureActivitydetails {
       position: absolute;
-      bottom: -62%;
+      bottom: -64%;
       left: 0;
       width: 100%;
       height: 310px;

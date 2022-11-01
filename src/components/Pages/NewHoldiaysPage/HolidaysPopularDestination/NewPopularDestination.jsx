@@ -159,9 +159,9 @@ export const NewPopularDestination = () => {
                                             </div>
                                             <div className="newPopularDestinationsdetails">
                                             <h2>Abu Dhabi <span className="newhomeEasyVisajob-title">
-                                                <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                                <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                                <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                                <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                                <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                                <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                                 </span>
                                                     <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                                 </h2>
@@ -181,9 +181,9 @@ export const NewPopularDestination = () => {
                                             </div>
                                             <div className="newPopularDestinationsdetails">
                                             <h2>Epupa Falls <span className="newhomeEasyVisajob-title">
-                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
                                                 <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                             </h2>
@@ -202,9 +202,9 @@ export const NewPopularDestination = () => {
                                             </div>
                                             <div className="newPopularDestinationsdetails">
                                             <h2>Las Vegas <span className="newhomeEasyVisajob-title">
-                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
                                                 <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                             </h2>
@@ -223,9 +223,9 @@ export const NewPopularDestination = () => {
                                             </div>
                                             <div className="newPopularDestinationsdetails">
                                             <h2>Sydney <span className="newhomeEasyVisajob-title">
-                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
                                                 <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                             </h2>
@@ -244,9 +244,9 @@ export const NewPopularDestination = () => {
                                             </div>
                                             <div className="newPopularDestinationsdetails">
                                             <h2>Toronto <span className="newhomeEasyVisajob-title">
-                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
                                                 <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                             </h2>
@@ -265,9 +265,9 @@ export const NewPopularDestination = () => {
                                             </div>
                                             <div className="newPopularDestinationsdetails">
                                             <h2>London <span className="newhomeEasyVisajob-title">
-                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
                                                 <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                             </h2>
@@ -286,9 +286,9 @@ export const NewPopularDestination = () => {
                                             </div>
                                             <div className="newPopularDestinationsdetails">
                                             <h2>Aarhus <span className="newhomeEasyVisajob-title">
-                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
                                                 <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                             </h2>
@@ -308,9 +308,9 @@ export const NewPopularDestination = () => {
                                             </div>
                                             <div className="newPopularDestinationsdetails">
                                             <h2>Zambia <span className="newhomeEasyVisajob-title">
-                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
                                                 <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                             </h2>
@@ -330,9 +330,9 @@ export const NewPopularDestination = () => {
                                             </div>
                                             <div className="newPopularDestinationsdetails">
                                             <h2>Stockholm <span className="newhomeEasyVisajob-title">
-                                            <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                            <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                            <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
+                                            <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                                            <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
                                                 <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                             </h2>

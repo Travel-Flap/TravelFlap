@@ -10,7 +10,7 @@ export const CheapFlights = () => {
             <div className='cheapflights'>
                 <div className='cheapflightsheading'>
                     <p>Cheap Flights with Destinations</p>
-                    <div className="cheapflightsselectoptions">
+                    {/* <div className="cheapflightsselectoptions"> */}
                         <div className="cheapflightselectdiv">
                             <select class="cheapflightsselect2">
                                 <option value>Country</option>
@@ -285,7 +285,7 @@ export const CheapFlights = () => {
                         <option>International</option>
                         <option>Domestic</option>
                     </select> */}
-                    </div>
+                    {/* </div> */}
                 </div>
                 <div className='cheapflightsmaindiv'>
                     <div className='cheapflightscountrynames'>

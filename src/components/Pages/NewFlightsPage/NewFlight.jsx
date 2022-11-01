@@ -6,10 +6,7 @@ import { NewHomeCaruosel } from '../NewHomePage/NewHomeBanner/NewHomeBanner'
 import { NewHomeExclusiveDeals } from '../NewHomePage/NewHomeExclusiveDeals/NewHomeExclusiveDeals'
 import { NewHomeFooter } from '../NewHomePage/NewHomeFooter/NewHomeFooter'
 import { NewHomeHandPicked } from '../NewHomePage/NewHomeHandPicked/NewHomeHandPicked'
-import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar'
-import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDestination'
-import { NewHomeTopCitites } from '../NewHomePage/NewHomeTopCitites/NewHomeTopCitites'
-import { CheapFlights } from './NewCheapFlight/CheapFlights'
+import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar';
 import { NewDomesticFlightsNearYou } from './NewDomesticFlights/NewDomesticFlights'
 import { NewFlightsBanner } from './NewFlightBanner/NewFlightBanner'
 import { NewFlightsNearYou } from './NewFlightsNearYou/NewFlightsNearYou'
@@ -18,6 +15,7 @@ import NewHomeAwards  from "../NewHomePage/NewHomeAwards/NewHomeAwards";
 import { NewHomeBottomBar } from '../NewHomePage/NewHomeBottomBar/NewHomeBottomBar'
 import { FlightsNearYou } from './NewFlightNearYou/FlightsNearYou'
 import { NewHomeStoriesSection } from '../NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection'
+import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDetination/NewHomePopularDestination'
 
 export const NewFlight = () => {
   return (
@@ -41,6 +39,7 @@ export const NewFlight = () => {
         </div> */}
 
         <CenterMode/>
+
         <NewHomeHandPicked/>
 
         
@@ -49,7 +48,7 @@ export const NewFlight = () => {
             <NewHomeTopCitites/>
         </div> */}
 
-        <CheapFlights/>
+        {/* <CheapFlights/> */}
 
         <NewHomeAppDownload/>
         
