@@ -20,17 +20,17 @@
   border-right: none;
   height: 39px;
   border-radius: 25px;
-  background-color: #3380F2 !important;
+  background-color: #3380f2 !important;
   display: flex;
   align-items: center;
   color: white !important;
   font-weight: 700;
   justify-content: space-between;
-  border: 2px solid #3380F2;
+  border: 2px solid #3380f2;
   outline: none;
   font-size: 15px;
   padding-left: 15px;
-  padding-right: 10PX;
+  padding-right: 10px !important; 
 }
 /* .newHomePopularDestinationDropContainer:after{
   color: white;

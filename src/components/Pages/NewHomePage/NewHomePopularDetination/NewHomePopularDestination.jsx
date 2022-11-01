@@ -4,10 +4,12 @@ import "./NewHomePopularDestination.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import MagicSliderDots from 'react-magic-slider-dots';
-import 'react-magic-slider-dots/dist/magic-dots.css';
+// import MagicSliderDots from 'react-magic-slider-dots';
+// import 'react-magic-slider-dots/dist/magic-dots.css';
 import { FaAngleDown } from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
+
+import SliderWrapper from "./SlickSliderStyle";
 
 export const CenterMode = () => {
     const [countryid, setCountryid] = useState('');
@@ -46,10 +48,16 @@ export const CenterMode = () => {
         cssEase: "linear",
         centerMode: true,
         arrows: false,
+        appendDots: dots => <ul>{dots}</ul>,
+        customPaging: i => (
+            <div className="ft-slick__dots--custom">
+                <div className="loading" />
+            </div>
+        ),
         beforeChange: (current, next) => setSlideindex(next),
-        appendDots: dots => {
-            return <MagicSliderDots dots={dots} numDotsToShow={4} dotWidth={30} />;
-          }
+        // appendDots: dots => {
+        //     return <MagicSliderDots dots={dots} numDotsToShow={4} dotWidth={30} />;
+        //   }
     };
 
     const slides = [
@@ -68,45 +76,47 @@ export const CenterMode = () => {
             <div className="popularDestinationsheadingdiv">
                 <p>Popular Destinations</p>
                 {/* <div className='newHomePopularDestinationDropContainer'> */}
-                
-                    <select className="newHomePopularDestinationDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
-                        <option style={{textAlign:"Left"}}>Country</option>
-                        {
-                            countrydata.map((getcountry, index) => (
-                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                            ))
-                        }
-                    </select>
 
-                    {/* <div className='populardestinationsicondiv'>
+                <select className="newHomePopularDestinationDropContainer" onChange={(e) => handlecounty(e)} >
+                    <option style={{ textAlign: "Left" }}>Country</option>
+                    {
+                        countrydata.map((getcountry, index) => (
+                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                        ))
+                    }
+                </select>
+
+                {/* <div className='populardestinationsicondiv'>
                         <FaAngleDown style={{ fontSize: "15px" }} size={"1em"} className="populardestinationsicon" />
                     </div>
                 </div> */}
             </div>
             <div className="mainCarouselDiv">
                 <div className="sliderDiv">
-                    <Slider {...settings}>
-                        {slides.map((item, index) => (
-                            <div className={index === slideindex ? 'populardestinationsslide populardestinationsslide-active' : 'populardestinationsslide'} key={index}>
+                    <SliderWrapper>
+                        <Slider {...settings}>
+                            {slides.map((item, index) => (
+                                <div className={index === slideindex ? 'populardestinationsslide populardestinationsslide-active' : 'populardestinationsslide'} key={index}>
 
-                                <div className='populardestinationimagestransition'>
-                                    <img src={item.img} alt="" />
+                                    <div className='populardestinationimagestransition'>
+                                        <img src={item.img} alt="" />
+                                    </div>
+                                    <h5>{item.solution}</h5>
+                                    {/* <br/> */}
+                                    <p>{item.days}</p>
+
+                                    <h6>{item.package}</h6>
+
+                                    <h3>{item.start}
+                                        <span>
+                                            <h4 className='newFlightsPrice'>{item.rate}</h4>
+                                        </span>
+                                    </h3>
+
                                 </div>
-                                <h5>{item.solution}</h5>
-                                {/* <br/> */}
-                                <p>{item.days}</p>
-
-                                <h6>{item.package}</h6>
-
-                                <h3>{item.start}
-                                    <span>
-                                        <h4 className='newFlightsPrice'>{item.rate}</h4>
-                                    </span>
-                                </h3>
-
-                            </div>
-                        ))}
-                    </Slider>
+                            ))}
+                        </Slider>
+                    </SliderWrapper>
                 </div>
             </div>
         </>
