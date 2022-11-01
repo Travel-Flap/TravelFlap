@@ -15,7 +15,7 @@ import NewHomeAwards  from "../NewHomePage/NewHomeAwards/NewHomeAwards";
 import { NewHomeBottomBar } from '../NewHomePage/NewHomeBottomBar/NewHomeBottomBar'
 import { FlightsNearYou } from './NewFlightNearYou/FlightsNearYou'
 import { NewHomeStoriesSection } from '../NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection'
-import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDetination/NewHomePopularDestination'
+import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDestination'
 
 export const NewFlight = () => {
   return (

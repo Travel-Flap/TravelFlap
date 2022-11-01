@@ -18,7 +18,7 @@ import { Plan } from '../../NextHolidaysPlan/Plan';
 import { FooterLinks } from '../../FooterLinks/FooterLinks';
 import { NewHomeFooterLinks } from './NewHomeFooterLinks/NewHomeFooterLinks';
 import { ExperimentBanner } from './ExperimentBanner/ExperimentBanner';
-import { CenterMode } from './NewHomePopularDetination/NewHomePopularDetination/NewHomePopularDestination';
+import { CenterMode } from './NewHomePopularDetination/NewHomePopularDestination';
 
 export const NewHomeLayout = () => {
     return (
