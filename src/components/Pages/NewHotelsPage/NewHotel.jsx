@@ -16,7 +16,7 @@ import { FavouriteHotelGlobe } from './FavouriteHotelGlobe/FavouriteHotelGlobe';
 import { NewHotelCaruosel } from './HotelsBanner/NewHotelBanner';
 import { WhyChooseUs } from './WhyChooseUs/WhyChooseUs';
 import { NewHomeStoriesSection } from "../../Pages/NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection";
-import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDetination/NewHomePopularDestination';
+import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDestination';
 
 export const NewHotel = () => {
     return (
