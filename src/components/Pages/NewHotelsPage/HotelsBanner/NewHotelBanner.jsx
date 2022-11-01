@@ -57,7 +57,43 @@ export const NewHotelCaruosel = () => {
                             <img
                                 className="newHotelbannervideo d-block"
                                 // src="Images/NewHomeLayout/NewHotelBanner/NewHotelBanner.gif"
-                                src={NewHotelBanner}
+                                src="Images/NewHomeLayout/Banners/Hotels/Image 3.jpg" 
+                                alt="First slide"
+                            />
+                            
+                        </div>
+                        <Carousel.Caption>
+                            {/* <h1>Travel</h1> */}
+                            {/* <h2 className='bottomheading'>the world</h2>
+              <div className="carouselbtn">Explore...</div> */}
+                        </Carousel.Caption>
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                        <div className='newHotelbannerimage'>
+
+                            <img
+                                className="newHotelbannervideo d-block"
+                                // src="Images/NewHomeLayout/NewHotelBanner/NewHotelBanner.gif"
+                                src="Images/NewHomeLayout/Banners/Hotels/Image 2.jpg" 
+                                alt="First slide"
+                            />
+                            
+                        </div>
+                        <Carousel.Caption>
+                            {/* <h1>Travel</h1> */}
+                            {/* <h2 className='bottomheading'>the world</h2>
+              <div className="carouselbtn">Explore...</div> */}
+                        </Carousel.Caption>
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                        <div className='newHotelbannerimage'>
+
+                            <img
+                                className="newHotelbannervideo d-block"
+                                // src="Images/NewHomeLayout/NewHotelBanner/NewHotelBanner.gif"
+                                src="Images/NewHomeLayout/Banners/Hotels/Image 1.jpg" 
                                 alt="First slide"
                             />
                             

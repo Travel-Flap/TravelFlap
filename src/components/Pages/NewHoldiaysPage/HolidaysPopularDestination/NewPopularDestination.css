@@ -216,7 +216,7 @@
   
   .newPopularDestinationsdetails {
     position: absolute;
-    bottom: -76%;
+    bottom: -20%;
     left: 0;
     width: 100%;
     height: 310px;
@@ -227,9 +227,9 @@
     color: white;
   }
   
-  .newPopularDestinationsdetails :hover {
+  /* .newPopularDestinationsdetails :hover {
     color: white;
-  }
+  } */
   
   .newPopularDestinationsdetails h2 {
     margin: 0px 0;
@@ -247,9 +247,9 @@
     display: block;
   }
   
-  .newPopularDestinationsdiv:hover .newPopularDestinationsdetails {
+  /* .newPopularDestinationsdiv:hover .newPopularDestinationsdetails {
       bottom: 0;
-    }
+    } */
   
   .newPopularDestinationsdetails button{
     margin-left: 35%;

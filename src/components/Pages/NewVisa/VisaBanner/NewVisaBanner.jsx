@@ -11,7 +11,7 @@ export const NewVisaPageBanner = () => {
                         <img src="Images/NewHomeLayout/Banners/Visa/image1.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
-                        <img src="Images/NewHomeLayout/Banners/Visa/Image2.jpg" class="d-block w-100" alt="..." />
+                        <img src="Images/NewHomeLayout/Banners/Visa/Image 2.jpg" class="d-block w-100" alt="..." />
                     </div>
                     <div class="carousel-item">
                         <img src="Images/NewHomeLayout/Banners/Visa/Image 3.jpg" class="d-block w-100" alt="..." />

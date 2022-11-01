@@ -1,7 +1,7 @@
 .newFlightsNearYoumaindiv{
     width: 100%;
     /* margin-top: 5%; */
-    background-color: #3380f2;
+    /* background-color: #3380f2; */
      /* background-image: url("./clouds.png"); */
     height: 620px;
   }
@@ -16,6 +16,7 @@
     border: none;
     transition: all 300ms ease-in-out;
     cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
 
   .newFlightsNearYououterdiv:hover {
@@ -25,7 +26,7 @@
   }
   
   .newFlightsNearYouHeadingcontainer {
-    background-color: #3380f2;
+    /* background-color: #3380f2; */
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -40,7 +41,7 @@
     margin-top: 2%;
     margin-left: 5%;
     width:65%;
-    color: white;
+    color: #3380f2;
     /* color: #3380f2; */
   }
 
@@ -51,8 +52,8 @@
   }
 
   .newFlightsNearYouAllDeals h5{
-    border: 1px solid white;
-    color: white;
+    border: 1px solid #3380f2;
+    color: #3380f2;
     margin-top: 12%;
     margin-left: 15%;
     width: 45%;
@@ -124,7 +125,8 @@
     width: 90%;
     margin: auto;
     margin-top: 1.7%;
-    background-color: #3380f2;
+    
+    /* background-color: #3380f2; */
   }
   .newFlightsNearYouCardtitle {
     /* border: 1px dotted slateblue; */
@@ -209,6 +211,7 @@
     height: 180px;
     object-fit: cover;
     width: 100%;
+    border-radius: 7px 7px 0px 0px !important;
   }
   
   .newFlightsNearYouCarddescmain {
@@ -283,7 +286,7 @@
     width: 40%;
     border-radius: 15px !important;
     background-color: white;
-    color: #3380f2;
+    color: black;
     padding: 4px 9px;
     font-weight: 500;
     margin-bottom: 1%;

@@ -147,7 +147,7 @@ export const NewHomeEasyVisaDestination = () => {
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
-                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
@@ -164,7 +164,7 @@ export const NewHomeEasyVisaDestination = () => {
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
-                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
@@ -180,7 +180,7 @@ export const NewHomeEasyVisaDestination = () => {
                                     <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
-                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
@@ -196,7 +196,7 @@ export const NewHomeEasyVisaDestination = () => {
                                     <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
-                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
@@ -212,7 +212,7 @@ export const NewHomeEasyVisaDestination = () => {
                                     <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
-                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
@@ -228,7 +228,7 @@ export const NewHomeEasyVisaDestination = () => {
                                     <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
-                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
@@ -244,7 +244,7 @@ export const NewHomeEasyVisaDestination = () => {
                                     <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
-                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
@@ -260,7 +260,7 @@ export const NewHomeEasyVisaDestination = () => {
                                     <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
-                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>

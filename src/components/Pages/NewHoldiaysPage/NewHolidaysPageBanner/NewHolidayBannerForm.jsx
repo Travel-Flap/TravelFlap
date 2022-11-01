@@ -149,7 +149,7 @@ export const NewHolidayBannerForm = () => {
                                 </div>
 
                                 <div className='singleNewHolidaysBannerdropcontainer'>
-                                    <h5>Choose Category</h5>
+                                    <h5 style={{marginLeft:"5%"}}>Choose Category</h5>
                                     <select className="form-select" aria-label="Default select example" style={{color:"grey",fontSize:"15px",marginLeft:"5%", width: "100%", border: "2px solid #dddddd78" }}>
                                         <option value>Package Category</option>
                                         <option value="1">Family</option>

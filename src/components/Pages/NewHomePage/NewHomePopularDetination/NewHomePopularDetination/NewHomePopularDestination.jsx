@@ -51,7 +51,7 @@ export const CenterMode = () => {
         appendDots: dots => <ul>{dots}</ul>,
         customPaging: i => (
             <div className="ft-slick__dots--custom">
-                <div className="loading" />
+                <div className="loading"/>
             </div>
         ),
         beforeChange: (current, next) => setSlideindex(next),

@@ -163,7 +163,7 @@ export const NewPopularDestination = () => {
                                                 <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
                                                 <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                                 </span>
-                                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                                 </h2>
                                             </div>
                                         </div>
@@ -185,7 +185,7 @@ export const NewPopularDestination = () => {
                                             <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
                                             <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
-                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                                {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                             </h2>
                                             </div>
                                         </div>
@@ -206,7 +206,7 @@ export const NewPopularDestination = () => {
                                             <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
                                             <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
-                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                                {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                             </h2>
                                             </div>
                                         </div>
@@ -227,7 +227,7 @@ export const NewPopularDestination = () => {
                                             <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
                                             <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
-                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                                {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                             </h2>
                                             </div>
                                         </div>
@@ -248,7 +248,7 @@ export const NewPopularDestination = () => {
                                             <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
                                             <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
-                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                                {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                             </h2>
                                             </div>
                                         </div>
@@ -269,7 +269,7 @@ export const NewPopularDestination = () => {
                                             <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
                                             <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
-                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                                {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                             </h2>
                                             </div>
                                         </div>
@@ -290,7 +290,7 @@ export const NewPopularDestination = () => {
                                             <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
                                             <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
-                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                                {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                             </h2>
                                             </div>
                                         </div>
@@ -312,7 +312,7 @@ export const NewPopularDestination = () => {
                                             <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
                                             <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
-                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                                {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                             </h2>
                                             </div>
                                         </div>
@@ -334,7 +334,7 @@ export const NewPopularDestination = () => {
                                             <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
                                             <p style={{marginTop:"-6%",fontSize:"13px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                             </span>
-                                                <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                                {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                             </h2>
                                             </div>
                                         </div>

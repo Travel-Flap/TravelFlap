@@ -219,7 +219,10 @@ export const NewHomeFooter = () => {
                 <h5>We accept</h5>
 
                 <div className='newFooterPaymentImages'>
-                    <div className='gatewayImage1'>
+                    <div className='gatewayImage2'>
+                        <img src='Images/NewHomeLayout/FooterContent/payingSystem.png'/>
+                    </div>
+                    {/* <div className='gatewayImage1'>
                         <img src='Images/NewHomeLayout/FooterContent/RupayLogo.png'/>
                     </div>
                     <div className='gatewayImage2'>
@@ -233,7 +236,7 @@ export const NewHomeFooter = () => {
                     </div>
                     <div className='gatewayImage2'>
                         <img src='Images/NewHomeLayout/FooterContent/Masterclass.png'/>
-                    </div>
+                    </div> */}
                     {/* <div className='gatewayImage3'>
                         <img src='Images/NewHomeLayout/FooterContent/visa.png'/>
                     </div> */}

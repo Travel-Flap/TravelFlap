@@ -1,6 +1,6 @@
 .container_NewApplication_footprint{
     width: 100%;
-    height: 280px;
+    height: 320px;
     /* background-image: url("https://etimg.etb2bimg.com/photo/93229844.cms") ; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,7 +129,7 @@
 .processApplicationimage{
     /* border: 2px solid red; */
     width: 20%;
-    height: 276px !important;
+    height: 284px !important;
     margin-top: -10%;
     background-image: url("./worldImage.png");
     background-size: cover;

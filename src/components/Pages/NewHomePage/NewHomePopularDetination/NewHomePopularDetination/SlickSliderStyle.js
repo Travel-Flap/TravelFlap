@@ -7,9 +7,7 @@ const SliderWrapper = styled("div")`
   /* Slider */
   .slick-slider {
     margin-bottom: 8px;
-
     position: relative;
-
     display: block;
     box-sizing: border-box;
 
@@ -200,8 +198,7 @@ const SliderWrapper = styled("div")`
 
   .slick-dots {
     position: absolute;
-    bottom: -10px;
-
+    bottom: -30px;
     display: block;
 
     width: 100%;
@@ -306,13 +303,12 @@ const SliderWrapper = styled("div")`
 
   .slick-dots .slick-active .ft-slick__dots--custom {
     width: 56px;
-    top: 0px;
     overflow: hidden;
 
     .loading {
       height: 8px;
       animation: loading 5s ease-in;
-      background-image: linear-gradient(270deg, #4fd15a, #03ac0e);
+      background-image: linear-gradient(270deg, #3380F2, #3380F2);
       display: inline-block;
       position: absolute;
       top: 0;

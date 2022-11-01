@@ -14,7 +14,8 @@ import { FrequentlyAskedQuestions } from './NewFrequentlyAskedQuestions/Frequent
 import NewHomeAwards  from "../NewHomePage/NewHomeAwards/NewHomeAwards";
 import { NewHomeBottomBar } from '../NewHomePage/NewHomeBottomBar/NewHomeBottomBar'
 import { FlightsNearYou } from './NewFlightNearYou/FlightsNearYou'
-import { NewHomeStoriesSection } from '../NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection'
+import { NewHomeStoriesSection } from '../NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection';
+import { CheapFlights } from './NewCheapFlight/CheapFlights';
 import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDetination/NewHomePopularDestination'
 
 export const NewFlight = () => {
