@@ -67,10 +67,10 @@
     display: block;
   }
   
-  .card:hover .newAdventureActivitydetails {
+  /* .card:hover .newAdventureActivitydetails {
     bottom: 0;
   }
-  
+   */
   .carousel .slick-dots {
     bottom: -2.5vw;
   }
@@ -270,7 +270,7 @@
     }
     .newAdventureActivitydetails {
       position: absolute;
-      bottom: -64%;
+      bottom: -48%;
       left: 0;
       width: 100%;
       height: 310px;
@@ -296,6 +296,6 @@
       display: block;
     }
     
-    .card:hover .newAdventureActivitydetails {
+    /* .card:hover .newAdventureActivitydetails {
       bottom: 0;
-    }
+    } */

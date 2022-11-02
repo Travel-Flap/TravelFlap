@@ -73,7 +73,7 @@ export const NewHomeHandPicked = () => {
                         </div>
                     </div> */}
                 
-                   <select className="newHomehandpickedDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
+                   <select className="newHomehandpickedDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left",paddingRight:"15px"}}>
                         <option style={{textAlign:"Left"}}>Country</option>
                         {
                             countrydata.map((getcountry, index) => (
@@ -166,7 +166,7 @@ export const NewHomeHandPicked = () => {
                                                 </div>
                                             </div>
                                             <div className='testhover'>
-                                            <img src='Images/Handpicked Destination/Romantic Destination3.jpg' className="handpickedcard-img-top" alt="..." />
+                                            <img src='Images/Handpicked Destination/Romantic Destination3.jpeg' className="handpickedcard-img-top" alt="..." />
                                             </div>
                                         </div>
                                     </div>
@@ -187,7 +187,7 @@ export const NewHomeHandPicked = () => {
                                             </div>
                                         </div>
                                         <div className='testhover'>
-                                        <img src='Images/Handpicked Destination/Romantic Destination2.jpg'  className="handpickedcard-img-top testhover" alt="..." />
+                                        <img src='Images/Handpicked Destination/Romantic Destination2.jpeg'  className="handpickedcard-img-top testhover" alt="..." />
                                         </div>
                                         </div>
                                 </div>
@@ -208,7 +208,7 @@ export const NewHomeHandPicked = () => {
                                             </div>
                                         </div>
                                         <div className='testhover'>
-                                        <img src='Images/Handpicked Destination/Adventure4.jpg'  className="handpickedcard-img-top testhover" alt="..." />
+                                        <img src='Images/Handpicked Destination/Adventure4.jpeg'  className="handpickedcard-img-top testhover" alt="..." />
                                        </div>
                                     </div>
                                     {/* <div className="card-body">
@@ -261,7 +261,7 @@ export const NewHomeHandPicked = () => {
                                             </div>
                                         </div>
                                         <div className='testhover'>
-                                        <img src='Images/Handpicked Destination/Beach2.jpg'  className="handpickedcard-img-top testhover" alt="..." />
+                                        <img src='Images/Handpicked Destination/Beach2.jpeg'  className="handpickedcard-img-top testhover" alt="..." />
                                     </div>
                                     </div>
                                     {/* <div className="card-body">
@@ -287,7 +287,7 @@ export const NewHomeHandPicked = () => {
                                             </div>
                                         </div>
                                         <div className='testhover'>
-                                        <img src='Images/Handpicked Destination/HillStation2.jpg'  className="handpickedcard-img-top testhover" alt="..." />
+                                        <img src='Images/Handpicked Destination/HillStation2.jpeg'  className="handpickedcard-img-top testhover" alt="..." />
                                     </div>
                                     </div>
                                     {/* <div className="card-body">
@@ -312,7 +312,7 @@ export const NewHomeHandPicked = () => {
                                             </div>
                                         </div>
                                         <div className='testhover'>
-                                        <img src='Images/Handpicked Destination/International Destination1.jpg'  className="handpickedcard-img-top testhover" alt="..." />
+                                        <img src='Images/Handpicked Destination/International Destination1.jpeg'  className="handpickedcard-img-top testhover" alt="..." />
                                     </div>
                                     </div>
                                     {/* <div className="card-body">
@@ -337,7 +337,7 @@ export const NewHomeHandPicked = () => {
                                             </div>
                                         </div>
                                         <div className='testhover'>
-                                        <img src='Images/Handpicked Destination/Heritage TajMahal.jpg'  className="handpickedcard-img-top testhover" alt="..." />
+                                        <img src='Images/Handpicked Destination/Heritage TajMahal.jpeg'  className="handpickedcard-img-top testhover" alt="..." />
                                     </div>
                                     </div>
                                     {/* <div className="card-body">
@@ -362,7 +362,7 @@ export const NewHomeHandPicked = () => {
                                             </div>
                                         </div>
                                         <div className='testhover'>
-                                        <img src='Images/Handpicked Destination/Pilgrimage.jpg'  className="handpickedcard-img-top testhover" alt="..." />
+                                        <img src='Images/Handpicked Destination/Pilgrimage.jpeg'  className="handpickedcard-img-top testhover" alt="..." />
                                     </div>
                                     </div>
                                     {/* <div className="card-body handpickednewhomepagecardwrapper">
@@ -379,6 +379,8 @@ export const NewHomeHandPicked = () => {
             </div>
 
         </>
+
+
     );
 }
 

@@ -377,7 +377,7 @@
   }
   .newWorldActivitydetails {
     position: absolute;
-    bottom: -64%;
+    bottom: -50%;
     left: 0;
     width: 100%;
     height: 310px;
@@ -405,8 +405,8 @@
     display: block;
   }
   
-  .card:hover .newWorldActivitydetails {
+  /* .card:hover .newWorldActivitydetails {
     bottom: 0;
-  }
+  } */
   
   

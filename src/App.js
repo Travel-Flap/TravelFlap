@@ -16,6 +16,8 @@ import { NewHolidaysPage } from "./components/Pages/NewHoldiaysPage/NewHolidaysP
 import { NewRentalsPage } from "./components/Pages/NewRentalsPage/NewRentalsPage";
 import { NewOffers } from "./components/Pages/NewOffersPage/NewOffers";
 
+import {HandpickedBeachDestinationPage} from "./components/Pages/SubPages/HandpickedBeachDestinationPage";
+
 function App() {
   return (
     <>
@@ -49,7 +51,8 @@ function App() {
         {/* <Route path="/cruise" element={<NewCruisePage/>} /> */}
         <Route path="/rentals" element={ <NewRentalsPage/>} />
         <Route path="/offers" element={<NewOffers/>}   />
-
+        
+        <Route path="/weekendgetaways" element={<HandpickedBeachDestinationPage/>} />
         
         
         {/* <Route path="/staycations" element={ <Staycations/>} /> */}

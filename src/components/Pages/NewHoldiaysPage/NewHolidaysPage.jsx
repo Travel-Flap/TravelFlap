@@ -22,6 +22,8 @@ export const NewHolidaysPage = () => {
       {/* <NewHomeNav/> */}
       <NewHolidaysPageBanner />
 
+      <NewHomeExclusiveDeals />
+
       <NewHolidaysCategory/>
       
       {/* <HolidaysThemeFilter /> */}
@@ -34,7 +36,7 @@ export const NewHolidaysPage = () => {
         <NewHolidaysBestBudget />
       </div>
       
-      <NewHomeExclusiveDeals />
+      
 
 
       <div className=''>

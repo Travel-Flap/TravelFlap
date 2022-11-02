@@ -5,7 +5,7 @@ export const WhyChooseUs = () => {
     return (
         <>
             <div className="newChoose_container">
-                <div id="newChoose_containerchild1">
+                {/* <div id="newChoose_containerchild1">
                     <h5>Why Choose Us?</h5>
                 </div>
                 <div id="newChoose_containerchild2">
@@ -60,7 +60,7 @@ export const WhyChooseUs = () => {
 
 
 
-                </div>
+                </div> */}
             </div>
 
         </>

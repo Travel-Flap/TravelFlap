@@ -121,16 +121,16 @@ export const FlightsNearYou = () => {
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
-                                    <h3 class="card-title newFlightsNearYouCardtitle">Dhaka</h3>
+                                    <h3 class="card-title newFlightsNearYouCardtitle">Dubai</h3>
 
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Component2.png" />
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Emirates.png" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
                                             <h5>Thu, 10 Nov</h5>
-                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                            <p>CCU-DAC with Emirates Airlines.</p>
                                         </div>
 
                                         <div className="newFlightNaerContent">
@@ -141,12 +141,12 @@ export const FlightsNearYou = () => {
 
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Component2.png" />
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Emirates.png" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
                                             <h5>Thu, 10 Nov</h5>
-                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                            <p>CCU-DAC with Emirates Airlines.</p>
                                         </div>
 
                                         <div className="newFlightNaerContent">
@@ -168,10 +168,10 @@ export const FlightsNearYou = () => {
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
-                                    <h3 class="card-title newFlightsNearYouCardtitle">Kathmadnu</h3>
+                                    <h3 class="card-title newFlightsNearYouCardtitle">Kathmandu</h3>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/IndiGo.png" />
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/In.png" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -186,7 +186,7 @@ export const FlightsNearYou = () => {
                                     </div>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                        <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/IndiGo.png" />
+                                        <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/In.png" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -216,7 +216,7 @@ export const FlightsNearYou = () => {
                                     <h3 class="card-title newFlightsNearYouCardtitle">Da Nang</h3>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Component1.png" />
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Vi.png" />
                                         </div>
                                         <div className="newFlightNearContentDatediv">
                                             <h5>Fri, 4 Nov</h5>
@@ -230,7 +230,7 @@ export const FlightsNearYou = () => {
                                     </div>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Component1.png" />
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Vi.png" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -260,7 +260,7 @@ export const FlightsNearYou = () => {
                                     <h3 class="card-title newFlightsNearYouCardtitle">Singapore</h3>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Component3.png" />
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Air.png" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -275,7 +275,7 @@ export const FlightsNearYou = () => {
                                     </div>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Component3.png" />
+                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Air.png" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -310,7 +310,7 @@ export const FlightsNearYou = () => {
 
                                         <div className="newFlightNearContentDatediv">
                                             <h5>Thu, 10 Nov</h5>
-                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                            <p>CCU-DAC with Emirates Airlines.</p>
                                         </div>
 
                                         <div className="newFlightNaerContent">
@@ -325,7 +325,7 @@ export const FlightsNearYou = () => {
 
                                         <div className="newFlightNearContentDatediv">
                                             <h5>Thu, 10 Nov</h5>
-                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                            <p>CCU-DAC with Emirates Airlines.</p>
                                         </div>
 
                                         <div className="newFlightNaerContent">
@@ -355,7 +355,7 @@ export const FlightsNearYou = () => {
 
                                         <div className="newFlightNearContentDatediv">
                                             <h5>Thu, 10 Nov</h5>
-                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                            <p>CCU-DAC with Emirates Airlines.</p>
                                         </div>
 
                                         <div className="newFlightNaerContent">
@@ -370,7 +370,7 @@ export const FlightsNearYou = () => {
 
                                         <div className="newFlightNearContentDatediv">
                                             <h5>Thu, 10 Nov</h5>
-                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                            <p>CCU-DAC with Emirates Airlines.</p>
                                         </div>
 
                                         <div className="newFlightNaerContent">
@@ -400,7 +400,7 @@ export const FlightsNearYou = () => {
 
                                         <div className="newFlightNearContentDatediv">
                                             <h5>Thu, 10 Nov</h5>
-                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                            <p>CCU-DAC with Emirates Airlines.</p>
                                         </div>
 
                                         <div className="newFlightNaerContent">
@@ -415,7 +415,7 @@ export const FlightsNearYou = () => {
 
                                         <div className="newFlightNearContentDatediv">
                                             <h5>Thu, 10 Nov</h5>
-                                            <p>CCU-DAC with Biman Bangladesh Airlines.</p>
+                                            <p>CCU-DAC with Emirates Airlines.</p>
                                         </div>
 
                                         <div className="newFlightNaerContent">

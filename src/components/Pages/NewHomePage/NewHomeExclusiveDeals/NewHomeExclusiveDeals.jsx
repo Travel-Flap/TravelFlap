@@ -50,8 +50,6 @@ export const NewHomeExclusiveDeals = () => {
                         <h3>Cruise</h3>
                         <h3>Rentals</h3>
                         <h3>Staycations</h3>
-
-
                     </div>
                     <div className="viewallexclusivebuttons" >
                         {/* <p className="viewallexclusivetext">view all deals</p> */}
@@ -60,6 +58,7 @@ export const NewHomeExclusiveDeals = () => {
                                 <FaAngleLeft size={"2.5em"}
                                     onClick={() => sliderRef.current.slickPrev()}
                                 />
+
 
                                 <FaAngleRight size={"2.5em"}
                                     onClick={() => sliderRef.current.slickNext()}
@@ -102,7 +101,7 @@ export const NewHomeExclusiveDeals = () => {
                         <div className="exclusivedealsmaindivslider" >
                             <Slider
                                 arrows={false}
-                                autoplay={true}
+                                // autoplay={true}
                                 speed={4000}
                                 autoplaySpeed={4000}
                                 dots={true}

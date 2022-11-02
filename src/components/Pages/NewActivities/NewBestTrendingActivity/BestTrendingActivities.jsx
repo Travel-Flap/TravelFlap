@@ -37,7 +37,7 @@ export default class NewTrendingActivities extends Component {
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
-                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h2>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ export default class NewTrendingActivities extends Component {
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
-                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h2>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ export default class NewTrendingActivities extends Component {
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
-                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h2>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ export default class NewTrendingActivities extends Component {
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
-                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h2>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ export default class NewTrendingActivities extends Component {
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
-                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h2>
                             </div>
                         </div>
@@ -122,7 +122,7 @@ export default class NewTrendingActivities extends Component {
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
                                     </span>
-                                    <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h2>
                             </div>
                         </div>
@@ -139,7 +139,7 @@ export default class NewTrendingActivities extends Component {
                                             other for same
                                         </p>
                                     </span>
-                                        <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
+                                        // <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button>
                                     </h2>
                                 </div>
                             </div>

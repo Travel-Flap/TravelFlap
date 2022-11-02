@@ -130,7 +130,7 @@
 
 .newRentalsCarHirestorydetails {
   position: absolute;
-  bottom: -70%;
+  bottom: -43%;
   left: 0;
   width: 100%;
   height: 310px;
@@ -158,9 +158,9 @@
   display: block;
 }
 
-.card:hover .newRentalsCarHirestorydetails {
+/* .card:hover .newRentalsCarHirestorydetails {
   bottom: 0;
-}
+} */
 
 .newRentalsCarHireSlideroutercontainer .slick-dots {
   bottom: -2.5vw;

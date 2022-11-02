@@ -99,7 +99,7 @@ export const CenterMode = () => {
                                 <div className={index === slideindex ? 'populardestinationsslide populardestinationsslide-active' : 'populardestinationsslide'} key={index}>
 
                                     <div className='populardestinationimagestransition'>
-                                        <img src={item.img} alt="" />
+                                        <img src={item.img} alt=""/>
                                     </div>
                                     <h5>{item.solution}</h5>
                                     {/* <br/> */}
