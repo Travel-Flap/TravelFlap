@@ -25,165 +25,173 @@ export const Staycationsnavbar = () => {
     }, []);
 
     return (
-     <>
-       <div className="staycationsnavbardiv">
-           <div className="staycationnavbariconsdiv">
-           <Slider
-                    arrows={false}
-                    autoplay={true}
-                    speed={2000}
-                    autoplaySpeed={3000}
-                    dots
-                    dotsclassName="slick-dots line-indicator"
-                    ref={sliderRef}
-                    slidesToShow={10}
-                    slidesToScroll={2}
-                    responsive={[
-                        {
-                            breakpoint: 1024,
-                            settings: {
-                                slidesToShow: 3,
-                                slidesToScroll: 1,
-                                infinite: true
+        <>
+            <div className="staycationsnavbardiv">
+                <div className="staycationnavbariconsdiv">
+                    <Slider
+                        arrows={false}
+                        autoplay={true}
+                        speed={2000}
+                        autoplaySpeed={2000}
+                        dots
+                        dotsclassName="slick-dots line-indicator"
+                        ref={sliderRef}
+                        slidesToShow={10}
+                        slidesToScroll={2}
+                        responsive={[
+                            {
+                                breakpoint: 1024,
+                                settings: {
+                                    slidesToShow: 3,
+                                    slidesToScroll: 1,
+                                    infinite: true
+                                }
+                            },
+                            {
+                                breakpoint: 950,
+                                settings: {
+                                    slidesToShow: 2,
+                                    slidesToScroll: 1,
+                                    infinite: true
+                                }
+                            },
+                            {
+                                breakpoint: 800,
+                                settings: {
+                                    slidesToShow: 2,
+                                    slidesToScroll: 1,
+                                    infinite: true
+                                }
+                            },
+                            {
+                                breakpoint: 600,
+                                settings: {
+                                    slidesToShow: 2,
+                                    slidesToScroll: 2,
+                                    initialSlide: 2
+                                }
+                            },
+                            {
+                                breakpoint: 480,
+                                settings: {
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1
+                                }
                             }
-                        },
-                        {
-                            breakpoint: 950,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 1,
-                                infinite: true
-                            }
-                        },
-                        {
-                            breakpoint: 800,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 1,
-                                infinite: true
-                            }
-                        },
-                        {
-                            breakpoint: 600,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 2,
-                                initialSlide: 2
-                            }
-                        },
-                        {
-                            breakpoint: 480,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1
-                            }
-                        }
-                    ]}
-                    customPaging={(i) => (
-                        <div
-                            style={{
-                                // position: "absolute",
-                                width: "100%",
-                                top: "-10px",
-                                opacity: 0,
-                            }}
-                        >
-                            {i}
-                        </div>
-                    )}
-                >
+                        ]}
+                        customPaging={(i) => (
+                            <div
+                                style={{
+                                    // position: "absolute",
+                                    width: "100%",
+                                    top: "-10px",
+                                    opacity: 0,
+                                }}
+                            >
+                                {i}
+                            </div>
+                        )}
+                    >
 
-       
-               <div className="staycationnavbaricons">
-                <img className="staycationsnavbarimages"  src={iconic}/>
-                BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={arctic}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={breakfast}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={cabin}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={campervan}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={cave}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={cave}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={container}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={Mansion}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={nationalpark}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={island}/>
-               BeachFront
-               </div> 
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={island}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={island}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={island}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={island}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={island}/>
-               BeachFront
-               </div> 
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={island}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={island}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={island}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={island}/>
-               BeachFront
-               </div>
-               <div className="staycationnavbaricons">
-               <img className="staycationsnavbarimages"  src={island}/>
-               BeachFront
-               </div>
-               </Slider>
-           </div>
-           <div className="staycationsfilterdiv">
-             <FaList/> Filter
-           </div>
-       </div>
-     </>
+
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 20.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 21.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 22.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 23.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 24.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 25.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                        <div className="staycationnavbaricons">
+                            <img className="staycationsnavbarimages" src="Images/NewHomeLayout/NewStaycations/BelowCarouselNavbar/Component 19.png" />
+                            BeachFront
+                        </div>
+                    </Slider>
+                </div>
+                <div className="staycationsfilterdiv">
+                    <div className="filterdiv">
+                        Filter
+                        <div className="filterIcon">
+                            <FaList />
+                        </div>
+                    </div>
+                    <div className="viewAllButton">
+                        <button>See all</button>
+                    </div>
+                </div>
+            </div>
+        </>
     )
-  }
+}

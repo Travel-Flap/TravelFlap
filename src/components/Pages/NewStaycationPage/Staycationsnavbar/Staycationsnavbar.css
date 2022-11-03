@@ -1,14 +1,14 @@
 .staycationsnavbardiv{
     width: 100%;
-    height: 60px;
+    height: 120px;
     display: flex;
     margin-top: 2%;
-    /* border: 2px solid red; */
+    border-bottom: 5px solid lightgray;
 }
 .staycationnavbaricons{
-    width: 15%;
-    height: 75px;
-    /* border: 2px solid lightgray; */
+    width: 110% !important;
+    height: 90px;
+    /* border: 2px solid red; */
     /* color: #3380F2; */
     text-align: center;
     font-weight: 500;
@@ -22,18 +22,59 @@
     /* border: 2px solid gold; */
   }
 .staycationsnavbarimages{
-     margin-left: 37% !important;
-     width: 30px;
-     height: 30px;
+     /* margin-left: 37% !important; */
+     width: 100%;
+     height: 80px;
+     object-fit: cover;
   }
+  
+  .staycationsnavbarimages:hover{
+    cursor: pointer;
+  }
+
   .staycationsfilterdiv{
-    width: 6%;
-    height: 55px;
-    border: 2px solid lightgray;
-    margin-left: 3%;
-    color: black;
-    border-radius: 25px;
-    font-size: 18px;
-    text-align: center;
-    padding-top: 0.8%;
+    display: flex;
+    margin-left: 4%;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 0.7%;
+    /* border: 1px solid red; */
+    /* padding-top: 0.8%; */
   }
+
+  .filterdiv{
+    border: 1px solid;
+    width: 50% !important;
+    height: 30px;
+    /* margin-left: 5%; */
+    color: black;
+    border-radius: 9px;
+    font-size: 15px;
+    padding-left: 7px;
+    padding-top: 2px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    /* text-align: center; */
+  }
+
+  .filterIcon{
+    margin-left: 22%;
+  }
+
+
+.viewAllButton{
+  /* border: 1px solid red; */
+  height: 30px;
+  border-radius: 9px;
+  width: 50%;
+  margin-top: 5% !important;
+}
+
+.viewAllButton button{
+  width: 100%;
+  border-radius: 9px;
+  border: 1px solid black;
+  height: 30px;
+}
+

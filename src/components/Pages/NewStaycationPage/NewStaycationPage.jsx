@@ -14,6 +14,9 @@ import { NewStaycationpicsSlider } from "./NewStaycationpicsSlider/NewStaycation
 import { NewStaycationNavbar } from "./NewStaycationNavbar/NewStaycationNavbar";
 import { Staycationsnavbar } from "./Staycationsnavbar/Staycationsnavbar";
 import { NewStaycationStaticBanners } from "./NewStaycationStaticBanners/NewStaycationStaticBanners";
+import { FavouriteStaycationSpot } from "./FavouriteStaycation/FavouriteStaycation";
+import { BudgetFriendlyStaycations } from "./BudgetFriendlyStaycation/BudgetfriendlyStaycation";
+import { StaycationHappyFamily } from "./StaycationHappyFamily/StaycationHappyFamily";
 
 export const NewStaycationPage = () => {
    
@@ -27,7 +30,13 @@ export const NewStaycationPage = () => {
 
             <NewStaycationStaticBanners/>
             
-            <NewStaycationMostPicked/>
+            <FavouriteStaycationSpot/>
+
+            <BudgetFriendlyStaycations/>
+
+            {/* <StaycationHappyFamily/> */}
+
+            {/* <NewStaycationMostPicked/> */}
 
            <div className='carousel'>
                 <NewHomeAwards/>
@@ -41,7 +50,6 @@ export const NewStaycationPage = () => {
 
             <Plan/>
             <FooterLinks/>
-            {/* <NewHomeFooterLinks/> */}
             <NewHomeFooter/>
             <NewHomeBottomBar/>
         </>
