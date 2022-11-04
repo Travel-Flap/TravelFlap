@@ -18,7 +18,7 @@ export default class HandPickedBeachDestinationInternationalComponent extends Co
             autoplay: true,
             autoplaySpeed:2000,
             speed: 2000,
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
             cssEase: "linear",
             arrows:false,
@@ -26,7 +26,7 @@ export default class HandPickedBeachDestinationInternationalComponent extends Co
         return (
             
             <div className='handpickedbeachdestinationContainer'>
-                <div style={{width:"90%" ,margin:"auto"}}>
+                <div style={{width:"100%" ,margin:"auto"}}>
                 <div className='handpickedbeachdestinationHeading'>
                     <h2>Top International Beach Destination</h2>
                 </div>

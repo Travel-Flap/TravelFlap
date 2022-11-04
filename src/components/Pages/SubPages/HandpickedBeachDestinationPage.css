@@ -40,26 +40,26 @@
 .HandpickedBeachDestinationconatinerDiv{
     border-top: 2px solid #3380F2;
     border-bottom: 2px solid #3380F2;
-    width: 70%;
+    width: 90%;
     height: auto;
     margin: auto;
     margin-top: 2%;
     padding-top: 20px;
 }
 .HandPickedBeachSliderConatiner{
-    /* border: 2px solid yellow; */
-    width: 90%;
+    /* border: 2px solid red; */
+    width: 100%;
     margin: auto;
 }
 .HandPickedBeachSliderConatiner1{
     /* border: 2px solid yellow; */
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-top: 3%;
 }
 .HandPickedBeachSliderConatiner2{
     /* border: 2px solid yellow; */
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-top: 3%;
 }
@@ -79,7 +79,8 @@
   }
   .newhandPickedDestinationBeachYououterdiv:hover {
     padding: 5px;
-    box-shadow: 5px 10px 25px  #3380f2;
+    /* box-shadow: 5px 10px 25px  #3380f2; */
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
   }
   .newhandPickedDestinationBeachYouImagetextcontainer {
     width: 100%;

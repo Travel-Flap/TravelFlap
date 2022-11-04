@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.82a00e95.css",
-    "main.js": "/static/js/main.6a63b0bd.js",
+    "main.css": "/static/css/main.b16c6a06.css",
+    "main.js": "/static/js/main.9d9044aa.js",
     "static/js/988.5be36170.chunk.js": "/static/js/988.5be36170.chunk.js",
     "static/media/UAE4.jpg": "/static/media/UAE4.7d17172021074cd0aa62.jpg",
     "static/media/NewHomeBanner.gif": "/static/media/NewHomeBanner.c6c45c16f081ded45159.gif",
@@ -16,6 +16,7 @@
     "static/media/beach destination.jpg": "/static/media/beach destination.b232e3a3ba8619350f30.jpg",
     "static/media/whyChooseUsFinal.png": "/static/media/whyChooseUsFinal.912ad98b078a5e8db4f6.png",
     "static/media/HotelServicesBackground.png": "/static/media/HotelServicesBackground.835d9c2c3abb84c5aef3.png",
+    "static/media/m_Interlaken_l_426_640.jpg": "/static/media/m_Interlaken_l_426_640.9db31874d3ac84adbe68.jpg",
     "static/media/worldImage.png": "/static/media/worldImage.6ff46370da9042a090c1.png",
     "static/media/reviewbg.png": "/static/media/reviewbg.32b72a62a1cf68f62eea.png",
     "static/media/frontsideImage.jpeg": "/static/media/frontsideImage.c884d203696944ede3d7.jpeg",
@@ -40,12 +41,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.82a00e95.css.map": "/static/css/main.82a00e95.css.map",
-    "main.6a63b0bd.js.map": "/static/js/main.6a63b0bd.js.map",
+    "main.b16c6a06.css.map": "/static/css/main.b16c6a06.css.map",
+    "main.9d9044aa.js.map": "/static/js/main.9d9044aa.js.map",
     "988.5be36170.chunk.js.map": "/static/js/988.5be36170.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82a00e95.css",
-    "static/js/main.6a63b0bd.js"
+    "static/css/main.b16c6a06.css",
+    "static/js/main.9d9044aa.js"
   ]
 }

@@ -5,31 +5,33 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import HandPickedBeachDestinationInternationalComponent from './HandPickedBeachDestinationInternationalComponent/HandPickedBeachDestinationInternationalComponent';
+import { StaycationFaq } from './Faq/Faq';
+import { VideoTextStaycation } from './VideoText/VideoText';
 
 export const HandpickedBeachDestinationPage = () => {
 
-  const sliderRef = useRef(null);
-  useEffect(() => {
-      console.log(sliderRef);
-  }, []);
+    const sliderRef = useRef(null);
+    useEffect(() => {
+        console.log(sliderRef);
+    }, []);
 
     return (
 
-          <div className='HandpickedBeachDestinationPageOuterPage'>
+        <div className='HandpickedBeachDestinationPageOuterPage'>
             <div className='HandpickedBeachDestinationbannerDiv'>
-              <h5>The Most Excitting Beaches to Experience the Magic of Nature are a step away.</h5>
-              <p>“All You need is a good dose of vitamin sea.” Just Have a visit once.</p>
+                <h5>The Most Excitting Beaches to Experience the Magic of Nature are a step away.</h5>
+                <p>“All You need is a good dose of vitamin sea.” Just Have a visit once.</p>
             </div>
             <div className='HandpickedBeachDestinationPageHeading'>
-              <h3>Recommended For You</h3>
+                <h3>Recommended For You</h3>
             </div>
             <div className='HandpickedBeachDestinationconatinerDiv'>
-               
+
                 <div className='HandPickedBeachSliderConatiner'>
-                <Slider
+                    <Slider
                         arrows={false}
                         autoplay={true}
-                        speed={4000}
+                        speed={2000}
                         autoplaySpeed={2000}
                         dotsclassName="slick-dots line-indicator"
                         ref={sliderRef}
@@ -88,7 +90,7 @@ export const HandpickedBeachDestinationPage = () => {
                             </div>
                         )}
                     >
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -101,9 +103,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -116,9 +118,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -131,9 +133,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -146,9 +148,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -161,9 +163,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -176,9 +178,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -191,9 +193,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -206,15 +208,15 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                
-                </Slider>
+
+                    </Slider>
 
                 </div>
 
                 <div className='HandPickedBeachSliderConatiner1'>
-                <Slider
+                    <Slider
                         arrows={false}
                         // autoplay={true}
                         speed={4000}
@@ -276,7 +278,7 @@ export const HandpickedBeachDestinationPage = () => {
                             </div>
                         )}
                     >
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -289,9 +291,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv"  style={{marginTop:"15%"}}>
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv" style={{ marginTop: "15%" }}>
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -304,9 +306,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -319,9 +321,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -334,9 +336,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -349,9 +351,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -364,9 +366,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -379,9 +381,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -394,15 +396,15 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                
-                </Slider>
+
+                    </Slider>
 
                 </div>
 
                 <div className='HandPickedBeachSliderConatiner2'>
-                <Slider
+                    <Slider
                         arrows={false}
                         // autoplay={true}
                         speed={4000}
@@ -464,7 +466,7 @@ export const HandpickedBeachDestinationPage = () => {
                             </div>
                         )}
                     >
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -477,9 +479,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv"  style={{marginTop:"15%"}}>
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv" style={{ marginTop: "15%" }}>
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -492,9 +494,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -507,9 +509,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -522,9 +524,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -537,9 +539,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -552,9 +554,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -567,9 +569,9 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
-                </div>
+                        </div>
 
-                <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
+                        <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
                                     <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid handPickedDestinationBeachRecommendedimage" alt="..." />
@@ -582,26 +584,31 @@ export const HandpickedBeachDestinationPage = () => {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+
+
+                    </Slider>
+
                 </div>
-
-                
-                </Slider>
-
-                </div> 
 
             </div>
 
-            <HandPickedBeachDestinationInternationalComponent/>
+            <HandPickedBeachDestinationInternationalComponent />
 
-            <div style={{marginTop:"5%"}}>
-            <HandPickedBeachDestinationInternationalComponent/>  
+            <div style={{ marginTop: "5%" }}>
+                <HandPickedBeachDestinationInternationalComponent />
             </div>
-            
-          </div>
+
+            <div style={{ margin: "5%" }}>
+                <StaycationFaq />
+            </div>
+
+            <div>
+            </div>
+            <VideoTextStaycation />
+        </div>
 
 
-        
-        
     );
 }
 
