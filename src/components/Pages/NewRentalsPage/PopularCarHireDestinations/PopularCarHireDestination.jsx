@@ -1,98 +1,62 @@
-import React, { Component } from 'react';
-import { useState } from 'react';
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { Button } from 'react-bootstrap';
-import './PopularCarHireDestinaton.css';
-import { FaAngleDown } from "react-icons/fa";
-import countrydata from '../../../../CountryData.json';
-// import "/src/App.css";
+// export const NewPopularCarHireDestination = () => {
 
-export const NewPopularCarHireDestination = () => {
-    const [countryid, setCountryid] = useState('');
-    const [state, setState] = useState([]);
-    const [stateid, setStateid] = useState('');
-
-    const handlecounty = (e) => {
-        const getcountryId = e.target.value;
-        const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
-        setState(getStatedata);
-        setCountryid(getcountryId);
-        //console.log(getcountryId);
-    }
-
-    const handlestate = (e) => {
-        const stateid = e.target.value;
-        //console.log(stateid);
-        setStateid(stateid);
-
-    }
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        alert("Get Country id" + countryid + " And " + stateid);
-    }
-
-
-    return (
-
-        <div className='newRentalsPopularCarHireouterdiv'>
-            <div className='newRentalsPopularCarHireouterHeading'>
-                <h2>Popular car hire Destinations</h2>
-
-                {/* <div className='newHomeEasyVisaDropContainer'>
-                    <select className="form-select newEasyVisaCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
-                        style={{ border: "3px solid #3380f2", width: "60%" }}>
-                        <option value="" style={{ textAlign: "center" }}>Select Country</option>
-                        {
-                            countrydata.map((getcountry, index) => (
-                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                            ))
-                        }
-                    </select>
-                </div> */}
-
-                {/* <div className='newRentalsPopularCarHireDropContainer'>
-                    <select className="form-select newRentalsPopularCarHireCountryDrop" onChange={(e) => handlecounty(e)}
-                        style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
-                        <option value="" style={{ textAlign: "center" }}>Country</option>
-                        {
-                            countrydata.map((getcountry, index) => (
-                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                            ))
-                        }
-                    </select>
-                    <div className='newRentalsCarHireicondiv'>
-                        <FaAngleDown style={{ fontSize: "15px" }} size={"1em"} className="newCarHireicon" />
-                    </div>
-                </div> */}
-
-                    <select className="newRentalsPopularCarHireDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
-                        <option style={{textAlign:"Left"}}>Country</option>
-                        {
-                            countrydata.map((getcountry, index) => (
-                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                            ))
-                        }
-                    </select>
-            </div>
-
-            <div className='newRentalsCarHireSlideroutercontainer'>
-
-                <div className='newRentalsCarHireContainer'>
+    import Slider from "react-slick";
+    import "slick-carousel/slick/slick.css";
+    import "slick-carousel/slick/slick-theme.css";
+    // import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
+    import { useRef } from "react";
+    import { useEffect } from "react";
+    import "./PopularCarHireDestinaton.css";
+    // import { ButtonBase } from "@material-ui/core";
+    import { Button } from "react-bootstrap"
+    import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+    
+    export const NewPopularCarHireDestination = () => {
+        const sliderRef = useRef(null);
+        useEffect(() => {
+            console.log(sliderRef);
+        }, []);
+        return (
+            <div className="newBudgetfriendlymaindiv">
+                {/* <h1>Ipl</h1> */}
+                <div className="newBudgetFriendlyHeadingcontainer" >
+                    <h2 className="newBudgetFriendlyHeading1">Popular Carhire Destinations</h2>
+                    {/* <div className="internationalheading2">
+                        <div className="internationalheading">Asia</div>
+                        <div className="internationalheading">Africa</div>
+                        <div className="internationalheading">America</div>
+                        <div className="internationalheading">Antarctica</div>
+                        <div className="internationalheading">Australia</div>
+                        <div className="internationalheading">Europe</div>
+                    </div> */}
+    
+                    {/* <div className="newviewallActivityAroundbuttons" >
+                        <p className="newviewallActivityAroundtext">view deals</p>
+                        <div className="newActivityAroundHeadingbuttons">
+    
+                            <div style={{ display: "flex" }}>
+                                <FaAngleLeft size={"2.5em"}
+                                    onClick={() => sliderRef.current.slickPrev()}
+                                />
+                                <FaAngleRight size={"2.5em"}
+                                    onClick={() => sliderRef.current.slickNext()}
+                                />
+                            </div>
+                        </div>
+    
+                    </div> */}
+                </div>
+    
+                <div className="newBudgetFriendlySliderContainer">
                     <Slider
-                        // dots={true}
-                        // dotsclassName={"slick-dots line-indicator"}
-                        infinite={true}
+                        arrows={false}
                         // autoplay={true}
                         speed={2000}
-                        autoplayspeed={2000}
-                        slidesToShow={5}
-                        slidesToScroll={1}
-                        cssEase={"linear"}
-                        rtl={true}
-                        // arrows:true,
-                        arrows={false}
+                        autoplaySpeed={2000}
+                        dotsclassName="slick-dots line-indicator"
+                        ref={sliderRef}
+                        slidesToShow={4}
+                        slidesToScroll={2}
                         responsive={[
                             {
                                 breakpoint: 1024,
@@ -134,153 +98,161 @@ export const NewPopularCarHireDestination = () => {
                                 }
                             }
                         ]}
-
-                        style={{}} className="multiCardSlider">
-                        <div className="newRentalsCarHirecardwrapper">
-                            <div className="card newRentalsCarHiremaindiv">
-                                <div className="card-image newRentalsCarHirecardimage">
-                                    <img src="Images/EasyVisaDestinations/bolivia.jpg" />
+                        customPaging={(i) => (
+                            <div
+                                style={{
+                                    width: "100%",
+                                    top: "-10px",
+                                    opacity: 0,
+                                }}
+                            >
+                                {i}
+                            </div>
+                        )}
+                    >
+                        {/* <div className="experimentdivcontainer" style={{display:"flex",flexDirection:"row"}}/> */}
+    
+    
+                        <div class="card mb-3 newBudgetFriendlyOuterdiv" >
+                            <div class="row g-0 newBudgetFriendlyImagetextcontainer">
+                                <div class="col-md-8 newBudgetFriendlyCardimage">
+                                    <img src="Images/NewHomeLayout/NewStaycations/budget/Vietnam.jpg" class="img-fluid activityAroundimage" alt="..." />
                                 </div>
-                                <div className="newRentalsCarHirestorydetails">
-                                    <h2>Bolivia <span>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                                    </span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                    </h2>
+                                <div class="col-md-4 newBudgetFriendlyTextcard">
+                                    <div class="card-body newBudgetFriendlyCarddescmain">
+                                        <div className="contentButtoninnerdiv">
+                                            <h3 class="card-title newBudgetFriendlyCardtitle">Travel Talk</h3>
+                                            <button>See more</button>
+                                        </div>
+                                        <p class="card-text newBudgetFriendlyCard_desc">Travel Community</p>
+                                        <p class="card-text newBudgetFriendlyCard_desc">155,073 travellers</p>
+                                        {/* <Button className="newBudgetFriendlyButton" variant="primary" >Book Now</Button> */}
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div className="newRentalsCarHirecardwrapper">
-                            <div className="card newRentalsCarHiremaindiv">
-                                <div className="card-image newRentalsCarHirecardimage">
-                                    <img src="Images/EasyVisaDestinations/dubai.jpg" />
+    
+                        <div class="card mb-3 newBudgetFriendlyOuterdiv" >
+                            <div class="row g-0 newBudgetFriendlyImagetextcontainer">
+                                <div class="col-md-8 newBudgetFriendlyCardimage">
+                                    <img src="Images/NewHomeLayout/NewStaycations/budget/El Salvador.jpg" class="img-fluid activityAroundimage" alt="..." />
                                 </div>
-                                <div className="newRentalsCarHirestorydetails">
-                                    <h2>Dubai <span>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                                    </span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="newRentalsCarHirecardwrapper">
-                            <div className="card newRentalsCarHiremaindiv">
-                                <div className="card-image newRentalsCarHirecardimage">
-                                    <img src="Images/EasyVisaDestinations/fiji islands.jpg" />
-                                </div>
-                                <div className="newRentalsCarHirestorydetails">
-                                    <h2>Fiji <span>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                                    </span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                    </h2>
+                                <div class="col-md-4 newBudgetFriendlyTextcard">
+                                    <div class="card-body newBudgetFriendlyCarddescmain">
+                                        <div className="contentButtoninnerdiv">
+                                            <h3 class="card-title newBudgetFriendlyCardtitle">Travel Talk</h3>
+                                            <button>See more</button>
+                                        </div>
+                                        <p class="card-text newBudgetFriendlyCard_desc">Travel Community</p>
+                                        <p class="card-text newBudgetFriendlyCard_desc">155,073 travellers</p>
+                                        {/* <Button className="newBudgetFriendlyButton" variant="primary" >Book Now</Button> */}
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div className="newRentalsCarHirecardwrapper">
-                            <div className="card newRentalsCarHiremaindiv">
-                                <div className="card-image newRentalsCarHirecardimage">
-                                    <img src="Images/EasyVisaDestinations/jordan.jpg" />
+    
+                        <div class="card mb-3 newBudgetFriendlyOuterdiv" >
+                            <div class="row g-0 newBudgetFriendlyImagetextcontainer">
+                                <div class="col-md-8 newBudgetFriendlyCardimage">
+                                    <img src="Images/NewHomeLayout/NewStaycations/budget/Guatemala.jpg" class="img-fluid activityAroundimage" alt="..." />
                                 </div>
-                                <div className="newRentalsCarHirestorydetails">
-                                    <h2>Jordan <span>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                                    </span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="newRentalsCarHirecardwrapper">
-                            <div className="card newRentalsCarHiremaindiv">
-                                <div className="card-image newRentalsCarHirecardimage">
-                                    <img src="Images/EasyVisaDestinations/Kenya.jpg " />
-                                </div>
-                                <div className="newRentalsCarHirestorydetails">
-                                    <h2>Kenya <span>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                                    </span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                    </h2>
+                                <div class="col-md-4 newBudgetFriendlyTextcard">
+                                    <div class="card-body newBudgetFriendlyCarddescmain">
+                                        <div className="contentButtoninnerdiv">
+                                            <h3 class="card-title newBudgetFriendlyCardtitle">Travel Talk</h3>
+                                            <button>See more</button>
+                                        </div>
+                                        <p class="card-text newBudgetFriendlyCard_desc">Travel Community</p>
+                                        <p class="card-text newBudgetFriendlyCard_desc">155,073 travellers</p>
+                                        {/* <Button className="newBudgetFriendlyButton" variant="primary" >Book Now</Button> */}
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div className="newRentalsCarHirecardwrapper">
-                            <div className="card newRentalsCarHiremaindiv">
-                                <div className="card-image newRentalsCarHirecardimage">
-                                    <img src="Images/TravelStories/river.jpg " />
+    
+                        <div class="card mb-3 newBudgetFriendlyOuterdiv" >
+                            <div class="row g-0 newBudgetFriendlyImagetextcontainer">
+                                <div class="col-md-8 newBudgetFriendlyCardimage">
+                                    <img src="Images/NewHomeLayout/NewStaycations/budget/Nicaragua.jpg" class="img-fluid activityAroundimage" alt="..." />
                                 </div>
-                                <div className="newRentalsCarHirestorydetails">
-                                    <h2>Ladakh <span>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                                    </span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="newRentalsCarHirecardwrapper">
-                            <div className="card newRentalsCarHiremaindiv">
-                                <div className="card-image newRentalsCarHirecardimage">
-                                    <img src="Images/EasyVisaDestinations/madgascar.jpg" />
-                                </div>
-                                <div className="newRentalsCarHirestorydetails">
-                                    <h2>Madagaskar <span>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                                    </span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                    </h2>
+                                <div class="col-md-4 newBudgetFriendlyTextcard">
+                                    <div class="card-body newBudgetFriendlyCarddescmain">
+                                        <div className="contentButtoninnerdiv">
+                                            <h3 class="card-title newBudgetFriendlyCardtitle">Travel Talk</h3>
+                                            <button>See more</button>
+                                        </div>
+                                        <p class="card-text newBudgetFriendlyCard_desc">Travel Community</p>
+                                        <p class="card-text newBudgetFriendlyCard_desc">155,073 travellers</p>
+                                        {/* <Button className="newBudgetFriendlyButton" variant="primary" >Book Now</Button> */}
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div className="newRentalsCarHirecardwrapper">
-                            <div className="card newRentalsCarHiremaindiv">
-                                <div className="card-image newRentalsCarHirecardimage">
-                                    <img src="Images/EasyVisaDestinations/Seychelles.jpg" />
+    
+                        <div class="card mb-3 newBudgetFriendlyOuterdiv" >
+                            <div class="row g-0 newBudgetFriendlyImagetextcontainer">
+                                <div class="col-md-8 newBudgetFriendlyCardimage">
+                                    <img src="Images/ActivityAround/glacier hunt in greenland.jpg" class="img-fluid activityAroundimage" alt="..." />
                                 </div>
-                                <div className="newRentalsCarHirestorydetails">
-                                    <h2>Seychelles <span>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"12px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                                    </span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                    </h2>
+                                <div class="col-md-4 newBudgetFriendlyTextcard">
+                                    <div class="card-body newBudgetFriendlyCarddescmain">
+                                        <div className="contentButtoninnerdiv">
+                                            <h3 class="card-title newBudgetFriendlyCardtitle">Travel Talk</h3>
+                                            <button>See more</button>
+                                        </div>
+                                        <p class="card-text newBudgetFriendlyCard_desc">Travel Community</p>
+                                        <p class="card-text newBudgetFriendlyCard_desc">155,073 travellers</p>
+                                        {/* <Button className="newBudgetFriendlyButton" variant="primary" >Book Now</Button> */}
+                                    </div>
                                 </div>
                             </div>
                         </div>
+    
+                        <div class="card mb-3 newBudgetFriendlyOuterdiv" >
+                            <div class="row g-0 newBudgetFriendlyImagetextcontainer">
+                                <div class="col-md-8 newBudgetFriendlyCardimage">
+                                    <img src="Images/ActivityAround/machu pichu climb.jpg" class="img-fluid activityAroundimage" alt="..." />
+                                </div>
+                                <div class="col-md-4 newBudgetFriendlyTextcard">
+                                    <div class="card-body newBudgetFriendlyCarddescmain">
+                                        <div className="contentButtoninnerdiv">
+                                            <h3 class="card-title newBudgetFriendlyCardtitle">Travel Talk</h3>
+                                            <button>See more</button>
+                                        </div>
+                                        <p class="card-text newBudgetFriendlyCard_desc">Travel Community</p>
+                                        <p class="card-text newBudgetFriendlyCard_desc">155,073 travellers</p>
+                                        {/* <Button className="newBudgetFriendlyButton" variant="primary" >Book Now</Button> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="card mb-3 newBudgetFriendlyOuterdiv" >
+                            <div class="row g-0 newBudgetFriendlyImagetextcontainer">
+                                <div class="col-md-8 newBudgetFriendlyCardimage">
+                                    <img src="Images/ActivityAround/mountain hiking usa.jpg" class="img-fluid activityAroundimage" alt="..." />
+                                </div>
+                                <div class="col-md-4 newBudgetFriendlyTextcard">
+                                    <div class="card-body newBudgetFriendlyCarddescmain">
+                                        <div className="contentButtoninnerdiv">
+                                            <h3 class="card-title newBudgetFriendlyCardtitle">Travel Talk</h3>
+                                            <button>See more</button>
+                                        </div>
+                                        <p class="card-text newBudgetFriendlyCard_desc">Travel Community</p>
+                                        <p class="card-text newBudgetFriendlyCard_desc">155,073 travellers</p>
+                                        {/* <Button className="newBudgetFriendlyButton" variant="primary" >Book Now</Button> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* </div> */}
+    
+    
+    
                     </Slider>
                 </div>
-
-                {/* <div className='newhomeEasyVisaSlidercontentdiv'>
-                        <h2>This is the random div for the content of the page</h2>
-                    </div> */}
-
             </div>
-
-        </div>
-
-    )
-}
+        );
+    };
+    
+    

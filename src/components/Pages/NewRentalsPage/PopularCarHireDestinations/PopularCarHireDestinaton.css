@@ -1,309 +1,350 @@
-.newRentalsPopularCarHireouterdiv {
-  /* border: 1px solid red !important; */
+.newBudgetfriendlymaindiv{
+  width: 100%;
+  /* margin-top: 5%; */
   /* background-color: #3380f2; */
-  margin-top: 1%;
-  height: 500px;
+  height: 490px;
 }
 
-.newRentalsPopularCarHireouterHeading {
-  display: flex;
-  flex-direction: row;
-  /* border: 2px solid red; */
-}
-.newRentalsPopularCarHireouterHeading h2 {
-  margin-left: 3%;
-  font-weight: 700;
-  font-size: 28px;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  color: #303030;
-}
-
-.newHomeEasyVisaDropContainer {
-  width: 20%;
-  margin-left: 56%;
-  margin-top: 0.1%;
-}
-
-.newEasyVisaCountryDrop {
-  margin-top: 13% !important;
-  margin-left: 22%;
-  color: #3380f2 !important;
-  font-weight: 700;
-  cursor: pointer;
-  border-radius: 20px !important;
-}
-.newEasyVisaCountryDrop:hover {
-  background-color: #3380f2;
-  color: white !important;
-  font-weight: 700;
-}
-
-.newRentalsCarHireSlideroutercontainer {
-  display: flex;
-  flex-direction: row;
-}
-
-.newhomeEasyVisaSlidercontentdiv h2 {
-  /* border: 1px solid green; */
-  margin-left: 3%;
-  width: 93%;
-  color: #3380f2;
-  font-weight: 700;
-  font-size: 30px;
-}
-
-.newRentalsCarHireContainer {
-  /* border: 1px solid purple; */
+.newBudgetFriendlyOuterdiv {
+  border-top: none !important;
+  border: 1px solid lightgray;
+  display: flex !important;
+  flex-direction: row !important;
   width: 96%;
-  margin-left: 1%;
+  height: 370px !important;
+  /* box-shadow: 4px 4px 4px rgb(211,211,211); */
+  /* border: none; */
+  transition: all 300ms ease-in-out;
+  /* border-radius-bottom-right: 25px; */
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+
+.newBudgetFriendlyOuterdiv:hover {
+  width: 100%;
+  padding: 5px;
+  /* box-shadow: 5px 10px 25px  #3380f2; */
+}
+
+.newBudgetFriendlyHeadingcontainer {
+  /* background-color: #3380f2; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
   /* margin: auto; */
-  /* gap: 5% !important; */
-}
-
-.travelstories_title {
-  font-size: 28px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
   margin-top: 3%;
-  margin-bottom: 3%;
-  text-decoration: none solid rgb(45, 44, 44);
-  vertical-align: baseline;
-  letter-spacing: normal;
-  text-align: center;
-  color: rgb(51, 128, 242);
 }
 
-.newRentalsCarHirecardwrapper {
-  /* border: 1px solid red; */
-  position: relative;
-  width: 106%;
-  padding: 0 10px;
-  /* -webkit-box-sizing: border-box; */
-  box-sizing: border-box;
-}
-
-.newRentalsCarHiremaindiv {
-    border: 1px solid #3380f2;
-  margin-left: 3%;
-  width: 102%;
-  border-radius: 20px !important;
-  overflow: hidden;
-  cursor: pointer;
-  position: relative;
-}
-
-.newRentalsCarHirecardimage {
-    /* border: 1px solid red; */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 350px !important;
-  /* border-radius: 20px !important; */
-  z-index: 2;
-  background-color: #000;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.newRentalsCarHirecardimage img {
-  width: 100%;
-  filter: brightness(0.8);
-  -o-object-fit: cover;
-  object-fit: cover;
-  background: cover;
-  border-radius: 20px;
-}
-
-.newRentalsCarHiremaindiv:hover img {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.newRentalsCarHiremaindiv:hover .newRentalsCarHirecardimage {
-  -moz-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
-
-.newRentalsCarHirestorydetails {
-  position: absolute;
-  bottom: -43%;
-  left: 0;
-  width: 100%;
-  height: 310px;
-  z-index: 100000000;
-  padding: 10px;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-  line-height: 15px;
-}
-
-.newRentalsCarHirestorydetails h2 {
-  margin: 0px 0;
-  padding: 0;
-  text-align: center;
-  color: white;
-  font-size: 22px;
+.newBudgetFriendlyHeading1 {
+  font-size: 30px;
   font-weight: 700;
+  margin-top: 2%;
+  margin-left: 5%;
+  width:65%;
+  color: #393939;
+  /* color: #3380f2; */
 }
-
-.newRentalsCarHirestorydetails h2 .newRentalsCarHirejob-title {
-  font-size: 16px;
-  line-height: 1.5;
-  color: white;
-  font-weight: 300;
-  display: block;
-}
-
-/* .card:hover .newRentalsCarHirestorydetails {
-  bottom: 0;
+/*   
+.internationalheading2 {
+  width: 50%;
+  height: 40px;
+  justify-content: center;
+  margin: -0.5% 0 1% 1%;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+} */
+/* .internationalheading {
+  border-radius: 50px;
 } */
 
-.newRentalsCarHireSlideroutercontainer .slick-dots {
-  bottom: -2.5vw;
-}
 
-.newRentalsCarHireSlideroutercontainer .slick-dots li button {
-  width: 20px;
-  height: 20px;
-  border: 1px solid #fff;
-  border-radius: 20px;
-  background-color: #3380f2;
+/* .internationalheading:hover{
+  background-color: white;
+  color: #3380f2;
 }
-
-.newRentalsCarHireSlideroutercontainer .slick-dots li button:before {
-  /* border: 1px solid red !important; */
-  position: absolute;
-  font-size: 20px;
-  top: 50%;
-  left: 50%;
-  width: 10px;
-  height: 10px;
-  border-radius: 210px;
-  content: "";
+.internationalheading2 div {
+  border: 2px solid white;
+  width: 130px !important;
+  height: 33px;
+  font-size: 17px;
+  font-weight: 500;
   text-align: center;
-  opacity: 0.5;
-  color: #000;
-  background-color: white !important;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  margin-top: 4%;
+  margin-right: 4%;
+  border-radius: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+} */
+
+/* .internationalheading2 div:hover {
+  background-color: #3380f2;
+  color: white;
+} */
+.newviewallActivityAroundbuttons {
+  color: white;
+  font-weight: 700;
+  text-decoration: none !important;
+  display: flex;
+  margin: 1.5% 0 0 55%;
+  width: 56%;
 }
 
-.carousel .slick-prev,
-.carousel .slick-next {
-  border: 2px solid #3380f2;
-  width: 40px;
-  height: 50px;
-  /* border-radius: 30px; */
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-right-radius: 10px;
-  background-color: transparent !important;
+.newBudgetFriendlySliderContainer{
+  /* border: 2px solid red; */
+  width: 90%;
+  margin: auto;
+  margin-top: 1.7%;
+  /* background-color: #3380f2; */
+}
+.newBudgetFriendlyCardtitle {
+  color: #393939 !important;
+  font-size: 22px;
+  margin-top: 1%;
 }
 
-.carousel .slick-prev:hover,
-.carousel .slick-prev:focus,
-.carousel .slick-next:hover,
-.carousel .slick-next:focus {
-  color: #fff;
-  outline: none;
-  background: #fff;
+.newBudgetFriendlyCard_desc {
+  width: 90%;
+  color: gray;
+  font-size: 14px;
+  text-align: left;
 }
 
-.carousel .slick-prev:before,
-.carousel .slick-next:before {
-  color: #000;
-  font-family: "Raleway", sans-serif;
+.newBudgetFriendlyImagetextcontainer {
+  width: 100%;
+  height: 370px;
+  /* border: 2px solid red; */
+  /* border-radius: 0px 0px 10px 10px !important; */
 }
 
-.carousel .slick-next {
-  left: 100% !important;
+.newBudgetFriendlyTextcard {
+  margin-left: 9% !important;
+  width: 100% !important;
 }
 
-.carousel .slick-prev {
-  left: -55px;
+.newBudgetFriendlyTextcard:hover div {
+  color: white;
 }
 
-/* ----------------- New button css ----------------  */
+.exclusivedealsimagediv {
+  width: 800px;
+  height: 200px !important;
+}
+.exclusivedealsimage {
+  width: 700px;
+  height: 10px;
+  margin-left: 40%;
+}
 
-.newRentalsPopularCarHireDropContainer {
-  width: 9% !important;
-  margin-left:59%;
-  margin-top: 2.1%;
+.newBudgetFriendlyCardimage {
+  /* border: 2px solid rebeccapurple; */
+  width: 100% !important;
+  height: 230px;
+  /* margin-left: 4%; */
+  /* margin-top: 4%; */
+}
+
+.activityAroundimage{
+  height: 240px !important;
+  width: 100% !important;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.newBudgetFriendlyCarddescmain {
+  width: 100%;
+  margin-left: -9%;
+}
+
+.contentButtoninnerdiv{
+  /* border: 1px solid red !important; */
   display: flex;
   flex-direction: row;
-  border-right: none;
-  height: 39px;
-  border-radius: 25px;
-  background-color: #3380f2 !important;
-  display: flex;
-  align-items: center;
-  color: white !important;
-  font-weight: 700;
-  justify-content: space-between;
-  border: 2px solid #3380F2;
-  outline: none;
-  padding-left: 15px;
-}
-/* .newRentalsPopularCarHireDropContainer:hover .newRentalsCarHireicondiv{
-    background-color:white;
-    color: #3380F2;
-    cursor: pointer;
-    border: 2px solid #3380F2;
-  } */
-.newRentalsPopularCarHireCountryDrop {
-  /* border: 3px solid red !important; */
-  background-color: white !important;
-  width: 80% !important;
-  height: 39px !important;
-  color: #3380f2 !important;
-  font-weight: 700 !important;
-  font-size: 17px !important;
-  cursor: pointer;
-  border-radius: 25px 0px 0px 25px !important;
-  border-right: none !important;
-  appearance: none !important;
-  padding-top: 3% !important;
-  border: none !important;
-}
-.newRentalsPopularCarHireDropContainer select {
-  /* border: 1px solid red !important; */
-  background-image: none !important;
 }
 
-/* .newRentalsPopularCarHireCountryDrop:hover {
-    background-color: white !important;
-      color: #3380F2 !important;
-      font-weight: 700;
-  } */
-.newRentalsCarHireicondiv {
-  width: 20%;
+.contentButtoninnerdiv button{
+  margin-left: 32%;
+  border: none;
+  width: 30%;
   color: white;
-  /* border: 3px solid #3380F2; */
-  background-color: white;
-  height: 39px;
-  /* font-size: 18px !important; */
-  border-radius: 0px 25px 25px 0px;
-  padding-right: 5%;
-  border-left: none;
-  /* border: 2px solid yellow; */
+  font-size: 15px;
+  background-color: #3380f2;
+  border-radius: 5px;
 }
-.newCarHireicon {
-  margin-left: -37%;
-  /* width: 100% !important; */
-  color: #3380f2;
-  border: 3px solid #3380f2;
+.exclusivecarddesc:hover {
+  color: white;
+}
+
+.newviewallActivityAroundtext{
+  margin-top: 0.5%;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 34%;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 16px;
+  padding-top: 4px;
+  margin-bottom: 8%;
+  text-decoration: none !important;
+}
+
+.newviewallActivityAroundtext:hover{
   background-color: white;
-  height: 25px;
-  width: 25px;
-  font-size: 18px !important;
-  border-radius: 100%;
-  margin-top: 29% !important;
-  /* margin-bottom: 105%;*/
+  color: #3380f2;
+}
+
+.newActivityAroundHeadingbuttons {
+  justify-content: flex-end;
+  /* width: -1%; */
+  margin-left: 6%;
+  margin-top: -1%;
+  background-color: #3380f2 !important;
+}
+
+
+.newActivityAroundHeadingbuttons button{
+  color: #3380f2 !important;
+  background-color: white !important;
+}
+
+
+.line-indicator li {
+  height: 4px;
+  width: 70px;
+  background: lightgray;
+  border-radius: 5px;
+}
+
+.line-indicator li:hover {
+  background: gray;
+}
+
+.line-indicator li.slick-active {
+  background: blue;
+}
+
+.buttons {
+  background: rgb(51, 128, 242) !important;
+  color: white !important;
+  transition: 700ms;
+}
+.buttons:hover {
+  transform: scale(1.1);
+}
+.newBudgetFriendlyButton {
+  border: 3px solid #3380f2;
+  width: 34%;
+  border-radius: 15px !important;
+  background-color: white;
+  color: #3380f2;
+  padding: 4px 9px;
+  font-weight: 500;
+  margin-bottom: 1%;
+  margin-top: 3%;
+  font-size: 15px !important;
+}
+.newBudgetFriendlyButton:hover {
+  border: 3px solid white;
+  background-color: #3380f2;
+  color: white;
+ 
+  font-size: 14px !important;
+}
+
+
+@media screen and (max-width: 950px) {
+  .newBudgetFriendlyImagetextcontainer {
+    flex-direction: column;
+  }
+  .col-md-4 {
+    width: 90%;
+    height: 280px;
+    margin-left: 3%;
+    margin-top: 10%;
+  }
+  .card-title {
+    font-size: 17px;
+  }
+  .card-text {
+    font-size: 13px;
+  }
+  .newviewallActivityAroundbuttons {
+    display: none;
+  }
+  .newBudgetFriendlyHeading1 {
+    display: none;
+  }
+  .newBudgetFriendlyHeadingcontainer {
+    flex-direction: column;
+  }
+  .internationalheading2 {
+    width: 100%;
+  }
+  .newBudgetFriendlyImagetextcontainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .exclusivedealsimage {
+    width: 100%;
+    height: 100%;
+  }
+  .newBudgetFriendlyTextcard {
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .newBudgetFriendlyImagetextcontainer {
+    flex-direction: column;
+  }
+  .col-md-4 {
+    width: 90%;
+    height: 280px;
+    margin-left: 3%;
+    margin-top: 5%;
+  }
+  .card-title {
+    font-size: 17px;
+  }
+  .card-text {
+    font-size: 13px;
+  }
+  .newviewallActivityAroundbuttons {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -50px;
+    text-align: right;
+    width: 40%;
+    font-size: 14px;
+    margin-left: 52%;
+  }
+  .internationalheading2 {
+    display: none;
+  }
+  .newActivityAroundHeadingbuttons {
+    display: none;
+  }
+  .newBudgetFriendlyHeading1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    font-size: 16px;
+    margin-left: 3%;
+  }
+  .newBudgetFriendlyHeadingcontainer {
+    flex-direction: column;
+  }
+  .newBudgetFriendlyImagetextcontainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .exclusivedealsimage {
+    width: 100%;
+    height: 100%;
+  }
+  .newBudgetFriendlyTextcard {
+    margin-left: 8px;
+  }
 }
