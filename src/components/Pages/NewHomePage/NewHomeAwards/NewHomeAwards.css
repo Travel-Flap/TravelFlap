@@ -3,13 +3,14 @@
     width: 90%;
     margin: auto;
     height: 160px;
+    margin-bottom: 0%;
 }
 
 .newhomeawardsstoriescontainer h2{
     color: #3380f2;
     font-weight: 700;
     font-size: 30px;
-    margin-top: 2%;
+    margin-top: 0%;
     margin-left: 45%;
 }
 
@@ -29,29 +30,38 @@
   }
   
   .awardsnewhomecardwrapper {
+    /* border: 2px solid red; */
     position: relative;
     width: 100%;
-    padding: 0 10px;
+    height: 110px;
+    /* padding: 0 10px; */
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    text-align: center;
   }
   
   
-  .awardsnewhomecardwrapper:hover img{
+  /* .awardsnewhomecardwrapper:hover img{
     -moz-transform: scale(0.8);
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
-  }
-  
-  .awardsnewhomecard img {
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
+  } */
   
   .awardsnewhomecard{
     border: none !important;
+    /* border: 2px solid red; */
+    height: 60px;
+    width: 90%;
+    margin: auto;
   }
+  .awardsnewhomecard img {
+   height: 70px;
+   width: 60%;
+   /* border: 2px solid red; */
+   margin: auto;
+  }
+  
+
   
   
   .travelstoriesdiv {
@@ -81,13 +91,17 @@
   }
   
   .awardsnewhomecard_title h4 {
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     line-height: 29px;
     vertical-align: baseline;
     color: rgb(52, 64, 82);
     font-weight: 700;
+    /* border: 2px solid yellow; */
+    margin-top: -12%;
+    margin-left: 2%;
+    width: 100% !important;
   }
   
   .awardsnewhomecard_desc p {

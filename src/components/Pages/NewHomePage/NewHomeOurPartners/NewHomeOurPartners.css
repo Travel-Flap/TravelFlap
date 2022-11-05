@@ -16,23 +16,32 @@
   
   .newhome_ourpartnersmaincarouseldiv{
     /* border: 1px solid red; */
-    width: 99%;
+    width: 100%;
+    height: 150px;
+    text-align: center;
   }
   
   .newhome_ourpartnersmaincarouseldiv h2{
-    margin-left: 5%;
+    /* margin-left: 5%; */
     font-weight: 700;
     color: #3380f2;
     font-size: 30px;
-    margin-left: 48%;
+    /* margin-left: 48%; */
   }
   ._carouseldiv1 {
-    position: relative;
-    margin-bottom: 10%;
+    /* border: 2px solid red; */
+    width: 80% !important;
+    height: 100px !important;
+    object-fit: cover;
+    background-size: cover;
+    /* margin-left: 4% !important; */
+    /* position: relative; */
+    /* margin-bottom: 10%; */
   }
   ._imagediv {
     height: 100%;
-    width: 112%;
+    width: 100%;
+    margin: auto;
   }
   .slick-slide > div {
     margin: 0 10px;

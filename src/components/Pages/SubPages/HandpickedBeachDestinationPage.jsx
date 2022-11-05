@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import HandPickedBeachDestinationInternationalComponent from './HandPickedBeachDestinationInternationalComponent/HandPickedBeachDestinationInternationalComponent';
 import { StaycationFaq } from './Faq/Faq';
 import { VideoTextStaycation } from './VideoText/VideoText';
+import { Link } from 'react-router-dom';
 
 export const HandpickedBeachDestinationPage = () => {
 
@@ -30,7 +31,7 @@ export const HandpickedBeachDestinationPage = () => {
                 <div className='HandPickedBeachSliderConatiner'>
                     <Slider
                         arrows={false}
-                        autoplay={true}
+                        // autoplay={true}
                         speed={2000}
                         autoplaySpeed={2000}
                         dotsclassName="slick-dots line-indicator"
@@ -90,6 +91,7 @@ export const HandpickedBeachDestinationPage = () => {
                             </div>
                         )}
                     >
+                        <Link to="/bali">
                         <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationBeachYouCardimage">
@@ -97,13 +99,14 @@ export const HandpickedBeachDestinationPage = () => {
                                 </div>
                                 <div class="col-md-4 newhandPickedDestinationBeachYouTextcard">
                                     <div class="card-body newhandPickedDestinationBeachYouCarddescmain">
-                                        <h3 class="card-title newhandPickedDestinationBeachYouCardtitle">Goa</h3>
+                                        <h3 class="card-title newhandPickedDestinationBeachYouCardtitle">Bali</h3>
                                         <p>Get ready for an amazing beach vacation at Goa. You can expect very hot weather with very high humidity levels. You can also enjoy the various adventure activities in Goa.</p>
                                         <button className='newhandPickedDestinationBeachButton'>Explore</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        </Link>
 
                         <div class="card mb-3 newhandPickedDestinationBeachYououterdiv">
                             <div class="row g-0 newhandPickedDestinationBeachYouImagetextcontainer">

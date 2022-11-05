@@ -45,7 +45,7 @@ export const NewHomeLayout = () => {
                 <NewHomeTourDeals />
             </div>
 
-                <NewHomeOurPartners />
+                {/* <NewHomeOurPartners /> */}
             <div className='carousel'>
             </div>
 
@@ -55,7 +55,8 @@ export const NewHomeLayout = () => {
 
             <NewHomeEasyVisaDestination />
 
-
+            {/* <NewHomeAwards/> */}
+            
             <NewHomeAppDownload />
 
             <div className='carousel'>

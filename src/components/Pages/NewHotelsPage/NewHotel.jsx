@@ -45,9 +45,9 @@ export const NewHotel = () => {
             {/* <NewHomeEasyVisaDestination/> */}
             <NewHomeAppDownload/>
 
-            <div className='hotelawardsdiv'>
+            {/* <div className='hotelawardsdiv'>
                 <NewHomeAwards />
-            </div>
+            </div> */}
 
             <NewHomeStoriesSection/>
 

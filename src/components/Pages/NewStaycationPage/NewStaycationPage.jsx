@@ -45,14 +45,14 @@ export const NewStaycationPage = () => {
 
             {/* <NewStaycationMostPicked/> */}
 
-           <div className='carousel'>
+           {/* <div className='carousel'>
                 <NewHomeAwards/>
-            </div>
+            </div> */}
 
             <NewHomeStoriesSection/> 
 
             
-            <NewHomeOurPartners/>
+            {/* <NewHomeOurPartners/> */}
             <NewHomeAppDownload/>
 
             <Plan/>

@@ -67,7 +67,7 @@ export default class NewHomeAwards extends Component {
                     <div className="card-wrapper awardsnewhomecardwrapper">
                         <div className="awardsnewhomecard card">
                             <div className='card_img'>
-                                <img src="Images/AchievementsImage1.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top " alt="..." />
+                                <img src="Images/iata.png" className="card-img-top " alt="..." />
                             </div>
 
                             <div className="card-body">
@@ -83,11 +83,11 @@ export default class NewHomeAwards extends Component {
 
                     <div className="card-wrapper awardsnewhomecardwrapper">
                         <div className="awardsnewhomecard card">
-                            <div className='card_img'><img src="Images/AchievementsImage2.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/Ethiopian.png"  className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
-                                    <h4 className="card-title">GSA Ethiopian Airlines.</h4>
+                                    <h4 className="card-title">GSA Ethiopian</h4>
                                 </div>
                                 {/* <div className='awardsnewhomecard_desc'>
                                     <p className="card-text">In more than 3 countries.</p>
@@ -99,11 +99,11 @@ export default class NewHomeAwards extends Component {
                     <div className="card-wrapper awardsnewhomecardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="awardsnewhomecard card">
-                            <div className='card_img'><img src="Images/AchievementsImage3.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/RwandAir.png"  className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
-                                    <h4 className="card-title">GSA of Rwanda Airlines.</h4>
+                                    <h4 className="card-title">GSA of Rwanda</h4>
                                 </div>
                                 {/* <div className='awardsnewhomecard_desc'>
                                     <p className="card-text">In Kinshasa,RDC.</p>
@@ -115,7 +115,7 @@ export default class NewHomeAwards extends Component {
 
                     {/* <div className="card-wrapper awardsnewhomecardwrapper">
                         <div className="awards">
-                            <div className='card_img'><img src="Images/AchievementsImage4.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/AchievementsImage4.jpg"  className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
@@ -131,7 +131,7 @@ export default class NewHomeAwards extends Component {
                     {/* <div className="card-wrapper awardsnewhomecardwrapper">
                         <div className="awardsnewhomecard card">
                             <div className='card_img'>
-                                <img src="Images/AchievementsImage5.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                                <img src="Images/AchievementsImage5.jpg"  className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
@@ -144,7 +144,7 @@ export default class NewHomeAwards extends Component {
                     <div className="card-wrapper awardsnewhomecardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="awardsnewhomecard card">
-                            <div className='card_img'><img src="Images/AchievementsImage6.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/South_African.png"  className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
@@ -161,7 +161,7 @@ export default class NewHomeAwards extends Component {
                     <div className="card-wrapper awardsnewhomecardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="awardsnewhomecard card">
-                            <div className='card_img'><img src="Images/AchievementsImage3.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/RwandAir.png"  className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
@@ -179,7 +179,7 @@ export default class NewHomeAwards extends Component {
                     <div className="card-wrapper awardsnewhomecardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="awardsnewhomecard card">
-                            <div className='card_img'><img src="Images/AchievementsImage2.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/iata.png"  className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awardsnewhomecard_title'>
@@ -196,7 +196,7 @@ export default class NewHomeAwards extends Component {
                     <div className="card-wrapper awardsnewhomecardwrapper">
                         {/* <div className="card travelstoriesdiv"> */}
                         <div className="awardsnewhomecard card">
-                            <div className='card_img'><img src="Images/AchievementsImage1.jpg" style={{ height: "100px", width: "70%" }} className="card-img-top" alt="..." /></div>
+                            <div className='card_img'><img src="Images/iata.png"  className="card-img-top" alt="..." /></div>
 
                             <div className="card-body">
                                 <div className='awardsnewhomecard_title'>

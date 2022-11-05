@@ -17,6 +17,8 @@ import { NewRentalsPage } from "./components/Pages/NewRentalsPage/NewRentalsPage
 import { NewOffers } from "./components/Pages/NewOffersPage/NewOffers";
 
 import {HandpickedBeachDestinationPage} from "./components/Pages/SubPages/HandpickedBeachDestinationPage";
+import { InnerHandpicked2 } from "./components/Pages/SubPages/InnerHandpicked2/InnerHandpicked2";
+import { InnerVisaPage1 } from "./components/Pages/SubPages/InnerVisapages/InnerVisaPage1/InnerVisaPage1";
 
 function App() {
   return (
@@ -53,7 +55,8 @@ function App() {
         <Route path="/offers" element={<NewOffers/>}   />
         
         <Route path="/weekendgetaways" element={<HandpickedBeachDestinationPage/>} />
-        
+        <Route path="/bali" element={<InnerHandpicked2/>}/>
+        {/* <Route path="/easyvisainnerpage" element={<InnerVisaPage1/>}/> */}
         
         {/* <Route path="/staycations" element={ <Staycations/>} /> */}
       </Routes>

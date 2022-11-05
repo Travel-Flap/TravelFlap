@@ -40,9 +40,10 @@ export const NewFlight = () => {
             <NewDomesticFlightsNearYou/>
         </div> */}
 
+        <NewHomeHandPicked/>
         <CenterMode/>
 
-        <NewHomeHandPicked/>
+        
 
         
 
@@ -51,6 +52,8 @@ export const NewFlight = () => {
         </div> */}
 
         {/* <CheapFlights/> */}
+        
+        {/* <NewHomeAwards/> */}
 
         <NewHomeAppDownload/>
         

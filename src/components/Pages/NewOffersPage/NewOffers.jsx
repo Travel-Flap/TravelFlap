@@ -23,11 +23,11 @@ export const NewOffers = () => {
 
         <NewUserOffers/>
 
-        <NewHomeAwards/>
+        {/* <NewHomeAwards/> */}
 
         <NewHomeStoriesSection/>    
 
-        <NewHomeOurPartners/>
+        {/* <NewHomeOurPartners/> */}
 
         <NewHomeAppDownload/>
 

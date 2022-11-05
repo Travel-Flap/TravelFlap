@@ -11,6 +11,7 @@ import { Button } from "react-bootstrap"
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 
 import countrydata from '../../../../CountryData.json';
+import SliderWrapper from "./SlickSliderStyle";
 
 export const TopDemandedVisa = () => {
 
@@ -18,6 +19,7 @@ export const TopDemandedVisa = () => {
   const [countryid, setCountryid] = useState('');
   const [state, setState] = useState([]);
   const [stateid, setStateid] = useState('');
+  const [slideindex, setSlideindex] = useState(0);
 
   const handlecounty = (e) => {
     const getcountryId = e.target.value;
@@ -94,6 +96,7 @@ export const TopDemandedVisa = () => {
       </div>
 
       <div className="internationalslidercontainer">
+        <SliderWrapper>
         <Slider
           arrows={false}
           autoplay={true}
@@ -103,6 +106,13 @@ export const TopDemandedVisa = () => {
           ref={sliderRef}
           slidesToShow={4}
           slidesToScroll={2}
+          appendDots= { dots => <ul>{dots}</ul>}
+                        customPaging= { i => (
+                            <div className="ft-slick__dots--custom">
+                                <div className="loading"/>
+                            </div>
+                        )}
+                        beforeChange= { (current, next) => setSlideindex(next)}
           responsive={[
             {
               breakpoint: 1024,
@@ -144,7 +154,7 @@ export const TopDemandedVisa = () => {
               }
             }
           ]}
-          customPaging={(i) => (
+          customPagingg={(i) => (
             <div
               style={{
                 width: "100%",
@@ -377,6 +387,7 @@ export const TopDemandedVisa = () => {
 
 
         </Slider>
+        </SliderWrapper>
       </div>
     </div>
   );
