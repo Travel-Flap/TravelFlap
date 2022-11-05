@@ -9,7 +9,9 @@ import { NewHomeExclusiveDeals } from '../NewHomePage/NewHomeExclusiveDeals/NewH
 import { NewHomeFooter } from '../NewHomePage/NewHomeFooter/NewHomeFooter';
 import NewHomeOurPartners from '../NewHomePage/NewHomeOurPartners/NewHomeOurPartners';
 import { NewHomeStoriesSection } from '../NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection';
+import { HowRentalsWork } from './HowRentalsWork/HowRentalsWork';
 import { RentalsFrequentlyAsked } from './NewFrequentlyAsked/FrequentlyAsked';
+import  PopularCarHireApplications  from './PopularCarHireApplications/PopularCarHireApplications';
 import { NewPopularCarHireDestination } from './PopularCarHireDestinations/PopularCarHireDestination';
 import { NewRentalBanner } from './RentalsBanner/NewRantalsBanner';
 
@@ -21,15 +23,22 @@ export const NewRentalsPage = () => {
 
         <NewHomeExclusiveDeals/>
 
+        <HowRentalsWork/>
+
         <NewPopularCarHireDestination/>
+
+      
+        <PopularCarHireApplications/>
 
         <NewHomeEasyVisaDestination/>
 
-        <RentalsFrequentlyAsked/>
+        {/* <RentalsFrequentlyAsked/> */}
 
         <NewHomeAwards/>
-
+        
         <NewHomeStoriesSection/>
+
+
 
         <NewHomeOurPartners/>
 

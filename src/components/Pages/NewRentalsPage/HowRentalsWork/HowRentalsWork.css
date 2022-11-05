@@ -1,0 +1,53 @@
+/* .howRentalsWorkmaindiv{
+    border: 1px solid red;
+} */
+
+.howRentalsWorkmaindiv h2{
+    margin-left: 4%;
+    color: #303030;
+    font-weight: 700;
+}
+
+.howRentalsWorkImagediv{
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+.howRentalsWorkImagediv img{
+    object-fit: cover;
+    align-items: center;
+    margin-left: 11%;
+    /* border: 1px solid red; */
+}
+
+
+
+.trustTravelFlapMaindiv{
+    /* border: 1px solid red; */
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.trustTravelFlapcontentdiv{
+    /* border: 1px solid black; */
+    /* height: 50px;     */
+    width: 80%;
+}
+
+.trustTravelFlapHeading{
+    color: #303030;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+/* 
+.trustTravelFlapImagediv{
+    border: 1px solid purple;
+} */
+
+
+

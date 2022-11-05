@@ -16,7 +16,7 @@ export const Staycations = () => {
       <Staycationsbanner />
       <Staycationsnavbar />
       <Staycationsimagesslider />
-
+      
       <Newsletter />
       <FooterLinks />
       <Experiment />
