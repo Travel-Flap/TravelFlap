@@ -7,12 +7,15 @@ import { Button } from 'react-bootstrap';
 import './NewHomeEasyVisaDestination.css';
 import { FaAngleDown } from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
+import SliderWrapper from "./SlickSliderStyle";
+import { Link } from 'react-router-dom';
 // import "/src/App.css";
 
 export const NewHomeEasyVisaDestination = () => {
     const [countryid, setCountryid] = useState('');
     const [state, setState] = useState([]);
     const [stateid, setStateid] = useState('');
+    const [slideindex, setSlideindex] = useState(0);
 
     const handlecounty = (e) => {
         const getcountryId = e.target.value;
@@ -80,8 +83,9 @@ export const NewHomeEasyVisaDestination = () => {
             <div className='newhomeEasyVisaSlideroutercontainer'>
 
                 <div className='newhomeEasyVisaContainer'>
+                <SliderWrapper>
                     <Slider
-                        // dots={true}
+                        dots={true}
                         // dotsclassName={"slick-dots line-indicator"}
                         infinite={true}
                         autoplay={true}
@@ -92,7 +96,16 @@ export const NewHomeEasyVisaDestination = () => {
                         cssEase={"linear"}
                         rtl={true}
                         // arrows:true,
-                        arrows={false}
+                        arrow={false}
+                        appendDots= { dots => <ul>{dots}</ul>}
+                        customPaging= { i => (
+                            <div className="ft-slick__dots--custom">
+                                <div className="loading"/>
+                            </div>
+                        )}
+                        beforeChange= { (current, next) => setSlideindex(next)}
+        
+                        
                         responsive={[
                             {
                                 breakpoint: 1024,
@@ -153,6 +166,7 @@ export const NewHomeEasyVisaDestination = () => {
                             </div>
                         </div>
 
+                        <Link to="/easyvisainnerpage">
                         <div className="newhomeEasyVisacardwrapper">
                             <div className="card newhomeEasyVisamaindiv">
                                 <div className="card-image newhomeEasyVisacardimage">
@@ -169,7 +183,8 @@ export const NewHomeEasyVisaDestination = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Link>
+                        
                         <div className="newhomeEasyVisacardwrapper">
                             <div className="card newhomeEasyVisamaindiv">
                                 <div className="card-image newhomeEasyVisacardimage">
@@ -266,6 +281,7 @@ export const NewHomeEasyVisaDestination = () => {
                             </div>
                         </div>
                     </Slider>
+                    </SliderWrapper>
                 </div>
             </div>
 

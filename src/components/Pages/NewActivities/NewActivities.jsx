@@ -35,11 +35,11 @@ export const NewActivities = () => {
 
         <NewNatureLove/>
 
-        <NewHomeAwards/>
+        {/* <NewHomeAwards/> */}
 
         <NewHomeStoriesSection/>
 
-        <NewHomeOurPartners/>
+        {/* <NewHomeOurPartners/> */}
 
         <NewHomeAppDownload/>
 

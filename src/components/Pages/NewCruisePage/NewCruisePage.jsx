@@ -29,11 +29,12 @@ export const NewCruisePage = () => {
 
             <DomesticCruise/>
            
-            <NewHomeAwards />
+            {/* <NewHomeAwards /> */}
            
             <NewHomeStoriesSection/>
 
-            <NewHomeOurPartners />
+            {/* <NewHomeOurPartners /> */}
+            
             
             <NewHomeAppDownload/>
 

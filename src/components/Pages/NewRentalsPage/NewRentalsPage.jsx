@@ -34,13 +34,13 @@ export const NewRentalsPage = () => {
 
         {/* <RentalsFrequentlyAsked/> */}
 
-        <NewHomeAwards/>
+        {/* <NewHomeAwards/> */}
         
         <NewHomeStoriesSection/>
 
 
 
-        <NewHomeOurPartners/>
+        {/* <NewHomeOurPartners/> */}
 
         <NewHomeAppDownload/>
 

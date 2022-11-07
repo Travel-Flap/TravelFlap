@@ -43,14 +43,12 @@ export const NewHolidaysPage = () => {
         <NewHolidaysBestSelling />
       </div>
 
-      <NewHomeAwards/>
+      {/* <NewHomeAwards/> */}
 
 
       {/* <NewHomeEasyVisaDestination /> */}
 
       <NewHomeAppDownload />
-
-      {/* <NewHomeAwards/> */}
 
       <Plan />
       <NewHomeStoriesSection/>
