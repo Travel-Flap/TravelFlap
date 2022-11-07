@@ -18,12 +18,14 @@ import { NewOffers } from "./components/Pages/NewOffersPage/NewOffers";
 
 import {HandpickedBeachDestinationPage} from "./components/Pages/SubPages/HandpickedBeachDestinationPage";
 import { InnerHandpicked2 } from "./components/Pages/SubPages/InnerHandpicked2/InnerHandpicked2";
-import { InnerVisaPage1 } from "./components/Pages/SubPages/InnerVisapages/InnerVisaPage1/InnerVisaPage1";
+import { InnerPopularDestination1 } from "./components/Pages/SubPages/InnerPopularDestination1/InnerPopularDestination1";
+// import {InnerHandPicked3} from "./components/Pages/SubPages/InnerHandPicked3/InnerHandPicked3";
 
 function App() {
   return (
     <>
     <NewHomeNav/>
+    
     {/* <Hotel/> */}
     {/* <Holidays /> */}
       {/* <Navbar /> */}
@@ -56,6 +58,8 @@ function App() {
         
         <Route path="/weekendgetaways" element={<HandpickedBeachDestinationPage/>} />
         <Route path="/bali" element={<InnerHandpicked2/>}/>
+        <Route path="/populardestination" element={<InnerPopularDestination1/>}/>
+        {/* <Route path="/baliDetails" element={<InnerHandPicked3/>}/> */}
         {/* <Route path="/easyvisainnerpage" element={<InnerVisaPage1/>}/> */}
         
         {/* <Route path="/staycations" element={ <Staycations/>} /> */}

@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { Outlet, Link } from "react-router-dom";
 import "./NewHomePopularDestination.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -92,6 +93,7 @@ export const CenterMode = () => {
                 </div> */}
             </div>
             <div className="mainCarouselDiv">
+                <Link to="/populardestination">
                 <div className="sliderDiv">
                     <SliderWrapper>
                         <Slider {...settings}>
@@ -118,6 +120,7 @@ export const CenterMode = () => {
                         </Slider>
                     </SliderWrapper>
                 </div>
+                </Link>
             </div>
         </>
     );
