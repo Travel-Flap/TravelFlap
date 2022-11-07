@@ -18,10 +18,15 @@ import { FlightsNearYou } from './NewFlightNearYou/FlightsNearYou'
 import { NewHomeStoriesSection } from '../NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection';
 import { CheapFlights } from './NewCheapFlight/CheapFlights';
 import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDestination';
+import { Helmet } from 'react-helmet'
 
 export const NewFlight = () => {
   return (
     <div>
+        <Helmet>
+            <title>Flights Page</title>
+            <meta name='description' content='All go flight booking solution for International and Domestic at one place' />
+        </Helmet>
         <NewHomeNav/>
         {/* <NewHomeCaruosel/> */}
         

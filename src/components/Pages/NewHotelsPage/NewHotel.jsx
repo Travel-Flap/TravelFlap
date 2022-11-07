@@ -17,39 +17,45 @@ import { NewHotelCaruosel } from './HotelsBanner/NewHotelBanner';
 import { WhyChooseUs } from './WhyChooseUs/WhyChooseUs';
 import { NewHomeStoriesSection } from "../../Pages/NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection";
 import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDestination';
+import { Helmet } from 'react-helmet';
 
 export const NewHotel = () => {
     return (
         <div>
+            <Helmet>
+                <title>Hotels Page</title>
+                <meta name='description' content='Want to spend your holiday time in good and budget friendly stay.
+                Take a looks at TravelFlap for your stay co-ordinatior' />
+            </Helmet>
             <NewHomeNav />
-            <NewHotelCaruosel/>
-            
+            <NewHotelCaruosel />
+
             <div className='carousel'>
-                <NewHomeExclusiveDeals/>
+                <NewHomeExclusiveDeals />
             </div>
 
             {/* <NewHomeCaruosel /> */}
             <WhyChooseUs />
 
             <div className='carousel'>
-                <NewHomeHandPicked/>
+                <NewHomeHandPicked />
             </div>
 
             {/* <CenterMode/> */}
 
-            <CenterMode/>
+            <CenterMode />
 
             <div className='carousel'>
-                <FavouriteHotelGlobe/>
+                <FavouriteHotelGlobe />
             </div>
             {/* <NewHomeEasyVisaDestination/> */}
-            <NewHomeAppDownload/>
+            <NewHomeAppDownload />
 
             <div className='hotelawardsdiv'>
                 <NewHomeAwards />
             </div>
 
-            <NewHomeStoriesSection/>
+            <NewHomeStoriesSection />
 
             <Plan />
             <FooterLinks />

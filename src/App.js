@@ -17,10 +17,16 @@ import { NewRentalsPage } from "./components/Pages/NewRentalsPage/NewRentalsPage
 import { NewOffers } from "./components/Pages/NewOffersPage/NewOffers";
 
 import {HandpickedBeachDestinationPage} from "./components/Pages/SubPages/HandpickedBeachDestinationPage";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
     <>
+    <Helmet>
+      <title>TravelFlap</title>
+      <meta name="description" content="Welcome to TravelFlap one stop for all your travel solutions" />
+      <meta name="keywords" content="Travel, Holidays packages, Flight Booking, Hotel Booking, International Holiday Bookings" />
+    </Helmet>
     <NewHomeNav/>
     {/* <Hotel/> */}
     {/* <Holidays /> */}
