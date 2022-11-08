@@ -17,13 +17,23 @@ import { NewRentalsPage } from "./components/Pages/NewRentalsPage/NewRentalsPage
 import { NewOffers } from "./components/Pages/NewOffersPage/NewOffers";
 
 import {HandpickedBeachDestinationPage} from "./components/Pages/SubPages/HandpickedBeachDestinationPage";
+
+import { Helmet } from "react-helmet";
+
 import { InnerHandpicked2 } from "./components/Pages/SubPages/InnerHandpicked2/InnerHandpicked2";
 import { InnerPopularDestination1 } from "./components/Pages/SubPages/InnerPopularDestination1/InnerPopularDestination1";
 // import {InnerHandPicked3} from "./components/Pages/SubPages/InnerHandPicked3/InnerHandPicked3";
+import { InnerVisaPage1 } from "./components/Pages/SubPages/InnerVisapages/InnerVisaPage1/InnerVisaPage1";
+
 
 function App() {
   return (
     <>
+    <Helmet>
+      <title>TravelFlap</title>
+      <meta name="description" content="Welcome to TravelFlap one stop for all your travel solutions" />
+      <meta name="keywords" content="Travel, Holidays packages, Flight Booking, Hotel Booking, International Holiday Bookings" />
+    </Helmet>
     <NewHomeNav/>
     
     {/* <Hotel/> */}
