@@ -98,7 +98,7 @@ export const NewHomeExclusiveDeals = () => {
                     </div>
 
                     <div className="exclusivedealssliderdata">
-                        <div className="exclusivedealsmaindivslider" >
+                        <div className="exclusivedealsmaindivslider">
                             <Slider
                                 arrows={false}
                                 // autoplay={true}

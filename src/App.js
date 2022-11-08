@@ -17,11 +17,13 @@ import { NewRentalsPage } from "./components/Pages/NewRentalsPage/NewRentalsPage
 import { NewOffers } from "./components/Pages/NewOffersPage/NewOffers";
 
 import {HandpickedBeachDestinationPage} from "./components/Pages/SubPages/HandpickedBeachDestinationPage";
+// import {InnerPopularDestinationAccomodations} from "./components/Pages/SubPages/InnerPopularDestination1/InnerPopularDestinationAccomodations/InnerPopularDestinationAccomodations";
 
 import { Helmet } from "react-helmet";
 
 import { InnerHandpicked2 } from "./components/Pages/SubPages/InnerHandpicked2/InnerHandpicked2";
 import { InnerPopularDestination1 } from "./components/Pages/SubPages/InnerPopularDestination1/InnerPopularDestination1";
+import { InnerPopularDestination2 } from "./components/Pages/SubPages/InnerPopularDestination2/InnerPopularDestination2";
 // import {InnerHandPicked3} from "./components/Pages/SubPages/InnerHandPicked3/InnerHandPicked3";
 import { InnerVisaPage1 } from "./components/Pages/SubPages/InnerVisapages/InnerVisaPage1/InnerVisaPage1";
 
@@ -69,6 +71,9 @@ function App() {
         <Route path="/weekendgetaways" element={<HandpickedBeachDestinationPage/>} />
         <Route path="/bali" element={<InnerHandpicked2/>}/>
         <Route path="/populardestination" element={<InnerPopularDestination1/>}/>
+        <Route path="/TurkeyDescription" element={<InnerPopularDestination2/>} />
+
+        {/* <Route path="/accomodations" element={<InnerPopularDestinationAccomodations/>}/> */}
         {/* <Route path="/baliDetails" element={<InnerHandPicked3/>}/> */}
         {/* <Route path="/easyvisainnerpage" element={<InnerVisaPage1/>}/> */}
         

@@ -1,25 +1,33 @@
 .Staycation-Content-Footer img{
     width:100%;
-    height:600px;
-    opacity:0.5;
+    height:500px;
+    filter: brightness(0.4);
+    
+    /* opacity:0.5; */
 }
 
 .Staycation-Content-Items{
     position:relative;
-    margin-top: -34%;
+    margin-top: -28%;
     margin-left: 6%;
+    /* border: 2px solid red; */
 }
 
 .Staycation-Content-Footer3{
     position:absolute;
-    margin-top: -27.5%;
+    margin-top: -23.5%;
     margin-left:55%;
-    background-color:lightcoral;
-    color:white;
+    background-color:#3380f2;
+    color:black;
     font-weight:400;
+    opacity: 0.5;
+    /* filter: brightness(0.6); */
     padding:2px;
     font-size:medium;
-    height: 420px;
+    height: 350px;
+    padding: 25px;
+    width: 35%;
+
 }
 
 /* .Staycation-Content-Footer3 h3{

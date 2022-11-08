@@ -1,0 +1,60 @@
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+  .MainContainerdiv{
+    position:absolute;
+    /* top:104%; */
+    margin-top:-1%;
+    left:6%;
+    overflow:hidden;
+    width:58%;
+  }
+  .DescriptionText{
+    margin-left:3%;
+  }
+  .btn-space{
+    margin-right:8px;
+  }
+  #MainDivofCard{
+    margin-top:2%;
+  }
+  #marginbetweendiv{
+    margin-top:2%;
+    /* border: 2px solid red !important; */
+  }
+  .RecommendedTextSize{
+    font-size: 14px;
+    margin-left:0%;
+  }
+  .DetailsOfPrice{
+    font-size: 14px;
+    margin-left:6%;
+    margin-top:5% !important;
+
+  }
+  .ButtonModification{
+    /* border:2px solid blue; */
+    width:87%;
+    font-size:24px;
+    padding: 5px;
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+
+  /* .ButtonsForRecommendation Button{
+    margin-left: 0%;
+    border:2px solid red;
+  } */
+  .HeadlineOfCard{
+  /* position:absolute; */
+  margin-top: 0%;
+  text-align:left;
+  
+  }
+
+  .Headline2OfCard{
+    text-align:left;
+    margin-top:5%;
+  }

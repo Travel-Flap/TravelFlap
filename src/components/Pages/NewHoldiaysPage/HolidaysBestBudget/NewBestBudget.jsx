@@ -64,7 +64,7 @@ export const NewHolidaysBestBudget = () => {
                     </div> */}
 
 
-                    <div id='newHolidaysBestBudgetDropContainer'>
+                       <div id='newHolidaysBestBudgetDropContainer'>
                             <select id="newHolidaysBestBudgetCountryDrop" onChange={(e) => handlecounty(e)}
                                 style={{ width: "100%",appearance:"none" }}>
                                 <option value="">Country</option>
@@ -101,7 +101,7 @@ export const NewHolidaysBestBudget = () => {
             <div className="newBestBudgetslidercontainer">
                 <Slider
                     arrows={false}
-                    // autoplay={true}
+                    autoplay={true}
                     speed={2000}
                     autoplaySpeed={2000}
                     dots={true}

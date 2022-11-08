@@ -1,0 +1,114 @@
+.HolidayFilterDiv{
+    width:25%;
+    margin-right: 6%;
+    margin-left:68%;
+    margin-top:-19%;
+    position:absolute;
+
+  
+}
+.HolidayFilterPageMainDiv{
+    background-color: #f3f7fa;
+    box-shadow: 2px 2px 2px lightgrey;
+    height:240px;
+}
+
+.PageFilterContent1{
+    background-color:#3380f2;
+    width:100%;
+    height:120px;
+}
+.PageFilterContent1 h3{
+    margin-left:-47%;
+    color:aliceblue;
+    margin-top:6%;
+}
+.OfferBox{
+    width:120%;
+}
+
+.OfferBox span{
+    background-image: linear-gradient(to right,red,yellow);
+    margin-top:4%;
+    margin-right:60%;
+    /* width:120%; */
+    padding:8px;
+}
+
+.TaxesApplied span{
+    position:absolute;
+    margin-top:-8%;
+    margin-left:5%;
+}
+
+
+.PaymentButton{
+    background-image: linear-gradient(to right,#3380f2,#33e7f2);
+    padding:14px;
+    width:60%;
+    border-radius: 4px ;
+    border:none;
+    font-size:medium;
+    color:azure;
+    font-weight:400;
+
+}
+.PageFilterContent2{
+    display:flex;
+    justify-content:space-between;
+}
+
+.HolidayPageSubContainer{
+    margin-top: 3%;
+}
+
+.HolidayPageSubContainer{
+    background-color:azure;
+}
+.PageFilterContent4{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.ApplyButton{
+    color:#3380f2;
+}
+.PageFilterSubContent{
+    display:flex;
+    justify-content: space-between;
+    background-color:lightgrey;
+    margin-bottom:2%;
+    border-radius: 4px;
+}
+.PageFilterContentItem3 a{
+   text-decoration:none;
+   color:#3380f2;
+   margin-left:-43%;
+}
+/* .PageFilterContentItem3{
+    margin-top:5%;
+} */
+
+.PageFilterContentItem4{
+    background-color: #3389f2;
+}
+.PageFilterContentItems a{
+    text-decoration:none;
+    margin-left: -23%;
+    font-weight:1000;
+    margin-top:20%;
+}
+.HeadingOfOffer{
+    font-size:medium;
+    font-weight:700;
+    margin-top:2%;
+    float:left;
+    margin-left: 18%;
+}
+
+.DescriptionOFHeadline{
+    float:left;
+    margin-left:1%;
+    font-size:smaller;
+}

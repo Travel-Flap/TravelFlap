@@ -1,5 +1,6 @@
 
-import './InnerPopularDestinationButton.css'
+import './InnerPopularDestinationButton.css';
+import {Link} from "react-router-dom";
 
 export const InnerPopularDestinationButton =() =>{
     return(
@@ -9,7 +10,7 @@ export const InnerPopularDestinationButton =() =>{
             Overview
           </div>
           <div className='innerPopularDestiation1ButtonDiv'>
-            Accomodations
+           <Link to="/accomodations">Accomodations</Link>
           </div>
           <div className='innerPopularDestiation1ButtonDiv'>
             Inclusion and Exclusion

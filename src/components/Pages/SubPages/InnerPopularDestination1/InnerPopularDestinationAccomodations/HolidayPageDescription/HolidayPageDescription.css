@@ -1,0 +1,13 @@
+.PageDescriptionMainDiv{
+    width:58%;
+    margin-left:6%;
+}
+
+.PageDescriptionMainDiv h2{
+    text-align:left;
+
+}
+
+.PageDescriptionMainDiv p{
+    text-align:left;
+}

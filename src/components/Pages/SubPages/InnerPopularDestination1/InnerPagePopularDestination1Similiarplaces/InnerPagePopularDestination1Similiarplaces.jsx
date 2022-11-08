@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -22,11 +23,14 @@ export default class InnerPagePopularDestination1Similiarplaces extends Componen
             <div className='InnerPagePopularDestination1SimiliarplacesContainer'>
                 <div style={{width:"100%" ,margin:"auto"}}>
                 <div className='InnerPagePopularDestination1SimiliarplacesHeading'>
-                    <h2>Similiar Popular Destination in Turk</h2>
+                    <h2>Similiar Popular Destination in Turkey</h2>
                 </div>
 
                 
                 <Slider {...settings} className="multiCardSlider">
+
+
+                    <Link to="/TurkeyDescription">
                     <div className="card-wrapper InnerPagePopularDestination1Similiarplaceswrapper">
                         <div className="card newMultisection_InnerPagePopularDestination1Similiarplacesimage">
                             <div className="card-image InnerPagePopularDestination1SimiliarplacesimagecardImage">
@@ -42,6 +46,7 @@ export default class InnerPagePopularDestination1Similiarplaces extends Componen
                             </div>
                         </div>
                     </div>
+                    </Link>
 
 
                     <div className="card-wrapper InnerPagePopularDestination1Similiarplaceswrapper">
