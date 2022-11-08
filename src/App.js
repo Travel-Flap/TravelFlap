@@ -16,17 +16,28 @@ import { NewHolidaysPage } from "./components/Pages/NewHoldiaysPage/NewHolidaysP
 import { NewRentalsPage } from "./components/Pages/NewRentalsPage/NewRentalsPage";
 import { NewOffers } from "./components/Pages/NewOffersPage/NewOffers";
 
+
 import { HandpickedBeachDestinationPage } from "./components/Pages/SubPages/HandpickedBeachDestinationPage";
 
+// import { Helmet } from "react-helmet";
+
+// import {HandpickedBeachDestinationPage} from "./components/Pages/SubPages/HandpickedBeachDestinationPage";
+
 import { Helmet } from "react-helmet";
+
 import { InnerHandpicked2 } from "./components/Pages/SubPages/InnerHandpicked2/InnerHandpicked2";
+import { InnerPopularDestination1 } from "./components/Pages/SubPages/InnerPopularDestination1/InnerPopularDestination1";
+// import {InnerHandPicked3} from "./components/Pages/SubPages/InnerHandPicked3/InnerHandPicked3";
 import { InnerVisaPage1 } from "./components/Pages/SubPages/InnerVisapages/InnerVisaPage1/InnerVisaPage1";
 
+
 import { DomesticHolidaySubpages } from "./components/Pages/NewHoldiaysPage/DomesticHolidaySubpage/DomesticHolidaySubpages";
+
 
 function App() {
   return (
     <>
+
       <Helmet>
         <title>TravelFlap</title>
         <meta
@@ -41,6 +52,15 @@ function App() {
       <NewHomeNav />
       {/* <Hotel/> */}
       {/* <Holidays /> */}
+    <Helmet>
+      <title>TravelFlap</title>
+      <meta name="description" content="Welcome to TravelFlap one stop for all your travel solutions" />
+      <meta name="keywords" content="Travel, Holidays packages, Flight Booking, Hotel Booking, International Holiday Bookings" />
+    </Helmet>
+    <NewHomeNav/>
+    
+    {/* <Hotel/> */}
+    {/* <Holidays /> */}
       {/* <Navbar /> */}
       {/* <Activities /> */}
       {/* <Link to="/hotels"><Hotel/></Link> */}
@@ -75,6 +95,17 @@ function App() {
         <Route path="/domesticHolidays" element={<DomesticHolidaySubpages/> } />
           
         <Route path="/bali" element={<InnerHandpicked2 />} />
+
+        <Route path="/visa" element={<NewVisa/>}/>
+        <Route path="/visadetail" element={<VisaDetails/>} />
+        {/* <Route path="/cruise" element={<NewCruisePage/>} /> */}
+        <Route path="/rentals" element={ <NewRentalsPage/>} />
+        <Route path="/offers" element={<NewOffers/>}   />
+        
+        <Route path="/weekendgetaways" element={<HandpickedBeachDestinationPage/>} />
+        <Route path="/bali" element={<InnerHandpicked2/>}/>
+        <Route path="/populardestination" element={<InnerPopularDestination1/>}/>
+        {/* <Route path="/baliDetails" element={<InnerHandPicked3/>}/> */}
         {/* <Route path="/easyvisainnerpage" element={<InnerVisaPage1/>}/> */}
 
         {/* <Route path="/staycations" element={ <Staycations/>} /> */}

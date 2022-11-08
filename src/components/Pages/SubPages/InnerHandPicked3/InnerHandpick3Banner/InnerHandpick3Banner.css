@@ -1,0 +1,27 @@
+.Page3BannerImage{
+    height: 500px;
+    /* margin-left:4%; */
+}
+
+.InnerCarouselPage{
+    width: 50%;
+}
+
+.CarouselMaindiv{
+    margin-left: 6%;
+    margin-top:2%;
+    overflow:hidden;
+    
+}
+
+.CarouselDetailPage{
+    position:absolute;
+    top:3%;
+    left:55%;
+    margin-right:6%;
+}
+
+.carouselDescription{
+    margin-top:2%;
+
+}

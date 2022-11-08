@@ -8,7 +8,7 @@
 }
 
 .cardtextnewBestBudgetdropbutton {
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   width: 100% !important;
   display: flex;
   flex-direction: row;
@@ -18,26 +18,26 @@
   color: #3380f2 !important;
   font-weight: 600;
   margin-top: 2%;
-  margin-left: 7%;
+  margin-left: 5%;
   font-size: 35px;
 }
 
-.newHolidaysBestBudgetDropContainer {
+/* .newHolidaysBestBudgetDropContainer {
   width: 12%;
-  margin-left: 47%;
+  margin-left: 55%;
   margin-top: 0.1%;
   display: flex;
   flex-direction: row;
   border-right: none;
   height: 50px;
-  /* border: 2px solid green; */
-}
+  border: 2px solid green;
+} */
 /* .newHolidaysBestBudgetDropContainer:hover .newBestBudgeticondiv {
   background-color: whitesmoke !important;
   color: whitesmoke !important;
   cursor: pointer;
 } */
-.newHolidaysBestBudgetCountryDrop {
+/* .newHolidaysBestBudgetCountryDrop {
   border: 3px solid white !important;
   background-color: whitesmoke !important;
   width: 85% !important;
@@ -51,15 +51,15 @@
   appearance: none !important;
   border: 2px solid gold;
   margin-top: 15%;
-}
-.newHolidaysBestBudgetDropContainer select {
-  /* border: 1px solid red !important; */
+} */
+/* .newHolidaysBestBudgetDropContainer select {
+  border: 1px solid red !important;
   background-image: none !important;
   background-color: #3380f2 !important;
   height: 48px;
   margin-top: 13%;
   color: white !important;
-}
+} */
 
 /* .newHolidaysBestBudgetCountryDrop:hover {
   background-color: white !important;
@@ -114,9 +114,9 @@
 
 .newBestBudgetmaindiv {
   /* border: 1px solid red !important; */
-  background-color: whitesmoke !important;
+  /* background-color: whitesmoke !important; */
   width: 100%;
-  height: 600px !important;
+  height: 500px !important;
   opacity: 0.9;
   /* background-image: url(/public/Images/NewHomeLayout/BackgroundImages/HotelServicesBackground.png); */
 }
@@ -165,16 +165,16 @@
   width: 96%;
   /* border: none; */
 }
-.newHolidaysBestBudgetDropContainer {
+/* .newHolidaysBestBudgetDropContainer {
   display: flex;
   flex-direction: row;
   width: 100%;
   background-color: #3380f2 !important;
   height: 80px;
   margin: auto;
-  /* margin-top: 2%; */
-  /* border: 1px solid black; */
-}
+  margin-top: 2%;
+  border: 1px solid black;
+} */
 
 .activityaroundheading1 {
   /* border: 1px solid black; */
@@ -496,16 +496,16 @@
   width: 96%;
   /* border: none; */
 }
-.newHolidaysBestBudgetDropContainer {
+/* .newHolidaysBestBudgetDropContainer {
   display: flex;
   flex-direction: row;
   width: 100%;
   background-color: #3380f2;
   height: 80px;
   margin: auto;
-  /* margin-top: 2%; */
-  /* border: 1px solid black; */
-}
+  margin-top: 2%;
+  border: 1px solid black;
+} */
 
 .activityaroundheading1 {
   /* border: 1px solid black; */
@@ -1013,7 +1013,7 @@
 /* ----------------- New button css ----------------  */
 
 
-.newHolidaysBestBudgetDropContainer {
+/* .newHolidaysBestBudgetDropContainer {
   width: 9% !important;
   margin-left:50%;
   margin-top: 2.1%;
@@ -1032,13 +1032,13 @@
   outline: none;
   padding-left: 15px;
 }
-/* .newHolidaysBestBudgetDropContainer:hover .newBestBudgeticondiv{
+.newHolidaysBestBudgetDropContainer:hover .newBestBudgeticondiv{
   background-color:white;
   color: #3380F2;
   cursor: pointer;
-} */
+}
 .newHolidaysBestBudgetCountryDrop {
-  /* border: 3px solid red !important; */
+  border: 3px solid red !important;
   background-color: #3380F2 !important;
   width: 80% !important;
   height: 39px !important;
@@ -1054,32 +1054,32 @@
   border: none !important;
 }
 .newHolidaysBestBudgetDropContainer select{
-  /* border: 1px solid red !important; */
+  border: 1px solid red !important;
   background-image: none !important;
 }
 
-/* .newHolidaysBestBudgetCountryDrop:hover {
+.newHolidaysBestBudgetCountryDrop:hover {
   background-color: white !important;
   color: #3380F2 !important;
   font-weight: 700;
   border: 3px solid #3380F2 !important;
-} */
+}
 .newBestBudgeticondiv{
   width: 20%;
   color: white;
-  /* border: 3px solid #3380F2; */
+  border: 3px solid #3380F2;
   background-color: #3380F2;
   height: 39px;
-  /* font-size: 18px !important; */
+  font-size: 18px !important;
   border-radius: 0px 25px 25px 0px;
   padding-right: 5%;
   border-left: none;
   margin-top: 0% !important;
-  /* border: 2px solid yellow; */
+  border: 2px solid yellow;
 }
 .newBestBudgeticon{
   margin-left: -37%;
-  /* width: 100% !important; */
+  width: 100% !important;
   color: #3380F2;
   border: 3px solid #3380F2;
   background-color: white;
@@ -1088,5 +1088,57 @@
   font-size: 18px !important;
   border-radius: 100%;
   margin-top: 25% !important;
-  /* margin-bottom: 105%;*/
+  margin-bottom: 105%;
+} */
+
+
+#newHolidaysBestBudgetDropContainer {
+  width: 9% !important;
+  margin-left: 53%;
+  margin-top: 2.1%;
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+  height: 39px;
+  border-radius: 25px;
+  align-items: center;
+  color: white !important;
+  font-weight: 700;
+  justify-content: space-between;
+  /* border: 2px solid #3380F2; */
+  outline: none;
+  padding-left: 15px;
+}
+
+#newHolidaysBestBudgetCountryDrop {
+  background-color: #3380F2 !important;
+  width: 80%;
+  height: 100%;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px;
+  border-right: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+}
+#newHolidaysBestBudgeticondiv {
+  width: 20%;
+  color: white;
+  background-color: #3380F2;
+  height: 100%;
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
+}
+#newHolidaysBestBudgeticon {
+  margin-left: -37%;
+  color: white;
+  height: 21px;
+  width: 20px;
+  border-radius: 100%;
+  margin-top: 47%;
 }

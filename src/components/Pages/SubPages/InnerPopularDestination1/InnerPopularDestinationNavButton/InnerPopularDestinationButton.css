@@ -1,0 +1,17 @@
+.innerPopularDestiation1ButtonLinks{
+    /* border: 2px solid red; */
+    width: 60%;
+    height: 60px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+.innerPopularDestiation1ButtonDiv{
+    border: 1px solid lightgray;
+    width: 25%;
+    text-align: center;
+    color: #393939;
+    padding-top: 12px;
+    font-weight: 700;
+}

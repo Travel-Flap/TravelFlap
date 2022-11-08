@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import { Outlet, Link } from "react-router-dom";
 import "./NewHomePopularDestination.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -75,23 +76,25 @@ export const CenterMode = () => {
         <>
             <div className="popularDestinationsheadingdiv">
                 <p>Popular Destinations</p>
-                {/* <div className='newHomePopularDestinationDropContainer'> */}
+                
+                <div id='popularDestinationsDropContainer'>
+                            <select id="popularDestinationsCountryDrop" onChange={(e) => handlecounty(e)}
+                                style={{ width: "100%",appearance:"none" }}>
+                                <option value="">Country</option>
+                                {
+                                    countrydata.map((getcountry, index) => (
+                                        <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                    ))
+                                }
+                            </select>
+                            <div id='popularDestinationsicondiv'>
+                            <FaAngleDown  size={"1em"} id="popularDestinationsicon" />
+                            </div>
+                 </div>
 
-                <select className="newHomePopularDestinationDropContainer" onChange={(e) => handlecounty(e)} >
-                    <option style={{ textAlign: "Left" }}>Country</option>
-                    {
-                        countrydata.map((getcountry, index) => (
-                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                        ))
-                    }
-                </select>
-
-                {/* <div className='populardestinationsicondiv'>
-                        <FaAngleDown style={{ fontSize: "15px" }} size={"1em"} className="populardestinationsicon" />
-                    </div>
-                </div> */}
             </div>
             <div className="mainCarouselDiv">
+                <Link to="/populardestination">
                 <div className="sliderDiv">
                     <SliderWrapper>
                         <Slider {...settings}>
@@ -118,6 +121,7 @@ export const CenterMode = () => {
                         </Slider>
                     </SliderWrapper>
                 </div>
+                </Link>
             </div>
         </>
     );

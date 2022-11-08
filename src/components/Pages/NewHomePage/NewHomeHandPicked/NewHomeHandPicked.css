@@ -355,7 +355,7 @@ img {
 
 /* ----------------- New button css ----------------  */
 
-.newHomehandpickedDropContainer {
+/* .newHomehandpickedDropContainer {
   width: 9% !important;
   margin-left: 48.5%;
   margin-top: 2.1%;
@@ -374,9 +374,10 @@ img {
   outline: none;
   padding-left: 15px;
   padding-right: 20px;
-  /* border: 2px solid red; */
+  border: 2px solid red;
+ 
 }
-/* .newHomehandpickedDropContainer:hover .newHomehandpickedicondiv{
+.newHomehandpickedDropContainer:hover .newHomehandpickedicondiv{
   background-color:#3380F2;
   color: white;
   cursor: pointer;
@@ -391,9 +392,9 @@ img {
   color: white;
   cursor: pointer;
   border: 2px solid #3380F2;
-} */
+}
 .newHomeHandpickedCountryDrop {
-  /* border: 3px solid red; */
+  border: 3px solid red;
   background-color: transparent ;
   width: 100%;
   height: 100%;
@@ -408,9 +409,9 @@ img {
   border: none;
   outline: none;
 }
-/* .newHomehandpickedDropContainer select {
+.newHomehandpickedDropContainer select {
   background-image: none;
-} */
+}
 
 .newHomeHandpickedCountryDrop:hover {
   background-color: white ;
@@ -418,25 +419,25 @@ img {
   font-weight: 700;
   border: none;
   outline: none;
-  /* border: 3px solid #3380F2; */
+  border: 3px solid #3380F2;
 }
 .newHomehandpickedicondiv {
   width: 20%;
   color: #3380F2;
-  /* border: 3px solid #3380F2; */
+  border: 3px solid #3380F2;
   background-color: transparent;
   height: 100%;
-  /* font-size: 18px; */
+  font-size: 18px;
   border-radius: 0px 25px 25px 0px;
   padding-right: 5%;
   border-left: none;
-  /* border: 2px solid yellow; */
+  border: 2px solid yellow;
 }
 .handpickedicon {
   margin-left: -37%;
-  /* width: 100%; */
+  width: 100%;
   color: #3380F2;
-  /* border: 3px solid #3380f2; */
+  border: 3px solid #3380f2;
   background-color: white;
   height: 25px;
   width: 25px;
@@ -444,6 +445,58 @@ img {
   border-radius: 100%;
   margin-top: 29%;
   padding-top: 2px;
-  /* border: 1px solid green; */
-  /* margin-bottom: 105%;*/
+  border: 1px solid green;
+  margin-bottom: 105%;
+} */
+
+
+#newHomehandpickedDropContainer {
+  width: 9% !important;
+  margin-left: 48.5%;
+  margin-top: 2.1%;
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+  height: 39px;
+  border-radius: 25px;
+  align-items: center;
+  color: white !important;
+  font-weight: 700;
+  justify-content: space-between;
+  /* border: 2px solid #3380F2; */
+  outline: none;
+  padding-left: 15px;
+}
+
+#newHomeHandpickedCountryDrop {
+  background-color: #3380F2 !important;
+  width: 80%;
+  height: 100%;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px;
+  border-right: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+}
+#newHomehandpickedicondiv {
+  width: 20%;
+  color: white;
+  background-color: #3380F2;
+  height: 100%;
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
+}
+#handpickedicon {
+  margin-left: -37%;
+  color: white;
+  height: 21px;
+  width: 20px;
+  border-radius: 100%;
+  margin-top: 47%;
 }

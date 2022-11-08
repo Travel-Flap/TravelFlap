@@ -20,6 +20,7 @@
     margin-top: 2%;
     margin-left: 7%;
     font-size: 35px;
+    /* border: 2px solid red; */
   }
   
   /* .newFavStaycationDropContainer {
@@ -100,7 +101,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: #3380f2;
+    /* background-color: #3380f2; */
     height: 80px;
     margin: auto;
     /* margin-top: 2%; */
@@ -988,71 +989,53 @@
   
   /* ----------------- New button css ----------------  */
   
-  
-  .newFavStaycationDropContainer {
+  #newFavStaycationDropContainer {
     width: 9% !important;
-    margin-left: 44%;
+    margin-left: 50%;
     margin-top: 2.1%;
     display: flex;
     flex-direction: row;
     border-right: none;
     height: 39px;
     border-radius: 25px;
-    background-color: #3380F2 !important;
-    display: flex;
     align-items: center;
     color: white !important;
     font-weight: 700;
     justify-content: space-between;
-    border: 2px solid #3380F2;
+    /* border: 2px solid #3380F2; */
     outline: none;
     padding-left: 15px;
   }
   
-  .newFavHotelsCountryDrop {
-    border: 3px solid #3380F2 !important;
-    background-color: White !important;
-    width: 80% !important;
-    height: 39px !important;
-    color:#3380F2 !important;
-    font-weight: 700 !important;
-    font-size: 10px !important;
+  #newFavStaycationCountryDrop {
+    background-color: #3380F2 !important;
+    width: 80%;
+    height: 100%;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
     cursor: pointer;
-    border-radius: 25px 0px 0px 25px !important;
-    border-right: none !important;
-    appearance: none !important;
-    margin-top: 1% !important;
-    padding-top: 3% !important;
+    border-radius: 25px 0px 0px 25px;
+    border-right: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    padding-left: 15px;
   }
-  .newFavStaycationDropContainer select{
-    /* border: 1px solid red !important; */
-    background-image: none !important;
-  }
-  
-  
-  .newFavHotelsicondiv{
+  #newFavStaycationicondiv {
     width: 20%;
-    color: #3380F2;
-    border: 3px solid #3380F2 !important;
-    background-color: White;
-    height: 39px;
-    margin-top: 1%;
-    /* font-size: 18px !important; */
+    color: white;
+    background-color: #3380F2;
+    height: 100%;
     border-radius: 0px 25px 25px 0px;
     padding-right: 5%;
-    border-left: none !important;
-    /* border: 2px solid yellow; */
+    border-left: none;
   }
-  .favHotelsicon{
+  #newFavStaycationicon {
     margin-left: -37%;
-    /* width: 100% !important; */
     color: white;
-    border: 3px solid #3380F2 !important;
-    background-color: #3380F2 !important;
-    height: 23px;
-    width: 23px;
-    font-size: 18px !important;
+    height: 21px;
+    width: 20px;
     border-radius: 100%;
-    margin-top: 25% !important;
-    /* margin-bottom: 105%;*/
+    margin-top: 47%;
   }

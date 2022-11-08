@@ -76,6 +76,7 @@ export const NewHomeHandPicked = () => {
                         </div>
                     </div> */}
 
+
                     <select className="newHomehandpickedDropContainer" onChange={(e) => handlecounty(e)} style={{ backgroundColor: "white", textAlign: "left", paddingRight: "15px" }}>
                         <option style={{ textAlign: "Left" }}>Country</option>
                         {
@@ -84,6 +85,23 @@ export const NewHomeHandPicked = () => {
                             ))
                         }
                     </select>
+                
+                        <div id='newHomehandpickedDropContainer'>
+                            <select id="newHomeHandpickedCountryDrop" onChange={(e) => handlecounty(e)}
+                                style={{ width: "100%",appearance:"none" }}>
+                                <option value="">Country</option>
+                                {
+                                    countrydata.map((getcountry, index) => (
+                                        <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                    ))
+                                }
+                            </select>
+                            <div id='newHomehandpickedicondiv'>
+                            <FaAngleDown  size={"1em"} id="handpickedicon" />
+                            </div>
+                        </div>
+
+
 
                 </div>
 

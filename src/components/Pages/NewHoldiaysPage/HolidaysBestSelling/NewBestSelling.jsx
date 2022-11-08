@@ -63,14 +63,21 @@ export const NewHolidaysBestSelling = () => {
                         </div>
                     </div> */}
 
-                    <select className="newHolidaysBestSellingDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
-                        <option style={{textAlign:"Left"}}>Country</option>
-                        {
-                            countrydata.map((getcountry, index) => (
-                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                            ))
-                        }
-                    </select>
+                    
+                       <div id='newHolidaysBestSellingDropContainer'>
+                            <select id="newHolidaysBestSellingCountryDrop" onChange={(e) => handlecounty(e)}
+                                style={{ width: "100%",appearance:"none" }}>
+                                <option value="">Country</option>
+                                {
+                                    countrydata.map((getcountry, index) => (
+                                        <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                    ))
+                                }
+                            </select>
+                            <div id='newHolidaysBestSellingicondiv'>
+                            <FaAngleDown  size={"1em"} id="newHolidaysBestSellingicon" />
+                            </div>
+                        </div>
                 </div>
 
                 {/* <div className="cardtextendbuttons">

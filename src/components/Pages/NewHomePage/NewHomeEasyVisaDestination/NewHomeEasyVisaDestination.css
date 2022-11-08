@@ -230,7 +230,7 @@
 /* ----------------- New button css ----------------  */
 
 
-.newHomeEasyvisaDropContainer {
+/* .newHomeEasyvisaDropContainer {
   width: 9% !important;
   margin-left: 65%;
   margin-top: 2.1%;
@@ -248,15 +248,15 @@
   border: 2px solid #3380F2;
   outline: none;
   padding-left: 15px;
-}
+} */
 /* .newHomeEasyvisaDropContainer:hover .newEasyvisaicondiv{
   background-color:white;
   color: #3380F2;
   cursor: pointer;
   border: 2px solid #3380F2;
 } */
-.newHomeEasyvisaCountryDrop {
- /* border: 3px solid red !important; */
+/* .newHomeEasyvisaCountryDrop {
+ border: 3px solid red !important;
  background-color: #3380F2 !important;
  width: 80% !important;
  height: 39px !important;
@@ -271,30 +271,30 @@
  border: none !important;
 }
 .newHomeEasyvisaDropContainer select{
-  /* border: 1px solid red !important; */
+  border: 1px solid red !important;
   background-image: none !important;
-}
+} */
 
 /* .newHomeEasyvisaCountryDrop:hover {
   background-color: white !important;
     color: #3380F2 !important;
     font-weight: 700;
 } */
-.newEasyvisaicondiv{
+/* .newEasyvisaicondiv{
   width: 20%;
   color: white;
-  /* border: 3px solid #3380F2; */
+  border: 3px solid #3380F2;
   background-color: #3380F2;
   height: 39px;
-  /* font-size: 18px !important; */
+  font-size: 18px !important;
   border-radius: 0px 25px 25px 0px;
   padding-right: 5%;
   border-left: none;
-  /* border: 2px solid yellow; */
+  border: 2px solid yellow;
 }
 .Easyvisaicon{
   margin-left: -37%;
-  /* width: 100% !important; */
+  width: 100% !important;
   color: #3380F2;
   border: 3px solid #3380F2;
   background-color: white;
@@ -303,5 +303,57 @@
   font-size: 18px !important;
   border-radius: 100%;
   margin-top: 29% !important;
-  /* margin-bottom: 105%;*/
+  margin-bottom: 105%;
+} */
+
+
+#newHomeEasyvisaDropContainer {
+  width: 9% !important;
+  margin-left:64%;
+  margin-top: 2.1%;
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+  height: 39px;
+  border-radius: 25px;
+  align-items: center;
+  color: white !important;
+  font-weight: 700;
+  justify-content: space-between;
+  /* border: 2px solid #3380F2; */
+  outline: none;
+  padding-left: 15px;
+}
+
+#newHomeEasyvisaCountryDrop {
+  background-color: #3380F2 !important;
+  width: 80%;
+  height: 100%;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px;
+  border-right: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+}
+#newHomeEasyvisaicondiv {
+  width: 20%;
+  color: white;
+  background-color: #3380F2;
+  height: 100%;
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
+}
+#newHomeEasyvisaicon {
+  margin-left: -37%;
+  color: white;
+  height: 21px;
+  width: 20px;
+  border-radius: 100%;
+  margin-top: 47%;
 }

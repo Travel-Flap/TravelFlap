@@ -15,7 +15,7 @@ export default class HandPickedBeachDestinationInternationalComponent extends Co
         const settings = {
             // dots: true,
             infinite: true,
-            autoplay: true,
+            // autoplay: true,
             autoplaySpeed:2000,
             speed: 2000,
             slidesToShow: 4,

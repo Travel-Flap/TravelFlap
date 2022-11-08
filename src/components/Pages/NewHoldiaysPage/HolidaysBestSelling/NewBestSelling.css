@@ -14,60 +14,13 @@
   }
   
   .cardtextnewBestSellingDropbutton h2 {
-    color: whitesmoke;
+    color: #3380F2;
     font-weight: 600;
     margin-top: 2%;
     margin-left: 5%;
     font-size: 35px;
   }
-  
-  
-  .newHolidaysBestSellingDropContainer {
-    width: 12%;
-    margin-left: 47%;
-    margin-top: 0.1%;
-    display: flex;
-    flex-direction: row;
-    border-right: none;
-    height: 50px;
-    /* border: 2px solid green; */
-  }
-  .newHolidaysBestSellingDropContainer:hover .newBestSellingIcondiv{
-    background-color: whitesmoke !important;
-    color: #3380f2 !important;
-    cursor: pointer;
-  }
-  .newHolidaysBestSellingCountryDrop {
-    border: 3px solid white !important;
-    background-color: #3380f2 !important;
-    width: 85% !important;
-    height: 43px;
-    color:#3380F2 !important;
-    font-weight: 700 !important;
-    font-size: 14px !important;
-    cursor: pointer;
-    border-radius: 25px 0px 0px 25px !important;
-    border-right: none !important;
-    appearance: none !important;
-    border: 2px solid gold;
-    margin-top: 15%;
-  }
-  .newHolidaysBestSellingDropContainer select{
-    /* border: 1px solid red !important; */
-    background-image: none !important;
-    background-color:whitesmoke !important;
-    height: 48px;
-    margin-top: 13%;
-    color: #3380f2 !important;
-  }
-  
-  /* .newHolidaysBestSellingCountryDrop:hover {
-    background-color: #3380f2 !important;
-    color: whitesmoke !important;
-    font-weight: 700;
-    border: 3px solid whitesmoke !important;
-  } */
-
+ 
   .newBestSellingIcondiv{
     width: 16%;
     color: white;
@@ -116,7 +69,7 @@
     /* border: 1px solid red !important; */
     width: 100%;
     height: 500px !important;
-    background-color: #3380f2;
+    /* background-color: #3380f2; */
     opacity: 0.9;
     /* background-image: url(/public/Images/NewHomeLayout/BackgroundImages/HotelServicesBackground.png); */
   }
@@ -169,7 +122,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: #3380f2 !important;
+    /* background-color: #3380f2 !important; */
     height: 80px;
     margin: auto;
     /* margin-top: 2%; */
@@ -500,7 +453,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: #3380f2;
+    /* background-color: #3380f2; */
     height: 80px;
     margin: auto;
     /* margin-top: 2%; */
@@ -1020,82 +973,53 @@
   
   /* ----------------- New button css ----------------  */
 
-
-  .newHolidaysBestSellingDropContainer {
+  #newHolidaysBestSellingDropContainer {
     width: 9% !important;
-    margin-left:53%;
+    margin-left: 53%;
     margin-top: 2.1%;
     display: flex;
     flex-direction: row;
     border-right: none;
     height: 39px;
     border-radius: 25px;
-    background-color: white !important;
-    display: flex;
     align-items: center;
-    color: #3380F2 !important;
+    color: white !important;
     font-weight: 700;
     justify-content: space-between;
-    border: 2px solid #3380F2;
+    /* border: 2px solid #3380F2; */
     outline: none;
     padding-left: 15px;
   }
-  /* .newHolidaysBestSellingDropContainer:hover .newBestSellingIcondiv{
-    background-color:white;
-    color: #3380F2;
-    cursor: pointer;
-  } */
-  .newHolidaysBestSellingCountryDrop {
-    /* border: 3px solid red !important; */
-    background-color: #3380F2 !important;
-    width: 80% !important;
-    height: 44px !important;
-    color:white !important;
-    font-weight: 700 !important;
-    font-size: 17px !important;
-    margin-top: -1.7% !important;
-    cursor: pointer;
-    border-radius: 25px 0px 0px 25px !important;
-    border-right: none !important;
-    appearance: none !important;
-    padding-top: 5% !important;
-    border: none !important;
-  }
-  .newHolidaysBestSellingDropContainer select{
-    /* border: 1px solid red !important; */
-    background-image: none !important;
-  }
   
-  /* .newHolidaysBestSellingCountryDrop:hover {
-    background-color: white !important;
-    color: #3380F2 !important;
+  #newHolidaysBestSellingCountryDrop {
+    background-color: #3380F2 !important;
+    width: 80%;
+    height: 100%;
+    color: white;
     font-weight: 700;
-    border: 3px solid #3380F2 !important;
-  } */
-  .newBestSellingIcondiv{
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 25px 0px 0px 25px;
+    border-right: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+  }
+  #newHolidaysBestSellingicondiv {
     width: 20%;
     color: white;
-    /* border: 3px solid #3380F2; */
-    background-color: white;
-    height: 48.5px;
-    /* font-size: 18px !important; */
+    background-color: #3380F2;
+    height: 100%;
     border-radius: 0px 25px 25px 0px;
     padding-right: 5%;
     border-left: none;
-    margin-top: -3% !important;
-    /* border: 2px solid yellow; */
   }
-  .newBestSellingIcon{
+  #newHolidaysBestSellingicon {
     margin-left: -37%;
-    /* width: 100% !important; */
     color: white;
-    border: 3px solid #3380F2;
-    background-color: #3380F2;
-    height: 25px;
-    width: 25px;
-    font-size: 18px !important;
+    height: 21px;
+    width: 20px;
     border-radius: 100%;
-    margin-top: 41% !important;
-    padding-top: 2px;
-    /* margin-bottom: 105%;*/
+    margin-top: 47%;
   }

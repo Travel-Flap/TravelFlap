@@ -45,7 +45,7 @@ export const PopularStaycation = () => {
 
                 <div className="newPopularStaycationHeadingContainer">
                     <h2 className="popularStaycationpageheading">Popular Staycations</h2>
-                    {/* <div className='newHomeHandPickedDropContainer'>
+                    {/* <div className='newPopularStaycationDropContainer'>
                         <select className="form-select newHandPickedCountryDrop" onChange={(e) => handlecounty(e)} aria-label="Default select example"
                             style={{ border: "3px solid #3380f2", width: "60%",fontWeight:"700" }}>
                             <option value="" style={{ textAlign: "center" }}>Country Deals</option>
@@ -59,7 +59,7 @@ export const PopularStaycation = () => {
                     </div> */}
 
                    {/* <div className='newPopularStaycationDropContainer'>
-                        <select className="form-select newHomeHandpickedCountryDrop" onChange={(e) => handlecounty(e)}
+                        <select className="form-select newPopularStaycationCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ width: "100%",appearance:"none" }}>
                             <option value="">Country</option>
                             {
@@ -68,19 +68,26 @@ export const PopularStaycation = () => {
                                 ))
                             }
                         </select>
-                        <div className='newHomehandpickedicondiv'>
+                        <div className='newPopularStaycationicondiv'>
                         <FaAngleDown style={{fontSize:"15px"}} size={"1em"} className="handpickedicon" />
                         </div>
                     </div> */}
                 
-                   <select className="newPopularStaycationDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left",paddingRight:"15px"}}>
-                        <option style={{textAlign:"Left"}}>Country</option>
-                        {
-                            countrydata.map((getcountry, index) => (
-                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                            ))
-                        }
-                    </select>
+
+                    <div id='newPopularStaycationDropContainer'>
+                            <select id="newPopularStaycationCountryDrop" onChange={(e) => handlecounty(e)}
+                                style={{ width: "100%",appearance:"none" }}>
+                                <option value="">Country</option>
+                                {
+                                    countrydata.map((getcountry, index) => (
+                                        <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                    ))
+                                }
+                            </select>
+                            <div id='newPopularStaycationicondiv'>
+                            <FaAngleDown  size={"1em"} id="newPopularStaycationicon" />
+                            </div>
+                        </div>
 
                 </div>
 

@@ -316,3 +316,57 @@
   /* border: 2px solid red; */
   border-radius: 20px;
 }
+
+/* -----------------------New Button Css --------------------------- */
+
+
+#popularDestinationsDropContainer {
+  width: 9.5%;
+  margin-left: 60%;
+  /* margin-top: 2%; */
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+  height: 39px;
+  border-radius: 25px;
+  align-items: center;
+  color: white !important;
+  font-weight: 700;
+  justify-content: space-between;
+  /* border: 2px solid #3380F2; */
+  outline: none;
+  padding-left: 15px;
+}
+
+#popularDestinationsCountryDrop {
+  background-color: #3380F2 !important;
+  width: 80%;
+  height: 100%;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px;
+  border-right: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+}
+#popularDestinationsicondiv {
+  width: 20%;
+  color: white;
+  background-color: #3380F2;
+  height: 100%;
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
+}
+#popularDestinationsicon {
+  margin-left: -37%;
+  color: white;
+  height: 21px;
+  width: 20px;
+  border-radius: 100%;
+  margin-top: -106%;
+}

@@ -8,6 +8,7 @@ import HandPickedBeachDestinationInternationalComponent from './HandPickedBeachD
 import { StaycationFaq } from './Faq/Faq';
 import { VideoTextStaycation } from './VideoText/VideoText';
 import { Link } from 'react-router-dom';
+import { InnerHandpickedSlider } from './InnerHandpicked2/InnerHandpickedSlider/InnerHandpickedSlider';
 
 export const HandpickedBeachDestinationPage = () => {
 
@@ -36,7 +37,7 @@ export const HandpickedBeachDestinationPage = () => {
                         autoplaySpeed={2000}
                         dotsclassName="slick-dots line-indicator"
                         ref={sliderRef}
-                        slidesToShow={3}
+                        slidesToShow={4}
                         slidesToScroll={2}
                         responsive={[
                             {
@@ -226,7 +227,7 @@ export const HandpickedBeachDestinationPage = () => {
                         autoplaySpeed={2000}
                         dotsclassName="slick-dots line-indicator"
                         ref={sliderRef}
-                        slidesToShow={3}
+                        slidesToShow={4}
                         slidesToScroll={2}
                         responsive={[
                             {
@@ -414,13 +415,13 @@ export const HandpickedBeachDestinationPage = () => {
                         autoplaySpeed={2000}
                         dotsclassName="slick-dots line-indicator"
                         ref={sliderRef}
-                        slidesToShow={3}
+                        slidesToShow={4}
                         slidesToScroll={2}
                         responsive={[
                             {
                                 breakpoint: 1024,
                                 settings: {
-                                    slidesToShow: 3,
+                                    slidesToShow:3,
                                     slidesToScroll: 1,
                                     infinite: true
                                 }
@@ -601,6 +602,8 @@ export const HandpickedBeachDestinationPage = () => {
             <div style={{ marginTop: "5%" }}>
                 <HandPickedBeachDestinationInternationalComponent />
             </div>
+
+            {/* <InnerHandpickedSlider/> */}
 
             <div style={{ margin: "5%" }}>
                 <StaycationFaq />

@@ -2,13 +2,14 @@
     border: 1px solid red;
 } */
 
-.newPopularDestinationMaincarddiv img {
+.newPopularDestinationMaincarddiv  {
     height: 600px;
-    background-color: #3380f2 !important;
+    border: none;
+    background-color:white !important;
   }
   
   .newPopularDestinationsContainer{
-    background-color: #3380f2 !important;
+    /* background-color: #fff !important; */
     /* border: 2px solid red !important; */
   }
   /* .newPopularDestinationsmainheading{
@@ -17,7 +18,7 @@
     background-color: #3380f2;
   } */
   .newPopularDestinationsHeadingouterdiv h2 {
-    color: whitesmoke;
+    color: #3380F2;
     margin-left: 2%;
     font-size: 30px;
     font-weight: 700;
@@ -33,17 +34,21 @@
   .newPopularbelowHeadingdiv{
     display: flex;
     flex-direction: row;
+    color: #393939;
   }
 
   .belowInternationalheading{
-    margin-left: 35%;
-    font-size: 30px;
+    margin-left: 2%;
+    width: 12%;
+    font-size: 28px;
     margin-bottom: 3%;
+    border-right: 2px solid lightgray;
   }
 
   .belowDomesticHeading{
-    margin-left: 10%;
-    font-size: 30px;
+    margin-left: 1.5%;
+    font-size: 28px;
+    /* border: 2px solid red; */
   }
 
   /* .newPopularDestinationsDropContainer {
@@ -337,7 +342,7 @@
 
   /* ----------------- New button css ----------------  */
 
-
+/* 
 .newPopularDestinationsDropContainer {
   width: 9% !important;
   margin-left:63%;
@@ -373,26 +378,77 @@
   padding-top: 2.5%;
 }
 .newPopularDestinationsDropContainer select{
-  /* border: 1px solid red !important; */
+  border: 1px solid red !important;
   background-image: none !important;
+} */
+
+
+#HolidaysPopularDestinationDropContainer {
+  width: 9% !important;
+  margin-left: 65%;
+  margin-top: 2.1%;
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+  height: 39px;
+  border-radius: 25px;
+  align-items: center;
+  color: white !important;
+  font-weight: 700;
+  justify-content: space-between;
+  /* border: 2px solid #3380F2; */
+  outline: none;
+  padding-left: 15px;
 }
 
+#HolidaysPopularDestinationCountryDrop {
+  background-color: #3380F2 !important;
+  width: 80%;
+  height: 100%;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px;
+  border-right: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+}
+#HolidaysPopularDestinationicondiv {
+  width: 20%;
+  color: white;
+  background-color: #3380F2;
+  height: 100%;
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
+}
+#HolidaysPopularDestinationicon {
+  margin-left: -37%;
+  color: white;
+  height: 21px;
+  width: 20px;
+  border-radius: 100%;
+  margin-top: 47%;
+}
 
 .newPopularDestinationsicondiv{
   width: 20%;
   color: #3380F2;
-  /* border: 3px solid #3380F2; */
+  border: 3px solid #3380F2;
   background-color: White;
   height: 39px;
-  /* font-size: 18px !important; */
+  font-size: 18px !important;
   border-radius: 0px 25px 25px 0px;
   padding-right: 5%;
   border-left: none;
-  /* border: 2px solid yellow; */
+  border: 2px solid yellow;
 }
 .newPopularDestinationsicon{
   margin-left: -37%;
-  /* width: 100% !important; */
+  width: 100% !important;
   color: white !important;
   border: 3px solid #3380F2;
   background-color: #3380F2 !important;
@@ -401,5 +457,5 @@
   font-size: 18px !important;
   border-radius: 100%;
   margin-top: 29% !important;
-  /* margin-bottom: 105%;*/
+  margin-bottom: 105%;
 }
