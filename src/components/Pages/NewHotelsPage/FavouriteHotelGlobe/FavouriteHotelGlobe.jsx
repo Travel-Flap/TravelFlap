@@ -51,14 +51,21 @@ export const FavouriteHotelGlobe = () => {
 
 
                     {/* <div className='newFavHotelsDropContainer'> */}
-                    <select className="newFavHotelsDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
-                        <option style={{textAlign:"Left"}}>Country</option>
-                        {
-                            countrydata.map((getcountry, index) => (
-                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                            ))
-                        }
-                    </select>
+                    
+                    <div id='newFavHotelsDropContainer'>
+                            <select id="newFavHotelsCountryDrop" onChange={(e) => handlecounty(e)}
+                                style={{ width: "100%",appearance:"none" }}>
+                                <option value="">Country</option>
+                                {
+                                    countrydata.map((getcountry, index) => (
+                                        <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                    ))
+                                }
+                            </select>
+                            <div id='newFavHotelsicondiv'>
+                            <FaAngleDown  size={"1em"} id="newFavHotelsicon" />
+                            </div>
+                        </div>
                         {/* <div className='newFavHotelsicondiv'>
                             <FaAngleDown style={{ fontSize: "15px" }} size={"1em"} className="favHotelsicon" />
                         </div>

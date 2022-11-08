@@ -45,20 +45,27 @@ export const FavouriteStaycationSpot = () => {
 
 
             <div className="bestFavStaycationHeadingcontainer" >
-                <div className="cardtextFavStaycationDropbutton">
+                <div className="cardtextFavStaycationDropbutton" style={{marginLeft:"-1%"}}>
                     {/* <CountryDropHotel /> */}
                     <h2>Favourite Staycation spots</h2>
 
 
                     {/* <div className='newFavStaycationDropContainer'> */}
-                    <select className="newFavStaycationDropContainer" onChange={(e) => handlecounty(e)} style={{ backgroundColor: "white", textAlign: "left" }}>
-                        <option style={{ textAlign: "Left" }}>Country</option>
-                        {
-                            countrydata.map((getcountry, index) => (
-                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                            ))
-                        }
-                    </select>
+                  
+                    <div id='newFavStaycationDropContainer'>
+                            <select id="newFavStaycationCountryDrop" onChange={(e) => handlecounty(e)}
+                                style={{ width: "100%",appearance:"none" }}>
+                                <option value="">Country</option>
+                                {
+                                    countrydata.map((getcountry, index) => (
+                                        <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                    ))
+                                }
+                            </select>
+                            <div id='newFavStaycationicondiv'>
+                            <FaAngleDown  size={"1em"} id="newFavStaycationicon" />
+                            </div>
+                        </div>
                     {/* <div className='newFavHotelsicondiv'>
                             <FaAngleDown style={{ fontSize: "15px" }} size={"1em"} className="favHotelsicon" />
                         </div>

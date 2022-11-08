@@ -18,7 +18,7 @@ import { FavouriteStaycationSpot } from "./FavouriteStaycation/FavouriteStaycati
 import { BudgetFriendlyStaycations } from "./BudgetFriendlyStaycation/BudgetfriendlyStaycation";
 import { StaycationHappyFamily } from "./StaycationHappyFamily/StaycationHappyFamily";
 import { PopularStaycation } from "./PopularStaycation/PopularStaycation";
-import { CountrysideStaycation } from "./CountrysideStaycation/CountrysideStaycation";
+// import { CountrysideStaycation } from "./CountrysideStaycation/CountrysideStaycation";
 
 
 export const NewStaycationPage = () => {
@@ -39,7 +39,7 @@ export const NewStaycationPage = () => {
             
             <PopularStaycation/>
 
-            <CountrysideStaycation/>
+            {/* <CountrysideStaycation/> */}
             
             {/* <StaycationHappyFamily/> */}
 

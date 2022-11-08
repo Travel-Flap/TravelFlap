@@ -8,6 +8,7 @@ import { Button } from 'react-bootstrap';
 import { MdLocationCity } from "react-icons/md";
 import {FaAngleDown} from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
+import { Link } from 'react-router-dom';
 
 
 export const NewPopularDestination = () => {
@@ -89,7 +90,7 @@ export const NewPopularDestination = () => {
     return (
         <div className='newPopularDestinationsContainer'>
             <div class="newPopularDestinationMaincarddiv card text-bg-dark">
-                <img src="Images/NewHomeLayout/BackgroundImages/TopCitiesBackground.jpeg" class="card-img" alt="..." />
+                {/* <img src="Images/NewHomeLayout/BackgroundImages/TopCitiesBackground.jpeg" class="card-img" alt="..." /> */}
                 <div className='newPopularbelowdiv'>
 
                 </div>
@@ -127,23 +128,29 @@ export const NewPopularDestination = () => {
                         </div>
                     </div> */}
 
-                    <select className="newPopularDestinationsDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
-                        <option style={{textAlign:"Left"}}>Country</option>
-                        {
-                            countrydata.map((getcountry, index) => (
-                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                            ))
-                        }
-                    </select>
+                       <div id='HolidaysPopularDestinationDropContainer'>
+                            <select id="HolidaysPopularDestinationCountryDrop" onChange={(e) => handlecounty(e)}
+                                style={{ width: "100%",appearance:"none" }}>
+                                <option value="">Country</option>
+                                {
+                                    countrydata.map((getcountry, index) => (
+                                        <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                    ))
+                                }
+                            </select>
+                            <div id='HolidaysPopularDestinationicondiv'>
+                            <FaAngleDown  size={"1em"} id="HolidaysPopularDestinationicon" />
+                            </div>
+                        </div>
 
                         </div>
 
                         <div className='newPopularbelowHeadingdiv'>
                             <h5 className='belowInternationalheading'>
-                                International
+                               <Link to="/InternationalHolidays" style={{textDecoration:"none",color:"#393939"}}>International</Link>
                             </h5>
                             <h5 className='belowDomesticHeading'>
-                                Domestic
+                              <Link to="/DomesticHolidays" style={{textDecoration:"none",color:"#393939"}}> Domestic </Link>
                             </h5>
                         </div>
 

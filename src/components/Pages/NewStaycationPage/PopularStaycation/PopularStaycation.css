@@ -27,7 +27,7 @@
     color: #303030;
   }
   
-  /* .newHomeHandPickedDropContainer {
+  /* .newPopularStaycationDropContainer {
     width: 10%;
     margin-left: 40%;
     margin-top: 3%;
@@ -37,7 +37,7 @@
     height: 46px;
   } */
   
-  /* .newHomeHandPickedDropContainer select {
+  /* .newPopularStaycationDropContainer select {
     background-image: none;
   } */
   .handmadesicon {
@@ -52,7 +52,7 @@
     border-left: none;
   }
   
-  /* .newHomeHandPickedDropContainer:hover .handmadesicon {
+  /* .newPopularStaycationDropContainer:hover .handmadesicon {
     background-color: white !important ;
     color: #3380f2 !important;
     cursor: pointer !important;
@@ -355,7 +355,8 @@
   
   /* ----------------- New button css ----------------  */
   
-  .newPopularStaycationDropContainer {
+
+  #newPopularStaycationDropContainer {
     width: 9% !important;
     margin-left: 48.5%;
     margin-top: 2.1%;
@@ -364,87 +365,44 @@
     border-right: none;
     height: 39px;
     border-radius: 25px;
-    background-color: #3380F2 !important;
-    display: flex;
     align-items: center;
     color: white !important;
     font-weight: 700;
     justify-content: space-between;
-    border: 2px solid #3380F2;
+    /* border: 2px solid #3380F2; */
     outline: none;
     padding-left: 15px;
-    padding-right: 20px;
-    /* border: 2px solid red; */
-  }
-  /* .newPopularStaycationDropContainer:hover .newHomehandpickedicondiv{
-    background-color:#3380F2;
-    color: white;
-    cursor: pointer;
   }
   
-  .newPopularStaycationDropContainer:hover .newHomeHandpickedCountryDrop{
-    background-color: white;
-    color: #3380F2;
-  }
-  .newPopularStaycationDropContainer:hover {
-    background-color: white;
-    color: white;
-    cursor: pointer;
-    border: 2px solid #3380F2;
-  } */
-  .newHomeHandpickedCountryDrop {
-    /* border: 3px solid red; */
-    background-color: transparent ;
-    width: 100%;
+  #newPopularStaycationCountryDrop {
+    background-color: #3380F2 !important;
+    width: 80%;
     height: 100%;
     color: white;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
     border-radius: 25px 0px 0px 25px;
     border-right: none;
     appearance: none;
-    padding-top: 3%;
     border: none;
     outline: none;
+    padding-left: 15px;
   }
-  /* .newPopularStaycationDropContainer select {
-    background-image: none;
-  } */
-  
-  .newHomeHandpickedCountryDrop:hover {
-    background-color: white ;
-    color: #3380f2 ;
-    font-weight: 700;
-    border: none;
-    outline: none;
-    /* border: 3px solid #3380F2; */
-  }
-  .newHomehandpickedicondiv {
+  #newPopularStaycationicondiv {
     width: 20%;
-    color: #3380F2;
-    /* border: 3px solid #3380F2; */
-    background-color: transparent;
+    color: white;
+    background-color: #3380F2;
     height: 100%;
-    /* font-size: 18px; */
     border-radius: 0px 25px 25px 0px;
     padding-right: 5%;
     border-left: none;
-    /* border: 2px solid yellow; */
   }
-  .handpickedicon {
+  #newPopularStaycationicon {
     margin-left: -37%;
-    /* width: 100%; */
-    color: #3380F2;
-    /* border: 3px solid #3380f2; */
-    background-color: white;
-    height: 25px;
-    width: 25px;
-    font-size: 18px;
+    color: white;
+    height: 21px;
+    width: 20px;
     border-radius: 100%;
-    margin-top: 29%;
-    padding-top: 2px;
-    /* border: 1px solid green; */
-    /* margin-bottom: 105%;*/
+    margin-top: 47%;
   }
-  
