@@ -87,7 +87,7 @@ export const HandPickedRomanticDestinationSliderCards = () => {
                         <div class="card mb-3 newhandPickedDestinationRomanticYououterdiv">
                             <div class="row g-0 newhandPickedDestinationRomanticYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationRomanticYouCardimage">
-                                    <img src="Images/SubpageofHAndPicked/1/amalfi-coast-italy.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
+                                    <img src="Images/SubpageofHandPicked/1/amalfi-coast-italy.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 newhandPickedDestinationRomanticYouTextcard">
                                     <div class="card-body newhandPickedDestinationRomanticYouCarddescmain">
@@ -102,7 +102,7 @@ export const HandPickedRomanticDestinationSliderCards = () => {
                         <div class="card mb-3 newhandPickedDestinationRomanticYououterdiv" style={{ marginTop: "15%" }}>
                             <div class="row g-0 newhandPickedDestinationRomanticYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationRomanticYouCardimage">
-                                    <img src="Images/SubpageofHAndPicked/1/aspen-colorado-usa.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
+                                    <img src="Images/SubpageofHandPicked/1/aspen-colorado-usa.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 newhandPickedDestinationRomanticYouTextcard">
                                     <div class="card-body newhandPickedDestinationRomanticYouCarddescmain">
@@ -117,7 +117,7 @@ export const HandPickedRomanticDestinationSliderCards = () => {
                         <div class="card mb-3 newhandPickedDestinationRomanticYououterdiv">
                             <div class="row g-0 newhandPickedDestinationRomanticYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationRomanticYouCardimage">
-                                    <img src="Images/SubpageofHAndPicked/1/florence-italy.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
+                                    <img src="Images/SubpageofHandPicked/1/florence-italy.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 newhandPickedDestinationRomanticYouTextcard">
                                     <div class="card-body newhandPickedDestinationRomanticYouCarddescmain">
@@ -132,7 +132,7 @@ export const HandPickedRomanticDestinationSliderCards = () => {
                         <div class="card mb-3 newhandPickedDestinationRomanticYououterdiv">
                             <div class="row g-0 newhandPickedDestinationRomanticYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationRomanticYouCardimage">
-                                    <img src="Images/SubpageofHAndPicked/1/krabi-thailand.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
+                                    <img src="Images/SubpageofHandPicked/1/krabi-thailand.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 newhandPickedDestinationRomanticYouTextcard">
                                     <div class="card-body newhandPickedDestinationRomanticYouCarddescmain">
@@ -214,7 +214,7 @@ export const HandPickedRomanticDestinationSliderCards = () => {
                         <div class="card mb-3 newhandPickedDestinationRomanticYououterdiv">
                             <div class="row g-0 newhandPickedDestinationRomanticYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationRomanticYouCardimage">
-                                    <img src="Images/SubpageofHAndPicked/1/kyoto-japan.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
+                                    <img src="Images/SubpageofHandPicked/1/kyoto-japan.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 newhandPickedDestinationRomanticYouTextcard">
                                     <div class="card-body newhandPickedDestinationRomanticYouCarddescmain">
@@ -229,7 +229,7 @@ export const HandPickedRomanticDestinationSliderCards = () => {
                         <div class="card mb-3 newhandPickedDestinationRomanticYououterdiv" style={{ marginTop: "15%" }}>
                             <div class="row g-0 newhandPickedDestinationRomanticYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationRomanticYouCardimage">
-                                    <img src="Images/SubpageofHAndPicked/1/maui-hawaii-usa.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
+                                    <img src="Images/SubpageofHandPicked/1/maui-hawaii-usa.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 newhandPickedDestinationRomanticYouTextcard">
                                     <div class="card-body newhandPickedDestinationRomanticYouCarddescmain">
@@ -244,7 +244,7 @@ export const HandPickedRomanticDestinationSliderCards = () => {
                         <div class="card mb-3 newhandPickedDestinationRomanticYououterdiv">
                             <div class="row g-0 newhandPickedDestinationRomanticYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationRomanticYouCardimage">
-                                    <img src="Images/SubpageofHAndPicked/1/paris-france.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
+                                    <img src="Images/SubpageofHandPicked/1/paris-france.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 newhandPickedDestinationRomanticYouTextcard">
                                     <div class="card-body newhandPickedDestinationRomanticYouCarddescmain">
@@ -259,7 +259,7 @@ export const HandPickedRomanticDestinationSliderCards = () => {
                         <div class="card mb-3 newhandPickedDestinationRomanticYououterdiv">
                             <div class="row g-0 newhandPickedDestinationRomanticYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationRomanticYouCardimage">
-                                    <img src="Images/SubpageofHAndPicked/1/pykara-waterfalls-ooty-india.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
+                                    <img src="Images/SubpageofHandPicked/1/pykara-waterfalls-ooty-india.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 newhandPickedDestinationRomanticYouTextcard">
                                     <div class="card-body newhandPickedDestinationRomanticYouCarddescmain">
@@ -342,7 +342,7 @@ export const HandPickedRomanticDestinationSliderCards = () => {
                         <div class="card mb-3 newhandPickedDestinationRomanticYououterdiv">
                             <div class="row g-0 newhandPickedDestinationRomanticYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationRomanticYouCardimage">
-                                    <img src="Images/SubpageofHAndPicked/1/venice-city.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
+                                    <img src="Images/SubpageofHandPicked/1/venice-city.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 newhandPickedDestinationRomanticYouTextcard">
                                     <div class="card-body newhandPickedDestinationRomanticYouCarddescmain">
@@ -358,7 +358,7 @@ export const HandPickedRomanticDestinationSliderCards = () => {
                         <div class="card mb-3 newhandPickedDestinationRomanticYououterdiv">
                             <div class="row g-0 newhandPickedDestinationRomanticYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationRomanticYouCardimage">
-                                    <img src="Images/SubpageofHAndPicked/1/santorini-greece.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
+                                    <img src="Images/SubpageofHandPicked/1/santorini-greece.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 newhandPickedDestinationRomanticYouTextcard">
                                     <div class="card-body newhandPickedDestinationRomanticYouCarddescmain">
@@ -373,7 +373,7 @@ export const HandPickedRomanticDestinationSliderCards = () => {
                         <div class="card mb-3 newhandPickedDestinationRomanticYououterdiv">
                             <div class="row g-0 newhandPickedDestinationRomanticYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationRomanticYouCardimage">
-                                    <img src="Images/SubpageofHAndPicked/1/savannah-georgia.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
+                                    <img src="Images/SubpageofHandPicked/1/savannah-georgia.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 newhandPickedDestinationRomanticYouTextcard">
                                     <div class="card-body newhandPickedDestinationRomanticYouCarddescmain">
@@ -388,7 +388,7 @@ export const HandPickedRomanticDestinationSliderCards = () => {
                         <div class="card mb-3 newhandPickedDestinationRomanticYououterdiv">
                             <div class="row g-0 newhandPickedDestinationRomanticYouImagetextcontainer">
                                 <div class="col-md-8 newhandPickedDestinationRomanticYouCardimage">
-                                    <img src="Images/SubpageofHAndPicked/1/the-berkshires-new-england-usa.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
+                                    <img src="Images/SubpageofHandPicked/1/the-berkshires-new-england-usa.webp" class="img-fluid handPickedDestinationRomanticRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 newhandPickedDestinationRomanticYouTextcard">
                                     <div class="card-body newhandPickedDestinationRomanticYouCarddescmain">

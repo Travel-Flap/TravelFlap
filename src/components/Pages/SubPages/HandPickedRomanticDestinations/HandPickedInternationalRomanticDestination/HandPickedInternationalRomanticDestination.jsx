@@ -33,7 +33,7 @@ export default class HandPickedInternationalRomanticDestination extends Componen
                     <div className="card-wrapper handPickedRomanticDestinationwrapper">
                         <div className="card newMultisection_handPickedRomanticDestinationimage">
                             <div className="card-image handPickedRomanticDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/3/bali (1).webp"/>
+                                <img src="Images/SubpageofHandPicked/3/bali (1).webp"/>
                             </div>
                             <div className="handPickedRomanticDestinationdetails">
                                 <h5> bali <span className="job-title">
@@ -49,7 +49,7 @@ export default class HandPickedInternationalRomanticDestination extends Componen
                     <div className="card-wrapper handPickedRomanticDestinationwrapper">
                         <div className="card newMultisection_handPickedRomanticDestinationimage">
                             <div className="card-image handPickedRomanticDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/3/greece.webp" />
+                                <img src="Images/SubpageofHandPicked/3/greece.webp" />
                             </div>
                             <div className="handPickedRomanticDestinationdetails">
                                 <h5> Greece <span className="job-title">
@@ -65,7 +65,7 @@ export default class HandPickedInternationalRomanticDestination extends Componen
                     <div className="card-wrapper handPickedRomanticDestinationwrapper">
                         <div className="card newMultisection_handPickedRomanticDestinationimage">
                             <div className="card-image handPickedRomanticDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/3/maldives.webp" />
+                                <img src="Images/SubpageofHandPicked/3/maldives.webp" />
                             </div>
                             <div className="handPickedRomanticDestinationdetails">
                                 <h5> Maldives <span className="job-title">
@@ -81,7 +81,7 @@ export default class HandPickedInternationalRomanticDestination extends Componen
                     <div className="card-wrapper handPickedRomanticDestinationwrapper">
                         <div className="card newMultisection_handPickedRomanticDestinationimage">
                             <div className="card-image handPickedRomanticDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/3/mauritius1.webp" />
+                                <img src="Images/SubpageofHandPicked/3/mauritius1.webp" />
                             </div>
                             <div className="handPickedRomanticDestinationdetails">
                                 <h5> Mauritius <span className="job-title">

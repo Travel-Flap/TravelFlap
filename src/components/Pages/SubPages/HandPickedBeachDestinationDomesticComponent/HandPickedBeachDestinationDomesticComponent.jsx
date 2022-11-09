@@ -36,7 +36,7 @@ export default class HandPickedBeachDestinationDomesticComponent extends Compone
                     <div className="card-wrapper handPickedBeachDestinationDomesticwrapper">
                         <div className="card newMultisection_handPickedBeachDestinationDomesticimage">
                             <div className="card-image handPickedBeachDestinationDomesticimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/domestic/Chandipur, Odisha.webp"/>
+                                <img src="Images/SubpageofHandPicked/domestic/Chandipur, Odisha.webp"/>
                             </div>
                             <div className="handPickedBeachDestinationDomesticdetails">
                                 <h5> Chandipur <span className="job-title">
@@ -52,7 +52,7 @@ export default class HandPickedBeachDestinationDomesticComponent extends Compone
                     <div className="card-wrapper handPickedBeachDestinationDomesticwrapper">
                         <div className="card newMultisection_handPickedBeachDestinationDomesticimage">
                             <div className="card-image handPickedBeachDestinationDomesticimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/domestic/Om Beach, Gokarna, Karnataka.webp" />
+                                <img src="Images/SubpageofHandPicked/domestic/Om Beach, Gokarna, Karnataka.webp" />
                             </div>
                             <div className="handPickedBeachDestinationDomesticdetails">
                                 <h5> Om Beach <span className="job-title">
@@ -68,7 +68,7 @@ export default class HandPickedBeachDestinationDomesticComponent extends Compone
                     <div className="card-wrapper handPickedBeachDestinationDomesticwrapper">
                         <div className="card newMultisection_handPickedBeachDestinationDomesticimage">
                             <div className="card-image handPickedBeachDestinationDomesticimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/domestic/Palolem Beach, Goa.webp" />
+                                <img src="Images/SubpageofHandPicked/domestic/Palolem Beach, Goa.webp" />
                             </div>
                             <div className="handPickedBeachDestinationDomesticdetails">
                                 <h5> Palolem Beach <span className="job-title">
@@ -84,7 +84,7 @@ export default class HandPickedBeachDestinationDomesticComponent extends Compone
                     <div className="card-wrapper handPickedBeachDestinationDomesticwrapper">
                         <div className="card newMultisection_handPickedBeachDestinationDomesticimage">
                             <div className="card-image handPickedBeachDestinationDomesticimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/domestic/Varkala, Kerala.webp" />
+                                <img src="Images/SubpageofHandPicked/domestic/Varkala, Kerala.webp" />
                             </div>
                             <div className="handPickedBeachDestinationDomesticdetails">
                                 <h5> Varkala, Kerala <span className="job-title">

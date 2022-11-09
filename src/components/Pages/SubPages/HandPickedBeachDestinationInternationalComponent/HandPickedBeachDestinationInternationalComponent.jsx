@@ -36,7 +36,7 @@ export default class HandPickedBeachDestinationInternationalComponent extends Co
                     <div className="card-wrapper handPickedBeachDestinationwrapper">
                         <div className="card newMultisection_handPickedBeachDestinationimage">
                             <div className="card-image handPickedBeachDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/Inter/galapagos islands.webp"/>
+                                <img src="Images/SubpageofHandPicked/Inter/galapagos islands.webp"/>
                             </div>
                             <div className="handPickedBeachDestinationdetails">
                                 <h5> Galapagos Islands <span className="job-title">
@@ -52,7 +52,7 @@ export default class HandPickedBeachDestinationInternationalComponent extends Co
                     <div className="card-wrapper handPickedBeachDestinationwrapper">
                         <div className="card newMultisection_handPickedBeachDestinationimage">
                             <div className="card-image handPickedBeachDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/Inter/GRACE BAY, TURKS & CAICOS_11zon.webp" />
+                                <img src="Images/SubpageofHandPicked/Inter/GRACE BAY, TURKS & CAICOS_11zon.webp" />
                             </div>
                             <div className="handPickedBeachDestinationdetails">
                                 <h5> GRACE BAY <span className="job-title">
@@ -68,7 +68,7 @@ export default class HandPickedBeachDestinationInternationalComponent extends Co
                     <div className="card-wrapper handPickedBeachDestinationwrapper">
                         <div className="card newMultisection_handPickedBeachDestinationimage">
                             <div className="card-image handPickedBeachDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/Inter/Ko Hong, Thailand_11zon.webp" />
+                                <img src="Images/SubpageofHandPicked/Inter/Ko Hong, Thailand_11zon.webp" />
                             </div>
                             <div className="handPickedBeachDestinationdetails">
                                 <h5> Ko Hong <span className="job-title">
@@ -84,7 +84,7 @@ export default class HandPickedBeachDestinationInternationalComponent extends Co
                     <div className="card-wrapper handPickedBeachDestinationwrapper">
                         <div className="card newMultisection_handPickedBeachDestinationimage">
                             <div className="card-image handPickedBeachDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/Inter/CAMPS BAY, CAPE TOWN, SOUTH AFRICA.webp" />
+                                <img src="Images/SubpageofHandPicked/Inter/CAMPS BAY, CAPE TOWN, SOUTH AFRICA.webp" />
                             </div>
                             <div className="handPickedBeachDestinationdetails">
                                 <h5> CAMPS BAY <span className="job-title">

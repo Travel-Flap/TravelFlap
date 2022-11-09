@@ -33,7 +33,7 @@ export default class HandPickedDomesticRomanticDestination extends Component {
                     <div className="card-wrapper handPickedRomanticDestinationwrapper">
                         <div className="card newMultisection_handPickedRomanticDestinationimage">
                             <div className="card-image handPickedRomanticDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/2/darjeeling.webp"/>
+                                <img src="Images/SubpageofHandPicked/2/darjeeling.webp"/>
                             </div>
                             <div className="handPickedRomanticDestinationdetails">
                                 <h5> darjeeling <span className="job-title">
@@ -49,7 +49,7 @@ export default class HandPickedDomesticRomanticDestination extends Component {
                     <div className="card-wrapper handPickedRomanticDestinationwrapper">
                         <div className="card newMultisection_handPickedRomanticDestinationimage">
                             <div className="card-image handPickedRomanticDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/2/goa (1).webp" />
+                                <img src="Images/SubpageofHandPicked/2/goa (1).webp" />
                             </div>
                             <div className="handPickedRomanticDestinationdetails">
                                 <h5> Goa <span className="job-title">
@@ -65,7 +65,7 @@ export default class HandPickedDomesticRomanticDestination extends Component {
                     <div className="card-wrapper handPickedRomanticDestinationwrapper">
                         <div className="card newMultisection_handPickedRomanticDestinationimage">
                             <div className="card-image handPickedRomanticDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/2/munnar.webp" />
+                                <img src="Images/SubpageofHandPicked/2/munnar.webp" />
                             </div>
                             <div className="handPickedRomanticDestinationdetails">
                                 <h5> Munnar <span className="job-title">
@@ -81,7 +81,7 @@ export default class HandPickedDomesticRomanticDestination extends Component {
                     <div className="card-wrapper handPickedRomanticDestinationwrapper">
                         <div className="card newMultisection_handPickedRomanticDestinationimage">
                             <div className="card-image handPickedRomanticDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/2/udaipur.webp" />
+                                <img src="Images/SubpageofHandPicked/2/udaipur.webp" />
                             </div>
                             <div className="handPickedRomanticDestinationdetails">
                                 <h5> Udaipur <span className="job-title">

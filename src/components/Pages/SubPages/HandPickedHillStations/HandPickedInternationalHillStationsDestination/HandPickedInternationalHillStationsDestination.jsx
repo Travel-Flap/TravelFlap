@@ -33,7 +33,7 @@ export default class HandPickedInternationalHillStationsDestination extends Comp
                     <div className="card-wrapper handPickedHillStationsDestinationwrapper">
                         <div className="card newMultisection_handPickedHillStationsDestinationimage">
                             <div className="card-image handPickedHillStationsDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/3/bali (1).webp"/>
+                                <img src="Images/SubpageofHandPicked/3/bali (1).webp"/>
                             </div>
                             <div className="handPickedHillStationsDestinationdetails">
                                 <h5> bali <span className="job-title">
@@ -49,7 +49,7 @@ export default class HandPickedInternationalHillStationsDestination extends Comp
                     <div className="card-wrapper handPickedHillStationsDestinationwrapper">
                         <div className="card newMultisection_handPickedHillStationsDestinationimage">
                             <div className="card-image handPickedHillStationsDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/3/greece.webp" />
+                                <img src="Images/SubpageofHandPicked/3/greece.webp" />
                             </div>
                             <div className="handPickedHillStationsDestinationdetails">
                                 <h5> Greece <span className="job-title">
@@ -65,7 +65,7 @@ export default class HandPickedInternationalHillStationsDestination extends Comp
                     <div className="card-wrapper handPickedHillStationsDestinationwrapper">
                         <div className="card newMultisection_handPickedHillStationsDestinationimage">
                             <div className="card-image handPickedHillStationsDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/3/maldives.webp" />
+                                <img src="Images/SubpageofHandPicked/3/maldives.webp" />
                             </div>
                             <div className="handPickedHillStationsDestinationdetails">
                                 <h5> Maldives <span className="job-title">
@@ -81,7 +81,7 @@ export default class HandPickedInternationalHillStationsDestination extends Comp
                     <div className="card-wrapper handPickedHillStationsDestinationwrapper">
                         <div className="card newMultisection_handPickedHillStationsDestinationimage">
                             <div className="card-image handPickedHillStationsDestinationimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/3/mauritius1.webp" />
+                                <img src="Images/SubpageofHandPicked/3/mauritius1.webp" />
                             </div>
                             <div className="handPickedHillStationsDestinationdetails">
                                 <h5> Mauritius <span className="job-title">
