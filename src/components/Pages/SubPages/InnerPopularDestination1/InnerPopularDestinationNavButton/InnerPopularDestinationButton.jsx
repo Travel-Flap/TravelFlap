@@ -10,13 +10,13 @@ export const InnerPopularDestinationButton =() =>{
             Overview
           </div>
           <div className='innerPopularDestiation1ButtonDiv'>
-           <Link to="/accomodations">Accomodations</Link>
+           <Link to="/accomodations" style={{textDecoration:"none",color:"#393939"}}>Accomodations</Link>
           </div>
           <div className='innerPopularDestiation1ButtonDiv'>
-            Inclusion and Exclusion
+            <Link to="/inc&exc" style={{textDecoration:"none",color:"#393939"}}>Inclusion and Exclusion</Link>
           </div>
           <div className='innerPopularDestiation1ButtonDiv'>
-            Cancellation Policy
+           <Link to="/CancelPolicy"> Cancellation Policy </Link>
           </div>
         </div>
        

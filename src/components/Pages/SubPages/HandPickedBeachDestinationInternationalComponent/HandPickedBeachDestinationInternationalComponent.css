@@ -7,17 +7,14 @@
   }
   
   .handpickedbeachdestinationHeading{
-    /* width:60%; */
     height: 40px;
     font-weight: 700;
     margin: auto;
-    /* border: 2px solid red; */
-    /* text-align:left; */
-    /* padding-top: 50px; */
-    /* border-bottom: 3px solid #3380F2; */
     margin-top:1% !important;
     margin-left: 1%;
-    /* text-decoration: underline; */
+}
+.handpickedbeachdestinationHeading h2{
+  font-weight: 700;
 }
 
   .carousel .slick-dots {

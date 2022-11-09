@@ -1,0 +1,27 @@
+.PopularInclusionButtonMainDiv{
+    margin-left:3%;
+    margin-top: 3%;
+}
+
+
+.InclusionButton{
+    width:12%;
+    padding: 3px;
+    font-size:medium;
+    height:40px;
+}
+.InclusionButton1{
+    width:12%;
+    padding: 3px;
+    font-size:medium;
+    height:40px;
+}
+
+.InclusionButton2{
+    background-color:#3380f2;
+    width:12%;
+    padding: 3px;
+    font-size:medium;
+    height:40px;
+    border:none;
+}

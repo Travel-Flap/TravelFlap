@@ -1,12 +1,12 @@
-.HolidayPageContainer{
+.handpickedbeachdestinationDomesticContainer{
     /* border: 1px solid red; */
     width: 90%;
     margin: auto;
     height: auto;
-    margin-top: 40%;
+    margin-top: 2%;
   }
   
-  .HolidayPageHeading{
+  .handpickedbeachdestinationDomesticHeading{
     /* width:60%; */
     height: 40px;
     font-weight: 700;
@@ -19,7 +19,9 @@
     margin-left: 1%;
     /* text-decoration: underline; */
 }
-
+.handpickedbeachdestinationDomesticHeading h2{
+  font-weight: 700;
+}
   .carousel .slick-dots {
     bottom: -2.5vw;
   }
@@ -143,7 +145,7 @@
   }
     
   
-  .HolidayPagewrapper {
+  .handPickedBeachDestinationDomesticwrapper {
     position: relative;
     width: 106%;
     padding: 0 10px;
@@ -151,7 +153,7 @@
     box-sizing: border-box;
     margin-top: 15%;
   }
-  .newMultisection_HolidayPageimage {
+  .newMultisection_handPickedBeachDestinationDomesticimage {
   margin-left: 1%;
   width: 95%;
   height: 350px;
@@ -161,17 +163,17 @@
   cursor: pointer;
   position: relative;
   }
-  .newMultisection_HolidayPageimage:hover img {
+  .newMultisection_handPickedBeachDestinationDomesticimage:hover img {
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   
-  .newMultisection_HolidayPageimage:hover .HolidayPagecardImage {
+  .newMultisection_handPickedBeachDestinationDomesticimage:hover .handPickedBeachDestinationimagecardImage {
     -moz-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
   }
-  .HolidayPagecardImage {
+  .handPickedBeachDestinationDomesticimagecardImage {
     top: 0;
     left: 0;
     width: 100%;
@@ -183,20 +185,20 @@
     transition: 0.5s;
   }
   
-  .HolidayPagecardImage img {
+  .handPickedBeachDestinationDomesticimagecardImage img {
     width: 100%;
     filter: brightness(0.8);
     -o-object-fit: cover;
     object-fit: cover;
   }
-  .newMultisection_HolidayPageimage:hover .HolidayPagecardImage {
+  .newMultisection_handPickedBeachDestinationDomesticimage:hover .handPickedBeachDestinationimagecardImage {
     -moz-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
   }
-  .HolidayPageDestinationdetails {
+  .handPickedBeachDestinationDomesticdetails {
     position: absolute;
-    bottom: -60%;
+    bottom: -38%;
     left: 0;
     width: 100%;
     height: 310px;
@@ -207,7 +209,7 @@
     line-height: 15px;
   }
   
-  .HolidayPageDestinationdetails h5 {
+  .handPickedBeachDestinationDomesticdetails h5 {
     margin: 0px 0;
     padding: 0;
     text-align: center;
@@ -216,7 +218,7 @@
     font-weight: 700;
   }
   
-  .HolidayPageDestinationdetails h5 .job-title {
+  .handPickedBeachDestinationDomesticdetails h5 .job-title {
     font-size: 13.5px;
     line-height: 1.5;
     color: white;

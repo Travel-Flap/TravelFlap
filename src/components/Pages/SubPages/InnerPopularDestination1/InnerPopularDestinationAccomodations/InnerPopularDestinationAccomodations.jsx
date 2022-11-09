@@ -4,17 +4,26 @@ import {HolidayPageDescription} from "./HolidayPageDescription/HolidayPageDescri
 import {HolidayPageRating} from "./HolidayPageRating/HolidayPageRating";
 import {HolidayPageFilter} from "./HolidayPageFilter/HolidayPageFilter";
 import {HolidayPageButton} from "./HolidayPageButton/HolidayPageButton";
-import HolidayPageSlider from "./HolidayPageSlider/HolidayPageSlider"
+import HolidayPageSlider from "./HolidayPageSlider/HolidayPageSlider";
+import { StaycationFaq } from "../../Faq/Faq";
+import { InnerhandpickedFooter } from "../../InnerhandpickedFooter/InnerhandpickedFooter";
+import { InnerPopularDestinationBanner } from "../InnerPagePopularDestination/InnerPopularDestinationBanner";
+import { InnerPopularDestinationButton } from "../InnerPopularDestinationNavButton/InnerPopularDestinationButton";
+
 
 export const InnerPopularDestinationAccomodations =() =>{
   return (
     <>
-      <HolidayPageBanner />
-      <HolidayPageButton />
-      <HolidayPageDescription/>
+      {/* <HolidayPageBanner /> */}
+      <InnerPopularDestinationBanner/>
+      <InnerPopularDestinationButton/>
+      {/* <HolidayPageButton /> */}
+      <div style={{marginTop:"1%"}}><HolidayPageDescription/></div>
       <HolidayPageRating/>
-      <HolidayPageFilter/>
+      {/* <HolidayPageFilter/> */}
       <HolidayPageSlider/>
+      <div style={{marginTop:"2%"}}><StaycationFaq/></div>
+      <InnerhandpickedFooter/>
     </>
   );
 }

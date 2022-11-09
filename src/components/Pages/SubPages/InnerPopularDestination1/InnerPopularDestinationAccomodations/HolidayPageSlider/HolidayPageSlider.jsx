@@ -34,7 +34,7 @@ export default class HolidayPageSlider extends Component {
                     <div className="card-wrapper HolidayPagewrapper">
                         <div className="card newMultisection_HolidayPageimage">
                             <div className="card-image HolidayPagecardImage">
-                                <img src="Images/m_Bangkok-landscape_l_400_640.webp" />
+                                <img src="Images/SubPagesBackgroundImages/m_Bangkok-landscape_l_400_640.webp" />
                             </div>
                             <div className="HolidayPageDestinationdetails">
                                 <h5> Galapagos Islands <span className="job-title">
@@ -47,7 +47,7 @@ export default class HolidayPageSlider extends Component {
                     <div className="card-wrapper HolidayPagewrapper">
                         <div className="card newMultisection_HolidayPageimage">
                             <div className="card-image HolidayPagecardImage">
-                                <img src="Images/m_Bangkok-landscape_l_400_640.webp" />
+                                <img src="Images/SubPagesBackgroundImages/m_Bangkok-landscape_l_400_640.webp" />
                             </div>
                             <div className="HolidayPageDestinationdetails">
                                 <h5> Galapagos Islands <span className="job-title">
@@ -59,7 +59,7 @@ export default class HolidayPageSlider extends Component {
                     <div className="card-wrapper HolidayPagewrapper">
                         <div className="card newMultisection_HolidayPageimage">
                             <div className="card-image HolidayPagecardImage">
-                                <img src="Images/m_Bangkok-landscape_l_400_640.webp" />
+                                <img src="Images/SubPagesBackgroundImages/m_Bangkok-landscape_l_400_640.webp" />
                             </div>
                             <div className="HolidayPageDestinationdetails">
                                 <h5> Galapagos Islands <span className="job-title">
@@ -72,7 +72,7 @@ export default class HolidayPageSlider extends Component {
                     <div className="card-wrapper HolidayPagewrapper">
                         <div className="card newMultisection_HolidayPageimage">
                             <div className="card-image HolidayPagecardImage">
-                                <img src="Images/m_Bangkok-landscape_l_400_640.webp" />
+                                <img src="Images/SubPagesBackgroundImages/m_Bangkok-landscape_l_400_640.webp" />
                             </div>
                             <div className="HolidayPageDestinationdetails">
                                 <h5> Galapagos Islands <span className="job-title">
@@ -84,7 +84,7 @@ export default class HolidayPageSlider extends Component {
                     <div className="card-wrapper HolidayPagewrapper">
                         <div className="card newMultisection_HolidayPageimage">
                             <div className="card-image HolidayPagecardImage">
-                                <img src="Images/m_Bangkok-landscape_l_400_640.webp" />
+                                <img src="Images/SubPagesBackgroundImages/m_Bangkok-landscape_l_400_640.webp" />
                             </div>
                             <div className="HolidayPageDestinationdetails">
                                 <h5> Galapagos Islands <span className="job-title">
@@ -96,7 +96,7 @@ export default class HolidayPageSlider extends Component {
                     <div className="card-wrapper HolidayPagewrapper">
                         <div className="card newMultisection_HolidayPageimage">
                             <div className="card-image HolidayPagecardImage">
-                                <img src="Images/m_Bangkok-landscape_l_400_640.webp" />
+                                <img src="Images/SubPagesBackgroundImages/m_Bangkok-landscape_l_400_640.webp" />
                             </div>
                             <div className="HolidayPageDestinationdetails">
                                 <h5> Galapagos Islands <span className="job-title">
