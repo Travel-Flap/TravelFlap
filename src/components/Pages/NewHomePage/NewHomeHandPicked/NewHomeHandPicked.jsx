@@ -172,7 +172,7 @@ export const NewHomeHandPicked = () => {
                                 )}
                             >
 
-                                <Link to="/weekendgetaways" className="handpickednewhomepagelink">
+                                <Link to="/romanticDestinations" className="handpickednewhomepagelink">
                                     <div className="card-wrapper handpickednewhomepagecardwrapper">
                                         <div className="handpickedcard">
                                             
@@ -194,7 +194,7 @@ export const NewHomeHandPicked = () => {
                                     </div>
                                 </Link>
 
-                                <Link to="/weekendgetaways" className="handpickednewhomepagelink">
+                                <Link to="/hillStations" className="handpickednewhomepagelink">
                                     <div className="card-wrapper handpickednewhomepagecardwrapper">
                                         <div className="handpickedcard">
                                             <div className='handpickednewhomepagecard_img'>
@@ -215,7 +215,7 @@ export const NewHomeHandPicked = () => {
                                     </div>
                                 </Link>
 
-                                <Link to="/weekendgetaways" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
+                                <Link to="/hillStations" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
 
                                     <div className="handpickedcard">
                                         <div className='handpickednewhomepagecard_img'>
@@ -241,7 +241,7 @@ export const NewHomeHandPicked = () => {
                                 </div>
                                 </Link>
 
-                                <Link to="/weekendgetaways" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
+                                <Link to="/hillStations" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
 
                                     <div className="handpickedcard">
                                         <div className='handpickednewhomepagecard_img'>
@@ -268,7 +268,7 @@ export const NewHomeHandPicked = () => {
                                 </div>
                                 </Link>
 
-                                <Link to="/weekendgetaways" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
+                                <Link to="/beachDestinations" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
 
                                     <div className="handpickedcard">
                                         <div className='handpickednewhomepagecard_img'>
@@ -294,7 +294,7 @@ export const NewHomeHandPicked = () => {
                                 </div>
                                 </Link>
 
-                                <Link to="/weekendgetaways" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
+                                <Link to="/hillStations" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
 
                                     <div className="handpickedcard">
                                         <div className='handpickednewhomepagecard_img'>
@@ -320,7 +320,7 @@ export const NewHomeHandPicked = () => {
                                 </div>
                                 </Link>
 
-                                <Link to="/weekendgetaways" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
+                                <Link to="/hillStations" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
                                     <div className="handpickedcard">
                                         <div className='handpickednewhomepagecard_img'>
 
@@ -345,7 +345,7 @@ export const NewHomeHandPicked = () => {
                                 </div>
                                 </Link>
 
-                                <Link to="/weekendgetaways" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
+                                <Link to="/hillStations" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
                                     <div className="handpickedcard">
                                         <div className='handpickednewhomepagecard_img'>
 
@@ -370,7 +370,7 @@ export const NewHomeHandPicked = () => {
                                 </div>
                                 </Link>
 
-                                <Link to="/weekendgetaways" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
+                                <Link to="/hillStations" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
                                     <div className="handpickedcard">
                                         <div className='handpickednewhomepagecard_img'>
 

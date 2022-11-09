@@ -1,54 +1,22 @@
-.HandpickedBeachDestinationPageOuterPage{
-    width: 100%;
-    height: auto;
-    /* border: 2px solid red; */
-}
 
-.HandpickedBeachDestinationbannerDiv{
-    width: 100%;
-    height: 300px;
-    /* border: 2px solid gold; */
-    /* background-image: url("./beach destination.jpg"); */
-    object-fit: cover;
-    background-size: cover;
-    color: white;
-    margin-top: -15%;
-    position: absolute;
-    /* padding-top: 150px; */
-    padding-left: 100px;
-}
 
-.HandpickedBeachDestinationbannerDiv h5{
-    font-weight: 700;
-    font-size: 22px;
-}
-
-.HandpickedBeachDestinationPageHeading{
+.HandpickedRomanticDestinationPageHeading{
     width:25%;
     height: 40px;
     font-weight: 700;
-    /* margin: auto; */
-    /* border: 2px solid red; */
     text-align: left;
     margin-top:1% !important;
-    margin-left: 5%;
+    margin-bottom:1% ;
 }
-.HandpickedBeachDestinationPageHeading h3{
+.HandpickedRomanticDestinationPageHeading h3{
   font-weight: 700;
 }
 
-.HandpickedBeachDestinationPagebannerHeading{
-  font-weight: 700;
-  margin-left: 5%;
-  margin-top: 15%;
-  color: white;
-}
-
-/* .HandpickedBeachDestinationPageHeading h2{
+/* .HandpickedRomanticDestinationPageHeading h2{
     text-decoration: underline;
 } */
 
-.HandpickedBeachDestinationconatinerDiv{
+.HandpickedRomanticDestinationconatinerDiv{
     /* border-top: 2px solid #3380F2; */
     /* border-bottom: 2px solid #3380F2; */
     width: 90%;
@@ -57,24 +25,24 @@
     /* margin-top: 2%; */
     padding-top: 20px;
 }
-.HandPickedBeachSliderConatiner{
+.HandPickedRomanticSliderConatiner{
     /* border: 2px solid red; */
     width: 100%;
     margin: auto;
 }
-.HandPickedBeachSliderConatiner1{
+.HandPickedRomanticSliderConatiner1{
     /* border: 2px solid yellow; */
     width: 100%;
     margin: auto;
     margin-top: 3%;
 }
-.HandPickedBeachSliderConatiner2{
+.HandPickedRomanticSliderConatiner2{
     /* border: 2px solid yellow; */
     width: 100%;
     margin: auto;
     margin-top: 3%;
 }
-.newhandPickedDestinationBeachYououterdiv {
+.newhandPickedDestinationRomanticYououterdiv {
     border: 2px solid lightgray;
     display: flex !important;
     flex-direction: row !important;
@@ -88,24 +56,24 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     /* border: 2px solid green !important; */
   }
-  .newhandPickedDestinationBeachYououterdiv:hover {
+  .newhandPickedDestinationRomanticYououterdiv:hover {
     padding: 5px;
     /* box-shadow: 5px 10px 25px  #3380f2; */
     box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
   }
-  .newhandPickedDestinationBeachYouImagetextcontainer {
+  .newhandPickedDestinationRomanticYouImagetextcontainer {
     width: 100%;
     height: 370px;
     /* border: 2px solid red; */
   }
-  .newhandPickedDestinationBeachYouCardimage {
+  .newhandPickedDestinationRomanticYouCardimage {
     border: none;
     width: 100% !important;
     height: 180px;
     /* margin-left: 2%; */
     /* margin-top: 2%; */
   }
-  .handPickedDestinationBeachRecommendedimage{
+  .handPickedDestinationRomanticRecommendedimage{
     height: 200px;
     object-fit: cover;
     width: 100%;
@@ -113,29 +81,29 @@
     /* margin-top: 4%; */
     border-radius: 7px 7px 0px 0px !important;
   }
-  .newhandPickedDestinationBeachYouTextcard {
+  .newhandPickedDestinationRomanticYouTextcard {
     /* border: 1px solid black; */
     /* margin-left: 9% !important; */
     width: 100% !important;
   }
 
-  .newhandPickedDestinationBeachYouCarddescmain {
+  .newhandPickedDestinationRomanticYouCarddescmain {
     /* border: 1px solid red; */
     width: 100%;
     /* margin-top: -2%; */
   }
-  .newhandPickedDestinationBeachYouCarddescmain p{
+  .newhandPickedDestinationRomanticYouCarddescmain p{
     font-size: 12px;
     margin-top: -2%;
   }
-  .newhandPickedDestinationBeachYouCardtitle {
+  .newhandPickedDestinationRomanticYouCardtitle {
     /* border: 1px dotted slateblue; */
     color: #393939;
     font-size: 20px;
     font-weight: 700;
     margin-top: 6%;
   }
-  .newhandPickedDestinationBeachButton{
+  .newhandPickedDestinationRomanticButton{
     background-color: #3380F2;
     color: white;
     border: none;

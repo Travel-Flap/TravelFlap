@@ -10,6 +10,7 @@ import { StaycationFaq } from './Faq/Faq';
 import { VideoTextStaycation } from './VideoText/VideoText';
 import { Link } from 'react-router-dom';
 import { InnerHandpickedSlider } from './InnerHandpicked2/InnerHandpickedSlider/InnerHandpickedSlider';
+import { InnerhandpickedFooter } from './InnerhandpickedFooter/InnerhandpickedFooter';
 
 export const HandpickedBeachDestinationPage = () => {
 
@@ -21,9 +22,12 @@ export const HandpickedBeachDestinationPage = () => {
     return (
 
         <div className='HandpickedBeachDestinationPageOuterPage'>
-            <div className='HandpickedBeachDestinationbannerDiv'>
-                <h5>The Most Excitting Beaches to Experience the Magic of Nature are a step away.</h5>
-                <p>“All You need is a good dose of vitamin sea.” Just Have a visit once.</p>
+            <div class="card">
+            <img src="Images/SubPagesBackgroundImages/beach.png" alt='banner image' style={{border:"none"}}/>
+            <div class="card-img-overlay">
+                <h5 className='HandpickedBeachDestinationPagebannerHeading'>The Most Excitting Beaches to Experience the Magic of Nature are a step away.</h5>
+                <p style={{color:"white",marginLeft:"5%"}}>“All You need is a good dose of vitamin sea.” Just Have a visit once.</p>
+            </div>
             </div>
             <div className='HandpickedBeachDestinationPageHeading'>
                 <h3>Recommended For You</h3>
@@ -430,6 +434,7 @@ export const HandpickedBeachDestinationPage = () => {
             <div>
             </div>
             <VideoTextStaycation />
+            <div style={{marginTop:"4%"}}><InnerhandpickedFooter/> </div>
         </div>
 
 

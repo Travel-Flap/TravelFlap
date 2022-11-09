@@ -1,0 +1,21 @@
+
+.HandPickedHillStationsDestinationsBannerDiv{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    color: white;
+
+    padding-left: 100px;
+}
+
+.HandPickedHillStationsDestinationsBannerDiv h5{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.HandpickedHillStationsDestinationPagebannerHeading{
+    font-weight: 700;
+    margin-left: 5%;
+    margin-top: 15%;
+    color: white;
+  }

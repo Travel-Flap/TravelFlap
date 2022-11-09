@@ -20,6 +20,8 @@ import { NewOffers } from "./components/Pages/NewOffersPage/NewOffers";
 import {InnerPopularDestinationAccomodations} from "./components/Pages/SubPages/InnerPopularDestination1/InnerPopularDestinationAccomodations/InnerPopularDestinationAccomodations";
 
 import { HandpickedBeachDestinationPage } from "./components/Pages/SubPages/HandpickedBeachDestinationPage";
+import { HandPickedHillStations } from "./components/Pages/SubPages/HandPickedHillStations/HandPickedHillStations";
+import { HandPickedRomanticDestinations } from "./components/Pages/SubPages/HandPickedRomanticDestinations/HandPickedRomanticDestinations";
 
 // import { Helmet } from "react-helmet";
 
@@ -95,8 +97,18 @@ function App() {
         <Route path="/offers" element={<NewOffers />} />
 
         <Route
-          path="/weekendgetaways"
+          path="/beachDestinations"
           element={<HandpickedBeachDestinationPage />}
+        />
+
+        <Route
+          path="/romanticDestinations"
+          element={<HandPickedRomanticDestinations />}
+        />
+
+       <Route
+          path="/hillStations"
+          element={<HandPickedHillStations />}
         />
 
         <Route path="/domesticHolidays" element={<DomesticHolidaySubpages/> } />
@@ -109,13 +121,11 @@ function App() {
         <Route path="/rentals" element={ <NewRentalsPage/>} />
         <Route path="/offers" element={<NewOffers/>}   />
         
-        <Route path="/weekendgetaways" element={<HandpickedBeachDestinationPage/>} />
-        <Route path="/bali" element={<InnerHandpicked2/>}/>
-        <Route path="/populardestination" element={<InnerPopularDestination1/>}/>
+        {/* <Route path="/populardestination" element={<InnerPopularDestination1/>}/> */}
         <Route path="/TurkeyDescription" element={<InnerPopularDestination2/>} />
 
-        <Route path="/accomodations" element={<InnerPopularDestinationAccomodations/>}/>
-        <Route path="/inc&exc" element={<InnerPopularDestinationInclusiveExclusive/>} />
+        {/* <Route path="/accomodations" element={<InnerPopularDestinationAccomodations/>}/>
+        <Route path="/inc&exc" element={<InnerPopularDestinationInclusiveExclusive/>} /> */}
         {/* <Route path="/baliDetails" element={<InnerHandPicked3/>}/> */}
         {/* <Route path="/easyvisainnerpage" element={<InnerVisaPage1/>}/> */}
 
