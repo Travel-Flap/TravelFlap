@@ -120,11 +120,11 @@ export const NewPopularDestination = () => {
 
                         <div className='newPopularbelowHeadingdiv'>
                             <h5 className='belowInternationalheading'>
-                                International
+                            <Link to="/internationalHolidayssubpage" style={{textDecoration:"none",color:"#393939"}}> International </Link>
                             </h5>
                             {/* <Link/> */}
                             <h5 className='belowDomesticHeading'>
-                              <Link to="/DomesticHolidays" style={{textDecoration:"none",color:"#393939"}}> Domestic </Link>
+                              <Link to="/domesticHolidays" style={{textDecoration:"none",color:"#393939"}}> Domestic </Link>
                             </h5>
                         </div>
 
