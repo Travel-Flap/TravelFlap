@@ -1,4 +1,6 @@
 import React from 'react';
+import { InnerhandpickedFooter } from '../../SubPages/InnerhandpickedFooter/InnerhandpickedFooter';
+import { VideoTextStaycation } from '../../SubPages/VideoText/VideoText';
 import { DomesticFamilyDestinations } from './DomesticFamilyDestinations/DomesticFamilyDestination';
 import { DomesticHoneyMoonDestination } from './DomesticHoneymoonDestination/DomesticHoneymoonDestination';
 import { DomesticSubpageFaq } from './DomesticSubPageFaq/DomesticSubPageFaq';
@@ -20,9 +22,10 @@ export const DomesticHolidaySubpages = () => {
         <DomesticSubpageFaq />
       </div>
 
-      <VideoTextDomesticSubpage/>
+      <VideoTextStaycation/>
 
-      <DomesticSubpageFooter/>
+      <div style={{marginTop:"4%"}}><InnerhandpickedFooter/> </div>
+    
     </div>
   )
 }
