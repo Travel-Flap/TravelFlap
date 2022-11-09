@@ -1,0 +1,24 @@
+/* .statedop1{
+    border: 1px solid red;
+    width: 20%;
+} */
+
+.domesticFaqMainDiv{
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 95%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.statedrop1header{
+    border: 1px solid blue;
+}
+
+.statedroptexts{
+    width: 100%;
+}
+
+.accordion-button{
+    z-index: 0 !important;
+}

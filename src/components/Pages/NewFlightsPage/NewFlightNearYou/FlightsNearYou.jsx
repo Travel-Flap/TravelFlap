@@ -8,6 +8,7 @@ import "./FlightsNearYou.css";
 // import { ButtonBase } from "@material-ui/core";
 import { Button } from "react-bootstrap"
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export const FlightsNearYou = () => {
     const sliderRef = useRef(null);
@@ -18,7 +19,7 @@ export const FlightsNearYou = () => {
         <div className="newFlightsNearYoumaindiv">
             {/* <h1>Ipl</h1> */}
             <div className="newFlightsNearYouHeadingcontainer">
-                <h2 className="newFlightNeearYouHeading1">Flights Near You</h2>
+                <h2 className="newFlightNeearYouHeading1">Flights Near You </h2>
                 {/* <div className="internationalheading2">
                     <div className="internationalheading">Asia</div>
                     <div className="internationalheading">Africa</div>
@@ -117,7 +118,7 @@ export const FlightsNearYou = () => {
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
-                                <img src="Images/ActivityAround/boat along amazon rain forest.jpg" class="img-fluid activityAroundimage" alt="..." />
+                                <LazyLoadImage src="Images/ActivityAround/boat along amazon rain forest.jpg" class="img-fluid activityAroundimage" alt="flightsnear you image" />
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
@@ -125,7 +126,7 @@ export const FlightsNearYou = () => {
 
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Emirates.png" />
+                                            <LazyLoadImage src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Emirates.png" alt="flights company icons" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -141,7 +142,7 @@ export const FlightsNearYou = () => {
 
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Emirates.png" />
+                                            <LazyLoadImage src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Emirates.png"  alt="flights company logo"/>
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -164,14 +165,14 @@ export const FlightsNearYou = () => {
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
-                                <img src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid activityAroundimage" alt="..." />
+                                <LazyLoadImage src="Images/ActivityAround/boat racing norway.jpg" class="img-fluid activityAroundimage" alt="flights nearyou image" />
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
                                     <h3 class="card-title newFlightsNearYouCardtitle">Kathmandu</h3>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/In.png" />
+                                            <LazyLoadImage src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/In.png" alt="flight icon" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -186,7 +187,7 @@ export const FlightsNearYou = () => {
                                     </div>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                        <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/In.png" />
+                                        <LazyLoadImage src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/In.png" alt="flight icon" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -209,14 +210,14 @@ export const FlightsNearYou = () => {
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
-                                <img src="Images/ActivityAround/canoe safari botswana.jpg" class="img-fluid activityAroundimage" alt="..." />
+                                <LazyLoadImage src="Images/ActivityAround/canoe safari botswana.jpg" class="img-fluid activityAroundimage" alt="flight nearyou image" />
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
                                     <h3 class="card-title newFlightsNearYouCardtitle">Da Nang</h3>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Vi.png" />
+                                            <LazyLoadImage src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Vi.png" alt="flight icon" />
                                         </div>
                                         <div className="newFlightNearContentDatediv">
                                             <h5>Fri, 4 Nov</h5>
@@ -230,7 +231,7 @@ export const FlightsNearYou = () => {
                                     </div>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Vi.png" />
+                                            <LazyLoadImage src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Vi.png" alt="flight icon" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -253,14 +254,14 @@ export const FlightsNearYou = () => {
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
-                                <img src="Images/ActivityAround/Dune buggy ride dubai.jpg" class="img-fluid activityAroundimage" alt="..." />
+                                <LazyLoadImage src="Images/ActivityAround/Dune buggy ride dubai.jpg" class="img-fluid activityAroundimage" alt="flight near you image" />
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
                                     <h3 class="card-title newFlightsNearYouCardtitle">Singapore</h3>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Air.png" />
+                                            <LazyLoadImage src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Air.png" alt="flight icon"/>
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -275,7 +276,7 @@ export const FlightsNearYou = () => {
                                     </div>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Air.png" />
+                                            <LazyLoadImage src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/Air.png" alt="flight icon" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -298,14 +299,14 @@ export const FlightsNearYou = () => {
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
-                                <img src="Images/ActivityAround/glacier hunt in greenland.jpg" class="img-fluid activityAroundimage" alt="..." />
+                                <LazyLoadImage src="Images/ActivityAround/glacier hunt in greenland.jpg" class="img-fluid activityAroundimage" alt="flight near you image" />
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
                                     <h3 class="card-title newFlightsNearYouCardtitle">XLine</h3>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                            <LazyLoadImage src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" alt="flight icon" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -320,7 +321,7 @@ export const FlightsNearYou = () => {
                                     </div>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                            <LazyLoadImage src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" alt="flight icon" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -343,14 +344,14 @@ export const FlightsNearYou = () => {
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
-                                <img src="Images/ActivityAround/machu pichu climb.jpg" class="img-fluid activityAroundimage" alt="..." />
+                                <LazyLoadImage src="Images/ActivityAround/machu pichu climb.jpg" class="img-fluid activityAroundimage" alt="flight near you images" />
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
                                     <h3 class="card-title newFlightsNearYouCardtitle">Downhill Bike Riding</h3>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                            <LazyLoadImage src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" alt="flight icons" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -365,7 +366,7 @@ export const FlightsNearYou = () => {
                                     </div>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                            <LazyLoadImage src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" alt="flight icons" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -388,14 +389,14 @@ export const FlightsNearYou = () => {
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
-                                <img src="Images/ActivityAround/mountain hiking usa.jpg" class="img-fluid activityAroundimage" alt="..." />
+                                <LazyLoadImage src="Images/ActivityAround/mountain hiking usa.jpg" class="img-fluid activityAroundimage" alt="flight nearyou image" />
                             </div>
                             <div class="col-md-4 newFlightsNearYouTextcard">
                                 <div class="card-body newFlightsNearYouCarddescmain">
                                     <h3 class="card-title newFlightsNearYouCardtitle">DuneBashing Dubai</h3>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                            <LazyLoadImage src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" alt="flight icons" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">
@@ -410,7 +411,7 @@ export const FlightsNearYou = () => {
                                     </div>
                                     <div className="newFlightsContentDiv1">
                                         <div className="newFlightNearContentImagediv">
-                                            <img src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" />
+                                            <LazyLoadImage src="Images/NewHomeLayout/FlightsNearYou/SideLogoImages/FlightsNearYouImage1.jpg" alt="flight icons" />
                                         </div>
 
                                         <div className="newFlightNearContentDatediv">

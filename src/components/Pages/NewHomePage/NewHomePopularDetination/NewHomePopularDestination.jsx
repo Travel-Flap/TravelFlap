@@ -10,6 +10,8 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaAngleDown } from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 import SliderWrapper from "./SlickSliderStyle";
 
 export const CenterMode = () => {
@@ -102,7 +104,7 @@ export const CenterMode = () => {
                                 <div className={index === slideindex ? 'populardestinationsslide populardestinationsslide-active' : 'populardestinationsslide'} key={index}>
 
                                     <div className='populardestinationimagestransition'>
-                                        <img src={item.img} alt=""/>
+                                        <LazyLoadImage src={item.img} alt="popular destination image"/>
                                     </div>
                                     <h5>{item.solution}</h5>
                                     {/* <br/> */}

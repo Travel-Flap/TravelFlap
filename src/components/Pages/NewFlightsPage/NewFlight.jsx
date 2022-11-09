@@ -9,7 +9,6 @@ import { NewHomeHandPicked } from '../NewHomePage/NewHomeHandPicked/NewHomeHandP
 import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar';
 import { NewDomesticFlightsNearYou } from './NewDomesticFlights/NewDomesticFlights'
 import { NewFlightsBanner } from './NewFlightBanner/NewFlightBanner'
-import { NewFlightsNearYou } from './NewFlightsNearYou/NewFlightsNearYou'
 import { FrequentlyAskedQuestions } from './NewFrequentlyAskedQuestions/FrequentlyAskedQuestions'
 import NewHomeAwards  from "../NewHomePage/NewHomeAwards/NewHomeAwards";
 import { NewHomeBottomBar } from '../NewHomePage/NewHomeBottomBar/NewHomeBottomBar'

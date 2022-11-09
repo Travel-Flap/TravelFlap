@@ -1,0 +1,35 @@
+.VideoTextDomesticSubpage{
+    height: 600px;
+}
+
+.domesticSubpage-Content-Footer img{
+    width:100%;
+    height:600px;
+    opacity:0.5;
+}
+
+.domesticSubpage-Content-Items{
+    position:relative;
+    margin-top: -34%;
+    margin-left: 6%;
+    /* border: 3px solid red; */
+}
+
+.domesticSubpage-Content-Footer3{
+    /* border: 1px solid red; */
+    position:absolute;
+    margin-top: -27.5%;
+    margin-left:55%;
+    background-color:lightcoral;
+    color:white;
+    font-weight:400;
+    padding:2px;
+    font-size:medium;
+    height: 420px;
+}
+
+/* .domesticSubpage-Content-Footer3 h3{
+    position:absolute;
+    margin-top:-40%;
+} */
+

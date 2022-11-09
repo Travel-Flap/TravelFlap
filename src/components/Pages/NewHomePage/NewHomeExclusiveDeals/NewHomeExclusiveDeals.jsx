@@ -14,6 +14,8 @@ import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import countrydata from '../../../../CountryData.json';
 import { NewExclusiveDealsDropdown } from './NewExclusiveDealsDropdown';
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 export const NewHomeExclusiveDeals = () => {
     const [countryid, setCountryid] = useState('');
     const [state, setState] = useState([]);
@@ -40,7 +42,6 @@ export const NewHomeExclusiveDeals = () => {
     return (
         <>
             <div className="exclusivemaindiv" >
-
                 <div className="exclusivedealsheadingcontainer">
                     <h2 className="exclusivedealsheading1">Offers</h2>
                     <div className="exclusivedealsheading2">
@@ -71,8 +72,8 @@ export const NewHomeExclusiveDeals = () => {
 
                 <div className="exclusivedealsconatinerdiv" >
                     <div className="exclusivedealsimageheading">
-                        <img className="exclusivedealsimagebackside" src={backsideImage} />
-                        <img className="exclusivedealsimagefrontside" src={frontsideImage} />
+                        <LazyLoadImage className="exclusivedealsimagebackside" src={backsideImage} />
+                        <LazyLoadImage className="exclusivedealsimagefrontside" src={frontsideImage} />
                         <div className="exclusivedealsheadings">
                             <p className="exclusiveheadingsboldheadings">Exclusive <br /> Deals</p>
                             <p>Most Visited and Used</p>
@@ -173,7 +174,7 @@ export const NewHomeExclusiveDeals = () => {
                                 <div className="card mb-4 exclusiveouterdivtop" >
                                     <div className="row g-0 exclusiveimagetextcontainer">
                                         <div className="col-md-8 exclusivecardimage">
-                                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage1.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <LazyLoadImage src="Images/Cruise/ExclusiveCruise/CruiseImage1.jpg" class="img-fluid rounded-start" alt="exclsuive deals image" />
                                         </div>
                                         <div className="col-md-4 exclusivedealstextcard">
                                             <div className="card-body exclusivecarddescmain">
@@ -189,7 +190,7 @@ export const NewHomeExclusiveDeals = () => {
                                 <div className="card mb-3 exclusiveouterdivtop" >
                                     <div className="row g-0 exclusiveimagetextcontainer">
                                         <div className="col-md-8 exclusivecardimage">
-                                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage2.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <LazyLoadImage src="Images/Cruise/ExclusiveCruise/CruiseImage2.jpg" class="img-fluid rounded-start" alt="exclusive deals image" />
                                         </div>
                                         <div className="col-md-4 exclusivedealstextcard">
                                             <div className="card-body exclusivecarddescmain">
@@ -205,7 +206,7 @@ export const NewHomeExclusiveDeals = () => {
                                 <div className="card mb-3 exclusiveouterdivtop" >
                                     <div className="row g-0 exclusiveimagetextcontainer">
                                         <div className="col-md-8 exclusivecardimage">
-                                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage3.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <LazyLoadImage src="Images/Cruise/ExclusiveCruise/CruiseImage3.jpg" class="img-fluid rounded-start" alt="exclusigve deals image" />
                                         </div>
                                         <div className="col-md-4 exclusivedealstextcard">
                                             <div className="card-body exclusivecarddescmain">
@@ -221,7 +222,7 @@ export const NewHomeExclusiveDeals = () => {
                                 <div className="card mb-3 exclusiveouterdivtop" >
                                     <div className="row g-0 exclusiveimagetextcontainer">
                                         <div className="col-md-8 exclusivecardimage">
-                                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage4.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <LazyLoadImage src="Images/Cruise/ExclusiveCruise/CruiseImage4.jpg" class="img-fluid rounded-start" alt="exclusive deals image" />
                                         </div>
                                         <div className="col-md-4 exclusivedealstextcard">
                                             <div className="card-body exclusivecarddescmain">
@@ -237,7 +238,7 @@ export const NewHomeExclusiveDeals = () => {
                                 <div className="card mb-3 exclusiveouterdivtop" >
                                     <div className="row g-0 exclusiveimagetextcontainer">
                                         <div className="col-md-8 exclusivecardimage">
-                                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage5.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <LazyLoadImage src="Images/Cruise/ExclusiveCruise/CruiseImage5.jpg" class="img-fluid rounded-start" alt="exclusive deals image" />
                                         </div>
                                         <div className="col-md-4 exclusivedealstextcard">
                                             <div className="card-body exclusivecarddescmain">
@@ -253,7 +254,7 @@ export const NewHomeExclusiveDeals = () => {
                                 <div className="card mb-3 exclusiveouterdivtop" >
                                     <div className="row g-0 exclusiveimagetextcontainer">
                                         <div className="col-md-8 exclusivecardimage">
-                                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage6.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <LazyLoadImage src="Images/Cruise/ExclusiveCruise/CruiseImage6.jpg" class="img-fluid rounded-start" alt="exclusive deals image" />
                                         </div>
                                         <div className="col-md-4 exclusivedealstextcard">
                                             <div className="card-body exclusivecarddescmain">
@@ -269,7 +270,7 @@ export const NewHomeExclusiveDeals = () => {
                                 <div className="card mb-3 exclusiveouterdivtop" >
                                     <div className="row g-0 exclusiveimagetextcontainer">
                                         <div className="col-md-8 exclusivecardimage">
-                                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <LazyLoadImage src="Images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="exclusive deals image" />
                                         </div>
                                         <div className="col-md-4 exclusivedealstextcard">
                                             <div className="card-body exclusivecarddescmain">
@@ -284,7 +285,7 @@ export const NewHomeExclusiveDeals = () => {
                                 <div className="card mb-3 exclusiveouterdivtop" >
                                     <div className="row g-0 exclusiveimagetextcontainer">
                                         <div className="col-md-8 exclusivecardimage">
-                                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <LazyLoadImage src="Images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="exclusive deals image" />
                                         </div>
                                         <div className="col-md-4 exclusivedealstextcard">
                                             <div className="card-body exclusivecarddescmain">
@@ -299,7 +300,7 @@ export const NewHomeExclusiveDeals = () => {
                                 <div className="card mb-3 exclusiveouterdivtop" >
                                     <div className="row g-0 exclusiveimagetextcontainer">
                                         <div className="col-md-8 exclusivecardimage">
-                                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <LazyLoadImage src="Images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="exclusive deals image" />
                                         </div>
                                         <div className="col-md-4 exclusivedealstextcard">
                                             <div className="card-body exclusivecarddescmain">
@@ -314,7 +315,7 @@ export const NewHomeExclusiveDeals = () => {
                                 <div className="card mb-3 exclusiveouterdivtop" >
                                     <div className="row g-0 exclusiveimagetextcontainer">
                                         <div className="col-md-8 exclusivecardimage">
-                                            <img src="Images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="..." />
+                                            <LazyLoadImage src="Images/Cruise/ExclusiveCruise/CruiseImage7.jpg" class="img-fluid rounded-start" alt="exclusive deals image" />
                                         </div>
                                         <div className="col-md-4 exclusivedealstextcard">
                                             <div className="card-body exclusivecarddescmain">
