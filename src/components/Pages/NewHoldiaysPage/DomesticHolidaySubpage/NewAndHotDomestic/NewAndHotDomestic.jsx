@@ -40,8 +40,8 @@ export const NewAndHotDomestic = () => {
 
     return (
 
-        <div className='newhomeeasyvisaouterdiv'>
-            <div className='newEasyVisaouterHeading'>
+        <div className='newDomesticNewAndHotOuterdiv'>
+            <div className='newDomesticNewAndHotOuterHeading'>
                 <h2>New & Hot Domestic Destinations</h2>
 
                 {/* <div className='newHomeEasyVisaDropContainer'>
@@ -56,7 +56,7 @@ export const NewAndHotDomestic = () => {
                     </select>
                 </div> */}
 
-                   {/* <div className='newHomeEasyvisaDropContainer'>
+                   {/* <div className='newDomesticNewAndHotDropContainer'>
                         <select className="form-select newHomeEasyvisaCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ border: "3px solid #3380f2", width: "60%",appearance:"none" }}>
                             <option value="" style={{ textAlign: "center" }}>Country</option>
@@ -71,7 +71,7 @@ export const NewAndHotDomestic = () => {
                         </div>
                     </div> */}
 
-                    <select className="newHomeEasyvisaDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
+                    <select className="newDomesticNewAndHotDropContainer" onChange={(e) => handlecounty(e)} style={{backgroundColor:"white",textAlign:"left"}}>
                         <option style={{textAlign:"Left"}}>Country</option>
                         {
                             countrydata.map((getcountry, index) => (
@@ -81,9 +81,9 @@ export const NewAndHotDomestic = () => {
                     </select>
             </div>
 
-            <div className='newhomeEasyVisaSlideroutercontainer'>
+            <div className='newDomesticNewAndHotSlideroutercontainer'>
 
-                <div className='newhomeEasyVisaContainer'>
+                <div className='newDomesticNewAndHotContainer'>
                 <SliderWrapper>
                     <Slider
                         dots={true}
@@ -150,13 +150,13 @@ export const NewAndHotDomestic = () => {
                         ]}
 
                         style={{}} className="multiCardSlider">
-                        <div className="newhomeEasyVisacardwrapper newhomeEasyVisacardwrapper">
-                            <div className="card newhomeEasyVisamaindiv">
-                                <div className="card-image newhomeEasyVisacardimage">
+                        <div className="newDomesticNewAndHotCardwrapper">
+                            <div className="card newDomesticNewAndHotMaindiv">
+                                <div className="card-image newDomesticNewAndHotCardimage">
                                     <img src="Images/EasyVisaDestinations/bolivia.jpg" />
                                 </div>
-                                <div className="newhomeEasyVisastorydetails">
-                                    <h2>Bolivia <span className="newhomeEasyVisajob-title">
+                                <div className="newDomesticNewAndHotStorydetails">
+                                    <h2>Bolivia <span className="newDomesticNewAndHotjob_title">
                                     <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
@@ -168,13 +168,13 @@ export const NewAndHotDomestic = () => {
                         </div>
 
                         <Link to="/easyvisainnerpage">
-                        <div className="newhomeEasyVisacardwrapper">
-                            <div className="card newhomeEasyVisamaindiv">
-                                <div className="card-image newhomeEasyVisacardimage">
+                        <div className="newDomesticNewAndHotCardwrapper">
+                            <div className="card newDomesticNewAndHotMaindiv">
+                                <div className="card-image newDomesticNewAndHotCardimage">
                                     <img src="Images/EasyVisaDestinations/dubai.jpg" />
                                 </div>
-                                <div className="newhomeEasyVisastorydetails">
-                                    <h2>Dubai <span className="newhomeEasyVisajob-title">
+                                <div className="newDomesticNewAndHotStorydetails">
+                                    <h2>Dubai <span className="newDomesticNewAndHotjob_title">
                                     <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
@@ -186,13 +186,13 @@ export const NewAndHotDomestic = () => {
                         </div>
                         </Link>
                         
-                        <div className="newhomeEasyVisacardwrapper">
-                            <div className="card newhomeEasyVisamaindiv">
-                                <div className="card-image newhomeEasyVisacardimage">
+                        <div className="newDomesticNewAndHotCardwrapper">
+                            <div className="card newDomesticNewAndHotMaindiv">
+                                <div className="card-image newDomesticNewAndHotCardimage">
                                     <img src="Images/EasyVisaDestinations/fiji islands.jpg" />
                                 </div>
-                                <div className="newhomeEasyVisastorydetails">
-                                    <h2>Fiji islands <span className="newhomeEasyVisajob-title">
+                                <div className="newDomesticNewAndHotStorydetails">
+                                    <h2>Fiji islands <span className="newDomesticNewAndHotjob_title">
                                     <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
@@ -202,13 +202,13 @@ export const NewAndHotDomestic = () => {
                             </div>
                         </div>
 
-                        <div className="newhomeEasyVisacardwrapper">
-                            <div className="card newhomeEasyVisamaindiv">
-                                <div className="card-image newhomeEasyVisacardimage">
+                        <div className="newDomesticNewAndHotCardwrapper">
+                            <div className="card newDomesticNewAndHotMaindiv">
+                                <div className="card-image newDomesticNewAndHotCardimage">
                                     <img src="Images/EasyVisaDestinations/jordan.jpg" />
                                 </div>
-                                <div className="newhomeEasyVisastorydetails">
-                                    <h2>Jordan <span className="newhomeEasyVisajob-title">
+                                <div className="newDomesticNewAndHotStorydetails">
+                                    <h2>Jordan <span className="newDomesticNewAndHotjob_title">
                                     <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
@@ -218,13 +218,13 @@ export const NewAndHotDomestic = () => {
                             </div>
                         </div>
 
-                        <div className="newhomeEasyVisacardwrapper">
-                            <div className="card newhomeEasyVisamaindiv">
-                                <div className="card-image newhomeEasyVisacardimage">
+                        <div className="newDomesticNewAndHotCardwrapper">
+                            <div className="card newDomesticNewAndHotMaindiv">
+                                <div className="card-image newDomesticNewAndHotCardimage">
                                     <img src="Images/EasyVisaDestinations/Kenya.jpg " />
                                 </div>
-                                <div className="newhomeEasyVisastorydetails">
-                                    <h2>Kenya <span className="newhomeEasyVisajob-title">
+                                <div className="newDomesticNewAndHotStorydetails">
+                                    <h2>Kenya <span className="newDomesticNewAndHotjob_title">
                                     <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
@@ -234,13 +234,13 @@ export const NewAndHotDomestic = () => {
                             </div>
                         </div>
 
-                        <div className="newhomeEasyVisacardwrapper">
-                            <div className="card newhomeEasyVisamaindiv">
-                                <div className="card-image newhomeEasyVisacardimage">
+                        <div className="newDomesticNewAndHotCardwrapper">
+                            <div className="card newDomesticNewAndHotMaindiv">
+                                <div className="card-image newDomesticNewAndHotCardimage">
                                     <img src="Images/TravelStories/river.jpg " />
                                 </div>
-                                <div className="newhomeEasyVisastorydetails">
-                                    <h2>ladakh <span className="newhomeEasyVisajob-title">
+                                <div className="newDomesticNewAndHotStorydetails">
+                                    <h2>ladakh <span className="newDomesticNewAndHotjob_title">
                                     <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
@@ -250,13 +250,13 @@ export const NewAndHotDomestic = () => {
                             </div>
                         </div>
 
-                        <div className="newhomeEasyVisacardwrapper">
-                            <div className="card newhomeEasyVisamaindiv">
-                                <div className="card-image newhomeEasyVisacardimage">
+                        <div className="newDomesticNewAndHotCardwrapper">
+                            <div className="card newDomesticNewAndHotMaindiv">
+                                <div className="card-image newDomesticNewAndHotCardimage">
                                     <img src="Images/EasyVisaDestinations/madgascar.jpg" />
                                 </div>
-                                <div className="newhomeEasyVisastorydetails">
-                                    <h2>Madgascar <span className="newhomeEasyVisajob-title">
+                                <div className="newDomesticNewAndHotStorydetails">
+                                    <h2>Madgascar <span className="newDomesticNewAndHotjob_title">
                                     <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
@@ -266,13 +266,13 @@ export const NewAndHotDomestic = () => {
                             </div>
                         </div>
 
-                        <div className="newhomeEasyVisacardwrapper">
-                            <div className="card newhomeEasyVisamaindiv">
-                                <div className="card-image newhomeEasyVisacardimage">
+                        <div className="newDomesticNewAndHotCardwrapper">
+                            <div className="card newDomesticNewAndHotMaindiv">
+                                <div className="card-image newDomesticNewAndHotCardimage">
                                     <img src="Images/EasyVisaDestinations/Seychelles.jpg" />
                                 </div>
-                                <div className="newhomeEasyVisastorydetails">
-                                    <h2>Seychelles <span className="newhomeEasyVisajob-title">
+                                <div className="newDomesticNewAndHotStorydetails">
+                                    <h2>Seychelles <span className="newDomesticNewAndHotjob_title">
                                     <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
                                     <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
                                     <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>

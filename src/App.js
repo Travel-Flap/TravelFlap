@@ -76,6 +76,8 @@ function App() {
 
         {/* <Route path="/" element={<NewHomeLayout/>} /> */}
         <Route path="/" element={<NewFlight />} />
+        <Route path="/home" element={<NewHomeLayout/>} />
+        
         <Route path="/flights" element={<NewFlight />} />
         <Route path="/hotel" element={<NewHotel />} />
         <Route path="/holidays" element={<NewHolidaysPage />} />
