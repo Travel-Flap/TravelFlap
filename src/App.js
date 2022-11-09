@@ -39,6 +39,7 @@ import {InnerPopularDestinationInclusiveExclusive} from "./components/Pages/SubP
 
 
 import { DomesticHolidaySubpages } from "./components/Pages/NewHoldiaysPage/DomesticHolidaySubpage/DomesticHolidaySubpages";
+import { InternationHolidaySubpage } from "./components/Pages/NewHoldiaysPage/InternationHolidaySubpage/InternationHolidaySubpage";
 
 
 function App() {
@@ -112,6 +113,7 @@ function App() {
         />
 
         <Route path="/domesticHolidays" element={<DomesticHolidaySubpages/> } />
+        <Route path="/internationalHolidayssubpage" element={ <InternationHolidaySubpage/> } />
           
         <Route path="/bali" element={<InnerHandpicked2 />} />
 
