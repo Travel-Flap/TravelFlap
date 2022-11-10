@@ -6,6 +6,7 @@ import { Button } from "react-bootstrap";
 import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
+import {InnerPopularDestination2payment} from "./InnerPopularDestination2payment/InnerPopularDestination2payment";
 
 export const InnerPopularDestination2BestDealinCity = () => {
     const sliderRef = useRef(null);
@@ -16,7 +17,7 @@ export const InnerPopularDestination2BestDealinCity = () => {
         <>
           <div className="innerPopularDestination2BestDealinCitymainDiv">
             <div className="innerPopularDestination2BestDealinCityheading">
-                Want the Best Deal in CapeTown
+                Want the Best Deal in Egypt
             </div>
             <div className="innerPopularDestination2BestDealinCityconatiner">
                 <div className="innerPopularDestination2BestDealinCityslider">
@@ -258,9 +259,9 @@ export const InnerPopularDestination2BestDealinCity = () => {
                         </div>
 
                 </div>
-                {/* <div className="innerPopularDestination2BestDealinCityPayment">
-
-                </div> */}
+                <div className="innerPopularDestination2BestDealinCityPayment">
+                    <InnerPopularDestination2payment/>
+                </div>
             </div>
           </div>
         </>

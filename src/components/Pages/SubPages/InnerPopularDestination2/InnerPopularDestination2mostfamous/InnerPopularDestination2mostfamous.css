@@ -1,0 +1,43 @@
+.innerPopularDestination2mostfamousmaindiv{
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.innerPopularDestination2mostfamousImageConatiner{
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 500px;
+    color: #393939;
+    display: flex;
+    flex-direction: column;
+}
+.innerPopularDestination2mostfamousHeading{
+    font-size: 30px;
+    font-weight: 700px;
+}
+.innerPopularDestination2mostfamousImage{
+    width: 94%;
+    height: 440px;
+    /* border: 2px solid red; */
+    object-fit: cover;
+    background-size: cover;
+
+}
+.innerPopularDestination2mostfamousDescription{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    height: 500px;
+    background-color: #F3F7FA;
+}
+.innerPopularDestination2mostfamousDescriptiontext{
+    /* border: 2px solid blue; */
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    margin-top: 7%;
+    font-size: 14px;
+    color: #393939;
+}

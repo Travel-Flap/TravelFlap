@@ -1,4 +1,4 @@
-import "./InnerPopularDestination2BestinCity.css";
+import "./InnerPopularDestination2FamilyDestination.css";
 import React, { useState } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { useRef } from "react";
 import { useEffect } from "react";
 
-export const InnerPopularDestination2BestinCity = () => {
+export const InnerPopularDestination2FamilyDestination = () => {
 
     const sliderRef = useRef(null);
     useEffect(() => {
@@ -15,18 +15,18 @@ export const InnerPopularDestination2BestinCity = () => {
 
     return (
         <>
-          <div className="InnerPopularDestination2BestinCitymainDiv">
-            <div className="InnerPopularDestination2BestinCityHeading">
-                Best Places in Egypt
+          <div className="InnerPopularDestination2FamilyDestinationmainDiv">
+            <div className="InnerPopularDestination2FamilyDestinationHeading">
+                Family Destination in Egypt
             </div>
-            <div className="InnerPopularDestination2BestinCitySlider">
+            <div className="InnerPopularDestination2FamilyDestinationSlider">
             <Slider
                     arrows={false}
                     // autoplay={true}
                     speed={4000}
                     autoplaySpeed={2000}
                     dots={true}
-                    dotsclassName="slick-dots innerPopularDestination2BestinCityslickDots line-indicator"
+                    dotsclassName="slick-dots innerPopularDestination2FamilyDestinationslickDots line-indicator"
                     ref={sliderRef}
                     slidesToShow={5}
                     slidesToScroll={2}
@@ -85,71 +85,71 @@ export const InnerPopularDestination2BestinCity = () => {
                     )}
                 >
 
-                    <div className="cardtextinnerPopularDestination2BestinCity_maindiv">
-                        <img src="Images/SubpageofPopularDestination/firstg/cairo egypt.jpg" alt="cairo" />
-                        <div className="cardinnerPopularDestination2BestinCity_title">Cairo
+                    <div className="cardtextinnerPopularDestination2FamilyDestination_maindiv">
+                        <img src="Images/SubpageofPopularDestination/2nd/Colossi of Memnon..jpg" alt="Colossi of Memnon." />
+                        <div className="cardinnerPopularDestination2FamilyDestination_title">Colossi
                             <br />
                         </div>
 
-                        <div className="newinnerPopularDestination2BestinCityratesdiv">
-                            <p>Cairo,Egypt</p>
+                        <div className="newinnerPopularDestination2FamilyDestinationratesdiv">
+                            <p>Colossi of Memnon.</p>
                         </div>
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>
                         </div>
                     </div>
                     
-                    <div className="cardtextinnerPopularDestination2BestinCity_maindiv">
+                    <div className="cardtextinnerPopularDestination2FamilyDestination_maindiv">
                        
-                    <img src="Images/SubpageofPopularDestination/firstg/gabalya st , egypt.jpg" alt="gabalya" />
-                        <div className="cardinnerPopularDestination2BestinCity_title">Gabalya
+                    <img src="Images/SubpageofPopularDestination/2nd/giftun islands.jpg" alt="giftun islands" />
+                        <div className="cardinnerPopularDestination2FamilyDestination_title">Giftun
                             <br />
                         </div>
 
-                        <div className="newinnerPopularDestination2BestinCityratesdiv">
-                            <p>Gabalya st,Egypt</p>
+                        <div className="newinnerPopularDestination2FamilyDestinationratesdiv">
+                            <p>Giftun Islands</p>
                         </div>
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>
                         </div>
                     </div>
 
-                    <div className="cardtextinnerPopularDestination2BestinCity_maindiv">
-                    <img src="Images/SubpageofPopularDestination/firstg/giza plataue.jpg" alt="giza" />
-                        <div className="cardinnerPopularDestination2BestinCity_title">Giza
+                    <div className="cardtextinnerPopularDestination2FamilyDestination_maindiv">
+                    <img src="Images/SubpageofPopularDestination/2nd/Giza Necropolis.jpg" alt="Giza Necropolis" />
+                        <div className="cardinnerPopularDestination2FamilyDestination_title">Giza
                             <br />
                         </div>
 
-                        <div className="newinnerPopularDestination2BestinCityratesdiv">
-                            <p>Giza Plataue</p>
+                        <div className="newinnerPopularDestination2FamilyDestinationratesdiv">
+                            <p>Giza Necropolis</p>
                         </div>
 
-                        <div className="hoteldicsountprice">
-                            <span className="hoteldiscountpercent">Book Now</span>
-                        </div>
-                    </div>
-                    
-                    <div className="cardtextinnerPopularDestination2BestinCity_maindiv">
-                    <img src="Images/SubpageofPopularDestination/firstg/luxor, Egypt.jpg" alt="luxor" />
-                        <div className="cardinnerPopularDestination2BestinCity_title">Luxor
-                        </div>
-
-                        <div className="newinnerPopularDestination2BestinCityratesdiv">
-                            <p>Luxor,Egypt</p>
-                        </div>
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>
                         </div>
                     </div>
                     
-                    <div className="cardtextinnerPopularDestination2BestinCity_maindiv">
-                    <img src="Images/SubpageofPopularDestination/firstg/pyramids of giza 2.jpg" alt="pyramids of giza " />
-                        <div className="cardinnerPopularDestination2BestinCity_title">Pyramids
+                    <div className="cardtextinnerPopularDestination2FamilyDestination_maindiv">
+                    <img src="Images/SubpageofPopularDestination/2nd/Hatshepsut Temple..jpg" alt="Hatshepsut Temple." />
+                        <div className="cardinnerPopularDestination2FamilyDestination_title">Hatshepsut
+                        </div>
+
+                        <div className="newinnerPopularDestination2FamilyDestinationratesdiv">
+                            <p>Hatshepsut Temple.</p>
+                        </div>
+                        <div className="hoteldicsountprice">
+                            <span className="hoteldiscountpercent">Book Now</span>
+                        </div>
+                    </div>
+                    
+                    <div className="cardtextinnerPopularDestination2FamilyDestination_maindiv">
+                    <img src="Images/SubpageofPopularDestination/2nd/Karnak, egypt.jpg" alt="Karnak, egypt" />
+                        <div className="cardinnerPopularDestination2FamilyDestination_title">Karnak
                             <br />
                         </div>
 
-                        <div className="newinnerPopularDestination2BestinCityratesdiv">
-                            <p>Pyramids of Giza</p>
+                        <div className="newinnerPopularDestination2FamilyDestinationratesdiv">
+                            <p>Karnak, egypt</p>
                         </div>
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>
