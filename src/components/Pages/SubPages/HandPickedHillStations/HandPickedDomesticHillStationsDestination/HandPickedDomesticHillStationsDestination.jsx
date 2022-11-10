@@ -36,10 +36,13 @@ export default class HandPickedDomesticHillStationsDestination extends Component
                                 <img src="Images/SubpageofHandPicked/2/darjeeling.webp"/>
                             </div>
                             <div className="handPickedHillStationsDestinationdetails">
-                                <h5> darjeeling <span className="job-title">
-                                    <p style={{fontSize:"14px"}}>4 Nights / 5 Days</p>
+                                <h5> darjeeling  {/* <span className="job-title"> */}
+                                    <p style={{fontSize:"14px",fontWeight:"100"}}>4 Nights / 5 Days</p>
                                     <h6 style={{fontSize:"14px"}}>All Inclusive Packages</h6>
-                                    <h3 style={{fontSize:"17px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"21px"}}>AED 3000</h4> </h3></span>
+                                    <h3 style={{fontSize:"17px",marginTop:"-3%"}}>Starts @ 
+                                       <span style={{fontWeight:"700",fontSize:"21px"}}>AED 300</span> 
+                                    </h3>
+                                    {/* </span> */}
                                     {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h5>
                             </div>
@@ -52,10 +55,13 @@ export default class HandPickedDomesticHillStationsDestination extends Component
                                 <img src="Images/SubpageofHandPicked/2/goa (1).webp" />
                             </div>
                             <div className="handPickedHillStationsDestinationdetails">
-                                <h5> Goa <span className="job-title">
-                                    <p style={{fontSize:"14px"}}>4 Nights / 5 Days</p>
+                                <h5> Goa  {/* <span className="job-title"> */}
+                                    <p style={{fontSize:"14px",fontWeight:"100"}}>4 Nights / 5 Days</p>
                                     <h6 style={{fontSize:"14px"}}>All Inclusive Packages</h6>
-                                    <h3 style={{fontSize:"17px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"21px"}}>AED 3000</h4> </h3></span>
+                                    <h3 style={{fontSize:"17px",marginTop:"-3%"}}>Starts @ 
+                                       <span style={{fontWeight:"700",fontSize:"21px"}}>AED 300</span> 
+                                    </h3>
+                                    {/* </span> */}
                                     {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h5>
                             </div>
@@ -68,10 +74,13 @@ export default class HandPickedDomesticHillStationsDestination extends Component
                                 <img src="Images/SubpageofHandPicked/2/munnar.webp" />
                             </div>
                             <div className="handPickedHillStationsDestinationdetails">
-                                <h5> Munnar <span className="job-title">
-                                    <p style={{fontSize:"14px"}}>4 Nights / 5 Days</p>
+                                <h5> Munnar  {/* <span className="job-title"> */}
+                                    <p style={{fontSize:"14px",fontWeight:"100"}}>4 Nights / 5 Days</p>
                                     <h6 style={{fontSize:"14px"}}>All Inclusive Packages</h6>
-                                    <h3 style={{fontSize:"17px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"21px"}}>AED 3000</h4> </h3></span>
+                                    <h3 style={{fontSize:"17px",marginTop:"-3%"}}>Starts @ 
+                                       <span style={{fontWeight:"700",fontSize:"21px"}}>AED 300</span> 
+                                    </h3>
+                                    {/* </span> */}
                                     {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h5>
                             </div>
@@ -84,10 +93,13 @@ export default class HandPickedDomesticHillStationsDestination extends Component
                                 <img src="Images/SubpageofHandPicked/2/udaipur.webp" />
                             </div>
                             <div className="handPickedHillStationsDestinationdetails">
-                                <h5> Udaipur <span className="job-title">
-                                    <p style={{fontSize:"14px"}}>4 Nights / 5 Days</p>
+                                <h5> Udaipur  {/* <span className="job-title"> */}
+                                    <p style={{fontSize:"14px",fontWeight:"100"}}>4 Nights / 5 Days</p>
                                     <h6 style={{fontSize:"14px"}}>All Inclusive Packages</h6>
-                                    <h3 style={{fontSize:"17px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"21px"}}>AED 3000</h4> </h3></span>
+                                    <h3 style={{fontSize:"17px",marginTop:"-3%"}}>Starts @ 
+                                       <span style={{fontWeight:"700",fontSize:"21px"}}>AED 300</span> 
+                                    </h3>
+                                    {/* </span> */}
                                     {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h5>
                             </div>

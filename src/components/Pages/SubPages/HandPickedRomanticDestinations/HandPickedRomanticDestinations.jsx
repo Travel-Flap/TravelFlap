@@ -21,13 +21,11 @@ export const HandPickedRomanticDestinations = () => {
 
             <HandPickedDomesticRomanticDestination/>
 
-            <div style={{ margin: "5%" }}>
-                <StaycationFaq />
-            </div>
+            <div style={{marginTop:"1%"}}><StaycationFaq /></div>
 
             <VideoTextStaycation/>
 
-            <div style={{marginTop:"4%"}}><InnerhandpickedFooter/> </div>
+            <div style={{marginTop:"-3%"}}><InnerhandpickedFooter/> </div>
           </>
 
     );

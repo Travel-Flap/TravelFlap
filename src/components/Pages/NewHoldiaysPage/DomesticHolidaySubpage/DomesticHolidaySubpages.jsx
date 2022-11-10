@@ -24,7 +24,7 @@ export const DomesticHolidaySubpages = () => {
 
       <VideoTextStaycation/>
 
-      <div style={{marginTop:"4%"}}><InnerhandpickedFooter/> </div>
+      <div style={{marginTop:"-3%"}}><DomesticSubpageFooter/> </div>
     
     </div>
   )
