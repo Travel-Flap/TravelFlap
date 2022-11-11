@@ -18,6 +18,7 @@ import { FavouriteStaycationSpot } from "./FavouriteStaycation/FavouriteStaycati
 import { BudgetFriendlyStaycations } from "./BudgetFriendlyStaycation/BudgetfriendlyStaycation";
 import { StaycationHappyFamily } from "./StaycationHappyFamily/StaycationHappyFamily";
 import { PopularStaycation } from "./PopularStaycation/PopularStaycation";
+import { DiscoverExtendedStay } from "./DiscoverExtendedStay/DiscoverExtendedStay";
 // import { CountrysideStaycation } from "./CountrysideStaycation/CountrysideStaycation";
 
 
@@ -33,6 +34,8 @@ export const NewStaycationPage = () => {
 
             <NewStaycationStaticBanners/>
             
+            <DiscoverExtendedStay/>
+
             <FavouriteStaycationSpot/>
 
             <BudgetFriendlyStaycations/>

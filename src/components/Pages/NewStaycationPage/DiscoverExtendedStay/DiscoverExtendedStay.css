@@ -1,0 +1,17 @@
+.extendedCardOuterDiv{
+    /* border: 2px solid red; */
+    width: 90%;
+    margin:auto;
+}
+
+.extendedCard{
+    /* border: 2px solid red; */
+    border: none !important;
+}
+
+.extendedImageContent{
+    /* border: 2px solid red; */
+    margin-top: 3%;
+}
+
+
