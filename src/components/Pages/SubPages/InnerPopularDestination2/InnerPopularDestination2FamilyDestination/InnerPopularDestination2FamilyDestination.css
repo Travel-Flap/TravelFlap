@@ -1,0 +1,1163 @@
+.InnerPopularDestination2FamilyDestinationmainDiv{
+    /* border: 2px solid /red; */
+    width: 100%;
+    height: 450px;
+}
+.InnerPopularDestination2FamilyDestinationHeading{
+    color: #393939;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.InnerPopularDestination2FamilyDestinationSlider{
+    /* border: 2px solid yellow; */
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.all_hotel_card_div {
+    display: flex !important;
+  }
+  
+  .cardtextendbuttons {
+    /* border: 1px solid red; */
+    width: 20%;
+  }
+  
+  .cardtextnewinnerPopularDestination2FamilyDestinationdropbutton {
+    /* background-color: whitesmoke; */
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .cardtextnewinnerPopularDestination2FamilyDestinationdropbutton h2 {
+    color: #3380f2 !important;
+    font-weight: 600;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 35px;
+  }
+  
+  /* .newHolidaysinnerPopularDestination2FamilyDestinationDropContainer {
+    width: 12%;
+    margin-left: 55%;
+    margin-top: 0.1%;
+    display: flex;
+    flex-direction: row;
+    border-right: none;
+    height: 50px;
+    border: 2px solid green;
+  } */
+  /* .newHolidaysinnerPopularDestination2FamilyDestinationDropContainer:hover .newinnerPopularDestination2FamilyDestinationicondiv {
+    background-color: whitesmoke !important;
+    color: whitesmoke !important;
+    cursor: pointer;
+  } */
+  /* .newHolidaysinnerPopularDestination2FamilyDestinationCountryDrop {
+    border: 3px solid white !important;
+    background-color: whitesmoke !important;
+    width: 85% !important;
+    height: 43px;
+    color: whitesmoke !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    cursor: pointer;
+    border-radius: 25px 0px 0px 25px !important;
+    border-right: none !important;
+    appearance: none !important;
+    border: 2px solid gold;
+    margin-top: 15%;
+  } */
+  /* .newHolidaysinnerPopularDestination2FamilyDestinationDropContainer select {
+    border: 1px solid red !important;
+    background-image: none !important;
+    background-color: #3380f2 !important;
+    height: 48px;
+    margin-top: 13%;
+    color: white !important;
+  } */
+  
+  /* .newHolidaysinnerPopularDestination2FamilyDestinationCountryDrop:hover {
+    background-color: white !important;
+    color: #3380f2 !important;
+    font-weight: 700;
+    border: 3px solid #3380f2 !important;
+  } */
+  .newinnerPopularDestination2FamilyDestinationicondiv {
+    width: 16%;
+    color: white;
+    border: 3px solid #3380f2;
+    background-color: #3380f2;
+    /* background-color: #3380f2; */
+    height: 43px;
+    /* font-size: 18px !important; */
+    border-radius: 0px 25px 25px 0px;
+    padding-right: 5%;
+    border-left: none;
+    margin-top: 14.5%;
+    /* border: 2px solid red; */
+  }
+  .newinnerPopularDestination2FamilyDestinationicon {
+    /* width: 100% !important; */
+    color: white;
+    /* border: 3px solid #3380F2; */
+    background-color: #3380f2;
+    height: 19px;
+    font-size: 18px !important;
+    border-radius: 100%;
+    margin-top: 68%;
+    /* margin-bottom: 105%; */
+  }
+  /* .newHolidaysinnerPopularDestination2FamilyDestinationDropContainer {
+      width: 20%;
+      margin-left: 56%;
+      margin-top: 0.1%;
+    }
+    
+    .newHolidaysinnerPopularDestination2FamilyDestinationCountryDrop {
+      margin-top: 13% !important;
+      margin-left: 7%;
+      color: #3380f2 !important;
+      font-weight: 700;
+      cursor: pointer;
+      border-radius: 20px !important;
+    }
+    .newHolidaysinnerPopularDestination2FamilyDestinationCountryDrop:hover {
+      background-color: #3380f2;
+      color: white !important;
+      font-weight: 700;
+    } */
+  
+  .newinnerPopularDestination2FamilyDestinationmaindiv {
+    /* border: 1px solid red !important; */
+    /* background-color: whitesmoke !important; */
+    width: 100%;
+    height: 500px !important;
+    opacity: 0.9;
+    /* background-image: url(/public/Images/NewHomeLayout/BackgroundImages/HotelServicesBackground.png); */
+  }
+  
+  .slick-slide {
+    width: 280px;
+  }
+  
+  .newinnerPopularDestination2FamilyDestinationslidercontainer .innerPopularDestination2FamilyDestinationslickDots {
+    bottom: -2.5vw;
+  }
+  
+  .newinnerPopularDestination2FamilyDestinationslidercontainer .innerPopularDestination2FamilyDestinationslickDots li {
+    width: 20px;
+    height: 20px;
+    background: #3380f2 !important;
+    /* background: rgb(51, 128, 242); */
+    border: 1px solid rgb(51, 128, 242) !important;
+    border-radius: 20px;
+  }
+  
+  .newinnerPopularDestination2FamilyDestinationslidercontainer .innerPopularDestination2FamilyDestinationslickDots li :before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    content: "";
+    text-align: center;
+    opacity: 0.5;
+    color: white !important;
+    background-color: #3380f2 !important;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .activityaroundouterdiv {
+    /* border: 2px solid red !important; */
+    height: 460px !important;
+    /* border: 2px solid lightgray; */
+    display: flex !important;
+    flex-direction: row !important;
+    width: 96%;
+    /* border: none; */
+  }
+  /* .newHolidaysinnerPopularDestination2FamilyDestinationDropContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #3380f2 !important;
+    height: 80px;
+    margin: auto;
+    margin-top: 2%;
+    border: 1px solid black;
+  } */
+  
+  .activityaroundheading1 {
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 600;
+    width: 30%;
+    margin: auto;
+    margin-left: 5.5% !important;
+    color: white;
+  }
+  
+  /* .viewallhomehotelcardtext{
+      
+      } */
+  .experimentheading2 {
+    /* border: 1px solid blue; */
+    width: 60%;
+    height: 40px;
+    justify-content: center;
+    margin: -0.5% 0 1% 1%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    /* padding: 0px 0px; */
+  }
+  .experimentheading {
+    border-radius: 50px;
+  }
+  
+  .experimentheading2 div {
+    border: 3px solid rgb(51, 128, 242);
+    width: 100px !important;
+    height: 33px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0.5%;
+    margin-right: 4%;
+    border-radius: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #3380f2;
+  }
+  
+  .experimentheading2 div:hover {
+    background-color: #3380f2;
+    color: white;
+  }
+  .viewallactivityhotelcardbuttons {
+    color: white;
+    font-weight: 700;
+    /* text-decoration: underline; */
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 6.5% 2% 0 5% !important;
+    width: 55% !important;
+    margin-left: 40% !important;
+  }
+  
+  .viewallhomehotelcardtext {
+    margin-top: 0px !important;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 38px !important;
+    width: 57% !important;
+    font-size: 14px;
+    height: 30px;
+    font-weight: 700;
+    padding-left: 15px !important;
+    padding-top: 5.3px !important;
+    margin-bottom: 8%;
+    text-decoration: none !important;
+  }
+  
+  .viewallhomehotelcardtext:hover {
+    background-color: white;
+    color: #3380f2;
+    /* padding-top: 1%; */
+  }
+  .newinnerPopularDestination2FamilyDestinationslidercontainer {
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+  }
+  
+  .activityaroundcardtitle {
+    color: #3380f2 !important;
+    font-size: 22px;
+    margin-top: 1%;
+  }
+  
+  .activityaroundcard_desc {
+    /* border: 1px solid red; */
+    width: 90%;
+    color: #3380f2;
+    font-size: 13px;
+    text-align: left;
+  }
+  
+  .activityaroundimagetextcontainer {
+    width: 100%;
+    height: 440px !important;
+  }
+  
+  .activityaroundtextcard {
+    margin-left: 9% !important;
+    width: 100% !important;
+  }
+  /* 
+        .activityaroundtextcard:hover{
+          color: white;
+          background-color: #3380F2;
+        } */
+  
+  .activityaroundtextcard:hover div {
+    color: white;
+  }
+  
+  .exclusivedealsimagediv {
+    /* border: 2px solid red !important; */
+    width: 800px;
+    height: 200px !important;
+  }
+  .exclusivedealsimage {
+    /* border: 1px solid black !important; */
+    width: 700px;
+    height: 10px;
+    margin-left: 40%;
+  }
+  
+  .activityaroundcardimage {
+    /* border: 1px solid red !important; */
+    /* height: 300px; */
+    border: none;
+    width: 100% !important;
+  }
+  
+  .activityaroundcarddescmain {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-left: -9%;
+  }
+  
+  .exclusivecarddesc:hover {
+    color: white;
+  }
+  
+  /* .experimentheading2 div:hover{
+          color: white;
+          background-color: #3380F2;
+        } */
+  
+  /* .experimentheading2 p{
+          width: 300px;
+          color: #3380F2;
+          font-weight: 500;
+        } */
+  .activityaroundheadingbuttons {
+    /* border: 1px solid yellow !important; */
+    justify-content: flex-end;
+    /* width: -1%; */
+    margin-left: 6%;
+    margin-top: -2%;
+  }
+  
+  .line-indicator li {
+    /* border: 2px solid; */
+    height: 4px;
+    width: 70px;
+    background: lightgray;
+    border-radius: 5px;
+  }
+  
+  .line-indicator li:hover {
+    background: gray;
+  }
+  
+  .line-indicator li.slick-active {
+    background: blue;
+  }
+  .buttons {
+    /* background: orangered !important; */
+    background: rgb(51, 128, 242) !important;
+    color: white !important;
+    transition: 700ms;
+    border: 3px solid red;
+  }
+  .buttons:hover {
+    /* background: white !important; */
+    /* color: orangered !important; */
+    transform: scale(1.1);
+  }
+  .activityaroundbutton {
+    border: 3px solid #3380f2;
+    width: 34%;
+    border-radius: 15px !important;
+    background-color: white;
+    color: #3380f2;
+    padding: 4px 12px;
+    font-weight: 500;
+    margin-bottom: 1%;
+    margin-top: 4%;
+    font-size: 15px !important;
+  }
+  .activityaroundbutton:hover {
+    border: 3px solid white;
+    background-color: #3380f2;
+    color: white;
+    font-size: 14px !important;
+  }
+  
+  @media screen and (max-width: 950px) {
+    .activityaroundimagetextcontainer {
+      flex-direction: column;
+    }
+    .col-md-4 {
+      width: 90%;
+      height: 280px;
+      margin-left: 3%;
+      margin-top: 10%;
+    }
+    .card-title {
+      font-size: 17px;
+    }
+    .card-text {
+      font-size: 13px;
+    }
+    .viewallactivityhotelcardbuttons {
+      display: none;
+    }
+    .activityaroundheading1 {
+      display: none;
+    }
+    .newHolidaysinnerPopularDestination2FamilyDestinationDropContainer {
+      flex-direction: column;
+    }
+    .experimentheading2 {
+      width: 100%;
+    }
+    .activityaroundimagetextcontainer img {
+      width: 100%;
+      height: 100%;
+    }
+    .exclusivedealsimage {
+      width: 100%;
+      height: 100%;
+    }
+    .activityaroundtextcard {
+      margin-left: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .activityaroundimagetextcontainer {
+      flex-direction: column;
+    }
+    .col-md-4 {
+      width: 90%;
+      height: 280px;
+      margin-left: 3%;
+      margin-top: 5%;
+    }
+    .card-title {
+      font-size: 17px;
+    }
+    .card-text {
+      font-size: 13px;
+    }
+    .viewallactivityhotelcardbuttons {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: -50px;
+      text-align: right;
+      width: 40%;
+      font-size: 14px;
+      margin-left: 52%;
+    }
+    .experimentheading2 {
+      display: none;
+    }
+    .activityaroundheadingbuttons {
+      display: none;
+    }
+    .activityaroundheading1 {
+      display: inline-block;
+      vertical-align: top;
+      width: 40%;
+      font-size: 16px;
+      margin-left: 3%;
+    }
+    .newHolidaysinnerPopularDestination2FamilyDestinationDropContainer {
+      flex-direction: column;
+    }
+    .activityaroundimagetextcontainer img {
+      width: 100%;
+      height: 100%;
+    }
+    .exclusivedealsimage {
+      width: 100%;
+      height: 100%;
+    }
+    .activityaroundtextcard {
+      margin-left: 8px;
+    }
+  }
+  
+  .newinnerPopularDestination2FamilyDestinationmaindiv {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+  
+  .activityaroundouterdiv {
+    /* border: 2px solid red !important; */
+    height: 460px !important;
+    /* border: 2px solid lightgray; */
+    display: flex !important;
+    flex-direction: row !important;
+    width: 96%;
+    /* border: none; */
+  }
+  /* .newHolidaysinnerPopularDestination2FamilyDestinationDropContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #3380f2;
+    height: 80px;
+    margin: auto;
+    margin-top: 2%;
+    border: 1px solid black;
+  } */
+  
+  .activityaroundheading1 {
+    /* border: 1px solid black; */
+    font-size: 25px;
+    font-weight: 600;
+    width: 30%;
+    margin: auto;
+    margin-left: 5.5% !important;
+    color: white;
+  }
+  
+  /* .viewallhomehotelcardtext{
+      
+      } */
+  .experimentheading2 {
+    /* border: 1px solid blue; */
+    width: 60%;
+    height: 40px;
+    justify-content: center;
+    margin: -0.5% 0 1% 1%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    /* padding: 0px 0px; */
+  }
+  .experimentheading {
+    border-radius: 50px;
+  }
+  
+  .experimentheading2 div {
+    border: 3px solid rgb(51, 128, 242);
+    width: 100px !important;
+    height: 33px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0.5%;
+    margin-right: 4%;
+    border-radius: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #3380f2;
+  }
+  
+  .experimentheading2 div:hover {
+    background-color: #3380f2;
+    color: white;
+  }
+  .viewallactivityhotelcardbuttons {
+    color: white;
+    font-weight: 700;
+    /* text-decoration: underline; */
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 47.5% 2% 0 5%;
+    width: 65%;
+    margin-left: 70% !important;
+  }
+  
+  .viewallhomehotelcardtext {
+    margin-top: 0.5%;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 38%;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 6px;
+    padding-top: 2.3px;
+    margin-bottom: 9%;
+    text-decoration: none !important;
+  }
+  
+  .viewallhomehotelcardtext:hover {
+    background-color: white;
+    color: #3380f2;
+    padding-top: 1%;
+  }
+  .newinnerPopularDestination2FamilyDestinationslidercontainer {
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    /* background-color: #3380f2; */
+  }
+  
+  .activityaroundcardtitle {
+    color: #3380f2 !important;
+    font-size: 22px;
+    margin-top: 1%;
+  }
+  
+  .activityaroundcard_desc {
+    /* border: 1px solid red; */
+    width: 90%;
+    color: #3380f2;
+    font-size: 13px;
+    text-align: left;
+  }
+  
+  .activityaroundimagetextcontainer {
+    width: 100%;
+    height: 440px !important;
+  }
+  
+  .activityaroundtextcard {
+    margin-left: 9% !important;
+    width: 100% !important;
+  }
+  /* 
+        .activityaroundtextcard:hover{
+          color: white;
+          background-color: #3380F2;
+        } */
+  
+  .activityaroundtextcard:hover div {
+    color: white;
+  }
+  
+  .exclusivedealsimagediv {
+    /* border: 2px solid red !important; */
+    width: 800px;
+    height: 200px !important;
+  }
+  .exclusivedealsimage {
+    /* border: 1px solid black !important; */
+    width: 700px;
+    height: 10px;
+    margin-left: 40%;
+  }
+  
+  .activityaroundcardimage {
+    /* border: 1px solid red !important; */
+    /* height: 300px; */
+    border: none;
+    width: 100% !important;
+  }
+  
+  .activityaroundcarddescmain {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-left: -9%;
+  }
+  
+  .exclusivecarddesc:hover {
+    color: white;
+  }
+  
+  /* .experimentheading2 div:hover{
+          color: white;
+          background-color: #3380F2;
+        } */
+  
+  /* .experimentheading2 p{
+          width: 300px;
+          color: #3380F2;
+          font-weight: 500;
+        } */
+  .activityaroundheadingbuttons {
+    /* border: 1px solid yellow !important; */
+    justify-content: flex-end;
+    /* width: -1%; */
+    margin-left: 6%;
+    margin-top: -2%;
+  }
+  
+  .line-indicator li {
+    /* border: 2px solid; */
+    height: 4px;
+    width: 70px;
+    background: lightgray;
+    border-radius: 5px;
+  }
+  
+  .line-indicator li:hover {
+    background: gray;
+  }
+  
+  .line-indicator li.slick-active {
+    background: blue;
+  }
+  .buttons {
+    /* background: orangered !important; */
+    background: rgb(51, 128, 242) !important;
+    color: white !important;
+    transition: 700ms;
+    border: 3px solid red;
+  }
+  .buttons:hover {
+    /* background: white !important; */
+    /* color: orangered !important; */
+    transform: scale(1.1);
+  }
+  .activityaroundbutton {
+    border: 3px solid #3380f2;
+    width: 34%;
+    border-radius: 15px !important;
+    background-color: white;
+    color: #3380f2;
+    padding: 4px 12px;
+    font-weight: 500;
+    margin-bottom: 1%;
+    margin-top: 4%;
+    font-size: 15px !important;
+  }
+  .activityaroundbutton:hover {
+    border: 3px solid white;
+    background-color: #3380f2;
+    color: white;
+    font-size: 14px !important;
+  }
+  
+  @media screen and (max-width: 950px) {
+    .activityaroundimagetextcontainer {
+      flex-direction: column;
+    }
+    .col-md-4 {
+      width: 90%;
+      height: 280px;
+      margin-left: 3%;
+      margin-top: 10%;
+    }
+    .card-title {
+      font-size: 17px;
+    }
+    .card-text {
+      font-size: 13px;
+    }
+    .viewallactivityhotelcardbuttons {
+      display: none;
+    }
+    .activityaroundheading1 {
+      display: none;
+    }
+    .newHolidaysinnerPopularDestination2FamilyDestinationDropContainer {
+      flex-direction: column;
+    }
+    .experimentheading2 {
+      width: 100%;
+    }
+    .activityaroundimagetextcontainer img {
+      width: 100%;
+      height: 100%;
+    }
+    .exclusivedealsimage {
+      width: 100%;
+      height: 100%;
+    }
+    .activityaroundtextcard {
+      margin-left: 8px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .activityaroundimagetextcontainer {
+      flex-direction: column;
+    }
+    .col-md-4 {
+      width: 90%;
+      height: 280px;
+      margin-left: 3%;
+      margin-top: 5%;
+    }
+    .card-title {
+      font-size: 17px;
+    }
+    .card-text {
+      font-size: 13px;
+    }
+    .viewallactivityhotelcardbuttons {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: -50px;
+      text-align: right;
+      width: 40%;
+      font-size: 14px;
+      margin-left: 52%;
+    }
+    .experimentheading2 {
+      display: none;
+    }
+    .activityaroundheadingbuttons {
+      display: none;
+    }
+    .activityaroundheading1 {
+      display: inline-block;
+      vertical-align: top;
+      width: 40%;
+      font-size: 16px;
+      margin-left: 3%;
+    }
+    .newHolidaysinnerPopularDestination2FamilyDestinationDropContainer {
+      flex-direction: column;
+    }
+    .activityaroundimagetextcontainer img {
+      width: 100%;
+      height: 100%;
+    }
+    .exclusivedealsimage {
+      width: 100%;
+      height: 100%;
+    }
+    .activityaroundtextcard {
+      margin-left: 8px;
+    }
+  }
+  
+  /* This css is for the card reference taken from the hotels page */
+  .hotelroomfilterdrop {
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 1.2%;
+    margin-left: 5%;
+  }
+  
+  .hotelroomfilterdrop h5 {
+    margin-top: 2%;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+  }
+  
+  .hoteltop-heading {
+    /* border: 1px solid red; */
+    /* margin-bottom: 0.5%; */
+    margin-top: 3.5%;
+    margin-right: 55%;
+    text-align: left !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 43.2px;
+    color: white;
+    width: 100%;
+    /* color: rgb(51, 128, 242); */
+  }
+  .hotelhomecardtextheading {
+    /* border: 2px solid red !important; */
+    /* background-color: red; */
+    width: 26% !important;
+    margin-left: 24%;
+    text-align: left;
+  }
+  .home_hotelmaincard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 88%;
+    margin: auto;
+  }
+  .hotelmaincardouter {
+    /* border: 2px solid red; */
+    width: 100%;
+    /* height: 400px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .cardtextinnerPopularDestination2FamilyDestination_maindiv {
+    /* border: 2px solid red; */
+    /* border: 2px solid lightgray; */
+    width: 18.5%;
+    height: 345px;
+    position: relative;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    /* margin-top: 15%; */
+  }
+  .cardtextinnerPopularDestination2FamilyDestination_maindiv:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+    height: 345px;
+    transition: 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  
+  .reviewratinginnerPopularDestination2FamilyDestinationsection {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    /* border: 1px solid red; */
+    font-size: 12px;
+    top: 25px;
+    right: 10px !important;
+    display: flex;
+    position: absolute;
+    /* color: rgb(244, 244, 249); */
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3px;
+  
+    z-index: 10;
+  }
+  .cardtextinnerPopularDestination2FamilyDestination_maindiv > img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .cardinnerPopularDestination2FamilyDestination_title {
+    /* border: 1px solid red; */
+    color: #3380f2;
+    width: 90%;
+    height: 30px;
+    margin-top: 1%;
+    font-size: 22px !important;
+    font-weight: 700;
+    margin-left: 3%;
+  }
+  .innerPopularDestination2FamilyDestination_rating {
+    color: #3380f2;
+  }
+  
+  .staricon {
+    margin-left: 2%;
+  }
+  
+  .newinnerPopularDestination2FamilyDestinationratesdiv {
+    /* border: 1px solid #3380f2; */
+    width: 100%;
+    /* background-color: #3380f2; */
+    margin-left: 1%;
+    color: black;
+    height: 40px;
+    border-radius: 7px;
+  }
+  
+  .newinnerPopularDestination2FamilyDestinationratesdiv p {
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 8px;
+    padding-left: 7px;
+  }
+  
+  .hoteldicsountprice {
+    width: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .review_rating_num {
+    color: white;
+    margin-left: -40px;
+    margin-right: 20px;
+    margin-top: -6px;
+  }
+  .hoteldiscountpercent {
+    border: 2px solid #3380f2 !important;
+    border-radius: 5px;
+    color: #3380f2;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: -2%;
+  }
+  .hotelPricebeforediscount {
+    text-decoration: line-through;
+    font-size: 13px;
+  }
+  .hotel_Priceafterdiscount {
+    color: #3380f2;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .Favouite_hotels {
+    color: #3380f2;
+    margin-left: 38%;
+    font-weight: 700;
+  }
+  
+  .reviwe {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    /* border: 1px solid red; */
+    font-size: 12px;
+    display: flex;
+    /* color: rgb(244, 244, 249); */
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: -82px;
+    margin-right: -60px;
+    z-index: 10;
+  }
+  
+  .reviwe_rating_num {
+    color: white;
+    margin-left: -40px;
+    margin-right: 20px;
+    margin-top: -6px;
+  }
+  
+  /* ----------------- New button css ----------------  */
+  
+  
+  /* .newHolidaysinnerPopularDestination2FamilyDestinationDropContainer {
+    width: 9% !important;
+    margin-left:50%;
+    margin-top: 2.1%;
+    display: flex;
+    flex-direction: row;
+    border-right: none;
+    height: 39px;
+    border-radius: 25px;
+    background-color: #3380F2 !important;
+    display: flex;
+    align-items: center;
+    color: white !important;
+    font-weight: 700;
+    justify-content: space-between;
+    border: 2px solid #3380F2;
+    outline: none;
+    padding-left: 15px;
+  }
+  .newHolidaysinnerPopularDestination2FamilyDestinationDropContainer:hover .newinnerPopularDestination2FamilyDestinationicondiv{
+    background-color:white;
+    color: #3380F2;
+    cursor: pointer;
+  }
+  .newHolidaysinnerPopularDestination2FamilyDestinationCountryDrop {
+    border: 3px solid red !important;
+    background-color: #3380F2 !important;
+    width: 80% !important;
+    height: 39px !important;
+    color:white !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+    margin-top: 0% !important;
+    cursor: pointer;
+    border-radius: 25px 0px 0px 25px !important;
+    border-right: none !important;
+    appearance: none !important;
+    padding-top: 5% !important;
+    border: none !important;
+  }
+  .newHolidaysinnerPopularDestination2FamilyDestinationDropContainer select{
+    border: 1px solid red !important;
+    background-image: none !important;
+  }
+  
+  .newHolidaysinnerPopularDestination2FamilyDestinationCountryDrop:hover {
+    background-color: white !important;
+    color: #3380F2 !important;
+    font-weight: 700;
+    border: 3px solid #3380F2 !important;
+  }
+  .newinnerPopularDestination2FamilyDestinationicondiv{
+    width: 20%;
+    color: white;
+    border: 3px solid #3380F2;
+    background-color: #3380F2;
+    height: 39px;
+    font-size: 18px !important;
+    border-radius: 0px 25px 25px 0px;
+    padding-right: 5%;
+    border-left: none;
+    margin-top: 0% !important;
+    border: 2px solid yellow;
+  }
+  .newinnerPopularDestination2FamilyDestinationicon{
+    margin-left: -37%;
+    width: 100% !important;
+    color: #3380F2;
+    border: 3px solid #3380F2;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    font-size: 18px !important;
+    border-radius: 100%;
+    margin-top: 25% !important;
+    margin-bottom: 105%;
+  } */
+  
+  
+  #newHolidaysinnerPopularDestination2FamilyDestinationDropContainer {
+    width: 9% !important;
+    margin-left: 53%;
+    margin-top: 2.1%;
+    display: flex;
+    flex-direction: row;
+    border-right: none;
+    height: 39px;
+    border-radius: 25px;
+    align-items: center;
+    color: white !important;
+    font-weight: 700;
+    justify-content: space-between;
+    /* border: 2px solid #3380F2; */
+    outline: none;
+    padding-left: 15px;
+  }
+  
+  #newHolidaysinnerPopularDestination2FamilyDestinationCountryDrop {
+    background-color: #3380F2 !important;
+    width: 80%;
+    height: 100%;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 25px 0px 0px 25px;
+    border-right: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+  }
+  #newHolidaysinnerPopularDestination2FamilyDestinationicondiv {
+    width: 20%;
+    color: white;
+    background-color: #3380F2;
+    height: 100%;
+    border-radius: 0px 25px 25px 0px;
+    padding-right: 5%;
+    border-left: none;
+  }
+  #newHolidaysinnerPopularDestination2FamilyDestinationicon {
+    margin-left: -37%;
+    color: white;
+    height: 21px;
+    width: 20px;
+    border-radius: 100%;
+    margin-top: 47%;
+  }

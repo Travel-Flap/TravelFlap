@@ -1,0 +1,117 @@
+
+
+.HandpickedRomanticDestinationPageHeading{
+    width:25%;
+    height: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin-top:1% !important;
+    margin-bottom:1% ;
+}
+.HandpickedRomanticDestinationPageHeading h3{
+  font-weight: 700;
+}
+
+/* .HandpickedRomanticDestinationPageHeading h2{
+    text-decoration: underline;
+} */
+
+.HandpickedRomanticDestinationconatinerDiv{
+    /* border-top: 2px solid #3380F2; */
+    /* border-bottom: 2px solid #3380F2; */
+    width: 90%;
+    height: auto;
+    margin: auto;
+    /* margin-top: 2%; */
+    padding-top: 20px;
+}
+.HandPickedRomanticSliderConatiner{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: auto;
+}
+.HandPickedRomanticSliderConatiner1{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    margin: auto;
+    margin-top: 3%;
+}
+.HandPickedRomanticSliderConatiner2{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    margin: auto;
+    margin-top: 3%;
+}
+.newhandPickedDestinationRomanticYououterdiv {
+    border: 2px solid lightgray;
+    display: flex !important;
+    flex-direction: row !important;
+    width: 95% !important;
+    height: 370px !important;
+    /* margin-left: 15%; */
+    /* box-shadow: 4px 4px 4px rgb(211,211,211); */
+    border: none;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 2px solid green !important; */
+  }
+  .newhandPickedDestinationRomanticYououterdiv:hover {
+    padding: 5px;
+    /* box-shadow: 5px 10px 25px  #3380f2; */
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+  }
+  .newhandPickedDestinationRomanticYouImagetextcontainer {
+    width: 100%;
+    height: 370px;
+    /* border: 2px solid red; */
+  }
+  .newhandPickedDestinationRomanticYouCardimage {
+    border: none;
+    width: 100% !important;
+    height: 180px;
+    /* margin-left: 2%; */
+    /* margin-top: 2%; */
+  }
+  .handPickedDestinationRomanticRecommendedimage{
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    margin: auto;
+    /* margin-top: 4%; */
+    border-radius: 7px 7px 0px 0px !important;
+  }
+  .newhandPickedDestinationRomanticYouTextcard {
+    /* border: 1px solid black; */
+    /* margin-left: 9% !important; */
+    width: 100% !important;
+  }
+
+  .newhandPickedDestinationRomanticYouCarddescmain {
+    /* border: 1px solid red; */
+    width: 100%;
+    /* margin-top: -2%; */
+  }
+  .newhandPickedDestinationRomanticYouCarddescmain p{
+    font-size: 12px;
+    margin-top: -2%;
+  }
+  .newhandPickedDestinationRomanticYouCardtitle {
+    /* border: 1px dotted slateblue; */
+    color: #393939;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 6%;
+  }
+  .newhandPickedDestinationRomanticButton{
+    background-color: #3380F2;
+    color: white;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 27%;
+    margin-bottom: -3%;
+    height: 31px;
+    margin-left: 73%;
+    
+  }

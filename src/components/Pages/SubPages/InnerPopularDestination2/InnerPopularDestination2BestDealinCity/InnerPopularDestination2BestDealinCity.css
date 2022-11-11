@@ -27,8 +27,9 @@
     height: 540px;
 }
 .innerPopularDestination2BestDealinCityPayment{
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     width: 25%;
     height: 540px;
     margin-left: 3%;
+    margin-top: -5%;
 }

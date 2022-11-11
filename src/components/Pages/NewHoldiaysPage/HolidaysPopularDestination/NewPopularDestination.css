@@ -7,16 +7,7 @@
     border: none;
     background-color:white !important;
   }
-  
-  .newPopularDestinationsContainer{
-    /* background-color: #fff !important; */
-    /* border: 2px solid red !important; */
-  }
-  /* .newPopularDestinationsmainheading{
-    display: flex;
-    flex-direction: row;
-    background-color: #3380f2;
-  } */
+
   .newPopularDestinationsHeadingouterdiv h2 {
     color: #3380F2;
     margin-left: 2%;

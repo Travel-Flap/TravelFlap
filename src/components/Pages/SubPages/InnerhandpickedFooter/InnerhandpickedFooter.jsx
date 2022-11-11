@@ -10,13 +10,13 @@ import "./InnerhandpickedFooter.css";
 export const InnerhandpickedFooter = () => {
     return (
         <> 
-            <div className="InnerhandpickedFooterMain-Container">
+            <div className="innerHandPickedFooterMain-Container">
             
-                <div className="InnerhandpickedFooterMain-Container3">
-                    <div className="InnerhandpickedFootersubclass-item">
+                <div className="innerHandPickedFooterMain-Container3">
+                    <div className="innerHandPickedFootersubclass-item">
 
-                        <IconContext.Provider value={{ className: "InnerhandpickedFootersocialIcons" }}>
-                            <div className="InnerhandpickedFooterfootersocialmedia1">
+                        <IconContext.Provider value={{ className: "innerHandPickedFootersocialIcons" }}>
+                            <div className="innerHandPickedFooterfootersocialmedia1">
 
                                 <a href="https://www.pinterest.com/travelflap/"><BsPinterest /></a>
                                 <a href=" https://www.facebook.com/travelflap/"><BsFacebook /></a>
@@ -28,34 +28,34 @@ export const InnerhandpickedFooter = () => {
                         </IconContext.Provider>
                     </div>
 
-                    <div className="InnerhandpickedFooterContact">
+                    <div className="innerHandPickedFooterContact">
                         {/* <h1>Contact Details</h1> */}
-                        <div className="InnerhandpickedFooterContactDetailsdiv">
-                            <div className="InnerhandpickedFooterContactContent">
-                                <div className="InnerhandpickedFooterContactContentInner1">
+                        <div className="innerHandPickedFooterContactDetailsdiv">
+                            <div className="innerHandPickedFooterContactContent">
+                                <div className="innerHandPickedFooterContactContentInner1">
                                     <IconContext.Provider value={{ color: "white"}}><GoLocation /></IconContext.Provider>
                                 </div>
-                                <div className="InnerhandpickedFooterContactContentInner2">
+                                <div className="innerHandPickedFooterContactContentInner2">
                                     <p>800 3rd Ave, New York, NY 10022, United States</p>
                                 </div>
 
                             </div>
 
-                            <div className="InnerhandpickedFooterContactContent">
-                                <div className="InnerhandpickedFooterContactContentInner1">
+                            <div className="innerHandPickedFooterContactContent">
+                                <div className="innerHandPickedFooterContactContentInner1">
                                     <IconContext.Provider value={{ color: "white"}}><FiPhoneCall /></IconContext.Provider>
                                 </div>
-                                <div className="InnerhandpickedFooterContactContentInner2">
+                                <div className="innerHandPickedFooterContactContentInner2">
                                     <p>Mobile India : +918209366227,
-                                        <span className="InnerhandpickedFooterContactContentInner2span"> +917877680588</span>
+                                        <span className="innerHandPickedFooterContactContentInner2span"> +917877680588</span>
                                     </p>
                                 </div>
                             </div>
-                            <div className="InnerhandpickedFooterContactContent">
-                                <div className="InnerhandpickedFooterContactContentInner1">
+                            <div className="innerHandPickedFooterContactContent">
+                                <div className="innerHandPickedFooterContactContentInner1">
                                     <IconContext.Provider value={{ color: "white"}}><BsWhatsapp /></IconContext.Provider>
                                 </div>
-                                <div className="InnerhandpickedFooterContactContentInner2">
+                                <div className="innerHandPickedFooterContactContentInner2">
                                     <p className="">Mobile USA : +19176726964 </p>
 
                                     {/* <p className="">Mobile DXB : +971 58 597 8776 </p> */}
@@ -64,21 +64,21 @@ export const InnerhandpickedFooter = () => {
                                 
                             </div>
 
-                            <div className="InnerhandpickedFooterContactContent">
-                                <div className="InnerhandpickedFooterContactContentInner1">
+                            <div className="innerHandPickedFooterContactContent">
+                                <div className="innerHandPickedFooterContactContentInner1">
                                     <IconContext.Provider value={{ color: "white"}}><HiOutlineMailOpen /></IconContext.Provider>
                                 </div>
-                                <div className="InnerhandpickedFooterContactContentInner2">
+                                <div className="innerHandPickedFooterContactContentInner2">
                                     <p>Info@travelflap.com</p>
                                 </div>
 
                             </div>
 
-                            <div className="InnerhandpickedFooterContactContent">
-                                <div className="InnerhandpickedFooterContactContentInner1">
+                            <div className="innerHandPickedFooterContactContent">
+                                <div className="innerHandPickedFooterContactContentInner1">
                                     <IconContext.Provider value={{ color: "white"}}><FaGlobeAmericas /></IconContext.Provider>
                                 </div>
-                                <div className="InnerhandpickedFooterContactContentInner2">
+                                <div className="innerHandPickedFooterContactContentInner2">
                                     <p>www.travelflap.com</p>
                                 </div>
 

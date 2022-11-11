@@ -17,9 +17,11 @@ import { NewRentalsPage } from "./components/Pages/NewRentalsPage/NewRentalsPage
 import { NewOffers } from "./components/Pages/NewOffersPage/NewOffers";
 
 // import {HandpickedBeachDestinationPage} from "./components/Pages/SubPages/HandpickedBeachDestinationPage";
-import {InnerPopularDestinationAccomodations} from "./components/Pages/SubPages/InnerPopularDestination1/InnerPopularDestinationAccomodations/InnerPopularDestinationAccomodations";
+// import {InnerPopularDestinationAccomodations} from "./components/Pages/SubPages/InnerPopularDestination1/InnerPopularDestinationAccomodations/InnerPopularDestinationAccomodations";
 
 import { HandpickedBeachDestinationPage } from "./components/Pages/SubPages/HandpickedBeachDestinationPage";
+import { HandPickedHillStations } from "./components/Pages/SubPages/HandPickedHillStations/HandPickedHillStations";
+import { HandPickedRomanticDestinations } from "./components/Pages/SubPages/HandPickedRomanticDestinations/HandPickedRomanticDestinations";
 
 // import { Helmet } from "react-helmet";
 
@@ -29,11 +31,11 @@ import { HandpickedBeachDestinationPage } from "./components/Pages/SubPages/Hand
 import { Helmet } from "react-helmet";
 
 import { InnerHandpicked2 } from "./components/Pages/SubPages/InnerHandpicked2/InnerHandpicked2";
-import { InnerPopularDestination1 } from "./components/Pages/SubPages/InnerPopularDestination1/InnerPopularDestination1";
+// import { InnerPopularDestination1 } from "./components/Pages/SubPages/InnerPopularDestination1/InnerPopularDestination1";
 import { InnerPopularDestination2 } from "./components/Pages/SubPages/InnerPopularDestination2/InnerPopularDestination2";
 // import {InnerHandPicked3} from "./components/Pages/SubPages/InnerHandPicked3/InnerHandPicked3";
 import { InnerVisaPage1 } from "./components/Pages/SubPages/InnerVisapages/InnerVisaPage1/InnerVisaPage1";
-import {InnerPopularDestinationInclusiveExclusive} from "./components/Pages/SubPages/InnerPopularDestination1/InnerPopularDestinationInclusiveExclusive/InnerPopularDestinationInclusiveExclusive";
+// import {InnerPopularDestinationInclusiveExclusive} from "./components/Pages/SubPages/InnerPopularDestination1/InnerPopularDestinationInclusiveExclusive/InnerPopularDestinationInclusiveExclusive";
 
 
 import { DomesticHolidaySubpages } from "./components/Pages/NewHoldiaysPage/DomesticHolidaySubpage/DomesticHolidaySubpages";
@@ -96,8 +98,18 @@ function App() {
         <Route path="/offers" element={<NewOffers />} />
 
         <Route
-          path="/weekendgetaways"
+          path="/beachDestinations"
           element={<HandpickedBeachDestinationPage />}
+        />
+
+        <Route
+          path="/romanticDestinations"
+          element={<HandPickedRomanticDestinations />}
+        />
+
+       <Route
+          path="/hillStations"
+          element={<HandPickedHillStations />}
         />
 
         <Route path="/domesticHolidays" element={<DomesticHolidaySubpages/> } />
@@ -111,13 +123,11 @@ function App() {
         <Route path="/rentals" element={ <NewRentalsPage/>} />
         <Route path="/offers" element={<NewOffers/>}   />
         
-        <Route path="/weekendgetaways" element={<HandpickedBeachDestinationPage/>} />
-        <Route path="/bali" element={<InnerHandpicked2/>}/>
-        <Route path="/populardestination" element={<InnerPopularDestination1/>}/>
-        <Route path="/TurkeyDescription" element={<InnerPopularDestination2/>} />
+        {/* <Route path="/populardestination" element={<InnerPopularDestination1/>}/> */}
+        <Route path="/populardestination" element={<InnerPopularDestination2/>} />
 
-        <Route path="/accomodations" element={<InnerPopularDestinationAccomodations/>}/>
-        <Route path="/inc&exc" element={<InnerPopularDestinationInclusiveExclusive/>} />
+        {/* <Route path="/accomodations" element={<InnerPopularDestinationAccomodations/>}/>
+        <Route path="/inc&exc" element={<InnerPopularDestinationInclusiveExclusive/>} /> */}
         {/* <Route path="/baliDetails" element={<InnerHandPicked3/>}/> */}
         {/* <Route path="/easyvisainnerpage" element={<InnerVisaPage1/>}/> */}
 

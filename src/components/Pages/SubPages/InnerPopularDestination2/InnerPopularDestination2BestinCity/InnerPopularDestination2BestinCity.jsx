@@ -17,12 +17,12 @@ export const InnerPopularDestination2BestinCity = () => {
         <>
           <div className="InnerPopularDestination2BestinCitymainDiv">
             <div className="InnerPopularDestination2BestinCityHeading">
-                Best Places in CapeTown
+                Best Places in Egypt
             </div>
             <div className="InnerPopularDestination2BestinCitySlider">
             <Slider
                     arrows={false}
-                    autoplay={true}
+                    // autoplay={true}
                     speed={4000}
                     autoplaySpeed={2000}
                     dots={true}
@@ -86,212 +86,77 @@ export const InnerPopularDestination2BestinCity = () => {
                 >
 
                     <div className="cardtextinnerPopularDestination2BestinCity_maindiv">
-                        {/* <div className="reviewratinginnerPopularDestination2BestinCitysection">
-                            <th>Exeptional
-                                <br />
-                                <span style={{ fontSize: "10px" }}>1879 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div> */}
-                        <img src="Images/NewHomeLayout/BestSelling/Brandenburg Gate, Berlin, Germany.jpg" alt="" />
-                        <div className="cardinnerPopularDestination2BestinCity_title">Germany
+                        <img src="Images/SubpageofPopularDestination/firstg/cairo egypt.jpg" alt="cairo" />
+                        <div className="cardinnerPopularDestination2BestinCity_title">Cairo
                             <br />
-                            {/* <span className="innerPopularDestination2BestinCity_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span> */}
                         </div>
 
                         <div className="newinnerPopularDestination2BestinCityratesdiv">
-                            <p>Berlin, Brandenburg Gate.</p>
+                            <p>Cairo,Egypt</p>
                         </div>
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>
                         </div>
                     </div>
+                    
                     <div className="cardtextinnerPopularDestination2BestinCity_maindiv">
-                        {/* <div className="reviewratinginnerPopularDestination2BestinCitysection">
-                            <th>Exeptional
-                                <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div> */}
-
-                        <img src="Images/NewHomeLayout/BestSelling/Embarcadero, San Francisco, USA.jpg" alt="" />
-                        <div className="cardinnerPopularDestination2BestinCity_title">USA
+                       
+                    <img src="Images/SubpageofPopularDestination/firstg/gabalya st , egypt.jpg" alt="gabalya" />
+                        <div className="cardinnerPopularDestination2BestinCity_title">Gabalya
                             <br />
-                            {/* <span className="innerPopularDestination2BestinCity_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span> */}
                         </div>
 
                         <div className="newinnerPopularDestination2BestinCityratesdiv">
-                            <p>San Francisco</p>
+                            <p>Gabalya st,Egypt</p>
                         </div>
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>
-                            {/* <span className="hotelPricebeforediscount">&#x24;19,662</span>
-                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
                         </div>
                     </div>
 
                     <div className="cardtextinnerPopularDestination2BestinCity_maindiv">
-                        {/* <div className="reviewratinginnerPopularDestination2BestinCitysection">
-                            <th>Exeptional
-                                <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div> */}
-                        
-                        <img src="Images/NewHomeLayout/BestSelling/Great Wall of China, China.jpg" alt="" />
-                        <div className="cardinnerPopularDestination2BestinCity_title">China
+                    <img src="Images/SubpageofPopularDestination/firstg/giza plataue.jpg" alt="giza" />
+                        <div className="cardinnerPopularDestination2BestinCity_title">Giza
                             <br />
-                            {/* <span className="innerPopularDestination2BestinCity_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span> */}
                         </div>
 
                         <div className="newinnerPopularDestination2BestinCityratesdiv">
-                            <p>The Great Wall of China.</p>
+                            <p>Giza Plataue</p>
                         </div>
 
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>
-                            {/* <span className="hotelPricebeforediscount">&#x24;19,662</span>
-                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
                         </div>
-                        {/* <div className="hoteldicsountprice">
-                            <span className="hoteldiscountpercent">41% DISCOUNT</span>
-                            <span className="hotelPricebeforediscount">&#x24;19,662</span>
-                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
-                        </div> */}
                     </div>
+                    
                     <div className="cardtextinnerPopularDestination2BestinCity_maindiv">
-                        {/* <div className="reviewratinginnerPopularDestination2BestinCitysection">
-                            <th>Exeptional
-                                <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div> */}
-
-                        <img src="Images/NewHomeLayout/BestSelling/Laon France.jpg" alt="" />
-                        <div className="cardinnerPopularDestination2BestinCity_title">France
+                    <img src="Images/SubpageofPopularDestination/firstg/luxor, Egypt.jpg" alt="luxor" />
+                        <div className="cardinnerPopularDestination2BestinCity_title">Luxor
                         </div>
 
                         <div className="newinnerPopularDestination2BestinCityratesdiv">
-                            <p>Laon</p>
+                            <p>Luxor,Egypt</p>
                         </div>
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>
-                            {/* <span className="hotelPricebeforediscount">&#x24;19,662</span>
-                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
                         </div>
                     </div>
+                    
                     <div className="cardtextinnerPopularDestination2BestinCity_maindiv">
-                        {/* <div className="reviewratinginnerPopularDestination2BestinCitysection">
-                            <th>Exeptional
-                                <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div> */}
-
-                        <img src="Images/NewHomeLayout/BestSelling/Metropolitan City of Venice, Italy.jpg" alt="" />
-                        <div className="cardinnerPopularDestination2BestinCity_title">Italy
+                    <img src="Images/SubpageofPopularDestination/firstg/pyramids of giza 2.jpg" alt="pyramids of giza " />
+                        <div className="cardinnerPopularDestination2BestinCity_title">Pyramids
                             <br />
-                            {/* <span className="innerPopularDestination2BestinCity_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span> */}
                         </div>
 
                         <div className="newinnerPopularDestination2BestinCityratesdiv">
-                            <p>Metropolitan City of Venice.</p>
+                            <p>Pyramids of Giza</p>
                         </div>
                         <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">Book Now</span>
-                            {/* <span className="hotelPricebeforediscount">&#x24;19,662</span>
-                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
-                        </div>
-                    </div>
-                    <div className="cardtextinnerPopularDestination2BestinCity_maindiv">
-                        {/* <div className="reviewratinginnerPopularDestination2BestinCitysection">
-                            <th>Exeptional
-                                <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div> */}
-                        <img src="Images/NewHomeLayout/BestSelling/Santuario de la virgen de los remedios, san pedro cholula, mexico.jpg" alt="" />
-                        <div className="cardinnerPopularDestination2BestinCity_title">Mexico
-                            <br />
-                            {/* <span className="innerPopularDestination2BestinCity_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span> */}
-                        </div>
-
-                        <div className="newinnerPopularDestination2BestinCityratesdiv">
-                            <p>Santuario de la virgen de los remedios, san pedro cholula.</p>
-                        </div>
-                        <div className="hoteldicsountprice">
-                            <span className="hoteldiscountpercent">Book Now</span>
-                            {/* <span className="hotelPricebeforediscount">&#x24;19,662</span>
-                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
-                        </div>
-                    </div>
-                    <div className="cardtextinnerPopularDestination2BestinCity_maindiv">
-                        {/* <div className="reviewratinginnerPopularDestination2BestinCitysection">
-                            <th>Exeptional
-                                <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div> */}
-
-                        <img src="Images/NewHomeLayout/BestSelling/Sevilla, Spain.jpg" alt="" />
-                        <div className="cardinnerPopularDestination2BestinCity_title">Sevilla
-                            <br />
-                            {/* <span className="innerPopularDestination2BestinCity_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span> */}
-                        </div>
-
-                        <div className="newinnerPopularDestination2BestinCityratesdiv">
-                            <p>Spain</p>
-                        </div>
-                        <div className="hoteldicsountprice">
-                            <span className="hoteldiscountpercent">Book Now</span>
-                            {/* <span className="hotelPricebeforediscount">&#x24;19,662</span>
-                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
                         </div>
                     </div>
 
-
+                    
                 </Slider>
             </div>
           </div>

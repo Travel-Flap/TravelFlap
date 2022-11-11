@@ -36,13 +36,16 @@ export default class HandPickedBeachDestinationDomesticComponent extends Compone
                     <div className="card-wrapper handPickedBeachDestinationDomesticwrapper">
                         <div className="card newMultisection_handPickedBeachDestinationDomesticimage">
                             <div className="card-image handPickedBeachDestinationDomesticimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/domestic/Chandipur, Odisha.webp"/>
+                                <img src="Images/SubpageofHandPicked/domestic/Chandipur, Odisha.webp"/>
                             </div>
                             <div className="handPickedBeachDestinationDomesticdetails">
-                                <h5> Chandipur <span className="job-title">
-                                    <p style={{fontSize:"14px"}}>4 Nights / 5 Days</p>
+                                <h5> Chandipur  {/* <span className="job-title"> */}
+                                    <p style={{fontSize:"14px",fontWeight:"100"}}>4 Nights / 5 Days</p>
                                     <h6 style={{fontSize:"14px"}}>All Inclusive Packages</h6>
-                                    <h3 style={{fontSize:"17px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"21px"}}>AED 3000</h4> </h3></span>
+                                    <h3 style={{fontSize:"17px",marginTop:"-3%"}}>Starts @ 
+                                       <span style={{fontWeight:"700",fontSize:"21px"}}>AED 300</span> 
+                                    </h3>
+                                    {/* </span> */}
                                     {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h5>
                             </div>
@@ -52,13 +55,16 @@ export default class HandPickedBeachDestinationDomesticComponent extends Compone
                     <div className="card-wrapper handPickedBeachDestinationDomesticwrapper">
                         <div className="card newMultisection_handPickedBeachDestinationDomesticimage">
                             <div className="card-image handPickedBeachDestinationDomesticimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/domestic/Om Beach, Gokarna, Karnataka.webp" />
+                                <img src="Images/SubpageofHandPicked/domestic/Om Beach, Gokarna, Karnataka.webp" />
                             </div>
                             <div className="handPickedBeachDestinationDomesticdetails">
-                                <h5> Om Beach <span className="job-title">
-                                    <p style={{fontSize:"14px"}}>4 Nights / 5 Days</p>
+                                <h5> Om Beach  {/* <span className="job-title"> */}
+                                    <p style={{fontSize:"14px",fontWeight:"100"}}>4 Nights / 5 Days</p>
                                     <h6 style={{fontSize:"14px"}}>All Inclusive Packages</h6>
-                                    <h3 style={{fontSize:"17px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"21px"}}>AED 3000</h4> </h3></span>
+                                    <h3 style={{fontSize:"17px",marginTop:"-3%"}}>Starts @ 
+                                       <span style={{fontWeight:"700",fontSize:"21px"}}>AED 300</span> 
+                                    </h3>
+                                    {/* </span> */}
                                     {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h5>
                             </div>
@@ -68,13 +74,16 @@ export default class HandPickedBeachDestinationDomesticComponent extends Compone
                     <div className="card-wrapper handPickedBeachDestinationDomesticwrapper">
                         <div className="card newMultisection_handPickedBeachDestinationDomesticimage">
                             <div className="card-image handPickedBeachDestinationDomesticimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/domestic/Palolem Beach, Goa.webp" />
+                                <img src="Images/SubpageofHandPicked/domestic/Palolem Beach, Goa.webp" />
                             </div>
                             <div className="handPickedBeachDestinationDomesticdetails">
-                                <h5> Palolem Beach <span className="job-title">
-                                    <p style={{fontSize:"14px"}}>4 Nights / 5 Days</p>
+                                <h5> Palolem Beach  {/* <span className="job-title"> */}
+                                    <p style={{fontSize:"14px",fontWeight:"100"}}>4 Nights / 5 Days</p>
                                     <h6 style={{fontSize:"14px"}}>All Inclusive Packages</h6>
-                                    <h3 style={{fontSize:"17px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"21px"}}>AED 3000</h4> </h3></span>
+                                    <h3 style={{fontSize:"17px",marginTop:"-3%"}}>Starts @ 
+                                       <span style={{fontWeight:"700",fontSize:"21px"}}>AED 300</span> 
+                                    </h3>
+                                    {/* </span> */}
                                     {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h5>
                             </div>
@@ -84,13 +93,16 @@ export default class HandPickedBeachDestinationDomesticComponent extends Compone
                     <div className="card-wrapper handPickedBeachDestinationDomesticwrapper">
                         <div className="card newMultisection_handPickedBeachDestinationDomesticimage">
                             <div className="card-image handPickedBeachDestinationDomesticimagecardImage">
-                                <img src="Images/SubpageofHAndPicked/domestic/Varkala, Kerala.webp" />
+                                <img src="Images/SubpageofHandPicked/domestic/Varkala, Kerala.webp" />
                             </div>
                             <div className="handPickedBeachDestinationDomesticdetails">
-                                <h5> Varkala, Kerala <span className="job-title">
-                                    <p style={{fontSize:"14px"}}>4 Nights / 5 Days</p>
+                                <h5> Varkala, Kerala  {/* <span className="job-title"> */}
+                                    <p style={{fontSize:"14px",fontWeight:"100"}}>4 Nights / 5 Days</p>
                                     <h6 style={{fontSize:"14px"}}>All Inclusive Packages</h6>
-                                    <h3 style={{fontSize:"17px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"21px"}}>AED 3000</h4> </h3></span>
+                                    <h3 style={{fontSize:"17px",marginTop:"-3%"}}>Starts @ 
+                                       <span style={{fontWeight:"700",fontSize:"21px"}}>AED 300</span> 
+                                    </h3>
+                                    {/* </span> */}
                                     {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h5>
                             </div>

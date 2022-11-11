@@ -1,0 +1,240 @@
+.InclusionMainContainerDiv{
+    width:22%;
+    position:absolute;
+    
+}
+.InclusionContainerDiv1{
+    height:200px;
+    background-color: #f3f7fa;
+    box-shadow: 2px 2px 2px lightgrey;
+    border-radius:3px;
+}
+.InclusionSubMainContainer2{
+    height:410px;
+    background-color: #f3f7fa;
+    box-shadow: 2px 2px 2px lightgrey;
+    border-radius:3px;
+    margin-top:2%;
+}
+.InclusionSubContainerDiv{
+    background-color: #3380f2;
+    height: 88px;
+    border-radius: 5px;
+}
+
+.Inclusionheadline1{
+    color:white;
+    position: absolute;
+    margin-top:5%;
+    left:8%;
+    font-size:large;
+}
+
+.Inclusionsubscript{
+    color:grey;
+    font-size:small;
+    position:absolute;
+    margin-top: 6%;
+    margin-left:25%;
+}
+
+.InclusionOfferBox{
+    position:absolute;
+    margin-top:14%;
+    width:30%;
+    background-image: linear-gradient(to right,red,yellow);
+    left:8%;
+    color:white;
+}
+
+.InclusionApplicableTaxes{
+    font-size:medium;
+    color:white;
+    position:relative;
+    top:28%;
+    left:60%;
+}
+
+.InclusionExclusiveDeals{
+    font-size:small;
+    color:grey;
+    position:relative;
+    top:48%;
+    left:13%;
+
+}
+
+.InclusionFilterContent2{
+    display:flex;
+    justify-content:space-around;
+    margin-top:3%;
+}
+
+.InclusionFilterContentItems a{
+    text-decoration:none;
+    color:#3380f2;
+    font-weight:700;
+}
+
+.Paymentbutton{
+    background-image: linear-gradient(to right,#3380f2,#33e7f2);
+    padding:14px;
+    width:60%;
+    border-radius: 4px;
+    border:none;
+    font-size:medium;
+    color:azure;
+    font-weight:400;
+}
+
+.InclusionFilterContent3{
+    margin-top:-3%;
+    /* border:2px solid red !important; */
+}
+
+.Paymentbutton{
+    background-image: linear-gradient(to right,#3380f2,#33e7f2);
+    padding: 9px;
+    width: 92%;
+    height: 42px;
+    border-radius: 4px;
+    border: none;
+    font-size: medium;
+    color: azure;
+    margin-left: 4%;
+    font-weight: 400;
+}
+
+.CouponHeadline1{
+    text-align:left;
+    font-weight:700;
+    margin-top:2%;
+    margin-left:4%;
+    /* position:absolute; */
+}
+.InclusionFilterContent4{
+    display:flex;
+    /* margin-top:5%; */
+}
+.InclusionFilterContentItem2{
+    position:absolute;
+    top:39%;
+    left:4%;
+}
+
+.OfferDealsDetails{
+    border:1px solid lightgray;
+    margin:3%;
+    height:100px;
+    background-color: #D1F8E6;
+    border-radius:5px;
+}
+.OfferDealsDetails1{
+    border:1px solid lightgray;
+    margin:3%;
+    height:100px;
+    background-color: #F2F2F2;
+    border-radius:5px;
+}
+.OfferDealHeadline{
+    font-weight:700;
+    font-size: small;
+    position:absolute;
+    left:10%;
+    /* top:38%; */
+    margin-top:4%;
+    /* text-decoration:underline dashed;
+    line-height:2px; */
+}
+.OfferDealDescription{
+    font-size:small;
+    position:absolute;
+    top:52%;
+    left:10%;
+
+}
+.OfferPrice{
+    position:absolute;
+    top:57%;
+    left:9%;
+    font-weight:700;
+
+}
+
+.CouponApplyButton{
+    position:absolute;
+    top:48%;
+    right:7%;
+    color:#3380f2;
+    font-weight:700;
+    text-decoration:none;
+
+}
+
+.CouponApplyButton1{
+    position:absolute;
+    top:66%;
+    right:7%;
+    color:#3380f2;
+    font-weight:700;
+    text-decoration:none;
+}
+.CouponApplyButton2{
+    position:absolute;
+    top:84%;
+    right:7%;
+    color:#3380f2;
+    font-weight:700;
+    text-decoration:none;
+
+}
+
+.OfferDealDescription1{
+    font-size:small;
+    position:absolute;
+    top:70%;
+    left:10%;
+}
+.OfferDealDescription2{
+    font-size:small;
+    position:absolute;
+    top:88%;
+    left:10%;
+}
+
+.OfferPrice1{
+    position:absolute;
+    top:75%;
+    left:9%;
+    font-weight:700;
+}
+.OfferPrice2{
+    position:absolute;
+    top:93%;
+    left:9%;
+    font-weight:700;
+}
+
+.InclusionFilterContentItem2 input{
+    background-color: lightblue;
+    border:none;
+    padding:4px;
+    border-top-left-radius: 2px;
+}
+
+.ApplyButton1{
+    color:#3380f2;
+    font-weight:700;
+    border:none;
+    background-color: lightblue;
+    padding:4px;
+    border-top-right-radius: 2px;
+
+    left:500%;
+    padding-right:5px;
+    position:relative;
+}
+
+.OfferDeals{
+    margin-top:15%;
+}

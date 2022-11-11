@@ -205,14 +205,14 @@ export const NewHomeNav = () => {
                                     <li> <GiPalmTree size={"1.5em"} />
                                         <Link to='/holidays'> <p className='fixed-menu-link'>Holidays</p> </Link> </li>
 
+                                    <li> <FaLaptopHouse size={"1.5em"} />
+                                        <Link to="/staycations"> <p className='fixed-menu-link' style={{marginLeft:"3%"}}>Staycation</p> </Link> </li>
+
                                     <li> <FaBus size={"1.5em"} />
-                                        <Link to="/rentals"> <p className='fixed-menu-link'>Rentals</p> </Link> </li>
+                                        <Link to="/rentals"> <p className='fixed-menu-link' style={{marginLeft:"15%"}}>Rentals</p> </Link> </li>
 
                                     <li> <FaShip size={"1.5em"} />
                                         <Link to="/cruise"><p className='fixed-menu-link'>Cruise</p> </Link> </li>
-
-                                    <li> <FaLaptopHouse size={"1.5em"} />
-                                        <Link to="/villa"> <p className='fixed-menu-link'>Villa</p> </Link> </li>
 
                                     <li> <MdOutlineLocalActivity size={"1.5em"} />
                                         <Link to="/activities"> <p className='fixed-menu-link'>Activities</p> </Link> </li>

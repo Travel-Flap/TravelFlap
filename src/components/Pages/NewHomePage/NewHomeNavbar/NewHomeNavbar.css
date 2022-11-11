@@ -2,9 +2,10 @@
     height: 80px;
     z-index: 100000;
     position: fixed;
-    width: 80%;
+    width: 80% !important;
     position: absolute;
     top: 0;
+    /* border: 2px solid red; */
   }
   .navbar-fixed {
     background: rgb(51,128,242);
@@ -26,6 +27,7 @@
     text-align: center;
     margin-top: 2%;
     line-height: 15px;
+    /* border: 2px solid red; */
   }
   
   .fixed-menu-link {
@@ -110,7 +112,7 @@
     margin: 0 5px 0 0;
     width: 70px;
     text-align: center;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     color: white;
     margin-top: 0;
   }
@@ -203,6 +205,7 @@
     cursor: pointer;
     background-color: white !important;
     color: #3380f2 !important;
+    border: 2px solid white !important;
   }
   
   .login-register {

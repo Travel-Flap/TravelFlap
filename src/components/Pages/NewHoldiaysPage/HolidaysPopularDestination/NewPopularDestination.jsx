@@ -331,6 +331,6 @@ export const NewPopularDestination = () => {
                     </div>
                 </div>
             </div>
-        // </div>
+         </div>
     )
 }
