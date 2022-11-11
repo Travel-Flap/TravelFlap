@@ -115,7 +115,7 @@ export const FlightsNearYou = () => {
                     {/* <div className="experimentdivcontainer" style={{display:"flex",flexDirection:"row"}}/> */}
 
 
-                    <div class="card mb-3 newFlightsNearYououterdiv" >
+                    <div class="card mb-3 newFlightsNearYououterdiv wow" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
                                 <LazyLoadImage src="Images/ActivityAround/boat along amazon rain forest.jpg" class="img-fluid activityAroundimage" alt="flightsnear you image" />

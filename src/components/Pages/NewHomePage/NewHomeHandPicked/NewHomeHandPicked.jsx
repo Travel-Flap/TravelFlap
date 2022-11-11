@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
 import SliderWrapper from "./SlickSliderStyle";
-import {LazyLoadImage} from "react-lazy-load-image-component";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export const NewHomeHandPicked = () => {
     const [countryid, setCountryid] = useState('');
@@ -77,27 +77,27 @@ export const NewHomeHandPicked = () => {
                     </div> */}
 
 
-                
-                        <div id='newHomehandpickedDropContainer'>
-                            <select id="newHomeHandpickedCountryDrop" onChange={(e) => handlecounty(e)}
-                                style={{ width: "100%",appearance:"none" }}>
-                                <option value="">Country</option>
-                                {
-                                    countrydata.map((getcountry, index) => (
-                                        <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                    ))
-                                }
-                            </select>
-                            <div id='newHomehandpickedicondiv'>
-                            <FaAngleDown  size={"1em"} id="handpickedicon" />
-                            </div>
+
+                    <div id='newHomehandpickedDropContainer'>
+                        <select id="newHomeHandpickedCountryDrop" onChange={(e) => handlecounty(e)}
+                            style={{ width: "100%", appearance: "none" }}>
+                            <option value="">Country</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                        <div id='newHomehandpickedicondiv'>
+                            <FaAngleDown size={"1em"} id="handpickedicon" />
                         </div>
+                    </div>
 
 
 
                 </div>
 
-                <div className='datanewhomepage'>
+                <div className='datanewhomepage wow'>
 
                     <div className="handpickednewhomepagecardmaindiv">
                         <SliderWrapper>
@@ -175,7 +175,7 @@ export const NewHomeHandPicked = () => {
                                 <Link to="/romanticDestinations" className="handpickednewhomepagelink">
                                     <div className="card-wrapper handpickednewhomepagecardwrapper">
                                         <div className="handpickedcard">
-                                            
+
                                             <div className='handpickednewhomepagecard_img'>
 
                                                 <div className="card-body">
