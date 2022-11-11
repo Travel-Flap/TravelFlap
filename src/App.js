@@ -68,6 +68,7 @@ function App() {
     </Helmet>
     <NewHomeNav/>
     
+
     {/* <Hotel/> */}
     {/* <Holidays /> */}
       {/* <Navbar /> */}
@@ -128,8 +129,7 @@ function App() {
         <Route path="/rentals" element={ <NewRentalsPage/>} />
         <Route path="/offers" element={<NewOffers/>}   />
         
-        {/* <Route path="/populardestination" element={<InnerPopularDestination1/>}/> */}
-        {/* <Route path="/populardestination" element={<InnerPopularDestination2/>} /> */}
+        <Route path="/populardestination" element={<InnerPopularDestination2/>} />
 
         {/* <Route path="/accomodations" element={<InnerPopularDestinationAccomodations/>}/>
         <Route path="/inc&exc" element={<InnerPopularDestinationInclusiveExclusive/>} /> */}
@@ -138,6 +138,8 @@ function App() {
 
         {/* <Route path="/staycations" element={ <Staycations/>} /> */}
       </Routes>
+
+  
     </>
   );
 }

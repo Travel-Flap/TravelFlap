@@ -186,7 +186,7 @@ export const NewHomeNav = () => {
                     {isScrolled ?
                         <div className='navbar_fixed'>
                             <div>
-                                <Link to="/">
+                                <Link to="/home">
                                     <div className='logo1'>
                                         <img src="Images/TravelFlapLogo.jpg" alt="travelflap logo" />
                                     </div>
@@ -291,7 +291,7 @@ export const NewHomeNav = () => {
 
 
                             <div className='transparentNavbar'>
-                                <Link to="/">
+                                <Link to="/home">
                                     <div className='logo2'>
                                         <img src="Images/TravelFlapLogo.jpg" alt="travelflap logo" />
                                     </div>
