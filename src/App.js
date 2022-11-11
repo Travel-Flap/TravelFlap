@@ -40,6 +40,7 @@ import { InnerVisaPage1 } from "./components/Pages/SubPages/InnerVisapages/Inner
 
 import { DomesticHolidaySubpages } from "./components/Pages/NewHoldiaysPage/DomesticHolidaySubpage/DomesticHolidaySubpages";
 import { InternationHolidaySubpage } from "./components/Pages/NewHoldiaysPage/InternationHolidaySubpage/InternationHolidaySubpage";
+import { HandPickedWeekendDestinations } from "./components/Pages/SubPages/HandPickedWeekendDestinations/HandPickedWeekendDestinations";
 
 
 function App() {
@@ -111,6 +112,10 @@ function App() {
           path="/hillStations"
           element={<HandPickedHillStations />}
         />
+        
+        <Route
+          path="/weekend"
+          element={<HandPickedWeekendDestinations/>}/>
 
         <Route path="/domesticHolidays" element={<DomesticHolidaySubpages/> } />
         <Route path="/internationalHolidayssubpage" element={ <InternationHolidaySubpage/> } />
@@ -124,7 +129,7 @@ function App() {
         <Route path="/offers" element={<NewOffers/>}   />
         
         {/* <Route path="/populardestination" element={<InnerPopularDestination1/>}/> */}
-        <Route path="/populardestination" element={<InnerPopularDestination2/>} />
+        {/* <Route path="/populardestination" element={<InnerPopularDestination2/>} /> */}
 
         {/* <Route path="/accomodations" element={<InnerPopularDestinationAccomodations/>}/>
         <Route path="/inc&exc" element={<InnerPopularDestinationInclusiveExclusive/>} /> */}

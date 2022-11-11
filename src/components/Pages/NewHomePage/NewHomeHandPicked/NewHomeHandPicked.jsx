@@ -241,7 +241,7 @@ export const NewHomeHandPicked = () => {
                                 </div>
                                 </Link>
 
-                                <Link to="/hillStations" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
+                                <Link to="/weekend" className="handpickednewhomepagelink"><div className="card-wrapper handpickednewhomepagecardwrapper">
 
                                     <div className="handpickedcard">
                                         <div className='handpickednewhomepagecard_img'>

@@ -41,51 +41,6 @@
     font-size: 35px;
   }
   
-  /* .newHolidaysinnerPopularDestination2BestinCityDropContainer {
-    width: 12%;
-    margin-left: 55%;
-    margin-top: 0.1%;
-    display: flex;
-    flex-direction: row;
-    border-right: none;
-    height: 50px;
-    border: 2px solid green;
-  } */
-  /* .newHolidaysinnerPopularDestination2BestinCityDropContainer:hover .newinnerPopularDestination2BestinCityicondiv {
-    background-color: whitesmoke !important;
-    color: whitesmoke !important;
-    cursor: pointer;
-  } */
-  /* .newHolidaysinnerPopularDestination2BestinCityCountryDrop {
-    border: 3px solid white !important;
-    background-color: whitesmoke !important;
-    width: 85% !important;
-    height: 43px;
-    color: whitesmoke !important;
-    font-weight: 700 !important;
-    font-size: 14px !important;
-    cursor: pointer;
-    border-radius: 25px 0px 0px 25px !important;
-    border-right: none !important;
-    appearance: none !important;
-    border: 2px solid gold;
-    margin-top: 15%;
-  } */
-  /* .newHolidaysinnerPopularDestination2BestinCityDropContainer select {
-    border: 1px solid red !important;
-    background-image: none !important;
-    background-color: #3380f2 !important;
-    height: 48px;
-    margin-top: 13%;
-    color: white !important;
-  } */
-  
-  /* .newHolidaysinnerPopularDestination2BestinCityCountryDrop:hover {
-    background-color: white !important;
-    color: #3380f2 !important;
-    font-weight: 700;
-    border: 3px solid #3380f2 !important;
-  } */
   .newinnerPopularDestination2BestinCityicondiv {
     width: 16%;
     color: white;
@@ -111,33 +66,11 @@
     margin-top: 68%;
     /* margin-bottom: 105%; */
   }
-  /* .newHolidaysinnerPopularDestination2BestinCityDropContainer {
-      width: 20%;
-      margin-left: 56%;
-      margin-top: 0.1%;
-    }
-    
-    .newHolidaysinnerPopularDestination2BestinCityCountryDrop {
-      margin-top: 13% !important;
-      margin-left: 7%;
-      color: #3380f2 !important;
-      font-weight: 700;
-      cursor: pointer;
-      border-radius: 20px !important;
-    }
-    .newHolidaysinnerPopularDestination2BestinCityCountryDrop:hover {
-      background-color: #3380f2;
-      color: white !important;
-      font-weight: 700;
-    } */
   
   .newinnerPopularDestination2BestinCitymaindiv {
-    /* border: 1px solid red !important; */
-    /* background-color: whitesmoke !important; */
     width: 100%;
     height: 500px !important;
     opacity: 0.9;
-    /* background-image: url(/public/Images/NewHomeLayout/BackgroundImages/HotelServicesBackground.png); */
   }
   
   .slick-slide {
@@ -184,16 +117,6 @@
     width: 96%;
     /* border: none; */
   }
-  /* .newHolidaysinnerPopularDestination2BestinCityDropContainer {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: #3380f2 !important;
-    height: 80px;
-    margin: auto;
-    margin-top: 2%;
-    border: 1px solid black;
-  } */
   
   .activityaroundheading1 {
     /* border: 1px solid black; */
@@ -205,9 +128,6 @@
     color: white;
   }
   
-  /* .viewallhomehotelcardtext{
-      
-      } */
   .experimentheading2 {
     /* border: 1px solid blue; */
     width: 60%;
@@ -217,7 +137,6 @@
     font-size: 15px;
     display: flex;
     flex-direction: row;
-    /* padding: 0px 0px; */
   }
   .experimentheading {
     border-radius: 50px;
@@ -245,8 +164,6 @@
   .viewallactivityhotelcardbuttons {
     color: white;
     font-weight: 700;
-    /* text-decoration: underline; */
-    /* border: 1px solid red; */
     display: flex;
     margin: 6.5% 2% 0 5% !important;
     width: 55% !important;
@@ -303,12 +220,6 @@
     margin-left: 9% !important;
     width: 100% !important;
   }
-  /* 
-        .activityaroundtextcard:hover{
-          color: white;
-          background-color: #3380F2;
-        } */
-  
   .activityaroundtextcard:hover div {
     color: white;
   }

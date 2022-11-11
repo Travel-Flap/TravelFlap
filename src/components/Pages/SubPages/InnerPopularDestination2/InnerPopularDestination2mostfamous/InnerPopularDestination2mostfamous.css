@@ -21,7 +21,7 @@
 .innerPopularDestination2mostfamousImage{
     width: 94%;
     height: 440px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     object-fit: cover;
     background-size: cover;
 

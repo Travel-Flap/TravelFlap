@@ -17,6 +17,10 @@ export const HandPickedHillStationsDestinationSliderCards = () => {
        
             <div className='HandpickedHillStationsDestinationconatinerDiv'>
 
+            <div className='HandpickedRomanticDestinationPageHeading'>
+                <h3>Recommended For You</h3>
+            </div>
+
                 <div className='HandPickedHillStationsSliderConatiner'>
                     <Slider
                         arrows={false}

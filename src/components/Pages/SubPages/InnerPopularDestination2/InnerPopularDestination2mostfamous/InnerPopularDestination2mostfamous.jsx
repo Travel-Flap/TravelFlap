@@ -1,4 +1,5 @@
 import "./InnerPopularDestination2mostfamous.css";
+import {Test1} from "./innerpopulartestslider/Test1";
 
 export const InnerPopularDestination2mostfamous = () => {
     return (
@@ -9,7 +10,8 @@ export const InnerPopularDestination2mostfamous = () => {
                     The Most Famous in Egypt
                 </div>
                 <div className="innerPopularDestination2mostfamousImage">
-                    <img src="https://ychef.files.bbci.co.uk/live/624x351/p07zy3y6.jpg"/>
+                    {/* <img src="https://ychef.files.bbci.co.uk/live/624x351/p07zy3y6.jpg"/> */}
+                    {/* <Test1/> */}
                 </div>
             </div>
             <div className="innerPopularDestination2mostfamousDescription">

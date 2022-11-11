@@ -106,14 +106,14 @@ export const NewHomeNav = () => {
                     <FaPhoneAlt className='contactIcon' />  ContactUs
                 </div>
                 <div className='navbarOptions '>
-                    <GiPalmTree className='miceIcon' />  Mice
+                    <GiPalmTree className='miceIcon' />  Safe Stays
                 </div>
                 <div className='navbarOptions'>
                     <FaTags className='offersIcon' /> Offers
                 </div>
-                <div className='navbarOptions'>
+                {/* <div className='navbarOptions'>
                     <FaShip className='inspireIcon' /> Inspire
-                </div>
+                </div> */}
             </div>
         );
     }
