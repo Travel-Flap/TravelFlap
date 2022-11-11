@@ -1,6 +1,6 @@
-// import { StaycationFaq } from "../Faq/Faq";
-// import { InnerhandpickedFooter } from "../InnerhandpickedFooter/InnerhandpickedFooter";
-// import { VideoTextStaycation } from "../VideoText/VideoText";
+import { StaycationFaq } from "../Faq/Faq";
+import { InnerhandpickedFooter } from "../InnerhandpickedFooter/InnerhandpickedFooter";
+import { VideoTextStaycation } from "../VideoText/VideoText";
 import { InnerPopularDestination2Banner } from "./InnerPopularDestination2Banner/InnerPopularDestination2Banner";
 import { InnerPopularDestination2categories } from "./InnerPopularDestination2categories/InnerPopularDestination2categories";
 import { InnerPopularDestination2filter } from "./InnerPopularDestination2filter/InnerPopularDestination2filter";
@@ -14,15 +14,15 @@ export const InnerPopularDestination2 = () => {
         <>
            <InnerPopularDestination2Banner/>
 
-           {/* <InnerPopularDestination2filter/> */}
+           <InnerPopularDestination2filter/>
 
            <InnerPopularDestination2categories/>
 
            <InnerPopularDestination2scrollData/>
 
-           {/* <StaycationFaq/>
+           <StaycationFaq/>
            <VideoTextStaycation/>
-           <div style={{marginTop:"-3%"}}><InnerhandpickedFooter/> </div> */}
+           <div style={{marginTop:"-3%"}}><InnerhandpickedFooter/> </div>
         </>
        
     );

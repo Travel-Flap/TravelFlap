@@ -27,6 +27,8 @@
     margin-left: 4%;
     border-radius: 10px;
     background-color: white;
+    display: flex;
+    flex-direction: row;
 }
 .innerPopularDestination2filtersearchText{
     /* border: 2px solid red; */
@@ -46,4 +48,6 @@
     margin-top: 2%;
     border-radius: 10px;
     color: gray;
+    padding-left: 25px;
+    padding-top: 2px;
 }

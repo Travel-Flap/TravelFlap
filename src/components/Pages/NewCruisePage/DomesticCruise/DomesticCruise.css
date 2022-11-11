@@ -2,7 +2,7 @@
   /* border: 1px solid red; */
   width: 100%;
   margin: auto;
-  background-color: #3380f2;
+  /* background-color: #3380f2; */
   height: 520px;
 }
 
@@ -19,7 +19,7 @@
   margin-left: 1%;
   margin-bottom: 2%;
   width:65%;
-  color: white !important;
+  color: #3380F2 !important;
 }
 
 
@@ -430,7 +430,7 @@ border: none !important;
   flex-direction: row;
   border-right: none;
   height: 40px;
-  color: White;
+  color: #3380F2;
   text-decoration: underline;
   font-weight: 700;
   /* border: 2px solid green; */

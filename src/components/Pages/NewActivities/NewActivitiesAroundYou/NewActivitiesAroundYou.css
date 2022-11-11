@@ -1,7 +1,7 @@
 .newActivityAroundmaindiv{
     width: 100%;
     /* margin-top: 5%; */
-    background-color: #3380f2;
+    /* background-color: #3380f2; */
     height: 620px;
   }
   
@@ -19,11 +19,11 @@
   .newActivityAroundouterdiv:hover {
     width: 100%;
     padding: 5px;
-    box-shadow: 5px 10px 25px  #3380f2;
+    /* box-shadow: 5px 10px 25px  #3380f2; */
   }
   
   .newActivityAroundHeadingcontainer {
-    background-color: #3380f2;
+    /* background-color: #3380f2; */
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -38,7 +38,7 @@
     margin-top: 2%;
     margin-left: 5%;
     width:65%;
-    color: white;
+    color: #3380f2;
     /* color: #3380f2; */
   }
 /*   
@@ -93,7 +93,7 @@
     width: 90%;
     margin: auto;
     margin-top: 1.7%;
-    background-color: #3380f2;
+    /* background-color: #3380f2; */
   }
   .newActivityAroundCardtitle {
     color: #3380f2 !important;
@@ -111,7 +111,7 @@
   .newActivityAroundImagetextcontainer {
     width: 100%;
     height: 430px;
-    /* border: 2px solid red; */
+    border: 1px solid lightgray;
     /* border-radius: 0px 0px 10px 10px !important; */
   }
   

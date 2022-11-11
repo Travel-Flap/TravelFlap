@@ -174,7 +174,7 @@ export const NewHomeNav = () => {
 
     return (
         <>
-            <Link to="/home"><div className='travelflapmainlogo'>
+            <Link to="/"><div className='travelflapmainlogo'>
                 <img style={{ height: "50px", width: "150px" }} src="Images/TravelFlapLogo.jpg" alt="travelflap logo" />
                 <FaBars style={{ width: "30px", height: "30px" }} className='hamburgermenuicon' onClick={getMenu} />
             </div>
@@ -186,7 +186,7 @@ export const NewHomeNav = () => {
                     {isScrolled ?
                         <div className='navbar_fixed'>
                             <div>
-                                <Link to="/home">
+                                <Link to="/">
                                     <div className='logo1'>
                                         <img src="Images/TravelFlapLogo.jpg" alt="travelflap logo" />
                                     </div>
@@ -291,7 +291,7 @@ export const NewHomeNav = () => {
 
 
                             <div className='transparentNavbar'>
-                                <Link to="/home">
+                                <Link to="/">
                                     <div className='logo2'>
                                         <img src="Images/TravelFlapLogo.jpg" alt="travelflap logo" />
                                     </div>

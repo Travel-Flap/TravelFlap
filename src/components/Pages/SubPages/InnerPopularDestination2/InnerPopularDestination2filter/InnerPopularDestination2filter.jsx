@@ -14,7 +14,10 @@ export const InnerPopularDestination2filter = () => {
                     </div>
                 </div>
                 <div className='innerPopularDestination2filterBudgetDiv'>
-                    
+                    <div className='innerPopularDestination2filtersearchText'>Budget</div>
+                    <div className='innerPopularDestination2filtersearchBox'>
+                        Low to High
+                    </div>
                 </div>
             </div>
         </>

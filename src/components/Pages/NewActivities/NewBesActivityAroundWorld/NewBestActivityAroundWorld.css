@@ -1,7 +1,7 @@
 .newActivityAroundWorldmaindiv{
     width: 100%;
     height: 620px;
-    background-color: #3380f2;
+    /* background-color: #3380f2; */
   }
   
   .newWorldActivityouterdiv {
@@ -18,11 +18,11 @@
   .newWorldActivityouterdiv:hover {
     width: 100%;
     padding: 5px;
-    box-shadow: 5px 10px 25px  #3380f2;
+    /* box-shadow: 5px 10px 25px  #3380f2; */
   }
   
   .newActivityWorldHeadingcontainer {
-    background-color: #3380f2;
+    /* background-color: #3380f2; */
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -37,7 +37,7 @@
     margin-top: 2%;
     margin-left: 5%;
     width:65%;
-    color: white;
+    color: #3380f2;
     /* color: #3380f2; */
   }
 /*   
@@ -92,7 +92,7 @@
     width: 90%;
     margin: auto;
     margin-top: 1.7%;
-    background-color: #3380f2;
+    /* background-color: #3380f2; */
   }
   .newWorldActivityCardtitle {
     color: #3380f2 !important;
@@ -110,6 +110,7 @@
   .newWorldActivityImagetextcontainer {
     width: 100%;
     height: 430px;
+    border: 1px solid lightgray;
   }
   
   .newWorldActivityTextcard {
