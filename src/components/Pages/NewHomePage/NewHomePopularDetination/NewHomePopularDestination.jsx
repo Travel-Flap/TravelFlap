@@ -76,7 +76,7 @@ export const CenterMode = () => {
     ]
     return (
         <>
-            <div className="popularDestinationsheadingdiv">
+            <div className="popularDestinationsheadingdiv wow">
                 <p>Popular Destinations</p>
                 
                 <div id='popularDestinationsDropContainer'>
