@@ -15,17 +15,25 @@ import { NewHolidaysPageBanner } from './NewHolidaysPageBanner/NewHolidaysPageBa
 import { HolidaysThemeFilter } from './NewHolidaysThemeFilter/HolidaysThemeFilter';
 import { NewHomeStoriesSection } from "../../Pages/NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection";
 import { NewHolidaysCategory } from './NewHolidaysCategory/NewHolidaysCategory';
+import { Helmet } from 'react-helmet';
 
 export const NewHolidaysPage = () => {
   return (
     <div>
       {/* <NewHomeNav/> */}
+
+      <Helmet>
+        <title>Holidays Page</title>
+        <meta name='description' content='Want to spend your holiday time in good and budget friendly stay.
+                Take a looks at TravelFlap for your stay co-ordinatior' />
+      </Helmet>
+
       <NewHolidaysPageBanner />
 
       <NewHomeExclusiveDeals />
 
-      <NewHolidaysCategory/>
-      
+      <NewHolidaysCategory />
+
       {/* <HolidaysThemeFilter /> */}
 
       <div className=''>
@@ -35,8 +43,8 @@ export const NewHolidaysPage = () => {
       <div className=''>
         <NewHolidaysBestBudget />
       </div>
-      
-      
+
+
 
 
       <div className=''>
@@ -51,7 +59,7 @@ export const NewHolidaysPage = () => {
       <NewHomeAppDownload />
 
       <Plan />
-      <NewHomeStoriesSection/>
+      <NewHomeStoriesSection />
       <FooterLinks />
 
       <NewHomeFooter />

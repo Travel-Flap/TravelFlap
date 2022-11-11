@@ -11,47 +11,55 @@ import NewHomeOurPartners from '../NewHomePage/NewHomeOurPartners/NewHomeOurPart
 import { NewHomeStoriesSection } from '../NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection';
 import { HowRentalsWork } from './HowRentalsWork/HowRentalsWork';
 import { RentalsFrequentlyAsked } from './NewFrequentlyAsked/FrequentlyAsked';
-import  PopularCarHireApplications  from './PopularCarHireApplications/PopularCarHireApplications';
+import PopularCarHireApplications from './PopularCarHireApplications/PopularCarHireApplications';
 import { NewPopularCarHireDestination } from './PopularCarHireDestinations/PopularCarHireDestination';
 import { NewRentalBanner } from './RentalsBanner/NewRantalsBanner';
 
+import { Helmet } from 'react-helmet';
 
 export const NewRentalsPage = () => {
   return (
     <div>
-        <NewRentalBanner/>
 
-        <NewHomeExclusiveDeals/>
+      <Helmet>
+        <title>Rentals Page</title>
+        <meta name='description' content='Want to travel in holiday time in good and budget friendly road trips.
+                Take a looks at TravelFlap for your car rentals co-ordinatior.' />
+      </Helmet>
 
-        <HowRentalsWork/>
+      <NewRentalBanner />
 
-        <NewPopularCarHireDestination/>
+      <NewHomeExclusiveDeals />
 
-      
-        <PopularCarHireApplications/>
+      <HowRentalsWork />
 
-        <NewHomeEasyVisaDestination/>
-
-        {/* <RentalsFrequentlyAsked/> */}
-
-        {/* <NewHomeAwards/> */}
-        
-        <NewHomeStoriesSection/>
+      <NewPopularCarHireDestination />
 
 
+      <PopularCarHireApplications />
 
-        {/* <NewHomeOurPartners/> */}
+      <NewHomeEasyVisaDestination />
 
-        <NewHomeAppDownload/>
+      {/* <RentalsFrequentlyAsked/> */}
 
-        <Plan/>
+      {/* <NewHomeAwards/> */}
 
-        <FooterLinks/>
+      <NewHomeStoriesSection />
 
 
-        <NewHomeFooter/>
 
-        <NewHomeBottomBar/>
+      {/* <NewHomeOurPartners/> */}
+
+      <NewHomeAppDownload />
+
+      <Plan />
+
+      <FooterLinks />
+
+
+      <NewHomeFooter />
+
+      <NewHomeBottomBar />
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { ControlledCarousel } from "../../TopCorousel/Corousel";
 import { DataCards } from "../../Cards/Cards";
 import { Middleslider } from "../../MiddleCorousel/Middleslider";

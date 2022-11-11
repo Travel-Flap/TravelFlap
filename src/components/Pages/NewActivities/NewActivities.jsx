@@ -16,39 +16,47 @@ import NewTopCityActivities from './NewTopCitiesActivity/NewTopCityActivity';
 
 import { NewActivitiesAroundWorld } from "./NewBesActivityAroundWorld/NewBestActivityAroundWorld";
 
+import { Helmet } from 'react-helmet';
+
 export const NewActivities = () => {
   return (
     <div>
 
-        <NewActivityBanner/>
-        {/* <NewTrendingActivities/> */}
+      <Helmet>
+        <title>Activity Page</title>
+        <meta name='description' content='Want to some activities in good and budget friendly manner.
+                Take a looks at TravelFlap for your next activity buddy.' />
+      </Helmet>
 
-      <NewTrendingActivities/>
-        <NewActivitiesAround/>
+      <NewActivityBanner />
+      {/* <NewTrendingActivities/> */}
 
-        <NewTopCityActivities/>
+      <NewTrendingActivities />
+      <NewActivitiesAround />
 
-        {/* <NewActivitiesAroundWorld/> */}
-        <NewActivitiesAroundWorld/>
+      <NewTopCityActivities />
 
-        <NewAdventureActivities/>
+      {/* <NewActivitiesAroundWorld/> */}
+      <NewActivitiesAroundWorld />
 
-        <NewNatureLove/>
+      <NewAdventureActivities />
 
-        {/* <NewHomeAwards/> */}
+      <NewNatureLove />
 
-        <NewHomeStoriesSection/>
+      {/* <NewHomeAwards/> */}
 
-        {/* <NewHomeOurPartners/> */}
+      <NewHomeStoriesSection />
 
-        <NewHomeAppDownload/>
+      {/* <NewHomeOurPartners/> */}
 
-        <Plan/>
+      <NewHomeAppDownload />
 
-        <FooterLinks/>
+      <Plan />
 
-        <NewHomeFooter/>
-        <NewHomeBottomBar/>
+      <FooterLinks />
+
+      <NewHomeFooter />
+      <NewHomeBottomBar />
     </div>
   )
 }

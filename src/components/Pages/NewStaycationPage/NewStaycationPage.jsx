@@ -19,49 +19,58 @@ import { BudgetFriendlyStaycations } from "./BudgetFriendlyStaycation/Budgetfrie
 import { StaycationHappyFamily } from "./StaycationHappyFamily/StaycationHappyFamily";
 import { PopularStaycation } from "./PopularStaycation/PopularStaycation";
 import { DiscoverExtendedStay } from "./DiscoverExtendedStay/DiscoverExtendedStay";
+
 // import { CountrysideStaycation } from "./CountrysideStaycation/CountrysideStaycation";
 
+import { Helmet } from "react-helmet";
 
 export const NewStaycationPage = () => {
-   
+
     return (
         <>
-           <ExperimentBanner/>
 
-            <Staycationsnavbar/>
+            <Helmet>
+                <title>Staycations Page</title>
+                <meta name='description' content='Want to spend your holiday time in good and budget friendly stay.
+                Take a looks at TravelFlap for your stay co-ordinatior' />
+            </Helmet>
+
+            <ExperimentBanner />
+
+            <Staycationsnavbar />
             {/* <NewStaycationNavbar/> */}
             {/* <NewStaycationpicsSlider/> */}
 
-            <NewStaycationStaticBanners/>
-            
-            <DiscoverExtendedStay/>
+            <NewStaycationStaticBanners />
 
-            <FavouriteStaycationSpot/>
+            <DiscoverExtendedStay />
 
-            <BudgetFriendlyStaycations/>
-            
-            <PopularStaycation/>
+            <FavouriteStaycationSpot />
+
+            <BudgetFriendlyStaycations />
+
+            <PopularStaycation />
 
             {/* <CountrysideStaycation/> */}
-            
+
             {/* <StaycationHappyFamily/> */}
 
             {/* <NewStaycationMostPicked/> */}
 
-           {/* <div className='carousel'>
+            {/* <div className='carousel'>
                 <NewHomeAwards/>
             </div> */}
 
-            <NewHomeStoriesSection/> 
+            <NewHomeStoriesSection />
 
-            
+
             {/* <NewHomeOurPartners/> */}
-            <NewHomeAppDownload/>
+            <NewHomeAppDownload />
 
-            <Plan/>
-            <FooterLinks/>
-            <NewHomeFooter/>
-            <NewHomeBottomBar/>
+            <Plan />
+            <FooterLinks />
+            <NewHomeFooter />
+            <NewHomeBottomBar />
         </>
     );
 };

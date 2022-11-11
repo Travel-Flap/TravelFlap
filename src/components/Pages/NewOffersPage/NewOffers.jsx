@@ -12,32 +12,41 @@ import { NewMultiDropdown } from './NewMultiFilter/NewMultiFilter';
 import { NewOffersPageBanner } from './NewOffersBanner/NewOffersPageBanner'
 import { NewUserOffers } from './NewUserOffers/NewUserOffers';
 
+import { Helmet } from 'react-helmet';
+
 export const NewOffers = () => {
   return (
     <div>
-        <NewOffersPageBanner/>
 
-        <NewMultiDropdown/>
+      <Helmet>
+        <title>Offers Page</title>
+        <meta name='description' content='Want to spend your holiday time in good and budget friendly stay.
+                Take a looks at TravelFlap for your stay co-ordinatior' />
+      </Helmet>
 
-        <NewHotelCards/>
+      <NewOffersPageBanner />
 
-        <NewUserOffers/>
+      <NewMultiDropdown />
 
-        {/* <NewHomeAwards/> */}
+      <NewHotelCards />
 
-        <NewHomeStoriesSection/>    
+      <NewUserOffers />
 
-        {/* <NewHomeOurPartners/> */}
+      {/* <NewHomeAwards/> */}
 
-        <NewHomeAppDownload/>
+      <NewHomeStoriesSection />
 
-        <Plan/>
+      {/* <NewHomeOurPartners/> */}
 
-        <FooterLinks/>
+      <NewHomeAppDownload />
 
-        <NewHomeFooter/>
+      <Plan />
 
-        <NewHomeBottomBar/>
+      <FooterLinks />
+
+      <NewHomeFooter />
+
+      <NewHomeBottomBar />
     </div>
   )
 }
