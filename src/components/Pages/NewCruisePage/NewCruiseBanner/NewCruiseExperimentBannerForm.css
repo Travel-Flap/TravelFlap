@@ -381,7 +381,11 @@
   margin-left: 3%;
   padding-left: 22%;
   padding-top: 9px;
-  font-weight: 700;
+}
+.newcruise_SearchButton button:hover {
+  border: 2px solid #3380f2;
+  background-color: white;
+  color: #3380f2;
 }
 
 /* This is prior css code for the homepage */

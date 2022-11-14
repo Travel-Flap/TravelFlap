@@ -423,25 +423,29 @@ position: relative;
 
 
 .newTrendingCruisedealsbutton {
-  /* width: 10%; */
+  width: 9%;
+  height: 35px !important;
   margin-left: 20%;
   margin-top: 3%;
   display: flex;
-  padding-top: 5px;
-  /* border: 2px solid red; */
-  border-radius:8px;
+  padding-top: 3px;
+  padding-left: 8px;
+  border: 2px solid #3380F2;
+  border-radius: 8px;
   flex-direction: row;
   border-right: none;
   height: 40px;
   color: #3380F2;
-  text-decoration: underline;
   font-weight: 700;
-  /* border: 2px solid green; */
+  border: 2px solid #3380F2;
+  border-radius: 25px;
 }
 .newTrendingCruisedealsbutton:hover{
-  background-color: white;
-  color: #3380F2;
+  background-color:#3380F2;
+  color: white;
 }
+
+
 
 /* -----------------------------zoomming effect ----------------------------*/
 

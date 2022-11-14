@@ -3,58 +3,46 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 import { useRef } from "react";
-import { useEffect } from "react";
+import { useEffect,useState } from "react";
 import "./BudgetFriendlyStaycation.css";
+import SliderWrapper from "./SlickSliderStyle";
 // import { ButtonBase } from "@material-ui/core";
 import { Button } from "react-bootstrap"
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 
 export const BudgetFriendlyStaycations = () => {
+    const [slideindex, setSlideindex] = useState(0);
     const sliderRef = useRef(null);
     useEffect(() => {
         console.log(sliderRef);
     }, []);
     return (
-        <div className="newBudgetfriendlymaindiv">
+        <div className="newBudgetfriendlyStaycationmaindiv">
             {/* <h1>Ipl</h1> */}
-            <div className="newBudgetFriendlyHeadingcontainer" >
-                <h2 className="newBudgetFriendlyHeading1">Budget Friendly Staycations</h2>
-                {/* <div className="internationalheading2">
-                    <div className="internationalheading">Asia</div>
-                    <div className="internationalheading">Africa</div>
-                    <div className="internationalheading">America</div>
-                    <div className="internationalheading">Antarctica</div>
-                    <div className="internationalheading">Australia</div>
-                    <div className="internationalheading">Europe</div>
-                </div> */}
-
-                {/* <div className="newviewallActivityAroundbuttons" >
-                    <p className="newviewallActivityAroundtext">view deals</p>
-                    <div className="newActivityAroundHeadingbuttons">
-
-                        <div style={{ display: "flex" }}>
-                            <FaAngleLeft size={"2.5em"}
-                                onClick={() => sliderRef.current.slickPrev()}
-                            />
-                            <FaAngleRight size={"2.5em"}
-                                onClick={() => sliderRef.current.slickNext()}
-                            />
-                        </div>
-                    </div>
-
-                </div> */}
+            <div className="newBudgetFriendlyStaycationHeadingcontainer" >
+                <h2 className="newBudgetFriendlyStaycationHeading1">Budget Friendly Staycations</h2>
             </div>
 
             <div className="newBudgetFriendlySliderContainer">
+              <SliderWrapper>
                 <Slider
                     arrows={false}
-                    // autoplay={true}
+                    autoplay={true}
                     speed={2000}
                     autoplaySpeed={2000}
+                    dots={true}
                     dotsclassName="slick-dots line-indicator"
                     ref={sliderRef}
                     slidesToShow={4}
                     slidesToScroll={2}
+                    appendDots={dots => <ul>{dots}</ul>}
+                    customPaging={i => (
+                        <div className="ft-slick__dots--custom">
+                            <div className="loading" />
+                        </div>
+                    )}
+                    beforeChange={(current, next) => setSlideindex(next)}
+                   
                     responsive={[
                         {
                             breakpoint: 1024,
@@ -96,12 +84,13 @@ export const BudgetFriendlyStaycations = () => {
                             }
                         }
                     ]}
-                    customPaging={(i) => (
+                    customPagingg={(i) => (
                         <div
                             style={{
                                 width: "100%",
                                 top: "-10px",
                                 opacity: 0,
+                                border:"2px solid red",
                             }}
                         >
                             {i}
@@ -248,6 +237,7 @@ export const BudgetFriendlyStaycations = () => {
 
 
                 </Slider>
+              </SliderWrapper>
             </div>
         </div>
     );

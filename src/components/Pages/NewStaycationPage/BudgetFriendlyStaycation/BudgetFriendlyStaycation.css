@@ -1,8 +1,9 @@
-.newBudgetfriendlymaindiv{
+.newBudgetfriendlyStaycationmaindiv{
     width: 100%;
+    /* border: 2px solid red; */
     /* margin-top: 5%; */
     /* background-color: #3380f2; */
-    height: 490px;
+    height: 500px;
   }
   
   .newBudgetFriendlyOuterdiv {
@@ -26,20 +27,21 @@
     /* box-shadow: 5px 10px 25px  #3380f2; */
   }
   
-  .newBudgetFriendlyHeadingcontainer {
+  .newBudgetFriendlyStaycationHeadingcontainer {
     /* background-color: #3380f2; */
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 80px;
+    height: 50px;
     /* margin: auto; */
-    margin-top: 3%;
+    margin-top: 0%;
+    /* border: 2px solid #3380f2; */
   }
   
-  .newBudgetFriendlyHeading1 {
+  .newBudgetFriendlyStaycationHeading1 {
     font-size: 30px;
     font-weight: 700;
-    margin-top: 2%;
+    /* margin-top: 2%; */
     margin-left: 5%;
     width:65%;
     color: #393939;
@@ -273,10 +275,10 @@
     .newviewallActivityAroundbuttons {
       display: none;
     }
-    .newBudgetFriendlyHeading1 {
+    .newBudgetFriendlyStaycationHeading1 {
       display: none;
     }
-    .newBudgetFriendlyHeadingcontainer {
+    .newBudgetFriendlyStaycationHeadingcontainer {
       flex-direction: column;
     }
     .internationalheading2 {
@@ -326,14 +328,14 @@
     .newActivityAroundHeadingbuttons {
       display: none;
     }
-    .newBudgetFriendlyHeading1 {
+    .newBudgetFriendlyStaycationHeading1 {
       display: inline-block;
       vertical-align: top;
       width: 40%;
       font-size: 16px;
       margin-left: 3%;
     }
-    .newBudgetFriendlyHeadingcontainer {
+    .newBudgetFriendlyStaycationHeadingcontainer {
       flex-direction: column;
     }
     .newBudgetFriendlyImagetextcontainer img {
