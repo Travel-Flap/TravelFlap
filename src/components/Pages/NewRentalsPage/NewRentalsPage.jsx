@@ -36,30 +36,21 @@ export const NewRentalsPage = () => {
       <NewPopularCarHireDestination />
 
 
-      <PopularCarHireApplications />
+      {/* <PopularCarHireApplications /> */}
 
-      <NewHomeEasyVisaDestination />
+      {/* <NewHomeEasyVisaDestination /> */}
 
       {/* <RentalsFrequentlyAsked/> */}
 
       {/* <NewHomeAwards/> */}
 
-      <NewHomeStoriesSection />
-
-
-
-      {/* <NewHomeOurPartners/> */}
-
-      <NewHomeAppDownload />
-
-      <Plan />
-
-      <FooterLinks />
-
-
-      <NewHomeFooter />
-
-      <NewHomeBottomBar />
+        <NewHomeAppDownload />
+        <Plan/>
+        <NewHomeStoriesSection/>
+        
+        <FooterLinks/>
+        <NewHomeFooter/>
+        <NewHomeBottomBar/>
     </div>
   )
 }

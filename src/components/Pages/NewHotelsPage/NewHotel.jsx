@@ -54,13 +54,15 @@ export const NewHotel = () => {
             {/* <div className='hotelawardsdiv'>
                 <NewHomeAwards />
             </div> */}
-
-            <NewHomeStoriesSection />
-
-            <Plan />
-            <FooterLinks />
-            <NewHomeFooter />
-            <NewHomeBottomBar />
+            <Plan/>
+        <NewHomeStoriesSection/>
+        
+        <FooterLinks/>
+        
+        <NewHomeFooter/>
+        <NewHomeBottomBar/>
+            
+            
         </div>
     )
 }

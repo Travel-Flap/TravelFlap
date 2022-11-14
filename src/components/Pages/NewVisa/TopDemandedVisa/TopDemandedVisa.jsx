@@ -99,7 +99,7 @@ export const TopDemandedVisa = () => {
         <SliderWrapper>
         <Slider
           arrows={false}
-          autoplay={true}
+          // autoplay={true}
           speed={2000}
           autoplaySpeed={2000}
           dotsclassName="slick-dots line-indicator"
@@ -176,11 +176,11 @@ export const TopDemandedVisa = () => {
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
                    <h2 style={{marginTop:"-25%"}}>India 
-                        <span>
+                        {/* <span> */}
                         <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
                         <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                        </span>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
                         {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                     </h2>
               </div>
@@ -194,11 +194,11 @@ export const TopDemandedVisa = () => {
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
               <h2 style={{marginTop:"-25%"}}>Singapore 
-                        <span>
+                                               {/* <span> */}
                         <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
                         <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                        </span>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
                         {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                     </h2>
               </div>
@@ -212,11 +212,11 @@ export const TopDemandedVisa = () => {
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
               <h2 style={{marginTop:"-25%"}}>South Africa 
-                        <span>
+                                               {/* <span> */}
                         <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
                         <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                        </span>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
                         {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                     </h2>
               </div>
@@ -230,11 +230,11 @@ export const TopDemandedVisa = () => {
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
               <h2 style={{marginTop:"-25%"}}>Turkey 
-                        <span>
+                                               {/* <span> */}
                         <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
                         <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                        </span>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
                         {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                     </h2>
               </div>
@@ -248,11 +248,11 @@ export const TopDemandedVisa = () => {
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
               <h2 style={{marginTop:"-25%"}}>UAE 
-                        <span>
+                                               {/* <span> */}
                         <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
                         <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                        </span>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
                         {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                     </h2>
               </div>
@@ -266,11 +266,11 @@ export const TopDemandedVisa = () => {
               </div>
               <div className="newTopDemandedVisadestinationsdetails">
               <h2 style={{marginTop:"-25%"}}>United States 
-                        <span>
+                                               {/* <span> */}
                         <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
                         <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                        </span>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
                         {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                     </h2>
               </div>

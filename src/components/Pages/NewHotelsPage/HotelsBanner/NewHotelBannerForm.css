@@ -9,9 +9,9 @@
   width: 64%;
   /* border: 3px solid brown !important; */
   color: #3380f2 !important;
-  height: 245px;
+  /* height: 265px !important; */
   /* opacity: 0.9; */
-  left: 18%;
+  left: 18.5%;
   border-radius: 6px;
   position: absolute !important;
   z-index: 10;
@@ -856,6 +856,11 @@
   font-size: 15px;
 }
 
+.newHotelCategory{
+  /* border: 2px solid red; */
+  padding-bottom: 15px;
+}
+
 @media screen and (min-width: 560px) and (max-width: 950px) {
   .carouselnewHotelBannermenu {
     display: none;
@@ -939,7 +944,7 @@
   .newHotelInputmaindiv {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
   }
   .newHotelInputContainer {

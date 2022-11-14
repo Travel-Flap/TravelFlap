@@ -12,6 +12,8 @@ import NewHomeAwards from "../NewHomePage/NewHomeAwards/NewHomeAwards";
 import NewHomeOurPartners from "../NewHomePage/NewHomeOurPartners/NewHomeOurPartners";
 
 import { Helmet } from 'react-helmet';
+import { Plan } from '../../NextHolidaysPlan/Plan';
+import { FooterLinks } from '../../FooterLinks/FooterLinks';
 
 
 export const NewCruisePage = () => {
@@ -38,17 +40,13 @@ export const NewCruisePage = () => {
 
             {/* <NewHomeAwards /> */}
 
-            <NewHomeStoriesSection />
-
-            {/* <NewHomeOurPartners /> */}
-
-
             <NewHomeAppDownload />
-
-            <NewHomeFooter />
-
-            <NewHomeBottomBar />
-
+        <Plan/>
+        <NewHomeStoriesSection/>
+        
+        <FooterLinks/>
+        <NewHomeFooter/>
+        <NewHomeBottomBar/>
         </div>
     )
 }

@@ -61,16 +61,14 @@ export const NewStaycationPage = () => {
                 <NewHomeAwards/>
             </div> */}
 
-            <NewHomeStoriesSection />
-
-
-            {/* <NewHomeOurPartners/> */}
-            <NewHomeAppDownload />
-
-            <Plan />
-            <FooterLinks />
-            <NewHomeFooter />
-            <NewHomeBottomBar />
+        
+        <NewHomeAppDownload />
+        <Plan/>
+        <NewHomeStoriesSection/>
+        
+        <FooterLinks/>
+        <NewHomeFooter/>
+        <NewHomeBottomBar/>
         </>
     );
 };

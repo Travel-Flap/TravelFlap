@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import "./NewHomeExclusiveDeals.css";
 import backsideImage from "./backsideImage.jpeg";
-import frontsideImage from "./frontsideImage.jpeg";
+import dealspics from "./dealspics.png";
 import { Button } from "react-bootstrap";
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import countrydata from '../../../../CountryData.json';
@@ -70,10 +70,10 @@ export const NewHomeExclusiveDeals = () => {
                     </div>
                 </div>
 
-                <div className="exclusivedealsconatinerdiv" >
+                <div className="exclusivedealsconatinerdiv">
                     <div className="exclusivedealsimageheading">
                         <LazyLoadImage className="exclusivedealsimagebackside" src={backsideImage} />
-                        <LazyLoadImage className="exclusivedealsimagefrontside" src={frontsideImage} />
+                        <LazyLoadImage className="exclusivedealsimagefrontside" src={dealspics} />
                         <div className="exclusivedealsheadings">
                             <p className="exclusiveheadingsboldheadings">Exclusive <br /> Deals</p>
                             <p>Most Visited and Used</p>

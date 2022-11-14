@@ -496,3 +496,7 @@ img {
   border-radius: 100%;
   margin-top: 47%;
 }
+#newHomehandpickedDropContainer:hover{
+  background-color: white;
+  color: #3380f2;
+}

@@ -31,22 +31,15 @@ export const NewVisa = () => {
       
       {/* <NewOurPackage/> */}
 
-
+      
       <NewProceedApplication/>
-
+      <NewHomeAppDownload />
+      <Plan/>
       <NewHomeStoriesSection/>
-
-      {/* <NewHomeAwards/> */}
-
-      <NewHomeAppDownload/>
-
-      {/* <Plan/> */}
-
+        
       <FooterLinks/>
-
-      <NewHomeFooter/>
-
-      <NewHomeBottomBar/>
+        <NewHomeFooter/>
+        <NewHomeBottomBar/>
     </div>
   )
 }

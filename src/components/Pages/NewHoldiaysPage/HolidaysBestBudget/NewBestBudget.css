@@ -361,7 +361,7 @@
   background: rgb(51, 128, 242) !important;
   color: white !important;
   transition: 700ms;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
 .buttons:hover {
   /* background: white !important; */
@@ -588,6 +588,7 @@
   width: 90%;
   margin: auto;
   margin-top: 2%;
+  height: auto;
   /* background-color: #3380f2; */
 }
 
@@ -869,7 +870,7 @@
   /* border: 2px solid red; */
   /* border: 2px solid lightgray; */
   width: 18.5%;
-  height: 345px;
+  height: 340px;
   position: relative;
   background-color: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
@@ -1093,7 +1094,7 @@
 
 
 #newHolidaysBestBudgetDropContainer {
-  width: 9% !important;
+  width: 9.5% !important;
   margin-left: 53%;
   margin-top: 2.1%;
   display: flex;

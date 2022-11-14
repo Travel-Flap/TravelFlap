@@ -169,6 +169,27 @@ export const NewFlightBannerForm = () => {
                     </div>
                 </div>
 
+                {/* <div className='newFlight_classoptions'>
+                   <div className='newFlight_chooseClass1'>
+                    <select>
+                    <option value>Choose Class</option>
+                    <option value="1">Economy</option>
+                    <option value="2">Business</option>
+                    <option value="3">Premium</option>
+                    <option value="3">First Class</option>  
+                    </select> 
+                   </div>  
+
+                    <div className='newFlight_chooseClass2'>
+                    <select>
+                    <option value>Choose Class</option>
+                    <option value="1">Economy</option>
+                    <option value="2">Business</option>
+                    <option value="3">Premium</option>
+                    <option value="3">First Class</option>  
+                    </select> 
+                   </div>    
+                </div> */}
             </div>
         </>
     )

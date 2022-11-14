@@ -37,6 +37,7 @@ export const NewFlight = () => {
 
         <FlightsNearYou/>
 
+        {/* <CheapFlights/> */}
         {/* <div className='carousel'>
             <NewFlightsNearYou/>
         </div> */}
@@ -55,7 +56,7 @@ export const NewFlight = () => {
             <NewHomeTopCitites/>
         </div> */}
 
-        {/* <CheapFlights/> */}
+        
         
         {/* <NewHomeAwards/> */}
 

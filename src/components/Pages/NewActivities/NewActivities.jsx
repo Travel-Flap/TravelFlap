@@ -47,11 +47,12 @@ export const NewActivities = () => {
 
       <NewHomeStoriesSection />
 
+      <Plan />
       {/* <NewHomeOurPartners/> */}
 
       <NewHomeAppDownload />
 
-      <Plan />
+      
 
       <FooterLinks />
 

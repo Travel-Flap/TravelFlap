@@ -310,35 +310,7 @@ export const NewHolidaysBestBudget = () => {
                             <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
                         </div>
                     </div>
-                    <div className="cardtextBestBudget_maindiv">
-                        {/* <div className="reviewratingBestBudgetsection">
-                            <th>Exeptional
-                                <br />
-                                <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                            </th>
-                            <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
-                        </div> */}
-                        <img src="Images/NewHomeLayout/BestSelling/Santuario de la virgen de los remedios, san pedro cholula, mexico.jpg" alt="" />
-                        <div className="cardBestBudget_title">Mexico
-                            <br />
-                            {/* <span className="BestBudget_rating">
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                                <BsFillStarFill className="staricon" />
-                            </span> */}
-                        </div>
-
-                        <div className="newBestBudgetratesdiv">
-                            <p>Santuario de la virgen de los remedios, san pedro cholula.</p>
-                        </div>
-                        <div className="hoteldicsountprice">
-                            <span className="hoteldiscountpercent">Book Now</span>
-                            {/* <span className="hotelPricebeforediscount">&#x24;19,662</span>
-                            <span className="hotel_Priceafterdiscount">&#x24;11,611</span> */}
-                        </div>
-                    </div>
+                    
                     <div className="cardtextBestBudget_maindiv">
                         {/* <div className="reviewratingBestBudgetsection">
                             <th>Exeptional

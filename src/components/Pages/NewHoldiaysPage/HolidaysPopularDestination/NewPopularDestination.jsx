@@ -102,7 +102,7 @@ export const NewPopularDestination = () => {
                             <h2>Top Cities To Explore</h2>
 
                         <div id='HolidaysPopularDestinationDropContainer'>
-                            <select id="HolidaysPopularDestinationCountryDrop" onChange={(e) => handlecounty(e)}
+                            <select id="HolidaysPopularDestinationCountrydrop" onChange={(e) => handlecounty(e)}
                                 style={{ width: "100%",appearance:"none" }}>
                                 <option value="">Country</option>
                                 {
@@ -139,12 +139,12 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/abudhabhi.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                <h2>Abu Dhabi <span className="newhomeEasyVisajob-title">
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>4 Nights / 5 Days</p>
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                                    <p style={{ marginTop: "-6%", fontSize: "13px", fontWeight: "100" }}>Starts @ <h4 style={{ fontWeight: "700", fontSize: "22px" }}>AED 3000</h4> </p>
-                                                </span>
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                <h2>Abu Dhabi                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                                 </h2>
                                             </div>
                                         </div>
@@ -161,12 +161,12 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/africa1.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                <h2>Epupa Falls <span className="newhomeEasyVisajob-title">
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>4 Nights / 5 Days</p>
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                                    <p style={{ marginTop: "-6%", fontSize: "13px", fontWeight: "100" }}>Starts @ <h4 style={{ fontWeight: "700", fontSize: "22px" }}>AED 3000</h4> </p>
-                                                </span>
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                <h2>Epupa Falls                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                                 </h2>
                                             </div>
                                         </div>
@@ -182,12 +182,12 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/america.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                <h2>Las Vegas <span className="newhomeEasyVisajob-title">
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>4 Nights / 5 Days</p>
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                                    <p style={{ marginTop: "-6%", fontSize: "13px", fontWeight: "100" }}>Starts @ <h4 style={{ fontWeight: "700", fontSize: "22px" }}>AED 3000</h4> </p>
-                                                </span>
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                <h2>Las Vegas                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                                 </h2>
                                             </div>
                                         </div>
@@ -203,12 +203,12 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/australia.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                <h2>Sydney <span className="newhomeEasyVisajob-title">
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>4 Nights / 5 Days</p>
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                                    <p style={{ marginTop: "-6%", fontSize: "13px", fontWeight: "100" }}>Starts @ <h4 style={{ fontWeight: "700", fontSize: "22px" }}>AED 3000</h4> </p>
-                                                </span>
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                <h2>Sydney                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                                 </h2>
                                             </div>
                                         </div>
@@ -224,12 +224,12 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/canada.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                <h2>Toronto <span className="newhomeEasyVisajob-title">
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>4 Nights / 5 Days</p>
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                                    <p style={{ marginTop: "-6%", fontSize: "13px", fontWeight: "100" }}>Starts @ <h4 style={{ fontWeight: "700", fontSize: "22px" }}>AED 3000</h4> </p>
-                                                </span>
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                <h2>Toronto                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                                 </h2>
                                             </div>
                                         </div>
@@ -245,12 +245,12 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/landon.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                <h2>London <span className="newhomeEasyVisajob-title">
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>4 Nights / 5 Days</p>
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                                    <p style={{ marginTop: "-6%", fontSize: "13px", fontWeight: "100" }}>Starts @ <h4 style={{ fontWeight: "700", fontSize: "22px" }}>AED 3000</h4> </p>
-                                                </span>
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                <h2>London                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                                 </h2>
                                             </div>
                                         </div>
@@ -266,12 +266,12 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/denmark.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                <h2>Aarhus <span className="newhomeEasyVisajob-title">
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>4 Nights / 5 Days</p>
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                                    <p style={{ marginTop: "-6%", fontSize: "13px", fontWeight: "100" }}>Starts @ <h4 style={{ fontWeight: "700", fontSize: "22px" }}>AED 3000</h4> </p>
-                                                </span>
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                <h2>Aarhus                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                                 </h2>
                                             </div>
                                         </div>
@@ -288,12 +288,12 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/zambiaafrica.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                <h2>Zambia <span className="newhomeEasyVisajob-title">
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>4 Nights / 5 Days</p>
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                                    <p style={{ marginTop: "-6%", fontSize: "13px", fontWeight: "100" }}>Starts @ <h4 style={{ fontWeight: "700", fontSize: "22px" }}>AED 3000</h4> </p>
-                                                </span>
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                <h2>Zambia                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                                 </h2>
                                             </div>
                                         </div>
@@ -310,12 +310,12 @@ export const NewPopularDestination = () => {
                                                 <img src="Images/TopCities/swedan.jpg" />
                                             </div>
                                             <div className="newPopularDestinationsdetails">
-                                                <h2>Stockholm <span className="newhomeEasyVisajob-title">
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>4 Nights / 5 Days</p>
-                                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                                    <p style={{ marginTop: "-6%", fontSize: "13px", fontWeight: "100" }}>Starts @ <h4 style={{ fontWeight: "700", fontSize: "22px" }}>AED 3000</h4> </p>
-                                                </span>
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                <h2>Stockholm                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                                 </h2>
                                             </div>
                                         </div>

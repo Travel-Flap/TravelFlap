@@ -161,12 +161,12 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/bolivia.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Bolivia <span className="newhomeEasyVisajob-title">
-                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                                    </span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    <h2>Bolivia                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
@@ -179,12 +179,12 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/dubai.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Dubai <span className="newhomeEasyVisajob-title">
-                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                                    </span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    <h2>Dubai                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
@@ -197,11 +197,12 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/fiji islands.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Fiji islands <span className="newhomeEasyVisajob-title">
-                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    <h2>Fiji islands                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
@@ -213,11 +214,12 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/jordan.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Jordan <span className="newhomeEasyVisajob-title">
-                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    <h2>Jordan                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
@@ -229,11 +231,12 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/Kenya.jpg " />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Kenya <span className="newhomeEasyVisajob-title">
-                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    <h2>Kenya                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
@@ -245,11 +248,12 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/TravelStories/river.jpg " />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>ladakh <span className="newhomeEasyVisajob-title">
-                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    <h2>ladakh                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
@@ -261,11 +265,12 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/madgascar.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Madgascar <span className="newhomeEasyVisajob-title">
-                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    <h2>Madgascar                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
@@ -277,11 +282,12 @@ export const NewHomeEasyVisaDestination = () => {
                                     <img src="Images/EasyVisaDestinations/Seychelles.jpg" />
                                 </div>
                                 <div className="newhomeEasyVisastorydetails">
-                                    <h2>Seychelles <span className="newhomeEasyVisajob-title">
-                                    <p style={{fontSize:"13.5px"}}>4 Nights / 5 Days</p>
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p></span>
-                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    <h2>Seychelles                         {/* <span> */}
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
+                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
+                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
+                        {/* </span> */}
+                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                     </h2>
                                 </div>
                             </div>
