@@ -75,9 +75,6 @@ export const TopDemandedVisa = () => {
             </div> */}
 
       <div className='newTopDemandedVisaHeadingContainer'>
-        <div>
-          
-        </div>
         <h5>
           Top Demanded Visa
         </h5>
