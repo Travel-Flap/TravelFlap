@@ -1,0 +1,53 @@
+.innerPopularDestination2filtermainDiv{
+    background-color: #F3F7FA;
+    width: 55%;
+    height: 80px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.innerPopularDestination2filtersearchDiv{
+    border: 2px solid lightgray;
+    width: 45%;
+    height: 50px;
+    margin-top: 1.3%;
+    margin-left: 3%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.innerPopularDestination2filterBudgetDiv{
+    border: 2px solid lightgray;
+    width: 45%;
+    height: 50px;
+    margin-top: 1.3%;
+    margin-left: 4%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.innerPopularDestination2filtersearchText{
+    /* border: 2px solid red; */
+    width: 18%;
+    height: 45px;
+    text-align: center;
+    color: #393939;
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.innerPopularDestination2filtersearchBox{
+    width: 78%;
+    height: 30px;
+    background-color: lightgray;
+    margin-left: 1%;
+    margin-top: 2%;
+    border-radius: 10px;
+    color: gray;
+    padding-left: 25px;
+    padding-top: 2px;
+}

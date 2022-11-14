@@ -2,7 +2,7 @@
   /* border: 1px solid red; */
   width: 100%;
   margin: auto;
-  background-color: #3380f2;
+  /* background-color: #3380f2; */
   height: 520px;
 }
 
@@ -19,7 +19,7 @@
   margin-left: 1%;
   margin-bottom: 2%;
   width:65%;
-  color: white !important;
+  color: #3380F2 !important;
 }
 
 
@@ -419,23 +419,26 @@ border: none !important;
 /* ----------------- view all deals button css ----------------  */
 
 
+
 .newDomesticCruisedealsbutton {
-  /* width: 10%; */
+  width: 9%;
+  height: 35px !important;
   margin-left: 20%;
   margin-top: 3%;
   display: flex;
-  padding-top: 5px;
-  /* border: 2px solid red; */
-  border-radius:8px;
+  padding-top: 3px;
+  padding-left: 8px;
+  border: 2px solid #3380F2;
+  border-radius: 8px;
   flex-direction: row;
   border-right: none;
   height: 40px;
-  color: White;
-  text-decoration: underline;
+  color: #3380F2;
   font-weight: 700;
-  /* border: 2px solid green; */
+  border: 2px solid #3380F2;
+  border-radius: 25px;
 }
 .newDomesticCruisedealsbutton:hover{
-  background-color: white;
-  color: #3380F2;
+  background-color:#3380F2;
+  color: white;
 }

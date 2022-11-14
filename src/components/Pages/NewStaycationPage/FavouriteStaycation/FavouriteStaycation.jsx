@@ -177,7 +177,7 @@ export const FavouriteStaycationSpot = () => {
                                 </th>
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
                             </div>
-                            <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel1.png" alt="" />
+                            <img src="https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
                             <div className="cardFavStaycation_title">
                                 <h5>
                                     Single Room
@@ -215,7 +215,7 @@ export const FavouriteStaycationSpot = () => {
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} />
                                 <span className="review_rating_num">9.0</span>
                             </div>
-                            <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel2.png" alt="" />
+                            <img src="https://content.r9cdn.net/rimg/himg/76/28/a2/expediav2-85362-ef67ed-911684.jpg?width=226&height=209&xhint=540&yhint=333&crop=true&watermarkheight=14&watermarkpadding=5" alt="" />
                             <div className="cardFavStaycation_title">
                                 <h5>
                                     Single Room
@@ -246,7 +246,7 @@ export const FavouriteStaycationSpot = () => {
                                 </th>
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
                             </div>
-                            <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel3.png" alt="" />
+                            <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aG90ZWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
                             <div className="cardFavStaycation_title">
                                 <h5>
                                     Single Room
@@ -277,7 +277,7 @@ export const FavouriteStaycationSpot = () => {
                                 </th>
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
                             </div>
-                            <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel4.png" alt="" />
+                            <img src="https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
                             <div className="cardFavStaycation_title">
                                 <h5>
                                     Single Room

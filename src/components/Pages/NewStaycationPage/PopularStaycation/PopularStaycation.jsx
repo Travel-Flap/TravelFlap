@@ -8,11 +8,14 @@ import "slick-carousel/slick/slick-theme.css";
 import { useEffect } from "react";
 import {FaAngleDown} from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
+import SliderWrapper from "./SlickSliderStyle";
 
 export const PopularStaycation = () => {
+    const [slideindex, setSlideindex] = useState(0);
     const [countryid, setCountryid] = useState('');
     const [state, setState] = useState([]);
     const [stateid, setStateid] = useState('');
+
 
     const handlecounty = (e) => {
         const getcountryId = e.target.value;
@@ -95,6 +98,7 @@ export const PopularStaycation = () => {
 
                     <div className="newPopularStaycationsCardmaindiv">
 
+                    <SliderWrapper>
                         <Slider
                             arrows={false}
                             autoplay={true}
@@ -105,6 +109,13 @@ export const PopularStaycation = () => {
                             ref={sliderRef}
                             slidesToShow={5}
                             slidesToScroll={2}
+                            appendDots={dots => <ul>{dots}</ul>}
+                            customPaging={i => (
+                                <div className="ft-slick__dots--custom">
+                                    <div className="loading" />
+                                </div>
+                            )}
+                            beforeChange={(current, next) => setSlideindex(next)}
                             responsive={[
                                 {
                                     breakpoint: 1024,
@@ -146,7 +157,7 @@ export const PopularStaycation = () => {
                                     }
                                 }
                             ]}
-                            customPaging={(i) => (
+                            customPagingg={(i) => (
                                 <div
                                     style={{
                                         width: "100%",
@@ -381,6 +392,7 @@ export const PopularStaycation = () => {
                             </div>
                             </Link>
                         </Slider >
+                    </SliderWrapper>
                     </div>
                 </div>
             </div>

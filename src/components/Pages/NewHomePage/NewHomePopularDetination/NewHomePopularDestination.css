@@ -171,7 +171,7 @@
 .populardestinationsslide {
   margin-left: 3%;
   width: 102%;
-  border-radius: 20px !important;
+  border-radius: 25px !important;
   overflow: hidden !important;
   cursor: pointer;
   position: relative;
@@ -344,7 +344,7 @@
   height: 100%;
   color: white;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 13px;
   cursor: pointer;
   border-radius: 25px 0px 0px 25px;
   border-right: none;

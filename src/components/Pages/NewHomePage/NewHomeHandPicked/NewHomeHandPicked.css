@@ -1,9 +1,5 @@
 .handpickednewhomepageoutercontainer {
   height: 580px;
-  /* background-color: #3380f2; */
-  /* object-fit: cover; */
-  /* background-size: cover; */
-  /* background-image: url(/public/Images/NewHomeLayout/BackgroundImages/background.jpg); */
 }
 
 .newHomeHandpickedHeadingContainer {
@@ -474,7 +470,7 @@ img {
   height: 100%;
   color: white;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 13px;
   cursor: pointer;
   border-radius: 25px 0px 0px 25px;
   border-right: none;

@@ -144,9 +144,10 @@ export const NewVisaBannerForm = () => {
                                 <select className="form-select newVisaLivingdrop" aria-label="Default select example" style={{ marginLeft: "0%", width: "100%" }}>
                                     <option value>Category</option>
                                     <option value="1">Tourist</option>
-                                    <option value="2">Immegration</option>
+                                    <option value="2">Immigration</option>
                                     <option value="3">Student</option>
                                     <option value="3">Work</option>
+                                    <option value="3">Transit</option>
                                     {/* <option value="3">Mumbai</option> */}
                                 </select>
                             </div>

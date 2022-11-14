@@ -22,7 +22,7 @@
   .newFlightsNearYououterdiv:hover {
     width: 100%;
     padding: 5px;
-    box-shadow: 5px 10px 25px  #3380f2;
+    /* box-shadow: 5px 10px 25px  #3380f2; */
   }
   
   .newFlightsNearYouHeadingcontainer {
