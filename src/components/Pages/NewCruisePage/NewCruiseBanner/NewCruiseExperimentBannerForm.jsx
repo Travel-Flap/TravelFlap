@@ -127,9 +127,9 @@ export const ExperimentBannerForm = () => {
                             </div>
 
                             <div className='singleNewcruiseBannerdropcontainer1'>
-                                <p>Select State</p>
+                                <p>Select Nationality</p>
                                 <select className="form-select newcruiseform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%"}}>
-                                    <option value="" >Select State</option>
+                                    <option value="" >Select Nationality</option>
                                     {
                                        countrydata.map((getcountry, index) => (
                                         <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>

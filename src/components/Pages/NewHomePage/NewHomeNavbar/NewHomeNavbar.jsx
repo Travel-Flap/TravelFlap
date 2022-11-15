@@ -175,7 +175,7 @@ export const NewHomeNav = () => {
     return (
         <>
             <Link to="/"><div className='travelflapmainlogo'>
-                <img style={{ height: "50px", width: "150px" }} src="Images/TravelFlapLogo.jpg" alt="travelflap logo" />
+                <img style={{ height: "50px", width: "150px" }} src="Images/travel flap logo with text final.png" alt="travelflap logo" />
                 <FaBars style={{ width: "30px", height: "30px" }} className='hamburgermenuicon' onClick={getMenu} />
             </div>
             </Link>
@@ -188,7 +188,7 @@ export const NewHomeNav = () => {
                             <div>
                                 <Link to="/">
                                     <div className='logo1'>
-                                        <img src="Images/TravelFlapLogo.jpg" alt="travelflap logo" />
+                                        <img src="Images/travel flap logo with text final.png" alt="travelflap logo" />
                                     </div>
                                 </Link>
                             </div>
@@ -293,7 +293,7 @@ export const NewHomeNav = () => {
                             <div className='transparentNavbar'>
                                 <Link to="/">
                                     <div className='logo2'>
-                                        <img src="Images/TravelFlapLogo.jpg" alt="travelflap logo" />
+                                        <img src="Images/travel flap logo with text final.png" alt="travelflap logo" />
                                     </div>
                                 </Link>
                                 <div className='navbar-links-container1'>

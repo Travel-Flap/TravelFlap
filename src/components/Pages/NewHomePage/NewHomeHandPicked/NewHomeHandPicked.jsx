@@ -79,6 +79,7 @@ export const NewHomeHandPicked = () => {
 
 
                     <div id='newHomehandpickedDropContainer'>
+                        <div>
                         <select id="newHomeHandpickedCountryDrop" onChange={(e) => handlecounty(e)}
                             style={{ width: "100%", appearance: "none" }}>
                             <option value="">Country</option>
@@ -88,6 +89,7 @@ export const NewHomeHandPicked = () => {
                                 ))
                             }
                         </select>
+                        </div>
                         <div id='newHomehandpickedicondiv'>
                             <FaAngleDown size={"1em"} id="handpickedicon" />
                         </div>

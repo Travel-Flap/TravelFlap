@@ -1,15 +1,28 @@
 import './CheapFlights.css';
+import { useState } from 'react';
 import { FaGlobeAfrica, FaPlaneDeparture, FaAngleDoubleDown, FaAngleDown } from "react-icons/fa";
+import countrydata from '../../../../CountryData.json';
 
 export const CheapFlights = () => {
+
+    const [countryid, setCountryid] = useState('');
+    const [state, setState] = useState([]);
+    const [stateid, setStateid] = useState('');
+    const handlecounty = (e) => {
+        const getcountryId = e.target.value;
+        const getStatedata = countrydata.find(country => country.country_id === getcountryId).states;
+        setState(getStatedata);
+        setCountryid(getcountryId);
+        //console.log(getcountryId);
+    }
 
     return (
         <>
             <div className='cheapflights'>
                 <div className='cheapflightsheading'>
                     <p>Cheap Flights with Destinations</p>
-                    {/* <div className="cheapflightsselectoptions"> */}
-                        <div className="cheapflightselectdiv">
+                    
+                        {/* <div className="cheapflightselectdiv">
                             <select class="cheapflightsselect2">
                                 <option value>Country</option>
                                 <option value="Afghanistan">Afghanistan</option>
@@ -39,8 +52,6 @@ export const CheapFlights = () => {
                                 <option value="Bermuda">Bermuda</option>
                                 <option value="Bhutan">Bhutan</option>
                                 <option value="Bolivia">Bolivia</option>
-                                {/* <option value="Bonaire, Sint Eustatius and Saba">Bonaire, Sint Eustatius and Saba</option> */}
-                                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
                                 <option value="Botswana">Botswana</option>
                                 <option value="Bouvet Island">Bouvet Island</option>
                                 <option value="Brazil">Brazil</option>
@@ -63,8 +74,6 @@ export const CheapFlights = () => {
                                 <option value="Colombia">Colombia</option>
                                 <option value="Comoros">Comoros</option>
                                 <option value="Congo">Congo</option>
-                                {/* <option value="Congo, Democratic Republic of the Congo">Congo, Democratic Republic of the Congo</option> */}
-                                <option value="Cook Islands">Cook Islands</option>
                                 <option value="Costa Rica">Costa Rica</option>
                                 <option value="Cote D'Ivoire">Cote D'Ivoire</option>
                                 <option value="Croatia">Croatia</option>
@@ -129,12 +138,10 @@ export const CheapFlights = () => {
                                 <option value="Kazakhstan">Kazakhstan</option>
                                 <option value="Kenya">Kenya</option>
                                 <option value="Kiribati">Kiribati</option>
-                                {/* <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option> */}
                                 <option value="Korea, Republic of">Korea, Republic of</option>
                                 <option value="Kosovo">Kosovo</option>
                                 <option value="Kuwait">Kuwait</option>
                                 <option value="Kyrgyzstan">Kyrgyzstan</option>
-                                {/* <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option> */}
                                 <option value="Latvia">Latvia</option>
                                 <option value="Lebanon">Lebanon</option>
                                 <option value="Lesotho">Lesotho</option>
@@ -144,7 +151,6 @@ export const CheapFlights = () => {
                                 <option value="Lithuania">Lithuania</option>
                                 <option value="Luxembourg">Luxembourg</option>
                                 <option value="Macao">Macao</option>
-                                {/* <option value="Macedonia, the Former Yugoslav Republic of">Macedonia, the Former Yugoslav Republic of</option> */}
                                 <option value="Madagascar">Madagascar</option>
                                 <option value="Malawi">Malawi</option>
                                 <option value="Malaysia">Malaysia</option>
@@ -183,7 +189,6 @@ export const CheapFlights = () => {
                                 <option value="Oman">Oman</option>
                                 <option value="Pakistan">Pakistan</option>
                                 <option value="Palau">Palau</option>
-                                {/* <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option> */}
                                 <option value="Panama">Panama</option>
                                 <option value="Papua New Guinea">Papua New Guinea</option>
                                 <option value="Paraguay">Paraguay</option>
@@ -221,7 +226,6 @@ export const CheapFlights = () => {
                                 <option value="Solomon Islands">Solomon Islands</option>
                                 <option value="Somalia">Somalia</option>
                                 <option value="South Africa">South Africa</option>
-                                {/* <option value="South Georgia and the South Sandwich Islands">South Georgia and the South Sandwich Islands</option> */}
                                 <option value="South Sudan">South Sudan</option>
                                 <option value="Spain">Spain</option>
                                 <option value="Sri Lanka">Sri Lanka</option>
@@ -251,7 +255,6 @@ export const CheapFlights = () => {
                                 <option value="United Arab Emirates">United Arab Emirates</option>
                                 <option value="United Kingdom">United Kingdom</option>
                                 <option value="United States">United States</option>
-                                {/* <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option> */}
                                 <option value="Uruguay">Uruguay</option>
                                 <option value="Uzbekistan">Uzbekistan</option>
                                 <option value="Vanuatu">Vanuatu</option>
@@ -268,7 +271,7 @@ export const CheapFlights = () => {
                             <div className='cheapflightsicondiv'>
                                 <FaGlobeAfrica className="cheapflightsicon" />
                             </div>
-                        </div>
+                        </div> */}
 
                         {/* <div className="cheapflightselectdiv1">
                             <select class="cheapflightsselect1">
@@ -285,75 +288,637 @@ export const CheapFlights = () => {
                     </select> */}
                     {/* </div> */}
                 </div>
+
+                <div className='cheapflightFilters'>
+                    <div className='cheapflightbookings'>
+                        <div className='cheapflightbookingDeparture'>
+                            Depart
+                          <input type="datetime-local" placeholder='Departure' /> 
+                        </div>
+                        <div className='cheapflightbookingReturn'>
+                            Return
+                            <input type="datetime-local" placeholder='return' />
+                        </div>
+                    </div>
+                    <div className='cheapflightcountryfilters'>
+                                <select className="form-select cheapflightbookingReturn" onChange={(e) => handlecounty(e)} aria-label="Default select example">
+                                    <option value="" >Select Country</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                </select>
+                                <select className="form-select cheapflightbookingReturn" onChange={(e) => handlecounty(e)} aria-label="Default select example">
+                                    <option value="" >Select State</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                </select>
+                    </div>
+                </div>
                 <div className='cheapflightsmaindiv'>
                     <div className='cheapflightscountrynames'>
                         <div className='cheapflightcountryborder'>
-                            <div className='cheapflightscountryactivediv'>
-                                Delhi
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Mumbai
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Bangalore
-                            </div>
-                            <div className='cheapflightscountrydiv'>    
-                                Jaipur
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Kolkata
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Chennai
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Delhi
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Mumbai
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Bangalore
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Jaipur
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Kolkata
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Chennai
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Delhi
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Mumbai
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Bangalore
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Jaipur
-                            </div>
-                            <div className='cheapflightscountrydiv'>
-                                Kolkata
-                            </div>
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
+                        <div class="cheapflightdropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
+                                        New Delhi flights
+                                        <FaAngleDown className="cheapflightdownarrrow" size={"1em"} />
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata" >
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                        <li><a class="dropdown-item cheapflightdata">
+                                            <h6>₹ 21,286+</h6>
+                                            Flight Hyderabad - Bali (HYD - IDBA)
+                                        </a></li>
+                                    </ul> 
+                        </div>
                         </div>
                     </div>
                     <div className='cheapflightdetailscontainer'>
 
-                        <div className="cheapflightselectdiv3">
+                        {/* <div className="cheapflightselectdiv3">
                             Best Flights
-                        </div>
+                        </div> */}
                         
-                        <div className='cheapflightapidata'>
+                        {/* <div className='cheapflightapidata'>
                             <div className="cheapflightdiv1">
                                 <div class="cheapflightdropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
-                                        New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"} />
+                                        New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"} /> */}
                                         {/* <FaAngleDoubleDown className="cheapflightdownarrrow" size={"0.8em"} /> */}
-                                    </button>
+                                    {/* </button> */}
                                     {/* <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <li><a class="dropdown-item cheapflightdata">
                                             <h6>₹ 21,286+</h6>
@@ -380,12 +945,12 @@ export const CheapFlights = () => {
                                             Flight Hyderabad - Bali (HYD - IDBA)
                                         </a></li>
                                     </ul> */}
-                                </div>
+                                {/* </div>
                                 <div class="cheapflightdropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
-                                        New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"} />
+                                        New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"} /> */}
                                         {/* <FaAngleDoubleDown className="cheapflightdownarrrow" size={"0.8em"} /> */}
-                                    </button>
+                                    {/* </button> */}
                                     {/* <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                         <li><a class="dropdown-item cheapflightdata">
                                             <h6>₹ 21,286+</h6>
@@ -412,7 +977,7 @@ export const CheapFlights = () => {
                                             Flight Hyderabad - Bali (HYD - IDBA)
                                         </a></li>
                                     </ul> */}
-                                </div>
+                                {/* </div> */}
                                 {/* <div class="cheapflightdropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
                                         New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"} />
@@ -446,13 +1011,13 @@ export const CheapFlights = () => {
                                     </ul>
                                 </div> */}
 
-                            </div>
+                            {/* </div>
                             <div className="cheapflightdiv2">
                                 <div class="cheapflightdropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
-                                        New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"} />
+                                        New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"} /> */}
                                         {/* <FaAngleDoubleDown className="cheapflightdownarrrow" size={"0.8em"} /> */}
-                                    </button>
+                                    {/* </button> */}
                                     {/* <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                         <li><a class="dropdown-item cheapflightdata">
                                             <h6>₹ 21,286+</h6>
@@ -479,12 +1044,12 @@ export const CheapFlights = () => {
                                             Flight Hyderabad - Bali (HYD - IDBA)
                                         </a></li>
                                     </ul> */}
-                                </div>
+                                {/* </div>
                                 <div class="cheapflightdropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
-                                        New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"} />
+                                        New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"} /> */}
                                         {/* <FaAngleDoubleDown className="cheapflightdownarrrow" size={"0.8em"} /> */}
-                                    </button>
+                                    {/* </button> */}
                                     {/* <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                         <li><a class="dropdown-item cheapflightdata">
                                             <h6>₹ 21,286+</h6>
@@ -511,14 +1076,14 @@ export const CheapFlights = () => {
                                             Flight Hyderabad - Bali (HYD - IDBA)
                                         </a></li>
                                     </ul> */}
-                                </div>
+                                {/* </div>
                             </div>
                             <div className="cheapflightdiv3">
                                 <div class="cheapflightdropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
-                                        New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"} />
+                                        New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"} /> */}
                                         {/* <FaAngleDoubleDown className="cheapflightdownarrrow" size={"0.8em"} /> */}
-                                    </button>
+                                    {/* </button> */}
                                     {/* <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                         <li><a class="dropdown-item cheapflightdata">
                                             <h6>₹ 21,286+</h6>
@@ -545,12 +1110,12 @@ export const CheapFlights = () => {
                                             Flight Hyderabad - Bali (HYD - IDBA)
                                         </a></li>
                                     </ul> */}
-                                </div>
+                                {/* </div>
                                 <div class="cheapflightdropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" className="cheapflightdropdownbutton">
-                                        New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"} />
+                                        New Delhi Flights <FaPlaneDeparture className="cheapflighticon" size={"1em"} /> */}
                                         {/* <FaAngleDoubleDown className="cheapflightdownarrrow" size={"0.8em"} /> */}
-                                    </button>
+                                    {/* </button> */}
                                     {/* <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" >
                                         <li><a class="dropdown-item cheapflightdata">
                                             <h6>₹ 21,286+</h6>
@@ -577,68 +1142,113 @@ export const CheapFlights = () => {
                                             Flight Hyderabad - Bali (HYD - IDBA)
                                         </a></li>
                                     </ul> */}
-                                </div>
+                                {/* </div>
 
 
                             </div>
-                        </div>
+                        </div> */}
 
                     <div className='cheapflightdetailsContainerDiv'>
                         <div className='cheapflightdetails'>
                             <div className='cheapflightdetailsflightlogos'>
-                                <img src='Images/Partners Logos/Emirates.png'/>
+                                <img src='Images/Partners Logos/Air India.png'/>
                             </div>
-                            <div className='cheapflightdetailsflightTimming'>
+                            <div className='cheapflightnames'>
                                         01:45AM to 04:25PM
                                         <br/>
-                                        21hrs
+                                        <p style={{color:"gray"}}>Air India</p>
+                            </div>
+                            <div className='cheapflightdetailsflightTimming'>
+                                        2Hrs  10Minutes
                             </div>
                             <div className='cheapflightdetailsflightStops'>
-                                    2 Stops 
-                                    <br/>
-                                    MKG/AFG
+                                   Non Stop
                             </div>
                             <div className='cheapflightdetailsflightPrice'>
                                     $2500
-                            </div>
-                        </div>
-
-
-                        <div className='cheapflightdetails'>
-                            <div className='cheapflightdetailsflightlogos'>
-                                <img src='Images/Partners Logos/Emirates.png'/>
-                            </div>
-                            <div className='cheapflightdetailsflightTimming'>
-                                        01:45AM to 04:25PM
-                                        <br/>
-                                        21hrs
-                            </div>
-                            <div className='cheapflightdetailsflightStops'>
-                                    2 Stops 
-                                    <br/>
-                                    MKG/AFG
-                            </div>
-                            <div className='cheapflightdetailsflightPrice'>
-                                    $2500
+                                    <button className='cheapflightBooknowButton'>Book Now</button>
                             </div>
                         </div>
 
                         <div className='cheapflightdetails'>
                             <div className='cheapflightdetailsflightlogos'>
-                                <img src='Images/Partners Logos/Emirates.png'/>
+                                <img src='Images/Partners Logos/Air India.png'/>
                             </div>
-                            <div className='cheapflightdetailsflightTimming'>
+                            <div className='cheapflightnames'>
                                         01:45AM to 04:25PM
                                         <br/>
-                                        21hrs
+                                        <p style={{color:"gray"}}>Air India</p>
+                            </div>
+                            <div className='cheapflightdetailsflightTimming'>
+                                        2Hrs  10Minutes
                             </div>
                             <div className='cheapflightdetailsflightStops'>
-                                    2 Stops 
-                                    <br/>
-                                    MKG/AFG
+                                   Non Stop
                             </div>
                             <div className='cheapflightdetailsflightPrice'>
                                     $2500
+                                    <button className='cheapflightBooknowButton'>Book Now</button>
+                            </div>
+                        </div>
+                        <div className='cheapflightdetails'>
+                            <div className='cheapflightdetailsflightlogos'>
+                                <img src='Images/Partners Logos/Air India.png'/>
+                            </div>
+                            <div className='cheapflightnames'>
+                                        01:45AM to 04:25PM
+                                        <br/>
+                                        <p style={{color:"gray"}}>Air India</p>
+                            </div>
+                            <div className='cheapflightdetailsflightTimming'>
+                                        2Hrs  10Minutes
+                            </div>
+                            <div className='cheapflightdetailsflightStops'>
+                                   Non Stop
+                            </div>
+                            <div className='cheapflightdetailsflightPrice'>
+                                    $2500
+                                    <button className='cheapflightBooknowButton'>Book Now</button>
+                            </div>
+                        </div>
+                        <div className='cheapflightdetails'>
+                            <div className='cheapflightdetailsflightlogos'>
+                                <img src='Images/Partners Logos/Air India.png'/>
+                            </div>
+                            <div className='cheapflightnames'>
+                                        01:45AM to 04:25PM
+                                        <br/>
+                                        <p style={{color:"gray"}}>Air India</p>
+                            </div>
+                            <div className='cheapflightdetailsflightTimming'>
+                                        2Hrs  10Minutes
+                            </div>
+                            <div className='cheapflightdetailsflightStops'>
+                                   Non Stop
+                            </div>
+                            <div className='cheapflightdetailsflightPrice'>
+                                    $2500
+                                    <button className='cheapflightBooknowButton'>Book Now</button>
+                            </div>
+                        </div>
+                        
+                        <div className='cheapflightdetails'>
+                            <div className='cheapflightdetailsflightlogos'>
+                                <img src='Images/Partners Logos/Air India.png'/>
+                            </div>
+                            <div className='cheapflightnames'>
+                                        01:45AM to 04:25PM
+                                        <br/>
+                                        <p style={{color:"gray"}}>Air India</p>
+                            </div>
+                            <div className='cheapflightdetailsflightTimming'>
+                                        2Hrs  10Minutes
+                            </div>
+                            <div className='cheapflightdetailsflightStops'>
+                                   Non Stop
+                            </div>
+                            <div className='cheapflightdetailsflightPrice'>
+                                    $2500
+                                    <button className='cheapflightBooknowButton'>Book Now</button>
                             </div>
                         </div>
                     </div>

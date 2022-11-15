@@ -1,59 +1,50 @@
-import React from 'react';
-import Offers from './Offers.png';
-import HolidaysTheme from './HolidaysTheme.png';
-import InternationalOffers from './InternationalOffers.png';
-import Domestic from './Domestic.png';
+
 import "./NewHolidaysCategory.css";
 
 export const NewHolidaysCategory = () => {
   return (
     <>
       <div className='NewHolidaysCategorymaindiv'>
-         <div className='NewHolidaysCategoryhreadingdiv'>
+         <div className='NewHolidaysCategoryheadingdiv'>
             Holiday Category
          </div>
-         <div className='NewHolidaysCategorycarddiv'>
+         <div className='NewHolidayscategoriesmainDiv'>
+
             <div className='NewHolidaysCategorycard'>
-                    <div className='NewHolidaysCategorycardicons'>
-                        <img width={"100%"} height={"100%"} src={Offers} />
+                    <div className='NewHolidaysCategorycardimageDiv'>
+                        <img className='NewHolidaysCategorycardimages' src='https://images.unsplash.com/photo-1655185497004-f3018eab9cb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmFtaWx5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'/>
                     </div>
                     <div className='NewHolidaysCategorycardsubheading'>
-                        Holidays Offers
-                        <br/>
-                        <p style={{fontSize:"15px",fontWeight:"100"}}>Check Out our latest <br/> Holidays Offers <br/> for your next trip </p>
+                        Holidays <br/> Themes
                     </div>
             </div>
             <div className='NewHolidaysCategorycard'>
-                    <div className='NewHolidaysCategorycardicons'>
-                        <img width={"100%"} height={"100%"} src={Domestic} />
+                    <div className='NewHolidaysCategorycardimageDiv'>
+                        <img className='NewHolidaysCategorycardimages' src='https://images.unsplash.com/photo-1655185497004-f3018eab9cb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmFtaWx5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'/>
                     </div>
                     <div className='NewHolidaysCategorycardsubheading'>
-                        Domestic <br/>  Offers
-                        <br/>
-                        <p style={{fontSize:"15px",fontWeight:"100"}}>Check Out our latest <br/> domestic Holiday</p>
+                        Holidays <br/> Offers
                     </div>
             </div>
             <div className='NewHolidaysCategorycard'>
-                    <div className='NewHolidaysCategorycardicons'>
-                        <img width={"100%"} height={"100%"} src={InternationalOffers} />
+                    <div className='NewHolidaysCategorycardimageDiv'>
+                        <img className='NewHolidaysCategorycardimages' src='https://images.unsplash.com/photo-1655185497004-f3018eab9cb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmFtaWx5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'/>
                     </div>
-                    <div className='NewHolidaysCategorycardsubheading'>
-                        International <br/>  Offers
-                        <br/>
-                        <p style={{fontSize:"15px",fontWeight:"100"}}>Check Out our latest <br/> International Holiday</p>
+                    <div className='NewHolidaysCategorycardsubheading' style={{marginLeft:"3%"}}>
+                        International <br/> Offers
                     </div>
             </div>
             <div className='NewHolidaysCategorycard'>
-                    <div className='NewHolidaysCategorycardicons'>
-                        <img width={"100%"} height={"100%"} src={HolidaysTheme} />
+                    <div className='NewHolidaysCategorycardimageDiv'>
+                        <img className='NewHolidaysCategorycardimages' src='https://images.unsplash.com/photo-1655185497004-f3018eab9cb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZmFtaWx5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'/>
                     </div>
                     <div className='NewHolidaysCategorycardsubheading'>
-                        Holidays Themes
-                        <br/>
-                        <p style={{fontSize:"15px",fontWeight:"100"}}>Check Out our latest <br/> Holidays Themes <br/> for your next trip </p>
+                        Domestic <br/> Offers
                     </div>
             </div>
-         </div>
+         
+
+            </div>
       </div>
     </>
   )

@@ -37,6 +37,7 @@ export const NewRentalBanner = () => {
                                 className="d-block w-100"
                                 src="Images/NewHomeLayout/Banners/Car Rental/Image 3.jpg"
                                 alt="First slide"
+                                style={{height:"100%"}}
                             />
                             {/* <Carousel.Caption>
                             <h3>First slide label</h3>

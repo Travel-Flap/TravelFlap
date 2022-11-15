@@ -1,11 +1,11 @@
 .holidayBannerContainer{
     /* border: 1px solid red; */
-    height: 740px;
+    height: 750px !important;
 }
 
 .holidayBannerImagesmaindiv img{
     /* border: 2px solid red; */
-    height: 730px;
+    height: 750px !important;
     object-fit: cover;
     filter: brightness(0.6) !important;
 }

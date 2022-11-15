@@ -5,6 +5,7 @@ import "./NewHomePopularDestination.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
 // import MagicSliderDots from 'react-magic-slider-dots';
 // import 'react-magic-slider-dots/dist/magic-dots.css';
 import { FaAngleDown } from "react-icons/fa";
@@ -18,6 +19,7 @@ export const CenterMode = () => {
     const [countryid, setCountryid] = useState('');
     const [state, setState] = useState([]);
     const [stateid, setStateid] = useState('');
+    const [slideindex, setSlideindex] = useState(0)
 
     const handlecounty = (e) => {
         const getcountryId = e.target.value;
@@ -39,7 +41,7 @@ export const CenterMode = () => {
     }
 
 
-    const [slideindex, setSlideindex] = useState(0)
+
     const settings = {
         dots: true,
         infinite: true,
