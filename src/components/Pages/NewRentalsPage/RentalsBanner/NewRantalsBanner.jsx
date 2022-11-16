@@ -58,7 +58,7 @@ export const NewRentalBanner = () => {
                         </Carousel.Item>
                         <Carousel.Item className='rentalsTopBannerdiv'>
                             <img
-                                className="d-block w-100"
+                                className="d-block h-750 w-100"
                                 src="Images/NewHomeLayout/Banners/Car Rental/image 1.jpg"
                                 alt="Third slide"
                             />

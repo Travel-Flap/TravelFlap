@@ -18,6 +18,9 @@ import { WhyChooseUs } from './WhyChooseUs/WhyChooseUs';
 import { NewHomeStoriesSection } from "../../Pages/NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection";
 import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDestination';
 import { Helmet } from 'react-helmet';
+import { StayNearYou } from './StayNearYou/StayNearYou';
+import { VarietyOfStays } from './VarietyOfStays/VarietyOfStays';
+import SearchPlaceDestination from './SearchPlaceDestination/SearchPlaceDestination';
 
 export const NewHotel = () => {
     return (
@@ -37,13 +40,17 @@ export const NewHotel = () => {
             {/* <NewHomeCaruosel /> */}
             <WhyChooseUs />
 
-            <div className='carousel'>
+            {/* <div className='carousel'>
                 <NewHomeHandPicked />
-            </div>
+            </div> */}
 
-            {/* <CenterMode/> */}
+            <StayNearYou/>
 
-            <CenterMode />
+            <VarietyOfStays/>
+
+            <SearchPlaceDestination/>
+
+            {/* <CenterMode /> */}
 
             <div className='carousel'>
                 <FavouriteHotelGlobe />
