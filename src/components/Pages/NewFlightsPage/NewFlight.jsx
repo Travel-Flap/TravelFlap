@@ -29,7 +29,7 @@ export const NewFlight = () => {
             <NewHomeNav />
             {/* <NewHomeCaruosel/> */}
 
-            <div
+            {/* <div
                 data-skyscanner-widget="FlightSearchWidget"
                 data-locale="en-GB"
                 data-market="UK"
@@ -38,7 +38,7 @@ export const NewFlight = () => {
             ></div>
             <script src="https://widgets.skyscanner.net/widget-server/js/loader.js" async>
 
-            </script>
+            </script> */}
 
             <NewFlightsBanner />
 
