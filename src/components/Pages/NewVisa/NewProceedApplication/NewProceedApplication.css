@@ -1,10 +1,11 @@
 .container_NewApplication_footprint{
-    width: 100%;
+    width: 95%;
     height: 320px;
     /* background-image: url("https://etimg.etb2bimg.com/photo/93229844.cms") ; */
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     /* border: 2px solid red; */
+    margin: auto;
     margin-top: 2%;
     position: relative;
 }

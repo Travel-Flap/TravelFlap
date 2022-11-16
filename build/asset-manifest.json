@@ -1,7 +1,12 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/static/css/main.07c50fc3.css",
     "main.js": "/static/js/main.52f501ac.js",
+=======
+    "main.css": "/static/css/main.79d9d779.css",
+    "main.js": "/static/js/main.c4b38d1a.js",
+>>>>>>> 6157b37b78825ce8161ff69db40ed3929de379ed
     "static/js/988.5be36170.chunk.js": "/static/js/988.5be36170.chunk.js",
     "static/media/UAE4.jpg": "/static/media/UAE4.7d17172021074cd0aa62.jpg",
     "static/media/NewHomeBanner.gif": "/static/media/NewHomeBanner.c6c45c16f081ded45159.gif",
@@ -20,15 +25,11 @@
     "static/media/m_Interlaken_l_426_640.jpg": "/static/media/m_Interlaken_l_426_640.9db31874d3ac84adbe68.jpg",
     "static/media/worldImage.png": "/static/media/worldImage.6ff46370da9042a090c1.png",
     "static/media/reviewbg.png": "/static/media/reviewbg.32b72a62a1cf68f62eea.png",
-    "static/media/InternationalOffers.png": "/static/media/InternationalOffers.d4e3b1131919b978214c.png",
     "static/media/Mansion.png": "/static/media/Mansion.562557fd18146ef6b36d.png",
     "static/media/PlayStore.png": "/static/media/PlayStore.ec773ae2b4b0044fa757.png",
     "static/media/GooglePlay.png": "/static/media/GooglePlay.abbf2f316d9bc7d1a976.png",
-    "static/media/Offers.png": "/static/media/Offers.53697466bf32ffc11fbe.png",
     "static/media/cabin.png": "/static/media/cabin.f22bb708ba374518fc88.png",
-    "static/media/Domestic.png": "/static/media/Domestic.b917ae987f65f99bf1a1.png",
     "static/media/nationalpark.png": "/static/media/nationalpark.61055755eec34173e5ef.png",
-    "static/media/HolidaysTheme.png": "/static/media/HolidaysTheme.5d890aaa35a9a750b093.png",
     "static/media/island.png": "/static/media/island.2cf29f2416372b9ba4b9.png",
     "static/media/campervan.png": "/static/media/campervan.49b55c9e6bb8d4c4add3.png",
     "static/media/cave.png": "/static/media/cave.c90375797944707257ae.png",
@@ -41,6 +42,7 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+<<<<<<< HEAD
     "main.07c50fc3.css.map": "/static/css/main.07c50fc3.css.map",
     "main.52f501ac.js.map": "/static/js/main.52f501ac.js.map",
     "988.5be36170.chunk.js.map": "/static/js/988.5be36170.chunk.js.map"
@@ -48,5 +50,14 @@
   "entrypoints": [
     "static/css/main.07c50fc3.css",
     "static/js/main.52f501ac.js"
+=======
+    "main.79d9d779.css.map": "/static/css/main.79d9d779.css.map",
+    "main.c4b38d1a.js.map": "/static/js/main.c4b38d1a.js.map",
+    "988.5be36170.chunk.js.map": "/static/js/988.5be36170.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79d9d779.css",
+    "static/js/main.c4b38d1a.js"
+>>>>>>> 6157b37b78825ce8161ff69db40ed3929de379ed
   ]
 }

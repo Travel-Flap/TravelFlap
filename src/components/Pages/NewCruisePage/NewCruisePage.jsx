@@ -1,9 +1,9 @@
 import React from 'react'
 import { NewCruiseExperimentBanner } from './NewCruiseBanner/NewCruiseExperimentBanner';
-import TrendingCruise from './TrendingCruise/TrendingCruise'
+import {TrendingCruise} from './TrendingCruise/TrendingCruise'
 import { NewHomeExclusiveDeals } from "../NewHomePage/NewHomeExclusiveDeals/NewHomeExclusiveDeals";
-import CruiseInternationalDestination from './CruiseInternationalDestination/CruiseInternationalDestination';
-import DomesticCruise from './DomesticCruise/DomesticCruise';
+import {CruiseInternationalDestination} from './CruiseInternationalDestination/CruiseInternationalDestination';
+import {DomesticCruise} from './DomesticCruise/DomesticCruise';
 import { NewHomeAppDownload } from "../NewHomePage/NewHomeAppDownload/NewHomeAppDownload";
 import { NewHomeFooter } from "../NewHomePage/NewHomeFooter/NewHomeFooter";
 import { NewHomeBottomBar } from "../NewHomePage/NewHomeBottomBar/NewHomeBottomBar";
@@ -32,7 +32,7 @@ export const NewCruisePage = () => {
                 <NewHomeExclusiveDeals />
             </div>
 
-            <TrendingCruise />
+            <TrendingCruise/>
 
             <CruiseInternationalDestination />
 

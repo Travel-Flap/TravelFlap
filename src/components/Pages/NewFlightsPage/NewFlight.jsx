@@ -40,6 +40,7 @@ export const NewFlight = () => {
 
             </script>
 
+<<<<<<< HEAD
             <NewFlightsBanner />
 
             <div className='carousel'>
@@ -50,6 +51,11 @@ export const NewFlight = () => {
 
             {/* <CheapFlights/> */}
             {/* <div className='carousel'>
+=======
+        <CheapFlights/>
+        
+        {/* <div className='carousel'>
+>>>>>>> 6157b37b78825ce8161ff69db40ed3929de379ed
             <NewFlightsNearYou/>
         </div> */}
             {/* <div className='carousel'>
@@ -68,6 +74,15 @@ export const NewFlight = () => {
         </div> */}
 
 
+<<<<<<< HEAD
+=======
+        <NewHomeAppDownload/>
+        
+        <FooterLinks/>
+       
+        
+        {/* <FrequentlyAskedQuestions/> */}
+>>>>>>> 6157b37b78825ce8161ff69db40ed3929de379ed
 
             {/* <NewHomeAwards/> */}
 

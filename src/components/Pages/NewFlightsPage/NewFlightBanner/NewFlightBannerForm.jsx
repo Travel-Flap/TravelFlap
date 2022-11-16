@@ -129,7 +129,6 @@ export const NewFlightBannerForm = () => {
                             <div className='newFlightsinputNameContainer'>
                                 <input type="text" placeholder='Delhi' />
                             </div>
-
                         </div>
                     </div>
 
@@ -137,11 +136,29 @@ export const NewFlightBannerForm = () => {
                     <div className='newFlightsCheckIn_dateContainer'>
                         <p>Depart</p>
                         <input type="datetime-local" placeholder='Check-In Date' />
+                        <div className='newFlight_chooseClass1'>
+                            <select>
+                            <option value>Choose Class</option>
+                            <option value="1">Economy</option>
+                            <option value="2">Business</option>
+                            <option value="3">Premium</option>
+                            <option value="3">First Class</option>  
+                            </select> 
+                        </div> 
                     </div>
 
                     <div className='newFlightsCheckout_DateContainer'>
                         <p>Return</p>
                         <input type="datetime-local" placeholder='Check-Out Date' />
+                        <div className='newFlight_chooseClass2'>
+                            <select>
+                            <option value>Choose Class</option>
+                            <option value="1">Economy</option>
+                            <option value="2">Business</option>
+                            <option value="3">Premium</option>
+                            <option value="3">First Class</option>  
+                            </select> 
+                        </div>
                     </div>
 
                     <div className='newFlightsGuest_outerDiv'>
@@ -169,27 +186,7 @@ export const NewFlightBannerForm = () => {
                     </div>
                 </div>
 
-                {/* <div className='newFlight_classoptions'>
-                   <div className='newFlight_chooseClass1'>
-                    <select>
-                    <option value>Choose Class</option>
-                    <option value="1">Economy</option>
-                    <option value="2">Business</option>
-                    <option value="3">Premium</option>
-                    <option value="3">First Class</option>  
-                    </select> 
-                   </div>  
-
-                    <div className='newFlight_chooseClass2'>
-                    <select>
-                    <option value>Choose Class</option>
-                    <option value="1">Economy</option>
-                    <option value="2">Business</option>
-                    <option value="3">Premium</option>
-                    <option value="3">First Class</option>  
-                    </select> 
-                   </div>    
-                </div> */}
+                
             </div>
         </>
     )

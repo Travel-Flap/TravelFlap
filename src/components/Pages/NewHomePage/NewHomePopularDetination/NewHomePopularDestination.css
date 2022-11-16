@@ -1,5 +1,5 @@
 .popularDestinationsheadingdiv {
-  color: #3380f2;
+  color: #393939;
   height: 50px;
   font-size: 35px;
   font-weight: 700;
@@ -133,11 +133,12 @@
 }
 
 .mainCarouselDiv {
-  width: 100%;
+  width: 90%;
   height: 500px;
   /* border: 2px solid green; */
   /* background-color: green; */
   position: relative;
+  margin: auto;
   margin-bottom: 2%;
 }
 

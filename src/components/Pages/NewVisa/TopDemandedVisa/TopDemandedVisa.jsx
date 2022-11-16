@@ -78,6 +78,10 @@ export const TopDemandedVisa = () => {
         <h5>
           Top Demanded Visa
         </h5>
+
+        <div className='newTopDemandedVisadealsbutton'> 
+                                View all Deals
+                            </div>
         {/* <div className="internationalcruiseheading2">
           <select name='country' className="form-select countrycruisecardselectdrop" id='internationalcruisecountrydrop' onChange={(e) => handlecounty(e)} aria-label="Default select example">
             <option id='homecarddropbox' value="">Select Country</option>

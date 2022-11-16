@@ -5,7 +5,7 @@
   box-sizing: border-box;
   justify-content: space-between;
   margin: auto;
-  top: 40%;
+  top: 41%;
   background-color: white;
   width:70%;
   /* border: 3px solid #3380f2 !important; */
@@ -142,7 +142,7 @@
 .newFlightsCheckIn_dateContainer{
   /* border: 1px solid purple; */
   width: 20%;
-  /* margin-top: 1%; */
+  margin-top: -4%;
 }
 
 .newFlightsCheckIn_dateContainer p{
@@ -160,13 +160,13 @@
   border: 1px solid #dddddd75 !important;
   /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-  margin-top: -5%;
+  margin-top: -7%;
   margin-left: 5%;
   width: 100%;
   border: none;
   outline: none !important;
   padding-top: 2%;
-  height: 40px;
+  height: 35px;
   width: 90% !important;
   color: black;
   /* border: none !important; */
@@ -178,8 +178,9 @@
 .newFlightsCheckout_DateContainer{
   /* border-right: 1px solid orange; */
   width: 22%;
-  /* margin-top: 1%; */
+  margin-top: -4%;
   /* background-color: #8DBBFF; */
+  /* border: 2px solid red; */
 }
 
 .newFlightsCheckout_DateContainer p{
@@ -199,7 +200,7 @@
   border: none;
   outline: none !important;
   padding-top: 2%;
-  height: 40px;
+  height: 35px;
   width: 90% !important;
   color: black;
   outline: none !important;
@@ -311,20 +312,24 @@
 .newFlight_chooseClass1 select{
   background-color: none;
   color: #393939;
+  margin-top: 3%;
+  width: 90%;
   border: 1px solid #dddddd75;
   font-size: 15px;
-  height: 30px;
-  /* margin-left: 40%; */
+  height: 40px;
   outline: none;
+  margin-left: 5%;
 }
 .newFlight_chooseClass2 select{
   background-color: none;
   color: #393939;
+  margin-top: 3%;
+  width: 90%;
   border: 1px solid #dddddd75;
   font-size: 15px;
-  margin-left: 40%;
-  height: 30px;
+  height: 40px;
   outline: none;
+  /* margin-left: %; */
 }
 
 

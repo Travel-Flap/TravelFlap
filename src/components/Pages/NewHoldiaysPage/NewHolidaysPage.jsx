@@ -15,6 +15,7 @@ import { NewHolidaysPageBanner } from './NewHolidaysPageBanner/NewHolidaysPageBa
 import { HolidaysThemeFilter } from './NewHolidaysThemeFilter/HolidaysThemeFilter';
 import { NewHomeStoriesSection } from "../../Pages/NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection";
 import { NewHolidaysCategory } from './NewHolidaysCategory/NewHolidaysCategory';
+import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopularDestination';
 import { Helmet } from 'react-helmet';
 
 export const NewHolidaysPage = () => {
@@ -40,11 +41,11 @@ export const NewHolidaysPage = () => {
         <NewPopularDestination />
       </div>
 
-      <div className=''>
+      {/* <div className=''>
         <NewHolidaysBestBudget />
-      </div>
+      </div> */}
 
-
+      <CenterMode/>
 
 
       <div className=''>

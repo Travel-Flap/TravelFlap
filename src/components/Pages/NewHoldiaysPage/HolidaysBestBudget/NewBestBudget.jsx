@@ -8,6 +8,7 @@ import "./NewBestBudget.css";
 import countrydata from '../../../../CountryData.json';
 import { Button } from "react-bootstrap";
 import { FaAngleLeft, FaAngleDown } from 'react-icons/fa';
+import SliderWrapper from "./SlickSliderStyle";
 import { BsFillChatLeftFill, BsFillStarFill, BsStarHalf } from "react-icons/bs";
 // import { CountryDropHotel } from "./CountryDropHotel";
 
@@ -15,6 +16,7 @@ export const NewHolidaysBestBudget = () => {
     const [countryid, setCountryid] = useState('');
     const [state, setState] = useState([]);
     const [stateid, setStateid] = useState('');
+    const [slideindex, setSlideindex] = useState(0);
 
     const handlecounty = (e) => {
         const getcountryId = e.target.value;
@@ -99,16 +101,24 @@ export const NewHolidaysBestBudget = () => {
             </div>
 
             <div className="newBestBudgetslidercontainer">
+            <SliderWrapper>
                 <Slider
                     arrows={false}
                     autoplay={true}
-                    speed={2000}
+                    speed={4000}
                     autoplaySpeed={2000}
                     dots={true}
                     dotsclassName="slick-dots bestBudgetslickDots line-indicator"
                     ref={sliderRef}
                     slidesToShow={5}
                     slidesToScroll={2}
+                    appendDots={dots => <ul>{dots}</ul>}
+                    customPaging={i => (
+                        <div className="ft-slick__dots--custom">
+                            <div className="loading" />
+                        </div>
+                    )}
+                    beforeChange={(current, next) => setSlideindex(next)}
                     responsive={[
                         {
                             breakpoint: 1024,
@@ -150,7 +160,7 @@ export const NewHolidaysBestBudget = () => {
                             }
                         }
                     ]}
-                    customPaging={(i) => (
+                    customPagingg={(i) => (
                         <div
                             style={{
                                 // position: "absolute",
@@ -344,6 +354,8 @@ export const NewHolidaysBestBudget = () => {
 
 
                 </Slider>
+
+            </SliderWrapper>
             </div>
         </div>
     );

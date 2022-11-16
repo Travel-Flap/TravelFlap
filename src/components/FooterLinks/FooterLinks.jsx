@@ -5,7 +5,7 @@ import "./FooterLinks.css";
 export const FooterLinks = () => {
     return (
         <>
-        <div className='footerlinksdropstate'>
+        <div className='footerlinksdropstate' style={{marginTop:"0%"}}>
             <StateDrop />
         </div>
             <div className='outercontainer'>

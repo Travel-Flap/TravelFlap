@@ -46,7 +46,7 @@ export const NewActivities = () => {
       {/* <NewHomeAwards/> */}
 
       <NewHomeStoriesSection />
-
+      
       <Plan />
       {/* <NewHomeOurPartners/> */}
 

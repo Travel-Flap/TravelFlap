@@ -1,39 +1,106 @@
+
+
 import React, { Component } from 'react';
+import { useRef } from "react";
+import { useEffect,useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './DomesticCruise.css';
-import { Button } from 'react-bootstrap';
-import countrydata from '../../../../CountryData.json';
-import {FaAngleRight} from "react-icons/fa";
+import SliderWrapper from "./SlickSliderStyle";
+
+export const DomesticCruise = () => {
+    const [slideindex, setSlideindex] = useState(0);
+
+    const sliderRef = useRef(null);
+    useEffect(() => {
+        console.log(sliderRef);
+    }, []);
 
 
-// import "/src/App.css";
+    return (
+        <div className='newDomesticCruisecontainer'>
+        <div style={{width:"90%" ,margin:"auto"}}>
+        <div className='newDomesticCruiseHeadingContainer'>
+            <h2>Domestic Cruise</h2>
 
-export default class DomesticCruise extends Component {
-    render() {
-        const settings = {
-            // dots: true,
-            infinite: true,
-            autoplay: true,
-            autoplaySpeed:2000,
-            speed: 2000,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            cssEase: "linear",
-            arrows:false, 
-        };
-        return (
-            <div className='newDomesticCruisecontainer'>
-                <div style={{width:"90%" ,margin:"auto"}}>
-                <div className='newDomesticCruiseHeadingContainer'>
-                    <h2>Domestic Cruise</h2>
+            <div className='newDomesticCruisedealsbutton'> 
+                        View all Deals
+            </div>
+        </div>
 
-                    <div className='newDomesticCruisedealsbutton'> 
-                                View all Deals
-                    </div>
-                </div>
-                <Slider {...settings} className="multiCardSlider">
+            <SliderWrapper>
+            <Slider 
+                                            arrows={false}
+                                            autoplay={true}
+                                            speed={4000}
+                                            autoplaySpeed={4000}
+                                            dots={true}
+                                            dotsclassName="slick-dots line-indicator"
+                                            ref={sliderRef}
+                                            slidesToShow={4}
+                                            slidesToScroll={2}
+                                            appendDots={dots => <ul>{dots}</ul>}
+                                            customPaging={i => (
+                                                <div className="ft-slick__dots--custom">
+                                                    <div className="loading" />
+                                                </div>
+                                            )}
+                                            beforeChange={(current, next) => setSlideindex(next)}
+                                            responsive={[
+                                                {
+                                                    breakpoint: 1024,
+                                                    settings: {
+                                                        slidesToShow: 3,
+                                                        slidesToScroll: 1,
+                                                        infinite: true
+                                                    }
+                                                },
+                                                {
+                                                    breakpoint: 950,
+                                                    settings: {
+                                                        slidesToShow: 2,
+                                                        slidesToScroll: 1,
+                                                        infinite: true
+                                                    }
+                                                },
+                                                {
+                                                    breakpoint: 800,
+                                                    settings: {
+                                                        slidesToShow: 2,
+                                                        slidesToScroll: 1,
+                                                        infinite: true
+                                                    }
+                                                },
+                                                {
+                                                    breakpoint: 600,
+                                                    settings: {
+                                                        slidesToShow: 2,
+                                                        slidesToScroll: 2,
+                                                        initialSlide: 2
+                                                    }
+                                                },
+                                                {
+                                                    breakpoint: 480,
+                                                    settings: {
+                                                        slidesToShow: 1,
+                                                        slidesToScroll: 1
+                                                    }
+                                                }
+                                            ]}
+                                            customPagingg={(i) => (
+                                                <div
+                                                    style={{
+                                                        width: "100%",
+                                                        top: "-10px",
+                                                        opacity: 0,
+                                                    }}
+                                                >
+                                                    {i}
+                                                </div>
+                                            )}
+                                            
+                                             className="multiCardSlider">
                     <div className="card-wrapper newDomesticCruisewrapper">
                         <div className="card newMultisection_DomesticCruiseimage">
                             <div className="card-image newDomesticCruisecardImage">
@@ -136,8 +203,10 @@ export default class DomesticCruise extends Component {
                         </div>
                     </div> 
                 </Slider>
-                </div>
+            </SliderWrapper>
             </div>
-        )
-    }
+        </div>
+    )
+    
 }
+
