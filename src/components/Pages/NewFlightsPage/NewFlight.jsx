@@ -10,7 +10,7 @@ import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar';
 import { NewDomesticFlightsNearYou } from './NewDomesticFlights/NewDomesticFlights'
 import { NewFlightsBanner } from './NewFlightBanner/NewFlightBanner'
 import { FrequentlyAskedQuestions } from './NewFrequentlyAskedQuestions/FrequentlyAskedQuestions'
-import NewHomeAwards  from "../NewHomePage/NewHomeAwards/NewHomeAwards";
+import NewHomeAwards from "../NewHomePage/NewHomeAwards/NewHomeAwards";
 import { NewHomeBottomBar } from '../NewHomePage/NewHomeBottomBar/NewHomeBottomBar'
 import { FlightsNearYou } from './NewFlightNearYou/FlightsNearYou'
 
@@ -20,58 +20,69 @@ import { CenterMode } from '../NewHomePage/NewHomePopularDetination/NewHomePopul
 import { Helmet } from 'react-helmet'
 
 export const NewFlight = () => {
-  return (
-    <div>
-        <Helmet>
-            <title>TravelFlap-One Stop solution for all your vacations</title>
-            <meta name='description' content='All go flight booking solution for International and Domestic at one place' />
-        </Helmet>
-        <NewHomeNav/>
-        {/* <NewHomeCaruosel/> */}
-        
-        <NewFlightsBanner/>
+    return (
+        <div>
+            <Helmet>
+                <title>TravelFlap-One Stop solution for all your vacations</title>
+                <meta name='description' content='All go flight booking solution for International and Domestic at one place' />
+            </Helmet>
+            <NewHomeNav />
+            {/* <NewHomeCaruosel/> */}
 
-        <div className='carousel'>
-            <NewHomeExclusiveDeals/>
-        </div>
+            <div
+                data-skyscanner-widget="FlightSearchWidget"
+                data-locale="en-GB"
+                data-market="UK"
+                data-currency="GBP"
+                data-responsive="true"
+            ></div>
+            <script src="https://widgets.skyscanner.net/widget-server/js/loader.js" async>
 
-        <FlightsNearYou/>
+            </script>
 
-        {/* <CheapFlights/> */}
-        {/* <div className='carousel'>
+            <NewFlightsBanner />
+
+            <div className='carousel'>
+                <NewHomeExclusiveDeals />
+            </div>
+
+            <FlightsNearYou />
+
+            {/* <CheapFlights/> */}
+            {/* <div className='carousel'>
             <NewFlightsNearYou/>
         </div> */}
-        {/* <div className='carousel'>
+            {/* <div className='carousel'>
             <NewDomesticFlightsNearYou/>
         </div> */}
 
-        <NewHomeHandPicked/>
-        <CenterMode/>
+            <NewHomeHandPicked />
+            <CenterMode />
 
-        
 
-        
 
-        {/* <div className='carousel'>
+
+
+            {/* <div className='carousel'>
             <NewHomeTopCitites/>
         </div> */}
 
-        
-        
-        {/* <NewHomeAwards/> */}
 
-        <NewHomeAppDownload/>
-        
-        <FooterLinks/>
-        {/* <FrequentlyAskedQuestions/> */}
 
-        {/* <NewHomeAwards/> */}
+            {/* <NewHomeAwards/> */}
 
-        <NewHomeStoriesSection/>
-        <Plan/>
-        
-        <NewHomeFooter/>
-        <NewHomeBottomBar/>
-    </div>
-  )
+            <NewHomeAppDownload />
+
+            <FooterLinks />
+            {/* <FrequentlyAskedQuestions/> */}
+
+            {/* <NewHomeAwards/> */}
+
+            <NewHomeStoriesSection />
+            <Plan />
+
+            <NewHomeFooter />
+            <NewHomeBottomBar />
+        </div>
+    )
 }

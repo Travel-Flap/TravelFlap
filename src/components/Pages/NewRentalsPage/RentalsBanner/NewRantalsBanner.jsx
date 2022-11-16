@@ -34,7 +34,7 @@ export const NewRentalBanner = () => {
                     <Carousel fade data-interval="false">
                         <Carousel.Item className='experimentTopBannerdiv'>
                             <img
-                                className="d-block w-100"
+                                className="d-block h-750 w-100"
                                 src="Images/NewHomeLayout/Banners/Car Rental/Image 3.jpg"
                                 alt="First slide"
                             />
@@ -57,7 +57,7 @@ export const NewRentalBanner = () => {
                         </Carousel.Item>
                         <Carousel.Item className='experimentTopBannerdiv'>
                             <img
-                                className="d-block w-100"
+                                className="d-block h-750 w-100"
                                 src="Images/NewHomeLayout/Banners/Car Rental/image 1.jpg"
                                 alt="Third slide"
                             />
