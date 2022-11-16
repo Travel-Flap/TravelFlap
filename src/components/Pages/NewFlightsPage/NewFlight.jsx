@@ -72,12 +72,6 @@ export const NewFlight = () => {
             <NewHomeTopCitites/>
         </div> */}
 
-
-
-        <NewHomeAppDownload/>
-        
-        <FooterLinks/>
-       
         
         {/* <FrequentlyAskedQuestions/> */}
 

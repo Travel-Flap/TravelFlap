@@ -1,0 +1,452 @@
+/* .newStayNearYouMaincarddiv{
+    border: 1px solid red;
+} */
+
+.newStayNearYouMaincarddiv  {
+    height: 600px;
+    border: none;
+    background-color:white !important;
+  }
+
+  .newStayNearYouHeadingouterdiv h2 {
+    color: #393939;
+    margin-left: 3.6%;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+  }
+  
+  .newStayNearYouHeadingouterdiv{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .newPopularbelowHeadingdiv{
+    display: flex;
+    flex-direction: row;
+    color: #393939;
+  }
+
+  .belowInternationalheading{
+    margin-left: 2%;
+    width: 12%;
+    font-size: 28px;
+    margin-bottom: 3%;
+    border-right: 2px solid lightgray;
+  }
+
+  .belowDomesticHeading{
+    margin-left: 1.5%;
+    font-size: 28px;
+    /* border: 2px solid red; */
+  }
+
+  /* .newPopularDestinationsDropContainer {
+    width: 20%;
+    margin-left: 56%;
+    
+    height: 50px;
+    border: 2px solid red;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+  } */
+  /* .newPopularDestinationsDropContainer {
+    width: 14%;
+    margin-left: 60%;
+    margin-top: 0.1%;
+    display: flex;
+    height: 49px !important;
+    flex-direction: row;
+    border-right: none;
+  } */
+  /* .newPopularDestinationsDropContainer:hover .newPopularDestinationsicon{
+    background-color:white;
+    color: #3380F2;
+    cursor: pointer;
+  }
+  .newPopularDestinationsCountryDrop:hover {
+    background-color: white !important;
+    color: #3380F2 !important;
+    font-weight: 700;
+    border: 3px solid #3380F2;
+  }
+  
+  .newPopularDestinationsDropContainer select{
+    background-image: none;
+  }
+  .newPopularDestinationsCountryDrop {
+    border: 3px solid #3380F2 !important;
+    background-color: #3380F2 !important;
+    width: 74% !important;
+    color:white !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    cursor: pointer;
+    border-radius: 25px 0px 0px 25px !important;
+    border-right: none !important;
+    appearance: none !important;
+  }
+  
+  .newPopularDestinationsicon{
+    width: 14%;
+    color: white;
+    border: 3px solid  #3380F2;
+    background-color: #3380F2;
+    height: 49px;
+    font-size: 18px !important;
+    border-radius: 0px 25px 25px 0px;
+    padding-right: 5%;
+    border-left: none;
+  } */
+  .newStayNearYouSlidercontainer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .newhomeTopCititesSlidercontentdiv {
+    width: 30% !important;
+  }
+  
+  .newhomeTopCititesSlidercontentdiv h2{
+      font-size: 28px;
+      margin-left: 3%;
+  }
+  /* This css refernce is taken from the TopCitites main page if any issue look at that component */
+  .topcitiescontainer {
+    /* border: 1px solid blue; */
+    width: 100% !important;
+    margin-bottom: 4%;
+    /* background-color: green; */
+  }
+  
+  .topcities_title {
+    display: flex;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    margin-top: -3%;
+    font-size: 40px;
+    color: rgb(51, 128, 242);
+  }
+  
+  .topcities_title h2 {
+    color: rgb(51, 128, 242);
+    text-decoration: none solid rgb(45, 44, 44);
+    vertical-align: baseline;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top: 0.4%;
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .newStayNearYouSlickslidercontainer {
+    /* border: 1px solid red; */
+    /* width: 50%; */
+    /* margin-left: -3%; */
+    /* margin-right: 5%; */
+    width: 97%;
+    margin: auto;
+  }
+  
+  .card-wrapper {
+    /* border: 1px solid black; */
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .newStayNearYouDiv {
+    /* border: 1px solid red !important; */
+    width: 100%;
+    border: none;
+    border-radius: 16px !important;
+    /* border-bottom-left-radius: 50%; */
+  
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .newStayNearYouCardimage {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 360px !important;
+    z-index: 2;
+    background-color: #000;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    /* border-bottom-left-radius: 50%; */
+  }
+  
+  .newStayNearYouCardimage img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.9);
+    /* border-radius: 50%; */
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  /* .newStayNearYouDiv img{
+      border-bottom-left-radius: 25%;
+    } */
+  
+  .newStayNearYouDiv:hover img {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  .newStayNearYouDiv:hover .newStayNearYouCardimage {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  
+  .newStayNearYouDetails {
+    position: absolute;
+    bottom: -45%;
+    left: 0;
+    width: 100%;
+    height: 310px;
+    z-index: 100000000;
+    padding: 10px;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    color: white;
+  }
+  
+  /* .newStayNearYouDetails :hover {
+    color: white;
+  } */
+  
+  .newStayNearYouDetails h2 {
+    margin: 0px 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .newStayNearYouDetails h2 .job-title {
+    font-size: 16px;
+    line-height: 2;
+    font-weight: 300;
+    display: block;
+  }
+  
+  /* .newStayNearYouDiv:hover .newStayNearYouDetails {
+      bottom: 0;
+    } */
+  
+  .newStayNearYouDetails button{
+    margin-left: 35%;
+  }
+  
+  /* .newhomeTopCities{
+    border: 1px solid red;
+  } */
+  .newhomeTopCitiesBottomTexts{
+    margin-top: -20%;
+    z-index: 100000;
+  }
+  .newhomeTopCitiesBottomTexts h2{
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 20px;
+  }
+  .newhomeTopCitiesBottomTexts p{
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .carousel .slick-dots {
+    bottom: -2.5vw;
+  }
+  
+  .carousel .slick-dots li button {
+    width: 20px;
+    height: 20px;
+    background: whitesmoke !important;
+    /* background: rgb(51, 128, 242); */
+    border: 1px solid rgb(51, 128, 242);
+    border-radius: 20px;
+  }
+  
+  .carousel .slick-dots li button:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    content: "";
+    text-align: center;
+    opacity: 0.5;
+    color: white !important;
+    background-color: blue !important;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .carousel .slick-prev,
+  .carousel .slick-next {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+  }
+  
+  .carousel .slick-prev:hover,
+  .carousel .slick-prev:focus,
+  .carousel .slick-next:hover,
+  .carousel .slick-next:focus {
+    color: #fff;
+    outline: none;
+    background: #fff;
+  }
+  
+  .carousel .slick-prev:before,
+  .carousel .slick-next:before {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .carousel .slick-next {
+    right: -55px;
+  }
+  
+  .carousel .slick-prev {
+    left: -55px;
+  }
+  
+
+  /* ----------------- New button css ----------------  */
+
+/* 
+.newPopularDestinationsDropContainer {
+  width: 9% !important;
+  margin-left:63%;
+  margin-top: 2.1%;
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+  height: 39px;
+  border-radius: 25px;
+  background-color: white !important;
+  display: flex;
+  align-items: center;
+  color: #3380F2 !important;
+  font-weight: 700;
+  justify-content: space-between;
+  border: 2px solid #3380F2;
+  outline: none;
+  padding-left: 15px;
+}
+
+.newPopularDestinationsCountryDrop {
+  border: 3px solid White !important;
+  background-color: White !important;
+  width: 80% !important;
+  height: 39px !important;
+  color:#3380F2 !important;
+  font-weight: 700 !important;
+  font-size: 17px !important;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px !important;
+  border-right: none !important;
+  appearance: none !important;
+  padding-top: 2.5%;
+}
+.newPopularDestinationsDropContainer select{
+  border: 1px solid red !important;
+  background-image: none !important;
+} */
+
+
+#HotelsStayNearYouDropContainer {
+  width: 9.5% !important;
+  margin-left: 70%;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  border-right: none;
+  height: 39px;
+  border-radius: 25px;
+  align-items: center;
+  color: white !important;
+  font-weight: 700;
+  justify-content: space-between;
+  /* border: 2px solid #3380F2; */
+  outline: none;
+  padding-left: 15px;
+}
+
+#HotelsStayNearYouCountrydrop {
+  background-color: #3380F2 !important;
+  width: 80%;
+  height: 100%;
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px;
+  border-right: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+}
+#HotelsStayNearYouIcondiv {
+  width: 20%;
+  color: white;
+  background-color: #3380F2;
+  height: 100%;
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
+}
+#HotelsStayNearYouicon {
+  margin-left: -37%;
+  color: white;
+  height: 21px;
+  width: 20px;
+  border-radius: 100%;
+  margin-top: 47%;
+}
+
+/* .newPopularDestinationsicondiv{
+  width: 20%;
+  color: #3380F2;
+  border: 3px solid #3380F2;
+  background-color: White;
+  height: 39px;
+  font-size: 18px !important;
+  border-radius: 0px 25px 25px 0px;
+  padding-right: 5%;
+  border-left: none;
+  border: 2px solid yellow;
+}
+.newPopularDestinationsicon{
+  margin-left: -37%;
+  width: 100% !important;
+  color: white !important;
+  border: 3px solid #3380F2;
+  background-color: #3380F2 !important;
+  height: 25px;
+  width: 25px;
+  font-size: 18px !important;
+  border-radius: 100%;
+  margin-top: 29% !important;
+  margin-bottom: 105%;
+} */
