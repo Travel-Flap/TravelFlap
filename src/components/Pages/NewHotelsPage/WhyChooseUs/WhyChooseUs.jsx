@@ -1,66 +1,44 @@
-import React from "react";
 import "./WhyChooseUs.css";
-import { MdLocalOffer, MdHome, MdOutlineDownloading, MdOutlineMessage } from 'react-icons/md';
+import first from "./first.png";
+import second from "./second.png";
+import third from "./third.png";
+
 export const WhyChooseUs = () => {
     return (
         <>
-            <div className="newChoose_container">
-                {/* <div id="newChoose_containerchild1">
-                    <h5>Why Choose Us?</h5>
+            <div className="newwhyChoosemaindiv">
+                <div className="newwhychooseheading">
+                    Why Choose US?
                 </div>
-                <div id="newChoose_containerchild2">
-                    <div id="newChoosechild_part1" className="newChoose_commonchild">
-                        <div className="newChoose_icons ">
-                            <div className="chooseUsIconsdiv">
-                                <MdLocalOffer className="choseUsIcons" />
-                            </div>
-
+                <div className="newwhychooseOptions">
+                    <div className="newwhychooseOptions1">
+                        <div className="newWhychooseIcon1">
+                            <img src={first}/>
                         </div>
-                        <div id="contentDiv" className="newChoose_data">
-                            <h6>Search for the best hotel deals</h6>
-                            <span>Compare deals from 3M+ hotels and accommodations in one place.</span>
+                        <div className="newWhychooseContent">
+                            <h4>Exclusive Deals</h4>
+                            <p>Compare Deals from 3M+ hotels and <br/> accommodations at one place</p>
                         </div>
                     </div>
-
-                    <div id="chid2_part2" className="newChoose_commonchild">
-                        <div className="newChoose_icons">
-                            <div className="chooseUsIconsdiv">
-                                <MdHome className="choseUsIcons" />
-                            </div>
+                    <div className="newwhychooseOptions1">
+                        <div className="newWhychooseIcon1">
+                            <img src={second}/>
                         </div>
-
-                        <div className="newChoose_data" >
-                            <h6>Stasys For every need</h6>
-                            <span>Choose your ideal stay from hotels, resotsm homestays, cotteges and other property types.</span>
+                        <div className="newWhychooseContent">
+                            <h4>Stays for every need</h4>
+                            <p>Choose your ideal stays from hotels, restaurants, <br/> homestays,cottages and other properties</p>
                         </div>
                     </div>
-                    <div id="chid2_part3" className="newChoose_commonchild">
-
-                        <div className="newChoose_icons">
-                            <div className="chooseUsIconsdiv">
-                                <MdOutlineDownloading className="choseUsIcons"  />
-                            </div>
+                    <div className="newwhychooseOptions1">
+                        <div className="newWhychooseIcon1">
+                            <img src={third}/>
                         </div>
-                        <div className="newChoose_data">
-                            <h6>Free cancellation </h6>
-                            <span>With easy to use filterslike free cancelleation,enjoy flexibility while booking your stay with Travelflap.</span>
+                        <div className="newWhychooseContent">
+                            <h4>Millions of Reviews</h4>
+                            <p>Check Rating based on millions of <br/> guest reviews</p>
                         </div>
                     </div>
-                    <div id="chid2_part4" className="newChoose_commonchild">
-                        <div className="newChoose_icons">
-                            <div className="chooseUsIconsdiv">
-                                <MdOutlineMessage className="choseUsIcons"  />
-                            </div>
-                        </div>
-                        <div className="newChoose_data">
-                            <h6>Millions of reviews</h6>
-                            <span>Check rating based on millions of real guest reviews.</span>
-                        </div>
-                    </div>
-
-
-
-                </div> */}
+                </div>
             </div>
 
         </>

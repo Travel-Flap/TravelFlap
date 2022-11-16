@@ -20,7 +20,9 @@ export const InnerPopularDestination2 = () => {
 
            <InnerPopularDestination2scrollData/>
 
-           <StaycationFaq/>
+           <div style={{marginTop:"80%"}}>
+               <StaycationFaq/>
+           </div>
            <VideoTextStaycation/>
            <div style={{marginTop:"-3%"}}><InnerhandpickedFooter/> </div>
         </>

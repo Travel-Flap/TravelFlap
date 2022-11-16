@@ -1,8 +1,18 @@
 
 .Cruise_carouselmain {
-    height: 530px;
+    height: 750px !important;
     box-sizing: border-box;
     /* border: 3px solid red; */
+  }
+
+
+  .rentalsTopBannerdiv{
+    height: 750px;
+    /* border: 2px solid red; */
+  }
+  .rentalsTopBannerdiv img{
+    height: 750px;
+    filter: brightness(0.4) !important;
   }
   
   .rental_bannertitle{

@@ -32,19 +32,19 @@ export const NewRentalBanner = () => {
                     {/* <Services /> */}
 
                     <Carousel fade data-interval="false">
-                        <Carousel.Item className='experimentTopBannerdiv'>
+                        <Carousel.Item className='rentalsTopBannerdiv'>
                             <img
-                                className="d-block w-100"
+                                className="d-block h-750 w-100"
                                 src="Images/NewHomeLayout/Banners/Car Rental/Image 3.jpg"
                                 alt="First slide"
-                                style={{height:"100%"}}
+                               
                             />
                             {/* <Carousel.Caption>
                             <h3>First slide label</h3>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption> */}
                         </Carousel.Item>
-                        <Carousel.Item className='experimentTopBannerdiv'>
+                        <Carousel.Item className='rentalsTopBannerdiv'>
                             <img
                                 className="d-block w-100"
                                 src="Images/NewHomeLayout/Banners/Car Rental/image 2.jpg"
@@ -56,7 +56,7 @@ export const NewRentalBanner = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </Carousel.Caption> */}
                         </Carousel.Item>
-                        <Carousel.Item className='experimentTopBannerdiv'>
+                        <Carousel.Item className='rentalsTopBannerdiv'>
                             <img
                                 className="d-block w-100"
                                 src="Images/NewHomeLayout/Banners/Car Rental/image 1.jpg"

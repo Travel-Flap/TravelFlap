@@ -65,13 +65,13 @@
   }
   .logo1 {
     cursor: pointer;
-    height: 100px;
+    height: 80px;
     width: 150px;
-    margin: 9% 0 0% 50%;
+    margin: 0% 0 0% 50%;
     /* border: 2px solid red; */
   }
   .logo1 img {
-    height: 90px;
+    height: 100px;
     width: 100%;
   }
   .navbar {

@@ -141,10 +141,11 @@
   }
   
  .experimentTopBannerdiv{
-  height: 720px;
+  height: 750px;
  }
  
  .experimentTopBannerdiv img{
+  height:750px;
   filter: brightness(0.4) !important;
  }
   

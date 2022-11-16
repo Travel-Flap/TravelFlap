@@ -30,7 +30,7 @@ export const NewHotel = () => {
             <NewHomeNav />
             <NewHotelCaruosel />
 
-            <div className='carousel'>
+            <div style={{marginTop:"-4%"}}>
                 <NewHomeExclusiveDeals />
             </div>
 

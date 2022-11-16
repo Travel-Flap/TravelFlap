@@ -1,456 +1,314 @@
-/* .newPopularDestinationMaincarddiv{
-    border: 1px solid red;
-} */
+.innerPopularDestination2scrollDatamaindiv{
+  width: 100%;
+  height: 1000px;
+}
 
-.newPopularDestinationMaincarddiv  {
-    height: 600px;
-    border: none;
-    background-color:white !important;
-  }
+.innerPopularDestination2scrollDataOuterdiv {
+  border: 2px solid lightgray !important;
+  display: flex !important;
+  flex-direction: row !important;
+  width: 96%;
+  height: 420px !important;
+  transition: all 300ms ease-in-out;
+}
 
-  .innerPopularDestination2scrollDataHeadingouterdiv h2 {
-    color: #3380F2;
-    margin-left: 2%;
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 0.5%;
-    margin-bottom: 2%;
-  }
-  
-  .innerPopularDestination2scrollDataHeadingouterdiv{
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .newPopularbelowHeadingdiv{
-    display: flex;
-    flex-direction: row;
-    color: #393939;
-  }
+.innerPopularDestination2scrollDataOuterdiv:hover {
+  width: 100%;
+  /* padding: 5px; */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
 
-  .belowInternationalheading{
-    margin-left: 2%;
-    width: 12%;
-    font-size: 28px;
-    margin-bottom: 3%;
-    border-right: 2px solid lightgray;
-  }
+.innerPopularDestination2scrollDataHeadingcontainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
+  margin-top: 3%;
+}
 
-  .belowDomesticHeading{
-    margin-left: 1.5%;
-    font-size: 28px;
-    /* border: 2px solid red; */
-  }
+.innerPopularDestination2scrollDataHeading1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 2%;
+  margin-left: 5%;
+  width:65%;
+  color: #393939;
+  /* color: #3380f2; */
+}
 
-  /* .innerPopularDestination2scrollDataDropContainer {
-    width: 20%;
-    margin-left: 56%;
-    
-    height: 50px;
-    border: 2px solid red;
-    margin-bottom: 1%;
-    display: flex;
-    flex-direction: row;
-  } */
-  /* .innerPopularDestination2scrollDataDropContainer {
-    width: 14%;
-    margin-left: 60%;
-    margin-top: 0.1%;
-    display: flex;
-    height: 49px !important;
-    flex-direction: row;
-    border-right: none;
-  } */
-  /* .innerPopularDestination2scrollDataDropContainer:hover .innerPopularDestination2scrollDataicon{
-    background-color:white;
-    color: #3380F2;
-    cursor: pointer;
+.newviewallActivityAroundbuttons {
+  color: white;
+  font-weight: 700;
+  text-decoration: none !important;
+  display: flex;
+  margin: 1.5% 0 0 55%;
+  width: 56%;
+}
+
+.innerPopularDestination2scrollDataSliderContainer{
+  width: 90%;
+  margin: auto;
+  margin-top: 1.7%;
+}
+.innerPopularDestination2scrollDataCardtitle {
+  color: #393939 !important;
+  font-size: 22px;
+  margin-top: 1%;
+  font-weight: 700;
+}
+
+.innerPopularDestination2scrollDataCard_desc {
+  width: 90%;
+  color: #303030;
+  font-size: 14px;
+  text-align: left;
+}
+
+.domesticWorldButtonDiv{
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.domesticWorldButtonDiv h5{
+  font-size: 14px;
+  /* border: 1px solid black; */
+  margin-top: 3%;
+  font-weight: 600;
+  width: 50%;
+  color: gray;
+}
+
+.domesticWorldButtonDiv span{
+  color: #3380f2;
+  font-size: 18px;
+  margin-left:1%;
+}
+.innerPopularDestination2scrollDataButton {
+  border: 2px solid #3380f2;
+  width: 32%;
+  border-radius: 15px !important;
+  background-color: #3380F2;
+  color: white;
+  padding: 4px 9px;
+  font-weight: 500;
+  margin-left: 20%;
+  margin-bottom: 1%;
+  /* margin-top: 3%; */
+  font-size: 14px !important;
+}
+.innerPopularDestination2scrollDataButton:hover {
+  border: 2px solid #3380F2;
+  background-color: white;
+  color: #3380F2;
+  /* font-size: 14px !important; */
+}
+
+.innerPopularDestination2scrollDataImagetextcontainer {
+  width: 100%;
+  height: 430px;
+  /* border: 2px solid red; */
+  /* border-radius: 0px 0px 10px 10px !important; */
+}
+
+.innerPopularDestination2scrollDataTextcard {
+  margin-left: 9% !important;
+  width: 100% !important;
+}
+
+.innerPopularDestination2scrollDataTextcard:hover div {
+  color: white;
+}
+
+.exclusivedealsimagediv {
+  width: 800px;
+  height: 200px !important;
+}
+.exclusivedealsimage {
+  width: 700px;
+  height: 10px;
+  margin-left: 40%;
+}
+
+.innerPopularDestination2scrollDataCardimage {
+  /* border: 2px solid rebeccapurple; */
+  width: 100% !important;
+  height: 230px;
+  /* margin-left: 4%; */
+  /* margin-top: 4%; */
+}
+
+.activityAroundimage{
+  height: 240px !important;
+  width: 100% !important;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.innerPopularDestination2scrollDataCarddescmain {
+  width: 100%;
+  margin-left: -9%;
+}
+
+.exclusivecarddesc:hover {
+  color: white;
+}
+
+.newviewallActivityAroundtext{
+  margin-top: 0.5%;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 34%;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 16px;
+  padding-top: 4px;
+  margin-bottom: 8%;
+  text-decoration: none !important;
+}
+
+.newviewallActivityAroundtext:hover{
+  background-color: white;
+  color: #3380f2;
+}
+
+.newActivityAroundHeadingbuttons {
+  justify-content: flex-end;
+  /* width: -1%; */
+  margin-left: 6%;
+  margin-top: -1%;
+  background-color: #3380f2 !important;
+}
+
+
+.newActivityAroundHeadingbuttons button{
+  color: #3380f2 !important;
+  background-color: white !important;
+}
+
+
+.line-indicator li {
+  height: 4px;
+  width: 70px;
+  background: lightgray;
+  border-radius: 5px;
+}
+
+.line-indicator li:hover {
+  background: gray;
+}
+
+.line-indicator li.slick-active {
+  background: blue;
+}
+
+.buttons {
+  background: rgb(51, 128, 242) !important;
+  color: white !important;
+  transition: 700ms;
+}
+.buttons:hover {
+  transform: scale(1.1);
+}
+
+
+
+@media screen and (max-width: 950px) {
+  .innerPopularDestination2scrollDataImagetextcontainer {
+    flex-direction: column;
   }
-  .innerPopularDestination2scrollDataCountryDrop:hover {
-    background-color: white !important;
-    color: #3380F2 !important;
-    font-weight: 700;
-    border: 3px solid #3380F2;
-  }
-  
-  .innerPopularDestination2scrollDataDropContainer select{
-    background-image: none;
-  }
-  .innerPopularDestination2scrollDataCountryDrop {
-    border: 3px solid #3380F2 !important;
-    background-color: #3380F2 !important;
-    width: 74% !important;
-    color:white !important;
-    font-weight: 700 !important;
-    font-size: 14px !important;
-    cursor: pointer;
-    border-radius: 25px 0px 0px 25px !important;
-    border-right: none !important;
-    appearance: none !important;
-  }
-  
-  .innerPopularDestination2scrollDataicon{
-    width: 14%;
-    color: white;
-    border: 3px solid  #3380F2;
-    background-color: #3380F2;
-    height: 49px;
-    font-size: 18px !important;
-    border-radius: 0px 25px 25px 0px;
-    padding-right: 5%;
-    border-left: none;
-  } */
-  .innerPopularDestination2scrollDataSlidercontainer {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .newhomeTopCititesSlidercontentdiv {
-    width: 30% !important;
-  }
-  
-  .newhomeTopCititesSlidercontentdiv h2{
-      font-size: 28px;
-      margin-left: 3%;
-  }
-  /* This css refernce is taken from the TopCitites main page if any issue look at that component */
-  .topcitiescontainer {
-    /* border: 1px solid blue; */
-    width: 100% !important;
-    margin-bottom: 4%;
-    /* background-color: green; */
-  }
-  
-  .topcities_title {
-    display: flex;
-    margin-left: 40%;
-    margin-bottom: 2%;
-    margin-top: -3%;
-    font-size: 40px;
-    color: rgb(51, 128, 242);
-  }
-  
-  .topcities_title h2 {
-    color: rgb(51, 128, 242);
-    text-decoration: none solid rgb(45, 44, 44);
-    vertical-align: baseline;
-    letter-spacing: normal;
-    text-align: center;
-    margin-top: 0.4%;
-    font-size: 28px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  
-  .innerPopularDestination2scrollDataslickslidercontainer {
-    /* border: 1px solid red; */
-    /* width: 50%; */
-    /* margin-left: -3%; */
-    /* margin-right: 5%; */
+  .col-md-4 {
     width: 90%;
-    margin: auto;
+    height: 280px;
+    margin-left: 3%;
+    margin-top: 10%;
   }
-  
-  .card-wrapper {
-    /* border: 1px solid black; */
-    position: relative;
+  .card-title {
+    font-size: 17px;
+  }
+  .card-text {
+    font-size: 13px;
+  }
+  .newviewallActivityAroundbuttons {
+    display: none;
+  }
+  .innerPopularDestination2scrollDataHeading1 {
+    display: none;
+  }
+  .innerPopularDestination2scrollDataHeadingcontainer {
+    flex-direction: column;
+  }
+  .internationalheading2 {
     width: 100%;
-    padding: 0 10px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
   }
-  
-  .innerPopularDestination2scrollDatadiv {
-    /* border: 1px solid red !important; */
-    width: 100%;
-    border: none;
-    border-radius: 16px !important;
-    height: 300px;
-    /* border-bottom-left-radius: 50%; */
-  
-    overflow: hidden;
-    cursor: pointer;
-    position: relative;
-  }
-  
-  .innerPopularDestination2scrollDatacardimage {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 360px !important;
-    z-index: 2;
-    background-color: #000;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    /* border-bottom-left-radius: 50%; */
-  }
-  
-  .innerPopularDestination2scrollDatacardimage img {
+  .innerPopularDestination2scrollDataImagetextcontainer img {
     width: 100%;
     height: 100%;
-    filter: brightness(0.9);
-    /* border-radius: 50%; */
-    -o-object-fit: cover;
-    object-fit: cover;
   }
-  
-  /* .innerPopularDestination2scrollDatadiv img{
-      border-bottom-left-radius: 25%;
-    } */
-  
-  .innerPopularDestination2scrollDatadiv:hover img {
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-  }
-  
-  .innerPopularDestination2scrollDatadiv:hover .innerPopularDestination2scrollDatacardimage {
-    -moz-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-  }
-  
-  .innerPopularDestination2scrollDatadetails {
-    position: absolute;
-    bottom: -40%;
-    left: 0;
+  .exclusivedealsimage {
     width: 100%;
-    height: 310px;
-    z-index: 100000000;
-    padding: 10px;
-    -webkit-transition: 0.6s;
-    transition: 0.6s;
-    color: white;
+    height: 100%;
   }
-  
-  /* .innerPopularDestination2scrollDatadetails :hover {
-    color: white;
-  } */
-  
-  .innerPopularDestination2scrollDatadetails h2 {
-    margin: 0px 0;
-    padding: 0;
-    text-align: center;
-    color: white;
-    font-size: 22px;
-    font-weight: 700;
+  .innerPopularDestination2scrollDataTextcard {
+    margin-left: 8px;
   }
-  
-  .innerPopularDestination2scrollDatadetails h2 .job-title {
-    font-size: 16px;
-    line-height: 2;
-    font-weight: 300;
-    display: block;
+}
+
+@media screen and (max-width: 450px) {
+  .innerPopularDestination2scrollDataImagetextcontainer {
+    flex-direction: column;
   }
-  
-  /* .innerPopularDestination2scrollDatadiv:hover .innerPopularDestination2scrollDatadetails {
-      bottom: 0;
-    } */
-  
-  .innerPopularDestination2scrollDatadetails button{
-    margin-left: 35%;
+  .col-md-4 {
+    width: 90%;
+    height: 280px;
+    margin-left: 3%;
+    margin-top: 5%;
   }
-  
-  /* .newhomeTopCities{
-    border: 1px solid red;
-  } */
-  .newhomeTopCitiesBottomTexts{
-    margin-top: -20%;
-    z-index: 100000;
+  .card-title {
+    font-size: 17px;
   }
-  .newhomeTopCitiesBottomTexts h2{
-    /* border: 1px solid red; */
-    text-align: center;
-    font-size: 20px;
+  .card-text {
+    font-size: 13px;
   }
-  .newhomeTopCitiesBottomTexts p{
-    /* border: 1px solid red; */
-    text-align: center;
+  .newviewallActivityAroundbuttons {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -50px;
+    text-align: right;
+    width: 40%;
     font-size: 14px;
+    margin-left: 52%;
   }
-  
-  .carousel .slick-dots {
-    bottom: -2.5vw;
+  .internationalheading2 {
+    display: none;
   }
-  
-  .carousel .slick-dots li button {
-    width: 20px;
-    height: 20px;
-    background: whitesmoke !important;
-    /* background: rgb(51, 128, 242); */
-    border: 1px solid rgb(51, 128, 242);
-    border-radius: 20px;
+  .newActivityAroundHeadingbuttons {
+    display: none;
   }
-  
-  .carousel .slick-dots li button:before {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
-    content: "";
-    text-align: center;
-    opacity: 0.5;
-    color: white !important;
-    background-color: blue !important;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+  .innerPopularDestination2scrollDataHeading1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    font-size: 16px;
+    margin-left: 3%;
   }
-  
-  .carousel .slick-prev,
-  .carousel .slick-next {
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
+  .innerPopularDestination2scrollDataHeadingcontainer {
+    flex-direction: column;
   }
-  
-  .carousel .slick-prev:hover,
-  .carousel .slick-prev:focus,
-  .carousel .slick-next:hover,
-  .carousel .slick-next:focus {
-    color: #fff;
-    outline: none;
-    background: #fff;
+  .innerPopularDestination2scrollDataImagetextcontainer img {
+    width: 100%;
+    height: 100%;
   }
-  
-  .carousel .slick-prev:before,
-  .carousel .slick-next:before {
-    color: #000;
-    font-family: "Raleway", sans-serif;
+  .exclusivedealsimage {
+    width: 100%;
+    height: 100%;
   }
-  
-  .carousel .slick-next {
-    right: -55px;
+  .innerPopularDestination2scrollDataTextcard {
+    margin-left: 8px;
   }
-  
-  .carousel .slick-prev {
-    left: -55px;
-  }
-  
-
-  /* ----------------- New button css ----------------  */
-
-/* 
-.innerPopularDestination2scrollDataDropContainer {
-  width: 9% !important;
-  margin-left:63%;
-  margin-top: 2.1%;
-  display: flex;
-  flex-direction: row;
-  border-right: none;
-  height: 39px;
-  border-radius: 25px;
-  background-color: white !important;
-  display: flex;
-  align-items: center;
-  color: #3380F2 !important;
-  font-weight: 700;
-  justify-content: space-between;
-  border: 2px solid #3380F2;
-  outline: none;
-  padding-left: 15px;
 }
 
-.innerPopularDestination2scrollDataCountryDrop {
-  border: 3px solid White !important;
-  background-color: White !important;
-  width: 80% !important;
-  height: 39px !important;
-  color:#3380F2 !important;
-  font-weight: 700 !important;
-  font-size: 17px !important;
-  cursor: pointer;
-  border-radius: 25px 0px 0px 25px !important;
-  border-right: none !important;
-  appearance: none !important;
-  padding-top: 2.5%;
-}
-.innerPopularDestination2scrollDataDropContainer select{
-  border: 1px solid red !important;
-  background-image: none !important;
-} */
-
-
-#HolidaysPopularDestinationDropContainer {
-  width: 9% !important;
-  margin-left: 65%;
-  margin-top: 2.1%;
-  display: flex;
-  flex-direction: row;
-  border-right: none;
-  height: 39px;
-  border-radius: 25px;
-  align-items: center;
-  color: white !important;
-  font-weight: 700;
-  justify-content: space-between;
-  /* border: 2px solid #3380F2; */
-  outline: none;
-  padding-left: 15px;
-}
-
-#HolidaysPopularDestinationCountryDrop {
-  background-color: #3380F2 !important;
-  width: 80%;
-  height: 100%;
-  color: white;
-  font-weight: 700;
-  font-size: 15px;
-  cursor: pointer;
-  border-radius: 25px 0px 0px 25px;
-  border-right: none;
-  appearance: none;
-  border: none;
-  outline: none;
-  padding-left: 15px;
-}
-#HolidaysPopularDestinationicondiv {
-  width: 20%;
-  color: white;
-  background-color: #3380F2;
-  height: 100%;
-  border-radius: 0px 25px 25px 0px;
-  padding-right: 5%;
-  border-left: none;
-}
-#HolidaysPopularDestinationicon {
-  margin-left: -37%;
-  color: white;
-  height: 21px;
-  width: 20px;
-  border-radius: 100%;
-  margin-top: 47%;
-}
-
-.innerPopularDestination2scrollDataicondiv{
-  width: 20%;
-  color: #3380F2;
-  border: 3px solid #3380F2;
-  background-color: White;
-  height: 39px;
-  font-size: 18px !important;
-  border-radius: 0px 25px 25px 0px;
-  padding-right: 5%;
-  border-left: none;
-  border: 2px solid yellow;
-}
-.innerPopularDestination2scrollDataicon{
-  margin-left: -37%;
-  width: 100% !important;
-  color: white !important;
-  border: 3px solid #3380F2;
-  background-color: #3380F2 !important;
-  height: 25px;
-  width: 25px;
-  font-size: 18px !important;
-  border-radius: 100%;
-  margin-top: 29% !important;
-  margin-bottom: 105%;
-}
 .innerPopularDestination2arrowgif{
     width: 4%;
     height: 50px;

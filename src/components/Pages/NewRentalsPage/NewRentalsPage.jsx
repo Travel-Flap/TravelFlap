@@ -29,7 +29,10 @@ export const NewRentalsPage = () => {
 
       <NewRentalBanner />
 
-      <NewHomeExclusiveDeals />
+    <div style={{marginTop:"4%"}}>
+      <NewHomeExclusiveDeals/>
+    </div>
+      
 
       <HowRentalsWork />
 

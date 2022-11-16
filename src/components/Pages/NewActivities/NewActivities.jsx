@@ -31,7 +31,10 @@ export const NewActivities = () => {
       <NewActivityBanner />
       {/* <NewTrendingActivities/> */}
 
-      <NewTrendingActivities />
+    <div style={{marginTop:"1%"}}>
+         <NewTrendingActivities />
+    </div>
+      
       <NewActivitiesAround />
 
       <NewTopCityActivities />

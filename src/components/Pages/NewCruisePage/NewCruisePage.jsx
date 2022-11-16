@@ -28,7 +28,7 @@ export const NewCruisePage = () => {
 
             <NewCruiseExperimentBanner />
 
-            <div className='carousel'>
+            <div style={{marginTop:"3%"}}>
                 <NewHomeExclusiveDeals />
             </div>
 

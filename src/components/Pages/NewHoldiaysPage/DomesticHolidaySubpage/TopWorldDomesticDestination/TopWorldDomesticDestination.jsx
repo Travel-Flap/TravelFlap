@@ -1,13 +1,10 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 import { useRef } from "react";
 import { useEffect } from "react";
 import "./TopWorldDomesticDestination.css";
-// import { ButtonBase } from "@material-ui/core";
 import { Button } from "react-bootstrap"
-import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 
 export const DomesticSubpageWorldTop = () => {
     const sliderRef = useRef(null);
@@ -19,30 +16,6 @@ export const DomesticSubpageWorldTop = () => {
             {/* <h1>Ipl</h1> */}
             <div className="newDomesticWorldTopHeadingcontainer" >
                 <h2 className="newDomesticWorldTopHeading1">Top of the world Domestic Destinations</h2>
-                {/* <div className="internationalheading2">
-                    <div className="internationalheading">Asia</div>
-                    <div className="internationalheading">Africa</div>
-                    <div className="internationalheading">America</div>
-                    <div className="internationalheading">Antarctica</div>
-                    <div className="internationalheading">Australia</div>
-                    <div className="internationalheading">Europe</div>
-                </div> */}
-
-                {/* <div className="newviewallActivityAroundbuttons" >
-                    <p className="newviewallActivityAroundtext">view deals</p>
-                    <div className="newActivityAroundHeadingbuttons">
-
-                        <div style={{ display: "flex" }}>
-                            <FaAngleLeft size={"2.5em"}
-                                onClick={() => sliderRef.current.slickPrev()}
-                            />
-                            <FaAngleRight size={"2.5em"}
-                                onClick={() => sliderRef.current.slickNext()}
-                            />
-                        </div>
-                    </div>
-
-                </div> */}
             </div>
 
             <div className="newDomesticWorldTopSliderContainer">
