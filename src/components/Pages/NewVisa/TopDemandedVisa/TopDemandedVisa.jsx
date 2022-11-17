@@ -79,9 +79,9 @@ export const TopDemandedVisa = () => {
           Top Demanded Visa
         </h5>
 
-        <div className='newTopDemandedVisadealsbutton'> 
-                                View all Deals
-                            </div>
+        <div className='newTopDemandedVisadealsbutton'>
+          View all Deals
+        </div>
         {/* <div className="internationalcruiseheading2">
           <select name='country' className="form-select countrycruisecardselectdrop" id='internationalcruisecountrydrop' onChange={(e) => handlecounty(e)} aria-label="Default select example">
             <option id='homecarddropbox' value="">Select Country</option>
@@ -98,188 +98,188 @@ export const TopDemandedVisa = () => {
 
       <div className="internationalslidercontainer">
         <SliderWrapper>
-        <Slider
-          arrows={false}
-          // autoplay={true}
-          speed={2000}
-          autoplaySpeed={2000}
-          dotsclassName="slick-dots line-indicator"
-          ref={sliderRef}
-          slidesToShow={4}
-          slidesToScroll={2}
-          appendDots= { dots => <ul>{dots}</ul>}
-                        customPaging= { i => (
-                            <div className="ft-slick__dots--custom">
-                                <div className="loading"/>
-                            </div>
-                        )}
-                        beforeChange= { (current, next) => setSlideindex(next)}
-          responsive={[
-            {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite: true
+          <Slider
+            arrows={false}
+            // autoplay={true}
+            speed={2000}
+            autoplaySpeed={2000}
+            dotsclassName="slick-dots line-indicator"
+            ref={sliderRef}
+            slidesToShow={4}
+            slidesToScroll={2}
+            appendDots={dots => <ul>{dots}</ul>}
+            customPaging={i => (
+              <div className="ft-slick__dots--custom">
+                <div className="loading" />
+              </div>
+            )}
+            beforeChange={(current, next) => setSlideindex(next)}
+            responsive={[
+              {
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll: 1,
+                  infinite: true
+                }
+              },
+              {
+                breakpoint: 950,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                  infinite: true
+                }
+              },
+              {
+                breakpoint: 800,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                  infinite: true
+                }
+              },
+              {
+                breakpoint: 600,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll: 2,
+                  initialSlide: 2
+                }
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+                }
               }
-            },
-            {
-              breakpoint: 950,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                infinite: true
-              }
-            },
-            {
-              breakpoint: 800,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                infinite: true
-              }
-            },
-            {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                initialSlide: 2
-              }
-            },
-            {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
-            }
-          ]}
-          customPagingg={(i) => (
-            <div
-              style={{
-                width: "100%",
-                top: "-10px",
-                opacity: 0,
-              }}
-            >
-              {i}
-            </div>
-          )}
-        >
-          {/* <div className="experimentdivcontainer" style={{display:"flex",flexDirection:"row"}}/> */}
-
-
-          <div className="card-wrapper newTopDemandedVisacardmain">
-            <div className="card newTopDemandedVisadestinationsdiv">
-              <div className="card-image newTopDestinationVisacardimage">
-                <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/IndiaVisa.jpg" />
+            ]}
+            customPagingg={(i) => (
+              <div
+                style={{
+                  width: "100%",
+                  top: "-10px",
+                  opacity: 0,
+                }}
+              >
+                {i}
               </div>
-              <div className="newTopDemandedVisadestinationsdetails">
-                   <h2 style={{marginTop:"-25%"}}>India 
-                        {/* <span> */}
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                        {/* </span> */}
-                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                    </h2>
+            )}
+          >
+            {/* <div className="experimentdivcontainer" style={{display:"flex",flexDirection:"row"}}/> */}
+
+
+            <div className="card-wrapper newTopDemandedVisacardmain">
+              <div className="card newTopDemandedVisadestinationsdiv">
+                <div className="card-image newTopDestinationVisacardimage">
+                  <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/IndiaVisa.jpg" />
+                </div>
+                <div className="newTopDemandedVisadestinationsdetails">
+                  <h2 style={{ marginTop: "-25%" }}>India
+                    {/* <span> */}
+                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                    {/* </span> */}
+                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                  </h2>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="card-wrapper newTopDemandedVisacardmain">
-            <div className="card newTopDemandedVisadestinationsdiv">
-              <div className="card-image newTopDestinationVisacardimage">
-                <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/SingaporeVisa.jpg" />
-              </div>
-              <div className="newTopDemandedVisadestinationsdetails">
-              <h2 style={{marginTop:"-25%"}}>Singapore 
-                                               {/* <span> */}
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                        {/* </span> */}
-                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                    </h2>
+            <div className="card-wrapper newTopDemandedVisacardmain">
+              <div className="card newTopDemandedVisadestinationsdiv">
+                <div className="card-image newTopDestinationVisacardimage">
+                  <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/SingaporeVisa.jpg" />
+                </div>
+                <div className="newTopDemandedVisadestinationsdetails">
+                  <h2 style={{ marginTop: "-25%" }}>Singapore
+                    {/* <span> */}
+                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                    {/* </span> */}
+                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                  </h2>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="card-wrapper newTopDemandedVisacardmain">
-            <div className="card newTopDemandedVisadestinationsdiv">
-              <div className="card-image newTopDestinationVisacardimage">
-                <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/SouthAfricaVisa.jpg" />
-              </div>
-              <div className="newTopDemandedVisadestinationsdetails">
-              <h2 style={{marginTop:"-25%"}}>South Africa 
-                                               {/* <span> */}
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                        {/* </span> */}
-                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                    </h2>
+            <div className="card-wrapper newTopDemandedVisacardmain">
+              <div className="card newTopDemandedVisadestinationsdiv">
+                <div className="card-image newTopDestinationVisacardimage">
+                  <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/SouthAfricaVisa.jpg" />
+                </div>
+                <div className="newTopDemandedVisadestinationsdetails">
+                  <h2 style={{ marginTop: "-25%" }}>South Africa
+                    {/* <span> */}
+                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                    {/* </span> */}
+                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                  </h2>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="card-wrapper newTopDemandedVisacardmain">
-            <div className="card newTopDemandedVisadestinationsdiv">
-              <div className="card-image newTopDestinationVisacardimage">
-                <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/TurkeyVisa.jpg" />
-              </div>
-              <div className="newTopDemandedVisadestinationsdetails">
-              <h2 style={{marginTop:"-25%"}}>Turkey 
-                                               {/* <span> */}
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                        {/* </span> */}
-                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                    </h2>
+            <div className="card-wrapper newTopDemandedVisacardmain">
+              <div className="card newTopDemandedVisadestinationsdiv">
+                <div className="card-image newTopDestinationVisacardimage">
+                  <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/TurkeyVisa.jpg" />
+                </div>
+                <div className="newTopDemandedVisadestinationsdetails">
+                  <h2 style={{ marginTop: "-25%" }}>Turkey
+                    {/* <span> */}
+                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                    {/* </span> */}
+                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                  </h2>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="card-wrapper newTopDemandedVisacardmain">
-            <div className="card newTopDemandedVisadestinationsdiv">
-              <div className="card-image newTopDestinationVisacardimage">
-                <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/UAEVisa.jpg" />
-              </div>
-              <div className="newTopDemandedVisadestinationsdetails">
-              <h2 style={{marginTop:"-25%"}}>UAE 
-                                               {/* <span> */}
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                        {/* </span> */}
-                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                    </h2>
-              </div>
-            </div>
-          </div>
-
-          <div className="card-wrapper newTopDemandedVisacardmain">
-            <div className="card newTopDemandedVisadestinationsdiv">
-              <div className="card-image newTopDestinationVisacardimage">
-                <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/UnitesStatesVisa.jpg" />
-              </div>
-              <div className="newTopDemandedVisadestinationsdetails">
-              <h2 style={{marginTop:"-25%"}}>United States 
-                                               {/* <span> */}
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                        {/* </span> */}
-                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                    </h2>
+            <div className="card-wrapper newTopDemandedVisacardmain">
+              <div className="card newTopDemandedVisadestinationsdiv">
+                <div className="card-image newTopDestinationVisacardimage">
+                  <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/UAEVisa.jpg" />
+                </div>
+                <div className="newTopDemandedVisadestinationsdetails">
+                  <h2 style={{ marginTop: "-25%" }}>UAE
+                    {/* <span> */}
+                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                    {/* </span> */}
+                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                  </h2>
+                </div>
               </div>
             </div>
-          </div>
+
+            <div className="card-wrapper newTopDemandedVisacardmain">
+              <div className="card newTopDemandedVisadestinationsdiv">
+                <div className="card-image newTopDestinationVisacardimage">
+                  <img src="Images/NewHomeLayout/Visa/TopDemandedVisa/UnitesStatesVisa.jpg" />
+                </div>
+                <div className="newTopDemandedVisadestinationsdetails">
+                  <h2 style={{ marginTop: "-25%" }}>United States
+                    {/* <span> */}
+                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                    {/* </span> */}
+                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                  </h2>
+                </div>
+              </div>
+            </div>
 
 
-          {/* <div className="card mb-3 internationalouterdiv" >
+            {/* <div className="card mb-3 internationalouterdiv" >
                         <div className="row g-0 internationalimagetextcontainer">
                             <div className="col-md-8 internationalcardimage">
                                 <img src="images/international destinations/banff.jpg" className="img-fluid rounded-start" alt="..." />
@@ -383,11 +383,11 @@ export const TopDemandedVisa = () => {
                             </div>
                         </div>
                     </div> */}
-          {/* </div> */}
+            {/* </div> */}
 
 
 
-        </Slider>
+          </Slider>
         </SliderWrapper>
       </div>
     </div>

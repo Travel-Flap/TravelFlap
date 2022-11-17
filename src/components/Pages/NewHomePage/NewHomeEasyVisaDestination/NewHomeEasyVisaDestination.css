@@ -7,6 +7,8 @@
 .newEasyVisaouterHeading{
   display: flex;
   flex-direction: row;
+  width: 95%;
+  margin: auto;
   /* border: 2px solid red; */
 }
 .newEasyVisaouterHeading h2 {
@@ -15,12 +17,12 @@
   font-size: 28px;
   margin-top: 2%;
   margin-bottom: 2%;
-  color: #393939;
+  color: #3380f2;
 }
 
 .newHomeEasyVisaDropContainer {
   width: 20%;
-  margin-left: 56%;
+  margin-left: 65%;
   margin-top: 0.1%;
 }
 
@@ -56,9 +58,9 @@
 
 .newhomeEasyVisaContainer {
   /* border: 1px solid purple; */
-  width: 96%;
-  margin-left: 1%;
-  /* margin: auto; */
+  width: 95%;
+  /* margin-left: 1%; */
+  margin: auto;
   /* gap: 5% !important; */
 }
 

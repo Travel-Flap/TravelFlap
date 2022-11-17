@@ -2,7 +2,7 @@
   /* border: 1px solid red; */
   width: 100%;
   margin: auto;
-  height: 520px;
+  height: 500px;
 }
 
 .newInternationalCruiseHeadingContainer{
@@ -330,7 +330,7 @@
 
 .newInternationalCruisewrapper {
   position: relative;
-  width: 106%;
+  width: 112% !important;
   padding: 0 10px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;

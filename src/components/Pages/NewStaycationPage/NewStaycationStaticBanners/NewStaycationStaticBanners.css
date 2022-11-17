@@ -1,7 +1,24 @@
+
+.staycationOptionOuterDiv{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    margin-top: 5%;
+}
+
+.iconsOptionDiv{
+    border: 2px solid black;
+    width: 20%;
+    margin-left: 5%;
+}
+/* .staticImageSection{
+    border: 2px solid red;
+} */
+
 .headingContainer{
     /* border: 1px solid red; */
     text-align: center;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 

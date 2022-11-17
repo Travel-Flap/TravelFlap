@@ -14,7 +14,7 @@ export default class NewTopCityActivities extends Component {
             // autoplay: true,
             // autoplaySpeed:1000,
             // speed: 1000,
-            slidesToShow: 4,
+            slidesToShow: 5,
             slidesToScroll: 1,
             cssEase: "linear"
         };

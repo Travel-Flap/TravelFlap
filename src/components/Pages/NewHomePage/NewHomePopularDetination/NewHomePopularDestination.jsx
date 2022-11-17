@@ -56,7 +56,7 @@ export const CenterMode = () => {
         appendDots: dots => <ul>{dots}</ul>,
         customPaging: i => (
             <div className="ft-slick__dots--custom">
-                <div className="loading"/>
+                <div className="loading" />
             </div>
         ),
         beforeChange: (current, next) => setSlideindex(next),
@@ -80,51 +80,51 @@ export const CenterMode = () => {
         <>
             <div className="popularDestinationsheadingdiv wow">
                 <p>Popular Destinations</p>
-                
+
                 <div id='popularDestinationsDropContainer'>
-                            <select id="popularDestinationsCountryDrop" onChange={(e) => handlecounty(e)}
-                                style={{ width: "100%",appearance:"none" }}>
-                                <option value="">Country</option>
-                                {
-                                    countrydata.map((getcountry, index) => (
-                                        <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                    ))
-                                }
-                            </select>
-                            <div id='popularDestinationsicondiv'>
-                            <FaAngleDown  size={"1em"} id="popularDestinationsicon" />
-                            </div>
-                 </div>
+                    <select id="popularDestinationsCountryDrop" onChange={(e) => handlecounty(e)}
+                        style={{ width: "100%", appearance: "none" }}>
+                        <option value="">Country</option>
+                        {
+                            countrydata.map((getcountry, index) => (
+                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                            ))
+                        }
+                    </select>
+                    <div id='popularDestinationsicondiv'>
+                        <FaAngleDown size={"1em"} id="popularDestinationsicon" />
+                    </div>
+                </div>
 
             </div>
             <div className="mainCarouselDiv">
                 <Link to="/populardestination">
-                <div className="sliderDiv">
-                    <SliderWrapper>
-                        <Slider {...settings}>
-                            {slides.map((item, index) => (
-                                <div className={index === slideindex ? 'populardestinationsslide populardestinationsslide-active' : 'populardestinationsslide'} key={index}>
+                    <div className="sliderDiv">
+                        <SliderWrapper>
+                            <Slider {...settings}>
+                                {slides.map((item, index) => (
+                                    <div className={index === slideindex ? 'populardestinationsslide populardestinationsslide-active' : 'populardestinationsslide'} key={index}>
 
-                                    <div className='populardestinationimagestransition'>
-                                        <LazyLoadImage src={item.img} alt="popular destination image"/>
+                                        <div className='populardestinationimagestransition'>
+                                            <LazyLoadImage src={item.img} alt="popular destination image" />
+                                        </div>
+                                        <h5>{item.solution}</h5>
+                                        {/* <br/> */}
+                                        <p>{item.days}</p>
+
+                                        <h6>{item.package}</h6>
+
+                                        <h3>{item.start}
+                                            <span>
+                                                <h4 className='newFlightsPrice'>{item.rate}</h4>
+                                            </span>
+                                        </h3>
+
                                     </div>
-                                    <h5>{item.solution}</h5>
-                                    {/* <br/> */}
-                                    <p>{item.days}</p>
-
-                                    <h6>{item.package}</h6>
-
-                                    <h3>{item.start}
-                                        <span>
-                                            <h4 className='newFlightsPrice'>{item.rate}</h4>
-                                        </span>
-                                    </h3>
-
-                                </div>
-                            ))}
-                        </Slider>
-                    </SliderWrapper>
-                </div>
+                                ))}
+                            </Slider>
+                        </SliderWrapper>
+                    </div>
                 </Link>
             </div>
         </>

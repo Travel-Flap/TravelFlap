@@ -37,12 +37,13 @@ export const NewStaycationPage = () => {
 
             <ExperimentBanner />
 
-            <div style={{marginTop:"5%"}}>
+            {/* <div style={{marginTop:"5%"}}>
                  <Staycationsnavbar />
-            </div>
+            </div> */}
             
             {/* <NewStaycationNavbar/> */}
             {/* <NewStaycationpicsSlider/> */}
+
 
             <NewStaycationStaticBanners />
 
