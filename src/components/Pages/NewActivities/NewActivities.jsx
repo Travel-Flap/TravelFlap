@@ -60,7 +60,7 @@ export const NewActivities = () => {
       <FooterLinks />
 
       <NewHomeFooter />
-      <NewHomeBottomBar />
+      {/* <NewHomeBottomBar /> */}
     </div>
   )
 }

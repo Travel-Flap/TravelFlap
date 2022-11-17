@@ -69,7 +69,7 @@ export const NewHomeLayout = () => {
             <FooterLinks />
             {/* <NewHomeFooterLinks/> */}
             <NewHomeFooter />
-            <NewHomeBottomBar />
+            {/* <NewHomeBottomBar /> */}
 
         </div>
     )

@@ -35,7 +35,7 @@ export const NewVisa = () => {
         
       <FooterLinks/>
       <NewHomeFooter/>
-      <NewHomeBottomBar/>
+      {/* <NewHomeBottomBar/> */}
     </div>
   )
 }

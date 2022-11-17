@@ -67,7 +67,7 @@ export const NewHotel = () => {
         <FooterLinks/>
         
         <NewHomeFooter/>
-        <NewHomeBottomBar/>
+        {/* <NewHomeBottomBar/> */}
             
             
         </div>

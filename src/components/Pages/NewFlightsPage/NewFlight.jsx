@@ -82,12 +82,12 @@ export const NewFlight = () => {
             {/* <FrequentlyAskedQuestions/> */}
 
             {/* <NewHomeAwards/> */}
-
-            <NewHomeStoriesSection />
             <Plan />
+            <NewHomeStoriesSection />
+            
 
             <NewHomeFooter />
-            <NewHomeBottomBar />
+            {/* <NewHomeBottomBar /> */}
         </div>
     )
 }

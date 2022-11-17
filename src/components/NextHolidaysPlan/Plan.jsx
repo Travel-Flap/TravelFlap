@@ -10,7 +10,7 @@ export const Plan = () => {
                         <div className='col-lg-7'>
                             <div className='cta_left'>
                                 <div className='cta_content'>
-                                    <h3>Planning your next Holidays ?</h3>
+                                    <h3>Plan your next Vacation with TravelFlap </h3>
                                     <h5>Subscribe to our newsletter. Get the latest travel trends & deals!</h5>
                                 </div>
                             </div>

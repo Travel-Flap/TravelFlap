@@ -72,7 +72,7 @@ export const NewStaycationPage = () => {
         
         <FooterLinks/>
         <NewHomeFooter/>
-        <NewHomeBottomBar/>
+        {/* <NewHomeBottomBar/> */}
         </>
     );
 };
