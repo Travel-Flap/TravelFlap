@@ -53,7 +53,7 @@ export const NewRentalsPage = () => {
         
         <FooterLinks/>
         <NewHomeFooter/>
-        <NewHomeBottomBar/>
+        {/* <NewHomeBottomBar/> */}
     </div>
   )
 }

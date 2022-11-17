@@ -46,7 +46,7 @@ export const NewCruisePage = () => {
         
         <FooterLinks/>
         <NewHomeFooter/>
-        <NewHomeBottomBar/>
+        {/* <NewHomeBottomBar/> */}
         </div>
     )
 }
