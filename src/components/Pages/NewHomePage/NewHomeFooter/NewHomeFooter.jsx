@@ -221,8 +221,8 @@ export const NewHomeFooter = () => {
                 <div className='newHomeFooterMapDiv'>
                     <img className='newHomeFooterMapImage' src="Images/NewHomeLayout/FooterContent/Frame (1).png"/>
                     <div className='newHomeFooterMapText'>
-                        <p className='newHomeFooterMapText1'>USA</p>
-                        <p className='newHomeFooterMapText2'>SanDeigo ,USA</p>
+                        <p className='newHomeFooterMapText1'>India</p>
+                        <p className='newHomeFooterMapText2'>Jtm Mall, Office no 422, 4th floor, Jagatpura, Jaipur, Rajasthan 302025</p>
                     </div>
                 </div>
                 <div className='newHomeFooterlinkDiv'>
@@ -306,13 +306,13 @@ export const NewHomeFooter = () => {
                            <img className='newHomeFootersectionLogosTravelFlap' src='Images/NewHomeLayout/FooterContent/TravelFlap.png'/>
                         </div>
                         <div className='newHomeFooterImages'>
-                           <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/BBT_1.webp'/>
+                           <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/Blueberry-logo-final-2 1.png'/>
                         </div>
                         <div className='newHomeFooterImages'>
-                           <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/next holiday.webp'/>
+                           <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/next holidays.png'/>
                         </div>
                         <div className='newHomeFooterImages'>
-                           <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/visafetch1.png'/>
+                           <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/visa fetch logo.png'/>
                         </div>
                     </div>
                 </div>
