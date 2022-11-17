@@ -357,12 +357,6 @@ img {
   background-color: #3380F2;
   /* border: 2px solid green; */
 }
-/* #newHomehandpickedDropContainer div{
-  color: white;
-} */
-#newHomehandpickedDropContainer select:hover{
-  color: #3380F2;
-}
 
 #newHomeHandpickedCountryDrop {
   background-color: transparent;
@@ -370,7 +364,7 @@ img {
   height: 100%;
   color: white;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 13px;
   cursor: pointer;
   border-radius: 25px 0px 0px 25px;
   border-right: none;
@@ -378,8 +372,8 @@ img {
   border: none;
   /* border: 1px solid red; */
   outline: none;
-  padding-left: 5px;
-  margin-left: 1%;
+  padding-left: 15px;
+  /* margin-left: 1%; */
 }
 #newHomehandpickedicondiv {
   width: 20%;
@@ -398,9 +392,4 @@ img {
   width: 20px;
   border-radius: 100%;
   margin-top: 47%;
-}
-#newHomehandpickedDropContainer:hover{
-  background-color: white;
-  color: #3380f2;
-  border: 2px solid #3380F2;
 }
