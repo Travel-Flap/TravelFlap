@@ -824,6 +824,7 @@
   align-items: center;
   justify-content: space-around;
   border-radius: 10px;
+  
   /* margin-top: 15%; */
 }
 .cardtextFavHotels_maindiv:hover {
@@ -857,6 +858,7 @@
   height: 270px;
   border-radius: 10px 10px 0px 0px;
   transition: 0.5s all ease-in-out;
+  filter: brightness(0.8);
   /* border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%; */
 }

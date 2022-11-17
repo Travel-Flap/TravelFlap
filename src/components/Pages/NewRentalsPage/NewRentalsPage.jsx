@@ -16,6 +16,8 @@ import { NewPopularCarHireDestination } from './PopularCarHireDestinations/Popul
 import { NewRentalBanner } from './RentalsBanner/NewRantalsBanner';
 
 import { Helmet } from 'react-helmet';
+import SearchCarHire from './SearchCarHire/SearchCarHire';
+import CheapCarHire from './CheapCarHire/CheapCarHire';
 
 export const NewRentalsPage = () => {
   return (
@@ -37,6 +39,10 @@ export const NewRentalsPage = () => {
       <HowRentalsWork />
 
       <NewPopularCarHireDestination />
+
+      <CheapCarHire/>
+
+      {/* <SearchCarHire/> */}
 
 
       {/* <PopularCarHireApplications /> */}
