@@ -39,7 +39,7 @@ export const StayNearYou = () => {
         dots: true,
         dotsclassName: "slick-dots line-indicator",
         infinite: true,
-        autoplay: true,
+        // autoplay: true,
         autoplayspeed: 1000,
         speed: 1000,
         slidesToShow: 5,
@@ -49,7 +49,7 @@ export const StayNearYou = () => {
         appendDots: dots => <ul>{dots}</ul>,
         customPaging: i => (
             <div className="ft-slick__dots--custom">
-                <div className="loading"/>
+                <div className="loading" />
             </div>
         ),
         beforeChange: (current, next) => setSlideindex(next),
@@ -97,7 +97,7 @@ export const StayNearYou = () => {
     };
     return (
         <div className='newStayNearYouContainer'>
-            
+
             <div class="newStayNearYouMaincarddiv card text-bg-dark">
                 {/* <img src="Images/NewHomeLayout/BackgroundImages/TopCitiesBackground.jpeg" class="card-img" alt="..." /> */}
                 <div className='newStayNearYoubelowdiv'>
@@ -109,22 +109,22 @@ export const StayNearYou = () => {
                         <div className='newStayNearYouHeadingouterdiv'>
                             <h2>Stay Near You</h2>
 
-                        <div id='HotelsStayNearYouDropContainer'>
-                            <select id="HotelsStayNearYouCountrydrop" onChange={(e) => handlecounty(e)}
-                                style={{ width: "100%",appearance:"none" }}>
-                                <option value="">Country</option>
-                                {
-                                    countrydata.map((getcountry, index) => (
-                                        <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                    ))
-                                }
-                            </select>
-                            <div id='HotelsStayNearYouIcondiv'>
-                            <FaAngleDown  size={"1em"} id="HotelsStayNearYouicon" />
+                            <div id='HotelsStayNearYouDropContainer'>
+                                <select id="HotelsStayNearYouCountrydrop" onChange={(e) => handlecounty(e)}
+                                    style={{ width: "100%", appearance: "none" }}>
+                                    <option value="">Country</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                </select>
+                                <div id='HotelsStayNearYouIcondiv'>
+                                    <FaAngleDown size={"1em"} id="HotelsStayNearYouicon" />
+                                </div>
                             </div>
-                        </div>
 
-                    </div>
+                        </div>
 
                         {/* <div className='newPopularbelowHeadingdiv'>
                             <h5 className='belowInternationalheading'>
@@ -140,207 +140,212 @@ export const StayNearYou = () => {
                             {/* From here the next slider part starts */}
 
                             <div className='newStayNearYouSlickslidercontainer'>
-                            <SliderWrapper>
-                                <Slider {...settings} className="multiCardSlider">
-                                    <div className="card-wrapper">
-                                        <div className="card newStayNearYouDiv">
-                                            <div className="card-image newStayNearYouCardimage">
-                                                <img src="Images/TopCities/abudhabhi.jpg" />
+                                <SliderWrapper>
+                                    <Slider {...settings} className="multiCardSlider">
+                                        <div className="card-wrapper">
+                                            <div className="card newStayNearYouDiv">
+                                                <div className="card-image newStayNearYouCardimage">
+                                                    <img src="Images/NewHomeLayout/Hotels/AllCompImages/Rambagh Hotel.jpg" />
+                                                </div>
+                                                <div className="newStayNearYouDetails">
+                                                    <h2> Rambagh Hotel
+                                                        {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur, Rajasthan</p>
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                                        {/* </span> */}
+                                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                    </h2>
+                                                </div>
                                             </div>
-                                            <div className="newStayNearYouDetails">
-                                                <h2>Abu Dhabi                         {/* <span> */}
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                                    <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                                                    {/* </span> */}
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                                </h2>
+
+                                            <div className='newhomeTopCitiesBottomTexts'>
+                                                <h2>Abu Dhabi</h2>
+                                                <p className="job-title">"Best Holiday trip Ever" </p>
                                             </div>
                                         </div>
 
-                                        <div className='newhomeTopCitiesBottomTexts'>
-                                            <h2>Abu Dhabi</h2>
-                                            <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="card-wrapper">
-                                        <div className="card newStayNearYouDiv">
-                                            <div className="card-image newStayNearYouCardimage">
-                                                <img src="Images/TopCities/africa1.jpg" />
+                                        <div className="card-wrapper">
+                                            <div className="card newStayNearYouDiv">
+                                                <div className="card-image newStayNearYouCardimage">
+                                                    <img src="Images/NewHomeLayout/Hotels/AllCompImages/HotelLalit.jpg" />
+                                                </div>
+                                                <div className="newStayNearYouDetails">
+                                                    <h2> Jaipur,Rajasthan
+                                                        {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                                        {/* </span> */}
+                                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                    </h2>
+                                                </div>
                                             </div>
-                                            <div className="newStayNearYouDetails">
-                                                <h2>Epupa Falls                         {/* <span> */}
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                                    <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                                                    {/* </span> */}
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <div className='newhomeTopCitiesBottomTexts'>
-                                            <h2>Epupa Falls</h2>
-                                            <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="card-wrapper">
-                                        <div className="card newStayNearYouDiv">
-                                            <div className="card-image newStayNearYouCardimage">
-                                                <img src="Images/TopCities/america.jpg" />
-                                            </div>
-                                            <div className="newStayNearYouDetails">
-                                                <h2>Las Vegas                         {/* <span> */}
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                                    <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                                                    {/* </span> */}
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <div className='newhomeTopCitiesBottomTexts'>
-                                            <h2>Las Vegas</h2>
-                                            <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="card-wrapper">
-                                        <div className="card newStayNearYouDiv">
-                                            <div className="card-image newStayNearYouCardimage">
-                                                <img src="Images/TopCities/australia.jpg" />
-                                            </div>
-                                            <div className="newStayNearYouDetails">
-                                                <h2>Sydney                         {/* <span> */}
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                                    <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                                                    {/* </span> */}
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <div className='newhomeTopCitiesBottomTexts'>
-                                            <h2>Sydney</h2>
-                                            <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="card-wrapper">
-                                        <div className="card newStayNearYouDiv">
-                                            <div className="card-image newStayNearYouCardimage">
-                                                <img src="Images/TopCities/canada.jpg" />
-                                            </div>
-                                            <div className="newStayNearYouDetails">
-                                                <h2>Toronto                         {/* <span> */}
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                                    <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                                                    {/* </span> */}
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <div className='newhomeTopCitiesBottomTexts'>
-                                            <h2>Toronto</h2>
-                                            <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="card-wrapper">
-                                        <div className="card newStayNearYouDiv">
-                                            <div className="card-image newStayNearYouCardimage">
-                                                <img src="Images/TopCities/landon.jpg" />
-                                            </div>
-                                            <div className="newStayNearYouDetails">
-                                                <h2>London                         {/* <span> */}
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                                    <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                                                    {/* </span> */}
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                                </h2>
-                                            </div>
-                                        </div>
-                                        <div className='newhomeTopCitiesBottomTexts'>
-                                            <h2>London</h2>
-                                            <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="card-wrapper">
-                                        <div className="card newStayNearYouDiv">
-                                            <div className="card-image newStayNearYouCardimage">
-                                                <img src="Images/TopCities/denmark.jpg" />
-                                            </div>
-                                            <div className="newStayNearYouDetails">
-                                                <h2>Aarhus                         {/* <span> */}
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                                    <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                                                    {/* </span> */}
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                                </h2>
+                                            <div className='newhomeTopCitiesBottomTexts'>
+                                                <h2>Epupa Falls</h2>
+                                                <p className="job-title">"Best Holiday trip Ever" </p>
                                             </div>
                                         </div>
 
-                                        <div className='newhomeTopCitiesBottomTexts'>
-                                            <h2>Aarhus</h2>
-                                            <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="card-wrapper">
-                                        <div className="card newStayNearYouDiv">
-                                            <div className="card-image newStayNearYouCardimage">
-                                                <img src="Images/TopCities/zambiaafrica.jpg" />
+                                        <div className="card-wrapper">
+                                            <div className="card newStayNearYouDiv">
+                                                <div className="card-image newStayNearYouCardimage">
+                                                    <img src="Images/NewHomeLayout/Hotels/AllCompImages/TajHotel.jpeg" />
+                                                </div>
+                                                <div className="newStayNearYouDetails">
+                                                    <h2> Taj Hotel
+                                                        {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur, Rajasthan</p>
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                                        {/* </span> */}
+                                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                    </h2>
+                                                </div>
                                             </div>
-                                            <div className="newStayNearYouDetails">
-                                                <h2>Zambia                         {/* <span> */}
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                                    <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                                                    {/* </span> */}
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                                </h2>
-                                            </div>
-                                        </div>
-
-                                        <div className='newhomeTopCitiesBottomTexts'>
-                                            <h2>Zambia</h2>
-                                            <p className="job-title">"Best Holiday trip Ever" </p>
-                                        </div>
-                                    </div>
-
-                                    <div className="card-wrapper">
-                                        <div className="card newStayNearYouDiv">
-                                            <div className="card-image newStayNearYouCardimage">
-                                                <img src="Images/TopCities/swedan.jpg" />
-                                            </div>
-                                            <div className="newStayNearYouDetails">
-                                                <h2>Stockholm                         {/* <span> */}
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                                                    <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                                                    <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                                                    {/* </span> */}
-                                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                                </h2>
+                                            <div className='newhomeTopCitiesBottomTexts'>
+                                                <h2>Las Vegas</h2>
+                                                <p className="job-title">"Best Holiday trip Ever" </p>
                                             </div>
                                         </div>
 
-                                        <div className='newhomeTopCitiesBottomTexts'>
-                                            <h2>Stockholm</h2>
-                                            <p className="job-title">"Best Holiday trip Ever" </p>
+                                        <div className="card-wrapper">
+                                            <div className="card newStayNearYouDiv">
+                                                <div className="card-image newStayNearYouCardimage">
+                                                    <img src="Images/NewHomeLayout/Hotels/AllCompImages/HolidayInn.jpg" />
+                                                </div>
+                                                <div className="newStayNearYouDetails">
+                                                    <h2> Hotel Holiday Inn
+                                                        {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur,Rajasthan </p>
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                                        {/* </span> */}
+                                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                            <div className='newhomeTopCitiesBottomTexts'>
+                                                <h2>Sydney</h2>
+                                                <p className="job-title">"Best Holiday trip Ever" </p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </Slider>
-                            </SliderWrapper>
+
+                                        <div className="card-wrapper">
+                                            <div className="card newStayNearYouDiv">
+                                                <div className="card-image newStayNearYouCardimage">
+                                                    <img src="Images/NewHomeLayout/Hotels/AllCompImages/HotelLalit.jpg" />
+                                                </div>
+                                                <div className="newStayNearYouDetails">
+                                                    <h2> Hotel Lalit
+                                                        {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur,Rajasthan  </p>
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                                        {/* </span> */}
+                                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                            <div className='newhomeTopCitiesBottomTexts'>
+                                                <h2>Toronto</h2>
+                                                <p className="job-title">"Best Holiday trip Ever" </p>
+                                            </div>
+                                        </div>
+
+                                        <div className="card-wrapper">
+                                            <div className="card newStayNearYouDiv">
+                                                <div className="card-image newStayNearYouCardimage">
+                                                    <img src="Images/TopCities/landon.jpg" />
+                                                </div>
+                                                <div className="newStayNearYouDetails">
+                                                    <h2>London                         {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                                        {/* </span> */}
+                                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                            <div className='newhomeTopCitiesBottomTexts'>
+                                                <h2>London</h2>
+                                                <p className="job-title">"Best Holiday trip Ever" </p>
+                                            </div>
+                                        </div>
+
+                                        <div className="card-wrapper">
+                                            <div className="card newStayNearYouDiv">
+                                                <div className="card-image newStayNearYouCardimage">
+                                                    <img src="Images/TopCities/denmark.jpg" />
+                                                </div>
+                                                <div className="newStayNearYouDetails">
+                                                    <h2>Aarhus                         {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                                        {/* </span> */}
+                                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                    </h2>
+                                                </div>
+                                            </div>
+
+                                            <div className='newhomeTopCitiesBottomTexts'>
+                                                <h2>Aarhus</h2>
+                                                <p className="job-title">"Best Holiday trip Ever" </p>
+                                            </div>
+                                        </div>
+
+                                        <div className="card-wrapper">
+                                            <div className="card newStayNearYouDiv">
+                                                <div className="card-image newStayNearYouCardimage">
+                                                    <img src="Images/TopCities/zambiaafrica.jpg" />
+                                                </div>
+                                                <div className="newStayNearYouDetails">
+                                                    <h2>Zambia                         {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                                        {/* </span> */}
+                                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                    </h2>
+                                                </div>
+                                            </div>
+
+                                            <div className='newhomeTopCitiesBottomTexts'>
+                                                <h2>Zambia</h2>
+                                                <p className="job-title">"Best Holiday trip Ever" </p>
+                                            </div>
+                                        </div>
+
+                                        <div className="card-wrapper">
+                                            <div className="card newStayNearYouDiv">
+                                                <div className="card-image newStayNearYouCardimage">
+                                                    <img src="Images/TopCities/swedan.jpg" />
+                                                </div>
+                                                <div className="newStayNearYouDetails">
+                                                    <h2>Stockholm                         {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                                        {/* </span> */}
+                                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                    </h2>
+                                                </div>
+                                            </div>
+
+                                            <div className='newhomeTopCitiesBottomTexts'>
+                                                <h2>Stockholm</h2>
+                                                <p className="job-title">"Best Holiday trip Ever" </p>
+                                            </div>
+                                        </div>
+                                    </Slider>
+                                </SliderWrapper>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-         </div>
+        </div>
     )
 }

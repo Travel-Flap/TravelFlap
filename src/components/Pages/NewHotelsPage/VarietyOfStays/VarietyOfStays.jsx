@@ -39,7 +39,7 @@ export const VarietyOfStays = () => {
         dots: true,
         dotsclassName: "slick-dots line-indicator",
         infinite: true,
-        autoplay: true,
+        // autoplay: true,
         autoplayspeed: 1000,
         speed: 1000,
         slidesToShow: 5,
@@ -161,11 +161,12 @@ export const VarietyOfStays = () => {
                                         <div className="card-wrapper">
                                             <div className="card newVarietyOfStaysYouDiv">
                                                 <div className="card-image newVarietyOfStaysCardimage">
-                                                    <img src="Images/TopCities/abudhabhi.jpg" />
+                                                    <img src="Images/NewHomeLayout/Hotels/AllCompImages/Vanandhaara.webp" />
                                                 </div>
                                                 <div className="newVarietyOfStaysDetails">
-                                                    <h2>Abu Dhabi                         {/* <span> */}
-                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                    <h2> Vanandhaara
+                                                        {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Karnatak,India </p>
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
                                                         <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
                                                         {/* </span> */}
@@ -183,11 +184,12 @@ export const VarietyOfStays = () => {
                                         <div className="card-wrapper">
                                             <div className="card newVarietyOfStaysYouDiv">
                                                 <div className="card-image newVarietyOfStaysCardimage">
-                                                    <img src="Images/TopCities/africa1.jpg" />
+                                                    <img src="Images/NewHomeLayout/Hotels/AllCompImages/Mun ki reti.webp" />
                                                 </div>
                                                 <div className="newVarietyOfStaysDetails">
-                                                    <h2>Epupa Falls                         {/* <span> */}
-                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                    <h2> Mun Ki Reti
+                                                        {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Rishikesh,India </p>
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
                                                         <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
                                                         {/* </span> */}
@@ -204,11 +206,12 @@ export const VarietyOfStays = () => {
                                         <div className="card-wrapper">
                                             <div className="card newVarietyOfStaysYouDiv">
                                                 <div className="card-image newVarietyOfStaysCardimage">
-                                                    <img src="Images/TopCities/america.jpg" />
+                                                    <img src="Images/NewHomeLayout/Hotels/AllCompImages/Kintusgi.webp" />
                                                 </div>
                                                 <div className="newVarietyOfStaysDetails">
-                                                    <h2>Las Vegas                         {/* <span> */}
-                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                    <h2> Kintusgi Hotel
+                                                        {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Seetla,India </p>
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
                                                         <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
                                                         {/* </span> */}
@@ -225,11 +228,12 @@ export const VarietyOfStays = () => {
                                         <div className="card-wrapper">
                                             <div className="card newVarietyOfStaysYouDiv">
                                                 <div className="card-image newVarietyOfStaysCardimage">
-                                                    <img src="Images/TopCities/australia.jpg" />
+                                                    <img src="Images/NewHomeLayout/Hotels/AllCompImages/Aida Villa.webp" />
                                                 </div>
                                                 <div className="newVarietyOfStaysDetails">
-                                                    <h2>Sydney                         {/* <span> */}
-                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                    <h2> Aida Villa
+                                                        {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Anachal Kerala, India </p>
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
                                                         <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
                                                         {/* </span> */}
@@ -246,11 +250,12 @@ export const VarietyOfStays = () => {
                                         <div className="card-wrapper">
                                             <div className="card newVarietyOfStaysYouDiv">
                                                 <div className="card-image newVarietyOfStaysCardimage">
-                                                    <img src="Images/TopCities/canada.jpg" />
+                                                    <img src="Images/NewHomeLayout/Hotels/AllCompImages/HotelLalit.jpg" />
                                                 </div>
                                                 <div className="newVarietyOfStaysDetails">
-                                                    <h2>Toronto                         {/* <span> */}
-                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                    <h2> Hotel Lalit
+                                                        {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur,India </p>
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
                                                         <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
                                                         {/* </span> */}

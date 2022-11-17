@@ -28,11 +28,12 @@ export default class SearchPlaceDestination extends Component {
                     <div className="card-wrapper newSearchPlaceDestinationWrapper">
                         <div className="card newSearchPlaceDestinationImage">
                             <div className="card-image newSearchPlaceDestinationCardImage">
-                                <img src="Images/worldActivitites/Boat under Iguazu Falls.jpg" />
+                                <img src="Images/NewHomeLayout/Hotels/AllCompImages/CityMax Hotel.jpg" />
                             </div>
                             <div className="newSearchPlaceDestinationDetails">
-                                <h2>Citymax Hotel Bru                         {/* <span> */}
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                <h2>Citymax Hotel Bru
+                                    {/* <span> */}
+                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Dubai,UAE</p>
                                     <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
                                     <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
                                     {/* </span> */}
@@ -45,11 +46,12 @@ export default class SearchPlaceDestination extends Component {
                     <div className="card-wrapper newSearchPlaceDestinationWrapper">
                         <div className="card newSearchPlaceDestinationImage">
                             <div className="card-image newSearchPlaceDestinationCardImage">
-                                <img src="Images/worldActivitites/Swim Through Mexico;s Cenotes.jpg" />
+                                <img src="Images/NewHomeLayout/Hotels/AllCompImages/HolidayInn.jpg" />
                             </div>
                             <div className="newSearchPlaceDestinationDetails">
-                                <h2> The Signature Inn                         {/* <span> */}
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                <h2> The Signature Inn
+                                    {/* <span> */}
+                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Banglore,Karnataka </p>
                                     <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
                                     <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
                                     {/* </span> */}
@@ -62,7 +64,7 @@ export default class SearchPlaceDestination extends Component {
                     <div className="card-wrapper newSearchPlaceDestinationWrapper">
                         <div className="card newSearchPlaceDestinationImage">
                             <div className="card-image newSearchPlaceDestinationCardImage">
-                                <img src="Images/worldActivitites/Float along the Amazon.jpg" />
+                                <img src="Images/NewHomeLayout/Hotels/AllCompImages/Rambuttri Village.jpg" />
                             </div>
                             <div className="newSearchPlaceDestinationDetails">
                                 <h2> Rambuttri Village                         {/* <span> */}
@@ -79,11 +81,12 @@ export default class SearchPlaceDestination extends Component {
                     <div className="card-wrapper newSearchPlaceDestinationWrapper">
                         <div className="card newSearchPlaceDestinationImage">
                             <div className="card-image newSearchPlaceDestinationCardImage">
-                                <img src="Images/worldActivitites/Surf The Pipeline in Oahu.jpg" />
+                                <img src="Images/NewHomeLayout/Hotels/AllCompImages/Hii Nyc Hostel.jpg" />
                             </div>
                             <div className="newSearchPlaceDestinationDetails">
-                                <h2> Hill Nyc Hotel                         {/* <span> */}
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                <h2> Hill Nyc Hostel
+                                    {/* <span> */}
+                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}> New york,USA </p>
                                     <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
                                     <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
                                     {/* </span> */}
@@ -96,11 +99,12 @@ export default class SearchPlaceDestination extends Component {
                     <div className="card-wrapper newSearchPlaceDestinationWrapper">
                         <div className="card newSearchPlaceDestinationImage">
                             <div className="card-image newSearchPlaceDestinationCardImage">
-                                <img src="Images/worldActivitites/Zipline Over Niagara Falls.jpg" />
+                                <img src="Images/NewHomeLayout/Hotels/AllCompImages/Kintusgi.webp" />
                             </div>
                             <div className="newSearchPlaceDestinationDetails">
-                                <h2>Zip Line                         {/* <span> */}
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                <h2> Kintusgi
+                                    {/* <span> */}
+                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Bangkok </p>
                                     <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
                                     <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
                                     {/* </span> */}
@@ -128,10 +132,10 @@ export default class SearchPlaceDestination extends Component {
                     </div>
                 </Slider>
 
-                <HotelDataFaq/>
+                <HotelDataFaq />
             </div>
 
-            
+
         )
     }
 }

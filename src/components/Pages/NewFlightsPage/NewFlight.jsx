@@ -48,13 +48,12 @@ export const NewFlight = () => {
 
             <FlightsNearYou />
 
-            {/* <CheapFlights/> */}
+            <CheapFlights/>
             {/* <div className='carousel'>
 
         <CheapFlights/>
         
         {/* <div className='carousel'>
->>>>>>> 6157b37b78825ce8161ff69db40ed3929de379ed
             <NewFlightsNearYou/>
         </div> */}
             {/* <div className='carousel'>
@@ -72,8 +71,8 @@ export const NewFlight = () => {
             <NewHomeTopCitites/>
         </div> */}
 
-        
-        {/* <FrequentlyAskedQuestions/> */}
+
+            {/* <FrequentlyAskedQuestions/> */}
 
             {/* <NewHomeAwards/> */}
 

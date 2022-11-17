@@ -51,22 +51,22 @@ export const FavouriteHotelGlobe = () => {
 
 
                     {/* <div className='newFavHotelsDropContainer'> */}
-                    
+
                     <div id='newFavHotelsDropContainer'>
-                            <select id="newFavHotelsCountryDrop" onChange={(e) => handlecounty(e)}
-                                style={{ width: "100%",appearance:"none" }}>
-                                <option value="">Country</option>
-                                {
-                                    countrydata.map((getcountry, index) => (
-                                        <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                    ))
-                                }
-                            </select>
-                            <div id='newFavHotelsicondiv'>
-                            <FaAngleDown  size={"1em"} id="newFavHotelsicon" />
-                            </div>
+                        <select id="newFavHotelsCountryDrop" onChange={(e) => handlecounty(e)}
+                            style={{ width: "100%", appearance: "none" }}>
+                            <option value="">Country</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                        <div id='newFavHotelsicondiv'>
+                            <FaAngleDown size={"1em"} id="newFavHotelsicon" />
                         </div>
-                        {/* <div className='newFavHotelsicondiv'>
+                    </div>
+                    {/* <div className='newFavHotelsicondiv'>
                             <FaAngleDown style={{ fontSize: "15px" }} size={"1em"} className="favHotelsicon" />
                         </div>
                     </div> */}
@@ -177,7 +177,7 @@ export const FavouriteHotelGlobe = () => {
                                 </th>
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                             </div>
-                            <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel1.png" alt="" />
+                            <img src="Images/NewHomeLayout/Hotels/AllCompImages/Rambuttri Village.jpg" alt="" />
                             <div className="cardFavHotel_title">
                                 <h5>
                                     Single Room
@@ -214,7 +214,7 @@ export const FavouriteHotelGlobe = () => {
                                 </th>
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                             </div>
-                            <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel2.png" alt="" />
+                            <img src="Images/NewHomeLayout/Hotels/AllCompImages/TajHotel.jpeg" alt="" />
                             <div className="cardFavHotel_title">
                                 <h5>
                                     Single Room
@@ -245,7 +245,7 @@ export const FavouriteHotelGlobe = () => {
                                 </th>
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                             </div>
-                            <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel3.png" alt="" />
+                            <img src="Images/NewHomeLayout/Hotels/AllCompImages/GlobeHotel1.jpg" alt="" />
                             <div className="cardFavHotel_title">
                                 <h5>
                                     Single Room
@@ -276,7 +276,7 @@ export const FavouriteHotelGlobe = () => {
                                 </th>
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                             </div>
-                            <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel4.png" alt="" />
+                            <img src="Images/NewHomeLayout/Hotels/AllCompImages/GlobeHotel2.jpg" alt="" />
                             <div className="cardFavHotel_title">
                                 <h5>
                                     Single Room
@@ -308,7 +308,7 @@ export const FavouriteHotelGlobe = () => {
                                 </th>
                                 <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"40px"} /><span className="review_rating_num">9.0</span>
                             </div>
-                            <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel5.png" alt="" />
+                            <img src="Images/NewHomeLayout/Hotels/AllCompImages/CityMax Hotel.jpg" alt="" />
                             <div className="cardFavHotel_title">
                                 <h5>
                                     Single Room
