@@ -23,6 +23,7 @@ import { DiscoverExtendedStay } from "./DiscoverExtendedStay/DiscoverExtendedSta
 // import { CountrysideStaycation } from "./CountrysideStaycation/CountrysideStaycation";
 
 import { Helmet } from "react-helmet";
+import { NewStaycationStaticBanners1 } from "./NewStaycationStaticBanners1/NewStaycationStaticBanners1";
 
 export const NewStaycationPage = () => {
 
@@ -36,15 +37,18 @@ export const NewStaycationPage = () => {
             </Helmet>
 
             <ExperimentBanner />
-
+         
+         {/* 
             <div style={{marginTop:"5%"}}>
                  <Staycationsnavbar />
-            </div>
+            </div> */}
             
             {/* <NewStaycationNavbar/> */}
             {/* <NewStaycationpicsSlider/> */}
 
-            <NewStaycationStaticBanners />
+            {/* <NewStaycationStaticBanners /> */}
+
+            <NewStaycationStaticBanners1/>
 
             <DiscoverExtendedStay />
 

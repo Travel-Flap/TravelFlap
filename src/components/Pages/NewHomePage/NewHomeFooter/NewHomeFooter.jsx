@@ -219,7 +219,7 @@ export const NewHomeFooter = () => {
           <div className='newHomeFootermainDiv'>
             <div className='newHomeFootersectionOne'>
                 <div className='newHomeFooterMapDiv'>
-                    <img className='newHomeFooterMapImage' src="Images/NewHomeLayout/FooterContent/Frame (1).png"/>
+                    <img className='newHomeFooterMapImage' src="Images/NewHomeLayout/FooterContent/worldmapfooter.gif"/>
                     <div className='newHomeFooterMapText'>
                         <p className='newHomeFooterMapText1'>India</p>
                         <p className='newHomeFooterMapText2'>Jtm Mall, Office no 422, 4th floor, Jagatpura, Jaipur, Rajasthan 302025</p>
