@@ -105,7 +105,7 @@ export const TopDemandedVisa = () => {
             autoplaySpeed={2000}
             dotsclassName="slick-dots line-indicator"
             ref={sliderRef}
-            slidesToShow={4}
+            slidesToShow={5}
             slidesToScroll={2}
             appendDots={dots => <ul>{dots}</ul>}
             customPaging={i => (

@@ -8,13 +8,13 @@ export const NewHolidaysPageBanner = () => {
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner holidayBannerImagesmaindiv">
                     <div class="carousel-item active">
-                        <img src="Images/NewHomeLayout/Banners/Holiday/Image2.jpg" class="d-block w-100" alt="..." />
+                        <img src="Images/NewHomeLayout/Banners/Holiday/Image2.jpg" class="d-block w-100" alt="holiday banner images" />
                     </div>
                     <div class="carousel-item">
-                       <img src="Images/NewHomeLayout/Banners/Holiday/Images1.jpg" class="d-block w-100" alt="..." />
+                        <img src="Images/NewHomeLayout/Banners/Holiday/Images1.jpg" class="d-block w-100" alt="holiday banner images" />
                     </div>
                     <div class="carousel-item">
-                       <img src="Images/NewHomeLayout/Banners/Holiday/Image3.jpg" class="d-block w-100" alt="..." />
+                        <img src="Images/NewHomeLayout/Banners/Holiday/Images3.jpg" class="d-block w-100" alt="holiday banner images" />
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -27,7 +27,7 @@ export const NewHolidaysPageBanner = () => {
                 </button>
             </div>
 
-            <NewHolidayBannerForm/>
+            <NewHolidayBannerForm />
 
             <div className='newHolidayBannerTexts' >
                 <p> Plan your holiday trip with

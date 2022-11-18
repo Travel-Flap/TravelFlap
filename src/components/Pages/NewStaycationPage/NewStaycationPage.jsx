@@ -40,7 +40,7 @@ export const NewStaycationPage = () => {
             {/* <div style={{marginTop:"5%"}}>
                  <Staycationsnavbar />
             </div> */}
-            
+
             {/* <NewStaycationNavbar/> */}
             {/* <NewStaycationpicsSlider/> */}
 
@@ -65,14 +65,14 @@ export const NewStaycationPage = () => {
                 <NewHomeAwards/>
             </div> */}
 
-        
-        <NewHomeAppDownload />
-        <Plan/>
-        <NewHomeStoriesSection/>
-        
-        <FooterLinks/>
-        <NewHomeFooter/>
-        {/* <NewHomeBottomBar/> */}
+
+            <NewHomeAppDownload />
+            <Plan />
+            <NewHomeStoriesSection />
+
+            <FooterLinks />
+            <NewHomeFooter />
+            {/* <NewHomeBottomBar/> */}
         </>
     );
 };

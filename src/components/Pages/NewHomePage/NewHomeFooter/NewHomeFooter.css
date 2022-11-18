@@ -548,7 +548,7 @@ h4 img {
 .newHomeFooterMapImage{
   /* border: 2px solid purple; */
   width: 79%;
-  height: 81%;
+  height: auto;
   margin-left: 10%;
   margin-top: 3%;
 }
