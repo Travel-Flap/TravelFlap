@@ -1,8 +1,5 @@
 import React from 'react';
 import "./NewWhyChooseTravelFlap.css";
-
-
-
 import Image1 from "./Group 1955.png";
 import Image2 from "./Group 1956.png";
 import Image3 from "./Group 1957.png";

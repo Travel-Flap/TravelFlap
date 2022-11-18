@@ -14,9 +14,9 @@ export default class NewTrendingActivities extends Component {
             // dots: true,
             infinite: true,
             autoplay: true,
-            autoplaySpeed:2000,
+            autoplaySpeed: 2000,
             speed: 2000,
-            slidesToShow: 4,
+            slidesToShow: 5,
             slidesToScroll: 1,
             cssEase: "linear"
         };
@@ -34,9 +34,9 @@ export default class NewTrendingActivities extends Component {
                             <div className="newWorldActivitydetails">
                                 <h2>Bike Ride <span className="job-title">
                                     {/* "Spiti Valley Ladakh." */}
-                                    <p style={{fontSize:"13.5px"}}>All Inclusive Packages</p>
-                                    <p style={{marginTop:"-6%",fontSize:"13px"}}>Starts @ <h4 style={{fontWeight:"700",fontSize:"22px"}}>AED 3000</h4> </p>
-                                    </span>
+                                    <p style={{ fontSize: "13.5px" }}>All Inclusive Packages</p>
+                                    <p style={{ marginTop: "-6%", fontSize: "13px" }}>Starts @ <h4 style={{ fontWeight: "700", fontSize: "22px" }}>AED 3000</h4> </p>
+                                </span>
                                     {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h2>
                             </div>
@@ -50,11 +50,11 @@ export default class NewTrendingActivities extends Component {
                             </div>
                             <div className="newWorldActivitydetails">
                                 <h2>Boat Ride                        {/* <span> */}
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                        {/* </span> */}
-                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                    {/* </span> */}
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h2>
                             </div>
                         </div>
@@ -67,11 +67,11 @@ export default class NewTrendingActivities extends Component {
                             </div>
                             <div className="newWorldActivitydetails">
                                 <h2>Amazon river                         {/* <span> */}
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                        {/* </span> */}
-                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                    {/* </span> */}
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h2>
                             </div>
                         </div>
@@ -84,11 +84,11 @@ export default class NewTrendingActivities extends Component {
                             </div>
                             <div className="newWorldActivitydetails">
                                 <h2>Surfing                         {/* <span> */}
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                        {/* </span> */}
-                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                    {/* </span> */}
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h2>
                             </div>
                         </div>
@@ -101,11 +101,11 @@ export default class NewTrendingActivities extends Component {
                             </div>
                             <div className="newWorldActivitydetails">
                                 <h2>Zip Line                         {/* <span> */}
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                        {/* </span> */}
-                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                    {/* </span> */}
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h2>
                             </div>
                         </div>
@@ -118,17 +118,17 @@ export default class NewTrendingActivities extends Component {
                             </div>
                             <div className="newWorldActivitydetails">
                                 <h2>New Zealand                         {/* <span> */}
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>Tourist Visa</p>
-                        <p style={{fontSize:"13.5px",fontWeight:"100"}}>All Inclusive Packages</p>
-                        <p style={{marginTop:"-6%",fontSize:"15px",fontWeight:"100"}}>Starts @  <span style={{fontWeight:"700",fontSize:"20px"}}> AED 3000 </span> </p>
-                        {/* </span> */}
-                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                    {/* </span> */}
+                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
                                 </h2>
                             </div>
                         </div>
-                    </div> 
+                    </div>
 
-                        {/* <div className="newWorldActivitywrapper">
+                    {/* <div className="newWorldActivitywrapper">
                             <div className="card newMultisection_Activityimage">
                                 <div className="card-image newWorldActivitycardImage">
                                     <img src="Images/EasyVisaDestinations/dubai.jpg" />

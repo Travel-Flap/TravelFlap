@@ -329,7 +329,7 @@
 
   .newWorldActivitywrapper {
     position: relative;
-    width: 106%;
+    width: 100% !important;
     padding: 0 10px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;

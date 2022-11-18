@@ -37,6 +37,7 @@ export const NewStaycationPage = () => {
             </Helmet>
 
             <ExperimentBanner />
+
          
          {/* 
             <div style={{marginTop:"5%"}}>
@@ -49,6 +50,16 @@ export const NewStaycationPage = () => {
             {/* <NewStaycationStaticBanners /> */}
 
             <NewStaycationStaticBanners1/>
+
+            {/* <div style={{marginTop:"5%"}}>
+                 <Staycationsnavbar />
+            </div> */}
+
+            {/* <NewStaycationNavbar/> */}
+            {/* <NewStaycationpicsSlider/> */}
+
+
+            <NewStaycationStaticBanners />
 
             <DiscoverExtendedStay />
 
@@ -68,14 +79,14 @@ export const NewStaycationPage = () => {
                 <NewHomeAwards/>
             </div> */}
 
-        
-        <NewHomeAppDownload />
-        <Plan/>
-        <NewHomeStoriesSection/>
-        
-        <FooterLinks/>
-        <NewHomeFooter/>
-        {/* <NewHomeBottomBar/> */}
+
+            <NewHomeAppDownload />
+            <Plan />
+            <NewHomeStoriesSection />
+
+            <FooterLinks />
+            <NewHomeFooter />
+            {/* <NewHomeBottomBar/> */}
         </>
     );
 };

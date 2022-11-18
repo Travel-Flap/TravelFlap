@@ -211,7 +211,7 @@
     
   .newAdventureActivitywrapper {
     position: relative;
-    width: 106%;
+    width: 106% !important;
     padding: 0 10px;
   }
   .newTopCity_Activityimage {

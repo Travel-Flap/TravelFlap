@@ -1,9 +1,9 @@
 .newBudgetfriendlyStaycationmaindiv{
     width: 100%;
     /* border: 2px solid red; */
-    /* margin-top: 5%; */
+    margin-top: 2%;
     /* background-color: #3380f2; */
-    height: 500px;
+    height: 480px;
   }
   
   .newBudgetFriendlyOuterdiv {
@@ -44,7 +44,7 @@
     /* margin-top: 2%; */
     margin-left: 5%;
     width:65%;
-    color: #393939;
+    color: #3380f2;
     /* color: #3380f2; */
   }
 /*   

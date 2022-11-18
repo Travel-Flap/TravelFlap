@@ -11,6 +11,7 @@ import countrydata from '../../../../CountryData.json';
 import { BsWhatsapp } from "react-icons/bs"
 import { FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { OverlayTrigger } from 'react-bootstrap';
 
 export const NewHomeFooter = () => {
     const [countryid, setCountryid] = useState('');
@@ -35,6 +36,30 @@ export const NewHomeFooter = () => {
         e.preventDefault();
         alert("Get Country id" + countryid + " And " + stateid);
     }
+
+    const address = [
+        {
+            address: "800 3rd Ave New York, NY 10022 United States",
+            className: "newYorkLocation",
+        },
+        {
+            address: "House No, 3 Nkanchibaya Rd, Lusaka, Zambia",
+            className: "zambiaLocation",
+        },
+        {
+            address: "422,Jtm Mall, Model Town, Jagatpura, Jaipur, Rajasthan 302017",
+            className: "germanyLocation",
+        },
+        {
+            address: "Jtm Mall, Office no 422, 4th Floor, Jaipur Rajasthan, 302025",
+
+            className: "indiaLocation",
+        },
+        {
+            address: "1210, The Regal Tower, Near Business Bay, Dubai, U.A.E.",
+            className: "uaeLocation",
+        },
+    ];
     return (
         // <div className="newhomefooterparentcontainer">
         //     <div className="newHomeFootertextcontainer1">
@@ -46,14 +71,14 @@ export const NewHomeFooter = () => {
         //         <div className="newHomeFooterHeadingIcons">
         //             <IconContext.Provider value={{ className: "socialnewHomeFooterIcons" }}>
 
-                        // <div className="footernewHomesocialmedia">
-                        //     <a href="https://www.pinterest.com/travelflap/"><BsPinterest/></a>
-                        //     <a href=" https://www.facebook.com/travelflap/"><BsFacebook /></a>
-                        //     <a href="https://www.linkedin.com/company/travelflap/"><BsLinkedin /></a>
-                        //     <a href="https://www.instagram.com/travelflap/"><FaInstagram /></a>
-                        //     <a href="https://www.behance.net/travelflap"><BsBehance /></a>
-                        //     <a href="https://twitter.com/TravelFlap"><BsTwitter /></a>
-                        // </div>
+        // <div className="footernewHomesocialmedia">
+        //     <a href="https://www.pinterest.com/travelflap/"><BsPinterest/></a>
+        //     <a href=" https://www.facebook.com/travelflap/"><BsFacebook /></a>
+        //     <a href="https://www.linkedin.com/company/travelflap/"><BsLinkedin /></a>
+        //     <a href="https://www.instagram.com/travelflap/"><FaInstagram /></a>
+        //     <a href="https://www.behance.net/travelflap"><BsBehance /></a>
+        //     <a href="https://twitter.com/TravelFlap"><BsTwitter /></a>
+        // </div>
         //             </IconContext.Provider>
         //         </div>
 
@@ -68,32 +93,32 @@ export const NewHomeFooter = () => {
         //             </h5>
         //         </div>
 
-                // <div className="newFooterCurrencyDropDown">
-                //     <h5>State/Currency</h5>
-                //     <div className="countryselect">
-                //         <select className="form-select newFooterCountryDrop" onChange={(e) => handlecounty(e)}
-                //             style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
-                //             <option value="" >Country</option>
-                //             {
-                //                 countrydata.map((getcountry, index) => (
-                //                     <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                //                 ))
-                //             }
-                //         </select>
-                //     </div>
-    
-                //     <div className="countryselect">
-                //         <select className="form-select newFooterCountryDrop" onChange={(e) => handlecounty(e)}
-                //             style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
-                //             <option value="" >Currency</option>
-                //             {
-                //                 countrydata.map((getcountry, index) => (
-                //                     <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                //                 ))
-                //             }
-                //         </select>
-                //     </div>
-                // </div>
+        // <div className="newFooterCurrencyDropDown">
+        //     <h5>State/Currency</h5>
+        //     <div className="countryselect">
+        //         <select className="form-select newFooterCountryDrop" onChange={(e) => handlecounty(e)}
+        //             style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
+        //             <option value="" >Country</option>
+        //             {
+        //                 countrydata.map((getcountry, index) => (
+        //                     <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+        //                 ))
+        //             }
+        //         </select>
+        //     </div>
+
+        //     <div className="countryselect">
+        //         <select className="form-select newFooterCountryDrop" onChange={(e) => handlecounty(e)}
+        //             style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
+        //             <option value="" >Currency</option>
+        //             {
+        //                 countrydata.map((getcountry, index) => (
+        //                     <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+        //                 ))
+        //             }
+        //         </select>
+        //     </div>
+        // </div>
         //     </div>
 
 
@@ -148,7 +173,7 @@ export const NewHomeFooter = () => {
         //                     </div>
         //                 </div>
         //             </div>
-                    
+
         //         </div>
 
         //         <div className="newHomeFooterContactContainer">
@@ -166,7 +191,7 @@ export const NewHomeFooter = () => {
 
         //                     </div>
 
-                           
+
 
         //                     <div className="newHomeFooterContactContent">
         //                         <div className="newHomeFooterContactContentInner1">
@@ -174,7 +199,7 @@ export const NewHomeFooter = () => {
         //                         </div>
         //                         <div className = "newHomeFooterContactContentInner2">
         //                             <p className="">Mobile USA : +19176726964 </p>
-                            
+
         //                             <p className="">Mobile DXB : +971 58 597 8776 </p>
         //                         </div>
         //                     </div>
@@ -202,7 +227,7 @@ export const NewHomeFooter = () => {
         //             </div>
         //         </div>
         //     </div>
-            
+
         //     <div className='newFooterPaymentGateways'>
         //         <h5>We accept</h5>
 
@@ -216,117 +241,133 @@ export const NewHomeFooter = () => {
         // </div>
 
         <>
-          <div className='newHomeFootermainDiv'>
-            <div className='newHomeFootersectionOne'>
-                <div className='newHomeFooterMapDiv'>
-                    <img className='newHomeFooterMapImage' src="Images/NewHomeLayout/FooterContent/worldmapfooter.gif"/>
-                    <div className='newHomeFooterMapText'>
-                        <p className='newHomeFooterMapText1'>India</p>
-                        <p className='newHomeFooterMapText2'>Jtm Mall, Office no 422, 4th floor, Jagatpura, Jaipur, Rajasthan 302025</p>
-                    </div>
-                </div>
-                <div className='newHomeFooterlinkDiv'>
-                    <div className='newHomeFooterlogoCurrencyDropDown'>
-                        <img className='newHomeFooterlinkImage' src='Images/NewHomeLayout/FooterContent/TravelFlap (2).png'/>
-                        <div className="newFooterCurrencyDropDown">
-                            <h5>State/Currency</h5>
-                            <div className="countryselect">
-                                <select className="form-select newFooterCountryDrop" onChange={(e) => handlecounty(e)}
-                                    style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
-                                    <option value="" >Country</option>
-                                    {
-                                        countrydata.map((getcountry, index) => (
-                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                        ))
-                                    }
-                                </select>
-                            </div>
-            
-                            <div className="countryselect">
-                                <select className="form-select newFooterCountryDrop" onChange={(e) => handlecounty(e)}
-                                    style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
-                                    <option value="" >Currency</option>
-                                    {
-                                        countrydata.map((getcountry, index) => (
-                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                        ))
-                                    }
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='newHomeFootersocialIconsText'>
-                        <p className='newHomeFootersocialText'>TravelFlap is one of the best service provider in the industry. We are an organisation with a dream to provide our customer a best and the safest experience of their life.</p>
-                        <div className="footernewHomesocialmedia">
-                            <a href="https://www.pinterest.com/travelflap/"><BsPinterest size={"1.4em"}/></a>
-                            <a href=" https://www.facebook.com/travelflap/"><BsFacebook size={"1.4em"}/></a>
-                            <a href="https://www.linkedin.com/company/travelflap/"><BsLinkedin size={"1.4em"}/></a>
-                            <a href="https://www.instagram.com/travelflap/"><FaInstagram size={"1.4em"}/></a>
-                            <a href="https://www.behance.net/travelflap"><BsBehance size={"1.4em"}/></a>
-                            <a href="https://twitter.com/TravelFlap"><BsTwitter size={"1.4em"}/></a>
-                        </div>
-                    </div>
-                    <div className='newHomefooterlinks'>
-                        <div className='newHomefooterlinks1'>
-                            <ul>
-                                <li><h5>About Us</h5></li>
-                                <li>Home</li>
-                                <li>Terms of Services</li>
-                                <li>Privacy Statement</li>
-                                <li>FAQ</li>
-                                <li>Blog</li>
-                            </ul>
-                        </div>
-                        <div className='newHomefooterlinks1'>
-                            <ul>
-                                <li><h5>Our Services</h5></li>
-                                <Link style={{textDecoration:"none"}} to="/flights"><li>Flights</li></Link>
-                                <li>Holiday Packages</li>
-                                <li>Cruises</li>
-                                <li>Activities</li>
-                                <li>Special Offers</li>
-                            </ul>
-                        </div>
-                        <div className='newHomefooterlinks1'>
-                            <ul>
-                                <li><h5> Support</h5></li>
-                                <li>Why Us</li>
-                                <li>Contact Us</li>
-                                <li>Careers</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className='newHomeFootersectionTWo'>
-                <div className='newHomeFootersectionLogos'>
-                    <p>The world leader in online travel & related services</p>
-                    <div className='newHomeFootersectionLogosDiv'>
-                        <div className='newHomeFooterImages'>
-                           <img className='newHomeFootersectionLogosTravelFlap' src='Images/NewHomeLayout/FooterContent/TravelFlap.png'/>
-                        </div>
-                        <div className='newHomeFooterImages'>
-                           <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/Blueberry-logo-final-2 1.png'/>
-                        </div>
-                        <div className='newHomeFooterImages'>
-                           <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/next holidays.png'/>
-                        </div>
-                        <div className='newHomeFooterImages'>
-                           <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/visa fetch logo.png'/>
-                        </div>
-                    </div>
-                </div>
-              <img className='newHomeFooterwavesection' src="Images/NewHomeLayout/FooterContent/footerbackground.png"/>
-              <div className='newHomeFootertextandPayment'>
-                  <p className='newHomeFootercopyrightText'>©2022 All Rights Reserved</p>
-                  <p className='newHomeFootercopyrightText'>Privacy Policy</p>
-                  <p className='newHomeFootercopyrightText'>Terms and Conditions</p>
-                  <p className='newHomeFootercopyrightText'>Sales and Refund</p>
-                  <img className='newFooterPaymentIamges' src='Images/NewHomeLayout/FooterContent/payingSystem.png'/>
-              </div>
+            <div className='newHomeFootermainDiv'>
+                <div className='newHomeFootersectionOne'>
+                    <div className='newHomeFooterMapDiv'>
+                        <img className='newHomeFooterMapImage' src="Images/NewHomeLayout/FooterContent/worldmapfooter.gif" />
+                        {address.map((item, i) => (
+                            <OverlayTrigger
+                                key={i}
+                                placement="right"
+                                delay={{ show: 250, hide: 400 }}
+                                overlay={
+                                    <div className="tooltipCustomised">
+                                        <div className="indicate"></div>
+                                        <p>{item.address}</p>
+                                    </div>
+                                }
+                            >
+                                <div key={i} className={item.className}></div>
+                            </OverlayTrigger>
+                        ))}
 
+                        {/* <div className='newHomeFooterMapText'>
+                            <p className='newHomeFooterMapText1'>India</p>
+                            <p className='newHomeFooterMapText2'>Jtm Mall, Office no 422, 4th floor, Jagatpura, Jaipur, Rajasthan 302025</p>
+                        </div> */}
+                    </div>
+                    <div className='newHomeFooterlinkDiv'>
+                        <div className='newHomeFooterlogoCurrencyDropDown'>
+                            <img className='newHomeFooterlinkImage' src='Images/NewHomeLayout/FooterContent/TravelFlap (2).png' />
+                            <div className="newFooterCurrencyDropDown">
+                                <h5>State/Currency</h5>
+                                <div className="countryselect">
+                                    <select className="form-select newFooterCountryDrop" onChange={(e) => handlecounty(e)}
+                                        style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
+                                        <option value="" >Country</option>
+                                        {
+                                            countrydata.map((getcountry, index) => (
+                                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                            ))
+                                        }
+                                    </select>
+                                </div>
+
+                                <div className="countryselect">
+                                    <select className="form-select newFooterCountryDrop" onChange={(e) => handlecounty(e)}
+                                        style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
+                                        <option value="" >Currency</option>
+                                        {
+                                            countrydata.map((getcountry, index) => (
+                                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                            ))
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='newHomeFootersocialIconsText'>
+                            <p className='newHomeFootersocialText'>TravelFlap is one of the best service provider in the industry. We are an organisation with a dream to provide our customer a best and the safest experience of their life.</p>
+                            <div className="footernewHomesocialmedia">
+                                <a href="https://www.pinterest.com/travelflap/"><BsPinterest size={"1.4em"} /></a>
+                                <a href=" https://www.facebook.com/travelflap/"><BsFacebook size={"1.4em"} /></a>
+                                <a href="https://www.linkedin.com/company/travelflap/"><BsLinkedin size={"1.4em"} /></a>
+                                <a href="https://www.instagram.com/travelflap/"><FaInstagram size={"1.4em"} /></a>
+                                <a href="https://www.behance.net/travelflap"><BsBehance size={"1.4em"} /></a>
+                                <a href="https://twitter.com/TravelFlap"><BsTwitter size={"1.4em"} /></a>
+                            </div>
+                        </div>
+                        <div className='newHomefooterlinks'>
+                            <div className='newHomefooterlinks1'>
+                                <ul>
+                                    <li><h5>About Us</h5></li>
+                                    <li>Home</li>
+                                    <li>Terms of Services</li>
+                                    <li>Privacy Statement</li>
+                                    <li>FAQ</li>
+                                    <li>Blog</li>
+                                </ul>
+                            </div>
+                            <div className='newHomefooterlinks1'>
+                                <ul>
+                                    <li><h5>Our Services</h5></li>
+                                    <Link style={{ textDecoration: "none" }} to="/flights"><li>Flights</li></Link>
+                                    <li>Holiday Packages</li>
+                                    <li>Cruises</li>
+                                    <li>Activities</li>
+                                    <li>Special Offers</li>
+                                </ul>
+                            </div>
+                            <div className='newHomefooterlinks1'>
+                                <ul>
+                                    <li><h5> Support</h5></li>
+                                    <li>Why Us</li>
+                                    <li>Contact Us</li>
+                                    <li>Careers</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='newHomeFootersectionTWo'>
+                    <div className='newHomeFootersectionLogos'>
+                        <p>The world leader in online travel & related services</p>
+                        <div className='newHomeFootersectionLogosDiv'>
+                            <div className='newHomeFooterImages'>
+                                <img className='newHomeFootersectionLogosTravelFlap' src='Images/NewHomeLayout/FooterContent/TravelFlap.png' />
+                            </div>
+                            <div className='newHomeFooterImages'>
+                                <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/Blueberry-logo-final-2 1.png' />
+                            </div>
+                            <div className='newHomeFooterImages'>
+                                <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/next holidays.png' />
+                            </div>
+                            <div className='newHomeFooterImages'>
+                                <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/visa fetch logo.png' />
+                            </div>
+                        </div>
+                    </div>
+                    <img className='newHomeFooterwavesection' src="Images/NewHomeLayout/FooterContent/footerbackground.png" />
+                    <div className='newHomeFootertextandPayment'>
+                        <p className='newHomeFootercopyrightText'>©2022 All Rights Reserved</p>
+                        <p className='newHomeFootercopyrightText'>Privacy Policy</p>
+                        <p className='newHomeFootercopyrightText'>Terms and Conditions</p>
+                        <p className='newHomeFootercopyrightText'>Sales and Refund</p>
+                        <img className='newFooterPaymentIamges' src='Images/NewHomeLayout/FooterContent/payingSystem.png' />
+                    </div>
+
+                </div>
             </div>
-          </div>
         </>
     );
 };
