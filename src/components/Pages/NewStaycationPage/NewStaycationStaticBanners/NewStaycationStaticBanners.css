@@ -2,12 +2,12 @@
 .staycationOptionOuterDiv{
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 5%;
 }
 
 .iconsOptionDiv{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 20%;
     margin-left: 5%;
 }
