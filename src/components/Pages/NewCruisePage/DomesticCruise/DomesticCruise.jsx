@@ -33,8 +33,8 @@ export const DomesticCruise = () => {
                     <Slider
                         arrows={false}
                         // autoplay={true}
-                        speed={4000}
-                        autoplaySpeed={4000}
+                        speed={2000}
+                        autoplaySpeed={2000}
                         dots={true}
                         dotsclassName="slick-dots line-indicator"
                         ref={sliderRef}
@@ -104,7 +104,7 @@ export const DomesticCruise = () => {
                         <div className="card-wrapper newDomesticCruisewrapper">
                             <div className="card newMultisection_DomesticCruiseimage">
                                 <div className="card-image newDomesticCruisecardImage">
-                                    <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2015/03/Golden-Triangle-Cruise-400x246.jpg" />
+                                    <img src="Images/NewHomeLayout/NewDomesticCruise/thegoldencruise.webp" />
                                 </div>
                                 <div className="newWorldDomesticCruisedetails">
                                     <h5> The Golden Triangle Cruise                        {/* <span> */}
@@ -121,7 +121,7 @@ export const DomesticCruise = () => {
                         <div className="card-wrapper newDomesticCruisewrapper">
                             <div className="card newMultisection_DomesticCruiseimage">
                                 <div className="card-image newDomesticCruisecardImage">
-                                    <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2015/03/Cochin-Cruise-400x251.jpg" />
+                                    <img src="Images/NewHomeLayout/NewDomesticCruise/kochi.webp" />
                                 </div>
                                 <div className="newWorldDomesticCruisedetails">
                                     <h5>Kochi Cruise                         {/* <span> */}
@@ -138,7 +138,7 @@ export const DomesticCruise = () => {
                         <div className="card-wrapper newDomesticCruisewrapper">
                             <div className="card newMultisection_DomesticCruiseimage">
                                 <div className="card-image newDomesticCruisecardImage">
-                                    <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2015/03/Brahmaputra-River-Cruise-400x224.jpg" />
+                                    <img src="Images/NewHomeLayout/NewDomesticCruise/brahmaputrariver.webp" />
                                 </div>
                                 <div className="newWorldDomesticCruisedetails">
                                     <h5>Brahmaputra River Cruise                         {/* <span> */}
@@ -155,7 +155,7 @@ export const DomesticCruise = () => {
                         <div className="card-wrapper newDomesticCruisewrapper">
                             <div className="card newMultisection_DomesticCruiseimage">
                                 <div className="card-image newDomesticCruisecardImage">
-                                    <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2015/03/Kerala-Backwater-Cruise-400x272.jpg" />
+                                    <img src="Images/NewHomeLayout/NewDomesticCruise/kerelabackwater.webp" />
                                 </div>
                                 <div className="newWorldDomesticCruisedetails">
                                     <h5>Kerala Backwater Cruise                         {/* <span> */}
@@ -172,7 +172,7 @@ export const DomesticCruise = () => {
                         <div className="card-wrapper newDomesticCruisewrapper">
                             <div className="card newMultisection_DomesticCruiseimage">
                                 <div className="card-image newDomesticCruisecardImage">
-                                    <img src="https://images.hindustantimes.com/img/2022/09/19/1600x900/DeTXQUuVAAA3TQA_1663595154278_1663595225185_1663595225185.jfif" />
+                                    <img src="Images/NewHomeLayout/NewDomesticCruise/ganga river cruise.webp" />
                                 </div>
                                 <div className="newWorldDomesticCruisedetails">
                                     <h5>Ganges River Cruise                         {/* <span> */}
@@ -189,7 +189,7 @@ export const DomesticCruise = () => {
                         <div className="card-wrapper newDomesticCruisewrapper">
                             <div className="card newMultisection_DomesticCruiseimage">
                                 <div className="card-image newDomesticCruisecardImage">
-                                    <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2015/03/Dibru-Saikhowa-River-Cruise-400x204.jpg" />
+                                    <img src="Images/NewHomeLayout/NewDomesticCruise/dibru.webp" />
                                 </div>
                                 <div className="newWorldDomesticCruisedetails">
                                     <h5>Dibru Saikhowa River Cruise                         {/* <span> */}

@@ -11,6 +11,7 @@ import countrydata from '../../../../CountryData.json';
 import { BsWhatsapp } from "react-icons/bs"
 import { FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import { OverlayTrigger } from 'react-bootstrap';
 
 export const NewHomeFooter = () => {
     const [countryid, setCountryid] = useState('');
@@ -35,6 +36,30 @@ export const NewHomeFooter = () => {
         e.preventDefault();
         alert("Get Country id" + countryid + " And " + stateid);
     }
+
+    const address = [
+        {
+            address: "800 3rd Ave New York, NY 10022 United States",
+            className: "newYorkLocation",
+        },
+        {
+            address: "House No, 3 Nkanchibaya Rd, Lusaka, Zambia",
+            className: "zambiaLocation",
+        },
+        {
+            address: "422,Jtm Mall, Model Town, Jagatpura, Jaipur, Rajasthan 302017",
+            className: "germanyLocation",
+        },
+        {
+            address: "Jtm Mall, Office no 422, 4th Floor, Jaipur Rajasthan, 302025",
+
+            className: "indiaLocation",
+        },
+        {
+            address: "1210, The Regal Tower, Near Business Bay, Dubai, U.A.E.",
+            className: "uaeLocation",
+        },
+    ];
     return (
         // <div className="newhomefooterparentcontainer">
         //     <div className="newHomeFootertextcontainer1">
@@ -220,10 +245,26 @@ export const NewHomeFooter = () => {
                 <div className='newHomeFootersectionOne'>
                     <div className='newHomeFooterMapDiv'>
                         <img className='newHomeFooterMapImage' src="Images/NewHomeLayout/FooterContent/worldmapfooter.gif" />
-                        <div className='newHomeFooterMapText'>
+                        {address.map((item, i) => (
+                            <OverlayTrigger
+                                key={i}
+                                placement="right"
+                                delay={{ show: 250, hide: 400 }}
+                                overlay={
+                                    <div className="tooltipCustomised">
+                                        <div className="indicate"></div>
+                                        <p>{item.address}</p>
+                                    </div>
+                                }
+                            >
+                                <div key={i} className={item.className}></div>
+                            </OverlayTrigger>
+                        ))}
+
+                        {/* <div className='newHomeFooterMapText'>
                             <p className='newHomeFooterMapText1'>India</p>
                             <p className='newHomeFooterMapText2'>Jtm Mall, Office no 422, 4th floor, Jagatpura, Jaipur, Rajasthan 302025</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className='newHomeFooterlinkDiv'>
                         <div className='newHomeFooterlogoCurrencyDropDown'>

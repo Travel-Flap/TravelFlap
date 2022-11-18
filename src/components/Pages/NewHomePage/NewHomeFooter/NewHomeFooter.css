@@ -544,13 +544,15 @@ h4 img {
   /* border: 2px solid blue; */
   width: 50%;
   height: 380px;
+  position: relative;
+  background-color: #ffffff;
 }
 .newHomeFooterMapImage{
   /* border: 2px solid purple; */
-  width: 79%;
+  width: 90%;
   height: auto;
   margin-left: 10%;
-  margin-top: 3%;
+  /* margin-top: 3%; */
 }
 .newHomeFooterMapText{
   /* border: 2px solid red; */
@@ -578,6 +580,7 @@ h4 img {
   height: 90px;
   display: flex;
   flex-direction: row;
+  background-color: #ffffff;
 }
 .newFooterCurrencyDropDown{
   margin-left: 30%;
@@ -596,6 +599,7 @@ h4 img {
   height: 95px;
   margin: auto;
   margin-top: 1.2%;
+  background-color: #ffffff;
 }
 .newHomeFootersocialText{
   color: #3380F2;
@@ -618,6 +622,7 @@ h4 img {
   display: flex;
   flex-direction: row;
   margin-top: 2%;
+  background-color: #ffffff;
 }
 .newHomefooterlinks1{
   /* border: 2px solid green; */
@@ -734,4 +739,85 @@ h4 img {
   color: white !important;
   font-weight: 700;
   border: 3px solid white !important;
+}
+
+
+
+
+
+
+
+
+/* Tnis css is for the hover part in the global map */
+
+.newYorkLocation {
+  position: absolute;
+  top: 29%;
+  left: 32%;
+  width: 20px;
+  height: 20px;
+  /* background-color: red; */
+}
+.zambiaLocation {
+  position: absolute;
+  top: 62.3%;
+  left: 58.5%;
+  width: 20px;
+  height: 20px;
+  /* background-color: green; */
+
+}
+.germanyLocation {
+  position: absolute;
+  top: 25%;
+  left: 53.5%;
+  width: 20px;
+  height: 20px;
+  /* background-color: purple; */
+}
+
+.indiaLocation {
+  position: absolute;
+  top: 40.5%;
+  left: 69.5%;
+  width: 20px;
+  height: 20px;
+  /* background-color: black; */
+}
+
+.uaeLocation {
+  position: absolute;
+  top: 40%;
+  left: 65.5%;
+  width: 20px;
+  height: 20px;
+  /* background-color: maroon; */
+}
+
+.tooltipCustomised {
+  background-color: #3380f2;
+  width: 130px;
+  /* height: 80px; */
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 3%;
+  margin-left: -1.5%;
+  position: relative;
+}
+
+.tooltipCustomised > p {
+  font-size: 10px;
+  margin: 0;
+}
+
+.indicate {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -5px;
+  left: 15px;
+  transform: rotate(45deg);
+  background-color: #3380f2;
 }
