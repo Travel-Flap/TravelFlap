@@ -244,7 +244,7 @@ export const NewHomeFooter = () => {
             <div className='newHomeFootermainDiv'>
                 <div className='newHomeFootersectionOne'>
                     <div className='newHomeFooterMapDiv'>
-                        <img className='newHomeFooterMapImage' src="Images/NewHomeLayout/FooterContent/worldmapfooter.gif" />
+                        <img className='newHomeFooterMapImage' src="Images/NewHomeLayout/FooterContent/footerworldmap.gif" />
                         {address.map((item, i) => (
                             <OverlayTrigger
                                 key={i}
@@ -273,7 +273,7 @@ export const NewHomeFooter = () => {
                                 <h5>State/Currency</h5>
                                 <div className="countryselect">
                                     <select className="form-select newFooterCountryDrop" onChange={(e) => handlecounty(e)}
-                                        style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
+                                        style={{ border: "1px solid #3380f2", width: "60%", appearance: "none" }}>
                                         <option value="" >Country</option>
                                         {
                                             countrydata.map((getcountry, index) => (
@@ -285,7 +285,7 @@ export const NewHomeFooter = () => {
 
                                 <div className="countryselect">
                                     <select className="form-select newFooterCountryDrop" onChange={(e) => handlecounty(e)}
-                                        style={{ border: "3px solid #3380f2", width: "60%", appearance: "none" }}>
+                                        style={{ border: "1px solid #3380f2", width: "60%", appearance: "none" }}>
                                         <option value="" >Currency</option>
                                         {
                                             countrydata.map((getcountry, index) => (
@@ -320,7 +320,7 @@ export const NewHomeFooter = () => {
                             </div>
                             <div className='newHomefooterlinks1'>
                                 <ul>
-                                    <li><h5>Our Services</h5></li>
+                                    <li className='footerContext'><h5>Our Services</h5></li>
                                     <Link style={{ textDecoration: "none" }} to="/flights"><li>Flights</li></Link>
                                     <li>Holiday Packages</li>
                                     <li>Cruises</li>
@@ -347,13 +347,15 @@ export const NewHomeFooter = () => {
                                 <img className='newHomeFootersectionLogosTravelFlap' src='Images/NewHomeLayout/FooterContent/TravelFlap.png' />
                             </div>
                             <div className='newHomeFooterImages'>
-                                <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/Blueberry-logo-final-2 1.png' />
+                                <img className='newHomeFootersectionLogosBlueberry'
+                                    src='Images/NewHomeLayout/FooterContent/Blueberry-logo-New.png'
+                                />
                             </div>
                             <div className='newHomeFooterImages'>
-                                <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/next holidays.png' />
+                                <img className='newHomeFootersectionLogosNextHolidays' src='Images/NewHomeLayout/FooterContent/NextHolidaysNew.png' />
                             </div>
                             <div className='newHomeFooterImages'>
-                                <img className='newHomeFootersectionLogosImages' src='Images/NewHomeLayout/FooterContent/visa fetch logo.png' />
+                                <img className='newHomeFootersectionLogosVisaFetch' src='Images/NewHomeLayout/FooterContent/VisaFetchNew.png' />
                             </div>
                         </div>
                     </div>
@@ -363,7 +365,10 @@ export const NewHomeFooter = () => {
                         <p className='newHomeFootercopyrightText'>Privacy Policy</p>
                         <p className='newHomeFootercopyrightText'>Terms and Conditions</p>
                         <p className='newHomeFootercopyrightText'>Sales and Refund</p>
-                        <img className='newFooterPaymentIamges' src='Images/NewHomeLayout/FooterContent/payingSystem.png' />
+
+                        {/* <div className='paymentGatewayGroup'>
+                            <img className='newFooterPaymentIamges' src='Images/NewHomeLayout/FooterContent/PaymentGroup.png' />
+                        </div> */}
                     </div>
 
                 </div>
