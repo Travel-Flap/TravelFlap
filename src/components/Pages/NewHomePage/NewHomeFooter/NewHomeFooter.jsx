@@ -313,20 +313,26 @@ export const NewHomeFooter = () => {
                                 <ul>
                                     <li><h5>About Us</h5></li>
                                     <li>Home</li>
-                                    <li>Terms of Services</li>
+                                    {/* <li>Terms of Services</li>
+                                    <li>Term of Services</li> */}
                                     <li>Privacy Statement</li>
                                     <li>FAQ</li>
                                     <li>Blog</li>
+                                    <li>Terms & Service</li>
                                 </ul>
                             </div>
                             <div className='newHomefooterlinks1'>
                                 <ul>
                                     <li className='footerContext'><h5>Our Services</h5></li>
                                     <Link style={{ textDecoration: "none" }} to="/flights"><li>Flights</li></Link>
-                                    <li>Holiday Packages</li>
-                                    <li>Cruises</li>
+                                    <Link style={{ textDecoration: "none" }} to="/holidays"><li>Holiday</li></Link>
+                                    <Link style={{ textDecoration: "none" }} to="/cruise"><li>Cruises</li></Link>
+                                    <Link style={{ textDecoration: "none" }} to="/activities"><li>Activities</li></Link>
+                                    <Link style={{ textDecoration: "none" }} to="/holidays"><li>Holiday</li></Link>
+                                    {/* <li>Holiday</li> */}
+                                    {/* <li>Cruises</li>
                                     <li>Activities</li>
-                                    <li>Special Offers</li>
+                                    <li>Special Offers</li> */}
                                 </ul>
                             </div>
                             <div className='newHomefooterlinks1'>
