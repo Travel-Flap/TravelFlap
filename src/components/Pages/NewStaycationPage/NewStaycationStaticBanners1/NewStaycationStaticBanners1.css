@@ -245,10 +245,9 @@
     height: 250px;
     display: flex;
     flex-direction: column;
+    /* border: 2px solid red; */
 }
-.hovericonsOptionDivText:hover{
-    text-decoration: underline;
-}
+
 .hovernewStaycationIcons{
     width: 41%;
     height: 41px;
@@ -270,4 +269,7 @@
     font-size: 17px;
     font-weight: 700;
     padding-top: 18px;
+}
+.hovernewStaycationIconsText:hover{
+    text-decoration: underline;
 }

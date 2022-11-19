@@ -41,6 +41,7 @@ import { InnerVisaPage1 } from "./components/Pages/SubPages/InnerVisapages/Inner
 import { DomesticHolidaySubpages } from "./components/Pages/NewHoldiaysPage/DomesticHolidaySubpage/DomesticHolidaySubpages";
 import { InternationHolidaySubpage } from "./components/Pages/NewHoldiaysPage/InternationHolidaySubpage/InternationHolidaySubpage";
 import { HandPickedWeekendDestinations } from "./components/Pages/SubPages/HandPickedWeekendDestinations/HandPickedWeekendDestinations";
+import { ContactUS } from "./components/Pages/ContactUS/ContactUS";
 
 
 function App() {
@@ -137,6 +138,9 @@ function App() {
         {/* <Route path="/easyvisainnerpage" element={<InnerVisaPage1/>}/> */}
 
         {/* <Route path="/staycations" element={ <Staycations/>} /> */}
+
+
+        {/* <Route path="/contact" element={<ContactUS/>}/> */}
       </Routes>
 
   
