@@ -581,7 +581,7 @@ h4 img {
   display: flex;
   flex-direction: row;
   background-color: #ffffff;
-  margin-top: 1% !important;
+  /* margin-top: 1% !important; */
 }
 .newFooterCurrencyDropDown {
   margin-left: 30%;
