@@ -12,6 +12,7 @@ import { BsWhatsapp } from "react-icons/bs"
 import { FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import { OverlayTrigger } from 'react-bootstrap';
+import { WaveEffects } from './wave';
 
 export const NewHomeFooter = () => {
     const [countryid, setCountryid] = useState('');
@@ -348,14 +349,14 @@ export const NewHomeFooter = () => {
                             </div>
                             <div className='newHomeFooterImages'>
                                 <img className='newHomeFootersectionLogosBlueberry'
-                                    src='Images/NewHomeLayout/FooterContent/Blueberry-logo-New.png'
+                                    src='Images/NewHomeLayout/FooterContent/BBT.webp'
                                 />
                             </div>
                             <div className='newHomeFooterImages'>
                                 <img className='newHomeFootersectionLogosNextHolidays' src='Images/NewHomeLayout/FooterContent/NextHolidaysNew.png' />
                             </div>
                             <div className='newHomeFooterImages'>
-                                <img className='newHomeFootersectionLogosVisaFetch' src='Images/NewHomeLayout/FooterContent/VisaFetchNew.png' />
+                                <img className='newHomeFootersectionLogosVisaFetch' src='Images/NewHomeLayout/FooterContent/visafetch (1).png' />
                             </div>
                         </div>
                     </div>
@@ -366,12 +367,14 @@ export const NewHomeFooter = () => {
                         <p className='newHomeFootercopyrightText'>Terms and Conditions</p>
                         <p className='newHomeFootercopyrightText'>Sales and Refund</p>
 
+                        {/* <WaveEffects/> */}
                         {/* <div className='paymentGatewayGroup'>
                             <img className='newFooterPaymentIamges' src='Images/NewHomeLayout/FooterContent/PaymentGroup.png' />
                         </div> */}
                     </div>
 
                 </div>
+
             </div>
         </>
     );
