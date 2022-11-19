@@ -59,7 +59,7 @@ export const NewStaycationPage = () => {
             {/* <NewStaycationpicsSlider/> */}
 
 
-            <NewStaycationStaticBanners />
+            {/* <NewStaycationStaticBanners /> */}
 
             <DiscoverExtendedStay />
 
