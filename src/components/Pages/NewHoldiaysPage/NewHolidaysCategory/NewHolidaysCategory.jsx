@@ -22,7 +22,7 @@ export const NewHolidaysCategory = () => {
                     <p className='holidayThemeText'> Holidays Themes</p>
                 </div>
                 <div className='newHolidayCategoryTheme'>
-                    <img className='holidayTheme' src="Images/NewHomeLayout/Holidays/HolidayCategory/Offers.png"/>
+                    <img className='holidayTheme' src="Images/NewHomeLayout/Holidays/HolidayCategory/offers.png"/>
                     <p className='holidayThemeText'> Holidays Offers</p>
                 </div>
                 <div className='newHolidayCategoryTheme'>
