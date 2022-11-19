@@ -1,16 +1,14 @@
+/* 
 
-
-.newHolidaysCategorymainDiv{
+.newHolidaysCategoryMainDiv{
     width: 85%;
     height: 220px;
     margin: auto;
     border: 1px solid lightgray;
     display: flex;
     flex-direction: row;
-    /* margin-top: 3%; */
     border-radius: 25px;
     background-color: #F3F7FA;
-    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 .newHolidaysCategorycard{
     width: 25%;
@@ -18,7 +16,6 @@
     margin: 2% 0% 0% 0%;
     display: flex;
     flex-direction: row;
-    /* border: 2px solid red; */
     text-align: left;
 }
 .newHolidaysCategorycardimageDiv{
@@ -28,26 +25,73 @@
     margin: auto;
     margin-top: 15%;
     cursor: pointer;
+} */
+
+.newHolidayCategoryMainDiv{
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    /* border: 1px solid gold; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: #F3F7FA; */
 }
 .newHolidaysCategoryheading{
-    color: #393939;
+    color: #3380F2;
     font-size: 28px;
     font-weight: 700;
-    margin: auto;
+    height: 50px;
+    margin-left: 3%;
     width: 95%;
     /* border: 2px solid red; */
 }
-
-.newHolidaysCategorycardsubheading{
+.newHolidaysCategoryheadingText{
+    color: #393939;
+    /* border: 2px solid red; */
+    width: 90%;
+    font-size: 19px;
+    margin-left: 3%;
+}
+.newholidaysCategorycontainer{
+    /* border: 2px solid green; */
+    width: 85%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 6.5%;
+}
+.newHolidayCategoryTheme{
+    border: 0.2px solid lightgray;
+    width:22%;
+    height: 140px;
+    margin-top: 4%;
+    border-radius: 15px;
+    margin-left: 3%;
+    background-color: white;
+}
+.holidayTheme{
+    /* border: 2px solid salmon; */
+    width: 30%;
+    height: 85px;
+    margin-top: -13%;
+    margin-left: 35%;
+}
+.holidayThemeText{
+    color: #393939;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 13%;
+}
+/* .newHolidaysCategorycardsubheading{
     color:#393939;
     font-size: 25px;
     font-weight: 700;
     margin: auto;
     z-index: 1;
     text-align: center;
-    /* margin-top: 6%; */
     margin-left: 3.5%;
-    /* border: 2px solid yellow; */
     position: absolute;
     
 }
@@ -57,4 +101,5 @@
     border-radius: 10px;
     filter: brightness(0.6);
     z-index: 0;
-}
+} */
+
