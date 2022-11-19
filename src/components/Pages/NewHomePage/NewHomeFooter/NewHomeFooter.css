@@ -652,8 +652,9 @@ h4 img {
 }
 
 .newHomefooterlinks1 li{
-  font-size: 12px;
-  font-weight: 600;
+  border: 10x solid red !important;
+  font-size: 13.5px;
+  font-weight: 500;
 }
 
 .newHomeFootersectionTWo {
@@ -758,6 +759,7 @@ h4 img {
   height: 115px;
   /* border: 2px solid red; */
   z-index: 0;
+  background-color: #ffffff;
 }
 .newHomeFootertextandPayment {
   /* border: 2px solid black; */
