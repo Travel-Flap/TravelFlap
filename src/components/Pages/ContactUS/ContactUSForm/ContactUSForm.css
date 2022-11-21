@@ -133,6 +133,7 @@
     height: 150px;
     outline: none;
     /* margin: 5%; */
+    resize: none;
     margin-left:12%;
     padding: 10px;
     border: 1px solid lightgray;
@@ -186,7 +187,7 @@
     font-size: 15px;
   }
  .radiolablemargin{
-    padding-top: 10px;
+    padding-top: 12px;
     color: grey;
     /* margin-left: 4%; */
  }
