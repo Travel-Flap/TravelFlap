@@ -1,0 +1,46 @@
+.homescreen{
+    background-image: url("https://img.freepik.com/premium-photo/group-teens-spending-time-lake-beach_186382-76.jpg?size=626&ext=jpg&uid=R84358958&ga=GA1.2.1898142672.1667996362&semt=sph");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 100vh;
+    object-fit: cover;
+    
+
+}
+
+
+input[type=text ] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.5px solid rgb(22, 21, 21);
+  }
+
+
+  input[type=password ] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.5px solid rgb(22, 21, 21);
+  }
+
+
+a{
+    text-decoration: none;
+}
+
+
+  .mail{
+    width: 280px;
+    height: 30px;
+  }
+
+  .r2 {
+    padding: 15px;
+    margin-top: -20px;
+  }
+  

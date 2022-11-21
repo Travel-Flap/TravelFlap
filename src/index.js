@@ -7,18 +7,24 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { hydrate, render } from "react-dom";
 
 import { BrowserRouter } from "react-router-dom";
+
+import { store } from "./Admin/Redux/store";
 // This is for the card Carousel
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Provider } from "react-redux/es";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>
 );
+
 
 const rootElement = document.getElementById("root");
 if (rootElement.hasChildNodes()) {
