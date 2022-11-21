@@ -91,7 +91,7 @@ export const NewVisaBannerForm = () => {
 
                     <div className='newHomemoredropdownbannercontent'>
                         <div className='moreOptions'>
-                            <Link to='' className='moreOptions'><FaPhoneAlt className='contactIcon' /> ContactUs</Link>
+                            <Link to='/contact' className='moreOptions'><FaPhoneAlt className='contactIcon' /> ContactUs</Link>
                         </div>
                         <div className='moreOptions '>
                             <Link to='' className='moreOptions'><GiPalmTree className='miceIcon' />  Safe Stay </Link>

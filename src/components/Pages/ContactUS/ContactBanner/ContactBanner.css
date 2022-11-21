@@ -6,17 +6,25 @@
     color: white;
     padding-left: 100px;
 }
-
-.contactUSBannerDiv h5{
-    font-weight: 700;
-    font-size: 22px;
-}
 .contactimage{
-    height: 300px;
+    width: 100%;
+    height: 500px;
 }
 .contactUSPagebannerHeading{
     font-weight: 700;
-    margin-left: 5%;
-    margin-top: 15%;
+    /* margin-left: 5%; */
+    margin-top: 18%;
+    font-size: 50px;
+    color: white;
+  }
+  .contactusMainPage{
+    /* border: 2px solid red; */
+    object-fit: cover;
+    background-size: auto;
+    width: 100%;
+    height: 500px;
+  }
+  .contactUSPagebannertext{
+    /* margin-left: 5%; */
     color: white;
   }

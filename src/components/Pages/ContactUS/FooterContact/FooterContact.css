@@ -1,0 +1,110 @@
+
+.contactUSFooterMain-Container3{
+    background-color:#071330;
+    /* margin-top: 7%; */
+    height: 250px;
+    /* border: 2px solid red; */
+    /* width:auto; */
+    /* height: 500px; */
+}
+
+.contactUSFootersubclass-item{
+    display:flex;
+    flex-direction:row;
+    /* border:2px solid red; */
+    width:18%;
+}
+
+.InnerhandpickedFooterfootersocialmedia2{
+    width:25%;
+
+}
+.contactUSFooterContact{
+    margin-left: 60%;
+    /* border: 1px solid red; */
+    width: 40%;
+}
+.contactUSFooterContactDetailsdiv{
+    margin-left:850px;
+    /* margin-top:5px; */
+}
+
+.contactUSFooterContactContainer {
+    border: 1px solid green !important;
+    width: 100%;
+  }
+.contactUSFooterContactDetailsdiv{
+  /* border: 2px solid white !important; */
+  margin-top: -5%;
+  margin-left: 5%;
+  width: 90%;
+  height: auto;
+}
+   
+  .contactUSFooterContactContent {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    /* margin-top:2%; */
+    width: 100%;
+    border-radius: 7px;
+    display: flex;
+    height: 30px;
+    /* margin-left: 5%; */
+    flex-direction: row;
+    cursor: pointer;
+    /* border: 2px solid red; */
+  }
+
+  /* .DescriptionAboutPlace{
+    color: #3380f2;
+  } */
+  
+  
+  .contactUSFooterContactContentInner2{
+    margin-left: 3%;
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin-top: 1%; */
+  }
+  
+  .contactUSFooterContactContentInner2 p {
+    margin-left: 5%;
+    color: white;
+  }
+  
+  
+  
+  .contactUSFooterContactContentInner2span{
+    text-align: right !important;
+  }
+  
+  .contactUSFootersubclass-item{
+    margin-left:4%;
+  }
+  
+.contactUSFootersocialIcons {
+    border: 2px solid whitesmoke;
+    color: #dee2e6;
+    font-size: 29px;
+    margin-top: 110%;
+    /* padding: 20%; */
+    border-radius: 30px;
+    gap: 50% !important;
+  }
+  .contactUSFootersocialIcons:hover {
+    color: blue;
+    background-color: white;
+  }
+  
+  
+  .contactUSFooterfootersocialmedia1 {
+    /* border: 1px solid red; */
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 3%;
+    /* margin-left: 5%; */
+  }
+ 
