@@ -154,7 +154,11 @@ function App() {
 
         {/* <Route path="/staycations" element={ <Staycations/>} /> */}
 
+
         {/* <Route path="/contact" element={<ContactUS/>}/> */}
+
+
+        <Route path="/contact" element={<ContactUS/>}/>
       </Routes>
     </>
   );
