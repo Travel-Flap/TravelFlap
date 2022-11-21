@@ -20,7 +20,7 @@ export const ContactUSForm = () => {
 
               <div className="contactInformationDetailsheading">
               <h3>Contact Information</h3>
-              <p>Say Something to Start a live Chat !</p>
+              <p>Wanna ask any queries contact us here!!!!</p>
               </div>
 
               <div className="contactInformationsocial">
@@ -72,6 +72,18 @@ export const ContactUSForm = () => {
               <input type="text" placeholder="Phone Number" className="contactLastName"/>
             </div>
 
+            <p className="contactselectSubjectheading">Select Subject</p>
+            <div className="contactformRadioselect">
+
+                  <input type="radio" id="General Enquiry"  value="General Enquiry" className="contactformradioheadings"/>
+                  <label for="General Enquiry" className="radiolablemargin">General Enquiry</label>
+                  <input type="radio" id="Feedback"  value="Feedback" className="contactformradioheadings"/>
+                  <label for="Feedback" className="radiolablemargin">Feedback</label>
+                  <input type="radio" id="Suggestions"  value="Suggestions" className="contactformradioheadings"/>
+                  <label for="Suggestions" className="radiolablemargin">Suggestions</label>
+                  <input type="radio" id="Others"  value="Others" className="contactformradioheadings"/>
+                  <label for="Others" className="radiolablemargin">Others</label>
+            </div>
 
             <div className="contactformDiv2">
               <p>Enter Message</p>
