@@ -139,6 +139,9 @@ export const VarietyOfStays = () => {
 
                                 <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" />
                                 <label class="btn btn-outline-primary varietyButton4" for="btnradio4"> Lake Front Hotel </label>
+
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" />
+                                <label class="btn btn-outline-primary varietyButton5" for="btnradio4"> Beach Hotel </label>
                             </div>
                         </div>
 

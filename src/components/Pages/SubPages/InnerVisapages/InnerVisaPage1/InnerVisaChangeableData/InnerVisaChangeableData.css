@@ -3,7 +3,17 @@
     height: 50px;
     width: 100px;
 }
-
-.innerVisaChangeableDataMainDiv{
-    width: 70%;
+.activeDivContainer{
+    color: #393939;
+    text-decoration: underline;
+}
+.innervisaChangemainDiv{
+   border: 2px solid red;
+   width: 70%;
+   height: 80px;
+   background-color: #ECF3F9;
+   margin: auto;
+}
+.innervisabuttonouterDiv{
+    border: 2px solid gold;
 }
