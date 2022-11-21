@@ -171,7 +171,7 @@ export const NewHomeEasyVisaDestination = () => {
                                 </div>
                             </div>
 
-                            <Link to="/easyvisainnerpage">
+                            <Link to="/EasyVisaInnerPage">
                                 <div className="newhomeEasyVisacardwrapper">
                                     <div className="card newhomeEasyVisamaindiv">
                                         <div className="card-image newhomeEasyVisacardimage">
