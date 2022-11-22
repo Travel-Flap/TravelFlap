@@ -1,0 +1,117 @@
+/* .hotelBoookingButtonGroup{
+    border: 2px solid black;
+} */
+
+.hotelBookingButtonsSelector {
+  /* border: 2px solid red; */
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.hotelBookingButtonMainDiv {
+  /* border: 2px solid black !important; */
+  width: 100%;
+  margin-top: 2%;
+  /* margin-left: 2%; */
+}
+
+.hotelBookingButtonMainDiv label {
+  margin-left: 2% !important;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.hotelBookingButton1 {
+  outline: none;
+  border: 2px solid #3380f2;
+  width: 4% !important;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 30px;
+}
+
+.hotelBookingButton2 {
+  outline: none;
+  border: 2px solid #3380f2;
+  width: 4% !important;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 38px;
+}
+
+.hotelBookingButton3 {
+  outline: none;
+  border: 2px solid #3380f2;
+  width: 2%;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 35px;
+}
+
+.hotelBookingButton4 {
+  outline: none;
+  border: 2px solid #3380f2;
+  width: 2%;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 25px;
+  text-align: center !important;
+}
+
+.hotelBookingButton5 {
+  outline: none;
+  border: 2px solid #3380f2;
+  width: 2%;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 40px;
+}
+
+/* .hotelBookingButton6 {
+  outline: none;
+  border: 2px solid #3380f2;
+  width: 15%;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 45px;
+} */
+
+/* This css part starts for the below hotel info */
+
+.hotelBookingHotelNameHeading {
+  width: 90%;
+  margin: auto;
+}
+
+.hotelBookingHotelNameHeading h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+/* .hotelBookingInfoIcons{
+    border: 1px solid red;
+} */
+
+.hotelBookingTextIcons{
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+
+.hotelBookingTextIconsInner1{
+    width: 50%;
+}
+
+.hotelBookingTextIconsInner2{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+

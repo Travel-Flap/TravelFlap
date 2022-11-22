@@ -47,7 +47,8 @@ import Register from "./Admin/Components/LoginSignup/Register";
 import Login from "./Admin/Components/LoginSignup/Login";
 import AdminHome from "./Admin/Components/PannelAdmin/Home/Home";
 import { HotelsInnerDetailsPage } from "./components/Pages/NewHotelsPage/HotelsInnerDetailsPage/HotelsInnerDetailsPage";
-import AllRoute from "./Admin/Components/AllRoutes/AllRoute";
+
+import { HotelBookingPageLayout } from "./components/Pages/NewHotelsPage/HotelsBookingPageLayout/HotelBookingPageLayout";
 
 function App() {
   return (
@@ -64,8 +65,7 @@ function App() {
         />
       </Helmet>
       <NewHomeNav />
-      {/* <Hotel/> */}
-      {/* <Holidays /> */}
+
       <Helmet>
         <title>TravelFlap</title>
         <meta
@@ -150,22 +150,18 @@ function App() {
         {/* <Route path="/accomodations" element={<InnerPopularDestinationAccomodations/>}/>
         <Route path="/inc&exc" element={<InnerPopularDestinationInclusiveExclusive/>} /> */}
         {/* <Route path="/baliDetails" element={<InnerHandPicked3/>}/> */}
-        
+
         {/* <Route path="/easyvisainnerpage" element={<InnerVisaPage1/>}/> */}
 
         {/* <Route path="/staycations" element={ <Staycations/>} /> */}
 
-
-
         {/* <Route path="/contact" element={<ContactUS/>}/> */}
 
-
         {/* These rouutes are for the hotels pages */}
-        <Route path="/hoteldetailspage" element={ <HotelsInnerDetailsPage/> }/>
+        <Route path="/hoteldetailspage" element={<HotelsInnerDetailsPage />} />
+        <Route path="/hotelbookingpage" element={<HotelBookingPageLayout />} />
 
-          {/* <AllRoute/> */}
-
-        <Route path="/contact" element={<ContactUS/>}/>
+        <Route path="/contact" element={<ContactUS />} />
       </Routes>
     </>
   );

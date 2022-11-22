@@ -132,7 +132,7 @@
     width: 20%;
     height: 284px !important;
     margin-top: -10%;
-    background-image: url("./worldImage.png");
+    background-image: url("./planeanimation.gif");
     background-size: cover;
     object-fit: cover;
 }

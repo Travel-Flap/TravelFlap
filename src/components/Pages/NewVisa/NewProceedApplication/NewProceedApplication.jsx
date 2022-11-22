@@ -105,5 +105,5 @@ export const NewProceedApplication = () => {
                 </div>
             </div>
         </>
-    )
-}
+    );
+};

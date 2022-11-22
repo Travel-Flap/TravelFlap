@@ -286,7 +286,7 @@
   border-left: none;
 }
 #HotelsStayNearYouicon {
-  margin-left: -37%;
+  /* margin-left: -37%; */
   color: white;
   height: 21px;
   width: 20px;
@@ -294,77 +294,86 @@
   margin-top: 47%;
 }
 
+.varietyButtonMainDiv {
+  /* border: 2px solid black !important; */
+  width: 90%;
+  margin: auto;
+  margin-left: 5%;
+}
+
+/* .varietyButtonMainDiv label{
+    margin-left: 5% !important;
+} */
+
 .varietyButtonsSelector {
   /* border: 2px solid red; */
-  width: 80%;
+  width: 90%;
   margin: auto;
   margin-bottom: 2%;
 }
 
-.varietyButton1{
+.varietyButton1 {
   outline: none;
   border: 2px solid #3380f2;
-  width: 15%;
+  width: 10%;
   height: 40px;
   border-radius: 5px !important;
-  padding-left: 30px;
-  text-align: center  !important;
+  padding-left: 50px;
+  margin-right: 2%;
+  /* margin-left: 10% !important; */
+  text-align: center !important;
 }
-
 
 .varietyButton2 {
   outline: none;
   border: 2px solid #3380f2;
-  width: 15%;
+  width: 10%;
   height: 40px;
   border-radius: 5px !important;
-  padding-left: 35px;
+  padding-left: 50px;
+  margin-right: 2%;
+  text-align: center !important;
 }
 
 .varietyButton3 {
   outline: none;
   border: 2px solid #3380f2;
-  width: 15%;
+  width: 10%;
   height: 40px;
   border-radius: 5px !important;
-  padding-left: 35px;
+  padding-left: 50px;
+  margin-right: 2%;
+  text-align: center !important;
 }
-.varietyButton4{
+.varietyButton4 {
   outline: none;
   border: 2px solid #3380f2;
-  width: 15%;
+  width: 10%;
   height: 40px;
   border-radius: 5px !important;
-  padding-left: 25px;
-  text-align: center  !important;
+  padding-left: 50px;
+  margin-right: 2%;
+  text-align: center !important;
 }
 
-
-.varietyButton5{
+.varietyButton5 {
   outline: none;
   border: 2px solid #3380f2;
-  width: 15%;
+  width: 8%;
   height: 40px;
   border-radius: 5px !important;
-  padding-left: 40px;
+  padding-left: 50px;
+  margin-right: 2%;
+  text-align: center !important;
 }
 
-.varietyButton6{
+.varietyButton6 {
   outline: none;
   border: 2px solid #3380f2;
-  width: 15%;
+  /* width: 15%; */
   height: 40px;
   border-radius: 5px !important;
   padding-left: 45px;
 }
 
 
-.varietyButtonMainDiv {
-  /* border: 2px solid black !important; */
-  width: 95%;
-  margin-left: 2%;
-}
-
-.varietyButtonMainDiv label{
-    margin-left: 5% !important;
-}

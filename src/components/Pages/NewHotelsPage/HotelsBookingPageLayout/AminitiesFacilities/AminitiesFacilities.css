@@ -1,0 +1,55 @@
+.facilitiesMainDiv{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.amenitiesOuterDiv{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.amenitiesInnnerDiv1{
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+.amenitiesInnnerDiv2{
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+.amenitiesInnerSubDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.facilityIconsDiv{
+    margin-right: 2%;
+    font-size: 25px;
+}
+
+.amenitiesInnerSubDiv h5{
+   margin-top: 1%;
+}
+
+.dropButtonAMenities{
+    margin-left: 45%;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+.dropButtonAMenities :hover{
+    color: #3380f2 !important;
+}
+
+
+
+
+
+
+
+

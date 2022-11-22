@@ -9,19 +9,19 @@ export const HotelInnerCards = () => {
     return (
         <>
             <div className='filterButtons'>
-                <div className='varietyButtonsSelector'>
-                    <div class="btn-group varietyButtonMainDiv" role="group" aria-label="Basic radio toggle button group">
+                <div className='hotelInnerCardButtonsSelector'>
+                    <div class="btn-group hotelInnerCardButtonMainDiv" role="group" aria-label="Basic radio toggle button group">
                         <input type="radio" class="btn-check " name="btnradio" id="btnradio1" autocomplete="off" />
-                        <label class="btn btn-outline-primary varietyButton1" for="btnradio1">Mountain Hotel</label>
+                        <label class="btn btn-outline-primary hotelInnerCardButton1" for="btnradio1">Mountain Hotel</label>
 
                         <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
-                        <label class="btn btn-outline-primary varietyButton2" for="btnradio2"> Dessert Hotel </label>
+                        <label class="btn btn-outline-primary hotelInnerCardButton2" for="btnradio2"> Dessert Hotel </label>
 
                         <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" />
-                        <label class="btn btn-outline-primary varietyButton3" for="btnradio3"> Camping Site </label>
+                        <label class="btn btn-outline-primary hotelInnerCardButton3" for="btnradio3"> Camping Site </label>
 
                         <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" />
-                        <label class="btn btn-outline-primary varietyButton4" for="btnradio4"> Lake Front Hotel </label>
+                        <label class="btn btn-outline-primary hotelInnerCardButton4" for="btnradio4"> Lake Front Hotel </label>
                     </div>
                 </div>
             </div>
