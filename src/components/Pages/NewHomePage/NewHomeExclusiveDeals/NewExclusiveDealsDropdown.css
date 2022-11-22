@@ -1,7 +1,9 @@
 .newExclusiveDealscontainer{
     display: flex;
     height: 80px;
+    position: relative;
     /* background-color: #3380f2; */
+    z-index: 1000;
 }
 
 .hotelinnerdropdowncontiner1{

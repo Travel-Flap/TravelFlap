@@ -156,7 +156,7 @@ function App() {
         {/* <Route path="/staycations" element={ <Staycations/>} /> */}
 
 
-<<<<<<< HEAD
+
         {/* <Route path="/contact" element={<ContactUS/>}/> */}
 
 
@@ -165,8 +165,6 @@ function App() {
 
           {/* <AllRoute/> */}
 
-=======
->>>>>>> f09785bd83e957e0493da236ad26a9f1a707af32
         <Route path="/contact" element={<ContactUS/>}/>
       </Routes>
     </>

@@ -83,12 +83,17 @@
   margin-left: 10%;
   margin-top: 10%;
 }
+
+.exclusiveImagesDiv{
+  /* border: 1px solid red; */
+  position: relative;
+}
 .exclusivedealsimagebackside {
   z-index: 0;
   border-right: 2px solid #3380f2 !important;
   margin-top: 4%;
   width: 95%;
-  position: relative;
+  position: absolute;
   /* height: 100%; */
   /* border: 2px solid black; */
 }
@@ -96,24 +101,35 @@
   /* border: 1px solid red; */
   position: absolute;
   z-index: 1;
-  margin-left: -35%;
+  margin-left: 10%;
+  margin-top: 3%;
   /* width: 78%;
     height: 500px; */
   /* margin-top: -77%; */
   /* margin-left: -50% !important; */
 }
 .exclusivedealsheadings {
+  /* border: 2px solid red; */
   color: white;
-  margin-top: -60%;
-  z-index: 10;
+  position: relative;
+  margin-top: 15%;
+  z-index: 1000;
   margin-left: 15%;
   width: 70%;
 }
 .exclusiveheadingsboldheadings {
+  /* position: absolute; */
   font-weight: 700;
   font-size: 35px;
   /* margin-left: 5%; */
 }
+
+.exclusiveDropdownDiv{
+  /* border: 2px solid  red; */
+  z-index: 1000;
+  /* position: absolute; */
+}
+
 .exclusivedealssliderdata {
   width: 60%;
   height: 100%;
