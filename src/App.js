@@ -151,7 +151,11 @@ function App() {
         <Route path="/inc&exc" element={<InnerPopularDestinationInclusiveExclusive/>} /> */}
         {/* <Route path="/baliDetails" element={<InnerHandPicked3/>}/> */}
 
+
         {/* <Route path="/easyvisainnerpage" element={<InnerVisaPage1/>}/> */}
+
+        
+        <Route path="/easyvisainnerpage" element={<InnerVisaPage1/>}/>
 
         {/* <Route path="/staycations" element={ <Staycations/>} /> */}
 
