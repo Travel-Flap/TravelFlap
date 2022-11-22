@@ -175,7 +175,7 @@ export const NewHomeNav = () => {
     return (
         <>
             <Link to="/"><div className='travelflapmainlogo'>
-                <img style={{ height: "50px", width: "150px" }} src="Images/travel flap logo with text final.png" alt="travelflap logo" />
+                <img style={{ height: "50px", width: "150px" }} src="Images/travel-flap-logo-animation.gif" alt="travelflap logo" />
                 <FaBars style={{ width: "30px", height: "30px" }} className='hamburgermenuicon' onClick={getMenu} />
             </div>
             </Link>
@@ -188,7 +188,7 @@ export const NewHomeNav = () => {
                             <div>
                                 <Link to="/">
                                     <div className='logo1'>
-                                        <img src="Images/travel flap logo with text final.png" alt="travelflap logo" />
+                                        <img src="Images/travel-flap-logo-animation.gif" alt="travelflap logo" />
                                     </div>
                                 </Link>
                             </div>
@@ -206,10 +206,10 @@ export const NewHomeNav = () => {
                                         <Link to='/holidays'> <p className='fixed-menu-link'>Holidays</p> </Link> </li>
 
                                     <li> <FaLaptopHouse size={"1.5em"} />
-                                        <Link to="/staycations"> <p className='fixed-menu-link' style={{marginLeft:"3%"}}>Staycation</p> </Link> </li>
+                                        <Link to="/staycations"> <p className='fixed-menu-link' style={{ marginLeft: "3%" }}>Staycation</p> </Link> </li>
 
                                     <li> <FaBus size={"1.5em"} />
-                                        <Link to="/rentals"> <p className='fixed-menu-link' style={{marginLeft:"15%"}}>Rentals</p> </Link> </li>
+                                        <Link to="/rentals"> <p className='fixed-menu-link' style={{ marginLeft: "15%" }}>Rentals</p> </Link> </li>
 
                                     <li> <FaShip size={"1.5em"} />
                                         <Link to="/cruise"><p className='fixed-menu-link'>Cruise</p> </Link> </li>
@@ -222,7 +222,7 @@ export const NewHomeNav = () => {
                             </div>
                             <div className='navbar-links-container' id='hide' >
                                 {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
-                                <Link style={{textDecoration:"none"}} className='linkdecoration' to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
+                                <Link style={{ textDecoration: "none" }} className='linkdecoration' to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
                                 {/* <div className='nav-link'> <p>OFFERS</p></div> */}
                                 <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
                                     <div className='chooseCountry'>
@@ -293,12 +293,12 @@ export const NewHomeNav = () => {
                             <div className='transparentNavbar'>
                                 <Link to="/">
                                     <div className='logo2'>
-                                        <img src="Images/travel flap logo with text final.png" alt="travelflap logo" />
+                                        <img src="Images/travel-flap-logo-animation.gif" alt="travelflap logo" />
                                     </div>
                                 </Link>
                                 <div className='navbar-links-container1'>
                                     {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
-                                    <Link style={{textDecoration:"none"}} to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
+                                    <Link style={{ textDecoration: "none" }} to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
                                     <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
                                         <div className='chooseCountry'>
                                             <div className='countrynames'>
