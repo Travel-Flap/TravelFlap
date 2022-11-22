@@ -570,9 +570,9 @@
   align-items: center;
   position: relative;
   /* position: absolute; */
-  bottom: 73%;
+  bottom: 76%;
   left: 5.2%;
-  z-index: 10000000;
+  z-index: 10000;
   color: white !important;
   border-radius: 40px;
 }

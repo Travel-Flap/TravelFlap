@@ -35,7 +35,7 @@ import { InnerPopularDestination2 } from "./components/Pages/SubPages/InnerPopul
 // import {InnerHandPicked3} from "./components/Pages/SubPages/InnerHandPicked3/InnerHandPicked3";
 import { InnerVisaPage1 } from "./components/Pages/SubPages/InnerVisapages/InnerVisaPage1/InnerVisaPage1";
 // import {InnerPopularDestinationInclusiveExclusive} from "./components/Pages/SubPages/InnerPopularDestination1/InnerPopularDestinationInclusiveExclusive/InnerPopularDestinationInclusiveExclusive";
-
+import "swiper/css/bundle";
 import { DomesticHolidaySubpages } from "./components/Pages/NewHoldiaysPage/DomesticHolidaySubpage/DomesticHolidaySubpages";
 import { InternationHolidaySubpage } from "./components/Pages/NewHoldiaysPage/InternationHolidaySubpage/InternationHolidaySubpage";
 import { HandPickedWeekendDestinations } from "./components/Pages/SubPages/HandPickedWeekendDestinations/HandPickedWeekendDestinations";
@@ -46,6 +46,8 @@ import Screen from "./Admin/Components/LoginSignup/Screen";
 import Register from "./Admin/Components/LoginSignup/Register";
 import Login from "./Admin/Components/LoginSignup/Login";
 import AdminHome from "./Admin/Components/PannelAdmin/Home/Home";
+import { HotelsInnerDetailsPage } from "./components/Pages/NewHotelsPage/HotelsInnerDetailsPage/HotelsInnerDetailsPage";
+import AllRoute from "./Admin/Components/AllRoutes/AllRoute";
 
 function App() {
   return (
@@ -157,6 +159,11 @@ function App() {
 
         {/* <Route path="/contact" element={<ContactUS/>}/> */}
 
+
+        {/* These rouutes are for the hotels pages */}
+        <Route path="/hoteldetailspage" element={ <HotelsInnerDetailsPage/> }/>
+
+          {/* <AllRoute/> */}
 
         <Route path="/contact" element={<ContactUS/>}/>
       </Routes>
