@@ -72,14 +72,18 @@ export const NewHomeExclusiveDeals = () => {
 
                 <div className="exclusivedealsconatinerdiv">
                     <div className="exclusivedealsimageheading">
-                        <LazyLoadImage className="exclusivedealsimagebackside" src={backsideImage} />
-                        <LazyLoadImage className="exclusivedealsimagefrontside" src={dealspics} />
+                        <div className='exclusiveImagesDiv'>
+                            <img className="exclusivedealsimagebackside" src={backsideImage} />
+                            <LazyLoadImage className="exclusivedealsimagefrontside" src={dealspics} />
+                        </div>
                         <div className="exclusivedealsheadings">
                             <p className="exclusiveheadingsboldheadings">Exclusive <br /> Deals</p>
-                            <p>Most Visited and Used</p>
+                            <p >Most Visited and Used</p>
                         </div>
 
-                        <NewExclusiveDealsDropdown/>
+                        <div className='exclusiveDropdownDiv'>
+                            <NewExclusiveDealsDropdown />
+                        </div>
                         {/* <select name='country' className="form-select exclusivedealsselectoptions" style={{ width: "56%" }} onChange={(e) => handlecounty(e)} aria-label="Default select example">
                             <option id='homecarddropbox' value="">Select Country</option>
                             {

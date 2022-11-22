@@ -1,0 +1,296 @@
+.filterButtons {
+  /* border: 2px solid red !important; */
+  margin-top: 10%;
+}
+
+.varietyButtonsSelector {
+  /* border: 2px solid red; */
+  width: 70%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.varietyButton1 {
+  outline: none;
+  /* border: 2px solid red !important; */
+  width: 5%;
+  border-radius: 5px !important;
+  padding-left: 5%;
+}
+
+.varietyButton3 {
+  outline: none;
+  /* border: 2px solid red !important; */
+  width: 2%;
+  border-radius: 5px !important;
+  margin-left: 3% !important;
+  padding-left: 5%;
+}
+
+.varietyButton4 {
+  outline: none;
+  /* border: 2px solid red !important; */
+  width: 0%;
+  border-radius: 5px !important;
+  margin-left: 3% !important;
+  padding-left: 5%;
+}
+
+.varietyButtonMainDiv {
+  /* border: 2px solid black !important; */
+  width: 95%;
+  margin-left: 2%;
+}
+
+.varietyButtonMainDiv label {
+  margin-left: 5% !important;
+}
+
+/* This css is for the cards and budget filter selection */
+.budgetFilterCardsMainDiv {
+  /* border: 2px solid red !important; */
+  width: 90%;
+  margin: 1.7% auto auto;
+  display: flex;
+  flex-direction: row;
+  /* height: 300px; */
+}
+
+.hotelInnerBudgetFilters {
+  border: 2px solid lightgray;
+  height: 850px !important;
+  width: 35%;
+}
+
+.hotelInnerDataCards {
+  border: 2px solid lightgray;
+  margin-left: 4%;
+  width: 60%;
+}
+
+/* 
+.priceRangeFilter{
+    border: 1px solid red;
+} */
+
+.priceRangeInnerFilterDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.hotelbudgetHeading {
+  /* border: 1px solid black; */
+  width: 70%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.hotelResetHeading {
+  /* border: 1px solid green; */
+  font-size: 15px;
+  width: 30%;
+  color: gray;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.priceDropDown {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+}
+
+.hotelInnerStateSelectFilter {
+  /* border: 1px solid black; */
+  width: 80%;
+  margin: auto;
+  margin-top: 4%;
+}
+
+.selectStateFilter {
+  display: flex;
+  flex-direction: row;
+}
+
+.hoteInnerHotelTypeDiv {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  margin-top: 4%;
+}
+
+.hotelTypeFilter {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: auto;
+}
+
+/* .hotelTypeSelectorButtons{
+    border: 1px solid red;
+} */
+
+.hotelTypeButton {
+  /* border: 1px solid red !important; */
+  margin-top: 2%;
+  border: none !important;
+  width: 50%;
+  margin-left: 7%;
+  color: #393939 !important;
+}
+
+.hotelTypeButton:hover{
+    color: white !important;
+}
+
+.hotelTypeViewAllButton {
+  /* border: 1px solid red !important; */
+  border: none !important;
+  background-color: whitesmoke !important;
+  color: #3380f2 !important;
+  border: none !important;
+}
+
+.hoteInnerCollectionDiv {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  margin-top: 4%;
+}
+
+.collectionTypeFilter {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: auto;
+}
+
+/* .hotelTypeSelectorButtons{
+    border: 1px solid red;
+} */
+
+.collectionTypeButton {
+  margin-top: 2%;
+  border: none !important;
+  width: 50%;
+  margin-left: 7%;
+  color: #393939 !important;
+}
+
+.collectionTypeButton:hover{
+    color: white !important;
+}
+
+.collectionTypeViewAllButton {
+  border: none !important;
+  background-color: whitesmoke !important;
+  color: #3380f2 !important;
+  border: none !important;
+}
+
+.hoteInnerCheckInTypeDiv {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  margin-top: 4%;
+}
+
+.hotelCheckInFilter {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: auto;
+}
+
+.checkInTypeButton {
+  margin-top: 2%;
+  border: none !important;
+  width: 50%;
+  margin-left: 7%;
+  color: #393939 !important;
+}
+
+.checkInTypeButton:hover{
+    color:white !important;
+}
+
+.hotelInnerCardsDisplay {
+  /* border: 1px solid red; */
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.hotelImageCards {
+  /* border: 1px solid red !important; */
+  /* margin-top: 3%;
+    margin-left: 3%; */
+  height: 230px;
+  /* margin-right: 4% !important; */
+}
+
+.hotelFacilities {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+}
+
+.hotelFacilityInnerContent {
+  /* border: 1px solid red; */
+  margin-right: 4%;
+  font-size: 14px;
+  line-height: 28px;
+  vertical-align: baseline;
+  font-weight: 400;
+}
+
+.hotelNameHeadingDiv {
+  /* border: 1px solid black; */
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-size: 20px;
+  line-height: 24px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  font-weight: 700;
+}
+
+.hotelDistanceDiv {
+  /* border: 1px solid red; */
+  color: gray;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 500;
+  vertical-align: baseline;
+}
+
+.hotelCardPriceDiv {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.hotelPriceFiguresDiv {
+  /* border: 1px solid red; */
+  width: 50%;
+}
+
+.priceDivContext1 {
+  /* border: 1px solid black; */
+  width: 20% !important;
+  font-size: 22px;
+  color: #3380f2;
+  margin-right: 5%;
+}
+
+.hotelPriceDiscount {
+  /* border: 1px solid red; */
+  color: #f5a623;
+  font-size: 15px;
+}
+
+.hotelBookingButton {
+  /* border: 1px solid red; */
+  width: 20%;
+  margin-left: 28%;
+}
