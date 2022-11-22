@@ -296,46 +296,68 @@
 
 .varietyButtonsSelector {
   /* border: 2px solid red; */
-  width: 70%;
+  width: 80%;
   margin: auto;
   margin-bottom: 2%;
 }
 
-.varietyButton1 {
+.varietyButton1{
   outline: none;
-  /* border: 2px solid red !important; */
-  width: 5% ;
+  border: 2px solid #3380f2;
+  width: 15%;
+  height: 40px;
   border-radius: 5px !important;
-  padding-left: 5%;
+  padding-left: 30px;
+  text-align: center  !important;
 }
 
 
 .varietyButton2 {
   outline: none;
-  /* border: 2px solid red !important; */
-  width: 3%;
+  border: 2px solid #3380f2;
+  width: 15%;
+  height: 40px;
   border-radius: 5px !important;
-  margin-left: 3% !important;
-  padding-left: 5%;
+  padding-left: 35px;
 }
 
 .varietyButton3 {
   outline: none;
-  /* border: 2px solid red !important; */
-  width: 2%;
+  border: 2px solid #3380f2;
+  width: 15%;
+  height: 40px;
   border-radius: 5px !important;
-  margin-left: 3% !important;
-  padding-left: 5%;
+  padding-left: 35px;
+}
+.varietyButton4{
+  outline: none;
+  border: 2px solid #3380f2;
+  width: 15%;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 25px;
+  text-align: center  !important;
 }
 
-.varietyButton4 {
+
+.varietyButton5{
   outline: none;
-  /* border: 2px solid red !important; */
-  width: 0%;
+  border: 2px solid #3380f2;
+  width: 15%;
+  height: 40px;
   border-radius: 5px !important;
-  margin-left: 3% !important;
-  padding-left: 5%;
+  padding-left: 40px;
 }
+
+.varietyButton6{
+  outline: none;
+  border: 2px solid #3380f2;
+  width: 15%;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 45px;
+}
+
 
 .varietyButtonMainDiv {
   /* border: 2px solid black !important; */

@@ -69,10 +69,10 @@ const Screen = () => {
 <p className="r1"><h3>Log into Your Account</h3></p>
 
 
-<input className="mail"  type="text" name="email"  value={user.email} placeholder="Enter your email id" onChange={handleChange} />
+<input className="mail adminmail"  type="text" name="email"  value={user.email} placeholder="Enter your email id" onChange={handleChange} />
 <br />
 <br />
-<input className="mail" type="password" name="password"   value={user.password} placeholder="Enter your password" onChange={handleChange} />
+<input className="mail adminPassword" type="password" name="password"   value={user.password} placeholder="Enter your password" onChange={handleChange} />
 
 
 <br />
@@ -87,7 +87,7 @@ style={{padding:"10px",backgroundColor:"#3380f2",borderRadius:"10px",width:"240p
 <br />
 
 
-<label className="label" htmlFor=""><Link to="/register"><a style={{opacity:"0.5",textDecoration:"none",color:"black"}}>Don't have an account?</a></Link></label>
+<label className="label" htmlFor=""><Link to="/register"><a className='adminScreenquestion' style={{opacity:"0.5",textDecoration:"none",color:"black"}}>Don't have an account?</a></Link></label>
 
 
 </div>

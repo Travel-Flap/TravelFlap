@@ -110,7 +110,7 @@
 .cheapflightBooknowButton{
     background-color: #3380F2;
     color: white;
-    border-radius: 8px;
+    border-radius: 5px;
     width: 50%;
     height: 35px;
     font-size: 15px;
@@ -119,11 +119,12 @@
 }
 .cheapflightdropdown{
     border-radius: 15px;
-    width: 91%;
+    width: 80%;
     height:45px;
     margin-top:4%;
     font-size: 13px;
     border: none;
+    margin-left: 24%;
     /* border: 2px solid red; */
 }
 .cheapflightdropdownbutton{
@@ -163,7 +164,7 @@
     border-radius: 10px;
 }
 .cheapflights{
-    width: 95%;
+    width: 100%;
     height: 700px;
     /* background-color: #3380F2; */
     /* border: 2px solid red; */
@@ -299,7 +300,7 @@
     flex-direction: row;
 }
 .cheapflightbookings{
-    border: 2px solid  lightgray;
+    /* border: 2px solid  gold; */
     width: 45%;
     height: 70px;
     margin-left: 4%;
@@ -318,18 +319,21 @@
     margin-left: 3.5%;
     display: flex;
     flex-direction: row;
+    /* border: 2px solid red; */
 }
 .cheapflightbookingDeparture input{
     background-color: #CCE0FB;
     border: none;
     color: #393939;
     margin-left: 2%;
+    /* border: 2px solid gold; */
 }
 .cheapflightbookingReturn input{
     background-color: #CCE0FB;
     border: none;
     color: #393939;
     margin-left: 2%;
+    /* border: 2px solid red; */
 }
 .cheapflightbookingReturn{
     background-color: #CCE0FB;
@@ -341,10 +345,13 @@
     padding: 12px 20px;
     font-weight: 700;
     margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
 }
 
 .cheapflightcountryfilters{
-    border: 2px solid  lightgray;
+    /* border: 2px solid  lightgray; */
     width: 45%;
     height: 70px;
     margin-left: 1.5%;

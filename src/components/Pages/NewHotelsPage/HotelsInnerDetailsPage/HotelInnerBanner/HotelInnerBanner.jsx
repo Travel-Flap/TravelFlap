@@ -110,8 +110,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Swiper from 'react-id-swiper';
-import "./HotelInnerBanner.css";
-import { Image1 } from "/public/Images/NewHomeLayout/HotelInnerPage/Banner/image1.webp"
+import "./HotelInnerBanner.css"
 
 const HotelInnerBanner = () => {
     const gallerySwiperRef = useRef(null);
@@ -149,7 +148,7 @@ const HotelInnerBanner = () => {
     return (
         <div className='mainouterdiv'>
             <Swiper {...gallerySwiperParams} ref={gallerySwiperRef}>
-                <div style={{ backgroundImage: 'url( {Image1} )' }} />
+                <div style={{ backgroundImage: 'url(/public/Images/NewHomeLayout/HotelInnerPage/Banner/image1.webp)' }} />
                 <div style={{ backgroundImage: 'url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Ftravel&psig=AOvVaw2TTya6PQBWpPs_lEmNGvbS&ust=1669191888667000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLi8kb6uwfsCFQAAAAAdAAAAABAE)' }} />
                 <div style={{ backgroundImage: 'url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Ftravel&psig=AOvVaw2TTya6PQBWpPs_lEmNGvbS&ust=1669191888667000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLi8kb6uwfsCFQAAAAAdAAAAABAE)' }} />
                 <div style={{ backgroundImage: 'url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Ftravel&psig=AOvVaw2TTya6PQBWpPs_lEmNGvbS&ust=1669191888667000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLi8kb6uwfsCFQAAAAAdAAAAABAE)' }} />

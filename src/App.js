@@ -40,7 +40,7 @@ import { DomesticHolidaySubpages } from "./components/Pages/NewHoldiaysPage/Dome
 import { InternationHolidaySubpage } from "./components/Pages/NewHoldiaysPage/InternationHolidaySubpage/InternationHolidaySubpage";
 import { HandPickedWeekendDestinations } from "./components/Pages/SubPages/HandPickedWeekendDestinations/HandPickedWeekendDestinations";
 import { ContactUS } from "./components/Pages/ContactUS/ContactUS";
-import { EasyVisaInnerPage } from "./components/Pages/NewVisa/EasyVisaInnerPage/EasyVisaInnerPage";
+// import { EasyVisaInnerPage } from "./components/Pages/NewVisa/EasyVisaInnerPage/EasyVisaInnerPage";
 import { TravelFlapAdmin } from "./Admin/Admin";
 import Screen from "./Admin/Components/LoginSignup/Screen";
 import Register from "./Admin/Components/LoginSignup/Register";
@@ -140,8 +140,6 @@ function App() {
           element={<InnerPopularDestination2 />}
         />
 
-        <Route path="/VisaInnerPage" element={<EasyVisaInnerPage />} />
-
         {/* These Routes here are for the  Admin page */}
 
         <Route path="/admin" element={<Screen />} />
@@ -152,11 +150,13 @@ function App() {
         {/* <Route path="/accomodations" element={<InnerPopularDestinationAccomodations/>}/>
         <Route path="/inc&exc" element={<InnerPopularDestinationInclusiveExclusive/>} /> */}
         {/* <Route path="/baliDetails" element={<InnerHandPicked3/>}/> */}
+        
         {/* <Route path="/easyvisainnerpage" element={<InnerVisaPage1/>}/> */}
 
         {/* <Route path="/staycations" element={ <Staycations/>} /> */}
 
 
+<<<<<<< HEAD
         {/* <Route path="/contact" element={<ContactUS/>}/> */}
 
 
@@ -165,6 +165,8 @@ function App() {
 
           {/* <AllRoute/> */}
 
+=======
+>>>>>>> f09785bd83e957e0493da236ad26a9f1a707af32
         <Route path="/contact" element={<ContactUS/>}/>
       </Routes>
     </>
