@@ -1,8 +1,145 @@
-.innervisabannermaindiv{
+.innervisapagebannerOuterDiv{
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    margin-bottom: 1%;
+}
+.innervisaPagebannerMainDiv{
     border: 2px solid lightgray;
     width: 90%;
-    height: 400px;
-    border-radius: 15px;
     margin: auto;
-    margin-top: 7%;
+    margin-top: 3%;
+    height: 500px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
 }
+.innervisapagebannerSlider{
+    /* border: 2px solid red; */
+    width: 47%;
+    margin-top: 2.5%;
+    height: 420px;
+    margin-left: 2%;
+}
+.innervisabannercarousel{
+    border: 2px solid blue ;
+    width: 85%;
+    height: 420px;
+    margin: auto;
+    margin-top: 5%;
+}
+.innerVisapagebannerContents{
+    /* border: 2px solid gold; */
+    width: 47%;
+    height: 500px;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.innervisapagebannerCountryHeading{
+    color: #393939;
+    font-weight: 700;
+    font-size: 28px;
+}
+.innervisapagebannerCountryHeading h2{
+    color: #393939;
+    font-weight: 700;
+    font-size: 30px;
+    /* border: 2px solid red; */
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.innervisapagebannerCountryHeading p{
+    color: #393939;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 10%;
+    margin-top: -1%;
+    /* border: 2px solid red; */
+}
+.innervisaFavouritebutton{
+    color: #3380F2;
+    border: 1px dotted #3380F2;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    margin-left: 10%;
+    font-size: 12px;
+    font-weight: 700;
+}
+.innervisaFavouritebutton:hover{
+    background-color: #3380F2;
+    color: white;
+}
+.innervisaheadingDiv{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 170px;
+}
+.innervisaCountryImage{
+    /* border: 2px solid red; */
+    width: 40%;
+    margin-left: 25%;
+    justify-content: flex-end;
+}
+.innervisabannerDescription{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.innervisadescriptionText{
+    /* border: 2px solid peru; */
+    width: 45%;
+    height: 150px;
+    text-align: justify;
+    font-size: 13px;
+    color: #393939;
+}
+.innervisadescriptionPriceButton{
+    /* border: 2px solid red; */
+    width: 22%;
+    height: 40px;
+    margin: auto;
+    margin-left: 10%;
+    background-color: #3380F2;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 37px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.innervisabannerdetails{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    background-color: #ECF3F9;
+}
+.innervisabannerdetailsheadings{
+    /* border: 2px solid yellow; */
+    width: 30%;
+    height: 150px;
+    font-size: 15px;
+    color:#393939;
+    font-weight: 700;
+}
+.innervisabannerdata{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 150px;
+    color: #393939;
+}
+
+.carouselButtonVisa{
+    background-color: #3380F2 !important;
+}
+
+
+

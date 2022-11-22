@@ -128,8 +128,8 @@ export const NewPopularDestination = () => {
 
                         <div className='newPopularbelowselectdiv'>
                             <select className='newPopularbelowSelect'>
-                                <option value="international">International Destination</option>
-                                <option value="domestic">Domestic Destination</option>
+                                <option value="international"><Link to="/internationalHolidayssubpage">International Destination</Link></option>
+                                <option value="domestic"><Link to="/domesticHolidays">Domestic Destination</Link></option>
                             </select>
                             {/* <h5 className='belowInternationalheading'>
                               <Link to="/internationalHolidayssubpage" style={{textDecoration:"none",color:"#393939"}}> International </Link>

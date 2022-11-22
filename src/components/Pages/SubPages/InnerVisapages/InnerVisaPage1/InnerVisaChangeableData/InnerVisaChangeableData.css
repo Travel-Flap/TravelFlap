@@ -1,19 +1,267 @@
-.test{
-    border: 2px solid red;
-    height: 50px;
-    width: 100px;
+.innerVisapagemainDiv{
+  /* border: 2px solid red; */
+  height:700px;
 }
-.activeDivContainer{
+.innerVisaHeadingButtons{
+    /* border: 2px solid green; */
+    background-color: #ECF3F9;
+    height: 50px;
+    width: 100%;
+    border: none;
+    font-weight: 700;
+}
+.active{
     color: #393939;
     text-decoration: underline;
 }
 .innervisaChangemainDiv{
-   border: 2px solid red;
-   width: 70%;
+   /* border: 2px solid red; */
+   width: 95%;
    height: 80px;
    background-color: #ECF3F9;
    margin: auto;
 }
 .innervisabuttonouterDiv{
-    border: 2px solid gold;
+    border: 1px solid lightgray;
+    background-color: #ECF3F9;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.innervisabuttonDiv{
+    /* border: 2px solid blue; */
+    width: 16%;
+}
+
+.innerVisaChangeableDataBannerdropcontainer {
+    /* border: 1px solid red !important; */
+    width: 35%;
+    margin-left: 30%;
+    border: none;
+    height:40px;
+  }
+
+  .innerVisaChangeableDataBannerdropcontainer select{
+    font-size: 15px;
+    height: 40px;
+    border: 2px solid #dddddd78 !important;
+  }
+
+  .innerVisaChangeableDataBannerdropcontainer select::placeholder{
+    padding-top: 4px;
+  }
+  
+  .innerVisaChangeableDataBannerdropcontainer1 {
+    margin-left: 1%;
+    width: 35%;
+    height: 40px;
+  }
+
+  .innerVisaChangeableDataBannerdropcontainer1 p{
+     height: 10px;
+     color: #818090;
+  }
+
+  .innerVisaChangeableDataBannerdropcontainer1 select{
+    font-size: 15px;
+    height: 40px;
+    padding: 5px 10px;
+    border: 2px solid #dddddd78;
+  }
+  .innerVisaChangeableButton{
+    /* border: 2px solid red; */
+    width: 60%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+  }
+  .visaTypeMainDiv{
+    /* border: 2px solid salmon; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .innerVisaTypedetailsDiv{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .innerVisaTypeDetailContainer{
+    border:1px solid lightgray;
+    width: 90%;
+    height: 160px;
+    margin: auto;
+    margin-top: 1.5%;
+    display: flex;
+    flex-direction: row;
+  }
+  .innervisaInformationDiv{
+    /* border: 2px solid saddlebrown; */
+    width: 70%;
+    padding-left: 15px;
+  }
+  .innerVisaRate{
+    color: gray;
+    font-size: 15px;
+    margin-top: 1%;
+  }
+  .innerVisaTypeofVisa{
+    font-weight: 700;
+    color: #393939;
+    font-size: 18px;
+    margin-top: -3%;
+  }
+  .innerVisaDescription{
+    color: grey;
+    margin-top: -3%;
+    text-align: justify;
+    font-size: 12px;
+  }
+  .innerVisaPrice{
+    color: #393939;
+    font-size: 14px;
+    margin-top: -3%;
+  }
+  .visaPrice{
+    color: #3380F2;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: -3%;
+  }
+  .innerVisaAddtoCartDiv{
+    /* border: 2px solid black; */
+    width: 30%;
+  }
+  .innervisaCartcounter{
+    border: 2px solid lightgray;
+    width: 60%;
+    height: 40px;
+    border-radius: 35px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+    justify-content:space-between;
+  }
+
+  .innervisaaddbutton{
+    /* margin-right: 9%; */
+    width: 19%;
+    height: 25px;
+    color: #3380F2;
+    /* background-color: #3380F2; */
+    /* border: 2px solid #3380F2; */
+    border-radius: 22px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 9%;
+    text-align: center;
+    /* margin-top: 4%; */
+    cursor: pointer;
+    /* padding-top: 2px; */
+  }
+  .innervisasubtractbutton{
+    margin-right: 9%;
+    width: 19%;
+    height: 25px;
+    color: #3380F2;
+    /* background-color: #3380F2; */
+    /* border: 2px solid #3380F2; */
+    border-radius: 22px;
+    font-size: 25px;
+    font-weight: 700;
+    /* margin-left: -9%; */
+    text-align: center;
+    /* margin-top: 3%; */
+    cursor: pointer;
+  }
+  .innerVisacountertext{
+    font-size: 25px;
+    font-weight: 700;
+    color: #3380F2;
+    /* margin-left: 15%; */
+  }
+  .innerVisaAddtocartButton{
+    background-color: #3380F2;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10%;
+    padding:8px 18px;
+    margin-left: 20%;
+  }
+  .innerVisaAddtocartButton :hover{
+    background-color: white;
+    color: #3380F2;
+    border: 2px solid #3380F2;
+    cursor: pointer;
+  }
+
+  
+  .innerVisaTypecontactDiv{
+    /* border: 2px solid gold; */
+    width: 30%;
+  }
+  .innervisadetailsform{
+    z-index: 2;
+    border: 1px solid lightgray;
+    background-color: #ECF3F9;
+    width: 80%;
+    height: 500px;
+    margin: 9%;
+    color: #3380F2;
+    border-radius: 20px;
+}
+.innervisadetailsform h1{
+  /* border: 2px solid red; */
+  background-color: white;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 8%;
+  height: 50px;
+  padding: 3%;
+  width: 90%;
+}
+.innervisadetailforminputs{
+    color: #393939;
+    font-size: 15px;
+    margin-top: 15%;
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    border: none;
+    background-color:transparent;
+    border-bottom: 2px solid #393939;
+    outline: none;
+}
+.innervisadetailforminputs::placeholder{
+    color: #393939;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+.innervisadetailsapplybutton{
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 15%;
+    width: 80%;
+    height: 45px;
+    margin-left: 10%;
+    background-color: #3380F2;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+}
+.innervisadetailsapplybutton:hover{
+    background-color: white !important;
+    color: #3380F2 !important;
+    border: 2px solid #3380F2;
 }
