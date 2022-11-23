@@ -142,28 +142,31 @@ export const StayNearYou = () => {
                             <div className='newStayNearYouSlickslidercontainer'>
                                 <SliderWrapper>
                                     <Slider {...settings} className="multiCardSlider">
-                                        <div className="card-wrapper">
-                                            <div className="card newStayNearYouDiv">
-                                                <div className="card-image newStayNearYouCardimage">
-                                                    <img src="Images/NewHomeLayout/Hotels/AllCompImages/Rambagh Hotel.jpg" />
-                                                </div>
-                                                <div className="newStayNearYouDetails">
-                                                    <h2> Rambagh Hotel
-                                                        {/* <span> */}
-                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur, Rajasthan</p>
-                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
-                                                        {/* </span> */}
-                                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                                    </h2>
-                                                </div>
-                                            </div>
+                                        <Link to="/hotelbookingpage">
 
-                                            <div className='newhomeTopCitiesBottomTexts'>
-                                                <h2>Abu Dhabi</h2>
-                                                <p className="job-title">"Best Holiday trip Ever" </p>
+                                            <div className="card-wrapper">
+                                                <div className="card newStayNearYouDiv">
+                                                    <div className="card-image newStayNearYouCardimage">
+                                                        <img src="Images/NewHomeLayout/Hotels/AllCompImages/Rambagh Hotel.jpg" />
+                                                    </div>
+                                                    <div className="newStayNearYouDetails">
+                                                        <h2> Rambagh Hotel
+                                                            {/* <span> */}
+                                                            <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur, Rajasthan</p>
+                                                            <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                                            <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                                            {/* </span> */}
+                                                            {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                        </h2>
+                                                    </div>
+                                                </div>
+
+                                                <div className='newhomeTopCitiesBottomTexts'>
+                                                    <h2>Abu Dhabi</h2>
+                                                    <p className="job-title">"Best Holiday trip Ever" </p>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </Link>
 
                                         <div className="card-wrapper">
                                             <div className="card newStayNearYouDiv">

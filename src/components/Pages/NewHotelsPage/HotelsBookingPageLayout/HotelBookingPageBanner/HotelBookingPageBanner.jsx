@@ -3,6 +3,18 @@ import "./HotelBookingPageBanner.css";
 
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { MdFlight, MdOutlineLocalActivity } from 'react-icons/md';
+import { FaPlusCircle, FaMinusCircle, FaAngleDown, FaHotel, FaLaptopHouse } from 'react-icons/fa';
+import { BsSearch, BsPerson } from "react-icons/bs";
+import { FaShip, FaPhoneAlt, FaTags } from 'react-icons/fa';
+import { RiVisaFill } from 'react-icons/ri';
+import { GiPalmTree } from 'react-icons/gi';
+import { GrBus } from 'react-icons/gr';
+import { GiCruiser } from 'react-icons/gi';
+import { BsFillMoonFill } from 'react-icons/bs';
+import { CgMoreAlt } from 'react-icons/cg';
+
+import { IoCarSportSharp } from "react-icons/io5";
 
 export const HotelBookingPageBanner = () => {
     return (
@@ -14,6 +26,32 @@ export const HotelBookingPageBanner = () => {
                     </div>
 
                     <div className='hoteBookingContextDiv'>
+
+                        <div className='hotelBookingCalenderOuterDiv'>
+                            <div className='hotelBookingCalenderInnerDiv'>
+                                <input type="datetime-local" placeholder='Check-Out Date' />
+                            </div>
+
+                            <div className='hotelBookingPersonsInnerDiv'>
+                                <div id='hotelBooking_departure'>
+                                    <h3>Choose travellers </h3>
+                                    {/* <FaAngleDown className='downHotelPagearrowicon' /> */}
+                                    <div className="hotelBoookingdropdown_content">
+                                        <div className='navbarHotelBookingPageOptions'>
+                                            <FaPlusCircle className='contactIcon' />   <FaMinusCircle className='decrease' /> Adults
+                                        </div>
+                                        <div className='navbarHotelBookingPageOptions '>
+                                            <FaPlusCircle className='miceIcon' />   <FaMinusCircle className='decrease' /> Children
+                                        </div>
+                                        <div className='navbarHotelBookingPageOptions'>
+                                            <FaPlusCircle className='offersIcon' />  <FaMinusCircle className='decrease' /> Infants
+                                        </div>
+                                    </div>
+                                    <BsPerson className='hotelBookingGuestIcon' />
+                                </div>
+                            </div>
+                        </div>
+
                         <div className='hotelBookingHotelContentDiv'>
                             <div className='hotelBookinHotelName'>
                                 <div className='hotelBookingHotelHeading'>
@@ -44,8 +82,8 @@ export const HotelBookingPageBanner = () => {
                                 </div>
 
                                 <div className='hotelBookingPriceDescription'>
-                                    <p>Cheapest</p>
-                                    <p className='minicontextPrice'>rate per night</p>
+                                    {/* <p>Cheapest</p> */}
+                                    <p className='minicontextPrice'> Cheapest rate per night. </p>
                                 </div>
                             </div>
 

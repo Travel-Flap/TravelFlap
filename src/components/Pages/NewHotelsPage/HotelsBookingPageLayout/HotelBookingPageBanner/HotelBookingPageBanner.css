@@ -3,17 +3,18 @@
 } */
 
 .hotelBookingImageContentWrapper {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 90%;
   margin: auto;
   display: flex;
   flex-direction: row;
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
 
 .hotelBookingBannerImageDiv {
   /* border: 2px solid black; */
   width: 50%;
+  margin-top: 6%;
 }
 
 .hotelBookingBannerImageDiv img {
@@ -26,6 +27,108 @@
   /* border: 2px solid red; */
   width: 50%;
   margin-left: 1%;
+  margin-top: 6%;
+}
+
+.hotelBookingCalenderOuterDiv{
+  /* border: 1px solid red; */
+  /* height: 100px; */
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+}
+
+#hotelBooking_departure {
+  border: 2px solid #dddddd78;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  width: 117%;
+  color: black !important;
+  background-color: #dddddd78 !important;
+  border-radius: 5px;
+  height: 40px !important;
+  /* border: 2px solid lightgray; */
+  border-radius: 6px;
+  margin-top: 0%;
+}
+
+.hotelBookingGuestIcon {
+  /* border: 1px solid red; */
+  font-size: 23px;
+  margin-left: 4% !important;
+  margin-top: 3% !important;
+  /* background-color: #dddddd78 !important; */
+  color: black !important;
+  /* background-color: #8DBBFF; */
+}
+
+
+#hotelBooking_departure h3 {
+  /* border: 1px solid black; */
+  font-size: 15px !important;
+  /* font-weight: 700; */
+  /* margin-left: -7%; */
+  padding: 7px;
+  color: grey !important;
+  padding-left: 15px !important;
+  padding-top: 4%;
+  margin-top: 0.5%;
+  /* height: 35px;
+  border: 2px solid lightgray;
+  border-radius: 6px;
+  margin-top: 8%; */
+}
+
+#hotelBooking_departure:hover .hotelBoookingdropdown_content {
+  display: block;
+}
+
+.hotelBoookingdropdown_content {
+  display: none;
+  position: absolute;
+  color: white;
+  background-color: #3380f2 !important;
+  width: 200px;
+  height: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 3%;
+}
+.hotelBoookingdropdown_content div:hover {
+  background-color: white !important;
+  color: #3380f2;
+}
+
+.navbarHotelBookingPageOptions {
+  margin-top: 2%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* border: 2px solid red; */
+}
+
+.hotelBookingCalenderInnerDiv{
+  /* border: 1px solid black; */
+  width: 50%;
+}
+
+.hotelBookingCalenderInnerDiv input{
+  /* margin-left: 45%;   */
+  border-radius: 5px;
+  height: 40px;
+  background-color: #dddddd78;
+  border: none !important;
+  padding-left: 10px;
+}
+
+/* .hotelBookingCalenderInnerDiv input::placeholder{
+ 
+} */
+
+.hotelBookingPersonsInnerDiv{
+  /* border: 1px solid green; */
+  width: 50%;
+  margin-left: 3%;
 }
 
 /* .hotelBookingHotelContentDiv{
@@ -34,6 +137,7 @@
 
 .hotelBookinHotelName {
   /* border: 1px solid black; */
+  margin-top: 4%;
   height: 100px;
   display: flex;
   flex-direction: row;
@@ -41,7 +145,7 @@
 
 .hotelBookingHotelHeading {
   /* border: 1px solid red; */
-  width: 50%;
+  width: 40%;
 }
 
 /* .hotelBookingHotelInfoDiv{
@@ -50,6 +154,7 @@
 
 .hotelBookingRatingDiv {
   /* border: 1px solid red; */
+  margin-top: -4%;
   height: 60px;
   display: flex;
   flex-direction: row;
@@ -77,6 +182,8 @@
 .miniContext {
   margin-top: -14% !important;
 }
+
+
 
 /* .hotelBookingPriceDiv {
   border: 1px solid red;

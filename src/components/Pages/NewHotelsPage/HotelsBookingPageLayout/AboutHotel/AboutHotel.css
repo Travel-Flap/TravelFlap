@@ -25,47 +25,47 @@
 .hotelBookingButton1 {
   outline: none;
   border: 2px solid #3380f2;
-  width: 4% !important;
+  width: 0%;
   height: 40px;
   border-radius: 5px !important;
-  padding-left: 30px;
+  padding-left: 70px;
 }
 
 .hotelBookingButton2 {
   outline: none;
   border: 2px solid #3380f2;
-  width: 4% !important;
+  width: 0% ;
   height: 40px;
   border-radius: 5px !important;
-  padding-left: 38px;
+  padding-left: 75px;
 }
 
 .hotelBookingButton3 {
   outline: none;
   border: 2px solid #3380f2;
-  width: 2%;
+  width: 0%;
   height: 40px;
   border-radius: 5px !important;
-  padding-left: 35px;
+  padding-left: 75px;
 }
 
 .hotelBookingButton4 {
   outline: none;
   border: 2px solid #3380f2;
-  width: 2%;
+  width: 0%;
   height: 40px;
   border-radius: 5px !important;
-  padding-left: 25px;
+  padding-left: 65px;
   text-align: center !important;
 }
 
 .hotelBookingButton5 {
   outline: none;
   border: 2px solid #3380f2;
-  width: 2%;
+  width: 0%;
   height: 40px;
   border-radius: 5px !important;
-  padding-left: 40px;
+  padding-left: 70px;
 }
 
 /* .hotelBookingButton6 {

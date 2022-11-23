@@ -5,9 +5,9 @@
   box-sizing: border-box;
   justify-content: space-between;
   margin: auto;
-  top: 41%;
+  top: 39.5%;
   background-color: white;
-  width:70%;
+  width: 70%;
   /* border: 3px solid #3380f2 !important; */
   color: #3380f2 !important;
   height: 150px !important;
@@ -18,24 +18,24 @@
   z-index: 10;
 }
 
-.multiroundbuttons{
+.multiroundbuttons {
   /* border-bottom: 1px solid blue; */
   /* border: 2px solid #dddddd75; */
   outline: none;
   box-shadow: none;
   margin-left: 2%;
   margin-top: 1%;
-  color:gray;
+  color: gray;
 }
 
-.multiroundbuttons select{
+.multiroundbuttons select {
   border: 2px solid #dddddd75;
   width: 12%;
   font-size: 15px;
   padding: 5px 10px;
 }
 /* This css is for the experiment input div part */
-.newFlightsinputmaindiv{
+.newFlightsinputmaindiv {
   /* border: 1px solid black; */
   margin-top: 1.5% !important;
   margin-left: 0.9%;
@@ -44,13 +44,13 @@
   flex-direction: row;
 }
 
-.newFlightsDestinationInputContainer{
+.newFlightsDestinationInputContainer {
   /* border: 1px solid red; */
   width: 25%;
   height: 65px;
 }
 
-.newFlightsDestinationInputContainer p{
+.newFlightsDestinationInputContainer p {
   /* border: 1px solid maroon; */
   height: 10px;
   margin-left: 5%;
@@ -59,13 +59,13 @@
   font-size: 15px;
 }
 
-.newFlightsDestinationInputContainer1{
+.newFlightsDestinationInputContainer1 {
   /* border: 1px solid red; */
   width: 25%;
   height: 65px;
 }
 
-.newFlightsDestinationInputContainer1 p{
+.newFlightsDestinationInputContainer1 p {
   /* border: 1px solid maroon; */
   height: 10px;
   margin-left: 2%;
@@ -74,8 +74,8 @@
   font-size: 15px;
 }
 
-.newFlightsNameInput{
-  border: 2px solid #dddddd75 ;
+.newFlightsNameInput {
+  border: 2px solid #dddddd75;
   font-size: 15px;
   padding: 5px 10px;
   /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
@@ -91,8 +91,8 @@
   flex-direction: row;
   margin-left: 5%;
 }
-.newFlightsNameInput1{
-  border: 1px solid #dddddd75 !important;   
+.newFlightsNameInput1 {
+  border: 1px solid #dddddd75 !important;
   /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   /* background-color: #8DBBFF; */
@@ -107,7 +107,7 @@
   flex-direction: row;
 }
 
-.newFlightsinputNameContainer input{
+.newFlightsinputNameContainer input {
   /* background-color: #8DBBFF; */
   height: auto;
   margin-top: 1% !important;
@@ -120,32 +120,30 @@
   /* border: 2px solid red; */
 }
 
-.newFlightsinputNameContainer input::placeholder{
+.newFlightsinputNameContainer input::placeholder {
   /* padding-left: 5%; */
   color: black;
 }
 
-.newFlightsInputicon{
+.newFlightsInputicon {
   margin-top: 1%;
   font-size: 25px;
   color: black;
   /* margin-right: 4%; */
   margin-left: 4%;
-
 }
 
-.newFlightsinputNameContainer .hotelinputIconContainer{
+.newFlightsinputNameContainer .hotelinputIconContainer {
   font-size: 30px !important;
 }
 
-
-.newFlightsCheckIn_dateContainer{
+.newFlightsCheckIn_dateContainer {
   /* border: 1px solid purple; */
   width: 20%;
   margin-top: -4%;
 }
 
-.newFlightsCheckIn_dateContainer p{
+.newFlightsCheckIn_dateContainer p {
   /* border: 1px solid maroon; */
   height: 20px;
   margin-left: 5%;
@@ -154,8 +152,7 @@
   font-size: 15px;
 }
 
-
-.newFlightsCheckIn_dateContainer input{
+.newFlightsCheckIn_dateContainer input {
   /* border-left: 1px solid black !important; */
   border: 1px solid #dddddd75 !important;
   /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
@@ -175,7 +172,7 @@
   font-size: 15px;
 }
 
-.newFlightsCheckout_DateContainer{
+.newFlightsCheckout_DateContainer {
   /* border-right: 1px solid orange; */
   width: 22%;
   margin-top: -4%;
@@ -183,7 +180,7 @@
   /* border: 2px solid red; */
 }
 
-.newFlightsCheckout_DateContainer p{
+.newFlightsCheckout_DateContainer p {
   height: 20px;
   margin-left: 2%;
   font-family: Arial, Helvetica, sans-serif !important;
@@ -191,7 +188,7 @@
   font-size: 15px;
 }
 
-.newFlightsCheckout_DateContainer input{
+.newFlightsCheckout_DateContainer input {
   border: 1px solid #dddddd75 !important;
   /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
@@ -208,10 +205,10 @@
   font-size: 15px;
 }
 
-.newFlightsGuest_outerDiv{
+.newFlightsGuest_outerDiv {
   /* border: 1px solid black; */
   width: 30%;
-  margin-left:-1%;
+  margin-left: -1%;
   font-family: Arial, Helvetica, sans-serif !important;
   color: #818090;
   font-size: 15px;
@@ -233,7 +230,6 @@
 }
 
 #newFlightsPage_departure h5 {
-  
   font-size: 15px;
   /* font-weight: 700; */
   /* margin-left: -7%; */
@@ -247,7 +243,7 @@
 .dropdownnewFlightsPage-content {
   display: none;
   position: absolute;
-  color:white !important;
+  color: white !important;
   background-color: #3380f2;
   width: 200px;
   height: 170px;
@@ -272,7 +268,7 @@
   /* border: 2px solid red; */
 }
 
-.newFlightHomeGuestIcon{
+.newFlightHomeGuestIcon {
   /* border: 1px solid red; */
   font-size: 24px;
   margin-left: 15% !important;
@@ -281,12 +277,12 @@
   background-color: white !important;
 }
 
-.newFlight_SearchButton{
+.newFlight_SearchButton {
   /* border: 1px solid blue; */
   width: 18%;
 }
 
-.newFlight_SearchButton button{
+.newFlight_SearchButton button {
   margin-top: 16%;
   width: 90%;
   height: 45px;
@@ -295,21 +291,21 @@
   padding-top: 7%;
 }
 
-.newFlight_SearchButton button:hover{
+.newFlight_SearchButton button:hover {
   background-color: white;
   color: #3380f2;
 }
 
-.newFlight_classoptions{
+.newFlight_classoptions {
   /* border: 2px solid red; */
   width: 40%;
   height: 35px;
   margin-top: 1%;
   display: flex;
   flex-direction: row;
-  margin-left:36.2% ;
+  margin-left: 36.2%;
 }
-.newFlight_chooseClass1 select{
+.newFlight_chooseClass1 select {
   background-color: none;
   color: #393939;
   margin-top: 3%;
@@ -320,7 +316,7 @@
   outline: none;
   margin-left: 5%;
 }
-.newFlight_chooseClass2 select{
+.newFlight_chooseClass2 select {
   background-color: none;
   color: #393939;
   margin-top: 3%;
@@ -331,7 +327,6 @@
   outline: none;
   /* margin-left: %; */
 }
-
 
 /* This is prior css code for the homepage */
 .choosenewhomebanneroptions {
@@ -429,8 +424,8 @@
   font-size: 17px;
   margin-left: 13%;
   width: 100%;
-    padding-left: 60px;
-    margin-top: -7%;
+  padding-left: 60px;
+  margin-top: -7%;
   /* border-right: 2px solid #3380f2; */
 }
 .citynewhomebannerinput1 {
@@ -506,7 +501,6 @@
   /* border: 1px solid; */
   height: 70px;
   margin-top: 3%;
- 
 }
 #newhomepage_departure {
   margin: 12px;
@@ -528,7 +522,7 @@
   padding: 12px;
   padding-left: 16px;
 }
-.newhometravellers{
+.newhometravellers {
   margin-top: -10.5%;
   margin-left: 10%;
   color: #3380f2 !important;
@@ -576,7 +570,6 @@
   color: white !important;
   border-radius: 40px;
 }
-
 
 /* This css part includes to overlapping and hovering the things */
 .bottomupExperimentclass1 {
@@ -705,7 +698,7 @@
 }
 
 /* This is the next part css */
-.newhomesearchbutton{
+.newhomesearchbutton {
   background-color: #3380f2;
   color: white;
   border: none;
@@ -717,7 +710,7 @@
   margin-top: -1.5%;
 }
 
-.newhomesearchbutton:hover{
+.newhomesearchbutton:hover {
   background-color: white;
   border: 1px solid #3380f2;
   color: #3380f2;
@@ -874,13 +867,11 @@
   border: 2px solid #3380f2 !important;
 }
 
-.multiwaybutton:hover{
-    background-color: #3380f2 !important;
-    color: white !important;
-    border: 2px solid white !important;
+.multiwaybutton:hover {
+  background-color: #3380f2 !important;
+  color: white !important;
+  border: 2px solid white !important;
 }
-
-
 
 .moreOptions:hover {
   background-color: white;

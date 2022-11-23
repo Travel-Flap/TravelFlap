@@ -1,0 +1,138 @@
+.hotelBookingPloiciesMainContainer{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.hotelBookingPoliciesOuterHeading{
+    /* border: 1px solid black; */
+    font-size: 28px;
+    font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+    vertical-align: baseline;
+}
+
+.hotelBookingPoliciesInnerContainer{
+    /* border: 1px solid gray; */
+    margin-top: 1%;
+    border-radius: 5px;
+}
+
+.hotelBookingPoliciesTopContextDiv{
+    /* border: 1px solid red; */
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.hotelBookingPoliciesCardsMainDiv{
+    /* border: 1px solid red; */
+    margin-left: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.hotelBookingPoliciesCards{
+    /* border: 1px solid red; */
+    margin-right: 2%;
+    background-color: RGBA(0,0,0,0);
+}
+
+.hotelBookingPoliciesInnerContainer1{
+    /* border: 1px solid red; */
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+.hotelBookingPoliciesHelpfulFactsDiv{
+    border-top: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+}
+
+.hotelPoliciesFactInnerDiv1{
+    /* border: 1px solid black; */
+    width: 50%;
+    /* height: 100px; */
+}
+
+
+.hotelBookingFactSubDiv{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.hotelBookingFactSubDivDetails1{
+    /* border: 1px solid black; */
+    width: 50%;
+    font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+}
+
+.hotelBookingFactSubDivDetails2{
+    /* border: 1px solid purple; */
+    width: 50%;
+    font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+}
+
+.hotelPoliciesFactInnerDiv2{
+    /* border: 1px solid green; */
+    width: 50%; 
+    /* height: 100px; */
+}
+
+.hotelPoliciesPropertyInnerDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.hotelBookingPropertySubDetailsDiv1{
+    /* border: 1px solid red; */
+    width: 60%;
+    font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+}
+
+.hotelBookingPropertySubDetailsDiv2{
+    /* border: 1px solid black; */
+    width: 40%;
+    font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+}
+
+/* .hotelBookingPropertyInfoDiv3{
+    border: 1px solid red;
+} */
+
+.hotelBookingPropertyInfoInnerDiv{
+    /* border: 1px solid black; */
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.hotelPropertyInfoSubDiv1{
+    /* border: 1px solid rebeccapurple; */
+    width: 50%;
+    font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+}
+
+.hotelPropertyInfoSubDiv2{
+    /* border: 1px solid green; */
+    width: 50%;
+    font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+}
+
+.hotelBoookingPropertyOtherDiv{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin-top: 1%;
+}
+
+.hotelBookingPropertOthrSubDiv{
+    /* border: 1px solid black; */
+    margin-left: 2%;
+}
+
+
+
+

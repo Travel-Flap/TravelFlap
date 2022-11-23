@@ -190,6 +190,10 @@
   margin-top: 8%; */
 }
 
+#newHotel_departure:hover .dropdownNewHotel-content {
+  display: block;
+}
+
 .dropdownNewHotel-content {
   display: none;
   position: absolute;
@@ -204,9 +208,6 @@
 .dropdownNewHotel-content div:hover {
   background-color: white !important;
   color: #3380f2;
-}
-#newHotel_departure:hover .dropdownNewHotel-content {
-  display: block;
 }
 
 .navbarNewHotelPageOptions {

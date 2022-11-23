@@ -163,7 +163,10 @@ function App() {
 
         {/* These rouutes are for the hotels pages */}
         <Route path="/hoteldetailspage" element={<HotelsInnerDetailsPage />} />
-        <Route path="/hotelbookingpage" element={<HotelBookingPageLayout />} />
+
+        <Route path="/hotelbookingpage" element={ <HotelBookingPageLayout /> } />
+
+        
 
         <Route path="/contact" element={<ContactUS />} />
       </Routes>
