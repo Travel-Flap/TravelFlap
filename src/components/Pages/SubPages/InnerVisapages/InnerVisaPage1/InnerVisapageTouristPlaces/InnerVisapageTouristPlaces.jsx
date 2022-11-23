@@ -88,12 +88,12 @@ export const InnerVisapageTouristPlaces = () => {
                         <div class="card mb-3 innerVisaTouristPlaceouterdiv">
                             <div class="row g-0 innerVisaTouristPlaceImagetextcontainer">
                                 <div class="col-md-8 innerVisaTouristPlaceCardimage">
-                                    <img src="Images/SubpageofHandPicked/1/amalfi-coast-italy.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
+                                    <img src="Images/InnerVisaPage/touristvisti/hanaoi.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 innerVisaTouristPlaceTextcard">
                                     <div class="card-body innerVisaTouristPlaceCarddescmain">
-                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Italy</h3>
-                                        <p>Get ready for an amazing HillStations vacation at Goa. You can expect very hot weather with very high humidity levels. You can also enjoy the various adventure activities in Goa.</p>
+                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Hanoi</h3>
+                                        <p>Hanoi, the capital of Vietnam, is known for its centuries-old architecture and a rich culture with Southeast Asian.</p>
                                         <button className='newhandPickedDestinationHillStationsButton'>Explore</button>
                                     </div>
                                 </div>
@@ -103,12 +103,12 @@ export const InnerVisapageTouristPlaces = () => {
                         <div class="card mb-3 innerVisaTouristPlaceouterdiv" style={{ marginTop: "15%" }}>
                             <div class="row g-0 innerVisaTouristPlaceImagetextcontainer">
                                 <div class="col-md-8 innerVisaTouristPlaceCardimage">
-                                    <img src="Images/SubpageofHandPicked/1/aspen-colorado-usa.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
+                                    <img src="Images/InnerVisaPage/touristvisti/Ninh Bình.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 innerVisaTouristPlaceTextcard">
                                     <div class="card-body innerVisaTouristPlaceCarddescmain">
-                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Colorado</h3>
-                                        <p>Get ready for an amazing HillStations vacation at Goa. You can expect very hot weather with very high humidity levels. You can also enjoy the various adventure activities in Goa.</p>
+                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Ninh Binh</h3>
+                                        <p>Ninh Bình is a small city in the Red River Delta of northern Vietnam. It is the capital of Ninh Bình Province.</p>
                                         <button className='newhandPickedDestinationHillStationsButton'>Explore</button>
                                     </div>
                                 </div>
@@ -118,12 +118,12 @@ export const InnerVisapageTouristPlaces = () => {
                         <div class="card mb-3 innerVisaTouristPlaceouterdiv">
                             <div class="row g-0 innerVisaTouristPlaceImagetextcontainer">
                                 <div class="col-md-8 innerVisaTouristPlaceCardimage">
-                                    <img src="Images/SubpageofHandPicked/1/florence-italy.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
+                                    <img src="Images/InnerVisaPage/touristvisti/hoian.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 innerVisaTouristPlaceTextcard">
                                     <div class="card-body innerVisaTouristPlaceCarddescmain">
-                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Italy</h3>
-                                        <p>Get ready for an amazing HillStations vacation at Goa. You can expect very hot weather with very high humidity levels. You can also enjoy the various adventure activities in Goa.</p>
+                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Hoian</h3>
+                                        <p>Hội An is a city on Vietnam’s central coast known for its well-preserved Ancient Town, cut through with canals.</p>
                                         <button className='newhandPickedDestinationHillStationsButton'>Explore</button>
                                     </div>
                                 </div>
@@ -133,12 +133,12 @@ export const InnerVisapageTouristPlaces = () => {
                         <div class="card mb-3 innerVisaTouristPlaceouterdiv">
                             <div class="row g-0 innerVisaTouristPlaceImagetextcontainer">
                                 <div class="col-md-8 innerVisaTouristPlaceCardimage">
-                                    <img src="Images/SubpageofHandPicked/1/krabi-thailand.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
+                                    <img src="Images/InnerVisaPage/touristvisti/vietnam-sapa-countryside.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 innerVisaTouristPlaceTextcard">
                                     <div class="card-body innerVisaTouristPlaceCarddescmain">
-                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Thailand</h3>
-                                        <p>Get ready for an amazing HillStations vacation at Goa. You can expect very hot weather with very high humidity levels. You can also enjoy the various adventure activities in Goa.</p>
+                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Sapa</h3>
+                                        <p>Sapa town stands at the head of a deep valley of magnificent rice terraces that are still farmed today as they have been for centuries.</p>
                                         <button className='newhandPickedDestinationHillStationsButton'>Explore</button>
                                     </div>
                                 </div>
@@ -148,12 +148,12 @@ export const InnerVisapageTouristPlaces = () => {
                         <div class="card mb-3 innerVisaTouristPlaceouterdiv">
                             <div class="row g-0 innerVisaTouristPlaceImagetextcontainer">
                                 <div class="col-md-8 innerVisaTouristPlaceCardimage">
-                                    <img src="Images/SubpageofHandPicked/1/amalfi-coast-italy.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
+                                    <img src="Images/InnerVisaPage/touristvisti/vietnam-cu-chi-tunnels.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 innerVisaTouristPlaceTextcard">
                                     <div class="card-body innerVisaTouristPlaceCarddescmain">
-                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Italy</h3>
-                                        <p>Get ready for an amazing HillStations vacation at Goa. You can expect very hot weather with very high humidity levels. You can also enjoy the various adventure activities in Goa.</p>
+                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Chu Chi Tunnel</h3>
+                                        <p>The tunnels of Củ Chi are an immense network of connecting tunnels located in the Củ Chi District of Ho Chi Minh City, Vietnam.</p>
                                         <button className='newhandPickedDestinationHillStationsButton'>Explore</button>
                                     </div>
                                 </div>
@@ -163,12 +163,12 @@ export const InnerVisapageTouristPlaces = () => {
                         <div class="card mb-3 innerVisaTouristPlaceouterdiv" style={{ marginTop: "15%" }}>
                             <div class="row g-0 innerVisaTouristPlaceImagetextcontainer">
                                 <div class="col-md-8 innerVisaTouristPlaceCardimage">
-                                    <img src="Images/SubpageofHandPicked/1/aspen-colorado-usa.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
+                                    <img src="Images/InnerVisaPage/touristvisti/vietnam-ba-be-national-park.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 innerVisaTouristPlaceTextcard">
                                     <div class="card-body innerVisaTouristPlaceCarddescmain">
-                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Colorado</h3>
-                                        <p>Get ready for an amazing HillStations vacation at Goa. You can expect very hot weather with very high humidity levels. You can also enjoy the various adventure activities in Goa.</p>
+                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">BA Be National Park</h3>
+                                        <p>Ba Bể National Park is a reserve in Bắc Kạn Province, Northeast region of Vietnam, set up to protect a very murky lake along with surrounding limestone and highland nevergreen forests.</p>
                                         <button className='newhandPickedDestinationHillStationsButton'>Explore</button>
                                     </div>
                                 </div>
@@ -178,12 +178,12 @@ export const InnerVisapageTouristPlaces = () => {
                         <div class="card mb-3 innerVisaTouristPlaceouterdiv">
                             <div class="row g-0 innerVisaTouristPlaceImagetextcontainer">
                                 <div class="col-md-8 innerVisaTouristPlaceCardimage">
-                                    <img src="Images/SubpageofHandPicked/1/florence-italy.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
+                                    <img src="Images/InnerVisaPage/touristvisti/vietnam-best-places-to-visit-cat-ba-island-view.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 innerVisaTouristPlaceTextcard">
                                     <div class="card-body innerVisaTouristPlaceCarddescmain">
-                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Italy</h3>
-                                        <p>Get ready for an amazing HillStations vacation at Goa. You can expect very hot weather with very high humidity levels. You can also enjoy the various adventure activities in Goa.</p>
+                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Cat Ba Island</h3>
+                                        <p>Cát Bà Island is the largest of the 367 islands spanning 260 km² that comprise the Cat Ba Archipelago, which makes up the southeastern edge of Lan Ha Bay in Northern Vietnam.</p>
                                         <button className='newhandPickedDestinationHillStationsButton'>Explore</button>
                                     </div>
                                 </div>
@@ -193,12 +193,12 @@ export const InnerVisapageTouristPlaces = () => {
                         <div class="card mb-3 innerVisaTouristPlaceouterdiv">
                             <div class="row g-0 innerVisaTouristPlaceImagetextcontainer">
                                 <div class="col-md-8 innerVisaTouristPlaceCardimage">
-                                    <img src="Images/SubpageofHandPicked/1/krabi-thailand.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
+                                    <img src="Images/InnerVisaPage/touristvisti/halongbay.webp" class="img-fluid handPickedDestinationHillStationsRecommendedimage" alt="..." />
                                 </div>
                                 <div class="col-md-4 innerVisaTouristPlaceTextcard">
                                     <div class="card-body innerVisaTouristPlaceCarddescmain">
-                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Thailand</h3>
-                                        <p>Get ready for an amazing HillStations vacation at Goa. You can expect very hot weather with very high humidity levels. You can also enjoy the various adventure activities in Goa.</p>
+                                        <h3 class="card-title innerVisaTouristPlaceCardtitle">Ha Long Bay</h3>
+                                        <p>ạ Long Bay, in northeast Vietnam, is known for its emerald waters and thousands of towering limestone islands topped by rainforests.</p>
                                         <button className='newhandPickedDestinationHillStationsButton'>Explore</button>
                                     </div>
                                 </div>

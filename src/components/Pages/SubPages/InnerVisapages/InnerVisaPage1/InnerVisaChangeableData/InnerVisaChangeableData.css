@@ -4,7 +4,7 @@
 }
 .innerVisaHeadingButtons{
     /* border: 2px solid green; */
-    background-color: #ECF3F9;
+    background-color: #e8f4ff;
     height: 50px;
     width: 100%;
     border: none;
@@ -12,39 +12,41 @@
 }
 .active{
     color: #393939;
-    text-decoration: underline;
+    border-bottom: 2px solid #393939;
 }
 .innervisaChangemainDiv{
-   /* border: 2px solid red; */
-   width: 95%;
+   width: 100%;
    height: 80px;
-   background-color: #ECF3F9;
-   margin: auto;
+   border: 1px solid lightgray;
+   background-color: #e8f4ff !important;
+   border-radius: 10px;
+   /* margin-top: -2%; */
+   /* margin: auto; */
 }
 .innervisabuttonouterDiv{
-    border: 1px solid lightgray;
-    background-color: #ECF3F9;
-    border-radius: 15px;
     display: flex;
     flex-direction: row;
 }
 .innervisabuttonDiv{
     /* border: 2px solid blue; */
-    width: 16%;
+    width: 12%;
+    /* height: 35px; */
+    margin: auto;
+    margin-top: 1%;
 }
 
 .innerVisaChangeableDataBannerdropcontainer {
-    /* border: 1px solid red !important; */
-    width: 35%;
-    margin-left: 30%;
+    /* border: 1px solid red; */
+    width: 30%;
+    margin-left: 40%;
     border: none;
-    height:40px;
+    height:50px;
   }
 
   .innerVisaChangeableDataBannerdropcontainer select{
     font-size: 15px;
-    height: 40px;
-    border: 2px solid #dddddd78 !important;
+    height: 50px;
+    border: 2px solid #dddddd78;
   }
 
   .innerVisaChangeableDataBannerdropcontainer select::placeholder{
@@ -52,9 +54,9 @@
   }
   
   .innerVisaChangeableDataBannerdropcontainer1 {
-    margin-left: 1%;
-    width: 35%;
-    height: 40px;
+    margin-left: 3%;
+    width: 30%;
+    height: 50px;
   }
 
   .innerVisaChangeableDataBannerdropcontainer1 p{
@@ -64,17 +66,18 @@
 
   .innerVisaChangeableDataBannerdropcontainer1 select{
     font-size: 15px;
-    height: 40px;
+    height: 50px;
     padding: 5px 10px;
     border: 2px solid #dddddd78;
   }
   .innerVisaChangeableButton{
     /* border: 2px solid red; */
     width: 60%;
-    height: 50px;
+    height: 60px;
     display: flex;
     flex-direction: row;
-    margin-left: 40%;
+    margin-left: 41%;
+    margin-top: 2%;
   }
   .visaTypeMainDiv{
     /* border: 2px solid salmon; */
@@ -85,16 +88,16 @@
   }
   .innerVisaTypedetailsDiv{
     /* border: 2px solid red; */
-    width: 80%;
+    width: 85%;
     height: auto;
     display: flex;
     flex-direction: column;
   }
   .innerVisaTypeDetailContainer{
     border:1px solid lightgray;
-    width: 90%;
+    width: 95%;
     height: 160px;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 1.5%;
     display: flex;
     flex-direction: row;
@@ -124,7 +127,7 @@
   .innerVisaPrice{
     color: #393939;
     font-size: 14px;
-    margin-top: -3%;
+    margin-top: -1%;
   }
   .visaPrice{
     color: #3380F2;
@@ -207,15 +210,16 @@
   
   .innerVisaTypecontactDiv{
     /* border: 2px solid gold; */
-    width: 30%;
+    width: 35%;
   }
   .innervisadetailsform{
     z-index: 2;
     border: 1px solid lightgray;
-    background-color: #ECF3F9;
+    background-color: #e8f4ff;
     width: 80%;
     height: 500px;
     margin: 9%;
+    margin-left: 20%;
     color: #3380F2;
     border-radius: 20px;
 }
@@ -264,4 +268,95 @@
     background-color: white !important;
     color: #3380F2 !important;
     border: 2px solid #3380F2;
+}
+.innervisaPageDocumentMainDiv{
+  /* border: 2px solid black; */
+  height: auto;
+  width: 65%;
+}
+.innervisaDocumentHeading{
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 5%;
+  /* margin-left: 4%; */
+  color: #393939;
+}
+.innervisaPageDocumentContainer{
+  width: 90%;
+  margin-top: 5%;
+  height: auto;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #393939;
+}
+.innervisapageDoumentsLists{
+  list-style-type:disc;
+  margin-top:3%;
+  margin-left: 3%;
+}
+.innervisaprocessMainDiv{
+  /* border: 2px solid red; */
+  width: 80%;
+
+}
+.innervisaProcessheading{
+  color: #393939;
+  font-size: 28px;
+  font-weight: 700;
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 5%;
+  /* border: 2px solid red; */
+}
+.innervisaProcesscontainerDiv{
+  /* border: 2px solid black; */
+  width: 90%;
+  height: 150px;
+  margin: auto;
+  margin-top: 7%;
+  object-fit: cover;
+  background-size: cover;
+}
+.innervisaProcessImage{
+  width: 100%;
+  height: 100%;
+}
+.visainnerSample{
+  /* border: 2px solid green; */
+  width: 80%;
+  height: 550px;
+  /* margin: auto; */
+}
+.visainnerImageDiv{
+  border: 2px solid lightgray;
+  width: 45%;
+  height: 100%;
+  margin: auto;
+}
+.visainnerImageDiv img{
+  width: 100%;
+  height: 100%;
+}
+.visaInnerEmbasy{
+  width: 80%;
+  /* border: 2px solid red; */
+}
+.visaInnerEmbasyLinks{
+  width: 70%;
+  height: 100px;
+  /* border: 2px solid gold; */
+  margin-top: 2%;
+}
+.visaInnerEmbasyHeadings{
+  color: #393939;
+  font-weight: 700;
+  font-size: 20px;
+}
+.VisaEmbasyLinks{
+  font-size: 15px;
+  color: #818090;
+  list-style-type: square;
+  /* font-weight: 700; */
 }

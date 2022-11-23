@@ -1,12 +1,13 @@
 .innervisapagebannerOuterDiv{
     /* border: 2px solid red; */
     width: 100%;
-    margin: auto;
-    height: 600px;
-    margin-bottom: 1%;
+    /* margin: auto; */
+    height: 550px;
+    /* margin-bottom: 1%; */
+    margin-top: 5%;
 }
 .innervisaPagebannerMainDiv{
-    border: 2px solid lightgray;
+    /* border: 2px solid lightgray; */
     width: 90%;
     margin: auto;
     margin-top: 3%;
@@ -16,14 +17,26 @@
     flex-direction: row;
 }
 .innervisapagebannerSlider{
-    /* border: 2px solid red; */
+    /* border: 2px solid r  ed; */
     width: 47%;
-    margin-top: 2.5%;
-    height: 420px;
+    margin-top: 1%;
+    height: 480px;
     margin-left: 2%;
 }
+.innervisapageSliderImages{
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    background-size: cover;
+    /* border: 2px solid purple; */
+}
+.testinnnervisaImage{
+    width: 100%;
+    height: 480px;
+    /* border: 2px solid gold; */
+}
 .innervisabannercarousel{
-    border: 2px solid blue ;
+    /* border: 2px solid blue ; */
     width: 85%;
     height: 420px;
     margin: auto;
@@ -38,31 +51,49 @@
     flex-direction: column;
 }
 .innervisapagebannerCountryHeading{
+    /* border: 2px solid purple; */
     color: #393939;
     font-weight: 700;
     font-size: 28px;
+    width: 40%;
+    height: 180px;
 }
 .innervisapagebannerCountryHeading h2{
     color: #393939;
     font-weight: 700;
     font-size: 30px;
     /* border: 2px solid red; */
-    margin-top: 10%;
+    margin-top: 3%;
     margin-left: 10%;
 }
-.innervisapagebannerCountryHeading p{
+.innervisaTime{
+    color: #393939;
+    font-size: 15px;
+    font-weight: 100;
+    /* margin-left: 6%; */
+    /* border: 2px solid red; */
+}
+.innervisacontinent{
     color: #393939;
     font-size: 15px;
     font-weight: 100;
     margin-left: 10%;
-    margin-top: -1%;
     /* border: 2px solid red; */
+    margin-top: 3%;
+}
+.innervisaTimeIcon{
+    margin-right: 2%;
+    margin-left: 10%;
+}
+.innervisacontinentIcon{
+    margin-top: -1%;
+    margin-right: 1%;
 }
 .innervisaFavouritebutton{
     color: #3380F2;
     border: 1px dotted #3380F2;
     background-color: white;
-    width: 100%;
+    width:75%;
     height: 35px;
     margin-left: 10%;
     font-size: 12px;
@@ -77,7 +108,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 170px;
+    height: 180px;
 }
 .innervisaCountryImage{
     /* border: 2px solid red; */
@@ -85,10 +116,29 @@
     margin-left: 25%;
     justify-content: flex-end;
 }
+.innervisadetailsimage{
+    /* border: 1px solid gold; */
+    width: 40%;
+    height: 170px;
+    /* position:relative; */
+    /* margin: -70% 0 0 18%; */
+    /* margin-top:-15%; */
+    margin-left: 20%;
+    border-radius: 15px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.innervisadetailsflagimagge{
+    /* border: 2px solid saddlebrown; */
+    /* margin: -70% 0 0 18%; */
+    margin: 6.5% 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
 .innervisabannerDescription{
     /* border: 2px solid red; */
     width: 100%;
-    height: 150px;
+    height: 165px;
     display: flex;
     flex-direction: row;
 }
@@ -97,15 +147,18 @@
     width: 45%;
     height: 150px;
     text-align: justify;
+    font-weight: 700;
     font-size: 13px;
-    color: #393939;
+    color: #504f4f;
+    margin-left: 4%;
+    margin-top: 1%;
 }
 .innervisadescriptionPriceButton{
     /* border: 2px solid red; */
     width: 22%;
     height: 40px;
     margin: auto;
-    margin-left: 10%;
+    margin-left: 22%;
     background-color: #3380F2;
     border-radius: 8px;
     color: white;
@@ -119,24 +172,32 @@
     height: 150px;
     display: flex;
     flex-direction: row;
-    margin-top: 4%;
-    background-color: #ECF3F9;
+    /* margin-top: 4%; */
+    background-color: #e8f4ff;
 }
 .innervisabannerdetailsheadings{
     /* border: 2px solid yellow; */
-    width: 30%;
-    height: 150px;
+    width: 25%;
+    height: 100px;
     font-size: 15px;
     color:#393939;
+    margin-top: 4%;
     font-weight: 700;
+}
+.innervisabannerdetailsheadings li{
+    margin-top: 2%;
 }
 .innervisabannerdata{
     /* border: 2px solid black; */
-    width: 50%;
-    height: 150px;
+    width: 40%;
+    height: 100px;
+    margin-top: 4%;
     color: #393939;
+    font-size: 15px;
 }
-
+.innervisabannerdata li{
+    margin-top: 1%;
+}
 .carouselButtonVisa{
     background-color: #3380F2 !important;
 }

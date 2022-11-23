@@ -64,13 +64,12 @@ export const InnerVisaChangeableData = () => {
                     <button className={ showtab===5 ? "innerVisaHeadingButtons active": "innerVisaHeadingButtons"}  onClick={()=>handletab(5)}>Embassy</button>
                 </li>
 
-                <li class="nav-item" role="presentation" className="innervisabuttonDiv">
-                    <button className={ showtab===6 ? "innerVisaHeadingButtons active": "innerVisaHeadingButtons"}  onClick={()=>handletab(6)}>Why choose Us?</button>
-                </li>
+
             </ul>
 
       <div class="tab-content text-dark" id="pills-tabContent">
-           <div  className= { showtab===1 ? "tab-pane fade show active":"tab-pane fade show"} style={{textDecoration:"none"}}> 
+           
+           <div  className= { showtab===1 ? "tab-pane fade show active":"tab-pane fade show"} style={{textDecoration:"none",borderBottom:"none"}}> 
 
                          <div className='innerVisaChangeableButton'> 
                            <div className='innerVisaChangeableDataBannerdropcontainer'>
@@ -94,10 +93,10 @@ export const InnerVisaChangeableData = () => {
                                     }
                                 </select>
                             </div>
-                        </div>
+                         </div>
 
                         <div className='visaTypeMainDiv'>
-                                <div className='innerVisaTypedetailsDiv'>
+                            <div className='innerVisaTypedetailsDiv'>
 
                                     <div className='innerVisaTypeDetailContainer'>
                                         <div className='innervisaInformationDiv'>
@@ -200,31 +199,224 @@ export const InnerVisaChangeableData = () => {
                                 </div>
                             </div>
                         </div>
-             </div>
+           </div>
 
-          <div  className= { showtab===2 ? "tab-pane fade show active": "tab-pane fade"} > 
-           <p>Tab 2 Content</p>
-           <p>Fill the form</p>
+           <div  className= { showtab===2 ? "tab-pane fade show active": "tab-pane fade"} style={{textDecoration:"none",borderBottom:"none"}} > 
+                
+                    <div className='innerVisaChangeableButton'> 
+                           <div className='innerVisaChangeableDataBannerdropcontainer'>
+                                <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example">
+                                    <option value="" >Select Country</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                </select>
+                            </div>
+
+                            <div className='innerVisaChangeableDataBannerdropcontainer1'>
+                                <select className="form-select newVisaform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%" }}>
+                                    <option value="" >Select Nationality</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                </select>
+                            </div>
+                    </div>
+                    
+                    <div className='visaTypeMainDiv'>
+                         <div className='innervisaPageDocumentMainDiv'>
+                            <h2 className='innervisaDocumentHeading'>Documents Required for Vietnam Visa for Indians </h2>
+                            <div className='innervisaPageDocumentContainer'>
+                                    <ul>
+                                        <li className='innervisapageDoumentsLists'>Scanned colour copy of first and last page of your Passport.</li>
+                                        <li className='innervisapageDoumentsLists'>Scanned recent colour passport size photograph with white background.</li>
+                                        <li className='innervisapageDoumentsLists'> Indian Passport, with a validity of minimum six more months from the date of travel to Vietnam,</li>
+                                        <li className='innervisapageDoumentsLists'>You will need at least two blank pages on your passport for the visa stamp.</li>
+                                        <li className='innervisapageDoumentsLists'>A filled out visa application form.</li>
+                                        <li className='innervisapageDoumentsLists'>Payment (25 USD to 50 USD) for visa fees.</li>
+                                        <li className='innervisapageDoumentsLists'>A Letter of Approval from a Vietnamese embassy or consulate (if you are picking up your visa at the airport).</li>
+                                    </ul>
+                            </div>
+                         </div>
+                         <div className='innerVisaTypecontactDiv'>
+                                <div className='innervisadetailsform'>
+                                    <h1>Apply Now!!</h1>
+                                    <input type="text" placeholder='Email ID' className='innervisadetailforminputs'/> <br/>
+                                    <input type="text" placeholder='Contact Number' className='innervisadetailforminputs'/><br/>
+                                    <input type="text" placeholder='Visa Type' className='innervisadetailforminputs'/><br/>
+                                    <button className='innervisadetailsapplybutton'>Apply</button>
+                                </div>
+                        </div>
+                    </div>
+                    
+           </div>
+
+           <div  className= { showtab===3 ? "tab-pane fade show active": "tab-pane fade"} style={{textDecoration:"none",borderBottom:"none"}} > 
+                    
+                    <div className='innerVisaChangeableButton'> 
+                           <div className='innerVisaChangeableDataBannerdropcontainer'>
+                                <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example">
+                                    <option value="" >Select Country</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                </select>
+                            </div>
+
+                            <div className='innerVisaChangeableDataBannerdropcontainer1'>
+                                <select className="form-select newVisaform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%" }}>
+                                    <option value="" >Select Nationality</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                </select>
+                            </div>
+                    </div>
+
+                    <div className='visaTypeMainDiv'>
+                        <div className='innervisaprocessMainDiv'>
+                            <h3 className='innervisaProcessheading'>Visa process</h3>
+                            <div className='innervisaProcesscontainerDiv'>
+                                <img className='innervisaProcessImage' src='Images/InnerVisaPage/Visa (1).png'/>
+                            </div>
+                        </div>
+                        <div className='innerVisaTypecontactDiv'>
+                                <div className='innervisadetailsform'>
+                                    <h1>Apply Now!!</h1>
+                                    <input type="text" placeholder='Email ID' className='innervisadetailforminputs'/> <br/>
+                                    <input type="text" placeholder='Contact Number' className='innervisadetailforminputs'/><br/>
+                                    <input type="text" placeholder='Visa Type' className='innervisadetailforminputs'/><br/>
+                                    <button className='innervisadetailsapplybutton'>Apply</button>
+                                </div>
+                        </div>
+                    </div>
           </div>
 
-           <div  className= { showtab===3 ? "tab-pane fade show active": "tab-pane fade"} > 
-           <p>Tab 3 Content</p>
-           <p>Fill the form</p>
+          <div  className= { showtab===4 ? "tab-pane fade show active":"tab-pane fade show"} style={{textDecoration:"none",borderBottom:"none"}}> 
+                    <div className='innerVisaChangeableButton'> 
+                           <div className='innerVisaChangeableDataBannerdropcontainer'>
+                                <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example">
+                                    <option value="" >Select Country</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                </select>
+                            </div>
+
+                            <div className='innerVisaChangeableDataBannerdropcontainer1'>
+                                <select className="form-select newVisaform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%" }}>
+                                    <option value="" >Select Nationality</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                </select>
+                            </div>
+                    </div>
+
+                    <div className='visaTypeMainDiv'>
+                        <div className='visainnerSample'>
+                            <div className='visainnerImageDiv'>
+                               <img src='Images/InnerVisaPage/dubai-sample.jpg'/>
+                            </div>
+                        </div>
+
+                        <div className='innerVisaTypecontactDiv'>
+                                <div className='innervisadetailsform'>
+                                    <h1>Apply Now!!</h1>
+                                    <input type="text" placeholder='Email ID' className='innervisadetailforminputs'/> <br/>
+                                    <input type="text" placeholder='Contact Number' className='innervisadetailforminputs'/><br/>
+                                    <input type="text" placeholder='Visa Type' className='innervisadetailforminputs'/><br/>
+                                    <button className='innervisadetailsapplybutton'>Apply</button>
+                                </div>
+                        </div>
+
+                    </div>
           </div>
 
-          <div  className= { showtab===4 ? "tab-pane fade show active":"tab-pane fade show"} > 
-               <p>Tab 4 Content</p>
+          <div  className= { showtab===5 ? "tab-pane fade show active": "tab-pane fade"} style={{textDecoration:"none",borderBottom:"none"}}> 
+                    <div className='innerVisaChangeableButton'> 
+                           <div className='innerVisaChangeableDataBannerdropcontainer'>
+                                <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example">
+                                    <option value="" >Select Country</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                </select>
+                            </div>
+
+                            <div className='innerVisaChangeableDataBannerdropcontainer1'>
+                                <select className="form-select newVisaform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ width: "100%" }}>
+                                    <option value="" >Select Nationality</option>
+                                    {
+                                        countrydata.map((getcountry, index) => (
+                                            <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                        ))
+                                    }
+                                </select>
+                            </div>
+                    </div>
+
+                    <div className='visaTypeMainDiv'>
+                        <div className='visaInnerEmbasy'>
+                            <div className='visaInnerEmbasyLinks'>
+                                <h4 className='visaInnerEmbasyHeadings'>Vietnam Visa Requirements</h4>
+                                <ul>
+                                    <li className='VisaEmbasyLinks'>Have a valid Passport and valid Vietnam Visa.</li>
+                                    <li  className='VisaEmbasyLinks'>Be in good health.</li>
+                                </ul>
+                            </div>
+
+                            <div className='visaInnerEmbasyLinks'>
+                                <h4 className='visaInnerEmbasyHeadings'>Travel Checklist</h4>
+                                <ul>
+                                    <li className='VisaEmbasyLinks'>Passport.</li>
+                                    <li  className='VisaEmbasyLinks'>Valid Vietnam Visa.</li>
+                                </ul>
+                            </div>
+
+                            <div className='visaInnerEmbasyLinks'>
+                                <h4 className='visaInnerEmbasyHeadings'>What to do when you arrive in Vietnam</h4>
+                                <ul>
+                                    <li className='VisaEmbasyLinks'>Keep your Declaration form in hand (provided to you on the flight).</li>
+                                </ul>
+                            </div>
+
+                            <div className='visaInnerEmbasyLinks'>
+                                <h4 className='visaInnerEmbasyHeadings'>Vietnam travel guide</h4>
+                                <ul>
+                                    <li className='VisaEmbasyLinks'>Vietnam is a nation of huge contrasts, immense cultural diversity, and breath-taking natural wonders that can keep its travellers – ranging from back packers to the world’s elite – entertained for weeks if not months.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className='innerVisaTypecontactDiv'>
+                                <div className='innervisadetailsform'>
+                                    <h1>Apply Now!!</h1>
+                                    <input type="text" placeholder='Email ID' className='innervisadetailforminputs'/> <br/>
+                                    <input type="text" placeholder='Contact Number' className='innervisadetailforminputs'/><br/>
+                                    <input type="text" placeholder='Visa Type' className='innervisadetailforminputs'/><br/>
+                                    <button className='innervisadetailsapplybutton'>Apply</button>
+                                </div>
+                        </div>
+                        
+                    </div>
           </div>
 
-          <div  className= { showtab===5 ? "tab-pane fade show active": "tab-pane fade"} > 
-           <p>Tab 5 Content</p>
-           <p>Fill the form</p>
-          </div>
-
-           <div  className= { showtab=== 6? "tab-pane fade show active": "tab-pane fade"} > 
-           <p>Tab 6 Content</p>
-           <p>Fill the form</p>
-          </div>
+      
 
 
      </div>
