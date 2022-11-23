@@ -11,274 +11,280 @@ export const NewStaycationStaticBanners1 = () => {
             <p>Choose Filter</p>
 
             <div className="iconsOptionDivIconsText">
-                <div className="iconsOptionDivIcons">
-                   <div className="newStaycationIcons">
-                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png"/>
-                   </div>
-                   <div className="newStaycationIcons">
-                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png"/>
-                   </div>
-                   <div className="newStaycationIcons">
-                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png"/>
-                   </div>
-                   <div className="newStaycationIcons">
-                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png"/>
-                   </div>
-                   <div className="newStaycationIcons">
-                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/view.png"/>
-                   </div>
-                   <div className="newStaycationIcons">
-                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/beach-house.png"/>
-                   </div>
+              <div className="iconsOptionDivIcons">
+                <div className="newStaycationIcons">
+                  <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png" />
                 </div>
-                <div className="iconsOptionDivText">
-                   <div className="newStaycationIconsText">
-                    Cabin
-                   </div>
-                   <div className="newStaycationIconsText">
-                    Boat
-                   </div>
-                   <div className="newStaycationIconsText">
-                    Hills
-                   </div>
-                   <div className="newStaycationIconsText">
-                    Cave
-                   </div>
-                   <div className="newStaycationIconsText">
-                    Breakfast
-                   </div>
-                   <div className="newStaycationIconsText">
-                    Beach
-                   </div>
+
+                <div className="newStaycationIcons">
+                  <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png" />
                 </div>
+
+                <div className="newStaycationIcons">
+                  <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png" />
+                </div>
+
+                <div className="newStaycationIcons">
+                  <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png" />
+                </div>
+
+                <div className="newStaycationIcons">
+                  <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/view.png" />
+                </div>
+
+                <div className="newStaycationIcons">
+                  <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/beach-house.png" />
+                </div>
+                
+              </div>
+              <div className="iconsOptionDivText">
+                <div className="newStaycationIconsText">
+                  Cabin
+                </div>
+                <div className="newStaycationIconsText">
+                  Boat
+                </div>
+                <div className="newStaycationIconsText">
+                  Hills
+                </div>
+                <div className="newStaycationIconsText">
+                  Cave
+                </div>
+                <div className="newStaycationIconsText">
+                  Breakfast
+                </div>
+                <div className="newStaycationIconsText">
+                  Beach
+                </div>
+              </div>
             </div>
             <div className="iconsOptionDivIconsTextSeemore">
-              see more <FaAngleRight/>
+              see more <FaAngleRight />
 
-                    <div className='newstaycationhoveringDiv'>
-                       <div className="staycationhover">
+              <div className='newstaycationhoveringDiv'>
+                <div className="staycationhover">
 
-                            <div className="hovericonsOptionDivIconsText">
-                                <div className="hovericonsOptionDivIcons">
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/view.png"/>
-                                  </div>
-                                </div>
-                                <div className="hovericonsOptionDivText">
-                                  <div className="hovernewStaycationIconsText">
-                                    Cabin
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Boat
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Hills
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Cave
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Breakfast
-                                  </div>
-                                </div>
-                            </div>                          
-
-                            <div className="hovericonsOptionDivIconsText">
-                                <div className="hovericonsOptionDivIcons">
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/view.png"/>
-                                  </div>
-                                </div>
-                                <div className="hovericonsOptionDivText">
-                                  <div className="hovernewStaycationIconsText">
-                                    Cabin
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Boat
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Hills
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Cave
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Breakfast
-                                  </div>
-                                </div>
-                            </div>
-                            <div className="hovericonsOptionDivIconsText">
-                                <div className="hovericonsOptionDivIcons">
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/view.png"/>
-                                  </div>
-                                </div>
-                                <div className="hovericonsOptionDivText">
-                                  <div className="hovernewStaycationIconsText">
-                                    Cabin
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Boat
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Hills
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Cave
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Breakfast
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div className="hovericonsOptionDivIconsText">
-                                <div className="hovericonsOptionDivIcons">
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/view.png"/>
-                                  </div>
-                                </div>
-                                <div className="hovericonsOptionDivText">
-                                  <div className="hovernewStaycationIconsText">
-                                    Cabin
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Boat
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Hills
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Cave
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Breakfast
-                                  </div>
-                                </div>
-                            </div>
-
-                            <div className="hovericonsOptionDivIconsText">
-                                <div className="hovericonsOptionDivIcons">
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/view.png"/>
-                                  </div>
-                                </div>
-                                <div className="hovericonsOptionDivText">
-                                  <div className="hovernewStaycationIconsText">
-                                    Cabin
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Boat
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Hills
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Cave
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Breakfast
-                                  </div>
-                                </div>
-                            </div>
-                            <div className="hovericonsOptionDivIconsText">
-                                <div className="hovericonsOptionDivIcons">
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png"/>
-                                  </div>
-                                  <div className="hovernewStaycationIcons">
-                                    <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/view.png"/>
-                                  </div>
-                                </div>
-                                <div className="hovericonsOptionDivText">
-                                  <div className="hovernewStaycationIconsText">
-                                    Cabin
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Boat
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Hills
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Cave
-                                  </div>
-                                  <div className="hovernewStaycationIconsText">
-                                    Breakfast
-                                  </div>
-                                </div>
-                            </div>
-                       </div>
+                  <div className="hovericonsOptionDivIconsText">
+                    <div className="hovericonsOptionDivIcons">
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/view.png" />
+                      </div>
                     </div>
+                    <div className="hovericonsOptionDivText">
+                      <div className="hovernewStaycationIconsText">
+                        Cabin
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Boat
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Hills
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Cave
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Breakfast
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="hovericonsOptionDivIconsText">
+                    <div className="hovericonsOptionDivIcons">
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/view.png" />
+                      </div>
+                    </div>
+                    <div className="hovericonsOptionDivText">
+                      <div className="hovernewStaycationIconsText">
+                        Cabin
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Boat
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Hills
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Cave
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Breakfast
+                      </div>
+                    </div>
+                  </div>
+                  <div className="hovericonsOptionDivIconsText">
+                    <div className="hovericonsOptionDivIcons">
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/view.png" />
+                      </div>
+                    </div>
+                    <div className="hovericonsOptionDivText">
+                      <div className="hovernewStaycationIconsText">
+                        Cabin
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Boat
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Hills
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Cave
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Breakfast
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="hovericonsOptionDivIconsText">
+                    <div className="hovericonsOptionDivIcons">
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/view.png" />
+                      </div>
+                    </div>
+                    <div className="hovericonsOptionDivText">
+                      <div className="hovernewStaycationIconsText">
+                        Cabin
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Boat
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Hills
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Cave
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Breakfast
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="hovericonsOptionDivIconsText">
+                    <div className="hovericonsOptionDivIcons">
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/view.png" />
+                      </div>
+                    </div>
+                    <div className="hovericonsOptionDivText">
+                      <div className="hovernewStaycationIconsText">
+                        Cabin
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Boat
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Hills
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Cave
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Breakfast
+                      </div>
+                    </div>
+                  </div>
+                  <div className="hovericonsOptionDivIconsText">
+                    <div className="hovericonsOptionDivIcons">
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png" />
+                      </div>
+                      <div className="hovernewStaycationIcons">
+                        <img src="Images/NewHomeLayout/NewStaycations/staycationIcons/view.png" />
+                      </div>
+                    </div>
+                    <div className="hovericonsOptionDivText">
+                      <div className="hovernewStaycationIconsText">
+                        Cabin
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Boat
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Hills
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Cave
+                      </div>
+                      <div className="hovernewStaycationIconsText">
+                        Breakfast
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             </div>
           </div>

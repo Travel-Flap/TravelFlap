@@ -21,7 +21,8 @@ import { Helmet } from 'react-helmet';
 export const NewHolidaysPage = () => {
   return (
     <div>
-      {/* <NewHomeNav/> */}
+      
+      <NewHomeNav/>
 
       <Helmet>
         <title>Holidays Page</title>

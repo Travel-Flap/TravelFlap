@@ -3,7 +3,9 @@
     margin: auto;
 }
 
-
+.facilitiesMainDiv h2{
+    font-size: 30px;
+}
 
 .amenitiesOuterDiv{
     /* border: 1px solid red; */
@@ -29,17 +31,21 @@
 
 .facilityIconsDiv{
     margin-right: 2%;
-    font-size: 25px;
+    font-size: 22px;
+    margin-top: 0.5%;
 }
 
 .amenitiesInnerSubDiv h5{
    margin-top: 1%;
+   font-size: 20px;
 }
 
 .dropButtonAMenities{
-    margin-left: 45%;
+    margin-left: 50%;
     margin-top: 1%;
     cursor: pointer;
+    color: #3380f2;
+    margin-bottom: 3%;
 }
 
 .dropButtonAMenities :hover{

@@ -7,6 +7,7 @@ import { NewHomeBottomBar } from '../NewHomePage/NewHomeBottomBar/NewHomeBottomB
 import { NewHomeEasyVisaDestination } from '../NewHomePage/NewHomeEasyVisaDestination/NewHomeEasyVisaDestination';
 import { NewHomeExclusiveDeals } from '../NewHomePage/NewHomeExclusiveDeals/NewHomeExclusiveDeals';
 import { NewHomeFooter } from '../NewHomePage/NewHomeFooter/NewHomeFooter';
+import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar';
 import { NewHomeStoriesSection } from '../NewHomePage/NewHomeStoriesSection/NewHomeStoriesSection';
 import { NewOurPackage } from './NewOurPackages/OurPackages';
 import { NewProceedApplication } from './NewProceedApplication/NewProceedApplication';
@@ -18,6 +19,9 @@ import { VisaSteps } from './VisaSteps/VisaSteps';
 export const NewVisa = () => {
   return (
     <div>
+
+      <NewHomeNav/>
+      
       <NewVisaPageBanner/>
 
       <VisaSteps/>

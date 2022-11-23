@@ -30,7 +30,7 @@ export const AboutHotel = () => {
                 </div>
 
                 <div className='hotelBookingHotelNameHeading'>
-                    <div>
+                    <div className='hotelBookingNameSubDiv'>
                         <h2>About Hotel Hari Piorko</h2>
                         <p>This family-friendly New Delhi hotel is located near the airport, within 1 mi (2 km) of Gole Market,
                             Palika Bazaar and Ajmal Khan Road. Gurudwara Bangla Sahib and Jama Masjid are also within 2 miles (3 km).
@@ -41,7 +41,7 @@ export const AboutHotel = () => {
                     <div className='hotelBookingInfoIcons'>
                         <div className='hotelBookingTextIcons'>
                             <div className='hotelBookingTextIconsInner1' >
-                                <h5> <IoBedSharp /> Hotel Room</h5>
+                                <h5> <IoBedSharp style={{fontSize:20}} /> Hotel Room</h5>
                                 <p>You'll have a private room with all the hotel's amenities. </p>
                             </div>
                             <div className='hotelBookingTextIconsInner2' >

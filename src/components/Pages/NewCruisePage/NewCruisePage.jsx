@@ -14,6 +14,7 @@ import NewHomeOurPartners from "../NewHomePage/NewHomeOurPartners/NewHomeOurPart
 import { Helmet } from 'react-helmet';
 import { Plan } from '../../NextHolidaysPlan/Plan';
 import { FooterLinks } from '../../FooterLinks/FooterLinks';
+import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar';
 
 
 export const NewCruisePage = () => {
@@ -25,6 +26,8 @@ export const NewCruisePage = () => {
                 <meta name='description' content='Want to spend your holiday time in good and budget friendly sea vacation.
                 Take a looks at TravelFlap for your sea navigator.' />
             </Helmet>
+
+            <NewHomeNav/>
 
             <NewCruiseExperimentBanner />
 

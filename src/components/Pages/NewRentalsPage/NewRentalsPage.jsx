@@ -18,6 +18,7 @@ import { NewRentalBanner } from './RentalsBanner/NewRantalsBanner';
 import { Helmet } from 'react-helmet';
 import SearchCarHire from './SearchCarHire/SearchCarHire';
 import CheapCarHire from './CheapCarHire/CheapCarHire';
+import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar';
 
 export const NewRentalsPage = () => {
   return (
@@ -29,18 +30,20 @@ export const NewRentalsPage = () => {
                 Take a looks at TravelFlap for your car rentals co-ordinatior.' />
       </Helmet>
 
+      <NewHomeNav/>
+
       <NewRentalBanner />
 
-    <div style={{marginTop:"4%"}}>
-      <NewHomeExclusiveDeals/>
-    </div>
-      
+      <div style={{ marginTop: "4%" }}>
+        <NewHomeExclusiveDeals />
+      </div>
+
 
       <HowRentalsWork />
 
       <NewPopularCarHireDestination />
 
-      <CheapCarHire/>
+      <CheapCarHire />
 
       {/* <SearchCarHire/> */}
 
@@ -53,13 +56,13 @@ export const NewRentalsPage = () => {
 
       {/* <NewHomeAwards/> */}
 
-        <NewHomeAppDownload />
-        <Plan/>
-        <NewHomeStoriesSection/>
-        
-        <FooterLinks/>
-        <NewHomeFooter/>
-        {/* <NewHomeBottomBar/> */}
+      <NewHomeAppDownload />
+      <Plan />
+      <NewHomeStoriesSection />
+
+      <FooterLinks />
+      <NewHomeFooter />
+      {/* <NewHomeBottomBar/> */}
     </div>
   )
 }

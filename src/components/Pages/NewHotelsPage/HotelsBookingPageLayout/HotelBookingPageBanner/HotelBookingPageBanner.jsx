@@ -85,9 +85,12 @@ export const HotelBookingPageBanner = () => {
                                     {/* <p>Cheapest</p> */}
                                     <p className='minicontextPrice'> Cheapest rate per night. </p>
                                 </div>
+
+                                <div className='hotelBookingButton'>
+                                    <button type="button" class="btn btn-primary"> Book Now </button>
+                                </div>
                             </div>
 
-                            <div className='hotelBookingButton'></div>
                         </div>
 
                     </div>

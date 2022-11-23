@@ -54,6 +54,7 @@
 .hotelPoliciesFactInnerDiv1{
     /* border: 1px solid black; */
     width: 50%;
+    margin-top: 1%;
     /* height: 100px; */
 }
 
@@ -70,15 +71,24 @@
     font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
 }
 
+.hotelBookingFactSubDivDetails1 h5{
+    font-size: 18px;
+}
+
 .hotelBookingFactSubDivDetails2{
     /* border: 1px solid purple; */
     width: 50%;
     font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
 }
 
+.hotelBookingFactSubDivDetails2 h5{
+    font-size: 18px;
+}
+
 .hotelPoliciesFactInnerDiv2{
     /* border: 1px solid green; */
     width: 50%; 
+    margin-top: 1%;
     /* height: 100px; */
 }
 
@@ -93,15 +103,24 @@
     font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
 }
 
+.hotelBookingPropertySubDetailsDiv1 h5{
+    font-size: 18px;
+}
+
 .hotelBookingPropertySubDetailsDiv2{
     /* border: 1px solid black; */
     width: 40%;
     font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
 }
 
+.hotelBookingPropertySubDetailsDiv1 h5{
+    font-size: 18px;
+}
+
 /* .hotelBookingPropertyInfoDiv3{
     border: 1px solid red;
 } */
+
 
 .hotelBookingPropertyInfoInnerDiv{
     /* border: 1px solid black; */
@@ -116,16 +135,28 @@
     font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
 }
 
+.hotelPropertyInfoSubDiv1 h5{
+    font-size: 18px;
+}
+
 .hotelPropertyInfoSubDiv2{
     /* border: 1px solid green; */
     width: 50%;
     font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
 }
 
+.hotelPropertyIndoSubDiv2 h5{
+    font-size: 18px;
+}
+
 .hotelBoookingPropertyOtherDiv{
     /* border: 1px solid red; */
     width: 90%;
     margin-top: 1%;
+}
+
+.hotelBoookingPropertyOtherDiv h5{
+    font-size: 18px;
 }
 
 .hotelBookingPropertOthrSubDiv{

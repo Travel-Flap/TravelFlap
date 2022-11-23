@@ -64,7 +64,7 @@ function App() {
           content="Travel, Holidays packages, Flight Booking, Hotel Booking, International Holiday Bookings"
         />
       </Helmet>
-      <NewHomeNav />
+      {/* <NewHomeNav /> */}
 
       <Helmet>
         <title>TravelFlap</title>
@@ -77,7 +77,7 @@ function App() {
           content="Travel, Holidays packages, Flight Booking, Hotel Booking, International Holiday Bookings"
         />
       </Helmet>
-      <NewHomeNav />
+      {/* <NewHomeNav /> */}
 
       {/* <Hotel/> */}
       {/* <Holidays /> */}
@@ -151,11 +151,9 @@ function App() {
         <Route path="/inc&exc" element={<InnerPopularDestinationInclusiveExclusive/>} /> */}
         {/* <Route path="/baliDetails" element={<InnerHandPicked3/>}/> */}
 
-
         {/* <Route path="/easyvisainnerpage" element={<InnerVisaPage1/>}/> */}
 
-        
-        <Route path="/easyvisainnerpage" element={<InnerVisaPage1/>}/>
+        <Route path="/easyvisainnerpage" element={<InnerVisaPage1 />} />
 
         {/* <Route path="/staycations" element={ <Staycations/>} /> */}
 
@@ -164,9 +162,7 @@ function App() {
         {/* These rouutes are for the hotels pages */}
         <Route path="/hoteldetailspage" element={<HotelsInnerDetailsPage />} />
 
-        <Route path="/hotelbookingpage" element={ <HotelBookingPageLayout /> } />
-
-        
+        <Route path="/hotelbookingpage" element={<HotelBookingPageLayout />} />
 
         <Route path="/contact" element={<ContactUS />} />
       </Routes>

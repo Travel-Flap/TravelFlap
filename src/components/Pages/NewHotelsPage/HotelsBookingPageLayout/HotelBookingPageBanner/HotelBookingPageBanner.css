@@ -14,7 +14,7 @@
 .hotelBookingBannerImageDiv {
   /* border: 2px solid black; */
   width: 50%;
-  margin-top: 6%;
+  margin-top: 1%;
 }
 
 .hotelBookingBannerImageDiv img {
@@ -27,7 +27,7 @@
   /* border: 2px solid red; */
   width: 50%;
   margin-left: 1%;
-  margin-top: 6%;
+  margin-top: 2%;
 }
 
 .hotelBookingCalenderOuterDiv{
@@ -93,7 +93,7 @@
   height: 170px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  margin-top: 3%;
+  margin-top: 2.6%;
 }
 .hotelBoookingdropdown_content div:hover {
   background-color: white !important;
@@ -207,6 +207,18 @@
     font-size: 11px;
     font-weight: 600;
     margin-top: 30%;
+}
+
+.hotelBookingButton{
+  /* border: 1px solid red !important; */
+  margin-top: 4%;
+  margin-left: 10%;
+  width: 50%;
+}
+
+.hotelBookingButton button{
+  width: 40%;
+  padding-left: 28px;
 }
 
 .miniContextPrice{

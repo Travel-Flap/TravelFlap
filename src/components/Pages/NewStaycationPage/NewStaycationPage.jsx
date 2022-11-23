@@ -19,6 +19,7 @@ import { BudgetFriendlyStaycations } from "./BudgetFriendlyStaycation/Budgetfrie
 import { StaycationHappyFamily } from "./StaycationHappyFamily/StaycationHappyFamily";
 import { PopularStaycation } from "./PopularStaycation/PopularStaycation";
 import { DiscoverExtendedStay } from "./DiscoverExtendedStay/DiscoverExtendedStay";
+import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar';
 
 // import { CountrysideStaycation } from "./CountrysideStaycation/CountrysideStaycation";
 
@@ -36,20 +37,23 @@ export const NewStaycationPage = () => {
                 Take a looks at TravelFlap for your stay co-ordinatior' />
             </Helmet>
 
+            <NewHomeNav />
+
             <ExperimentBanner />
 
-         
-         {/* 
+
+
+            {/* 
             <div style={{marginTop:"5%"}}>
                  <Staycationsnavbar />
             </div> */}
-            
+
             {/* <NewStaycationNavbar/> */}
             {/* <NewStaycationpicsSlider/> */}
 
             {/* <NewStaycationStaticBanners /> */}
 
-            <NewStaycationStaticBanners1/>
+            <NewStaycationStaticBanners1 />
 
             {/* <div style={{marginTop:"5%"}}>
                  <Staycationsnavbar />

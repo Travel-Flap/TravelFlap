@@ -17,6 +17,7 @@ import NewTopCityActivities from './NewTopCitiesActivity/NewTopCityActivity';
 import { NewActivitiesAroundWorld } from "./NewBesActivityAroundWorld/NewBestActivityAroundWorld";
 
 import { Helmet } from 'react-helmet';
+import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar';
 
 export const NewActivities = () => {
   return (
@@ -28,13 +29,15 @@ export const NewActivities = () => {
                 Take a looks at TravelFlap for your next activity buddy.' />
       </Helmet>
 
+      <NewHomeNav/>
+
       <NewActivityBanner />
       {/* <NewTrendingActivities/> */}
 
-    <div style={{marginTop:"1%"}}>
-         <NewTrendingActivities />
-    </div>
-      
+      <div style={{ marginTop: "1%" }}>
+        <NewTrendingActivities />
+      </div>
+
       <NewActivitiesAround />
 
       <NewTopCityActivities />
@@ -49,13 +52,13 @@ export const NewActivities = () => {
       {/* <NewHomeAwards/> */}
 
       <NewHomeStoriesSection />
-      
+
       <Plan />
       {/* <NewHomeOurPartners/> */}
 
       <NewHomeAppDownload />
 
-      
+
 
       <FooterLinks />
 

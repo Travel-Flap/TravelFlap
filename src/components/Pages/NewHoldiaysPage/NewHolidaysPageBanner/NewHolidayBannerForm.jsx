@@ -126,7 +126,7 @@ export const NewHolidayBannerForm = () => {
                             <div className='optionsNewHolidaysBannercontainer'>
                                 <div className='singleNewHolidaysBannerdropcontainer'>
                                     <h5>Select Country</h5>
-                                    <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example" style={{color:"grey",fontSize:"15px",width: "60%", border: "2px solid #dddddd78" }}>
+                                    <select className="form-select" onChange={(e) => handlecounty(e)} aria-label="Default select example" style={{ color: "grey", fontSize: "15px", width: "60%", border: "2px solid #dddddd78" }}>
                                         <option value="" style={{ textAlign: "center" }}>Select Country</option>
                                         {
                                             countrydata.map((getcountry, index) => (
@@ -138,7 +138,7 @@ export const NewHolidayBannerForm = () => {
 
                                 <div className='singleNewHolidaysBannerdropcontainer1'>
                                     <h5>Select State</h5>
-                                    <select className="form-select holidayform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{color:"grey",fontSize:"15px", width: "100%", border: "2px solid #dddddd78" }}>
+                                    <select className="form-select holidayform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ color: "grey", fontSize: "15px", width: "100%", border: "2px solid #dddddd78" }}>
                                         <option value="" style={{ textAlign: "center" }}>Select State</option>
                                         {
                                             state.map((getstate, index) => (
@@ -149,8 +149,8 @@ export const NewHolidayBannerForm = () => {
                                 </div>
 
                                 <div className='singleNewHolidaysBannerdropcontainer'>
-                                    <h5 style={{marginLeft:"5%"}}>Choose Category</h5>
-                                    <select className="form-select" aria-label="Default select example" style={{color:"grey",fontSize:"15px",marginLeft:"5%", width: "100%", border: "2px solid #dddddd78" }}>
+                                    <h5 style={{ marginLeft: "5%" }}>Choose Category</h5>
+                                    <select className="form-select" aria-label="Default select example" style={{ color: "grey", fontSize: "15px", marginLeft: "5%", width: "100%", border: "2px solid #dddddd78" }}>
                                         <option value>Package Category</option>
                                         <option value="1">Family</option>
                                         <option value="2">Holiday</option>

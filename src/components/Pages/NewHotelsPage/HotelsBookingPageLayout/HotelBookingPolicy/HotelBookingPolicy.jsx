@@ -60,7 +60,7 @@ export const HotelBookingPolicy = () => {
 
                     <div className='hotelBookingPoliciesHelpfulFactsDiv'>
                         <div className='hotelPoliciesFactInnerDiv1'>
-                            <h3>Check-in/Check-out</h3>
+                            <h4>Check-in/Check-out</h4>
 
                             <div className='hotelBookingFactSubDiv'>
                                 <div className='hotelBookingFactSubDivDetails1' >
