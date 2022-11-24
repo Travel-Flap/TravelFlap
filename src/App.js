@@ -49,6 +49,7 @@ import AdminHome from "./Admin/Components/PannelAdmin/Home/Home";
 import { HotelsInnerDetailsPage } from "./components/Pages/NewHotelsPage/HotelsInnerDetailsPage/HotelsInnerDetailsPage";
 
 import { HotelBookingPageLayout } from "./components/Pages/NewHotelsPage/HotelsBookingPageLayout/HotelBookingPageLayout";
+import { PopularDestination1 } from "./components/Pages/SubPages/PopularDestination1/PopularDestination1";
 
 function App() {
   return (
@@ -136,9 +137,11 @@ function App() {
         <Route path="/offers" element={<NewOffers />} />
 
         <Route
-          path="/populardestination"
+          path="/holidaysOffers"
           element={<InnerPopularDestination2 />}
         />
+
+        <Route path="/populardestination" element={<PopularDestination1/>}/>
 
         {/* These Routes here are for the  Admin page */}
 

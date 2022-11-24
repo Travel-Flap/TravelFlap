@@ -1,0 +1,27 @@
+/* .statedop1{
+    border: 1px solid red;
+    /* width: 20%; */
+
+/* .statedrop1header{
+     border: 2px solid rgb(120, 120, 210); 
+     border-radius: 25px; 
+} */
+
+.statedroptexts1{
+    width: 100%;
+}
+
+.accordion-button{
+    z-index: 0 !important;
+}
+
+.faqdiv1{
+    border: 2px solid red;
+    /* margin-bottom: 10%; */
+    /* padding-bottom: 10%; */
+    margin-bottom: 2%;
+
+
+}
+
+

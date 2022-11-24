@@ -1,0 +1,48 @@
+
+/* .PopularDestinationBannerDiv{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    color: white;
+
+    padding-left: 100px;
+} */
+
+.PopularDestinationBannerDiv h5{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.PopularDestinationBannerHeading{
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 10%;
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+    
+  }
+
+  .PopularDestinationBannerHeading2{
+    font-weight: bold;
+    margin-left: 25%;
+    /* margin-top: 10%; */
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    
+
+  }
+  .BannerDiv {
+    object-fit: cover;
+    background-size: auto;
+    height: 450px;
+    /* border: 2px solid red; */
+  }
+ .Bannerimage{
+    height: 450px;
+    filter: brightness(0.6);
+ }
+  
+  

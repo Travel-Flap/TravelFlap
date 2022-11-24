@@ -1,0 +1,198 @@
+
+.PopularDestinatioInnerFooterMain-Container3{
+    background-color:#071330;
+    /* margin-top: 7%; */
+    height: 250px;
+    /* border: 2px solid red; */
+    /* width:auto; */
+    /* height: 500px; */
+}
+
+.PopularDestinatioInnerFootersubclass-item{
+    display:flex;
+    flex-direction:row;
+    /* border:2px solid red; */
+    width:18%;
+}
+
+.InnerhandpickedFooterfootersocialmedia2{
+    width:25%;
+
+}
+.PopularDestinatioInnerFooter{
+    margin-left: 60%;
+    /* border: 1px solid red; */
+    width: 40%;
+}
+.PopularDestinatioInnerFooterDetailsdiv{
+    margin-left:850px;
+    /* margin-top:5px; */
+}
+
+.PopularDestinatioInnerFooterContainer {
+    border: 1px solid green !important;
+    width: 100%;
+  }
+.PopularDestinatioInnerFooterDetailsdiv{
+  /* border: 2px solid white !important; */
+  margin-top: -5%;
+  margin-left: 5%;
+  width: 90%;
+  height: auto;
+}
+   
+  .PopularDestinatioInnerFooterContent {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    /* margin-top:2%; */
+    width: 100%;
+    border-radius: 7px;
+    display: flex;
+    height: 30px;
+    /* margin-left: 5%; */
+    flex-direction: row;
+    cursor: pointer;
+    /* border: 2px solid red; */
+  }
+
+  /* .DescriptionAboutPlace{
+    color: #3380f2;
+  } */
+  
+  
+  .PopularDestinatioInnerFooterContentInner2{
+    margin-left: 3%;
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin-top: 1%; */
+  }
+  
+  .PopularDestinatioInnerFooterContentInner2 p {
+    margin-left: 5%;
+    color: white;
+  }
+  
+  
+  
+  .PopularDestinatioInnerFooterContentInner2span{
+    text-align: right !important;
+  }
+  
+  .PopularDestinatioInnerFootersubclass-item{
+    margin-left:4%;
+  }
+  
+.PopularDestinatioInnerFootersocialIcons {
+    border: 2px solid whitesmoke;
+    color: #dee2e6;
+    font-size: 29px;
+    margin-top: 110%;
+    /* padding: 20%; */
+    border-radius: 30px;
+    gap: 50% !important;
+  }
+  .PopularDestinatioInnerFootersocialIcons:hover {
+    color: blue;
+    background-color: white;
+  }
+  
+  
+  .PopularDestinatioInnerFooterfootersocialmedia1 {
+    /* border: 1px solid red; */
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 3%;
+    /* margin-left: 5%; */
+  }
+
+
+
+
+
+
+
+
+
+  .Footermaindiv{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+  }
+
+  .Footerlogodiv{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid blue;
+    
+
+  }
+
+  .Footercontaindiv{
+    border: 2px solid purple;
+    width: 40%;
+  }
+
+  .Footerlogocontain{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,
+    'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+    text-align: justify;
+  }
+
+  .dropdowndiv{
+    border: 2px solid brown;
+    
+  }
+
+  .Footervideodiv{
+    border: 2px solid pink;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .videocontainer{
+    border: 2px solid yellow;
+    /* width: 40%; */
+  }
+
+
+  .Footervideoexperimentcontainer{
+    position:absolute;
+    /* margin-top: -23.5%; */
+    /* margin-left:55%; */
+    background-color:#3380f2;
+    color:black;
+    font-weight:400;
+    opacity: 0.5;
+    /* filter: brightness(0.6); */
+    padding:2px;
+    font-size:medium;
+    height: 350px;
+    /* padding: 25px; */
+    /* width: 35%; */
+  }
+  .listdiv{
+    border: 2px solid lightseagreen;
+    width: 70%;
+  }
+
+
+
+
+
+  .Footercontactinfo{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+
+  }
+ 
+  .socialdiv{
+    display: flex;
+    flex-direction: row;
+  }

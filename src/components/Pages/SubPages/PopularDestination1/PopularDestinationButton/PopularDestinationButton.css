@@ -1,0 +1,431 @@
+
+
+.PopularDestinationButtongropu {
+  width: 60%;
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 7%;
+
+}
+
+.ButtonBorder{
+  /* border: 2px solid gold; */
+  width: 62%;
+  height: 45px;
+  margin-top: 5%;
+  background-color: white;
+}
+.innerpopularButtonClick{
+  /* border: 2px solid green; */
+  width: 25%;
+}
+.Buttoninner1{
+  border: 1px solid lightgray;
+  width: 100%;
+  height: 45px;
+  color: gray;
+  background-color: white;
+}
+
+
+
+.Buttoninner:hover {
+  background-color: #3380f2 !important;
+  color: white;
+}
+
+.innerpopulardestinationactive1 {
+  background-color: #3380F2;
+  color: white;
+}
+
+
+
+
+
+/* policycss */
+
+
+.PopularDestinationAboutspace {
+  margin-top: 2%;
+  /* margin-left: %; */
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'TT Hoves Variable', -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.PopularDestinationAboutpragraf {
+  /* margin-left: 5%; */
+  text-align: justify;
+  /* width: 90px; */
+  margin-right: 20%;
+
+}
+
+.PopularDestinationAboutimage {
+  object-fit: cover;
+  background-size: auto;
+  /* background-color: aquamarine;  */
+  /* border: 2px solid gold; */
+  width: 100%;
+  height: 140px;
+  /* margin-left: 5%; */
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+}
+
+.PopularDestinationAboutbox {
+  /* margin-top: 3px; */
+  /* border: 7px solid rgb(130, 199, 199); */
+  width: 30%;
+  height: 100%;
+  margin-bottom: 7%;
+  /* margin-/left: 2%; */
+  /* padding: 5px; */
+}
+
+.PopularDestinationAboutimageouteriv {
+  /* border: 2px solid brown; */
+  width: 100%;
+  height: auto;
+  /* margin-top: 3%; */
+}
+
+.PopularDestinationAboutcard {
+  object-fit: cover;
+  background-size: auto;
+  /* background-color: aquamarine;   */
+  /* border: 2px solid gold; */
+  width: 50%;
+  height: 120px;
+  margin-left: 15%;
+
+  margin-top: 6%;
+
+  font-family: 'TT Hoves Variable', -apple-system, BlinkMacSystemFont,
+   'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+
+
+}
+
+.aboutheading {
+  /* width: 50%;
+  height: 120px; */
+  margin-left: 2%;
+  margin-top: 8%;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'TT Hoves Variable', -apple-system, BlinkMacSystemFont,
+   'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+
+}
+
+
+
+.descriptionParentDiv {
+  /* margin-top: 2%; */
+  /* border: 2px solid fuchsia; */
+  width: 70%;
+  /* margin: auto; */
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 4% ; */
+  height: auto;
+}
+.innerpopularDestinationAccomodationDiv{
+  /* border: 2px solid lawngreen; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.popularDescriptionInnerDiv {
+  /* border: 2px solid gold; */
+  width: 100%;
+  height: 200px;
+  /* margin-top: 7%; */
+}
+.innerpopulardestinationIncExc{
+  /* border: 2px solid darksalmon; */
+  display: flex;
+  flex-direction: row;
+}
+
+.innerpopulardestinationOverviewDiv{
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 1050px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+}
+
+.innerpopulardestinationCancel{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+}
+/* accomodation component css */
+.starheading {
+
+  width: 100px;
+  height: 50px;
+  /* padding-top: 4%; */
+  /* border: 1px solid red; */
+  margin-top: 5%;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'TT Hoves Variable', -apple-system, BlinkMacSystemFont,
+   'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+}
+
+.Accomodationbox {
+  /* margin-top: 3px; */
+  /* border: 2px solid orange; */
+  width: 30%;
+  height: 120%;
+  /* margin-bottom: 50px; */
+ 
+  /* padding: 5%; */
+}
+
+.Accomodationbox1 {
+  /* margin-top: 3px; */
+  /* border: 2px solid blue; */
+  width: 45%;
+  height: 120%;
+  /* margin-bottom: 10%; */
+}
+
+
+.Accomodationouterdiv {
+  /* border: 2px solid gold; */
+  height: 270px;
+  width: 65%;
+  /* margin-top: 4%; */
+}
+
+.star {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 10%; */
+  /* border: 2px solid green; */
+  width: 100px;
+  height: 50px;
+  padding-top: 5%;
+  font-size: 25px;
+  /* background-color: #3380f2; */
+  color: #3389f2;
+
+
+}
+
+.stardiv {
+  display: flex;
+  /* border: 1px solid greenyellow; */
+  height: 50px;
+}
+
+.AccomodationCard {
+  margin-left: 2%;
+  /* margin-top: 4%; */
+  /* border: 2px solid lightseagreen; */
+  font-family: 'TT Hoves Variable', -apple-system, BlinkMacSystemFont,
+   'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+}
+
+
+/* 
+cancellation policy css */
+.cancellationPolicydiv {
+  width: 750px;
+  /* margin-left: 7%; */
+  background-color: #ECF3F9;
+  /* border: 2px solid pink; */
+  padding-left: 20px;
+  padding-right: 20px;
+  /* margin-top: 8%; */
+  /* margin-bottom: 8%; */
+}
+
+
+
+
+.tableborder {
+  /* border: 1px solid grey; */
+  width: 400px;
+  height: 50px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.policyheading {
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'TT Hoves Variable', -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.unorderlist::marker {
+  font-size: 20px;
+  font-weight: bolder;
+  list-style-type: disc;
+}
+
+.tremsconditiondiv {
+  width: 750px;
+  /* margin-le/ft: 7%; */
+  text-align: justify;
+  /* margin-bottom: 10%; */
+
+  /* border: 1px solid lightgrey; */
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: 'TT Hoves Variable', -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+
+}
+
+.tremsheading {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'TT Hoves Variable', -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+   /* border: 2px solid blue; */
+   /* width: auto; */
+}
+
+
+
+
+/* inclusion exclusion component css */
+
+.inclusionexclusiondiv {
+  width: 750px;
+  /* margin-left: 7%; */
+  /* border: 2px solid yellow; */
+  background-color: #ECF3F9;
+  margin-top: 3%;
+
+}
+
+.inclusionexclusiontext {
+  /* border: 2px solid red; */
+  margin-left: 5%;
+  /* padding-top: 2%; */
+  padding-right: 2%;
+  padding-bottom: 2%;
+  text-align: justify;
+}
+
+.inclusionexclusionheading {
+  margin-left: 5% ;
+  padding-top: 4%;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'TT Hoves Variable', -apple-system, BlinkMacSystemFont,
+   'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+}
+
+.exclusiondiv {
+  width: 750px;
+  /* margin-left: 7%; */
+  /* border: 2px solid yellow; */
+  background-color: #ECF3F9;
+  /* margin-top: 2%; */
+
+
+}
+
+
+
+
+/* .promocoode {
+    border: 2px solid green;
+    width: 35%;
+    margin-left: 10%;
+    margin-left: 75%;
+    margin-right: 10%;
+    margin-top: -58%;
+    margin-bottom: 40%; 
+} */
+
+
+.paymentdisplay {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.applyPromocode {
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  margin-bottom: 2%;
+  margin-top: 2%;
+  height: 120px;
+  /* height: 80px; */
+  border: 1px solid lightgray;
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  /* border: 1px whitesmoke; */
+}
+
+
+
+.couponInput {
+  border: 1px solid gray;
+  margin-top: 5%;
+  /* margin-right: 5%; */
+}
+
+.couponButton {
+  border: 1px solid gray;
+  border-left: none;
+  height: 40px;
+  width: 20%;
+  margin-top: 5%;
+  margin-right: 5%;
+  padding-right: 40px;
+}
+
+.paymentValueBody {
+  /* border: 2px solid orangered; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 370px;
+  margin-top: 8%;
+}
+
+.paymentdiv {
+  /* border: 1px solid red; */
+  text-align: right;
+  margin-left: 15%;
+  font-weight: 700;
+  /* margin-bottom: 10%; */
+
+}
+
+.sandquerybutton {
+  background-color: white;
+  border: 1px solid gray;
+  color: grey;
+  padding-left: 110px;
+}
+
+.booknowbutton {
+  padding-left: 110px;
+  padding-right: 50px;
+}
+
+.applyPromocodeparentdiv {
+
+  margin-left: 4%;
+}

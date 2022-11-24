@@ -145,7 +145,8 @@ export const NewPopularDestination = () => {
                             <div className='newPopularDestinationsslickslidercontainer'>
                             <SliderWrapper>
                                 <Slider {...settings} className="multiCardSlider">
-                                    <div className="card-wrapper">
+                                    
+                                    <Link to="/holidaysOffers"><div className="card-wrapper">
                                         <div className="card newPopularDestinationsdiv">
                                             <div className="card-image newPopularDestinationscardimage">
                                                 <img src="Images/TopCities/abudhabhi.jpg" />
@@ -166,6 +167,7 @@ export const NewPopularDestination = () => {
                                             <p className="job-title">"Best Holiday trip Ever" </p>
                                         </div>
                                     </div>
+                                    </Link>
 
                                     <div className="card-wrapper">
                                         <div className="card newPopularDestinationsdiv">
