@@ -15,11 +15,12 @@
   /* border: 2px solid black; */
   width: 50%;
   margin-top: 1%;
+  height: 500px;
 }
 
 .hotelBookingBannerImageDiv img {
   width: 100%;
-  height: auto;
+  height: 500px;
   /* margin-left: 5%; */
 }
 
@@ -227,6 +228,59 @@
 }
 
 
+.hotelBookingOtherHotelsDiv{
+  border-top: 2px solid black;
+  margin-top: 2%;
+}
+
+/* .hotelBookingOtherHotelInnerDiv{
+  border: 1px solid black;
+ 
+}
+ */
+
+.hotelBookingOtherHotelSubDiv1{
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+}
+
+.hotelBookingOtherHotelSubDiv2{
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+}
+
+.hotelBookingOtherHotelSubDiv3{
+  /* border-bottom: 1px solid lightgray; */
+  border-top: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.hotelBookingOtherHotelChildDiv1{
+  /* border: 1px solid black; */
+  width: 10%;
+}
+
+.hotelBookingOtherHotelChildDiv2{
+  /* border: 1px solid purple; */
+  width: 40%;
+}
+.hotelBookingOtherHotelChildDiv2 p{
+  margin-top: 6%;
+}
+
+/* .hotelBookingOtherHotelChildDiv3{
+  border: 1px solid green;
+} */
+
+.hotelBookingOtherHotelChildDiv3 button{
+  margin-top: 7%;
+}
 
 
 

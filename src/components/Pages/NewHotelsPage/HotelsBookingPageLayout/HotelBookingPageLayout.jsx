@@ -20,7 +20,7 @@ export const HotelBookingPageLayout = () => {
 
       <AboutHotel />
 
-      {/* <HotelBookingMultiImage/> */}
+      <HotelBookingMultiImage/>
 
       <AminitiesFacilities />
 

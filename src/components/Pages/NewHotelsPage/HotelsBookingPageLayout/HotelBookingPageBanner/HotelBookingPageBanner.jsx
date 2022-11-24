@@ -6,6 +6,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdFlight, MdOutlineLocalActivity } from 'react-icons/md';
 import { FaPlusCircle, FaMinusCircle, FaAngleDown, FaHotel, FaLaptopHouse } from 'react-icons/fa';
 import { BsSearch, BsPerson } from "react-icons/bs";
+import { IoBedSharp } from "react-icons/io5";
 import { FaShip, FaPhoneAlt, FaTags } from 'react-icons/fa';
 import { RiVisaFill } from 'react-icons/ri';
 import { GiPalmTree } from 'react-icons/gi';
@@ -91,6 +92,51 @@ export const HotelBookingPageBanner = () => {
                                 </div>
                             </div>
 
+                        </div>
+
+                        <div className='hotelBookingOtherHotelsDiv'>
+                            <h5>Provider</h5>
+
+                            <div className='hotelBookingOtherHotelInnerDiv'>
+                                <div className='hotelBookingOtherHotelSubDiv1'>
+
+                                    <div className='hotelBookingOtherHotelChildDiv1' >
+                                        <IoBedSharp style={{ fontSize: 20, marginLeft: 40, marginTop: 15 }} />
+                                    </div>
+                                    <div className='hotelBookingOtherHotelChildDiv2'>
+                                        <p>Provider for Hotel Hari Piorko</p>
+                                    </div>
+                                    <div className='hotelBookingOtherHotelChildDiv3'>
+                                        <button type="button" class="btn btn-primary"> Book Now </button>
+                                    </div>
+                                </div>
+
+                                <div className='hotelBookingOtherHotelSubDiv2'>
+
+                                    <div className='hotelBookingOtherHotelChildDiv1' >
+                                        <IoBedSharp style={{ fontSize: 20, marginLeft: 40, marginTop: 15 }} />
+                                    </div>
+                                    <div className='hotelBookingOtherHotelChildDiv2'>
+                                        <p>Provider for Hotel Hari Piorko</p>
+                                    </div>
+                                    <div className='hotelBookingOtherHotelChildDiv3'>
+                                        <button type="button" class="btn btn-primary"> Book Now </button>
+                                    </div>
+                                </div>
+
+                                <div className='hotelBookingOtherHotelSubDiv3'>
+
+                                    <div className='hotelBookingOtherHotelChildDiv1' >
+                                        <IoBedSharp style={{ fontSize: 20, marginLeft: 40, marginTop: 15 }} />
+                                    </div>
+                                    <div className='hotelBookingOtherHotelChildDiv2'>
+                                        <p>Provider for Hotel Hari Piorko</p>
+                                    </div>
+                                    <div className='hotelBookingOtherHotelChildDiv3'>
+                                        <button type="button" class="btn btn-primary"> Book Now </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
