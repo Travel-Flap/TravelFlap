@@ -47,6 +47,7 @@ export const InnerWebPageFooter = () => {
                             <img src="Images/innerwebpagefooter/Group 2051.png "
                                 alt="footer logo"
                             />
+                            
                             <p className='Footerlogocontain'> TravelFlap is one of the best service provider in the industry.
                                 We are a organization with a dream to provide our customers
                                 a safer and the best experience of there life. </p>
@@ -55,9 +56,6 @@ export const InnerWebPageFooter = () => {
 
                         <div className='dropdowndiv'>
                             <div>
-
-
-
                                 <div className="DropDownlist">
                                     <h5 className='countryselectlistheading'>State/Currency</h5>
                                     <div className="countryselectlist">
@@ -96,15 +94,10 @@ export const InnerWebPageFooter = () => {
 
                     <div className='Footervideodiv'>
                         <div className='videocontainer'>
-                            {/* <div className="Main-Content-Footer"> */}
-                            <br /><br />
-                            {/* <div className="Footervideoexperimentcontainer">
-                <img src={Image} />
-            </div> */}
                             <div className="Footervideoexperimentcontainer-items">
                                 <iframe
                                     width="550"
-                                    height="250"
+                                    height="300"
                                     src={`https://www.youtube.com/embed/${embedId}`}
                                     frameBorder="0"
                                     //  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

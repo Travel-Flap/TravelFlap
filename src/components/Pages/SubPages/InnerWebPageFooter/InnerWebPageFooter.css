@@ -19,13 +19,14 @@
 .Footercontaindiv {
   /* border: 2px solid purple; */
   width: 45%;
-  padding-left: 10px;
-  padding-top: 15px;
+  /* padding-left: 10px;
+  padding-top: 15px; */
+  
 
 }
 
 .Footerlogocontain {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   font-family: 'TT Hoves Variable', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -82,8 +83,24 @@
   margin: auto;
 }
 
-
-
+.videocontainer{
+  /* border: 2px solid red; */
+}
+.Footervideoexperimentcontainer-items{
+  /* border: 2px solid white; */
+  height: 300px;
+  margin-top: 5%;
+}
+.innnerpagefootersocialmedia {
+  display: flex;
+  width: 50%;
+  height: 35px;
+  justify-content: center;
+  column-gap: 20px;
+  margin-top: 2%;
+  color: white;
+  /* border: 2px solid red; */
+}
 .Footervideoexperimentcontainer {
   position: absolute;
   /* margin-top: -23.5%; */
@@ -102,11 +119,13 @@
 
 .listdiv {
   /* border: 2px solid seagreen; */
-  width: 70%;
+  width: 80%;
   color: white;
   display: flex;
   flex-direction: row;
   padding-top: 40px;
+  /* margin-left: 5%; */
+  /* margin-top: 2%; */
 }
 
 .listwise {
