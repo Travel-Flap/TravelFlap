@@ -32,14 +32,20 @@ export const HotelBookingPageBanner = () => {
                     <div className='hoteBookingContextDiv'>
 
                         <div className='hotelBookingCalenderOuterDiv'>
-                            <div className='hotelBookingCalenderInnerDiv'>
-                                <input type="datetime-local" placeholder='Check-Out Date' />
+
+                            <div className='hotelBookingCalenderContainer'>
+                                <div className='hotelBookingCalenderInnerDiv'>
+                                    <input type="datetime-local" placeholder='Check-Out Date' />
+                                </div>
+
+                                <div className='hotelBookingCalenderInnerDiv1'>
+                                    <input type="datetime-local" placeholder='Check-Out Date' />
+                                </div>
                             </div>
 
                             <div className='hotelBookingPersonsInnerDiv'>
                                 <div id='hotelBooking_departure'>
                                     <h3>Choose travellers </h3>
-                                    {/* <FaAngleDown className='downHotelPagearrowicon' /> */}
                                     <div className="hotelBoookingdropdown_content">
                                         <div className='navbarHotelBookingPageOptions'>
                                             <FaPlusCircle className='contactIcon' />   <FaMinusCircle className='decrease' /> Adults
@@ -53,13 +59,13 @@ export const HotelBookingPageBanner = () => {
                                     </div>
                                     <BsPerson className='hotelBookingGuestIcon' />
                                 </div>
-                            </div>
-
-                            <div className='hotelBookingSearchButtonOuterDiv'>
-                                <div className='hotelBookingSearchButtonInnerDiv'>
-                                    <BsSearch style={{fontSize:33, paddingLeft:10,marginTop:3}} />
+                                <div className='hotelBookingSearchButtonOuterDiv'>
+                                    <div className='hotelBookingSearchButtonInnerDiv'>
+                                        <BsSearch style={{ fontSize: 33, paddingLeft: 10, marginTop: 3 }} />
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
 
                         <div className='hotelBookingHotelContentDiv'>
@@ -69,8 +75,8 @@ export const HotelBookingPageBanner = () => {
                                 </div>
 
                                 <div className='hotelBookingHotelInfoDiv'>
-                                    <p><HiOutlineLocationMarker style={{fontSize:25}} /> 4775,Main Bazar,Near 6 Tooti Chowk NewDelhi.</p>
-                                    <p><BiPhone style={{fontSize:25,marginLeft:3}} /> +91 112 358 7999</p>
+                                    <p><HiOutlineLocationMarker style={{ fontSize: 25 }} /> 4775,Main Bazar,Near 6 Tooti Chowk NewDelhi.</p>
+                                    <p><BiPhone style={{ fontSize: 25, marginLeft: 3 }} /> +91 112 358 7999</p>
                                 </div>
                             </div>
                         </div>
@@ -82,6 +88,11 @@ export const HotelBookingPageBanner = () => {
                             <div className='hotelBookingHotelReview'>
                                 <p>Good</p>
                                 <p className='miniContext'>based on 476 reviews</p>
+                            </div>
+
+                            <div className='hoteBoookingRatingExtraDiv'>
+                                <h3>Hygenic Stay,Entertainment-Activities</h3>
+                                {/* <p className='miniContext'>based on 476 reviews</p> */}
                             </div>
                         </div>
 
