@@ -10,9 +10,12 @@ export const HotelBookingPolicy = () => {
                 <div className='hotelBookingPoliciesInnerContainer'>
                     <div className='hotelBookingPoliciesTopContextDiv'>
                         <h4>Property policies</h4>
-                        <p>Children and extra beds</p>
-                        <p>Extra beds are dependent on the room you choose. Please check the individual room capacity for more details.</p>
-                        <p>Minimum age of guests is: 1 year(s).</p>
+
+                        <div className='hotelBookingPolicyContextSubDiv'>
+                            <p>Children and extra beds</p>
+                            <p className='hotelBookingPolicyContextSubDivChild1' >Extra beds are dependent on the room you choose. Please check the individual room capacity for more details.</p>
+                            <p className='hotelBookingPolicyContextSubDivChild1' >Minimum age of guests is: 1 year(s).</p>
+                        </div>
                     </div>
 
                     <div className='hotelBookingPoliciesCardsMainDiv'>
@@ -56,7 +59,7 @@ export const HotelBookingPolicy = () => {
                 </div>
 
                 <div className='hotelBookingPoliciesInnerContainer1'>
-                    <h4>Some helpful facts</h4>
+                    <h2>Some helpful facts</h2>
 
                     <div className='hotelBookingPoliciesHelpfulFactsDiv'>
                         <div className='hotelPoliciesFactInnerDiv1'>
@@ -110,7 +113,7 @@ export const HotelBookingPolicy = () => {
                     </div>
 
                     <div className='hotelBookingPropertyInfoDiv3'>
-                        <h3>Getting around</h3>
+                        <h2>Getting around</h2>
                         <div className='hotelBookingPropertyInfoInnerDiv'>
                             <div className='hotelPropertyInfoSubDiv1'>
                                 <h5> Airport transfer fee </h5>
@@ -126,16 +129,18 @@ export const HotelBookingPolicy = () => {
                     </div>
 
                     <div className='hotelBoookingPropertyOtherDiv'>
-                        <h3>Others</h3>
+                        <h2>Others</h2>
                         <h5>Joiners or visitors are not allowed in the residential area except for the lobby.
                             Otherwise, charges will be applied. Please contact the property for more information.
                         </h5>
 
                         <div className='hotelBookingPropertOthrSubDiv'>
-                            <h5> The property does not permit food from outside. </h5>
-                            <h5> Alcohol is strictly not allowed at the property. </h5>
-                            <h5> Covid Vaccination Certificate is to be produced at the time of check-in </h5>
-                            <h5> When booking more than 5 rooms, different policies and additional supplements may apply. </h5>
+                            <ul>
+                                <li> <h5> The property does not permit food from outside. </h5> </li> 
+                                <h5> Alcohol is strictly not allowed at the property. </h5>
+                                <h5> Covid Vaccination Certificate is to be produced at the time of check-in </h5>
+                                <h5> When booking more than 5 rooms, different policies and additional supplements may apply. </h5>
+                            </ul>
                         </div>
                     </div>
                 </div>

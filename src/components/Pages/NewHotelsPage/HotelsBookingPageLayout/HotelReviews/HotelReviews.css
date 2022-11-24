@@ -4,6 +4,10 @@
   margin: auto;
 }
 
+.hotelReviewOuterDiv h2{
+  font-size: 30px;
+}
+
 .hotelBookingStarRatingDiv{
   /* border: 1px solid red; */
   width: 90%;
@@ -51,10 +55,10 @@
 .hotelBookingReviewButton1 {
   outline: none;
   border: 2px solid #3380f2;
-  width: 7%;
+  width: 0%;
   height: 40px;
   border-radius: 5px !important;
-  padding-left: 40px;
+  padding-left: 78px;
 }
 
 .hotelBookingReviewButton2 {
@@ -63,7 +67,7 @@
   width: 7%;
   height: 40px;
   border-radius: 5px !important;
-  padding-left: 40px;
+  padding-left: 74px;
 }
 
 .hotelBookingReviewButton3 {
@@ -72,7 +76,7 @@
   width: 7%;
   height: 40px;
   border-radius: 5px !important;
-  padding-left: 40px;
+  padding-left: 61px;
 }
 
 .hotelBookingReviewButton4 {
@@ -91,6 +95,10 @@
   width: 90%;
   margin: auto;
   margin-top: 1%;
+}
+
+.hotelBookingReviewInnerDiv{
+  margin-bottom: 3%;
 }
 
 /* .hotelBookingClientStarRating{
@@ -117,7 +125,7 @@
   line-height: 20px;
   vertical-align: baseline;
   font-size: 18px;
-  /* margin-top: -1%; */
+  margin-top: -1%;
 }
 
 .hotelBookingReviewDate{
@@ -133,10 +141,11 @@
 .hotelBookingMoreClientReviews h5{
     text-align: center;
     cursor: pointer;
+    color: #3380f2;
 }
 
 .hotelBookingMoreClientReviews h5:hover{
-    color: #3380f2;
+    color: #393939;
 }
 
 

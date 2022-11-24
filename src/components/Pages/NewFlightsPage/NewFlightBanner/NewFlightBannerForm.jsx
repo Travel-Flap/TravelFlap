@@ -183,6 +183,7 @@ export const NewFlightBannerForm = () => {
 
                     <div className='newFlight_SearchButton'>
                         <button type="button" class="btn btn-primary">Search</button>
+                        
                     </div>
                 </div>
 

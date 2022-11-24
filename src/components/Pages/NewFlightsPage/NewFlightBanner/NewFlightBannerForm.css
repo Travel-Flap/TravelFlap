@@ -5,7 +5,7 @@
   box-sizing: border-box;
   justify-content: space-between;
   margin: auto;
-  top: 39.5%;
+  top: 47%;
   background-color: white;
   width: 70%;
   /* border: 3px solid #3380f2 !important; */
@@ -562,10 +562,11 @@
   display: flex;
   place-content: center;
   align-items: center;
-  position: relative;
-  /* position: absolute; */
-  bottom: 76%;
-  left: 5.2%;
+  /* position: relative; */
+  position: absolute;
+  bottom: 56%;
+  /* top: 5%; */
+  left: 23%;
   z-index: 10000;
   color: white !important;
   border-radius: 40px;

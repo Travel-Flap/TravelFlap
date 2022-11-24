@@ -6,7 +6,7 @@ export const HotelReviews = () => {
     return (
         <>
             <div className='hotelReviewOuterDiv'>
-                <h3> Our reviews from valuable customer's  </h3>
+                <h2> Our reviews from valuable customer's  </h2>
             </div>
             <div className='hotelBookingStarRatingDiv'>
                 <h3>(4.5) < AiFillStar style={{ fontSize: 20 }} /> < AiFillStar style={{ fontSize: 20 }} />

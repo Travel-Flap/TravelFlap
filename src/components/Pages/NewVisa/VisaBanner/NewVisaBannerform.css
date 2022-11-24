@@ -4,16 +4,17 @@
     box-sizing: border-box;
     justify-content: space-between;
     margin: auto;
-    top: 42%;
+    /* top: 42%; */
     background-color: white;
     width: 64%;
     /* border: 3px solid #3380f2 !important; */
     color: #3380f2 !important;
     height: 245px;
     /* opacity: 0.9; */
-    left: 18%;
+    left: 1%;
+    bottom: 67%;
     border-radius: 10px;
-    position: absolute !important;
+    position: relative !important;
     z-index: 10;
     height: 90px;
   }
@@ -545,7 +546,7 @@
     align-items: center;
     position: relative;
     /* position: absolute; */
-    bottom: 73%;
+    bottom: 70%;
     left: 5.2%;
     z-index: 10000000;
     color: white !important;

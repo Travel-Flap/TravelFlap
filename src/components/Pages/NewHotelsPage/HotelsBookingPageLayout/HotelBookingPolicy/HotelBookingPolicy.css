@@ -12,11 +12,12 @@
     font-weight: 600;
     line-height: 20px;
     vertical-align: baseline;
+    margin-top: 3%;
 }
 
 .hotelBookingPoliciesInnerContainer{
     /* border: 1px solid gray; */
-    margin-top: 1%;
+    margin-top: 2%;
     border-radius: 5px;
 }
 
@@ -24,6 +25,14 @@
     /* border: 1px solid red; */
     margin-left: 1%;
     margin-top: 1%;
+}
+
+/* .hotelBookingPolicyContextSubDiv{
+    border: 1px solid black;
+} */
+
+.hotelBookingPolicyContextSubDivChild1{
+    margin-top: -1%;
 }
 
 .hotelBookingPoliciesCardsMainDiv{
@@ -41,8 +50,12 @@
 
 .hotelBookingPoliciesInnerContainer1{
     /* border: 1px solid red; */
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: 1%;
+}
+
+.hotelBookingPoliciesInnerContainer1 h2{
+    font-size: 30px;
 }
 
 .hotelBookingPoliciesHelpfulFactsDiv{
@@ -93,6 +106,7 @@
 }
 
 .hotelPoliciesPropertyInnerDiv{
+    margin-top: 1%;
     display: flex;
     flex-direction: row;
 }
@@ -117,10 +131,14 @@
     font-size: 18px;
 }
 
-/* .hotelBookingPropertyInfoDiv3{
-    border: 1px solid red;
-} */
+.hotelBookingPropertyInfoDiv3{
+    /* border: 1px solid red; */
+    margin-top: -5%;
+}
 
+.hotelBookingPropertyInfoDiv3 h2{
+    font-size: 30px;
+}
 
 .hotelBookingPropertyInfoInnerDiv{
     /* border: 1px solid black; */
@@ -152,7 +170,11 @@
 .hotelBoookingPropertyOtherDiv{
     /* border: 1px solid red; */
     width: 90%;
-    margin-top: 1%;
+    margin-top: 2%;
+}
+
+.hotelBoookingPropertyOtherDiv h2{
+    font-size: 30px;
 }
 
 .hotelBoookingPropertyOtherDiv h5{
@@ -163,6 +185,14 @@
     /* border: 1px solid black; */
     margin-left: 2%;
 }
+
+.hotelBookingPropertOthrSubDiv ul.h5{
+    list-style-type: disc;
+}
+
+
+
+
 
 
 

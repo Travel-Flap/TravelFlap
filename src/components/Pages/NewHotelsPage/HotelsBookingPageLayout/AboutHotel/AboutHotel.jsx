@@ -13,19 +13,19 @@ export const AboutHotel = () => {
                 <div className='hotelBookingButtonsSelector'>
                     <div class="btn-group hotelBookingButtonMainDiv" role="group" aria-label="Basic radio toggle button group">
                         <input type="radio" class="btn-check " name="btnradio" id="btnradio1" autocomplete="off" />
-                        <label class="btn btn-outline-primary hotelBookingButton1" for="btnradio1">Mountain Hotel</label>
+                        <label class="btn btn-outline-primary hotelBookingButton1" for="btnradio1"> Overview </label>
 
                         <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" />
-                        <label class="btn btn-outline-primary hotelBookingButton2" for="btnradio2"> Dessert Hotel </label>
+                        <label class="btn btn-outline-primary hotelBookingButton2" for="btnradio2">  Rooms </label>
 
                         <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" />
-                        <label class="btn btn-outline-primary hotelBookingButton3" for="btnradio3"> Camping Site </label>
+                        <label class="btn btn-outline-primary hotelBookingButton3" for="btnradio3"> Facilities </label>
 
                         <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" />
-                        <label class="btn btn-outline-primary hotelBookingButton4" for="btnradio4"> Lake Front Hotel </label>
+                        <label class="btn btn-outline-primary hotelBookingButton4" for="btnradio4">  Reviews </label>
 
                         <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" />
-                        <label class="btn btn-outline-primary hotelBookingButton5" for="btnradio4"> Beach Hotel </label>
+                        <label class="btn btn-outline-primary hotelBookingButton5" for="btnradio4"> Policies </label>
                     </div>
                 </div>
 

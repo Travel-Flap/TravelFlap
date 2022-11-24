@@ -7,6 +7,9 @@ import { MdFlight, MdOutlineLocalActivity } from 'react-icons/md';
 import { FaPlusCircle, FaMinusCircle, FaAngleDown, FaHotel, FaLaptopHouse } from 'react-icons/fa';
 import { BsSearch, BsPerson } from "react-icons/bs";
 import { IoBedSharp } from "react-icons/io5";
+
+import { BiPhone } from "react-icons/bi";
+
 import { FaShip, FaPhoneAlt, FaTags } from 'react-icons/fa';
 import { RiVisaFill } from 'react-icons/ri';
 import { GiPalmTree } from 'react-icons/gi';
@@ -51,17 +54,23 @@ export const HotelBookingPageBanner = () => {
                                     <BsPerson className='hotelBookingGuestIcon' />
                                 </div>
                             </div>
+
+                            <div className='hotelBookingSearchButtonOuterDiv'>
+                                <div className='hotelBookingSearchButtonInnerDiv'>
+                                    <BsSearch style={{fontSize:33, paddingLeft:10,marginTop:3}} />
+                                </div>
+                            </div>
                         </div>
 
                         <div className='hotelBookingHotelContentDiv'>
                             <div className='hotelBookinHotelName'>
                                 <div className='hotelBookingHotelHeading'>
-                                    <h2>Ram Bagh Hotel</h2>
+                                    <h3>Hotel Hari Piorko </h3>
                                 </div>
 
                                 <div className='hotelBookingHotelInfoDiv'>
-                                    <p><HiOutlineLocationMarker /> 4775,Main Bazar,Near 6 Tooti Chowk NewDelhi.</p>
-                                    <p><BsFillTelephoneFill /> +91 112 358 7999</p>
+                                    <p><HiOutlineLocationMarker style={{fontSize:20}} /> 4775,Main Bazar,Near 6 Tooti Chowk NewDelhi.</p>
+                                    <p><BiPhone style={{fontSize:20,marginLeft:3}} /> +91 112 358 7999</p>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +88,7 @@ export const HotelBookingPageBanner = () => {
                         <div className='hotelBookingPriceDiv'>
                             <div className='hotelBoookingPriceDisplayInnerDiv'>
                                 <div className='hotelBookingPriceDisplayDiv'>
-                                    <h3>$400</h3>
+                                    <h3>₹400</h3>
                                 </div>
 
                                 <div className='hotelBookingPriceDescription'>
@@ -107,7 +116,7 @@ export const HotelBookingPageBanner = () => {
                                         <p>Provider for Hotel Hari Piorko</p>
                                     </div>
                                     <div className='hotelBookingOtherHotelChildDiv3'>
-                                        <button type="button" class="btn btn-primary"> Book Now </button>
+                                        <button type="button" class="btn btn-primary hotelBookingChildButton"> Book Now </button>
                                     </div>
                                 </div>
 
@@ -120,7 +129,7 @@ export const HotelBookingPageBanner = () => {
                                         <p>Provider for Hotel Hari Piorko</p>
                                     </div>
                                     <div className='hotelBookingOtherHotelChildDiv3'>
-                                        <button type="button" class="btn btn-primary"> Book Now </button>
+                                        <button type="button" class="btn btn-primary hotelBookingChildButton"> Book Now </button>
                                     </div>
                                 </div>
 
@@ -133,7 +142,7 @@ export const HotelBookingPageBanner = () => {
                                         <p>Provider for Hotel Hari Piorko</p>
                                     </div>
                                     <div className='hotelBookingOtherHotelChildDiv3'>
-                                        <button type="button" class="btn btn-primary"> Book Now </button>
+                                        <button type="button" class="btn btn-primary hotelBookingChildButton"> Book Now </button>
                                     </div>
                                 </div>
                             </div>
