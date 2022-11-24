@@ -69,8 +69,8 @@ export const HotelBookingPageBanner = () => {
                                 </div>
 
                                 <div className='hotelBookingHotelInfoDiv'>
-                                    <p><HiOutlineLocationMarker style={{fontSize:20}} /> 4775,Main Bazar,Near 6 Tooti Chowk NewDelhi.</p>
-                                    <p><BiPhone style={{fontSize:20,marginLeft:3}} /> +91 112 358 7999</p>
+                                    <p><HiOutlineLocationMarker style={{fontSize:25}} /> 4775,Main Bazar,Near 6 Tooti Chowk NewDelhi.</p>
+                                    <p><BiPhone style={{fontSize:25,marginLeft:3}} /> +91 112 358 7999</p>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ export const HotelBookingPageBanner = () => {
                                 </div>
 
                                 <div className='hotelBookingButton'>
-                                    <button type="button" class="btn btn-primary"> Book Now </button>
+                                    <button type="button" class="btn btn-primary hotelBookingMainBookingButton"> Book Now </button>
                                 </div>
                             </div>
 
@@ -110,7 +110,7 @@ export const HotelBookingPageBanner = () => {
                                 <div className='hotelBookingOtherHotelSubDiv1'>
 
                                     <div className='hotelBookingOtherHotelChildDiv1' >
-                                        <IoBedSharp style={{ fontSize: 20, marginLeft: 40, marginTop: 15 }} />
+                                        <IoBedSharp style={{ fontSize: 20, marginLeft: 10, marginTop: 15 }} />
                                     </div>
                                     <div className='hotelBookingOtherHotelChildDiv2'>
                                         <p>Provider for Hotel Hari Piorko</p>
@@ -123,7 +123,7 @@ export const HotelBookingPageBanner = () => {
                                 <div className='hotelBookingOtherHotelSubDiv2'>
 
                                     <div className='hotelBookingOtherHotelChildDiv1' >
-                                        <IoBedSharp style={{ fontSize: 20, marginLeft: 40, marginTop: 15 }} />
+                                        <IoBedSharp style={{ fontSize: 20, marginLeft: 10, marginTop: 15 }} />
                                     </div>
                                     <div className='hotelBookingOtherHotelChildDiv2'>
                                         <p>Provider for Hotel Hari Piorko</p>
@@ -136,7 +136,7 @@ export const HotelBookingPageBanner = () => {
                                 <div className='hotelBookingOtherHotelSubDiv3'>
 
                                     <div className='hotelBookingOtherHotelChildDiv1' >
-                                        <IoBedSharp style={{ fontSize: 20, marginLeft: 40, marginTop: 15 }} />
+                                        <IoBedSharp style={{ fontSize: 20, marginLeft: 10, marginTop: 15 }} />
                                     </div>
                                     <div className='hotelBookingOtherHotelChildDiv2'>
                                         <p>Provider for Hotel Hari Piorko</p>
