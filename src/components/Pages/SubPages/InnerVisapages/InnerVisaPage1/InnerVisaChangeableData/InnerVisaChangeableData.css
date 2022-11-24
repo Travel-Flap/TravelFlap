@@ -38,7 +38,7 @@
 .innerVisaChangeableDataBannerdropcontainer {
     /* border: 1px solid red; */
     width: 30%;
-    margin-left: 40%;
+    /* margin-left: 40%; */
     border: none;
     height:50px;
   }
@@ -47,6 +47,7 @@
     font-size: 15px;
     height: 50px;
     border: 2px solid #dddddd78;
+    background-color: #e8f4ff;
   }
 
   .innerVisaChangeableDataBannerdropcontainer select::placeholder{
@@ -69,6 +70,7 @@
     height: 50px;
     padding: 5px 10px;
     border: 2px solid #dddddd78;
+    background-color: #e8f4ff;
   }
   .innerVisaChangeableButton{
     /* border: 2px solid red; */
@@ -76,7 +78,7 @@
     height: 60px;
     display: flex;
     flex-direction: row;
-    margin-left: 41%;
+    /* margin-left: 41%; */
     margin-top: 2%;
   }
   .visaTypeMainDiv{
