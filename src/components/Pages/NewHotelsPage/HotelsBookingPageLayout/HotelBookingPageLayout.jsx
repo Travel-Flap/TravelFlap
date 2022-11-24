@@ -9,11 +9,14 @@ import { HotelReviews } from './HotelReviews/HotelReviews';
 import { NearbyHotelPlaces } from './NearbyHotelPlaces/NearbyHotelPlaces';
 import { NewHomeNav } from '../../NewHomePage/NewHomeNavbar/NewHomeNavbar';
 import { HotelBookingMultiImage } from './HotelBookingMultiImage/HotelBookingMultiImage';
+import { InnerWebPageNavbar } from '../../SubPages/InnerWebPageNavbar/InnerWebPageNavbar';
+import { InnerWebPageFooter } from '../../SubPages/InnerWebPageFooter/InnerWebPageFooter';
 
 export const HotelBookingPageLayout = () => {
   return (
     <div className='hotelBookingMainPageOuterDiv'>
 
+      <InnerWebPageNavbar/>
       {/* <NewHomeNav/> */}
 
       <HotelBookingPageBanner />
@@ -31,6 +34,8 @@ export const HotelBookingPageLayout = () => {
       <HotelBookingFaq />
 
       <NearbyHotelPlaces />
+
+      <InnerWebPageFooter/>
     </div>
   )
 }

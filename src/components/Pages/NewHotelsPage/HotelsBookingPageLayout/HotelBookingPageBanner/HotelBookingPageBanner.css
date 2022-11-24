@@ -9,7 +9,7 @@
   margin: auto;
   display: flex;
   flex-direction: row;
-  /* margin-top: 5%; */
+  margin-top: 2%;
 }
 
 .hotelBookingBannerImageDiv {
@@ -33,7 +33,7 @@
   margin-top: 2%;
 }
 
-.hotelBookingCalenderOuterDiv{
+.hotelBookingCalenderOuterDiv {
   /* border: 1px solid red; */
   position: relative;
   /* height: 100px; */
@@ -42,12 +42,20 @@
   flex-direction: row;
 }
 
+.hotelBookingCalenderContainer {
+  /* border: 1px solid black; */
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
 #hotelBooking_departure {
+  /* border: 1px solid red; */
   border: 2px solid #dddddd78;
   border-radius: 6px;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 60%;
   color: black !important;
   background-color: #dddddd78 !important;
   border-radius: 5px;
@@ -66,7 +74,6 @@
   color: black !important;
   /* background-color: #8DBBFF; */
 }
-
 
 #hotelBooking_departure h3 {
   /* border: 1px solid black; */
@@ -111,12 +118,19 @@
   /* border: 2px solid red; */
 }
 
-.hotelBookingCalenderInnerDiv{
+.hotelBookingCalenderInnerDiv {
   /* border: 1px solid black; */
-  width: 30%;
+  width: 47%;
+  margin-right: 3%;
 }
 
-.hotelBookingCalenderInnerDiv input{
+.hotelBookingCalenderInnerDiv1 {
+  /* border: 1px solid black; */
+  width: 47%;
+}
+
+.hotelBookingCalenderInnerDiv1 input {
+  /* border: 1px solid red; */
   position: absolute;
   /* margin-left: 45%;   */
   border-radius: 5px;
@@ -124,28 +138,42 @@
   background-color: #dddddd78;
   border: none !important;
   padding-left: 10px;
-  width: 28%;
+  width: 23%;
+}
+
+.hotelBookingCalenderInnerDiv input {
+  /* border: 1px solid red; */
+  position: absolute;
+  /* margin-left: 45%;   */
+  border-radius: 5px;
+  height: 40px;
+  background-color: #dddddd78;
+  border: none !important;
+  padding-left: 10px;
+  width: 23%;
 }
 
 /* .hotelBookingCalenderInnerDiv input::placeholder{
  
 } */
 
-.hotelBookingPersonsInnerDiv{
+.hotelBookingPersonsInnerDiv {
   /* border: 1px solid green; */
-  width: 26%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
   /* margin-left: 7%; */
 }
 
-.hotelBookingSearchButtonOuterDiv{
+.hotelBookingSearchButtonOuterDiv {
   /* border: 1px solid purple; */
-  width: 32%;
+  width: 15%;
   margin-left: 2%;
 }
 
-.hotelBookingSearchButtonInnerDiv{
+.hotelBookingSearchButtonInnerDiv {
   /* border: 1px solid yellow; */
-  width: 20%;
+  width: 100%;
   border-radius: 5px;
   height: auto;
   background-color: #3380f2;
@@ -170,16 +198,16 @@
   width: 40%;
 }
 
-.hotelBookingHotelHeading h2{
+.hotelBookingHotelHeading h2 {
   font-size: 30px;
 }
 
-.hotelBookingHotelInfoDiv{
-    /* border: 1px solid red; */
-    width: 70%;
+.hotelBookingHotelInfoDiv {
+  /* border: 1px solid red; */
+  width: 70%;
 }
 
-.hotelBookingHotelInfoDiv p{
+.hotelBookingHotelInfoDiv p {
   font-size: 15px;
   margin-left: 10%;
 }
@@ -192,6 +220,18 @@
   flex-direction: row;
 }
 
+.hoteBoookingRatingExtraDiv {
+  /* border: 1px solid black; */
+  margin-left: 18%;
+}
+
+.hoteBoookingRatingExtraDiv h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 10%;
+}
+
 .hotelBookingRatingNumber h3 {
   font-size: 35px;
   font-weight: 500;
@@ -199,9 +239,9 @@
   margin-top: 50%;
 }
 
-.hotelBookingHotelReview{
-    /* border: 1px solid green; */
-    margin-left: 1%;
+.hotelBookingHotelReview {
+  /* border: 1px solid green; */
+  margin-left: 1%;
 }
 
 .hotelBookingHotelReview p {
@@ -216,8 +256,6 @@
   margin-top: -14% !important;
 }
 
-
-
 /* .hotelBookingPriceDiv {
   border: 1px solid red;
 } */
@@ -228,51 +266,49 @@
   flex-direction: row;
 }
 
-.hotelBookingPriceDisplayDiv h3{
+.hotelBookingPriceDisplayDiv h3 {
   font-size: 35px;
   font-weight: 500;
   line-height: 20px;
   margin-top: 40%;
 }
 
-.hotelBookingPriceDescription{
+.hotelBookingPriceDescription {
   margin-left: 1%;
 }
 
-.hotelBookingPriceDescription p{
-    /* border: 1px solid red; */
-    font-size: 13px;
-    font-weight: 500;
-    margin-top: 25%;
-    
+.hotelBookingPriceDescription p {
+  /* border: 1px solid red; */
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 25%;
 }
 
-.hotelBookingButton{
+.hotelBookingButton {
   /* border: 1px solid red !important; */
   margin-top: 4%;
   margin-left: 10%;
   width: 50%;
 }
 
-.hotelBookingButton button{
+.hotelBookingButton button {
   width: 40%;
   margin-left: 45%;
   padding-left: 28px;
 }
 
-.miniContextPrice{
-    /* border: 1px solid red; */
-    margin-top: -1% !important;
+.miniContextPrice {
+  /* border: 1px solid red; */
+  margin-top: -1% !important;
 }
 
-
-.hotelBookingOtherHotelsDiv{
+.hotelBookingOtherHotelsDiv {
   border-top: 2px solid black;
   width: 95%;
   margin-top: 2%;
 }
 
-.hotelBookingOtherHotelsDiv h5{
+.hotelBookingOtherHotelsDiv h5 {
   margin-top: 2%;
 }
 
@@ -282,38 +318,37 @@
 }
  */
 
-.hotelBookingOtherHotelSubDiv1{
+.hotelBookingOtherHotelSubDiv1 {
   border-bottom: 1px solid lightgray;
   border-top: 1px solid lightgray;
   display: flex;
   flex-direction: row;
 }
 
-.hotelBookingOtherHotelSubDiv2{
+.hotelBookingOtherHotelSubDiv2 {
   border-bottom: 1px solid lightgray;
   border-top: 1px solid lightgray;
   display: flex;
   flex-direction: row;
 }
 
-.hotelBookingOtherHotelSubDiv3{
+.hotelBookingOtherHotelSubDiv3 {
   /* border-bottom: 1px solid lightgray; */
   border-top: 1px solid lightgray;
   display: flex;
   flex-direction: row;
 }
 
-
-.hotelBookingOtherHotelChildDiv1{
+.hotelBookingOtherHotelChildDiv1 {
   /* border: 1px solid black; */
   width: 10%;
 }
 
-.hotelBookingOtherHotelChildDiv2{
+.hotelBookingOtherHotelChildDiv2 {
   /* border: 1px solid purple; */
   width: 40%;
 }
-.hotelBookingOtherHotelChildDiv2 p{
+.hotelBookingOtherHotelChildDiv2 p {
   margin-top: 5%;
   margin-left: -10%;
   color: gray;
@@ -325,11 +360,11 @@
 
 } */
 
-.hotelBookingOtherHotelChildDiv3 button{
+.hotelBookingOtherHotelChildDiv3 button {
   margin-top: 10%;
 }
 
-.hotelBookingChildButton{
+.hotelBookingChildButton {
   /* border: 1px solid red; */
   height: 33px;
   width: 100%;
@@ -337,7 +372,3 @@
   margin-left: 150%;
   /* padding-left: 1px !important; */
 }
-
-
-
-
