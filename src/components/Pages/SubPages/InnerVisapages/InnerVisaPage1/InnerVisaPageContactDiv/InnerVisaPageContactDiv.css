@@ -1,0 +1,59 @@
+.innervisadetailsform{
+    z-index: 2;
+    border: 1px solid lightgray;
+    background-color: #e8f4ff;
+    width: 75%;
+    height: 510px;
+    /* margin: 9%; */
+    margin-left: 24%;
+    color: #393939;
+    border-radius: 20px;
+}
+.innervisadetailsform h1{
+  /* border: 2px solid red; */
+  background-color: white;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  margin-top: 8%;
+  height: 50px;
+  padding-top:10px;
+  width: 90%;
+}
+.innervisadetailforminputs{
+    color: #393939;
+    font-size: 15px;
+    margin-top:3%;
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    border: none;
+    background-color:transparent;
+    border-bottom: 2px solid #393939;
+    outline: none;
+}
+.innervisadetailforminputs::placeholder{
+    color: #393939;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+.innervisadetailsapplybutton{
+    color: #393939;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 5.5%;
+    width: 80%;
+    height: 45px;
+    margin-left: 10%;
+    background-color: white;
+    font-weight: 500;
+    border: none;
+    text-align: left;
+    padding-left: 10px;
+}
+.innervisadetailsapplybutton:hover{
+    background-color: white !important;
+    color: #3380F2 !important;
+    border: 2px solid #3380F2;
+}

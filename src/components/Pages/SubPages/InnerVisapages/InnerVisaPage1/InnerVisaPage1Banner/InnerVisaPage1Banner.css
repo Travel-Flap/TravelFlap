@@ -4,7 +4,7 @@
     /* margin: auto; */
     height: 550px;
     /* margin-bottom: 1%; */
-    margin-top: 5%;
+    /* margin-top: 1%; */
 }
 .innervisaPagebannerMainDiv{
     /* border: 2px solid lightgray; */
@@ -160,7 +160,6 @@
     margin: auto;
     margin-left: 22%;
     background-color: #3380F2;
-    border-radius: 8px;
     color: white;
     padding: 8px 37px;
     font-weight: 700;

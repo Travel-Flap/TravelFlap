@@ -47,7 +47,7 @@ export const InnerVisaPage1Banner = () => {
                 <p className="innervisacontinent"> <FaMapMarkerAlt className="innervisacontinentIcon"/> Continent : Asia</p>
                 <p className="innervisaTime"> <FaClock className="innervisaTimeIcon"/> Processing Time : 5 - 6 Days </p>
                 <button className="innervisaFavouritebutton">
-                  Add to Favourites
+                  Add to WishList
                 </button>
               </div>
               {/* <div className="innervisaCountryImage">

@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import { Container } from "react-bootstrap";
 import "./InnerVisaChangeableData.css";
 import countrydata from '../../../../../../CountryData.json';
+import { InnerVisaPageContactDiv } from '../InnerVisaPageContactDiv/InnerVisaPageContactDiv';
 
 export const InnerVisaChangeableData = () => {
 
@@ -110,14 +111,14 @@ export const InnerVisaChangeableData = () => {
                                         <div className='innerVisaAddtoCartDiv'>
                                             <div className='innervisaCartcounter'>
                                                 {/* <div className='innervisacounterdata'> */}
-                                                    
-                                                    <div className='innervisaaddbutton' onClick={increase}>
-                                                        +
+                                                
+                                                    <div className='innervisaaddbutton' onClick={decrease}>
+                                                        -
                                                     </div>
 
                                                     <p className='innerVisacountertext'> {counter} </p>
-                                                    <div className="innervisasubtractbutton" onClick={decrease}>
-                                                        -
+                                                    <div className="innervisasubtractbutton" onClick={increase}>
+                                                        +
                                                     </div>
 
                                                 {/* </div> */}
@@ -141,13 +142,13 @@ export const InnerVisaChangeableData = () => {
                                             <div className='innervisaCartcounter'>
                                                 {/* <div className='innervisacounterdata'> */}
                                                     
-                                                    <div className='innervisaaddbutton' onClick={increase}>
-                                                        +
+                                                   <div className='innervisaaddbutton' onClick={decrease}>
+                                                        -
                                                     </div>
 
                                                     <p className='innerVisacountertext'> {counter} </p>
-                                                    <div className="innervisasubtractbutton" onClick={decrease}>
-                                                        -
+                                                    <div className="innervisasubtractbutton" onClick={increase}>
+                                                        +
                                                     </div>
 
                                                 {/* </div> */}
@@ -171,13 +172,13 @@ export const InnerVisaChangeableData = () => {
                                             <div className='innervisaCartcounter'>
                                                 {/* <div className='innervisacounterdata'> */}
                                                     
-                                                    <div className='innervisaaddbutton' onClick={increase}>
-                                                        +
+                                                   <div className='innervisasubtractbutton' onClick={decrease}>
+                                                        -
                                                     </div>
 
                                                     <p className='innerVisacountertext'> {counter} </p>
-                                                    <div className="innervisasubtractbutton" onClick={decrease}>
-                                                        -
+                                                    <div className="innervisaaddbutton" onClick={increase}>
+                                                        +
                                                     </div>
 
                                                 {/* </div> */}
@@ -190,13 +191,7 @@ export const InnerVisaChangeableData = () => {
                                      
                             </div>
                             <div className='innerVisaTypecontactDiv'>
-                                <div className='innervisadetailsform'>
-                                    <h1>Apply Now!!</h1>
-                                    <input type="text" placeholder='Email ID' className='innervisadetailforminputs'/> <br/>
-                                    <input type="text" placeholder='Contact Number' className='innervisadetailforminputs'/><br/>
-                                    <input type="text" placeholder='Visa Type' className='innervisadetailforminputs'/><br/>
-                                    <button className='innervisadetailsapplybutton'>Apply</button>
-                                </div>
+                               <InnerVisaPageContactDiv/>
                             </div>
                         </div>
            </div>
@@ -243,14 +238,8 @@ export const InnerVisaChangeableData = () => {
                             </div>
                          </div>
                          <div className='innerVisaTypecontactDiv'>
-                                <div className='innervisadetailsform'>
-                                    <h1>Apply Now!!</h1>
-                                    <input type="text" placeholder='Email ID' className='innervisadetailforminputs'/> <br/>
-                                    <input type="text" placeholder='Contact Number' className='innervisadetailforminputs'/><br/>
-                                    <input type="text" placeholder='Visa Type' className='innervisadetailforminputs'/><br/>
-                                    <button className='innervisadetailsapplybutton'>Apply</button>
-                                </div>
-                        </div>
+                               <InnerVisaPageContactDiv/>
+                         </div>
                     </div>
                     
            </div>
@@ -289,13 +278,7 @@ export const InnerVisaChangeableData = () => {
                             </div>
                         </div>
                         <div className='innerVisaTypecontactDiv'>
-                                <div className='innervisadetailsform'>
-                                    <h1>Apply Now!!</h1>
-                                    <input type="text" placeholder='Email ID' className='innervisadetailforminputs'/> <br/>
-                                    <input type="text" placeholder='Contact Number' className='innervisadetailforminputs'/><br/>
-                                    <input type="text" placeholder='Visa Type' className='innervisadetailforminputs'/><br/>
-                                    <button className='innervisadetailsapplybutton'>Apply</button>
-                                </div>
+                               <InnerVisaPageContactDiv/>
                         </div>
                     </div>
           </div>
@@ -333,13 +316,7 @@ export const InnerVisaChangeableData = () => {
                         </div>
 
                         <div className='innerVisaTypecontactDiv'>
-                                <div className='innervisadetailsform'>
-                                    <h1>Apply Now!!</h1>
-                                    <input type="text" placeholder='Email ID' className='innervisadetailforminputs'/> <br/>
-                                    <input type="text" placeholder='Contact Number' className='innervisadetailforminputs'/><br/>
-                                    <input type="text" placeholder='Visa Type' className='innervisadetailforminputs'/><br/>
-                                    <button className='innervisadetailsapplybutton'>Apply</button>
-                                </div>
+                               <InnerVisaPageContactDiv/>
                         </div>
 
                     </div>
@@ -404,13 +381,7 @@ export const InnerVisaChangeableData = () => {
                         </div>
 
                         <div className='innerVisaTypecontactDiv'>
-                                <div className='innervisadetailsform'>
-                                    <h1>Apply Now!!</h1>
-                                    <input type="text" placeholder='Email ID' className='innervisadetailforminputs'/> <br/>
-                                    <input type="text" placeholder='Contact Number' className='innervisadetailforminputs'/><br/>
-                                    <input type="text" placeholder='Visa Type' className='innervisadetailforminputs'/><br/>
-                                    <button className='innervisadetailsapplybutton'>Apply</button>
-                                </div>
+                               <InnerVisaPageContactDiv/>
                         </div>
                         
                     </div>
