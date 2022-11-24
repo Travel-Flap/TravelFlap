@@ -3,6 +3,7 @@ import { PopularDestinationBanner } from './PopularDestinationBanner/PopularDest
 import { PopularDestinationButton } from './PopularDestinationButton/PopularDestinationButton'
 import { SimilarPopularDestination } from './SimilarPopularDestination/SimilarPopularDestination'
 import { StaycationFaq } from "../Faq/Faq";
+import { InnerWebPageFooter } from '../InnerWebPageFooter/InnerWebPageFooter';
 
 
 export const PopularDestination1 = () => {
@@ -15,6 +16,7 @@ export const PopularDestination1 = () => {
       <SimilarPopularDestination />
 
       <StaycationFaq/>
+      <InnerWebPageFooter/>
    </div>
 
   )

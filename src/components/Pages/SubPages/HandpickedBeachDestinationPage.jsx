@@ -11,6 +11,7 @@ import { VideoTextStaycation } from './VideoText/VideoText';
 import { Link } from 'react-router-dom';
 import { InnerHandpickedSlider } from './InnerHandpicked2/InnerHandpickedSlider/InnerHandpickedSlider';
 import { InnerhandpickedFooter } from './InnerhandpickedFooter/InnerhandpickedFooter';
+import { InnerWebPageFooter } from './InnerWebPageFooter/InnerWebPageFooter';
 
 export const HandpickedBeachDestinationPage = () => {
 
@@ -431,9 +432,9 @@ export const HandpickedBeachDestinationPage = () => {
 
             <div>
             </div>
-            <VideoTextStaycation />
+            {/* <VideoTextStaycation /> */}
 
-            <div style={{marginTop:"-3%"}}><InnerhandpickedFooter/> </div>
+            <div style={{marginTop:"-3%"}}><InnerWebPageFooter/> </div>
         </div>
 
 

@@ -8,7 +8,7 @@ import { InnerhandPicked2SliderCards } from "../InnerhandPicked2SliderCards/Inne
 import { InnerHandPicked2VideoText } from "./InnerHandPicked2VideoText/InnerHandPicked2VideoText";
 import { VideoTextStaycation } from "../VideoText/VideoText";
 import { StaycationFaq } from "../Faq/Faq";
-import { InnerhandpickedFooter } from "../InnerhandpickedFooter/InnerhandpickedFooter";
+import { InnerWebPageFooter } from "../InnerWebPageFooter/InnerWebPageFooter";
 
 
  export const InnerHandpicked2 = () => {
@@ -23,7 +23,7 @@ import { InnerhandpickedFooter } from "../InnerhandpickedFooter/InnerhandpickedF
                 <StaycationFaq/>
         </div> */}
        <VideoTextStaycation/>
-       <div style={{marginTop:"4%"}}><InnerhandpickedFooter/></div>
+       <div style={{marginTop:"4%"}}><InnerWebPageFooter/> </div>
       </>
   );
 }

@@ -1,5 +1,5 @@
 import { StaycationFaq } from "../Faq/Faq";
-import { InnerhandpickedFooter } from "../InnerhandpickedFooter/InnerhandpickedFooter";
+import { InnerWebPageFooter } from "../InnerWebPageFooter/InnerWebPageFooter";
 import { VideoTextStaycation } from "../VideoText/VideoText";
 import { InnerPopularDestination2Banner } from "./InnerPopularDestination2Banner/InnerPopularDestination2Banner";
 import { InnerPopularDestination2categories } from "./InnerPopularDestination2categories/InnerPopularDestination2categories";
@@ -24,7 +24,7 @@ export const InnerPopularDestination2 = () => {
                <StaycationFaq/>
            </div>
            <VideoTextStaycation/>
-           <div style={{marginTop:"-3%"}}><InnerhandpickedFooter/> </div>
+           <div style={{marginTop:"-3%"}}><InnerWebPageFooter/> </div>
         </>
        
     );
