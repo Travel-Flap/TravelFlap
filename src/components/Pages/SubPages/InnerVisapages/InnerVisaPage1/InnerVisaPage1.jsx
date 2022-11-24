@@ -5,6 +5,7 @@ import { InnerVisaPage1Banner } from './InnerVisaPage1Banner/InnerVisaPage1Banne
 import { InnerVisapageTouristPlaces } from './InnerVisapageTouristPlaces/InnerVisapageTouristPlaces';
 import { InnerhandpickedFooter } from "../../InnerhandpickedFooter/InnerhandpickedFooter";
 import { NewHomeEasyVisaDestination } from '../../../NewHomePage/NewHomeEasyVisaDestination/NewHomeEasyVisaDestination';
+import { InnerWebPageFooter } from '../../InnerWebPageFooter/InnerWebPageFooter';
 
 
 export const InnerVisaPage1 = () => {
@@ -18,7 +19,7 @@ export const InnerVisaPage1 = () => {
               <InnerVisapageTouristPlaces/>
               <NewHomeEasyVisaDestination/>
               {/* <InnerVisaPageDiscover/> */}
-              <InnerhandpickedFooter/>
+              <InnerWebPageFooter/>
             </>
     );
 }
