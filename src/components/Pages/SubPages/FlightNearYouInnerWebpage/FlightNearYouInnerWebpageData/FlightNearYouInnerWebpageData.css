@@ -139,7 +139,7 @@
 }
 
 .flightNearinnerpagedetails{
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     border-radius: 5px;
     width: 93%;
     height: 80px;
@@ -183,6 +183,7 @@
     text-align: center;
     padding-top: 3.5%;
     font-weight: 600;
+    border-right: 2px solid lightgray;
 }
 .flightNearinnerpagedetailsflightPrice{
     /* border: 2px solid red; */
@@ -235,12 +236,12 @@
 .innerflightNearYouShowButton{
     background-color: #3380F2;
     color: white;
-    width: 70%;
+    width: 95%;
     height: 60px;
     margin: auto;
     border: none;
     border-radius: 8px;
     font-size: 18px;
-    margin-left: 15%;
-    margin-top: 5%;
+    margin-left: 2.5%;
+    margin-top: 2%;
 }
