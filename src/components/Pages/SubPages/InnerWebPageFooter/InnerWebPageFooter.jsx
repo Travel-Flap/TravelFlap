@@ -42,9 +42,22 @@ export const InnerWebPageFooter = () => {
                 <div className='Footermaindiv'>
                     <div className='Footerlogodiv'>
                         <div className='Footercontaindiv'>
+
                             <img src="Images/innerwebpagefooter/Group 2051.png "
                                 alt="footer logo"
                             />
+
+                            <div className='innerfooterlogoSocialIcon'>
+                               <img style={{height:"65px",marginTop:"2%"}} src="Images/innerwebpagefooter/Group 2051.png " alt="footer logo" />
+                               <div className="innerfootersocialmedia">
+                                    <a href="https://www.pinterest.com/travelflap/"><BsPinterest size={"1.4em"} style={{color:"white"}}/></a>
+                                    <a href=" https://www.facebook.com/travelflap/"><BsFacebook size={"1.4em"} style={{color:"white"}}/></a>
+                                    <a href="https://www.linkedin.com/company/travelflap/"><BsLinkedin size={"1.4em"} style={{color:"white"}}/></a>
+                                    <a href="https://www.instagram.com/travelflap/"><FaInstagram size={"1.4em"} style={{color:"white"}}/></a>
+                                    <a href="https://www.behance.net/travelflap"><BsBehance size={"1.4em"} style={{color:"white"}}/></a>
+                                    <a href="https://twitter.com/TravelFlap"><BsTwitter size={"1.4em"} style={{color:"white"}}/></a>
+                               </div>
+                            </div>
 
                             <p className='Footerlogocontain'> TravelFlap is one of the best service provider in the industry.
                                 We are a organization with a dream to provide our customers
@@ -365,11 +378,11 @@ export const InnerWebPageFooter = () => {
                         </div>
                     </div>
 
-                    {/* <div className='footerlogolastdiv'>
+                    <div className='footerlogolastdiv'>
                         <div>
                          <p className='copyrightdiv'>©2022 Travalflap | Global Product</p>
                         </div>
-                        <div className='footerlogoinnerdiv'>
+                        {/* <div className='footerlogoinnerdiv'>
                         <div className=''>
                                 <img  src='Images/innerwebpagefooter/Group 2051.png ' />
                             </div>
@@ -384,9 +397,25 @@ export const InnerWebPageFooter = () => {
                             <div className=''>
                                 <img className='' src='Images/innerwebpagefooter/visafetch.png' />
                             </div>
+                        </div> */}
+                        <div className='innerwebpageFooter'>
+                            <div className='innerwebpageFooterDiv'>
+                                <div className='innerwebpageFooterImages'>
+                                    <img className='innerwebpageFooterTravelFlap' src='Images/NewHomeLayout/FooterContent/TravelFlap.png' />
+                                </div>
+                                <div className='innerwebpageFooterImages'>
+                                    <img className='innerwebpageFooterBlueberry' src='Images/NewHomeLayout/FooterContent/BBT.webp'/>
+                                </div>
+                                <div className='innerwebpageFooterImages'>
+                                    <img className='innerwebpageFooterNextHolidays' src='Images/NewHomeLayout/FooterContent/NextHolidaysNew.png' />
+                                </div>
+                                <div className='innerwebpageFooterImages'>
+                                    <img className='innerwebpageFooterVisaFetch' src='Images/NewHomeLayout/FooterContent/visafetch (1).png' />
+                                </div>
+                            </div>
                         </div>
 
-                    </div> */}
+                    </div>
 
                 </div>
             }
