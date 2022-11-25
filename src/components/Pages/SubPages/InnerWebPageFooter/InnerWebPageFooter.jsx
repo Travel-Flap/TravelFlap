@@ -51,6 +51,8 @@ export const InnerWebPageFooter = () => {
                             <div className='innerfooterlogoSocialIcon'>
                                 <img style={{ height: "60px", marginTop: "2%" }} src="Images/innerwebpagefooter/Group 2051.png " alt="footer logo" />
 
+
+                                <h2>Follow us</h2>
                                 <div className="innerfootersocialmedia">
                                     <a href="https://www.pinterest.com/travelflap/"><BsPinterest size={"1.4em"} style={{ color: "white" }} /></a>
                                     <a href=" https://www.facebook.com/travelflap/"><BsFacebook size={"1.4em"} style={{ color: "white" }} /></a>
@@ -122,6 +124,7 @@ export const InnerWebPageFooter = () => {
                                         Easy Visa Places
                                     </li>
                                 </Link>
+
                                 <div className='listwise'>
 
                                     <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
@@ -213,67 +216,330 @@ export const InnerWebPageFooter = () => {
                             </ul>
                             <div>
                                 <ul>
-                                    <li className='listwiseheading'>top destinations</li>
+                                    <li className='listwiseheading'> Hotel Destionation </li>
                                     <div className='listwise'>
-                                        <li>goa</li>
-                                        <li>delhi</li>
-                                        <li>goa</li>
-                                        <li>delhi</li>
-                                        <li>goa</li>
-                                        <li>delhi</li>
-                                        <li>goa</li>
-                                        <li>delhi</li>
-                                        <li>goa</li>
-                                        <li>delhi</li>
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>
+                                                Dubai Visa
+                                            </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>USA Visa</li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Vietnam Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Thailand Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Argentina Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Malaysia Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            France Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Egypt Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Iceland Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Greece Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Spain visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Venice Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Japan Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>
+                                                Italy Visa
+                                            </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Switzerland
+                                        </li>
+                                        </Link>
                                     </div>
                                 </ul>
                             </div>
 
                             <div>
                                 <ul>
-                                    <li className='listwiseheading'>Best place visit this month </li>
+                                    <li className='listwiseheading'> Best Flights Destination </li>
                                     <div className='listwise'>
-                                        <li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li>
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>
+                                                Dubai Visa
+                                            </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>USA Visa</li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Vietnam Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Thailand Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Argentina Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Malaysia Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            France Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Egypt Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Iceland Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Greece Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Spain visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Venice Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Japan Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>
+                                                Italy Visa
+                                            </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Switzerland
+                                        </li>
+                                        </Link>
                                     </div>
                                 </ul>
                             </div>
                             <div>
                                 <ul>
-                                    <li className='listwiseheading'>trensing Collection </li>
+                                    <li className='listwiseheading'> Best Holidays Destination </li>
                                     <div className='listwise'>
-                                        <li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li>
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>
+                                                Dubai Visa
+                                            </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>USA Visa</li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Vietnam Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Thailand Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Argentina Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Malaysia Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            France Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Egypt Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Iceland Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Greece Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Spain visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Venice Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Japan Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>
+                                                Italy Visa
+                                            </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Switzerland
+                                        </li>
+                                        </Link>
                                     </div>
                                 </ul>
                             </div>
                             <div>
                                 <ul>
-                                    <li className='listwiseheading'>offbeat placece </li>
+                                    <li className='listwiseheading'> Best Rentals Destination </li>
                                     <div className='listwise'>
-                                        <li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li><li>goa</li>
-                                        <li>delhi</li>
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>
+                                                Dubai Visa
+                                            </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>USA Visa</li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Vietnam Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Thailand Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Argentina Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Malaysia Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            France Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Egypt Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Iceland Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Greece Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Spain visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Venice Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Japan Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>
+                                                Italy Visa
+                                            </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Switzerland
+                                        </li>
+                                        </Link>
                                     </div>
                                 </ul>
                             </div>
