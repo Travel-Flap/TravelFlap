@@ -7,7 +7,6 @@ import "slick-carousel/slick/slick-theme.css";
 import HandPickedBeachDestinationInternationalComponent from './HandPickedBeachDestinationInternationalComponent/HandPickedBeachDestinationInternationalComponent';
 import HandPickedBeachDestinationDomesticComponent from './HandPickedBeachDestinationDomesticComponent/HandPickedBeachDestinationDomesticComponent';
 import { StaycationFaq } from './Faq/Faq';
-import { VideoTextStaycation } from './VideoText/VideoText';
 import { Link } from 'react-router-dom';
 import { InnerHandpickedSlider } from './InnerHandpicked2/InnerHandpickedSlider/InnerHandpickedSlider';
 import { InnerhandpickedFooter } from './InnerhandpickedFooter/InnerhandpickedFooter';
@@ -432,7 +431,6 @@ export const HandpickedBeachDestinationPage = () => {
 
             <div>
             </div>
-            {/* <VideoTextStaycation /> */}
 
             <div style={{marginTop:"-3%"}}><InnerWebPageFooter/> </div>
         </div>

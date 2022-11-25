@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
+import {Link} from "react-router-dom";
 import { useRef } from "react";
 import { useEffect } from "react";
 import "./FlightsNearYou.css";
@@ -115,6 +115,7 @@ export const FlightsNearYou = () => {
                     {/* <div className="experimentdivcontainer" style={{display:"flex",flexDirection:"row"}}/> */}
 
 
+                    <Link to="/flightnearyou">
                     <div class="card mb-3 newFlightsNearYououterdiv wow" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">
                             <div class="col-md-8 newFlightsNearYouCardimage">
@@ -161,6 +162,7 @@ export const FlightsNearYou = () => {
                             </div>
                         </div>
                     </div>
+                    </Link>
 
                     <div class="card mb-3 newFlightsNearYououterdiv" >
                         <div class="row g-0 newFlightsNearYouImagetextcontainer">

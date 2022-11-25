@@ -1,5 +1,4 @@
 import { StaycationFaq } from "../Faq/Faq";
-import { VideoTextStaycation } from "../VideoText/VideoText";
 import {HandPickedWeekendDestinationsBanner} from "./HandPickedWeekendDestinationBanner/HandPickedWeekendDestinationsBanner";
 import HandPickedDomesticWeekendDestination from "./HandPickedDomesticWeekendDestination/HandPickedDomesticWeekendDestination";
 import HandPickedInternationalWeekendDestination from "./HandPickedInternationalWeekendDestinations/HandPickedInternationalWeekendDestination";
@@ -24,8 +23,6 @@ export const HandPickedWeekendDestinations = () => {
             <HandPickedInternationalWeekendDestination/>
 
             <div style={{marginTop:"1%"}}><StaycationFaq /></div>
-
-            {/* <VideoTextStaycation/> */}
 
             <div style={{marginTop:"-3%"}}><InnerWebPageFooter/> </div>
           </>
