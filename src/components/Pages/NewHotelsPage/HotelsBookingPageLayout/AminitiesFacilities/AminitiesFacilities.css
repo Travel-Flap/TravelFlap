@@ -35,14 +35,16 @@
     margin-top: 0.5%;
 }
 
-.amenitiesInnerSubDiv h5{
-   margin-top: 1%;
-   font-size: 20px;
+.amenitiesInnerSubDiv p{
+   margin-top: 1.5%;
+   font-size: 17px;
+   color: #393939 !important;
 }
 
 .dropButtonAMenities{
     margin-left: 50%;
     margin-top: 1%;
+    font-size: 19px;
     cursor: pointer;
     color: #3380f2;
     margin-bottom: 3%;

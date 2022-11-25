@@ -20,59 +20,59 @@ export const AminitiesFacilities = () => {
                     <div className='amenitiesInnnerDiv1' >
                         <div className='amenitiesInnerSubDiv'>
                             <div className='facilityIconsDiv' > <SiSparkfun /></div>
-                            <h5>Spa and wellness centre</h5>
+                            <p>Spa and wellness centre</p>
                         </div>
 
                         <div className='amenitiesInnerSubDiv'>
                             <div className='facilityIconsDiv'> <MdOutlineRoomService /></div>
-                            <h5> Room Service </h5>
+                            <p> Room Service </p>
                         </div>
 
                         <div className='amenitiesInnerSubDiv'>
                             <div className='facilityIconsDiv'> <SiCoffeescript /></div>
-                            <h5> Tea/Coffee Maker</h5>
+                            <p> Tea/Coffee Maker</p>
                         </div>
 
                         <div className='amenitiesInnerSubDiv'>
                             <div className='facilityIconsDiv'> <BsFillLaptopFill /></div>
-                            <h5> Business Centre </h5>
+                            <p> Business Centre </p>
                         </div>
 
                         <div className='amenitiesInnerSubDiv'>
                             <div className='facilityIconsDiv'> <CgScreenMirror /></div>
-                            <h5> Flat screen TV </h5>
+                            <p> Flat screen TV </p>
                         </div>
                     </div>
 
                     <div className='amenitiesInnnerDiv2'>
                         <div className='amenitiesInnerSubDiv'>
                             <div className='facilityIconsDiv'> <RiRestaurantFill /></div>
-                            <h5> Restaurant </h5>
+                            <p> Restaurant </p>
                         </div>
 
                         <div className='amenitiesInnerSubDiv'>
                             <div className='facilityIconsDiv'> <BiWifi /></div>
-                            <h5> Free Wi-Fi </h5>
+                            <p> Free Wi-Fi </p>
                         </div>
 
                         <div className='amenitiesInnerSubDiv'>
                             <div className='facilityIconsDiv' > <SiCoffeescript /></div>
-                            <h5> Coffee Shop </h5>
+                            <p> Coffee Shop </p>
                         </div>
 
                         <div className='amenitiesInnerSubDiv'>
                             <div className='facilityIconsDiv'> <BiWifi /></div>
-                            <h5> Wi-Fi available in all areas </h5>
+                            <p> Wi-Fi available in all areas </p>
                         </div>
 
                         <div className='amenitiesInnerSubDiv'>
                             <div className='facilityIconsDiv'> <CgScreenMirror /></div>
-                            <h5> TV </h5>
+                            <p> TV </p>
                         </div>
                     </div>
                 </div>
 
-                <h5 className='dropButtonAMenities'>Show all 90 amenities</h5>
+                <p className='dropButtonAMenities'>Show all 90 amenities</p>
             </div>
         </>
     )

@@ -12,8 +12,6 @@
   flex-direction: row;
   /* border: 2px solid blue; */
   margin-left: 5%;
-
-
 }
 
 .Footercontaindiv {
@@ -21,8 +19,6 @@
   width: 45%;
   /* padding-left: 10px;
   padding-top: 15px; */
-  
-
 }
 
 .Footerlogocontain {
@@ -39,8 +35,6 @@
   /* border: 2px solid brown; */
   margin-left: 40%;
   padding-top: 20px;
-
-
 }
 
 .countryselectlistheading {
@@ -49,7 +43,6 @@
 
 
 .DropDownlist {
-
   justify-content: left;
   margin-left: 30%;
   margin-top: -5%;
@@ -83,9 +76,10 @@
   margin: auto;
 }
 
-.videocontainer{
-  /* border: 2px solid red; */
-}
+/* .videocontainer{
+  border: 2px solid red;
+} */
+
 .Footervideoexperimentcontainer-items{
   /* border: 2px solid white; */
   height: 300px;
@@ -139,11 +133,7 @@
   font-size: 12px;
   /* font-weight: 300; */
 
-
 }
-
-
-
 
 .listwiseheading {
   font-size: 14px;
@@ -164,7 +154,6 @@
   flex-direction: row;
   text-align: left;
   /* color: #252323; */
-
   /* margin-left: 5%; */
   /* padding-left: 10%; */
 }
@@ -195,10 +184,6 @@
   /* border: 1px solid red; */
   margin-left: 7%;
 }
-
-
-
-
 
 .socialdiv {
   color: white;

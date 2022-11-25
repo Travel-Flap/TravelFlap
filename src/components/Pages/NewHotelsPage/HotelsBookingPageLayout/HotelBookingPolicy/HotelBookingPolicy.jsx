@@ -113,7 +113,7 @@ export const HotelBookingPolicy = () => {
                     </div>
 
                     <div className='hotelBookingPropertyInfoDiv3'>
-                        <h2>Getting around</h2>
+                        <h4>Getting around</h4>
                         <div className='hotelBookingPropertyInfoInnerDiv'>
                             <div className='hotelPropertyInfoSubDiv1'>
                                 <h5> Airport transfer fee </h5>
@@ -129,7 +129,7 @@ export const HotelBookingPolicy = () => {
                     </div>
 
                     <div className='hotelBoookingPropertyOtherDiv'>
-                        <h2>Others</h2>
+                        <h4>Others</h4>
                         <h5>Joiners or visitors are not allowed in the residential area except for the lobby.
                             Otherwise, charges will be applied. Please contact the property for more information.
                         </h5>

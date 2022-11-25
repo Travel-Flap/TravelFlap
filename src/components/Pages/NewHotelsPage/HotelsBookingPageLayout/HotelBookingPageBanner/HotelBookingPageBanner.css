@@ -3,7 +3,7 @@
 } */
 
 .hotelBookingImageContentWrapper {
-  border: 2px solid lightgray;
+  /* border: 2px solid lightgray; */
   border-radius: 5px;
   width: 90%;
   margin: auto;
@@ -22,15 +22,14 @@
 .hotelBookingBannerImageDiv img {
   width: 100%;
   height: 500px;
-  margin-left: 2%;
   border-radius: 5px;
 }
 
 .hoteBookingContextDiv {
   /* border: 2px solid red; */
   width: 50%;
-  margin-left: 3%;
-  margin-top: 2%;
+  margin-left: 2%;
+  margin-top: 1%;
 }
 
 .hotelBookingCalenderOuterDiv {
@@ -44,18 +43,19 @@
 
 .hotelBookingCalenderContainer {
   /* border: 1px solid black; */
-  width: 50%;
+  margin-left: 1%;
+  width: 60%;
   display: flex;
   flex-direction: row;
 }
 
 #hotelBooking_departure {
   /* border: 1px solid red; */
-  border: 2px solid #dddddd78;
+  /* border: 2px solid #dddddd78; */
   border-radius: 6px;
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 63%;
   color: black !important;
   background-color: #dddddd78 !important;
   border-radius: 5px;
@@ -181,9 +181,10 @@
   color: white !important;
 }
 
-/* .hotelBookingHotelContentDiv{
-    border: 1px solid red;
-} */
+.hotelBookingHotelContentDiv{
+    /* border: 1px solid red; */
+    margin-left: 1%;
+}
 
 .hotelBookinHotelName {
   /* border: 1px solid black; */
@@ -214,6 +215,7 @@
 
 .hotelBookingRatingDiv {
   /* border: 1px solid red; */
+  margin-left: 1%;
   margin-top: -4%;
   height: 60px;
   display: flex;
@@ -256,9 +258,10 @@
   margin-top: -14% !important;
 }
 
-/* .hotelBookingPriceDiv {
-  border: 1px solid red;
-} */
+.hotelBookingPriceDiv {
+  /* border: 1px solid red; */
+  margin-left: 1%;
+}
 
 .hotelBoookingPriceDisplayInnerDiv {
   /* border: 1px solid black; */
@@ -293,8 +296,14 @@
 
 .hotelBookingButton button {
   width: 40%;
-  margin-left: 45%;
+  margin-left: 58%;
   padding-left: 28px;
+}
+
+.hotelBookingButton button:hover{
+  background-color: white;
+  border: 1px solid #3380f2;
+  color: #3380f2;
 }
 
 .miniContextPrice {
@@ -310,6 +319,7 @@
 
 .hotelBookingOtherHotelsDiv h5 {
   margin-top: 2%;
+  margin-left: 1%;
 }
 
 /* .hotelBookingOtherHotelInnerDiv{
@@ -350,7 +360,7 @@
 }
 .hotelBookingOtherHotelChildDiv2 p {
   margin-top: 5%;
-  margin-left: -10%;
+  margin-left: -2%;
   color: gray;
 }
 
@@ -360,15 +370,25 @@
 
 } */
 
-.hotelBookingOtherHotelChildDiv3 button {
-  margin-top: 10%;
+.hotelBookingOtherHotelChildDiv3  {
+  /* border: 1px solid red; */
+  margin-left: 30%;
+  /* margin-top: 10%; */
 }
 
 .hotelBookingChildButton {
   /* border: 1px solid red; */
   height: 33px;
   width: 100%;
+  margin-top: 8%;
   padding-top: 3px;
-  margin-left: 150%;
+  /* margin-left: 150%; */
   /* padding-left: 1px !important; */
+}
+
+
+.hotelBookingChildButton:hover{
+  background-color: white;
+  border: 1px solid #3380f2;
+  color: #3380f2;
 }

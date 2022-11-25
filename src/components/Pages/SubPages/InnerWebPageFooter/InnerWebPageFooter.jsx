@@ -38,8 +38,6 @@ export const InnerWebPageFooter = () => {
     }
     return (
         <>
-         
-
             {
                 <div className='Footermaindiv'>
                     <div className='Footerlogodiv'>
@@ -47,7 +45,7 @@ export const InnerWebPageFooter = () => {
                             <img src="Images/innerwebpagefooter/Group 2051.png "
                                 alt="footer logo"
                             />
-                            
+
                             <p className='Footerlogocontain'> TravelFlap is one of the best service provider in the industry.
                                 We are a organization with a dream to provide our customers
                                 a safer and the best experience of there life. </p>
@@ -80,17 +78,12 @@ export const InnerWebPageFooter = () => {
                                                 ))
                                             }
                                         </select>
-
-
-
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                     </div>
-
-
 
                     <div className='Footervideodiv'>
                         <div className='videocontainer'>
@@ -249,15 +242,15 @@ export const InnerWebPageFooter = () => {
                                         Learn More
                                     </li>
                                 </li>
-                                 <div className='listwise'>
-                                <li>
-                                    About Us
-                                </li>
-                                <li>home</li>
-                                <li>FAQ</li>
-                                <li>Blogs</li>
-                                <li>Contact us</li>
-                                <li>Trems & Service</li>
+                                <div className='listwise'>
+                                    <li>
+                                        About Us
+                                    </li>
+                                    <li>home</li>
+                                    <li>FAQ</li>
+                                    <li>Blogs</li>
+                                    <li>Contact us</li>
+                                    <li>Trems & Service</li>
                                 </div>
                             </ul>
                         </div>
@@ -267,23 +260,23 @@ export const InnerWebPageFooter = () => {
                             <div className='innerFooterContactUsDiv'>
                                 <div>
                                     <ul>
-                                    <div className='listwise'>
-                                        <li>Flight</li>
-                                        <li>Hotel</li>
-                                        <li>visa</li>
-                                        <li>Holiday</li>
-                                        <li>Staycation</li>
-                                        <li>Car rentals</li>
+                                        <div className='listwise'>
+                                            <li>Flight</li>
+                                            <li>Hotel</li>
+                                            <li>visa</li>
+                                            <li>Holiday</li>
+                                            <li>Staycation</li>
+                                            <li>Car rentals</li>
                                         </div>
                                     </ul>
                                 </div>
 
                                 <div>
                                     <ul>
-                                    <div className='listwise'>
-                                        <li>cruise</li>
-                                        <li>Activity</li>
-                                        
+                                        <div className='listwise'>
+                                            <li>cruise</li>
+                                            <li>Activity</li>
+
                                         </div>
                                     </ul>
                                 </div>
@@ -300,22 +293,22 @@ export const InnerWebPageFooter = () => {
                             <div className='innerFooterContactUsDiv'>
                                 <div>
                                     <ul>
-                                    <div className='listwise'>
-                                        <li>India</li>
-                                        <li>UAE</li>
-                                        <li>GEM</li>
-                                        <li>SA</li>
+                                        <div className='listwise'>
+                                            <li>India</li>
+                                            <li>UAE</li>
+                                            <li>GEM</li>
+                                            <li>SA</li>
                                         </div>
                                     </ul>
                                 </div>
 
                                 <div>
                                     <ul>
-                                    <div className='listwise1'>
-                                        <li>123-456-789</li>
-                                        <li>123-456-789</li>
-                                        <li>123-456-789</li>
-                                        <li>123-456-789</li>
+                                        <div className='listwise1'>
+                                            <li>123-456-789</li>
+                                            <li>123-456-789</li>
+                                            <li>123-456-789</li>
+                                            <li>123-456-789</li>
                                         </div>
                                     </ul>
                                 </div>
@@ -330,44 +323,44 @@ export const InnerWebPageFooter = () => {
                                     We Accept
                                 </li>
                             </ul>
-                            <div style={{display:"flex",flexDirection:"row"}}>
-                            <div className='weacceptinnerdiv'>
-                                <div>
-                                <img src="Images/innerwebpagefooter/Group 2000.png " ></img>
+                            <div style={{ display: "flex", flexDirection: "row" }}>
+                                <div className='weacceptinnerdiv'>
+                                    <div>
+                                        <img src="Images/innerwebpagefooter/Group 2000.png " ></img>
+                                    </div>
+                                    <div>
+                                        <img src="Images/innerwebpagefooter/Group 2001.png "></img>
+                                    </div>
+                                    <div>
+                                        <img src="Images/innerwebpagefooter/Group 2004.png " ></img>
+                                    </div>
+                                    <div>
+                                        <img src="Images/innerwebpagefooter/Group 2003.png " ></img>
+                                    </div>
                                 </div>
-                                <div>
-                                <img src="Images/innerwebpagefooter/Group 2001.png "></img>
+                                <div className='weacceptinnerdiv'>
+                                    <div>
+                                        <img src="Images/innerwebpagefooter/Group 2062.png " ></img>
+                                    </div>
+                                    <div>
+                                        <img src="Images/innerwebpagefooter/Group 2061.png "></img>
+                                    </div>
+                                    <div>
+                                        <img src="Images/innerwebpagefooter/Group 2063.png " ></img>
+                                    </div>
+                                    <div>
+                                        <img src="Images/innerwebpagefooter/Group 2064.png " ></img>
+                                    </div>
                                 </div>
-                                <div>
-                                <img src="Images/innerwebpagefooter/Group 2004.png " ></img>
+                                <div className='weacceptinnerdiv'>
+                                    <div>
+                                        <img src="Images/innerwebpagefooter/Group 2065.png " ></img>
+                                    </div>
+                                    <div>
+                                        <img src="Images/innerwebpagefooter/Group 2007.png "></img>
+                                    </div>
+
                                 </div>
-                                <div>
-                                <img src="Images/innerwebpagefooter/Group 2003.png " ></img>
-                                </div>
-                            </div>
-                            <div className='weacceptinnerdiv'>
-                            <div>
-                                <img src="Images/innerwebpagefooter/Group 2062.png " ></img>
-                                </div>
-                                <div>
-                                <img src="Images/innerwebpagefooter/Group 2061.png "></img>
-                                </div>
-                                <div>
-                                <img src="Images/innerwebpagefooter/Group 2063.png " ></img>
-                                </div>
-                                <div>
-                                <img src="Images/innerwebpagefooter/Group 2064.png " ></img>
-                                </div>
-                            </div>
-                            <div className='weacceptinnerdiv'>
-                            <div>
-                                <img src="Images/innerwebpagefooter/Group 2065.png " ></img>
-                                </div>
-                                <div>
-                                <img src="Images/innerwebpagefooter/Group 2007.png "></img>
-                                </div>
-                                
-                            </div>
                             </div>
                         </div>
                     </div>
