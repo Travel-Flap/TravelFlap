@@ -5,7 +5,7 @@ export const HotelBookingMultiImage = () => {
   return (
     <>
       <div className='hotelBookingMultiImageOuterDiv'>
-        <h4> Photos </h4>
+        {/* <h4> Photos </h4> */}
 
         <div className='hotelBookingMultiImageMainDiv'>
           <div className='hotelBookingMultiImageInnerDiv1' >
