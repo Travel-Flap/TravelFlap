@@ -9,7 +9,8 @@ import countrydata from '../../../../CountryData.json';
 import { IconContext } from "react-icons";
 import { FaInstagram } from "react-icons/fa";
 import "./InnerWebPageFooter.css";
-var embedId = "JQr1-VchonU"
+import { Link } from 'react-router-dom';
+var embedId = "Oe4h16qpveg"
 
 export const InnerWebPageFooter = () => {
 
@@ -43,57 +44,58 @@ export const InnerWebPageFooter = () => {
                     <div className='Footerlogodiv'>
                         <div className='Footercontaindiv'>
 
-                            <img src="Images/innerwebpagefooter/Group 2051.png "
+                            {/* <img src="Images/innerwebpagefooter/Group 2051.png "
                                 alt="footer logo"
-                            />
+                            /> */}
 
                             <div className='innerfooterlogoSocialIcon'>
-                               <img style={{height:"65px",marginTop:"2%"}} src="Images/innerwebpagefooter/Group 2051.png " alt="footer logo" />
-                               <div className="innerfootersocialmedia">
-                                    <a href="https://www.pinterest.com/travelflap/"><BsPinterest size={"1.4em"} style={{color:"white"}}/></a>
-                                    <a href=" https://www.facebook.com/travelflap/"><BsFacebook size={"1.4em"} style={{color:"white"}}/></a>
-                                    <a href="https://www.linkedin.com/company/travelflap/"><BsLinkedin size={"1.4em"} style={{color:"white"}}/></a>
-                                    <a href="https://www.instagram.com/travelflap/"><FaInstagram size={"1.4em"} style={{color:"white"}}/></a>
-                                    <a href="https://www.behance.net/travelflap"><BsBehance size={"1.4em"} style={{color:"white"}}/></a>
-                                    <a href="https://twitter.com/TravelFlap"><BsTwitter size={"1.4em"} style={{color:"white"}}/></a>
-                               </div>
+                                <img style={{ height: "60px", marginTop: "2%" }} src="Images/innerwebpagefooter/Group 2051.png " alt="footer logo" />
+
+                                <div className="innerfootersocialmedia">
+                                    <a href="https://www.pinterest.com/travelflap/"><BsPinterest size={"1.4em"} style={{ color: "white" }} /></a>
+                                    <a href=" https://www.facebook.com/travelflap/"><BsFacebook size={"1.4em"} style={{ color: "white" }} /></a>
+                                    <a href="https://www.linkedin.com/company/travelflap/"><BsLinkedin size={"1.4em"} style={{ color: "white" }} /></a>
+                                    <a href="https://www.instagram.com/travelflap/"><FaInstagram size={"1.4em"} style={{ color: "white" }} /></a>
+                                    <a href="https://www.behance.net/travelflap"><BsBehance size={"1.4em"} style={{ color: "white" }} /></a>
+                                    <a href="https://twitter.com/TravelFlap"><BsTwitter size={"1.4em"} style={{ color: "white" }} /></a>
+                                </div>
                             </div>
 
-                            <p className='Footerlogocontain'> TravelFlap is one of the best service provider in the industry.
-                                We are a organization with a dream to provide our customers
-                                a safer and the best experience of there life. </p>
+                            <p className='Footerlogocontain'> TravelFlap is one of the best service provider in the industry.We are a organization with a dream to provide our customers
+                                a safer and the best experience of there life.
+                            </p>
 
                         </div>
 
                         <div className='dropdowndiv'>
-                            <div>
-                                <div className="DropDownlist">
-                                    <h5 className='countryselectlistheading'>State/Currency</h5>
-                                    <div className="countryselectlist">
-                                        <select className="form-select FooterCountryDroplist" onChange={(e) => handlecounty(e)}
-                                            style={{ border: "2px solid gray", width: "60%", appearance: "none" }}>
-                                            <option value="" >Country</option>
-                                            {
-                                                countrydata.map((getcountry, index) => (
-                                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                                ))
-                                            }
-                                        </select>
-                                    </div>
+                            {/* <div> */}
+                            <div className="DropDownlist">
+                                <h5 className='countryselectlistheading'>State/Currency</h5>
+                                <div className="countryselectlist">
+                                    <select className="form-select FooterCountryDroplist" onChange={(e) => handlecounty(e)}
+                                        style={{ border: "2px solid gray", width: "60%", appearance: "none" }}>
+                                        <option value="" >Country</option>
+                                        {
+                                            countrydata.map((getcountry, index) => (
+                                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                            ))
+                                        }
+                                    </select>
+                                </div>
 
-                                    <div className="countryselectlist">
-                                        <select className="form-select FooterCountryDroplist" onChange={(e) => handlecounty(e)}
-                                            style={{ border: "2px solid gray", width: "60%", appearance: "none" }}>
-                                            <option value="" >Currency</option>
-                                            {
-                                                countrydata.map((getcountry, index) => (
-                                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                                ))
-                                            }
-                                        </select>
-                                    </div>
+                                <div className="countryselectlist">
+                                    <select className="form-select FooterCountryDroplist" onChange={(e) => handlecounty(e)}
+                                        style={{ border: "2px solid gray", width: "60%", appearance: "none" }}>
+                                        <option value="" >Currency</option>
+                                        {
+                                            countrydata.map((getcountry, index) => (
+                                                <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                            ))
+                                        }
+                                    </select>
                                 </div>
                             </div>
+                            {/* </div> */}
                         </div>
 
                     </div>
@@ -102,8 +104,8 @@ export const InnerWebPageFooter = () => {
                         <div className='videocontainer'>
                             <div className="Footervideoexperimentcontainer-items">
                                 <iframe
-                                    width="550"
-                                    height="300"
+                                    width="500"
+                                    height="340"
                                     src={`https://www.youtube.com/embed/${embedId}`}
                                     frameBorder="0"
                                     //  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -112,63 +114,101 @@ export const InnerWebPageFooter = () => {
                             </div>
 
                         </div>
+
                         <div className='listdiv'>
                             <ul>
-                                <li className='listwiseheading'>
-                                    Place to visit
-                                </li>
+                                <Link to="" style={{ textDecoration: "none", color: "white" }} >
+                                    <li className='listwiseheading'>
+                                        Easy Visa Places
+                                    </li>
+                                </Link>
                                 <div className='listwise'>
-                                    <li>
-                                        Place to visit
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                        <li>
+                                            India Visa
+                                        </li>
+                                    </Link>
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                        <li>
+                                            Dubai Visa
+                                        </li>
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                        <li>USA Visa</li>
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                        Vietnam Visa
                                     </li>
-                                    <li>
-                                        Place to visit
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                        Thailand Visa
                                     </li>
-                                    <li>
-                                        Place to visit
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                        Argentina Visa
                                     </li>
-                                    <li>
-                                        Place to visit
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                        Malaysia Visa
                                     </li>
-                                    <li>
-                                        Place to visit
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                        France Visa
                                     </li>
-                                    <li>
-                                        Place to visit
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                        Egypt Visa
                                     </li>
-                                    <li>
-                                        Place to visit
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                        Iceland Visa
                                     </li>
-                                    <li>
-                                        Place to visit
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                        Greece Visa
                                     </li>
-                                    <li>
-                                        Place to visit
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                        Spain visa
                                     </li>
-                                    <li>
-                                        Place to visit
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                        Venice Visa
                                     </li>
-                                    <li>
-                                        Place to visit
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                        Japan Visa
                                     </li>
-                                    <li>
-                                        Place to visit
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                        <li>
+                                            Italy Visa
+                                        </li>
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                        Switzerland
                                     </li>
-                                    <li>
-                                        Place to visit
+                                    </Link>
+
+                                    <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                        Greenland
                                     </li>
-                                    <li>
-                                        Place to visit
-                                    </li>
-                                    <li>
-                                        Place to visit
-                                    </li>
-                                    <li>
-                                        Place to visit
-                                    </li>
-                                    <li>
-                                        Place to visit
-                                    </li>
+                                    </Link>
                                 </div>
                             </ul>
                             <div>
@@ -248,6 +288,7 @@ export const InnerWebPageFooter = () => {
 
 
                     <div className='Footercontactinfo'>
+
                         <div className='Learnmorediv'>
                             <ul>
                                 <li>
@@ -256,30 +297,41 @@ export const InnerWebPageFooter = () => {
                                     </li>
                                 </li>
                                 <div className='listwise'>
-                                    <li>
-                                        About Us
-                                    </li>
-                                    <li>home</li>
-                                    <li>FAQ</li>
-                                    <li>Blogs</li>
-                                    <li>Contact us</li>
-                                    <li>Trems & Service</li>
+                                    <li className='newFooterContentHeadingDiv' > About Us </li>
+                                    <li className='newFooterContentHeadingDiv' > Home</li>
+                                    <li className='newFooterContentHeadingDiv' > FAQ</li>
+                                    <li className='newFooterContentHeadingDiv' > Blogs</li>
+                                    <li className='newFooterContentHeadingDiv' > Contact us</li>
+                                    <li className='newFooterContentHeadingDiv' > Terms & Conditions </li>
                                 </div>
                             </ul>
                         </div>
+
                         <div className='productsdiv'>
-                            <li className='listwiseheading1'>Products</li>
+                            <li className='listwiseheading1'>Services</li>
 
                             <div className='innerFooterContactUsDiv'>
                                 <div>
                                     <ul>
                                         <div className='listwise'>
-                                            <li>Flight</li>
-                                            <li>Hotel</li>
-                                            <li>visa</li>
-                                            <li>Holiday</li>
-                                            <li>Staycation</li>
-                                            <li>Car rentals</li>
+                                            <Link to="/flights" style={{ textDecoration: "none", color: "#C2C2C2" }} >
+                                                <li className='newFooterContentHeadingDiv' >Flight</li>
+                                            </Link>
+                                            <Link to="/hotel" style={{ textDecoration: "none", color: "#C2C2C2" }} >
+                                                <li className='newFooterContentHeadingDiv' >Hotel</li>
+                                            </Link>
+                                            <Link to="/visa" style={{ textDecoration: "none", color: "#C2C2C2" }} >
+                                                <li className='newFooterContentHeadingDiv' >Visa</li>
+                                            </Link>
+                                            <Link to="/holidays" style={{ textDecoration: "none", color: "#C2C2C2" }} >
+                                                <li className='newFooterContentHeadingDiv' >Holiday</li>
+                                            </Link>
+                                            <Link to="/staycations" style={{ textDecoration: "none", color: "#C2C2C2" }} >
+                                                <li className='newFooterContentHeadingDiv' >Staycation</li>
+                                            </Link>
+                                            <Link to="/rentals" style={{ textDecoration: "none", color: "#C2C2C2" }} >
+                                                <li className='newFooterContentHeadingDiv' >Car rentals</li>
+                                            </Link>
                                         </div>
                                     </ul>
                                 </div>
@@ -287,9 +339,12 @@ export const InnerWebPageFooter = () => {
                                 <div>
                                     <ul>
                                         <div className='listwise'>
-                                            <li>cruise</li>
-                                            <li>Activity</li>
-
+                                            <Link to="/cruise" style={{ textDecoration: "none", color: "#C2C2C2" }} >
+                                                <li className='newFooterContentHeadingDiv' > Cruise</li>
+                                            </Link>
+                                            <Link to="/activities" style={{ textDecoration: "none", color: "#C2C2C2" }} >
+                                                <li className='newFooterContentHeadingDiv' >Activity</li>
+                                            </Link>
                                         </div>
                                     </ul>
                                 </div>
@@ -307,21 +362,21 @@ export const InnerWebPageFooter = () => {
                                 <div>
                                     <ul>
                                         <div className='listwise'>
-                                            <li>India</li>
-                                            <li>UAE</li>
-                                            <li>GEM</li>
-                                            <li>SA</li>
+                                            <li className='newFooterContentHeadingDiv' >India</li>
+                                            <li className='newFooterContentHeadingDiv' >UAE</li>
+                                            <li className='newFooterContentHeadingDiv' >GEM</li>
+                                            <li className='newFooterContentHeadingDiv' >SA</li>
                                         </div>
                                     </ul>
                                 </div>
 
                                 <div>
                                     <ul>
-                                        <div className='listwise1'>
-                                            <li>123-456-789</li>
-                                            <li>123-456-789</li>
-                                            <li>123-456-789</li>
-                                            <li>123-456-789</li>
+                                        <div className='listwise'>
+                                            <li className='newFooterContentHeadingDiv' >123-456-789</li>
+                                            <li className='newFooterContentHeadingDiv' >123-456-789</li>
+                                            <li className='newFooterContentHeadingDiv' >123-456-789</li>
+                                            <li className='newFooterContentHeadingDiv' >123-456-789</li>
                                         </div>
                                     </ul>
                                 </div>
@@ -338,50 +393,62 @@ export const InnerWebPageFooter = () => {
                             </ul>
                             <div style={{ display: "flex", flexDirection: "row" }}>
                                 <div className='weacceptinnerdiv'>
-                                    <div>
-                                        <img src="Images/innerwebpagefooter/Group 2000.png " ></img>
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2000.png " alt='payment gateway image' ></img>
                                     </div>
-                                    <div>
-                                        <img src="Images/innerwebpagefooter/Group 2001.png "></img>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2001.png " alt='payment gateway image' ></img>
                                     </div>
-                                    <div>
-                                        <img src="Images/innerwebpagefooter/Group 2004.png " ></img>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2004.png " alt='payment gateway image' ></img>
                                     </div>
-                                    <div>
-                                        <img src="Images/innerwebpagefooter/Group 2003.png " ></img>
-                                    </div>
-                                </div>
-                                <div className='weacceptinnerdiv'>
-                                    <div>
-                                        <img src="Images/innerwebpagefooter/Group 2062.png " ></img>
-                                    </div>
-                                    <div>
-                                        <img src="Images/innerwebpagefooter/Group 2061.png "></img>
-                                    </div>
-                                    <div>
-                                        <img src="Images/innerwebpagefooter/Group 2063.png " ></img>
-                                    </div>
-                                    <div>
-                                        <img src="Images/innerwebpagefooter/Group 2064.png " ></img>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2003.png " alt='payment gateway image'  ></img>
                                     </div>
                                 </div>
+
                                 <div className='weacceptinnerdiv'>
-                                    <div>
-                                        <img src="Images/innerwebpagefooter/Group 2065.png " ></img>
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2062.png " alt='payment gateway image'  ></img>
                                     </div>
-                                    <div>
-                                        <img src="Images/innerwebpagefooter/Group 2007.png "></img>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2061.png " alt='payment gateway image' ></img>
+                                    </div>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2063.png " alt='payment gateway image'  ></img>
+                                    </div>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2064.png " alt='payment gateway image'  ></img>
+                                    </div>
+                                </div>
+
+                                <div className='weacceptinnerdiv'>
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2065.png " alt='payment gateway image'  ></img>
+                                    </div>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2007.png " alt='payment gateway image' ></img>
                                     </div>
 
                                 </div>
                             </div>
                         </div>
+
+                        <p className='copyrightdiv'>©2022 Travalflap | Global Product</p>
+
                     </div>
 
                     <div className='footerlogolastdiv'>
-                        <div>
-                         <p className='copyrightdiv'>©2022 Travalflap | Global Product</p>
-                        </div>
+                        {/* <div>
+                            <p className='copyrightdiv'>©2022 Travalflap | Global Product</p>
+                        </div> */}
                         {/* <div className='footerlogoinnerdiv'>
                         <div className=''>
                                 <img  src='Images/innerwebpagefooter/Group 2051.png ' />
@@ -398,13 +465,15 @@ export const InnerWebPageFooter = () => {
                                 <img className='' src='Images/innerwebpagefooter/visafetch.png' />
                             </div>
                         </div> */}
-                        <div className='innerwebpageFooter'>
+                        {/* <div className='innerwebpageFooter'>
+                            <p className='copyrightdiv'>©2022 Travalflap | Global Product</p>
+
                             <div className='innerwebpageFooterDiv'>
                                 <div className='innerwebpageFooterImages'>
                                     <img className='innerwebpageFooterTravelFlap' src='Images/NewHomeLayout/FooterContent/TravelFlap.png' />
                                 </div>
                                 <div className='innerwebpageFooterImages'>
-                                    <img className='innerwebpageFooterBlueberry' src='Images/NewHomeLayout/FooterContent/BBT.webp'/>
+                                    <img className='innerwebpageFooterBlueberry' src='Images/NewHomeLayout/FooterContent/BBT.webp' />
                                 </div>
                                 <div className='innerwebpageFooterImages'>
                                     <img className='innerwebpageFooterNextHolidays' src='Images/NewHomeLayout/FooterContent/NextHolidaysNew.png' />
@@ -413,7 +482,7 @@ export const InnerWebPageFooter = () => {
                                     <img className='innerwebpageFooterVisaFetch' src='Images/NewHomeLayout/FooterContent/visafetch (1).png' />
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
 
