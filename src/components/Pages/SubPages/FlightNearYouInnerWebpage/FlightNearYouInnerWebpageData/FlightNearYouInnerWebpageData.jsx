@@ -1,7 +1,14 @@
+import React,{useState} from 'react';
 import './FlightNearYouInnerWebpageData.css'
+import {FaPlane } from "react-icons/fa";
 
 
 export const FlightNearYouInnerWebpageData = () => {
+    const[showtab, setShowtab]= useState(1);
+
+    const handletab = (e)=>{
+        setShowtab(e);
+          }
 
     return (
             <>
@@ -75,16 +82,17 @@ export const FlightNearYouInnerWebpageData = () => {
                         </div>
                     </div>
                     <div className='flightNearYouInnerWebpageDataDetails'>
+                        
                         <div className='flightNearYouInnerWebpageDataDetailsButtons'>
-                            <div className='flightNearinnerBest'>
+                            <div className= {showtab===1? "flightNearinnerBest active": "flightNearinnerBest" }  onClick={()=>handletab(1)}>
                                 <h3>Best</h3>
                                 <p>₹ 3,596 : 1Hrs 13Min</p>
                             </div>
-                            <div className='flightNearinnerCheap'>
+                            <div className= {showtab===2? "flightNearinnerCheap active": "flightNearinnerCheap" }  onClick={()=>handletab(2)}>
                                 <h3>Cheapest</h3>
                                 <p>₹ 3,596 : 1Hrs 13Min</p>
                             </div>
-                            <div className='flightNearinnerFast'>
+                            <div className= {showtab===3? "flightNearinnerFast active": "flightNearinnerFast" }  onClick={()=>handletab(3)}>
                                 <h3>Fastest</h3>
                                 <p>₹ 3,596 : 1Hrs 13Min</p>
                             </div>
@@ -92,8 +100,49 @@ export const FlightNearYouInnerWebpageData = () => {
 
 
                     <div className='flightNearYouinnerpageFlightDetails'>
-                        <div className='flightNearYouFlightDetails'>
+
+                         {/* <div className='flightNearYouinnerPageDatesOptions'>
+
+                         </div> */}
+
+                <div class="tab-content text-dark" id="pills-tabContent">
+                     <div  className= { showtab===1 ? "tab-pane fade show active":"tab-pane fade show"} style={{textDecoration:"none",borderBottom:"none"}}> 
+                         <div className='flightNearYouFlightDetails'>
                                 <div className='flightNearinnerpagedetails'>
+                                    <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightlogos'>
+                                        <img src='Images/Partners Logos/Air India.png' />
+                                    </div>
+                                    <div className='flightNearinnerpagenames'>
+                                        01:45AM testttt
+                                        <br />
+                                        <p style={{ color: "gray" }}>JAI</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightTimming'>
+                                        2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                    </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
+                                    <div className='flightNearinnerpagedetailsflightStops'>
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightPrice'>
+                                    $2500    
+                                    </div>
+
+                                    
+                                </div>
+                                <div className='flightNearinnerpagedetails'>
+                                     <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option2" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
                                     <div className='flightNearinnerpagedetailsflightlogos'>
                                         <img src='Images/Partners Logos/Air India.png' />
                                     </div>
@@ -105,39 +154,83 @@ export const FlightNearYouInnerWebpageData = () => {
                                     <div className='flightNearinnerpagedetailsflightTimming'>
                                         2Hrs  10Minutes
                                         <br/>
-                                        <p style={{ color: "gray" }}>Direct</p>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
                                     </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
                                     <div className='flightNearinnerpagedetailsflightStops'>
                                         03:45AM
                                         <br />
                                         <p style={{ color: "gray" }}>Delhi</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightPrice'>
-                                        $2500
+                                        
+                                        <button className='flightNearinnerpageViewallDealsButton'>View all Deals</button>
                                         <button className='flightNearinnerpageBooknowButton'>Book Now</button>
                                     </div>
 
                                     
                                 </div>
+                         </div>
+                         
+
+                         <div className='flightNearYouFlightDetails'>
                                 <div className='flightNearinnerpagedetails'>
+                                    <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
                                     <div className='flightNearinnerpagedetailsflightlogos'>
                                         <img src='Images/Partners Logos/Air India.png' />
                                     </div>
                                     <div className='flightNearinnerpagenames'>
                                         01:45AM
                                         <br />
-                                        <p style={{ color: "gray" }}>Air India</p>
+                                        <p style={{ color: "gray" }}>JAI</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightTimming'>
                                         2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
                                     </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
                                     <div className='flightNearinnerpagedetailsflightStops'>
                                         03:45AM
                                         <br />
                                         <p style={{ color: "gray" }}>Delhi</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightPrice'>
-                                        $2500
+                                    $2500    
+                                    </div>
+
+                                    
+                                </div>
+                                <div className='flightNearinnerpagedetails'>
+                                     <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightlogos'>
+                                        <img src='Images/Partners Logos/Air India.png' />
+                                    </div>
+                                    <div className='flightNearinnerpagenames'>
+                                        01:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>JAI</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightTimming'>
+                                        2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                    </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
+                                    <div className='flightNearinnerpagedetailsflightStops'>
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightPrice'>
+                                        
+                                        <button className='flightNearinnerpageViewallDealsButton'>View all Deals</button>
                                         <button className='flightNearinnerpageBooknowButton'>Book Now</button>
                                     </div>
 
@@ -147,48 +240,195 @@ export const FlightNearYouInnerWebpageData = () => {
 
                          <div className='flightNearYouFlightDetails'>
                                 <div className='flightNearinnerpagedetails'>
+                                    <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
                                     <div className='flightNearinnerpagedetailsflightlogos'>
                                         <img src='Images/Partners Logos/Air India.png' />
                                     </div>
                                     <div className='flightNearinnerpagenames'>
                                         01:45AM
                                         <br />
-                                        <p style={{ color: "gray" }}>Air India</p>
+                                        <p style={{ color: "gray" }}>JAI</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightTimming'>
                                         2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
                                     </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
                                     <div className='flightNearinnerpagedetailsflightStops'>
                                         03:45AM
                                         <br />
                                         <p style={{ color: "gray" }}>Delhi</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightPrice'>
-                                        $2500
-                                        <button className='flightNearinnerpageBooknowButton'>Book Now</button>
+                                    $2500    
                                     </div>
 
                                     
                                 </div>
                                 <div className='flightNearinnerpagedetails'>
+                                     <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
                                     <div className='flightNearinnerpagedetailsflightlogos'>
                                         <img src='Images/Partners Logos/Air India.png' />
                                     </div>
                                     <div className='flightNearinnerpagenames'>
                                         01:45AM
                                         <br />
-                                        <p style={{ color: "gray" }}>Air India</p>
+                                        <p style={{ color: "gray" }}>JAI</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightTimming'>
                                         2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
                                     </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
                                     <div className='flightNearinnerpagedetailsflightStops'>
                                         03:45AM
                                         <br />
                                         <p style={{ color: "gray" }}>Delhi</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightPrice'>
-                                        $2500
+                                        
+                                        <button className='flightNearinnerpageViewallDealsButton'>View all Deals</button>
+                                        <button className='flightNearinnerpageBooknowButton'>Book Now</button>
+                                    </div>
+
+                                    
+                                </div>
+                         </div>
+                     </div>
+
+                     <div  className= { showtab===2 ? "tab-pane fade show active":"tab-pane fade show"} style={{textDecoration:"none",borderBottom:"none"}}> 
+                         <div className='flightNearYouFlightDetails'>
+                                <div className='flightNearinnerpagedetails'>
+                                    <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightlogos'>
+                                        <img src='Images/Partners Logos/Air India.png' />
+                                    </div>
+                                    <div className='flightNearinnerpagenames'>
+                                        01:45AM test1
+                                        <br />
+                                        <p style={{ color: "gray" }}>JAI</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightTimming'>
+                                        2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                    </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
+                                    <div className='flightNearinnerpagedetailsflightStops'>
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightPrice'>
+                                    $2500    
+                                    </div>
+
+                                    
+                                </div>
+                                <div className='flightNearinnerpagedetails'>
+                                     <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option2" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightlogos'>
+                                        <img src='Images/Partners Logos/Air India.png' />
+                                    </div>
+                                    <div className='flightNearinnerpagenames'>
+                                        01:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>JAI</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightTimming'>
+                                        2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                    </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
+                                    <div className='flightNearinnerpagedetailsflightStops'>
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightPrice'>
+                                        
+                                        <button className='flightNearinnerpageViewallDealsButton'>View all Deals</button>
+                                        <button className='flightNearinnerpageBooknowButton'>Book Now</button>
+                                    </div>
+
+                                    
+                                </div>
+                         </div>
+                         
+
+                         <div className='flightNearYouFlightDetails'>
+                                <div className='flightNearinnerpagedetails'>
+                                    <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightlogos'>
+                                        <img src='Images/Partners Logos/Air India.png' />
+                                    </div>
+                                    <div className='flightNearinnerpagenames'>
+                                        01:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>JAI</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightTimming'>
+                                        2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                    </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
+                                    <div className='flightNearinnerpagedetailsflightStops'>
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightPrice'>
+                                    $2500    
+                                    </div>
+
+                                    
+                                </div>
+                                <div className='flightNearinnerpagedetails'>
+                                     <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightlogos'>
+                                        <img src='Images/Partners Logos/Air India.png' />
+                                    </div>
+                                    <div className='flightNearinnerpagenames'>
+                                        01:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>JAI</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightTimming'>
+                                        2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                    </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
+                                    <div className='flightNearinnerpagedetailsflightStops'>
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightPrice'>
+                                        
+                                        <button className='flightNearinnerpageViewallDealsButton'>View all Deals</button>
                                         <button className='flightNearinnerpageBooknowButton'>Book Now</button>
                                     </div>
 
@@ -198,59 +438,291 @@ export const FlightNearYouInnerWebpageData = () => {
 
                          <div className='flightNearYouFlightDetails'>
                                 <div className='flightNearinnerpagedetails'>
+                                    <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
                                     <div className='flightNearinnerpagedetailsflightlogos'>
                                         <img src='Images/Partners Logos/Air India.png' />
                                     </div>
                                     <div className='flightNearinnerpagenames'>
                                         01:45AM
                                         <br />
-                                        <p style={{ color: "gray" }}>Air India</p>
+                                        <p style={{ color: "gray" }}>JAI</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightTimming'>
                                         2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
                                     </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
                                     <div className='flightNearinnerpagedetailsflightStops'>
                                         03:45AM
                                         <br />
                                         <p style={{ color: "gray" }}>Delhi</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightPrice'>
-                                        $2500
-                                        <button className='flightNearinnerpageBooknowButton'>Book Now</button>
+                                    $2500    
                                     </div>
 
                                     
                                 </div>
                                 <div className='flightNearinnerpagedetails'>
+                                     <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
                                     <div className='flightNearinnerpagedetailsflightlogos'>
                                         <img src='Images/Partners Logos/Air India.png' />
                                     </div>
                                     <div className='flightNearinnerpagenames'>
                                         01:45AM
                                         <br />
-                                        <p style={{ color: "gray" }}>Air India</p>
+                                        <p style={{ color: "gray" }}>JAI</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightTimming'>
                                         2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
                                     </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
                                     <div className='flightNearinnerpagedetailsflightStops'>
                                         03:45AM
                                         <br />
                                         <p style={{ color: "gray" }}>Delhi</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightPrice'>
-                                        $2500
+                                        
+                                        <button className='flightNearinnerpageViewallDealsButton'>View all Deals</button>
                                         <button className='flightNearinnerpageBooknowButton'>Book Now</button>
                                     </div>
 
                                     
                                 </div>
                          </div>
+                     </div>
+
+                     <div  className= { showtab===3 ? "tab-pane fade show active":"tab-pane fade show"} style={{textDecoration:"none",borderBottom:"none"}}> 
+                         <div className='flightNearYouFlightDetails'>
+                                <div className='flightNearinnerpagedetails'>
+                                    <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightlogos'>
+                                        <img src='Images/Partners Logos/Air India.png' />
+                                    </div>
+                                    <div className='flightNearinnerpagenames'>
+                                        01:45AM test3
+                                        <br />
+                                        <p style={{ color: "gray" }}>JAI</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightTimming'>
+                                        2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                    </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
+                                    <div className='flightNearinnerpagedetailsflightStops'>
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightPrice'>
+                                    $2500    
+                                    </div>
+
+                                    
+                                </div>
+                                <div className='flightNearinnerpagedetails'>
+                                     <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option2" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightlogos'>
+                                        <img src='Images/Partners Logos/Air India.png' />
+                                    </div>
+                                    <div className='flightNearinnerpagenames'>
+                                        01:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>JAI</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightTimming'>
+                                        2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                    </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
+                                    <div className='flightNearinnerpagedetailsflightStops'>
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightPrice'>
+                                        
+                                        <button className='flightNearinnerpageViewallDealsButton'>View all Deals</button>
+                                        <button className='flightNearinnerpageBooknowButton'>Book Now</button>
+                                    </div>
+
+                                    
+                                </div>
+                         </div>
+                         
+
+                         <div className='flightNearYouFlightDetails'>
+                                <div className='flightNearinnerpagedetails'>
+                                    <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightlogos'>
+                                        <img src='Images/Partners Logos/Air India.png' />
+                                    </div>
+                                    <div className='flightNearinnerpagenames'>
+                                        01:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>JAI</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightTimming'>
+                                        2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                    </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
+                                    <div className='flightNearinnerpagedetailsflightStops'>
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightPrice'>
+                                    $2500    
+                                    </div>
+
+                                    
+                                </div>
+                                <div className='flightNearinnerpagedetails'>
+                                     <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightlogos'>
+                                        <img src='Images/Partners Logos/Air India.png' />
+                                    </div>
+                                    <div className='flightNearinnerpagenames'>
+                                        01:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>JAI</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightTimming'>
+                                        2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                    </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
+                                    <div className='flightNearinnerpagedetailsflightStops'>
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightPrice'>
+                                        
+                                        <button className='flightNearinnerpageViewallDealsButton'>View all Deals</button>
+                                        <button className='flightNearinnerpageBooknowButton'>Book Now</button>
+                                    </div>
+
+                                    
+                                </div>
+                         </div>
+
+                         <div className='flightNearYouFlightDetails'>
+                                <div className='flightNearinnerpagedetails'>
+                                    <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightlogos'>
+                                        <img src='Images/Partners Logos/Air India.png' />
+                                    </div>
+                                    <div className='flightNearinnerpagenames'>
+                                        01:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>JAI</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightTimming'>
+                                        2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                    </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
+                                    <div className='flightNearinnerpagedetailsflightStops'>
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightPrice'>
+                                    $2500    
+                                    </div>
+
+                                    
+                                </div>
+                                <div className='flightNearinnerpagedetails'>
+                                     <div className='flightNearinnerOption1'>
+                                    <input type="radio" id="option1" name="" value=""/>
+                                    <label for=""></label><br/>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightlogos'>
+                                        <img src='Images/Partners Logos/Air India.png' />
+                                    </div>
+                                    <div className='flightNearinnerpagenames'>
+                                        01:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>JAI</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightTimming'>
+                                        2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                    </div>
+                                    <div className='flightNearinnerpageplaneIcon'><FaPlane/></div>
+                                    <div className='flightNearinnerpagedetailsflightStops'>
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightPrice'>
+                                        
+                                        <button className='flightNearinnerpageViewallDealsButton'>View all Deals</button>
+                                        <button className='flightNearinnerpageBooknowButton'>Book Now</button>
+                                    </div>
+
+                                    
+                                </div>
+                         </div>
+                     </div>
+
+                </div>
 
                          <button className='innerflightNearYouShowButton'>Show More</button>
                          
                     </div>
+
                     </div>
+
+
+                    {/* <div class="tab-content text-dark" id="pills-tabContent">
+                        <div  className= { showtab===1 ? "tab-pane fade show active":"tab-pane fade show"} style={{textDecoration:"none",borderBottom:"none"}}> 
+                                        <div className='innerVisaChangeableButton'> 
+                                            div 1
+                                        </div>
+                            </div>
+
+                        <div  className= { showtab===2 ? "tab-pane fade show active": "tab-pane fade"} style={{textDecoration:"none",borderBottom:"none"}} >
+                                    <div className='innerVisaChangeableButton'> 
+                                        div 2
+                                    </div>  
+                        </div>
+                   </div> */}
+
                 </div>
             </>
     );

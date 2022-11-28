@@ -67,8 +67,7 @@ export const InnerVisaChangeableData = () => {
 
 
             </ul>
-
-      <div class="tab-content text-dark" id="pills-tabContent">
+<div class="tab-content text-dark" id="pills-tabContent">
            
            <div  className= { showtab===1 ? "tab-pane fade show active":"tab-pane fade show"} style={{textDecoration:"none",borderBottom:"none"}}> 
 
@@ -390,7 +389,8 @@ export const InnerVisaChangeableData = () => {
       
 
 
-     </div>
+      </div>
+      
 
    </div>     
 </div>
