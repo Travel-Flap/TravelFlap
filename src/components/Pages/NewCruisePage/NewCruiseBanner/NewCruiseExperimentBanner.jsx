@@ -75,6 +75,14 @@ export const NewCruiseExperimentBanner = () => {
                 </div>
 
                 {/* <Services /> */}
+                <div className='newFlightsBannerTexts' >
+                <p>Explore the unexplored with
+                    <span>
+                        <i>Travelflap</i>
+                    </span>
+                </p>
+                
+            </div>
             </div>
 
             

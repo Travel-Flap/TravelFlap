@@ -127,10 +127,14 @@ export const NewPopularDestination = () => {
                     </div>
 
                         <div className='newPopularbelowselectdiv'>
-                            <select className='newPopularbelowSelect'>
-                                <option value="international"><Link to="/internationalHolidayssubpage">International Destination</Link></option>
-                                <option value="domestic"><Link to="/domesticHolidays">Domestic Destination</Link></option>
-                            </select>
+                            <div class="btn-group newPopularbelowselectdivbuttons" role="group" aria-label="Basic radio toggle button group">
+
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" />
+                                <label class="btn btn-outline-primary internationalButton" for="btnradio4">International Destinations</label>
+
+                                <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" />
+                                <label class="btn btn-outline-primary DomesticButton" for="btnradio4"> Domestic Destinations</label>
+                            </div>
                             {/* <h5 className='belowInternationalheading'>
                               <Link to="/internationalHolidayssubpage" style={{textDecoration:"none",color:"#393939"}}> International </Link>
                             </h5>

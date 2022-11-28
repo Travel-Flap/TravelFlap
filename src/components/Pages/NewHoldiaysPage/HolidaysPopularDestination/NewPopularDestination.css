@@ -23,15 +23,37 @@
   }
   
   .newPopularbelowselectdiv{
-    /* border: 2px solid red; */
-    width: 100%;
+    /* border: 2px solid gold; */
+    width: 45%;
     height: 35px;
-    /* margin-left: 2.5%; */
-    
     color: #393939;
-    margin-top: -1%;
-    margin-bottom: 1%;
-    
+    margin-left: 30%;
+  }
+  .newPopularbelowselectdivbuttons{
+    /* border: 2px solid red; */
+    width: 90%;
+  }
+  .internationalButton {
+    outline: none;
+    border: 2px solid #3380f2;
+    width: 10%;
+    height: 40px;
+    border-radius: 5px !important;
+    padding-left: 50px;
+    margin-right: 10%;
+    /* margin-left: 10% !important; */
+    text-align: center !important;
+  }
+  
+  .DomesticButton {
+    outline: none;
+    border: 2px solid #3380f2;
+    width: 10%;
+    height: 40px;
+    border-radius: 5px !important;
+    padding-left: 50px;
+    margin-right: 2%;
+    text-align: center !important;
   }
  .newPopularbelowSelect{
   /* border: 2px solid red; */
@@ -59,68 +81,10 @@
     font-size: 28px;
     /* border: 2px solid red; */
   }
-
-  /* .newPopularDestinationsDropContainer {
-    width: 20%;
-    margin-left: 56%;
-    
-    height: 50px;
-    border: 2px solid red;
-    margin-bottom: 1%;
-    display: flex;
-    flex-direction: row;
-  } */
-  /* .newPopularDestinationsDropContainer {
-    width: 14%;
-    margin-left: 60%;
-    margin-top: 0.1%;
-    display: flex;
-    height: 49px !important;
-    flex-direction: row;
-    border-right: none;
-  } */
-  /* .newPopularDestinationsDropContainer:hover .newPopularDestinationsicon{
-    background-color:white;
-    color: #3380F2;
-    cursor: pointer;
-  }
-  .newPopularDestinationsCountryDrop:hover {
-    background-color: white !important;
-    color: #3380F2 !important;
-    font-weight: 700;
-    border: 3px solid #3380F2;
-  }
-  
-  .newPopularDestinationsDropContainer select{
-    background-image: none;
-  }
-  .newPopularDestinationsCountryDrop {
-    border: 3px solid #3380F2 !important;
-    background-color: #3380F2 !important;
-    width: 74% !important;
-    color:white !important;
-    font-weight: 700 !important;
-    font-size: 14px !important;
-    cursor: pointer;
-    border-radius: 25px 0px 0px 25px !important;
-    border-right: none !important;
-    appearance: none !important;
-  }
-  
-  .newPopularDestinationsicon{
-    width: 14%;
-    color: white;
-    border: 3px solid  #3380F2;
-    background-color: #3380F2;
-    height: 49px;
-    font-size: 18px !important;
-    border-radius: 0px 25px 25px 0px;
-    padding-right: 5%;
-    border-left: none;
-  } */
   .newPopularDestinationsSlidercontainer {
     display: flex;
     flex-direction: row;
+    margin-top: 3%;
   }
   
   .newhomeTopCititesSlidercontentdiv {

@@ -555,6 +555,8 @@ export const InnerWebPageFooter = () => {
 
                     <div className='Footercontactinfo'>
 
+                    <p className='copyrightdiv'>©2022 Travalflap | Global Product</p>
+
                         <div className='Learnmorediv'>
                             <ul>
                                 <li>
@@ -651,7 +653,7 @@ export const InnerWebPageFooter = () => {
 
                         </div>
 
-                        <div className='weacceptdiv'>
+                        {/* <div className='weacceptdiv'>
                             <ul>
                                 <li className='listwiseheading1'>
                                     We Accept
@@ -705,9 +707,9 @@ export const InnerWebPageFooter = () => {
 
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <p className='copyrightdiv'>©2022 Travalflap | Global Product</p>
+                        {/* <p className='copyrightdiv'>©2022 Travalflap | Global Product</p> */}
 
                     </div>
 
@@ -731,8 +733,8 @@ export const InnerWebPageFooter = () => {
                                 <img className='' src='Images/innerwebpagefooter/visafetch.png' />
                             </div>
                         </div> */}
-                        {/* <div className='innerwebpageFooter'>
-                            <p className='copyrightdiv'>©2022 Travalflap | Global Product</p>
+                        <div className='innerwebpageFooter'>
+                            {/* <p className='copyrightdiv'>©2022 Travalflap | Global Product</p> */}
 
                             <div className='innerwebpageFooterDiv'>
                                 <div className='innerwebpageFooterImages'>
@@ -748,10 +750,48 @@ export const InnerWebPageFooter = () => {
                                     <img className='innerwebpageFooterVisaFetch' src='Images/NewHomeLayout/FooterContent/visafetch (1).png' />
                                 </div>
                             </div>
-                        </div> */}
+
+                        </div>
 
                     </div>
 
+                    <div className='innerfooterPaymentOptions'>
+                        <div className='innerfooterPaymentcards'>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2001.png " alt='payment gateway image' ></img>
+                                    </div>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2004.png " alt='payment gateway image' ></img>
+                                    </div>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2062.png " alt='payment gateway image'  ></img>
+                                    </div>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2061.png " alt='payment gateway image' ></img>
+                                    </div>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2063.png " alt='payment gateway image'  ></img>
+                                    </div>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2064.png " alt='payment gateway image'  ></img>
+                                    </div>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2065.png " alt='payment gateway image'  ></img>
+                                    </div>
+
+                                    <div className='newFooterPaymentImages' >
+                                        <img src="Images/innerwebpagefooter/Group 2007.png " alt='payment gateway image' ></img>
+                                    </div>
+
+                        </div>
+                    </div>
                 </div>
             }
 

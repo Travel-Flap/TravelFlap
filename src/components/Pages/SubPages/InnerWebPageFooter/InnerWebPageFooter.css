@@ -193,19 +193,20 @@
 
 .Learnmorediv {
   color: white;
+  margin-left: 5%;
   /* border: 2px solid green; */
 }
 
 .productsdiv {
   color: white;
   /* border: 2px solid goldenrod; */
-  margin-left: 7%;
+  margin-left: 10%;
 }
 
 .contactusdiv {
   color: white;
   /* border: 1px solid red; */
-  margin-left: 7%;
+  margin-left: 10%;
 }
 
 .socialdiv {
@@ -261,8 +262,15 @@
   object-fit: cover;
 }
 
+.newFooterPaymentImages{
+  /* border: 2px solid white; */
+  width: 10%;
+  height:35px;
+  margin-left: 3%;
+}
 .newFooterPaymentImages img{
-  object-fit: cover;
+  height: 25px;
+  width: 100%;
 }
 
 .footerlogolastdiv {
@@ -271,8 +279,9 @@
   display: flex;
   flex-direction: column;
   margin: auto;
-  margin-top: 5% !important;
-  border-top: 2px solid white;
+  width: 90%;
+  /* margin-top: 5% !important; */
+  border-bottom: 0.5px solid rgb(254, 252, 252);
 }
 .footerlogoinnerdiv {
   display: flex;
@@ -281,7 +290,7 @@
 .copyrightdiv {
   color: rgb(194, 194, 194);
   font-size: 12px;
-  margin-left: 7%;
+  /* margin-left: 7%; */
   margin-top: 10%;
   /* text-align: center; */
 }
@@ -303,10 +312,11 @@
   margin-top: 2%;
 }
 .innerwebpageFooterDiv {
-  /* border: 2px solid black; */
+  /* border: 2px solid gold; */
   width: 60%;
   margin-top: -1% !important;
   margin: auto;
+  margin-left: 25%;
   display: flex;
   flex-direction: row;
 }
@@ -373,4 +383,19 @@
   margin-top: 2%;
   margin-left: -60%;
   object-fit: cover;
+}
+.innerfooterPaymentOptions{
+  background-color: #252323;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+}
+.innerfooterPaymentcards{
+  width: 40%;
+  height: 60px;
+  margin-left: 55%;
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+  margin-top: 1%;
 }

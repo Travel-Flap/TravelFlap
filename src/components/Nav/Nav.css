@@ -62,10 +62,10 @@
   cursor: pointer;
   height: 50px;
   width: 150px;
-  margin: 9% 0 0% 50%;
+  margin: 0% 0 0% 50%;
 }
 .logo1 img {
-  height: 50px;
+  height: 80px;
   width: 150px;
 }
 .navbar {

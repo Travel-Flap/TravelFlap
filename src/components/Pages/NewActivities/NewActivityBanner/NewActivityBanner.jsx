@@ -75,9 +75,16 @@ export const NewActivityBanner = () => {
                 </div>
 
                 {/* <Services /> */}
+                
             </div>
 
-            
+            <div className='newFlightsBannerTexts' >
+                <p>Adventures of Life with
+                    <span>
+                        <i>Travelflap</i>
+                    </span>
+                </p>
+            </div>
 
         </div>
 
