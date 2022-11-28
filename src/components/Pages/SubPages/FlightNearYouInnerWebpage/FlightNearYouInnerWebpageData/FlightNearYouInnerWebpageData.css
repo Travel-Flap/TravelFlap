@@ -1,7 +1,7 @@
 .flightNearYouInnerWebpageDataMainDiv{
     /* border: 2px solid black; */
     width: 90%;
-    height: 800px;
+    height: auto;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -9,7 +9,7 @@
 .flightNearYouInnerWebpageDataFiltersDiv{
     border: 2px solid lightgray;
     width: 30%;
-    height: 800px;
+    height:970px;
     margin-top: 2%;
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -26,28 +26,62 @@
 .flightNearYouInnerWebpageFilter1{
     /* border: 2px solid gold; */
     width: 90%;
-    height: 120px;
+    height: 180px;
     margin-top: 2%;
+}
+.flightNearYouInnerWebpageFilter1 input{
+    /* border: 2px solid red; */
+    margin-top: 1.5%;
+}
+.flightNearYouInnerWebpageFilter1 label{
+    /* border: 2px solid gold; */
+    margin-top: 2.5%;
+    font-size: 18px;
+    height:25px;
 }
 .flightNearYouInnerWebpageFilter2{
     /* border: 2px solid red; */
     width: 90%;
-    height: 120px;
+    height: 180px;
+    margin-top: 4%;
+}
+.flightNearYouInnerWebpageFilter2 input{
+    /* border: 2px solid red; */
+    margin-top: 1.5%;
+}
+.flightNearYouInnerWebpageFilter2 label{
+    /* border: 2px solid gold; */
+    margin-top: 2.5%;
+    font-size: 18px;
+    height:25px;
 }
 .flightNearYouInnerWebpageFilter3{
     /* border: 2px solid red; */
     width: 90%;
     height: 200px;
+    margin-top: 5%;
 }
 .flightNearYouInnerWebpageFilter4{
     /* border: 2px solid red; */
     width: 90%;
-    height: 150px;
+    height: 200px;
+    margin-top: 5%;
+}
+.flightNearYouInnerWebpageFilter4 input{
+    /* border: 2px solid red; */
+    margin-top: 1.5%;
+}
+.flightNearYouInnerWebpageFilter4 label{
+    /* border: 2px solid gold; */
+    margin-top: 2.5%;
+    font-size: 18px;
+    height:25px;
 }
 .flightNearYouInnerWebpageFilter5{
     /* border: 2px solid red; */
     width: 90%;
     height: 250px;
+    margin-top: 5%;
 }
 .flightNearYouInnerWebpageStops{
     font-size: 20px;
@@ -100,11 +134,54 @@
     height: auto;
 }
 .flightNearYouinnerPageDatesOptions{
-    /* border: 2px solid red; */
+    border: 2px solid lightgray;
     width: 95%;
-    height: 100px;
+    height: 80px;
     margin: auto;
     margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.flightNearYouinnerPageDatesOptionsDiv{
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 78px;
+    color: #393939;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    border-right: 1px solid lightgray;
+}
+.flightNearYouinnerPageDatesOptionsDiv1{
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 100px;
+    color: #3380F2;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    border-right:none;
+    /* padding-top: 15px; */
+}
+.flightNearYouinnerPageDatesOptionsDiv1 h4{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10%;
+}
+.flightNearYouinnerPageDatesOptionsDiv1 h6{
+   font-weight: 700;
+   font-size: 14px;
+   color: #3380F2;
+}
+.flightNearYouinnerPageDatesOptionsDiv h4{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10%;
+}
+.flightNearYouinnerPageDatesOptionsDiv h6{
+   font-weight: 700;
+   font-size: 14px;
+   color: gray;
 }
 .flightNearYouInnerWebpageDataDetailsButtons{
     /* border: 2px solid red; */
@@ -123,7 +200,7 @@
     text-align: center;
     font-weight: 700;
     border-right: 2px solid lightgray;
-    border-bottom: 5px solid #3380F2;
+    /* border-bottom: 5px solid #3380F2; */
     color: #393939;
     padding-top: 15px;
     cursor: pointer;
@@ -150,7 +227,9 @@
     padding-top: 15px;
     cursor: pointer;
 }
-
+.active{
+    border-bottom: 5px solid #3380F2;
+}
 .flightNearinnerpagedetails{
     /* border: 1px solid lightgray; */
     border-radius: 5px;

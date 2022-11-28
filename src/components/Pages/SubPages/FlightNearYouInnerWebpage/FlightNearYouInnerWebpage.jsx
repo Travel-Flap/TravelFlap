@@ -10,7 +10,7 @@ export const FlightNearYouInnerWebpage = () => {
               <FlightNearYouInnerWebpageBanner/>
               <FlightNearYouInnerWebpageData/>
                
-              <div style={{marginTop:"10%"}}><InnerWebPageFooter/></div>
+              <div style={{marginTop:"2%"}}><InnerWebPageFooter/></div>
             </>
     );
 }
