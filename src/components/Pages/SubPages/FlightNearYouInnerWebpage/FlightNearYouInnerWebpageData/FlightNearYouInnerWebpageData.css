@@ -167,6 +167,7 @@
     padding-top: 20px;
     font-weight: 600;
     margin-left: -4%;
+    font-size: 18px;
 }
 .flightNearinnerpagedetailsflightTimming{
     /* border: 2px solid red; */
@@ -183,6 +184,7 @@
     text-align: center;
     padding-top: 3.5%;
     font-weight: 600;
+    font-size: 18px;
     border-right: 2px solid lightgray;
 }
 .flightNearinnerpagedetailsflightPrice{

@@ -98,15 +98,19 @@ export const FlightNearYouInnerWebpageData = () => {
                                         <img src='Images/Partners Logos/Air India.png' />
                                     </div>
                                     <div className='flightNearinnerpagenames'>
-                                        01:45AM to 04:25PM
+                                        01:45AM
                                         <br />
-                                        <p style={{ color: "gray" }}>Air India</p>
+                                        <p style={{ color: "gray" }}>JAI</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightTimming'>
                                         2Hrs  10Minutes
+                                        <br/>
+                                        <p style={{ color: "gray" }}>Direct</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightStops'>
-                                        Non Stop
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightPrice'>
                                         $2500
@@ -120,7 +124,7 @@ export const FlightNearYouInnerWebpageData = () => {
                                         <img src='Images/Partners Logos/Air India.png' />
                                     </div>
                                     <div className='flightNearinnerpagenames'>
-                                        01:45AM to 04:25PM
+                                        01:45AM
                                         <br />
                                         <p style={{ color: "gray" }}>Air India</p>
                                     </div>
@@ -128,54 +132,9 @@ export const FlightNearYouInnerWebpageData = () => {
                                         2Hrs  10Minutes
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightStops'>
-                                        Non Stop
-                                    </div>
-                                    <div className='flightNearinnerpagedetailsflightPrice'>
-                                        $2500
-                                        <button className='flightNearinnerpageBooknowButton'>Book Now</button>
-                                    </div>
-
-                                    
-                                </div>
-                         </div>
-
-                         <div className='flightNearYouFlightDetails'>
-                                <div className='flightNearinnerpagedetails'>
-                                    <div className='flightNearinnerpagedetailsflightlogos'>
-                                        <img src='Images/Partners Logos/Air India.png' />
-                                    </div>
-                                    <div className='flightNearinnerpagenames'>
-                                        01:45AM to 04:25PM
+                                        03:45AM
                                         <br />
-                                        <p style={{ color: "gray" }}>Air India</p>
-                                    </div>
-                                    <div className='flightNearinnerpagedetailsflightTimming'>
-                                        2Hrs  10Minutes
-                                    </div>
-                                    <div className='flightNearinnerpagedetailsflightStops'>
-                                        Non Stop
-                                    </div>
-                                    <div className='flightNearinnerpagedetailsflightPrice'>
-                                        $2500
-                                        <button className='flightNearinnerpageBooknowButton'>Book Now</button>
-                                    </div>
-
-                                    
-                                </div>
-                                <div className='flightNearinnerpagedetails'>
-                                    <div className='flightNearinnerpagedetailsflightlogos'>
-                                        <img src='Images/Partners Logos/Air India.png' />
-                                    </div>
-                                    <div className='flightNearinnerpagenames'>
-                                        01:45AM to 04:25PM
-                                        <br />
-                                        <p style={{ color: "gray" }}>Air India</p>
-                                    </div>
-                                    <div className='flightNearinnerpagedetailsflightTimming'>
-                                        2Hrs  10Minutes
-                                    </div>
-                                    <div className='flightNearinnerpagedetailsflightStops'>
-                                        Non Stop
+                                        <p style={{ color: "gray" }}>Delhi</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightPrice'>
                                         $2500
@@ -192,7 +151,7 @@ export const FlightNearYouInnerWebpageData = () => {
                                         <img src='Images/Partners Logos/Air India.png' />
                                     </div>
                                     <div className='flightNearinnerpagenames'>
-                                        01:45AM to 04:25PM
+                                        01:45AM
                                         <br />
                                         <p style={{ color: "gray" }}>Air India</p>
                                     </div>
@@ -200,7 +159,9 @@ export const FlightNearYouInnerWebpageData = () => {
                                         2Hrs  10Minutes
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightStops'>
-                                        Non Stop
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightPrice'>
                                         $2500
@@ -214,7 +175,7 @@ export const FlightNearYouInnerWebpageData = () => {
                                         <img src='Images/Partners Logos/Air India.png' />
                                     </div>
                                     <div className='flightNearinnerpagenames'>
-                                        01:45AM to 04:25PM
+                                        01:45AM
                                         <br />
                                         <p style={{ color: "gray" }}>Air India</p>
                                     </div>
@@ -222,7 +183,60 @@ export const FlightNearYouInnerWebpageData = () => {
                                         2Hrs  10Minutes
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightStops'>
-                                        Non Stop
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightPrice'>
+                                        $2500
+                                        <button className='flightNearinnerpageBooknowButton'>Book Now</button>
+                                    </div>
+
+                                    
+                                </div>
+                         </div>
+
+                         <div className='flightNearYouFlightDetails'>
+                                <div className='flightNearinnerpagedetails'>
+                                    <div className='flightNearinnerpagedetailsflightlogos'>
+                                        <img src='Images/Partners Logos/Air India.png' />
+                                    </div>
+                                    <div className='flightNearinnerpagenames'>
+                                        01:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Air India</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightTimming'>
+                                        2Hrs  10Minutes
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightStops'>
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightPrice'>
+                                        $2500
+                                        <button className='flightNearinnerpageBooknowButton'>Book Now</button>
+                                    </div>
+
+                                    
+                                </div>
+                                <div className='flightNearinnerpagedetails'>
+                                    <div className='flightNearinnerpagedetailsflightlogos'>
+                                        <img src='Images/Partners Logos/Air India.png' />
+                                    </div>
+                                    <div className='flightNearinnerpagenames'>
+                                        01:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Air India</p>
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightTimming'>
+                                        2Hrs  10Minutes
+                                    </div>
+                                    <div className='flightNearinnerpagedetailsflightStops'>
+                                        03:45AM
+                                        <br />
+                                        <p style={{ color: "gray" }}>Delhi</p>
                                     </div>
                                     <div className='flightNearinnerpagedetailsflightPrice'>
                                         $2500

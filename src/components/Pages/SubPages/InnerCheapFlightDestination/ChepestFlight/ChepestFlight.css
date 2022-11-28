@@ -1,0 +1,26 @@
+.ChepestFlightMainDiv{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+
+
+}
+.cheapflightheading1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 3%;
+    margin-top: 1%;
+
+}
+.Flightshowmorebutton{
+    color: white;
+    background-color: #3380F2;
+    width: 40%;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 25%;
+    border: none;
+    margin-top: 1%;
+
+}

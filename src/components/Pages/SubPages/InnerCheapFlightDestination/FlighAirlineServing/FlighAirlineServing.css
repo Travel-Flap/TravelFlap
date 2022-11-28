@@ -1,0 +1,109 @@
+.FlighAirlineServingmaindiv{
+    background-color: #3380F2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 7%; */
+    margin-top:2%;
+    padding: 7%;
+}
+.airlineserving h2{
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.airlineserving p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.customerreviewdiv{
+    display: flex;
+    flex-direction: row;
+
+}
+.indigodiv{
+    background-color: white;
+    border: 1px solid gray ;
+    color: black;
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 700;
+    width: 20%;
+}
+.indigodiv1{
+    
+    border: 1px solid gray ;
+    color: white;
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 4%;
+    width: 20%;
+    
+}
+
+.readaboutindigi h5{
+    font-size: 18px ;
+    font-weight: 700;
+}
+.readaboutindigi h6{
+    font-size: 16px ;
+    font-weight: 700;
+}
+
+.readaboutindigi p{
+    font-size: 14px ;
+    font-weight: 500;
+}
+/* .indigodivpoint{
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 20%
+} */
+.flightrating{
+    /* border: 2px solid white; */
+    /* width: 25%; */
+    display: flex;
+    flex-direction: row;
+}
+
+.indigodivpoint{
+    /* border: 1px solid rebeccapurple; */
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.indigodivpoint1{
+    width: 50%;
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 2.5%;
+}
+
+
+.readaboutindigi{
+    border: 2px solid white;
+    width: 25%;
+    margin-top: 2%;
+    border-left: none;
+    border-right: none;
+
+}
+.ratingpoins{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
+    margin-top: 3%;
+    /* padding: 2%; */
+    margin-left: 8%;
+}
+.reviwemarking{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+}

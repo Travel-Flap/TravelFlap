@@ -2,6 +2,7 @@ import './CheapFlights.css';
 import { useState } from 'react';
 import { FaGlobeAfrica, FaPlaneDeparture, FaAngleDoubleDown, FaAngleDown } from "react-icons/fa";
 import countrydata from '../../../../CountryData.json';
+import {Link} from "react-router-dom";
 
 export const CheapFlights = () => {
 
@@ -885,6 +886,30 @@ export const CheapFlights = () => {
                         </div> */}
 
                         <div className='cheapflightdetailsContainerDiv'>
+
+                        <Link to="/cheapflight" style={{textDecoration:"none"}}>
+                            <div className='cheapflightdetails'>
+                                <div className='cheapflightdetailsflightlogos'>
+                                    <img src='Images/Partners Logos/Air India.png' />
+                                </div>
+                                <div className='cheapflightnames'>
+                                    01:45AM to 04:25PM
+                                    <br />
+                                    <p style={{ color: "gray" }}>Air India</p>
+                                </div>
+                                <div className='cheapflightdetailsflightTimming'>
+                                    2Hrs  10Minutes
+                                </div>
+                                <div className='cheapflightdetailsflightStops'>
+                                    Non Stop
+                                </div>
+                                <div className='cheapflightdetailsflightPrice'>
+                                    $2500
+                                    <button className='cheapflightBooknowButton'>Book Now</button>
+                                </div>
+                            </div>
+                        </Link>
+
                             <div className='cheapflightdetails'>
                                 <div className='cheapflightdetailsflightlogos'>
                                     <img src='Images/Partners Logos/Air India.png' />
@@ -926,6 +951,8 @@ export const CheapFlights = () => {
                                     <button className='cheapflightBooknowButton'>Book Now</button>
                                 </div>
                             </div>
+
+                            
                             <div className='cheapflightdetails'>
                                 <div className='cheapflightdetailsflightlogos'>
                                     <img src='Images/Partners Logos/Air India.png' />
@@ -946,26 +973,7 @@ export const CheapFlights = () => {
                                     <button className='cheapflightBooknowButton'>Book Now</button>
                                 </div>
                             </div>
-                            <div className='cheapflightdetails'>
-                                <div className='cheapflightdetailsflightlogos'>
-                                    <img src='Images/Partners Logos/Air India.png' />
-                                </div>
-                                <div className='cheapflightnames'>
-                                    01:45AM to 04:25PM
-                                    <br />
-                                    <p style={{ color: "gray" }}>Air India</p>
-                                </div>
-                                <div className='cheapflightdetailsflightTimming'>
-                                    2Hrs  10Minutes
-                                </div>
-                                <div className='cheapflightdetailsflightStops'>
-                                    Non Stop
-                                </div>
-                                <div className='cheapflightdetailsflightPrice'>
-                                    $2500
-                                    <button className='cheapflightBooknowButton'>Book Now</button>
-                                </div>
-                            </div>
+                           
 
                             <div className='cheapflightdetails'>
                                 <div className='cheapflightdetailsflightlogos'>

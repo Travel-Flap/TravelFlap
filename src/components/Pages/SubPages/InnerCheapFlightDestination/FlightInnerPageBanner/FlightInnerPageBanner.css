@@ -1,0 +1,12 @@
+ .BannerDiv {
+    object-fit: cover;
+    background-size: auto;
+    height: 450px;
+    /* border: 2px solid red; */
+  }
+ .Bannerimage{
+    height: 450px;
+    filter: brightness(0.6);
+ }
+  
+  
