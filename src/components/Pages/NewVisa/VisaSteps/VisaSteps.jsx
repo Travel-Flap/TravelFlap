@@ -6,7 +6,7 @@ export const VisaSteps = () => {
         <div>
             <div className='newVisaSteps'>
                 <h5>Wanna Get your visa follow these Easy Steps </h5>
-                <img src='Images/InnerVisaPage/Visa (1).png' alt='easy visa steps image' />
+                <img src='Images/InnerVisaPage/Visa (3).png' alt='easy visa steps image' />
             </div>
         </div>
     )

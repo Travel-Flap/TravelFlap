@@ -137,9 +137,9 @@ export const NewHolidayBannerForm = () => {
                                 </div>
 
                                 <div className='singleNewHolidaysBannerdropcontainer1'>
-                                    <h5>Select State</h5>
+                                    <h5>Select City</h5>
                                     <select className="form-select holidayform" onChange={(e) => handlestate(e)} aria-label="Default select example" style={{ color: "grey", fontSize: "15px", width: "100%", border: "2px solid #dddddd78" }}>
-                                        <option value="" style={{ textAlign: "center" }}>Select State</option>
+                                        <option value="" style={{ textAlign: "center" }}>Select City</option>
                                         {
                                             state.map((getstate, index) => (
                                                 <option value={getstate.state_id} key={index}>{getstate.state_name}</option>

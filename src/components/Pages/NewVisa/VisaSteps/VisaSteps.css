@@ -9,6 +9,7 @@
     font-weight: 700;
     margin-left: 5%;
     font-size: 28px;
+    margin-top: 2%;
 }
 
 .newVisaSteps img{
@@ -16,5 +17,6 @@
     width: 80%;
     height: 200px;
     margin-left: 10%;
+    margin-top: 2%;
     /* border: 1px solid red; */
 }
