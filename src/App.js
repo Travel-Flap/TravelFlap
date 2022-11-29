@@ -53,6 +53,9 @@ import { PopularDestination1 } from "./components/Pages/SubPages/PopularDestinat
 import { FlightNearYouInnerWebpage } from "./components/Pages/SubPages/FlightNearYouInnerWebpage/FlightNearYouInnerWebpage";
 import { InnerCheapFlightDestination } from "./components/Pages/SubPages/InnerCheapFlightDestination/InnerCheapFlightDestination";
 import { RentalsInnerPage1 } from "./components/Pages/NewRentalsPage/RentalsInnerPage1/RentalsInnerPage1";
+import { ActivitiesInnerWebPage } from "./components/Pages/SubPages/ActivitiesInnerWebPage/ActivitiesInnerWebPage";
+import { PopularDestination0 } from "./components/Pages/SubPages/PopularDestination0/PopularDestination0";
+
         
 
 function App() {
@@ -145,7 +148,9 @@ function App() {
           element={<InnerPopularDestination2 />}
         />
 
-        <Route path="/populardestination" element={<PopularDestination1/>}/>
+         
+        <Route path="/populardestination" element={<PopularDestination0/>}/>
+        <Route path="/populardestination1" element={<PopularDestination1/>}/>
 
         {/* These Routes here are for the  Admin page */}
 
@@ -162,6 +167,7 @@ function App() {
 
         <Route path="/easyvisainnerpage" element={<InnerVisaPage1 />} />
 
+        <Route path="/activitiesInnerpage" element={<ActivitiesInnerWebPage/>}/>
         {/* <Route path="/staycations" element={ <Staycations/>} /> */}
 
         {/* <Route path="/contact" element={<ContactUS/>}/> */}

@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './BestTrendingActivities.css';
 import { Button } from 'react-bootstrap';
+import {Link} from "react-router-dom";
 
 
 // import "/src/App.css";
@@ -26,6 +27,8 @@ export default class NewTrendingActivities extends Component {
                     <h2>Trending Activities</h2>
                 </div>
                 <Slider {...settings} className="multiCardSlider">
+
+                    <Link to="/activitiesInnerpage">
                     <div className="card-wrapper newWorldActivitywrapper">
                         <div className="card newMultisection_Activityimage">
                             <div className="card-image newWorldActivitycardImage">
@@ -42,6 +45,7 @@ export default class NewTrendingActivities extends Component {
                             </div>
                         </div>
                     </div>
+                    </Link>
 
                     <div className="card-wrapper newWorldActivitywrapper">
                         <div className="card newMultisection_Activityimage">
