@@ -74,7 +74,7 @@
   width: 100%;
   color: #393939;
   font-weight: 400;
-  margin-top: 2%;
+  /* margin-top: 1%; */
   font-size: 14px;
   vertical-align: baseline;
   line-height: 20px;
@@ -88,6 +88,7 @@
   height: 25px;
   padding-top: 0.1px;
   font-size: 14px;
+  margin-top: -1%;
   /* justify-content: center; */
   margin-left: 5%;
 }
