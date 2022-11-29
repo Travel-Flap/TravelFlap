@@ -77,6 +77,7 @@ export const PopularDestinationButton = () => {
                                         </div>
 
                                         <div className='PopularDestinationAboutimageouteriv'>
+
                                             <div className='PopularDestinationAboutimage'>
                                                 <img className='PopularDestinationAboutbox'
 
@@ -91,6 +92,55 @@ export const PopularDestinationButton = () => {
 
                                             </div>
 
+                                            <div className='popularInnerFilterdetails'>
+                                                <div className='popularInnerFilterdetailsflightlogos'>
+                                                    <img src='Images/Partners Logos/Air India.png' />
+                                                </div>
+                                                <div className='popularInnerFilternames'>
+                                                    01:45AM
+                                                    <br />
+                                                    <p style={{ color: "gray" }}>JAI</p>
+                                                </div>
+                                                <div className='popularInnerFilterdetailsflightTimming'>
+                                                    2Hrs  10Minutes
+                                                    <br/>
+                                                    <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                                </div>
+                                                <div className='popularInnerFilterplaneIcon'><FaPlane/></div>
+                                                <div className='popularInnerFilterdetailsflightStops'>
+                                                    03:45AM
+                                                    <br />
+                                                    <p style={{ color: "gray" }}>Delhi</p>
+                                                </div> 
+                                            </div>
+
+                                            <div className='innerpopularoverviewHotelActivityDetails'>
+                                                <div className='innerpopularoverviewHotelDetails'>
+                                                    <h2>Hotel</h2>
+                                                        <div className='innerpopularHotelFilter1'>
+                                                            <h3>Ramada by Wyndham Cappadocia </h3>
+                                                            <p>Ortahisar Belediyesi <FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaStar/> </p>
+                                                            <p>Sun, 22 Jan 2023 - Wed, 25 Jan 2023</p>
+                                                            <h6>Standart Oda</h6>
+                                                            <p>Meal Plan : Breakfast</p>
+                                                            <h6>Room Inclusions:</h6>
+                                                            <ul>
+                                                                <li><p>Breakfast buffet</p></li>
+                                                                <li><p>Free self parking</p></li>
+                                                                <li><p>Free WiFi</p></li>
+                                                            </ul>
+                                                        </div>
+                                                </div>
+                                                <div className='innerpopularoverviewActivityDetails'>
+                                                    <h2>Activities</h2>
+                                                    <div className='innerpopularoverviewActivitiesFilter1'>
+                                                        <h6>Turkish Night and Belly Dance Show</h6>
+                                                        <p>Cappadocia, Turkey</p>
+                                                        <p>Enjoy an unforgettable night out as you take your seat for the Turkish Night Show, an immersive and entertaining show which highlights the dance traditions of various regions of Turkey.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                             <div className='PopularDestinationAboutimage'>
                                                 <img className='PopularDestinationAboutbox'
 
@@ -103,6 +153,14 @@ export const PopularDestinationButton = () => {
                                                         Full Day Istanbul City Tour with Local Lunch</p>
                                                 </div>
                                             </div>
+
+                                            <div className='innerpopularoverviewActivitiesFilter1'>
+                                                <h2 className='innerpopularActivityHeading'>Activities</h2>
+                                                <h6>Turkish Night and Belly Dance Show</h6>
+                                                <p>Cappadocia, Turkey</p>
+                                                <p>Enjoy an unforgettable night out as you take your seat for the Turkish Night Show, an immersive and entertaining show which highlights the dance traditions of various regions of Turkey.</p>
+                                            </div>
+
                                             <div className='PopularDestinationAboutimage'>
                                                 <img className='PopularDestinationAboutbox'
 
@@ -128,9 +186,57 @@ export const PopularDestinationButton = () => {
                                                         Transfer to Istanbul Airport for flight (on own) to Cappadocia</p>
                                                 </div>
                                             </div>
-                                        </div>
 
-                                        
+                                            <div className='popularInnerFilterdetails'>
+                                                <div className='popularInnerFilterdetailsflightlogos'>
+                                                    <img src='Images/Partners Logos/Air India.png' />
+                                                </div>
+                                                <div className='popularInnerFilternames'>
+                                                    01:45AM
+                                                    <br />
+                                                    <p style={{ color: "gray" }}>JAI</p>
+                                                </div>
+                                                <div className='popularInnerFilterdetailsflightTimming'>
+                                                    2Hrs  10Minutes
+                                                    <br/>
+                                                    <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                                </div>
+                                                <div className='popularInnerFilterplaneIcon'><FaPlane/></div>
+                                                <div className='popularInnerFilterdetailsflightStops'>
+                                                    03:45AM
+                                                    <br />
+                                                    <p style={{ color: "gray" }}>Delhi</p>
+                                                </div> 
+                                            </div>
+
+                                            <div className='innerpopularoverviewHotelActivityDetails'>
+                                                <div className='innerpopularoverviewHotelDetails'>
+                                                    <h2>Hotel</h2>
+                                                        <div className='innerpopularHotelFilter1'>
+                                                            <h3>Ramada by Wyndham Cappadocia </h3>
+                                                            <p>Ortahisar Belediyesi <FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaStar/> </p>
+                                                            <p>Sun, 22 Jan 2023 - Wed, 25 Jan 2023</p>
+                                                            <h6>Standart Oda</h6>
+                                                            <p>Meal Plan : Breakfast</p>
+                                                            <h6>Room Inclusions:</h6>
+                                                            <ul>
+                                                                <li><p>Breakfast buffet</p></li>
+                                                                <li><p>Free self parking</p></li>
+                                                                <li><p>Free WiFi</p></li>
+                                                            </ul>
+                                                        </div>
+                                                </div>
+                                                <div className='innerpopularoverviewActivityDetails'>
+                                                    <h2>Activities</h2>
+                                                    <div className='innerpopularoverviewActivitiesFilter1'>
+                                                        <h6>Turkish Night and Belly Dance Show</h6>
+                                                        <p>Cappadocia, Turkey</p>
+                                                        <p>Enjoy an unforgettable night out as you take your seat for the Turkish Night Show, an immersive and entertaining show which highlights the dance traditions of various regions of Turkey.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
                                     </div>
 
                                     <div  style={{height:"550px",width:"30%"}}>
@@ -614,8 +720,6 @@ export const PopularDestinationButton = () => {
                                                 </div>
                                             </div>
                                         </div>
-
-                                        
                                     </div>
 
                                     <div  style={{height:"550px",width:"30%"}}>

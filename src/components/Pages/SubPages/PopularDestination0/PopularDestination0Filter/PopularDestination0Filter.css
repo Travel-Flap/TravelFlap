@@ -1,0 +1,104 @@
+.PopularDestination0Filtermaindiv{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    /* border: 2px solid red; */
+    z-index: 1;
+    padding-top: 2%;
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    position: absolute;
+   margin-top: -3%;
+   margin-left: 10%;
+   background-color: white;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.budgetdiv{
+    /* border:  2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-left: 3%;
+}
+
+.budgetdiv h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20%;
+}
+.budgetdiv p{
+    font-size: 13px;
+    font-weight: 500;
+    /* margin-top: 20%; */
+    margin-left: 10%;
+    /* padding-top: 10%; */
+
+
+}
+
+
+.valuerange{
+ width : 100%;
+}
+.duretiondiv{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid pink; */
+
+}
+.persondiv{
+    font-size: 13px;
+    font-weight: 500;
+    /* border: 2px solid yellow; */
+    margin-top: 4%;
+    /* padding-top: 5%; */
+    margin-left: 2%;
+    width: 100%;
+    
+    
+    
+}
+.hotelchoice{
+    /* border:  2px solid green; */
+    margin-left: 2%;
+}
+
+.hotelchoicestar{
+    /* border: 2px solid green ; */
+    display: flex;
+    flex-direction: row;
+
+}
+ .hotelchoicedropdown{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+    width: 40%;
+ }
+ .selectoptiondiv{
+    /* color: black; */
+    border: 1px solid #5D6771;
+    width: 50%;
+    margin-left: 5%;
+ }
+ .selectoptiondiv1{
+    color: black;
+    border: 1px solid #5D6771;
+    /* width: 100%; */
+    margin-left: 5%;
+ }
+
+ .hotelrating{
+    border: 1px solid #5D6771;
+
+    margin-bottom: 15%;
+    width: 40%;
+    height: 25px;
+    margin-left: 7%;
+    font-weight: 500;
+    color: #5D6771;
+    
+ }
