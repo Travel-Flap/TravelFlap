@@ -1,0 +1,163 @@
+.cheapCarRentalsMainOuterDiv {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.cheapCarRentalsHeadingDiv h3 {
+  font-size: 25px;
+  line-height: 20px;
+  vertical-align: baseline;
+  font-weight: 600;
+}
+
+.cheapCarRentalsFilterDiv {
+  /* border: 1px solid black; */
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.cheapCarRentalsFilterDiv select {
+  margin-right: 1%;
+  margin-top: 2%;
+  /* border: 1px solid red; */
+}
+
+.cheapCarRentalsCardsInnerDiv1 {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  column-gap: 25px;
+}
+
+.cheapCarRentalsCardsInnerDiv2 {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+  column-gap: 25px;
+}
+
+.cheapCarRentalsInnerDiv {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.cheapCarRentalsInnerDiv img {
+  object-fit: cover;
+  width: 60%;
+  margin: auto;
+  margin-top: 4%;
+  /* left: 2%; */
+}
+
+.cheapCarRentalsBookButton {
+  justify-content: center;
+  width: 100%;
+}
+
+.cheapCarRentalCardHeadingDiv {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.cheapCarRentalCardHeadingDiv h5 {
+  /* border: 1px solid black; */
+  width: 100%;
+  color: #393939;
+  font-weight: 400;
+  margin-top: 2%;
+  font-size: 14px;
+  vertical-align: baseline;
+  line-height: 20px;
+  column-gap: 3px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cheapCarRentalCardHeadingDiv button {
+  /* border: 1px solid red; */
+  height: 25px;
+  padding-top: 0.1px;
+  font-size: 14px;
+  /* justify-content: center; */
+  margin-left: 5%;
+}
+
+.cheapCarRentalsCarDetailsDiv {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  /* margin-left: -6%; */
+  background-color: #DAE9FF;
+}
+
+.cheapCarRentalsDetailsInnerDiv1 {
+  border-right: 2px solid #393939;
+  width: 32%;
+  row-gap: 1px;
+  height: 60px;
+  text-align: center;
+}
+
+.cheapCarPrice {
+  /* border: 1px solid brown; */
+  bottom: 20%;
+  margin-top: -15%;
+  font-weight: 600;
+  font-size: 17px;
+  color: #393939;
+}
+
+.cheapCarDescription {
+  /* border: 1px solid green; */
+  margin-top: 10% !important;
+  color: #393939;
+}
+
+.cheapCarRentalsDetailsInnerDiv2 {
+  border-right: 2px solid #393939;
+  width: 32%;
+  row-gap: 1px;
+  height: 60px;
+  text-align: center;
+}
+
+.cheapCarRentalsDetailsInnerDiv3 {
+  /* border-right: 2px solid #393939; */
+  width: 32%;
+  row-gap: 1px;
+  height: 60px;
+  text-align: center;
+}
+
+/* .cheapCarRentalsTimeDescDiv{
+    border: 1px solid red;
+} */
+
+.cheapCarRentalPerDayPrice {
+  color: #3380f2;
+  margin-top: 6%;
+  margin-left: 7%;
+}
+
+.cheapCarRentalsDayPeriod{
+    margin-top: -5%;
+    margin-left: 7%;
+    color: #393939;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cheapCarRentalsDayPeriod span{
+    color: gray;
+    
+}

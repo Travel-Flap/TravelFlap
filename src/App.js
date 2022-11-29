@@ -52,6 +52,7 @@ import { HotelBookingPageLayout } from "./components/Pages/NewHotelsPage/HotelsB
 import { PopularDestination1 } from "./components/Pages/SubPages/PopularDestination1/PopularDestination1";
 import { FlightNearYouInnerWebpage } from "./components/Pages/SubPages/FlightNearYouInnerWebpage/FlightNearYouInnerWebpage";
 import { InnerCheapFlightDestination } from "./components/Pages/SubPages/InnerCheapFlightDestination/InnerCheapFlightDestination";
+import { RentalsInnerPage1 } from "./components/Pages/NewRentalsPage/RentalsInnerPage1/RentalsInnerPage1";
         
 
 function App() {
@@ -171,7 +172,13 @@ function App() {
         <Route path="/flightnearyou" element={<FlightNearYouInnerWebpage/>}/>
         <Route path="/hoteldetailspage" element={<HotelsInnerDetailsPage />}/>
         <Route path="/hotelbookingpage" element={<HotelBookingPageLayout />}/>
+
+
+        {/* Routes for the Car Rentals Page */}
+        <Route path="/rentalscarDetails" element={ <RentalsInnerPage1/> } />
+
         <Route path="/contact" element={<ContactUS />} />
+
       </Routes>
     </>
   );

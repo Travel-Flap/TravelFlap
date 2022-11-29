@@ -1,0 +1,26 @@
+.rentalsInnerBannerMainOuterDiv{
+    /* border: 1px solid red; */
+    height: 650px;
+}
+.rentalsInnerBannerMainImageDiv{
+    /* border: 1px solid red; */
+    width: 100%;
+    position: relative;
+}
+
+.rentalsInnerBannerMainImageDiv img{
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    height: 500px;
+    /* height: auto/; */
+}
+
+
+.rentalsInnerPageInputDiv{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+}
+

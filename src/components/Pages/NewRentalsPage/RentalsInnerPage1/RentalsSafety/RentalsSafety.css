@@ -1,0 +1,36 @@
+.rentalsSafetyMainOuterDiv {
+  /* border: 2px solid black; */
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.rentalsSafetyMAinCardDiv {
+  border: none;
+}
+
+.rentalsSafetyContentDIv h5 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: -4%;
+  margin-bottom: 3%;
+}
+
+.rentalsSafetyContentDIv{
+    font-weight: 500;
+    font-size: 23px;
+    vertical-align: baseline;
+    line-height: 28px;
+}
+
+.rentalsSafetyButtonDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+.safetyButton2{
+    margin-left: 4%;
+}
+
+

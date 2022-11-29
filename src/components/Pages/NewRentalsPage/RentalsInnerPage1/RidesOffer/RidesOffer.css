@@ -1,0 +1,60 @@
+.rideOffersMainOterDiv {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: auto;
+}
+
+.rideOffersMainOterDiv h3 {
+  font-weight: 600;
+  vertical-align: baseline;
+  font-size: 25px;
+}
+
+.rideOfferCardsOuterDiv {
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  margin-top: 2%;
+  /* width: 95%;
+    margin: auto; */
+}
+
+.ridesOfferInnerImageDiv {
+  /* border-right: 1px solid red; */
+  border: none;
+  border-right: 1px solid lightgray;
+  height: 250px;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 25%;
+  cursor: pointer;
+
+  /* object-fit: cover; */
+}
+
+.ridesOfferInnerImageDiv img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.ridesOfferInnerImageDiv1 {
+  /* border-right: 1px solid red; */
+  border: none;
+  /* border-right: 1px solid lightgray; */
+  height: 250px;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 25%;
+  cursor: pointer;
+
+  /* object-fit: cover; */
+}
+
+.ridesOfferInnerImageDiv1 img {
+  height: 250px;
+  object-fit: cover;
+}
