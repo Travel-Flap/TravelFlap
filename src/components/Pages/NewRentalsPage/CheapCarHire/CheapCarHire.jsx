@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import './CheapCarHire.css';
 import { Button } from 'react-bootstrap';
 import { CarDataDrop } from './CarDataDrop';
+import { Link } from 'react-router-dom';
 // import "/src/App.css";
 
 export default class CheapCarHire extends Component {
@@ -49,23 +50,26 @@ export default class CheapCarHire extends Component {
                         </div>
                     </div>
 
-                    <div className="card-wrapper newCheapCarHireWrapper">
-                        <div className="card newCheapCarHireImage">
-                            <div className="card-image newCheapCarHireCardImage">
-                                <img src="Images/NewHomeLayout/NewRentals/CheapCarHire/gurugram.webp" />
-                            </div>
-                            <div className="newCheapCarHireDetails">
-                                <h2> Gurugram,Haryana
-                                    {/* <span> */}
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Book your Ride </p>
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
-                                    {/* </span> */}
-                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                </h2>
+
+                    <Link to="/rentalsCarDetails">
+                        <div className="card-wrapper newCheapCarHireWrapper">
+                            <div className="card newCheapCarHireImage">
+                                <div className="card-image newCheapCarHireCardImage">
+                                    <img src="Images/NewHomeLayout/NewRentals/CheapCarHire/gurugram.webp" />
+                                </div>
+                                <div className="newCheapCarHireDetails">
+                                    <h2> Gurugram,Haryana
+                                        {/* <span> */}
+                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Book your Ride </p>
+                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                        {/* </span> */}
+                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    </h2>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
 
                     <div className="card-wrapper newCheapCarHireWrapper">
                         <div className="card newCheapCarHireImage">

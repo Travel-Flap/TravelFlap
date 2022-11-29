@@ -1,0 +1,17 @@
+.rentalsCarHireTips {
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.rentalsCarHireTips h3 {
+  font-weight: 600;
+  font-size: 27px;
+}
+
+.rentalsCarHireTips p {
+  margin-left: 1%;
+  font-weight: 500;
+  font-size: 20px;
+  vertical-align: baseline;
+}

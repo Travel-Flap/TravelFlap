@@ -1,0 +1,26 @@
+.rentalsBookOuterDiv {
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.rentalsBookOuterDiv h3 {
+  font-weight: 600;
+  font-size: 30px;
+  vertical-align: baseline;
+}
+
+.rentalsBookOuterDiv p{
+    color: #393939;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+.rentalsBookOuterDiv img{
+    /* border: 1px solid red; */
+    object-fit: cover;
+    width: 30%;
+    /* height: 35px; */
+}
+
