@@ -32,23 +32,25 @@ export default class CheapCarHire extends Component {
                     </p>
                 </div>
                 <Slider {...settings} className="multiCardSlider">
-                    <div className="card-wrapper newCheapCarHireWrapper">
-                        <div className="card newCheapCarHireImage">
-                            <div className="card-image newCheapCarHireCardImage">
-                                <img src="Images/NewHomeLayout/NewRentals/CheapCarHire/dubai.webp" />
-                            </div>
-                            <div className="newCheapCarHireDetails">
-                                <h2>Dubai,UAE
-                                    {/* <span> */}
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Book your Ride</p>
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
-                                    {/* </span> */}
-                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                </h2>
+                    <Link to="/rentalsCarDetails">
+                        <div className="card-wrapper newCheapCarHireWrapper">
+                            <div className="card newCheapCarHireImage">
+                                <div className="card-image newCheapCarHireCardImage">
+                                    <img src="Images/NewHomeLayout/NewRentals/CheapCarHire/dubai.webp" />
+                                </div>
+                                <div className="newCheapCarHireDetails">
+                                    <h2>Dubai,UAE
+                                        {/* <span> */}
+                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Book your Ride</p>
+                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                        {/* </span> */}
+                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    </h2>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
 
 
                     <Link to="/rentalsCarDetails">
@@ -71,75 +73,84 @@ export default class CheapCarHire extends Component {
                         </div>
                     </Link>
 
-                    <div className="card-wrapper newCheapCarHireWrapper">
-                        <div className="card newCheapCarHireImage">
-                            <div className="card-image newCheapCarHireCardImage">
-                                <img src="Images/NewHomeLayout/NewRentals/CheapCarHire/mumbai.webp" />
-                            </div>
-                            <div className="newCheapCarHireDetails">
-                                <h2> Mumbai,Maharashtra                    {/* <span> */}
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Book your Ride </p>
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
-                                    {/* </span> */}
-                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                </h2>
+                    <Link to="/rentalsCarDetails">
+                        <div className="card-wrapper newCheapCarHireWrapper">
+                            <div className="card newCheapCarHireImage">
+                                <div className="card-image newCheapCarHireCardImage">
+                                    <img src="Images/NewHomeLayout/NewRentals/CheapCarHire/mumbai.webp" />
+                                </div>
+                                <div className="newCheapCarHireDetails">
+                                    <h2> Mumbai,Maharashtra                    {/* <span> */}
+                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Book your Ride </p>
+                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                        {/* </span> */}
+                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    </h2>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="card-wrapper newCheapCarHireWrapper">
-                        <div className="card newCheapCarHireImage">
-                            <div className="card-image newCheapCarHireCardImage">
-                                <img src="Images/NewHomeLayout/NewRentals/CheapCarHire/newyork.webp" />
-                            </div>
-                            <div className="newCheapCarHireDetails">
-                                <h2> New York,USA
-                                    {/* <span> */}
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Book your Ride  </p>
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
-                                    {/* </span> */}
-                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div className="card-wrapper newCheapCarHireWrapper">
-                        <div className="card newCheapCarHireImage">
-                            <div className="card-image newCheapCarHireCardImage">
-                                <img src="Images/NewHomeLayout/NewRentals/CheapCarHire/udaipur.webp" />
-                            </div>
-                            <div className="newCheapCarHireDetails">
-                                <h2> Udaipur,Rajasthan
-                                    {/* <span> */}
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Book your Ride </p>
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
-                                    {/* </span> */}
-                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                </h2>
+                    <Link to="/rentalsCarDetails">
+                        <div className="card-wrapper newCheapCarHireWrapper">
+                            <div className="card newCheapCarHireImage">
+                                <div className="card-image newCheapCarHireCardImage">
+                                    <img src="Images/NewHomeLayout/NewRentals/CheapCarHire/newyork.webp" />
+                                </div>
+                                <div className="newCheapCarHireDetails">
+                                    <h2> New York,USA
+                                        {/* <span> */}
+                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Book your Ride  </p>
+                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                        {/* </span> */}
+                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    </h2>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="card-wrapper newCheapCarHireWrapper">
-                        <div className="card newCheapCarHireImage">
-                            <div className="card-image newCheapCarHireCardImage">
-                                <img src="Images/worldActivitites/BungeeJump.jpg" />
-                            </div>
-                            <div className="newCheapCarHireDetails">
-                                <h2>New Zealand                        {/* <span> */}
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
-                                    <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
-                                    <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
-                                    {/* </span> */}
-                                    {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
-                                </h2>
+                    <Link to="/rentalsCarDetails">
+                        <div className="card-wrapper newCheapCarHireWrapper">
+                            <div className="card newCheapCarHireImage">
+                                <div className="card-image newCheapCarHireCardImage">
+                                    <img src="Images/NewHomeLayout/NewRentals/CheapCarHire/udaipur.webp" />
+                                </div>
+                                <div className="newCheapCarHireDetails">
+                                    <h2> Udaipur,Rajasthan
+                                        {/* <span> */}
+                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Book your Ride </p>
+                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                        {/* </span> */}
+                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    </h2>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
+
+                    <Link to="/rentalsCarDetails">
+                        <div className="card-wrapper newCheapCarHireWrapper">
+                            <div className="card newCheapCarHireImage">
+                                <div className="card-image newCheapCarHireCardImage">
+                                    <img src="Images/worldActivitites/BungeeJump.jpg" />
+                                </div>
+                                <div className="newCheapCarHireDetails">
+                                    <h2>New Zealand                        {/* <span> */}
+                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                        {/* </span> */}
+                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </Link>
                 </Slider>
 
                 <CarDataDrop />

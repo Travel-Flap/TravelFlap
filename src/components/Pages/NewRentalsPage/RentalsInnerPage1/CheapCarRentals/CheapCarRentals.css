@@ -48,7 +48,7 @@
 
 .cheapCarRentalsInnerDiv img {
   object-fit: cover;
-  width: 60%;
+  width: 70%;
   margin: auto;
   margin-top: 4%;
   /* left: 2%; */
@@ -65,6 +65,8 @@
   display: flex;
   flex-direction: row;
   column-gap: 10px;
+  height: 50px;
+  margin-top: 4%;
 }
 
 .cheapCarRentalCardHeadingDiv h5 {
@@ -92,11 +94,11 @@
 
 .cheapCarRentalsCarDetailsDiv {
   /* border: 1px solid red; */
-  width: 100%;
+  width: 106%;
   display: flex;
   flex-direction: row;
   column-gap: 5px;
-  /* margin-left: -6%; */
+  margin-left: -3%;
   background-color: #DAE9FF;
 }
 
@@ -104,22 +106,23 @@
   border-right: 2px solid #393939;
   width: 32%;
   row-gap: 1px;
-  height: 60px;
+  height: 40px;
+  margin-top: 1.5%;
   text-align: center;
 }
 
 .cheapCarPrice {
   /* border: 1px solid brown; */
   bottom: 20%;
-  margin-top: -15%;
+  margin-top: -20%;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 15px;
   color: #393939;
 }
 
 .cheapCarDescription {
   /* border: 1px solid green; */
-  margin-top: 10% !important;
+  margin-top: -2% !important;
   color: #393939;
 }
 
@@ -127,7 +130,8 @@
   border-right: 2px solid #393939;
   width: 32%;
   row-gap: 1px;
-  height: 60px;
+  height: 40px;
+  margin-top: 1.5%;
   text-align: center;
 }
 
@@ -135,7 +139,8 @@
   /* border-right: 2px solid #393939; */
   width: 32%;
   row-gap: 1px;
-  height: 60px;
+  height: 40px;
+  margin-top: 1.5%;
   text-align: center;
 }
 
@@ -145,13 +150,13 @@
 
 .cheapCarRentalPerDayPrice {
   color: #3380f2;
-  margin-top: 6%;
-  margin-left: 7%;
+  margin-top: 8%;
+  margin-left: -2%;
 }
 
 .cheapCarRentalsDayPeriod{
-    margin-top: -5%;
-    margin-left: 7%;
+    margin-top: -6.5%;
+    margin-left: -2%;
     color: #393939;
     font-weight: 600;
     font-size: 14px;
