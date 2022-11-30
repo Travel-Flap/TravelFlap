@@ -88,20 +88,6 @@ export const RentalInnerBannerForm = () => {
             <div id='filter_RentalsInnerPagetrave_container'>
                 <h3 style={{marginLeft:"3%", marginTop:"1%", marginBottom:"2%"}}>Please Fill Details here</h3>
 
-                {/* <div className='multiroundbuttons'>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
-                        <label class="form-check-label" for="inlineRadio1">One Way</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
-                        <label class="form-check-label" for="inlineRadio2">Two Way</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" />
-                        <label class="form-check-label" for="inlineRadio3">Round Trip</label>
-                    </div>
-                </div> */}
 
                 <div className='rentalsInnerPageInputnputmaindiv'>
                     <div className='newRentalsDestinationInputContainer'>

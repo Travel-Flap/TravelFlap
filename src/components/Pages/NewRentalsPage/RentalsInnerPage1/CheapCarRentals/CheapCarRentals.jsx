@@ -73,9 +73,9 @@ export const CheapCarRentals = () => {
                             <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
                             <div class="card-body ">
                                 <div className='cheapCarRentalCardHeadingDiv'>
-                                    <h5 class="card-title"> <BiGasPump style={{ fontSize: "14px" }} /> Diesel </h5>
-                                    <h5 class="card-title"> <GiManualMeatGrinder style={{ fontSize: "14px" }} /> Manual </h5>
-                                    <h5 class="card-title"> <AiOutlineCar style={{ fontSize: "14px" }} /> SUV </h5>
+                                    <h5 class="card-title"> <BiGasPump style={{ fontSize: "16px" }} /> Diesel </h5>
+                                    <h5 class="card-title"> <GiManualMeatGrinder style={{ fontSize: "16px" }} /> Manual </h5>
+                                    <h5 class="card-title"> <AiOutlineCar style={{ fontSize: "16px" }} /> SUV </h5>
                                     <button className='btn btn-primary'> Economy</button>
                                 </div>
 
