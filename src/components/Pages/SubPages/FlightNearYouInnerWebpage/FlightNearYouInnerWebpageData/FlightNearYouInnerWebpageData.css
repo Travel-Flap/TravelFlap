@@ -7,21 +7,24 @@
     flex-direction: row;
 }
 .flightNearYouInnerWebpageDataFiltersDiv{
-    border: 2px solid lightgray;
+    /* border: 2px solid red; */
     width: 30%;
     height:970px;
     margin-top: 2%;
     border-radius: 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 .flightNearYouInnerWebpageDataFilter{
-    /* border: 2px solid lightgray; */
+    border: 2px solid lightgray;
     /* margin-top: 2%; */
     width: 90%;
-    height: 800px;
+    height: 970px;
     margin: auto;
     display: flex;
     flex-direction: column;
+    padding-left: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .flightNearYouInnerWebpageFilter1{
     /* border: 2px solid gold; */

@@ -50,7 +50,7 @@ export const PopularDestination0Filter = () => {
           </div>
         </div>
        </div>
-       {/* <div className='hotelchoicedropdown'>
+       <div className='hotelchoicedropdown'>
         <div className='selectoptiondiv'>
           <select className='selectoptiondiv1'>
             <option value = "true">Flight</option>
@@ -60,25 +60,25 @@ export const PopularDestination0Filter = () => {
             <option value = "4">Flight</option>
           </select>
         </div>
-        <div>
-          <select>
-            <option value = "true">For Couple</option>
+        <div className='selectoptiondiv'>
+          <select className='selectoptiondiv1'>
+            <option value = "true">for Couples</option>
             <option value = "1">Flight</option>
             <option value = "2">Flight</option>
             <option value = "3">Flight</option>
             <option value = "4">Flight</option>
           </select>
         </div>
-        <div>
-          <select>
-            <option value = "true">Similar City</option>
+        <div className='selectoptiondiv'>
+          <select className='selectoptiondiv1'>
+            <option value = "true">Similiar Cities</option>
             <option value = "1">Flight</option>
             <option value = "2">Flight</option>
             <option value = "3">Flight</option>
             <option value = "4">Flight</option>
           </select>
         </div>
-       </div> */}
+       </div>
       </div>
     </div>
   )

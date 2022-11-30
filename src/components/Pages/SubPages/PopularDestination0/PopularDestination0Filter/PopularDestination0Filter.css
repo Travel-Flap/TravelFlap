@@ -72,28 +72,33 @@
 
 }
  .hotelchoicedropdown{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     flex-direction: row;
     margin-left: 3%;
-    width: 40%;
+    width: 50%;
  }
  .selectoptiondiv{
     /* color: black; */
-    border: 1px solid #5D6771;
+    /* border: 1px solid #5D6771; */
     width: 50%;
     margin-left: 5%;
  }
- .selectoptiondiv1{
-    color: black;
-    border: 1px solid #5D6771;
-    /* width: 100%; */
-    margin-left: 5%;
- }
+ 
+ .selectoptiondiv select {
+    background-color: none;
+    color: #393939;
+    margin-top: 3%;
+    width: 90%;
+    border: 1px solid #dddddd75;
+    font-size: 15px;
+    height: 40px;
+    outline: none;
+    /* margin-left: %; */
+  }
 
  .hotelrating{
     border: 1px solid #5D6771;
-
     margin-bottom: 15%;
     width: 40%;
     height: 25px;
