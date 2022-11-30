@@ -67,18 +67,6 @@ export const FlightNearYouInnerWebpageData = () => {
                                   <h5 className='flightNearDurationrangeText'>Budget</h5>
                                   <input type="range" min="1" max="100" value="50" class="flightnearinnerpageslidecontainer"/>
                             </div>
-
-                            {/* <div className='flightNearYouInnerWebpageFilter4'>
-                                  <p className='flightNearYouInnerWebpageStops'>Stop Over Airports</p>
-                                  <input type="radio" value="Ahmedabad"/>
-                                  <label for="html">Ahmedabad</label><br/>
-                                  <input type="radio"   value="Mumbai"/>
-                                  <label for="css">Mumbai</label><br/>
-                                  <input type="radio" id="javascript"  value="Udaipur"/>
-                                  <label for="javascript">Udaipur</label><br/>
-                                  <input type="radio" id="javascript"  value="Jaipur"/>
-                                  <label for="javascript">Jaipur</label>
-                            </div> */}
                         </div>
                     </div>
                     
@@ -135,7 +123,7 @@ export const FlightNearYouInnerWebpageData = () => {
                                         <label for=""></label><br/>
                                         </div>
                                         <div className='flightNearinnerpagedetailsflightlogos'>
-                                            <img src='Images/Partners Logos/Emirates.png' />
+                                            <img src='Images/Partners Logos/Air India.png' />
                                         </div>
                                         <div className='flightNearinnerpagenames'>
                                             01:45AM
@@ -165,7 +153,7 @@ export const FlightNearYouInnerWebpageData = () => {
                                         <label for=""></label><br/>
                                         </div>
                                         <div className='flightNearinnerpagedetailsflightlogos'>
-                                            <img src='Images/Partners Logos/Emirates.png' />
+                                            <img src='Images/Partners Logos/Air India.png' />
                                         </div>
                                         <div className='flightNearinnerpagenames'>
                                             01:45AM
@@ -201,7 +189,7 @@ export const FlightNearYouInnerWebpageData = () => {
                                         <label for=""></label><br/>
                                         </div>
                                         <div className='flightNearinnerpagedetailsflightlogos'>
-                                            <img src='Images/Partners Logos/Emirates.png' />
+                                            <img src='Images/Partners Logos/Air India.png' />
                                         </div>
                                         <div className='flightNearinnerpagenames'>
                                             01:45AM
@@ -231,7 +219,7 @@ export const FlightNearYouInnerWebpageData = () => {
                                         <label for=""></label><br/>
                                         </div>
                                         <div className='flightNearinnerpagedetailsflightlogos'>
-                                            <img src='Images/Partners Logos/Emirates.png' />
+                                            <img src='Images/Partners Logos/Air India.png' />
                                         </div>
                                         <div className='flightNearinnerpagenames'>
                                             01:45AM
@@ -266,7 +254,7 @@ export const FlightNearYouInnerWebpageData = () => {
                                         <label for=""></label><br/>
                                         </div>
                                         <div className='flightNearinnerpagedetailsflightlogos'>
-                                            <img src='Images/Partners Logos/Emirates.png' />
+                                            <img src='Images/Partners Logos/Air India.png' />
                                         </div>
                                         <div className='flightNearinnerpagenames'>
                                             01:45AM
@@ -296,7 +284,7 @@ export const FlightNearYouInnerWebpageData = () => {
                                         <label for=""></label><br/>
                                         </div>
                                         <div className='flightNearinnerpagedetailsflightlogos'>
-                                            <img src='Images/Partners Logos/Emirates.png' />
+                                            <img src='Images/Partners Logos/Air India.png' />
                                         </div>
                                         <div className='flightNearinnerpagenames'>
                                             01:45AM
