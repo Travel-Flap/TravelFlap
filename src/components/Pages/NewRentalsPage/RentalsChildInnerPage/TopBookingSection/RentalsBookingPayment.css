@@ -1,0 +1,120 @@
+.paymentdisplay {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.rentalsPromo {
+  font-size: 18px;
+  margin-top: 5%;
+  font-weight: 600;
+}
+
+.applyRentalsPromocode {
+  margin-bottom: 2%;
+  margin-top: 2%;
+  height: 120px;
+  /* height: 80px; */
+  border: 1px solid gray;
+  border-radius: 7px;
+  width: 100%;
+  /* border-top: none;
+  border-left: none;
+  border-right: none; */
+}
+
+.rentalsPackagePrice {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+}
+
+.rentalsrentalsPaymentdiv {
+  /* border: 1px solid black; */
+  margin-left: 77%;
+  font-weight: 600;
+  position: absolute;
+}
+
+.couponInput {
+  border: 1px solid gray;
+  margin-top: 5%;
+  /* margin-right: 5%; */
+}
+
+.couponButton {
+  border: 1px solid gray;
+  border-left: none;
+  height: 40px;
+  width: 20%;
+  margin-top: 5%;
+  margin-right: 5%;
+  padding-right: 40px;
+}
+
+.paymentRentalsValueBody {
+  /* border: 2px solid red; */
+  /* bottom: 80%; */
+  /* margin-left: 180%; */
+  /* border: none; */
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  width: 100%;
+  position: absolute;
+  margin-left: 10%;
+  top: 2%;
+  border: none;
+}
+
+.rentalsPaymentdiv {
+  /* border: 1px solid red; */
+  text-align: right;
+  margin-left: 15%;
+  font-weight: 700;
+  /* margin-bottom: 10%; */
+}
+
+.sandquerybutton {
+  background-color: white;
+  border: 1px solid gray;
+  color: grey;
+  padding-left: 110px;
+}
+
+.booknowbutton {
+  padding-left: 110px;
+  padding-right: 50px;
+}
+
+.applyRentalsPromocodeparentdiv {
+  margin-left: 4%;
+}
+
+.paymentCarRentalsparentdiv {
+  border: 1px solid gray;
+  border-radius: 7px;
+}
+
+.paymentCarRentalsparentdiv h3{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 4%;
+}
+
+.rentalsCancellationOuterDiv {
+  border: 1px solid gray;
+  border-radius: 7px;
+  margin-top: 3%;
+}
+
+.rentalsCancellationOuterDiv h3 {
+  font-size: 20px;
+  font-weight: 600;
+  vertical-align: baseline;
+  line-height: 20px;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+.rentalsCancellationOuterDiv p {
+  color: #3380f2;
+  margin-left: 3%;
+}

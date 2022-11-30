@@ -293,6 +293,54 @@ export const InnerWebPageFooter = () => {
                                             Switzerland
                                         </li>
                                         </Link>
+
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>USA Visa</li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Vietnam Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Thailand Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Argentina Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Malaysia Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            France Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Egypt Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Iceland Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Greece Visa
+                                        </li>
+                                        </Link>
+
+
+
                                     </div>
                                 </ul>
                             </div>
@@ -376,9 +424,35 @@ export const InnerWebPageFooter = () => {
                                             Switzerland
                                         </li>
                                         </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Argentina Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Malaysia Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            France Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Egypt Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Iceland Visa
+                                        </li>
+                                        </Link>
                                     </div>
                                 </ul>
                             </div>
+
                             <div>
                                 <ul>
                                     <li className='listwiseheading'> Best Holidays Destination </li>
@@ -458,9 +532,34 @@ export const InnerWebPageFooter = () => {
                                             Switzerland
                                         </li>
                                         </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>USA Visa</li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Vietnam Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Thailand Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Argentina Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Malaysia Visa
+                                        </li>
+                                        </Link>
                                     </div>
                                 </ul>
                             </div>
+
                             <div>
                                 <ul>
                                     <li className='listwiseheading'> Best Rentals Destination </li>
@@ -540,6 +639,36 @@ export const InnerWebPageFooter = () => {
                                             Switzerland
                                         </li>
                                         </Link>
+
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}>
+                                            <li>USA Visa</li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Vietnam Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Thailand Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}> <li>
+                                            Argentina Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            Malaysia Visa
+                                        </li>
+                                        </Link>
+
+                                        <Link to="" style={{ textDecoration: "none", color: "#C2C2C2" }}><li>
+                                            France Visa
+                                        </li>
+                                        </Link>
                                     </div>
                                 </ul>
                             </div>
@@ -554,8 +683,6 @@ export const InnerWebPageFooter = () => {
 
 
                     <div className='Footercontactinfo'>
-
-                    <p className='copyrightdiv'>©2022 Travalflap | Global Product</p>
 
                         <div className='Learnmorediv'>
                             <ul>
@@ -653,88 +780,14 @@ export const InnerWebPageFooter = () => {
 
                         </div>
 
-                        {/* <div className='weacceptdiv'>
-                            <ul>
-                                <li className='listwiseheading1'>
-                                    We Accept
-                                </li>
-                            </ul>
-                            <div style={{ display: "flex", flexDirection: "row" }}>
-                                <div className='weacceptinnerdiv'>
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2000.png " alt='payment gateway image' ></img>
-                                    </div>
-
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2001.png " alt='payment gateway image' ></img>
-                                    </div>
-
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2004.png " alt='payment gateway image' ></img>
-                                    </div>
-
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2003.png " alt='payment gateway image'  ></img>
-                                    </div>
-                                </div>
-
-                                <div className='weacceptinnerdiv'>
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2062.png " alt='payment gateway image'  ></img>
-                                    </div>
-
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2061.png " alt='payment gateway image' ></img>
-                                    </div>
-
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2063.png " alt='payment gateway image'  ></img>
-                                    </div>
-
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2064.png " alt='payment gateway image'  ></img>
-                                    </div>
-                                </div>
-
-                                <div className='weacceptinnerdiv'>
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2065.png " alt='payment gateway image'  ></img>
-                                    </div>
-
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2007.png " alt='payment gateway image' ></img>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div> */}
-
-                        {/* <p className='copyrightdiv'>©2022 Travalflap | Global Product</p> */}
-
                     </div>
 
                     <div className='footerlogolastdiv'>
-                        {/* <div>
-                            <p className='copyrightdiv'>©2022 Travalflap | Global Product</p>
-                        </div> */}
-                        {/* <div className='footerlogoinnerdiv'>
-                        <div className=''>
-                                <img  src='Images/innerwebpagefooter/Group 2051.png ' />
-                            </div>
-                            <div className='imageset'>
-                                <img className=''
-                                    src='Images/innerwebpagefooter/BBT_1.png'
-                                />
-                            </div>
-                            <div className=''>
-                                <img className='' src='Images/innerwebpagefooter/logo_minified.png' />
-                            </div>
-                            <div className=''>
-                                <img className='' src='Images/innerwebpagefooter/visafetch.png' />
-                            </div>
-                        </div> */}
+
+                        <p className='copyrightdiv'>©2022 Travalflap | Global Product</p>
+
                         <div className='innerwebpageFooter'>
-                            {/* <p className='copyrightdiv'>©2022 Travalflap | Global Product</p> */}
+
 
                             <div className='innerwebpageFooterDiv'>
                                 <div className='innerwebpageFooterImages'>
@@ -758,37 +811,37 @@ export const InnerWebPageFooter = () => {
                     <div className='innerfooterPaymentOptions'>
                         <div className='innerfooterPaymentcards'>
 
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2001.png " alt='payment gateway image' ></img>
-                                    </div>
+                            <div className='newFooterPaymentImages' >
+                                <img src="Images/innerwebpagefooter/Group 2001.png " alt='payment gateway image' ></img>
+                            </div>
 
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2004.png " alt='payment gateway image' ></img>
-                                    </div>
+                            <div className='newFooterPaymentImages' >
+                                <img src="Images/innerwebpagefooter/Group 2004.png " alt='payment gateway image' ></img>
+                            </div>
 
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2062.png " alt='payment gateway image'  ></img>
-                                    </div>
+                            <div className='newFooterPaymentImages' >
+                                <img src="Images/innerwebpagefooter/Group 2062.png " alt='payment gateway image'  ></img>
+                            </div>
 
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2061.png " alt='payment gateway image' ></img>
-                                    </div>
+                            <div className='newFooterPaymentImages' >
+                                <img src="Images/innerwebpagefooter/Group 2061.png " alt='payment gateway image' ></img>
+                            </div>
 
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2063.png " alt='payment gateway image'  ></img>
-                                    </div>
+                            <div className='newFooterPaymentImages' >
+                                <img src="Images/innerwebpagefooter/Group 2063.png " alt='payment gateway image'  ></img>
+                            </div>
 
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2064.png " alt='payment gateway image'  ></img>
-                                    </div>
+                            <div className='newFooterPaymentImages' >
+                                <img src="Images/innerwebpagefooter/Group 2064.png " alt='payment gateway image'  ></img>
+                            </div>
 
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2065.png " alt='payment gateway image'  ></img>
-                                    </div>
+                            <div className='newFooterPaymentImages' >
+                                <img src="Images/innerwebpagefooter/Group 2065.png " alt='payment gateway image'  ></img>
+                            </div>
 
-                                    <div className='newFooterPaymentImages' >
-                                        <img src="Images/innerwebpagefooter/Group 2007.png " alt='payment gateway image' ></img>
-                                    </div>
+                            <div className='newFooterPaymentImages' >
+                                <img src="Images/innerwebpagefooter/Group 2007.png " alt='payment gateway image' ></img>
+                            </div>
 
                         </div>
                     </div>

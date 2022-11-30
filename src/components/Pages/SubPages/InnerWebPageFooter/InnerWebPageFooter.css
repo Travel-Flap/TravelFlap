@@ -24,7 +24,7 @@
   padding-top: 15px; */
 }
 
-.innerfooterlogoSocialIcon h2{
+.innerfooterlogoSocialIcon h2 {
   /* border: 1px solid red; */
   color: white;
   margin-left: 74%;
@@ -135,10 +135,9 @@
   /* margin-top: 2%; */
 }
 
-.listdiv Link{
+.listdiv Link {
   text-decoration: none !important;
 }
-
 
 .listwise {
   font-size: 12px;
@@ -148,7 +147,7 @@
   color: rgb(194, 194, 194);
 }
 
-.newFooterContentHeadingDiv{
+.newFooterContentHeadingDiv {
   margin-top: 4%;
 }
 
@@ -187,32 +186,34 @@
   display: flex;
   flex-direction: row;
   width: 90%;
-  margin: auto;
-  margin-top: 3%;
+  margin-left: 3%;
+  margin-top: -6%;
+  position: relative;
+  /* bottom: 5%; */
 }
 
 .Learnmorediv {
   color: white;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   /* border: 2px solid green; */
 }
 
 .productsdiv {
   color: white;
   /* border: 2px solid goldenrod; */
-  margin-left: 10%;
+  margin-left: 4%;
 }
 
 .contactusdiv {
   color: white;
   /* border: 1px solid red; */
-  margin-left: 10%;
+  margin-left: 4%;
 }
 
 .socialdiv {
   color: white;
   /* border: 1px solid red; */
-  margin-left: 7%;
+  /* margin-left: 7%; */
 }
 
 /* .innerwebpageFooterHeadingIcons{
@@ -262,13 +263,13 @@
   object-fit: cover;
 }
 
-.newFooterPaymentImages{
+.newFooterPaymentImages {
   /* border: 2px solid white; */
   width: 10%;
-  height:35px;
+  height: 35px;
   margin-left: 3%;
 }
-.newFooterPaymentImages img{
+.newFooterPaymentImages img {
   height: 25px;
   width: 100%;
 }
@@ -281,7 +282,7 @@
   margin: auto;
   width: 90%;
   /* margin-top: 5% !important; */
-  border-bottom: 0.5px solid rgb(254, 252, 252);
+  border-top: 0.5px solid rgb(254, 252, 252);
 }
 .footerlogoinnerdiv {
   display: flex;
@@ -290,8 +291,10 @@
 .copyrightdiv {
   color: rgb(194, 194, 194);
   font-size: 12px;
+  position: absolute;
+  bottom: 2.5%;
   /* margin-left: 7%; */
-  margin-top: 10%;
+  /* margin-top: 10%; */
   /* text-align: center; */
 }
 
@@ -306,6 +309,7 @@
   font-weight: 700;
   font-size: 18px;
   background-color: #252323;
+  margin-top: 1%;
 }
 .innerwebpageFooter p {
   padding-top: 12px;
@@ -319,7 +323,9 @@
   margin-left: 25%;
   display: flex;
   flex-direction: row;
+  margin-top: 1%;
 }
+
 .innerwebpageFooterImages {
   /* border: 2px solid black; */
   width: 25%;
@@ -368,10 +374,10 @@
 .innerwebpageFooterNextHolidays {
   /* border: 1px solid red; */
   height: 28px;
-  width: 72%;
+  width: 80%;
   margin: auto;
   margin-top: 3%;
-  margin-left: -8%;
+  /* margin-left: -8%; */
   object-fit: cover;
 }
 
@@ -384,13 +390,13 @@
   margin-left: -60%;
   object-fit: cover;
 }
-.innerfooterPaymentOptions{
+.innerfooterPaymentOptions {
   background-color: #252323;
   height: 60px;
   display: flex;
   flex-direction: row;
 }
-.innerfooterPaymentcards{
+.innerfooterPaymentcards {
   width: 40%;
   height: 60px;
   margin-left: 55%;

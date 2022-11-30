@@ -3,6 +3,7 @@ import "./CheapCarRentals.css";
 import { BiGasPump } from "react-icons/bi";
 import { GiManualMeatGrinder } from "react-icons/gi";
 import { AiOutlineCar } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 
 export const CheapCarRentals = () => {
     return (
@@ -102,8 +103,9 @@ export const CheapCarRentals = () => {
                                     <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
                                 </div>
 
-
-                                <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
+                                <Link to="/carBookingPage">
+                                    <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
+                                </Link>
                             </div>
                         </div>
 

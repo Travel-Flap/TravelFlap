@@ -1,0 +1,35 @@
+.driverDetailsMainOuterDiv {
+  border: 1px solid gray;
+  border-radius: 7px;
+  top: 5%;
+  width: 60%;
+  margin-left: 5%;
+
+  margin-top: 1.5%;
+  height: 450px;
+}
+
+.driverDetailsHeading {
+  /* border: 1px solid red; */
+  width: 60%;
+  margin-top: 2%;
+}
+
+.driverDetailsHeading h3 {
+  font-weight: 600;
+  font-size: 25px;
+  vertical-align: baseline;
+  line-height: 20px;
+  margin-left: 8%;
+  margin-bottom: 5%;
+}
+
+.driverDetailsFormMainOuterDiv {
+  /* border: 1px solid green; */
+  width: 90%;
+  margin-left: 5%;
+}
+
+.driverDetailInputHeading {
+  color: #393939;
+}

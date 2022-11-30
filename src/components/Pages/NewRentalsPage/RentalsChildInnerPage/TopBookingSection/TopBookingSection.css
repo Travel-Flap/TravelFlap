@@ -1,0 +1,653 @@
+.rentalsBookingPageMainDiv {
+  /* border: 2px solid black; */
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+
+.rentalsInnerWebpageDataFiltersDiv {
+  /* border: 2px solid red; */
+  width: 30%;
+  height: 500px;
+  margin-top: 5.5%;
+  border-radius: 10px;
+  position: absolute;
+  border: none;
+  left: 66%;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+.flightNearYouInnerWebpageDataFilter {
+  /* border: 2px solid lightgray; */
+  /* margin-top: 2%; */
+  width: 90%;
+  height: 688px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.flightNearYouInnerWebpageFilter1 {
+  /* border: 2px solid gold; */
+  width: 90%;
+  height: 180px;
+  margin-top: 2%;
+}
+
+.flightNearYouInnerWebpageFilter1 input {
+  /* border: 2px solid red; */
+  margin-top: 1.5%;
+}
+
+.flightNearYouInnerWebpageFilter1 label {
+  /* border: 2px solid gold; */
+  margin-top: 2.5%;
+  font-size: 17px;
+  height: 25px;
+}
+.flightNearYouInnerWebpageFilter2 {
+  /* border: 2px solid red; */
+  width: 90%;
+  height: 180px;
+  margin-top: 4%;
+}
+.flightNearYouInnerWebpageFilter2 input {
+  /* border: 2px solid red; */
+  margin-top: 1.5%;
+}
+.flightNearYouInnerWebpageFilter2 label {
+  /* border: 2px solid gold; */
+  margin-top: 2.5%;
+  font-size: 17px;
+  height: 25px;
+}
+.flightNearYouInnerWebpageFilter3 {
+  /* border: 2px solid red; */
+  width: 90%;
+  height: 200px;
+  margin-top: 5%;
+}
+.flightNearYouInnerWebpageFilter4 {
+  /* border: 2px solid red; */
+  width: 90%;
+  height: 200px;
+  margin-top: 5%;
+}
+.flightNearYouInnerWebpageFilter4 input {
+  /* border: 2px solid red; */
+  margin-top: 1.5%;
+}
+.flightNearYouInnerWebpageFilter4 label {
+  /* border: 2px solid gold; */
+  margin-top: 2.5%;
+  font-size: 17px;
+  height: 25px;
+}
+.flightNearYouInnerWebpageFilter5 {
+  /* border: 2px solid red; */
+  width: 90%;
+  height: 250px;
+  margin-top: 5%;
+}
+.flightNearYouInnerWebpageStops {
+  font-size: 20px;
+  font-weight: 700;
+  /* border: 2px solid red; */
+  margin-bottom: 1%;
+}
+.flightNearYouInnerWebpageTime {
+  /* border: 2px solid firebrick; */
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 1%;
+}
+.flightNearYouInnerWebpageTimeButtons {
+  background-color: white;
+  border: 1px solid lightgray;
+  width: 40%;
+  height: 40px;
+}
+.flightNearYouInnerWebpageTimeButtons:hover {
+  background-color: #3380f2;
+  color: white;
+}
+.flightnearinnerpageslidecontainer {
+  width: 80%;
+  margin-left: 3%;
+  margin-top: -1%;
+}
+.flightNeartakeoffData {
+  color: gray;
+  font-size: 12px;
+  /* margin-top: 2%; */
+  margin-left: 3%;
+}
+.flightNearDurationrangeText {
+  color: #393939;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 1%;
+  /* border: 2px solid green; */
+}
+
+.rentalsBookingPageDetails {
+  /* border: 2px solid blue; */
+  width: 70%;
+  height: 725px;
+}
+.flightNearYouinnerpageFlightDetails {
+  /* border: 2px solid red; */
+  height: auto;
+}
+.flightNearYouinnerPageDatesOptions {
+  border: 2px solid lightgray;
+  width: 95%;
+  height: 80px;
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+}
+.flightNearYouinnerPageDatesOptionsDiv {
+  /* border: 2px solid red; */
+  width: 20%;
+  height: 78px;
+  color: #393939;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  border-right: 1px solid lightgray;
+}
+.flightNearYouinnerPageDatesOptionsDiv1 {
+  /* border: 2px solid red; */
+  width: 20%;
+  height: 100px;
+  color: #3380f2;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  border-right: none;
+  /* padding-top: 15px; */
+}
+.flightNearYouinnerPageDatesOptionsDiv1 h4 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10%;
+}
+.flightNearYouinnerPageDatesOptionsDiv1 h6 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #3380f2;
+}
+.flightNearYouinnerPageDatesOptionsDiv h4 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10%;
+}
+.flightNearYouinnerPageDatesOptionsDiv h6 {
+  font-weight: 700;
+  font-size: 14px;
+  color: gray;
+}
+.rentalsBookingPageDetailsButtons {
+  /* border: 2px solid red; */
+  width: 75%;
+  height: 50px;
+  /* margin: auto; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+.rentalsBookinginnerBest {
+  /* border: 2px solid green; */
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  font-weight: 700;
+  /* border-right: 2px solid lightgray; */
+  /* border-bottom: 5px solid #3380F2; */
+  /* color: #393939; */
+  /* padding-top: 15px; */
+  cursor: pointer;
+}
+
+.rentalsBookingInnerinnerCheap {
+  /* border: 2px solid green; */
+  width: 22%;
+  height: 100px;
+  text-align: center;
+  font-weight: 700;
+  /* border-right: 2px solid lightgray; */
+  /* color: #393939; */
+  /* padding-top: 15px; */
+  cursor: pointer;
+}
+.rentalsBookingInnerInnerFast {
+  /* border: 2px solid green; */
+  width: 30%;
+  height: 100px;
+  text-align: center;
+  font-weight: 700;
+  /* border-right: 2px solid lightgray; */
+  /* color: #393939; */
+  /* padding-top: 15px; */
+  cursor: pointer;
+}
+
+.activeRentalsButton {
+  /* border-bottom: 5px solid #3380f2; */
+  border: none !important;
+  width: 15%;
+}
+
+.flightNearinnerpagedetails {
+  /* border: 1px solid lightgray; */
+  border-radius: 5px;
+  width: 93%;
+  height: 80px;
+  /* margin: auto; */
+  margin-top: 1.5%;
+  margin-left: 3%;
+  display: flex;
+  flex-direction: row;
+}
+.flightNearinnerOption1 {
+  /* border: 2px solid  red; */
+  margin-top: 4%;
+}
+/* .flightNearinnerOption1 input{
+    width: 100%;
+} */
+.flightNearinnerpagedetailsflightlogos {
+  /* border: 2px solid red; */
+  width: 25%;
+  /* height: 100px; */
+}
+.flightNearinnerpagedetailsflightlogos img {
+  width: 70%;
+  height: 95%;
+  /* border: 2px solid red; */
+}
+.flightNearinnerpagenames {
+  /* border: 2px solid red; */
+  width: 25%;
+  color: #393939;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 600;
+  margin-left: -4%;
+  font-size: 18px;
+}
+.flightNearinnerpagedetailsflightTimming {
+  /* border: 2px solid red; */
+  width: 25%;
+  color: #393939;
+  text-align: center;
+  padding-top: 3.5%;
+  font-weight: 600;
+}
+.flightNearinnerpageplaneIcon {
+  /* border: 2px solid red; */
+  width: 8%;
+  font-size: 22px;
+  padding-top: 33px;
+}
+.flightNearinnerpagedetailsflightStops {
+  /* border: 2px solid red; */
+  width: 25%;
+  color: #393939;
+  text-align: center;
+  padding-top: 3.5%;
+  font-weight: 600;
+  font-size: 18px;
+  border-right: 2px solid lightgray;
+}
+.flightNearinnerpagedetailsflightPrice {
+  /* border: 2px solid red; */
+  width: 25%;
+  color: #393939;
+  font-size: 30px;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+.flightNearinnerpagedetailscontainer {
+  width: 66.5%;
+  height: 520px;
+  display: flex;
+  /* margin-top: 1.5%; */
+  margin-left: 2%;
+  flex-direction: column;
+  /* border: 2px solid green; */
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+.flightNearinnerpagedetailsContainerDiv {
+  /* border: 2px solid red; */
+  height: 320px;
+  /* margin-top: 5%; */
+  /* overflow-y: scroll; */
+}
+.flightNearinnerpageBooknowButton {
+  background-color: #3380f2;
+  color: white;
+  border-radius: 5px;
+  width: 60%;
+  height: 35px;
+  font-size: 15px;
+  border: none;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+.flightNearinnerpageBooknowButton:hover {
+  background-color: white;
+  color: #3380f2;
+  border: 2px solid #3380f2;
+}
+.flightNearinnerpageViewallDealsButton {
+  background-color: white;
+  border: 2px solid lightgray;
+  color: #393939;
+  border-radius: 5px;
+  width: 60%;
+  height: 35px;
+  margin-top: -10%;
+  font-size: 14px;
+  margin-left: 40%;
+}
+.flightNearinnerpageViewallDealsButton:hover {
+  background-color: #3380f2;
+  color: white;
+}
+.flightNearYouFlightDetails {
+  border: 2px solid lightgray;
+  height: 210px;
+  margin-top: 2%;
+  border-radius: 10px;
+  width: 95%;
+  margin: auto;
+  margin-top: 2%;
+}
+.innerflightNearYouShowButton {
+  background-color: #3380f2;
+  color: white;
+  width: 95%;
+  height: 60px;
+  margin: auto;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-left: 2.5%;
+  margin-top: 2%;
+}
+
+/* This css is for the on click functionality change div */
+
+.rentalsBookingCarDetailsOuterDiv {
+  border: 1px solid gray;
+  margin-top: 1%;
+  border-radius: 7px;
+  column-gap: 20px;
+  height: 290px;
+  width: 95%;
+}
+
+.rentalsBookingCarDetailsMainDiv {
+  /* border: 1px solid blueviolet; */
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+}
+
+.rentalsBookingCarDetailInnerDiv1 {
+  /* border: 1px solid black; */
+  height: 275px;
+  width: 30%;
+}
+
+.rentalsBookingCarDetailInnerDiv2 {
+  /* border: 1px solid green; */
+  width: 40%;
+  /* margin-left: 2%; */
+}
+
+.rentalsBookingCarDetailInnerDiv3 {
+  /* border: 1px solid red; */
+  width: 30%;
+}
+
+.carDetailInnerDiv1ImageDiv {
+  /* border: 1px solid rebeccapurple; */
+  width: 75%;
+  margin: auto;
+  margin-top: 3%;
+  /* height: 200px; */
+}
+
+.carDetailInnerDiv1ImageDiv img {
+  object-fit: cover;
+  width: 100%;
+  margin-top: 8%;
+}
+
+.carDetailsInnerDiv1DescDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  margin: auto;
+  column-gap: 12px;
+  margin-top: 15%;
+}
+/* 
+.carDetailsDescInnerDiv1 {
+  border: 1px solid black;
+} */
+
+.carDetailsDescInnerDiv1 img {
+  object-fit: cover;
+}
+
+.carDetailsDescInnerDiv2 {
+  /* border: 1px solid blue; */
+  border-radius: 5px;
+  background-color: #3380f2;
+  width: 25%;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.carDetailsDescInnerDiv2 p {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  /* padding-top: 2px; */
+  font-weight: 500;
+  vertical-align: baseline;
+}
+
+.carDetailssDescInnerDiv3 {
+  /* border: 1px solid green; */
+  height: 32px;
+}
+
+.carDetailssDescInnerDiv3 p {
+  color: #393939;
+  font-size: 16px;
+  font-weight: 500;
+  vertical-align: baseline;
+  /* padding-top: 3px; */
+}
+
+.carBookingCarSpecificDiv1 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  margin: auto;
+}
+
+.carSprcificationInnerDiv1 {
+  /* border: 1px solid red; */
+  width: 38%;
+}
+
+.carSprcificationInnerDiv1 p {
+  color: #3380f2;
+  font-weight: 500;
+  vertical-align: baseline;
+  font-size: 14px;
+}
+
+.carSprcificationInnerDiv2 p {
+  color: #3380f2;
+  font-weight: 500;
+  vertical-align: baseline;
+  font-size: 14px;
+}
+
+.carBookingCarSpecificDiv2 {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.carSprcificationInnerDiv2 {
+  width: 50%;
+  /* border: 1px solid black; */
+}
+
+.carDetailInnerDiv2SubDiv1 {
+  /* border: 1px solid red; */
+  margin-top: 8%;
+  display: flex;
+  flex-direction: row;
+}
+
+.carDetailsSubDiv1 {
+  /* border: 1px solid blue; */
+  width: 35%;
+  margin-left: 5%;
+  padding-top: 7px;
+}
+
+.carDetailsSubDiv1 h3 {
+  font-weight: 600;
+  font-size: 20px;
+  vertical-align: baseline;
+  line-height: 20px;
+}
+
+.carDetailsSubDiv2 {
+  /* border: 1px solid black; */
+  width: 22%;
+}
+
+.carDetailsSubDiv2 p {
+  color: gray;
+  font-weight: 400;
+  font-size: 17px;
+  padding-top: 8px;
+}
+
+.carDetailsSubDiv3 {
+  /* border: 1px solid green; */
+  width: 32%;
+}
+
+.carDetailsSubDiv3 select {
+  /* background-color: #3380f2; */
+  /* color: white; */
+  box-shadow: none;
+  outline: none;
+}
+
+.carDetailInnerDiv2SubDiv2 {
+  /* border: 1px solid black; */
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.carRentalsBulletPoint1 {
+  /* border: 1px solid red; */
+  color: #3380f2;
+  font-weight: 600;
+  font-size: 15px;
+  font-size: 15px;
+  vertical-align: baseline;
+}
+
+.carRentalsBulletPoint2 {
+  margin-top: -4%;
+  margin-left: 3%;
+  font-size: 15px;
+  vertical-align: baseline;
+  font-weight: 500;
+}
+
+.carRentalsBulletPoint3 {
+  margin-top: -4%;
+  margin-left: 3%;
+  font-size: 15px;
+  vertical-align: baseline;
+  font-weight: 500;
+}
+
+.carRentalsBulletPoint4 {
+  margin-top: -4%;
+  margin-left: 3%;
+  font-size: 15px;
+  vertical-align: baseline;
+  font-weight: 500;
+}
+
+.rentalsInnerDiv3SubDiv1 {
+  /* border: 1px solid red; */
+  /* text-align: right; */
+  height: 200px;
+}
+
+.rentalsInnerDiv3SubDiv1 p {
+  color: #3380f2;
+  padding-top: 12px;
+  font-size: 17px;
+  padding-left: 1px;
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 12%;
+}
+
+.rentalsInnerDiv3SubDiv2 {
+  /* border: 1px solid black; */
+  text-align: right;
+  position: absolute;
+  margin-left: 7%;
+}
+
+.rentalsChargesDiv2 {
+  color: #393939;
+  font-size: 14px;
+}
+
+.rentalsChargesDiv2 {
+  margin-top: -7%;
+  font-weight: 700;
+  color: #3380f2;
+  font-size: 20px;
+}
+
+.rentalsChargesDiv3 {
+  color: #393939;
+  margin-top: -7%;
+  font-size: 14px;
+}
