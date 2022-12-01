@@ -72,16 +72,15 @@
   /* margin-bottom: 10%; */
 }
 
-.sandquerybutton {
+.rentalsSendQueryButton {
   background-color: white;
   border: 1px solid gray;
   color: grey;
-  padding-left: 110px;
+  justify-content: center;
 }
 
-.booknowbutton {
-  padding-left: 110px;
-  padding-right: 50px;
+.rentalsBookNowButton {
+  justify-content: center;
 }
 
 .applyRentalsPromocodeparentdiv {

@@ -13,15 +13,16 @@ import { WhenToBookCar } from './WhenToBookCar/WhenToBookCar';
 export const RentalsInnerPage1 = () => {
   return (
     <div>
-        <NewHomeNav/>
-        <RentalsInnerBannerSection/>
-        <RidesOffer/>
-        <CheapCarRentals/>
-        <CarRentalsReview/>
-        <RentalsSafety/>
-        <WhenToBookCar/>
+      
+      <NewHomeNav />
+      <RentalsInnerBannerSection />
+      <RidesOffer />
+      <CheapCarRentals />
+      <CarRentalsReview />
+      <RentalsSafety />
+      <WhenToBookCar />
 
-        <InnerWebPageFooter/>
+      <InnerWebPageFooter />
     </div>
   )
 }

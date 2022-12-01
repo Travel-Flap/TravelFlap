@@ -7,6 +7,7 @@
 
 .rentalsSafetyMAinCardDiv {
   border: none;
+  /* border: 1px solid red; */
 }
 
 .rentalsSafetyContentDIv h5 {
@@ -16,11 +17,11 @@
   margin-bottom: 3%;
 }
 
-.rentalsSafetyContentDIv{
-    font-weight: 500;
-    font-size: 23px;
-    vertical-align: baseline;
-    line-height: 28px;
+.rentalsSafetyContentDIv {
+  font-weight: 500;
+  font-size: 23px;
+  vertical-align: baseline;
+  line-height: 28px;
 }
 
 .rentalsSafetyButtonDiv {
@@ -29,8 +30,66 @@
   margin-top: 4%;
 }
 
-.safetyButton2{
-    margin-left: 4%;
+.safetyButton2 {
+  margin-left: 4%;
+}
+
+.rentalsSafetyMainDiv2 {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 28px;
+  height: auto;
+}
+
+.rentalsSafetyImageDiv1 {
+  /* border: 1px solid black; */
+  width: 48%;
+  border-radius: 5px;
+  position: relative;
+  /* height: 40px; */
+}
+
+.rentalsSafetyImageDiv1 img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 5px;
 }
 
 
+.safetyDivComp1ContentDiv{
+  /* border: 1px solid black; */
+  position: absolute;
+  width: 40%;
+  height: auto;
+  text-align: center;
+  /* filter: brightness(0.5); */
+  top: 35%;
+  right: 0%;
+}
+
+.safetyDivComp1ContentDiv p{
+  color: white;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.safetyComp1ContentInnerDiv p{
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 1%;
+}
+
+.rentalsSafetyImageDiv2 {
+  /* border: 1px solid red; */
+  width: 48%;
+  /* height: 40px; */
+}
+
+.rentalsSafetyImageDiv2 img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 5px;
+}

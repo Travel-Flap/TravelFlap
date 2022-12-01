@@ -29,6 +29,29 @@ export const RentalsSafety = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className='rentalsSafetyMainDiv2'>
+
+                    <div className='rentalsSafetyImageDiv1'>
+                        <img src='Images/Rentals/MainRentalImages/CompImage1.png' alt='image' />
+
+                        <div className='safetyDivComp1ContentDiv'>
+
+                            <p> We care for you </p>
+
+                            <div className='safetyComp1ContentInnerDiv'>
+                                <p> We provide you a </p>
+                                <p> hassle-free experience </p>
+                                <p> that makes your life </p>
+                                <p> easier. </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className='rentalsSafetyImageDiv2'>
+                        <img src='Images/Rentals/MainRentalImages/CompImage2.png' alt='image' />
+                    </div>
+                </div>
             </div>
         </>
     )
