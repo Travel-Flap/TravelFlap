@@ -1,5 +1,5 @@
 import "./ActivitiesChildInnerPageButtonsDetails.css";
-import { FaStar } from "react-icons/fa";
+import { FaStar,FaCalendar } from "react-icons/fa";
 import { FaWhatsapp,FaPhoneAlt,FaRegClock } from "react-icons/fa";
 
 
@@ -78,26 +78,36 @@ export const ActivitiesChildInnerPageButtonsDetails = () => {
                         </div>
                         <div id="activitiesChildInnerPageDetailsPackageSection">
                             <h4 className="activitiesChildInnerPagePackageHeading">Packages</h4>
-                            <div className="activitiesChildInnerPagePackages">
-                                <div className="activitiesChildPackageName">
-                                    <h6>MidNight Cycling Tour (Bring your own Bicycle) </h6>
-                                    <p>Duration:5 Hours</p>
+                            <div className="activitiesChildInnermainDiv">
+                                <div className="activitieschildPackageDate">
+                                    <div className="activitieschildPackageDatecalender">
+                                        Travel date <FaCalendar size={"1.5em"} className="calenderIconActiviesInner"/>
+                                    </div>
+                                    <div className="activitieschildPackageTravellers">
+                                        Travellers
+                                    </div>
                                 </div>
-                                <div className="activitiesChildPackageRate">
-                                    <h4>₹ 359</h4>
-                                    <p>Per Person</p>
-                                    <button className="activitiesChildPackageRateButton">Select</button>
+                                <div className="activitiesChildInnerPagePackages">
+                                    <div className="activitiesChildPackageName">
+                                        <h6>MidNight Cycling Tour (Bring your own Bicycle) </h6>
+                                        <p>Duration:5 Hours</p>
+                                    </div>
+                                    <div className="activitiesChildPackageRate">
+                                        <h4>₹ 359</h4>
+                                        <p>Per Person</p>
+                                        <button className="activitiesChildPackageRateButton">Select</button>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="activitiesChildInnerPagePackages">
-                                <div className="activitiesChildPackageName">
-                                    <h6>MidNight Cycling Tour (Bring your own Bicycle) </h6>
-                                    <p>Duration:5 Hours</p>
-                                </div>
-                                <div className="activitiesChildPackageRate">
-                                    <h4>₹ 359</h4>
-                                    <p>Per Person</p>
-                                    <button className="activitiesChildPackageRateButton">Select</button>
+                                <div className="activitiesChildInnerPagePackages">
+                                    <div className="activitiesChildPackageName">
+                                        <h6>MidNight Cycling Tour (Bring your own Bicycle) </h6>
+                                        <p>Duration:5 Hours</p>
+                                    </div>
+                                    <div className="activitiesChildPackageRate">
+                                        <h4>₹ 359</h4>
+                                        <p>Per Person</p>
+                                        <button className="activitiesChildPackageRateButton">Select</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -168,7 +178,7 @@ export const ActivitiesChildInnerPageButtonsDetails = () => {
                             
                         </div>
                     </div>
-                    <div className="activitiesChildInnerPageBookingDiv">
+                    {/* <div className="activitiesChildInnerPageBookingDiv">
                     <div className='innervisadetailsform'>
                 <h1>Contact Us</h1>
                 <input type="text" placeholder='Email ID' className='innervisadetailforminputs'/> <br/>
@@ -179,7 +189,7 @@ export const ActivitiesChildInnerPageButtonsDetails = () => {
                 <button className='innervisadetailsapplybutton'> <FaPhoneAlt size="1.2em" style={{marginRight:"3%"}}/> Call Us On</button>
                 <button className='innervisadetailsapplybutton'> <FaRegClock size="1.2em" style={{marginRight:"3%"}}/> 9:00AM to 9:00PM</button>
             </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             </>

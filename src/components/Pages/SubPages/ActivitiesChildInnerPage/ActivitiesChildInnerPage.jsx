@@ -1,7 +1,6 @@
-import { InnerhandpickedFooter } from "../InnerhandpickedFooter/InnerhandpickedFooter";
 import { ActivitiesChildInnerPageBanner } from "./ActivitiesChildInnerPageBanner/ActivitiesChildInnerPageBanner";
 import { ActivitiesChildInnerPageButtonsDetails } from "./ActivitiesChildInnerPageButtonsDetails/ActivitiesChildInnerPageButtonsDetails";
-
+import { InnerWebPageFooter } from "../InnerWebPageFooter/InnerWebPageFooter";
 
 export const ActivitiesChildInnerPage = () => {
 
@@ -10,7 +9,7 @@ export const ActivitiesChildInnerPage = () => {
             <>
               <ActivitiesChildInnerPageBanner/>
               <ActivitiesChildInnerPageButtonsDetails/>
-              <InnerhandpickedFooter/>
+              <InnerWebPageFooter/>
             </>
     );
 }
