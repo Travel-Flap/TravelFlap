@@ -4,6 +4,7 @@ import { FlighAirlineServing } from "./FlighAirlineServing/FlighAirlineServing";
 import { Flightgraph } from "./Flightgraph/Flightgraph";
 import { FlightInnerPageBanner } from "./FlightInnerPageBanner/FlightInnerPageBanner";
 import { FlightPageGoodtoKnow } from "./FlightPageGoodtoKnow/FlightPageGoodtoKnow";
+import { SearchDestination } from "./SearchDestination/SearchDestination";
 
 
 export const InnerCheapFlightDestination = () => {
@@ -14,11 +15,14 @@ export const InnerCheapFlightDestination = () => {
         <>
 
         <FlightInnerPageBanner/>
+        <SearchDestination/>
         <FlightPageGoodtoKnow/>
         <Flightgraph/>
-        <ChepestFlight/>
         
         <FlighAirlineServing/>
+        <ChepestFlight/>
+        
+       
         <InnerWebPageFooter/>
         
         </>

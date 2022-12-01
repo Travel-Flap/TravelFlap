@@ -3,10 +3,37 @@
     background-size: auto;
     height: 450px;
     /* border: 2px solid red; */
+    position: relative;
+    z-index: 0;
   }
  .Bannerimage{
     height: 450px;
     filter: brightness(0.6);
  }
+
+ .destiBannerDiv {
+   object-fit: cover;
+   background-size: auto;
+   height: 450px;
+   /* border: 2px solid red; */
+   z-index: 0;
+ }
+ 
+ .destiBannerimage {
+   height: 450px;
+   filter: brightness(0.6);
+ }
+ 
+ .PopularDestiBannerHeading2 {
+   font-weight: bold;
+   margin-left: 25%;
+   /* margin-top: 10%; */
+   color: white;
+   font-weight: 700;
+   font-size: 35px;
+ 
+ 
+ }
+ 
   
   
