@@ -1,0 +1,83 @@
+.rentalsHappyCustomerOuterDiv {
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+  /* border: 2px solid red; */
+}
+
+.rentalsHappyCustomerInnerDiv1 {
+  /* border: 1px solid black; */
+  /* width: 50%; */
+  display: flex;
+  flex-direction: row;
+}
+
+.happyCustomerInneDiv1ImageDiv {
+  /* width: 100%; */
+  object-fit: cover;
+  width: 50%;
+}
+
+.happyCustomerInneDiv1ImageDiv img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.happyCustomerInnerDiv1ContentDiv {
+  background-color: #c5dcff;
+  color: #393939;
+  width: 50%;
+}
+
+.happyCustomerInnerDiv1ContentDiv h3 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-top: 6%;
+}
+
+.rentalsHappyCustomerInnerDiv2 {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  margin-top: 1%;
+}
+
+.happyCustomerInnerDiv2ImageDiv {
+  width: 49%;
+  object-fit: cover;
+}
+
+.happyCustomerInnerDiv2ImageDiv img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.happyCustomerInnerDiv2ContentDiv {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+/* .innerDiv2ContentDivSubDiv1 {
+  border: 1px solid black;
+} */
+
+/* .innerDiv2ContentDivSubDiv2 {
+  border: 1px solid green;
+} */
+
+.innerDiv2ContentDivSubDiv2 {
+  background-color: #c5dcff;
+  color: #393939;
+  height: 330px;
+}
+
+.innerDiv2ContentDivSubDiv2 h3 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-top: 6%;
+}

@@ -2,52 +2,51 @@
     border: 1px solid red;
 } */
 
-.howRentalsWorkmaindiv h2{
-    margin-left: 4%;
-    color: #3380f2;
-    font-weight: 700;
+.howRentalsWorkouterdiv {
+  margin-top: 3%;
 }
 
-.howRentalsWorkImagediv{
-    /* border: 1px solid red; */
-    margin: auto;
+.howRentalsWorkmaindiv h2 {
+  margin-left: 5%;
+  color: #3380f2;
+  font-weight: 700;
 }
 
-.howRentalsWorkImagediv img{
-    object-fit: cover;
-    align-items: center;
-    margin-left: 11%;
-    /* border: 1px solid red; */
+.howRentalsWorkImagediv {
+  /* border: 1px solid red; */
+  margin: auto;
 }
 
-
-
-.trustTravelFlapMaindiv{
-    /* border: 1px solid red; */
-    width: 85%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    margin-top: 3%;
+.howRentalsWorkImagediv img {
+  object-fit: cover;
+  align-items: center;
+  margin-left: 11%;
+  /* border: 1px solid red; */
 }
 
-.trustTravelFlapcontentdiv{
-    /* border: 1px solid black; */
-    /* height: 50px;     */
-    width: 80%;
+.trustTravelFlapMaindiv {
+  /* border: 1px solid red; */
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
 }
 
-.trustTravelFlapHeading{
-    color: #3380f2;
-    font-size: 25px;
-    font-weight: 700;
-    font-family: sans-serif;
+.trustTravelFlapcontentdiv {
+  /* border: 1px solid black; */
+  /* height: 50px;     */
+  width: 80%;
+}
+
+.trustTravelFlapHeading {
+  color: #3380f2;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: sans-serif;
 }
 
 /* 
 .trustTravelFlapImagediv{
     border: 1px solid purple;
 } */
-
-
-

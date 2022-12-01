@@ -1,0 +1,36 @@
+.wayToRentCarMainDiv {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: auto;
+}
+
+.wayToRentCarInnerDiv {
+  border-radius: 25px;
+}
+
+.wayToRentCarInnerDiv img {
+  filter: brightness(0.6);
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.rentCarContentDiv {
+  /* border: 1px solid red; */
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.rentCarContentDiv h5 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 10%;
+  color: white;
+}
+
+.rentCarContentDiv p {
+  font-weight: 600;
+  font-size: 16px;
+}
