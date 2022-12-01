@@ -178,18 +178,41 @@ export const ActivitiesChildInnerPageButtonsDetails = () => {
                             
                         </div>
                     </div>
-                    {/* <div className="activitiesChildInnerPageBookingDiv">
-                    <div className='innervisadetailsform'>
+
+                    <div className="activitiesChildInnerPageBookingDiv">
+                    {/* <div className='innervisadetailsform'>
                 <h1>Contact Us</h1>
                 <input type="text" placeholder='Email ID' className='innervisadetailforminputs'/> <br/>
                 <input type="text" placeholder='Contact Number' className='innervisadetailforminputs'/><br/>
                
-                <button className='innervisadetailsapplybutton'>Let Us Call You</button>
-                <button className='innervisadetailsapplybutton'> <FaWhatsapp size="1.2em" style={{marginRight:"3%"}}/> Visa On WhatsApp</button>
-                <button className='innervisadetailsapplybutton'> <FaPhoneAlt size="1.2em" style={{marginRight:"3%"}}/> Call Us On</button>
-                <button className='innervisadetailsapplybutton'> <FaRegClock size="1.2em" style={{marginRight:"3%"}}/> 9:00AM to 9:00PM</button>
-            </div>
+                <button className='activitiesinnerchildApplyButton'>Let Us Call You</button>
+                <button className='activitiesinnerchildApplyButton'> <FaWhatsapp size="1.2em" style={{marginRight:"3%"}}/> Visa On WhatsApp</button>
+                <button className='activitiesinnerchildApplyButton'> <FaPhoneAlt size="1.2em" style={{marginRight:"3%"}}/> Call Us On</button>
+                <button className='activitiesinnerchildApplyButton'> <FaRegClock size="1.2em" style={{marginRight:"3%"}}/> 9:00AM to 9:00PM</button>
                     </div> */}
+
+                    <div className="activitiesChildInnerPageBookingDates">
+                        <h5>Select,Date,Time and Travellers</h5>
+                        {/* <div className="activitiesChildInnerPageBookingDatesnTime"> */}
+                            <div className="activitiesChildInnerPageDate">
+                                Choose Date
+                            </div>
+                            <div className="activitiesChildInnerPageTime">
+                                Choose Time
+                            </div>
+                            <div className="activitiesChildinnerPrice">
+                              ₹ 315 <p>Per Person</p>
+                            </div>
+                            <div className="activitiesChildinnerBookNowButton">Book Now</div>
+                        {/* </div> */}
+                    </div>
+                    <div className="activitiesChildInnerPageBookingContact">
+                        <button className='activitiesinnerchildApplyButton'> <FaWhatsapp size="1.2em" style={{marginRight:"3%"}}/> Visa On WhatsApp</button>
+                        <button className='activitiesinnerchildApplyButton'> <FaPhoneAlt size="1.2em" style={{marginRight:"3%"}}/> Call Us On</button>
+                        <button className='activitiesinnerchildApplyButton'> <FaRegClock size="1.2em" style={{marginRight:"3%"}}/> 9:00AM to 9:00PM</button>
+                    </div>
+
+                    </div>
                 </div>
             </div>
             </>
