@@ -56,6 +56,7 @@ import { RentalsInnerPage1 } from "./components/Pages/NewRentalsPage/RentalsInne
 import { ActivitiesInnerWebPage } from "./components/Pages/SubPages/ActivitiesInnerWebPage/ActivitiesInnerWebPage";
 import { PopularDestination0 } from "./components/Pages/SubPages/PopularDestination0/PopularDestination0";
 import { RentalsChildInnerPage } from "./components/Pages/NewRentalsPage/RentalsChildInnerPage/RentalsChildInnerPage";
+import { ActivitiesChildInnerPage } from "./components/Pages/SubPages/ActivitiesChildInnerPage/ActivitiesChildInnerPage";
 
         
 
@@ -184,6 +185,7 @@ function App() {
         {/* Routes for the Car Rentals Page */}
         <Route path="/rentalscarDetails" element={ <RentalsInnerPage1/> } />
         <Route path="/carBookingPage" element={ <RentalsChildInnerPage/> } />
+        <Route path="/activitiesDetails" element={<ActivitiesChildInnerPage/>}/>
 
         
         <Route path="/contact" element={<ContactUS />} />
