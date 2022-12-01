@@ -759,7 +759,7 @@ export const InnerWebPageFooter = () => {
                                         <div className='listwise'>
                                             <li className='newFooterContentHeadingDiv' >India</li>
                                             <li className='newFooterContentHeadingDiv' >UAE</li>
-                                            <li className='newFooterContentHeadingDiv' >GEM</li>
+                                            <li className='newFooterContentHeadingDiv' >India</li>
                                             <li className='newFooterContentHeadingDiv' >SA</li>
                                         </div>
                                     </ul>
@@ -768,10 +768,10 @@ export const InnerWebPageFooter = () => {
                                 <div>
                                     <ul>
                                         <div className='listwise'>
-                                            <li className='newFooterContentHeadingDiv' >123-456-789</li>
-                                            <li className='newFooterContentHeadingDiv' >123-456-789</li>
-                                            <li className='newFooterContentHeadingDiv' >123-456-789</li>
-                                            <li className='newFooterContentHeadingDiv' >123-456-789</li>
+                                            <li className='newFooterContentHeadingDiv' >+91 8209-3662-27</li>
+                                            <li className='newFooterContentHeadingDiv' >191-767-269-64</li>
+                                            <li className='newFooterContentHeadingDiv' >+91 7877680588</li>
+                                            <li className='newFooterContentHeadingDiv' >971-585-978-776</li>
                                         </div>
                                     </ul>
                                 </div>
