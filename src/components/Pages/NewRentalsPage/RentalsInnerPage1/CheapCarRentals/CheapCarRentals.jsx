@@ -71,7 +71,13 @@ export const CheapCarRentals = () => {
                     <div className='cheapCarRentalsCardsInnerDiv1'>
 
                         <div class="card cheapCarRentalsInnerDiv" >
-                            <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                            <div className='rentalsCardsImageDiv'>
+                                <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                                <img className='rentalsCarLogo' src='Images/Rentals/CheapCarRentals/hertz.png' alt='car company logo' />
+                            </div>
+
                             <div class="card-body ">
                                 <div className='cheapCarRentalCardHeadingDiv'>
                                     <h5 class="card-title"> <BiGasPump style={{ fontSize: "16px" }} /> Diesel </h5>
@@ -99,18 +105,28 @@ export const CheapCarRentals = () => {
                                 </div>
 
                                 <div className='cheapCarRentalsTimeDescDiv'>
-                                    <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
-                                    <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+
+                                    <div className='cheapCarRentalsTimeDescInnerDiv'>
+                                        <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
+                                        <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+                                    </div>
+
+                                    <Link to="/carBookingPage">
+                                        <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
+                                    </Link>
                                 </div>
 
-                                <Link to="/carBookingPage">
-                                    <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
-                                </Link>
                             </div>
                         </div>
 
                         <div class="card cheapCarRentalsInnerDiv" >
-                            <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                            <div className='rentalsCardsImageDiv'>
+                                <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                                <img className='rentalsCarLogo' src='Images/Rentals/CheapCarRentals/avis.png' alt='car company logo' />
+                            </div>
+
                             <div class="card-body ">
                                 <div className='cheapCarRentalCardHeadingDiv'>
                                     <h5 class="card-title"> <BiGasPump style={{ fontSize: "14px" }} /> Diesel </h5>
@@ -138,17 +154,28 @@ export const CheapCarRentals = () => {
                                 </div>
 
                                 <div className='cheapCarRentalsTimeDescDiv'>
-                                    <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
-                                    <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+
+                                    <div className='cheapCarRentalsTimeDescInnerDiv'>
+                                        <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
+                                        <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+                                    </div>
+
+                                    <Link to="/carBookingPage">
+                                        <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
+                                    </Link>
                                 </div>
 
-
-                                <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
                             </div>
                         </div>
 
                         <div class="card cheapCarRentalsInnerDiv" >
-                            <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                            <div className='rentalsCardsImageDiv'>
+                                <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                                <img className='rentalsCarLogo' src='Images/Rentals/CheapCarRentals/aamcar.png' alt='car company logo' />
+                            </div>
+
                             <div class="card-body ">
                                 <div className='cheapCarRentalCardHeadingDiv'>
                                     <h5 class="card-title"> <BiGasPump style={{ fontSize: "14px" }} /> Diesel </h5>
@@ -176,17 +203,26 @@ export const CheapCarRentals = () => {
                                 </div>
 
                                 <div className='cheapCarRentalsTimeDescDiv'>
-                                    <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
-                                    <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+                                    <div className='cheapCarRentalsTimeDescInnerDiv'>
+                                        <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
+                                        <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+                                    </div>
+
+                                    <Link to="/carBookingPage">
+                                        <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
+                                    </Link>
                                 </div>
-
-
-                                <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
                             </div>
                         </div>
 
                         <div class="card cheapCarRentalsInnerDiv" >
-                            <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                            <div className='rentalsCardsImageDiv'>
+                                <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                                <img className='rentalsCarLogo' src='Images/Rentals/CheapCarRentals/budget..png' alt='car company logo' />
+                            </div>
+
                             <div class="card-body ">
                                 <div className='cheapCarRentalCardHeadingDiv'>
                                     <h5 class="card-title"> <BiGasPump style={{ fontSize: "14px" }} /> Diesel </h5>
@@ -214,12 +250,16 @@ export const CheapCarRentals = () => {
                                 </div>
 
                                 <div className='cheapCarRentalsTimeDescDiv'>
-                                    <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
-                                    <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+
+                                    <div className='cheapCarRentalsTimeDescInnerDiv'>
+                                        <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
+                                        <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+                                    </div>
+
+                                    <Link to="/carBookingPage">
+                                        <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
+                                    </Link>
                                 </div>
-
-
-                                <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
                             </div>
                         </div>
                     </div>
@@ -227,7 +267,12 @@ export const CheapCarRentals = () => {
                     <div className='cheapCarRentalsCardsInnerDiv2'>
 
                         <div class="card cheapCarRentalsInnerDiv" >
-                            <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                            <div className='rentalsCardsImageDiv'>
+                                <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                                <img className='rentalsCarLogo' src='Images/Rentals/CheapCarRentals/aamcar.png' alt='car company logo' />
+                            </div>
                             <div class="card-body ">
                                 <div className='cheapCarRentalCardHeadingDiv'>
                                     <h5 class="card-title"> <BiGasPump style={{ fontSize: "14px" }} /> Diesel </h5>
@@ -255,17 +300,26 @@ export const CheapCarRentals = () => {
                                 </div>
 
                                 <div className='cheapCarRentalsTimeDescDiv'>
-                                    <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
-                                    <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+
+                                    <div className='cheapCarRentalsTimeDescInnerDiv'>
+                                        <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
+                                        <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+                                    </div>
+
+                                    <Link to="/carBookingPage">
+                                        <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
+                                    </Link>
                                 </div>
-
-
-                                <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
                             </div>
                         </div>
 
                         <div class="card cheapCarRentalsInnerDiv" >
-                            <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                            <div className='rentalsCardsImageDiv'>
+                                <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                                <img className='rentalsCarLogo' src='Images/Rentals/CheapCarRentals/budget..png' alt='car company logo' />
+                            </div>
                             <div class="card-body ">
                                 <div className='cheapCarRentalCardHeadingDiv'>
                                     <h5 class="card-title"> <BiGasPump style={{ fontSize: "14px" }} /> Diesel </h5>
@@ -293,17 +347,27 @@ export const CheapCarRentals = () => {
                                 </div>
 
                                 <div className='cheapCarRentalsTimeDescDiv'>
-                                    <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
-                                    <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+
+                                    <div className='cheapCarRentalsTimeDescInnerDiv'>
+                                        <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
+                                        <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+                                    </div>
+
+                                    <Link to="/carBookingPage">
+                                        <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
+                                    </Link>
                                 </div>
 
-
-                                <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
                             </div>
                         </div>
 
                         <div class="card cheapCarRentalsInnerDiv" >
-                            <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                            <div className='rentalsCardsImageDiv'>
+                                <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                                <img className='rentalsCarLogo' src='Images/Rentals/CheapCarRentals/avis.png' alt='car company logo' />
+                            </div>
                             <div class="card-body ">
                                 <div className='cheapCarRentalCardHeadingDiv'>
                                     <h5 class="card-title"> <BiGasPump style={{ fontSize: "14px" }} /> Diesel </h5>
@@ -331,17 +395,27 @@ export const CheapCarRentals = () => {
                                 </div>
 
                                 <div className='cheapCarRentalsTimeDescDiv'>
-                                    <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
-                                    <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+
+                                    <div className='cheapCarRentalsTimeDescInnerDiv'>
+                                        <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
+                                        <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+                                    </div>
+
+                                    <Link to="/carBookingPage">
+                                        <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
+                                    </Link>
                                 </div>
 
-
-                                <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
                             </div>
                         </div>
 
                         <div class="card cheapCarRentalsInnerDiv" >
-                            <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                            <div className='rentalsCardsImageDiv'>
+                                <img src="Images/Rentals/CheapCarRentals/CarImage.png" class="card-img-top" alt="car image" />
+
+                                <img className='rentalsCarLogo' src='Images/Rentals/CheapCarRentals/hertz.png' alt='car company logo' />
+                            </div>
                             <div class="card-body ">
                                 <div className='cheapCarRentalCardHeadingDiv'>
                                     <h5 class="card-title"> <BiGasPump style={{ fontSize: "14px" }} /> Diesel </h5>
@@ -369,14 +443,19 @@ export const CheapCarRentals = () => {
                                 </div>
 
                                 <div className='cheapCarRentalsTimeDescDiv'>
-                                    <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
-                                    <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+
+                                    <div className='cheapCarRentalsTimeDescInnerDiv'>
+                                        <p className='cheapCarRentalPerDayPrice'> ₹276.00 Per Day </p>
+                                        <p className='cheapCarRentalsDayPeriod'> 3 days <span> (-1201) </span> </p>
+                                    </div>
+
+                                    <Link to="/carBookingPage">
+                                        <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
+                                    </Link>
                                 </div>
-
-
-                                <button class="btn btn-primary text-center cheapCarRentalsBookButton"> Rent Now </button>
                             </div>
                         </div>
+
                     </div>
                 </div>
 

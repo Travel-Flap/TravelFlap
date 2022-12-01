@@ -47,7 +47,9 @@ export const RentalsBookingPayment = () => {
                                 <dt>Grand Total:</dt>
                                 <dd className="text-right text-dark b ml-3 rentalsrentalsPaymentdiv">$59.97</dd>
                             </dl>
-                            <a href="#" className="btn btn-out btn-primary btn-square btn-main booknowbutton" data-abc="true"> BOOK NOW</a> <a href="#" className="btn btn-out btn-success btn-square btn-main mt-2 sandquerybutton" data-abc="true">SEND QUERY</a>
+
+                            <a href="#" className="btn btn-out btn-primary btn-square btn-main rentalsBookNowButton" data-abc="true"> BOOK NOW </a> 
+                            <a href="#" className="btn btn-out btn-success btn-square btn-main mt-2 rentalsSendQueryButton" data-abc="true">SEND QUERY</a>
                         </div>
 
                         <div className='rentalsCancellationOuterDiv'>

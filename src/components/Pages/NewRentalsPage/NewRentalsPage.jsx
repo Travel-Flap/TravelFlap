@@ -19,6 +19,9 @@ import { Helmet } from 'react-helmet';
 import SearchCarHire from './SearchCarHire/SearchCarHire';
 import CheapCarHire from './CheapCarHire/CheapCarHire';
 import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar';
+import { WayToRentCar } from './WayToRentCar/WayToRentCar';
+import { RideWIthTravelFlap } from './RideWithTravelFlap/RideWIthTravelFlap';
+import { HappyCustomer } from './HappyCustomer/HappyCustomer';
 
 export const NewRentalsPage = () => {
   return (
@@ -38,10 +41,15 @@ export const NewRentalsPage = () => {
         <NewHomeExclusiveDeals />
       </div>
 
+      <RideWIthTravelFlap/>
 
       <HowRentalsWork />
 
+      <WayToRentCar/>
+
       <NewPopularCarHireDestination />
+      
+      <HappyCustomer/>
 
       <CheapCarHire />
 

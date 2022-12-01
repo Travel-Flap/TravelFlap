@@ -6,7 +6,7 @@ export const RentalsInnerBannerSection = () => {
     return (
         <div className='rentalsInnerBannerMainOuterDiv'>
             <div className='rentalsInnerBannerMainImageDiv'>
-                <img src='/Images/Rentals/RentalsBanner/RentalsInnerBannerImage.jpg' alt='rentals Banner Image' />
+                <img src='/Images/Rentals/MainRentalImages/BanneImage.png' alt='rentals Banner Image' />
 
                 <div className='rentalsInnerPageInputDiv'>
                     <RentalInnerBannerForm/>
