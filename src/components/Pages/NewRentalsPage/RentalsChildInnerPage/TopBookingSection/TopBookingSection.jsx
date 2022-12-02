@@ -37,7 +37,7 @@ export const TopBookingSection = () => {
                         </div>
                     </div>
 
-                    <div className='flightNearYouinnerpageFlightDetails'>
+                    <div className='rentalsChildInnerpageFlightDetails'>
 
                         <div class="tab-content text-dark" id="pills-tabContent">
 
@@ -313,60 +313,7 @@ export const TopBookingSection = () => {
 
                 <div className='rentalsInnerWebpageDataFiltersDiv'>
                     <RentalsBookingPayment/>
-                    {/* <div className='flightNearYouInnerWebpageDataFilter'>
-                        <div className='flightNearYouInnerWebpageFilter1'>
-                            <p className='flightNearYouInnerWebpageStops'>Stops</p>
-                            <input type="radio" value="Direct" />
-                            <label for="html">Direct</label><br />
-                            <input type="radio" value="One Stop" />
-                            <label for="css">One Stop</label><br />
-                            <input type="radio" id="javascript" value="Multi Stop" />
-                            <label for="javascript">Multi Stop</label>
-                        </div>
-
-                        <div className='flightNearYouInnerWebpageFilter2'>
-                            <p className='flightNearYouInnerWebpageStops'>Payment Methods</p>
-                            <input type="radio" value="Visa" />
-                            <label for="html">Visa</label><br />
-                            <input type="radio" value="Debit Card" />
-                            <label for="css">Debit Card</label><br />
-                            <input type="radio" id="javascript" value="Net Banking" />
-                            <label for="javascript">Net Banking</label>
-                        </div>
-
-                        <div className='flightNearYouInnerWebpageFilter3'>
-                            <p className='flightNearYouInnerWebpageTime'>Times</p>
-                            <button className='flightNearYouInnerWebpageTimeButtons'>Take-off</button><button className='flightNearYouInnerWebpageTimeButtons'>Landing</button>
-                            <p className='flightNeartakeoffData'>Take Off from JAI</p>
-                            <input type="range" min="1" max="100" value="50" class="flightnearinnerpageslidecontainer" />
-                            <p className='flightNeartakeoffData'>Take Off from Delhi</p>
-                            <input type="range" min="1" max="100" value="50" class="flightnearinnerpageslidecontainer" />
-                        </div>
-
-                        <div className='flightNearYouInnerWebpageFilter4'>
-                            <p className='flightNearYouInnerWebpageStops'>Airlines</p>
-                            <input type="radio" value="Air Asia" />
-                            <label for="html">Air Asia</label><br />
-                            <input type="radio" value="Indigo" />
-                            <label for="css">Indigo</label><br />
-                            <input type="radio" id="javascript" value="Spice jet" />
-                            <label for="javascript">Spice jet</label><br />
-                            <input type="radio" value="Alliance Air" />
-                            <label for="css">Alliance Air</label><br />
-                            <input type="radio" id="javascript" value="Vistara" />
-                            <label for="javascript">Vistara</label>
-                        </div>
-
-                        <div className='flightNearYouInnerWebpageFilter5'>
-                            <p className='flightNearYouInnerWebpageTime'>Duration</p>
-                            <h5 className='flightNearDurationrangeText'>Flight leg</h5>
-                            <input type="range" min="1" max="100" value="50" class="flightnearinnerpageslidecontainer" />
-                            <h5 className='flightNearDurationrangeText'>StopOver</h5>
-                            <input type="range" min="1" max="100" value="50" class="flightnearinnerpageslidecontainer" />
-                            <h5 className='flightNearDurationrangeText'>Budget</h5>
-                            <input type="range" min="1" max="100" value="50" class="flightnearinnerpageslidecontainer" />
-                        </div>
-                    </div> */}
+                   
                 </div>
 
                 <SupplierInformation/>
