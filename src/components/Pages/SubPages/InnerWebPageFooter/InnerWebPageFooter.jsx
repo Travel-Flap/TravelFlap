@@ -759,11 +759,11 @@ export const InnerWebPageFooter = () => {
                                         <div className='listwise'>
                                             <li className='newFooterContentHeadingDiv' >India</li>
                                             <li className='newFooterContentHeadingDiv' >UAE</li>
-<<<<<<< HEAD
+
                                             {/* <li className='newFooterContentHeadingDiv' >GEM</li> */}
-=======
+
                                             <li className='newFooterContentHeadingDiv' >India</li>
->>>>>>> 80654a2424bf1f5f79f49b3b52cfcdf7835e1a3c
+
                                             <li className='newFooterContentHeadingDiv' >SA</li>
                                         </div>
                                     </ul>
@@ -772,17 +772,17 @@ export const InnerWebPageFooter = () => {
                                 <div>
                                     <ul>
                                         <div className='listwise'>
-<<<<<<< HEAD
+
                                             <li className='newFooterContentHeadingDiv' > +918209366227 </li>
                                             <li className='newFooterContentHeadingDiv' > +971 58 597 8776 </li>
                                             {/* <li className='newFooterContentHeadingDiv' >123-456-789</li> */}
                                             <li className='newFooterContentHeadingDiv' > +19176726964 </li>
-=======
+
                                             <li className='newFooterContentHeadingDiv' >+91 8209-3662-27</li>
                                             <li className='newFooterContentHeadingDiv' >191-767-269-64</li>
                                             <li className='newFooterContentHeadingDiv' >+91 7877680588</li>
                                             <li className='newFooterContentHeadingDiv' >971-585-978-776</li>
->>>>>>> 80654a2424bf1f5f79f49b3b52cfcdf7835e1a3c
+
                                         </div>
                                     </ul>
                                 </div>
@@ -795,11 +795,11 @@ export const InnerWebPageFooter = () => {
 
                     <div className='footerlogolastdiv'>
 
-<<<<<<< HEAD
+
                         <p className='copyrightdiv'>©2022 Travalflap | Global Private Limited </p>
-=======
+
                         {/* <p className='copyrightdiv'>©2022 Travalflap | Global Product</p> */}
->>>>>>> 80654a2424bf1f5f79f49b3b52cfcdf7835e1a3c
+
 
                         <div className='innerwebpageFooter'>
 
