@@ -1,6 +1,110 @@
 .newStaycationTopSliderOuterDiv {
-  border: 1px solid red;
-  margin-top: 5%;
+  /* border: 1px solid red; */
   width: 90%;
   margin: auto;
+  height: auto;
+  /* height: 500px; */
+  margin-top: 5%;
+  position: relative;
+}
+
+/* .newStaycationTopSliderHeadingMainDiv {
+  border: 2px solid black;
+} */
+
+.newStaycationTopSliderHeadingMainDiv h3 {
+  /* border: 1px solid red; */
+  font-size: 20px;
+  font-weight: 600;
+  vertical-align: baseline;
+  line-height: 25px;
+  color: #393939;
+}
+
+.newStaycationHeadingInnerDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+}
+
+.newStaycationOptionSliderTopSearchDiv {
+  /* border: 1px solid black; */
+  width: 30%;
+}
+
+.newStaycationTopOptionsDiv {
+  /* border: 1px soli green; */
+  width: 70%;
+}
+
+.newStaycationsOptionSliderNameInput {
+  border: 2px solid lightgray;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  color: #212529;
+  /* background-color: #8DBBFF; */
+  width: 90%;
+  height: 58px;
+  display: flex;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin-left: 8%;
+  margin-top: 5%;
+  border-radius: 7px;
+  /* border-radius: 5px; */
+  flex-direction: row;
+}
+
+.newStaycationsOptionSliderNameInput1 {
+  border: 1px solid lightgray !important;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  /* background-color: #8DBBFF; */
+  width: 95%;
+  margin-left: 2%;
+  margin-right: 2% !important;
+  padding-left: 5px;
+  padding-top: 5px;
+  height: 40px;
+  display: flex;
+  /* border-radius: 5px; */
+  flex-direction: row;
+}
+
+.newStaycationsOptionsSliderinputNameContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.newStaycationsOptionsSliderinputNameContainer input {
+  width: 100%;
+  /* background-color: #8DBBFF; */
+  height: auto;
+  /* margin-top: -1% !important; */
+  width: 130% !important;
+  color: black;
+  border: none !important;
+  outline: none !important;
+  padding-left: 4%;
+  /* margin-left: 4%; */
+  font-size: 20px;
+  /* border: 2px solid red !important; */
+}
+
+.newStaycationsOptionsSliderinputNameContainer input::placeholder {
+  /* padding-left: 5%; */
+  color: black;
+  /* margin-left: 2%; */
+}
+
+.newStaycationsInputicon {
+  margin-top: 1%;
+  font-size: 25px;
+  color: black;
+  /* margin-right: 4%; */
+  margin-left: 4%;
+}
+
+.newStaycationsOptionsSliderinputNameContainer .hotelinputIconContainer {
+  font-size: 30px !important;
 }

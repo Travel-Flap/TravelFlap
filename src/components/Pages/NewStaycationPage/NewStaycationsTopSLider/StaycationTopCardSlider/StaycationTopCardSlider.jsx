@@ -44,6 +44,7 @@ export const StaycationTopCardSLider = () => {
         speed: 1000,
         slidesToShow: 5,
         slidesToScroll: 1,
+        rows:2,
         cssEase: "linear",
         arrows: false,
         appendDots: dots => <ul>{dots}</ul>,
@@ -142,7 +143,8 @@ export const StaycationTopCardSLider = () => {
                             <div className='newStaycationTopCardSliderSlickslidercontainer'>
                                 <SliderWrapper>
                                     <Slider {...settings} className="multiCardSlider">
-                                        <Link to="/hotelbookingpage">
+
+                                        <Link to="/staycationBookingPage">
 
                                             <div className="card-wrapper">
                                                 <div className="card newStaycationTopCardSliderDiv">
@@ -342,6 +344,29 @@ export const StaycationTopCardSLider = () => {
                                                 <p className="job-title">"Best Holiday trip Ever" </p>
                                             </div>
                                         </div>
+
+                                        <div className="card-wrapper">
+                                            <div className="card newStaycationTopCardSliderDiv">
+                                                <div className="card-image newStaycationTopCardSliderCardimage">
+                                                    <img src="Images/TopCities/swedan.jpg" />
+                                                </div>
+                                                <div className="newStaycationTopCardSliderDetails">
+                                                    <h2> Jibhi                         {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur,Rajasthan </p>
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
+                                                        <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
+                                                        {/* </span> */}
+                                                        {/* <Button variant="primary" style={{marginLeft:"30%"}} >Read More</Button> */}
+                                                    </h2>
+                                                </div>
+                                            </div>
+
+                                            <div className='newhomeTopCitiesBottomTexts'>
+                                                <h2>Stockholm</h2>
+                                                <p className="job-title">"Best Holiday trip Ever" </p>
+                                            </div>
+                                        </div>
+                                        
                                     </Slider>
                                 </SliderWrapper>
                             </div>

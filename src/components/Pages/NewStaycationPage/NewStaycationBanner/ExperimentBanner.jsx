@@ -42,12 +42,12 @@ export const ExperimentBanner = () => {
     return (
         <div className="main-main">
 
-            <div id='newhomebanner_mainsection'>
+            <div id='newStaycationbanner_mainsection'>
 
                 {/* This is for the Navbar section */}
 
                 {/* This is for the Carousel */}
-                <div className='newhomebanner_main'>
+                <div className='newStaycationbanner_main'>
 
                     {/* <Services /> */}
 

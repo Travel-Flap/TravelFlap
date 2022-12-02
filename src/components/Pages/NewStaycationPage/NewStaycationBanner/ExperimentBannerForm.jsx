@@ -82,52 +82,52 @@ export const ExperimentBannerForm = () => {
 
             <div id='filter-newStaycationsPagetrave-container'>
 
-       <div className='newStaycationsinputmaindiv'>
-            <div className='newStaycationsDestinationInputContainer'>
-                <p>Search</p>
-                <div className='newStaycationsNameInput'>
-                    <div className='newStaycationsinputNameContainer'>
-                        <BsSearch size={"1.5em"} style={{color:"black",marginLeft:"4%"}}/> <input type="text" placeholder='Search for Destination' />
+                <div className='newStaycationsinputmaindiv'>
+                    <div className='newStaycationsDestinationInputContainer'>
+                        <p>Search</p>
+                        <div className='newStaycationsNameInput'>
+                            <div className='newStaycationsinputNameContainer'>
+                                <BsSearch size={"1.5em"} style={{ color: "black", marginLeft: "4%" }} /> <input type="text" placeholder='Search for Destination' />
+                            </div>
+
+                        </div>
                     </div>
 
+                    <div className='newStaycationsCheckIn_dateContainer'>
+                        <p>Depart</p>
+                        <input type="datetime-local" placeholder='Check-In Date' />
+                    </div>
+
+                    <div className='newStaycationsCheckout_DateContainer'>
+                        <p>Return</p>
+                        <input type="datetime-local" placeholder='Check-Out Date' />
+                    </div>
+
+                    <div className='newStaycationsGuest_outerDiv'>
+                        <p>Travellers</p>
+                        <div id='newStaycationsPage_departure'>
+                            <h5>Choose Travellers </h5>
+                            <div className="dropdownnewStaycationPage-content">
+                                <div className='navbarnewStaycationPageOptions'>
+                                    <FaPlusCircle className='contactIcon' />   <FaMinusCircle className='decrease' /> Adults
+                                </div>
+                                <div className='navbarnewStaycationPageOptions '>
+                                    <FaPlusCircle className='miceIcon' />   <FaMinusCircle className='decrease' /> Children
+                                </div>
+                                <div className='navbarnewStaycationPageOptions'>
+                                    <FaPlusCircle className='offersIcon' />  <FaMinusCircle className='decrease' /> Infants
+                                </div>
+                            </div>
+                            <BsPerson className='newStaycationHomeGuestIcon' />
+                        </div>
+                    </div>
+
+                    <div className='newStaycation_SearchButton'>
+                        <button type="button" class="btn btn-primary">Search</button>
+                    </div>
                 </div>
+
             </div>
-
-    <div className='newStaycationsCheckIn_dateContainer'>
-        <p>Depart</p>
-        <input type="datetime-local" placeholder='Check-In Date' />
-    </div>
-
-    <div className='newStaycationsCheckout_DateContainer'>
-        <p>Return</p>
-        <input type="datetime-local" placeholder='Check-Out Date' />
-    </div>
-
-    <div className='newStaycationsGuest_outerDiv'>
-        <p>Travellers</p>
-        <div id='newStaycationsPage_departure'>
-            <h5>Choose Travellers </h5>
-            <div className="dropdownnewStaycationPage-content">
-                <div className='navbarnewStaycationPageOptions'>
-                    <FaPlusCircle className='contactIcon' />   <FaMinusCircle className='decrease' /> Adults
-                </div>
-                <div className='navbarnewStaycationPageOptions '>
-                    <FaPlusCircle className='miceIcon' />   <FaMinusCircle className='decrease' /> Children
-                </div>
-                <div className='navbarnewStaycationPageOptions'>
-                    <FaPlusCircle className='offersIcon' />  <FaMinusCircle className='decrease' /> Infants
-                </div>
-            </div>
-            <BsPerson className='newStaycationHomeGuestIcon' />
-        </div>
-    </div>
-
-    <div className='newStaycation_SearchButton'>
-        <button type="button" class="btn btn-primary">Search</button>
-    </div>
-</div>
-
-</div>
         </>
     )
 }

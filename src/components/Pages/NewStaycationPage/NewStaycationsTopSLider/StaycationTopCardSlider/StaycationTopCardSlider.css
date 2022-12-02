@@ -3,9 +3,10 @@
 } */
 
 .newStaycationTopCardSliderMaincarddiv  {
-    height: 505px;
+    height: 810px;
     border: none;
     background-color:white !important;
+    /* margin-top: 25%; */
   }
 
   .newStaycationTopCardSliderHeadingouterdiv h2 {
@@ -149,7 +150,7 @@
     /* width: 50%; */
     /* margin-left: -3%; */
     /* margin-right: 5%; */
-    width: 97%;
+    width: 100%;
     margin: auto;
   }
   

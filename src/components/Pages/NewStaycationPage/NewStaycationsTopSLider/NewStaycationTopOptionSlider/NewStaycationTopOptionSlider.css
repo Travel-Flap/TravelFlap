@@ -1,0 +1,60 @@
+.newStaycationOptionnavbardiv {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  margin-top: 1%;
+  /* border: 2px solid red; */
+}
+
+.newStaycationOptionIcons {
+  width: 15%;
+  height: 75px;
+  /* border: 2px solid lightgray; */
+  /* color: #3380F2; */
+  text-align: center;
+  font-weight: 700;
+  margin-left: 5%;
+  font-size: 15px;
+  margin-top: 11%;
+}
+
+.newStaycationOptionIconsdiv {
+  width: 90%;
+  margin: auto;
+  /* margin-left:5% !important; */
+  /* border: 2px solid gold; */
+}
+
+.newStaycationOptionnavbarimages {
+  margin-left: 37% !important;
+  width: 30px;
+  height: 30px;
+}
+
+.newStaycationOptionfilterdiv {
+  width: 6%;
+  height: 65px;
+  border: 2px solid lightgray;
+  margin-left: 3%;
+  color: black;
+  border-radius: 25px;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 0.8%;
+}
+
+.slick-next::before {
+  color: black;
+  margin-left: 50%;
+}
+
+.slick-prev::before {
+  color: black;
+  margin-right: 50%;
+}
+
+/* .staycationArrows button:before {
+  border: 1px solid red;
+}
+
+ */
