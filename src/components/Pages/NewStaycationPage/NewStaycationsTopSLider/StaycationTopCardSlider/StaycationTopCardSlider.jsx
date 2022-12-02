@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { Button } from 'react-bootstrap';
 import { MdLocationCity } from "react-icons/md";
 import { FaAngleDown } from "react-icons/fa";
-import countrydata from '../../../../CountryData.json';
+import countrydata from '../../../../../CountryData.json';
 import { Link } from 'react-router-dom';
 import SliderWrapper from "./SlickSliderStyle";
 
@@ -96,21 +96,21 @@ export const StaycationTopCardSLider = () => {
         ]
     };
     return (
-        <div className='newStayNearYouContainer'>
+        <div className='newStaycationTopCardSliderContainer'>
 
-            <div class="newStayNearYouMaincarddiv card text-bg-dark">
+            <div class="newStaycationTopCardSliderMaincarddiv card text-bg-dark">
                 {/* <img src="Images/NewHomeLayout/BackgroundImages/TopCitiesBackground.jpeg" class="card-img" alt="..." /> */}
-                <div className='newStayNearYoubelowdiv'>
+                <div className='newStaycationTopCardSliderbelowdiv'>
 
                 </div>
                 <div class="card-img-overlay ">
-                    <div className='newStayNearYouMainheading'>
+                    <div className='newStaycationTopCardSliderMainheading'>
 
-                        <div className='newStayNearYouHeadingouterdiv'>
+                        {/* <div className='newStaycationTopCardSliderHeadingouterdiv'>
                             <h2>Stay Near You</h2>
 
-                            <div id='HotelsStayNearYouDropContainer'>
-                                <select id="HotelsStayNearYouCountrydrop" onChange={(e) => handlecounty(e)}
+                            <div id='HotelsStaycationTopCardSliderDropContainer'>
+                                <select id="HotelsStaycationTopCardSliderCountrydrop" onChange={(e) => handlecounty(e)}
                                     style={{ width: "100%", appearance: "none" }}>
                                     <option value="">Country</option>
                                     {
@@ -119,12 +119,12 @@ export const StaycationTopCardSLider = () => {
                                         ))
                                     }
                                 </select>
-                                <div id='HotelsStayNearYouIcondiv'>
-                                    <FaAngleDown size={"1em"} id="HotelsStayNearYouicon" />
+                                <div id='HotelsStaycationTopCardSliderIcondiv'>
+                                    <FaAngleDown size={"1em"} id="HotelsStaycationTopCardSlidericon" />
                                 </div>
                             </div>
 
-                        </div>
+                        </div> */}
 
                         {/* <div className='newPopularbelowHeadingdiv'>
                             <h5 className='belowInternationalheading'>
@@ -136,21 +136,21 @@ export const StaycationTopCardSLider = () => {
                             </h5>
                         </div> */}
 
-                        <div className='newStayNearYouSlidercontainer'>
+                        <div className='newStaycationTopCardSliderSlidercontainer'>
                             {/* From here the next slider part starts */}
 
-                            <div className='newStayNearYouSlickslidercontainer'>
+                            <div className='newStaycationTopCardSliderSlickslidercontainer'>
                                 <SliderWrapper>
                                     <Slider {...settings} className="multiCardSlider">
                                         <Link to="/hotelbookingpage">
 
                                             <div className="card-wrapper">
-                                                <div className="card newStayNearYouDiv">
-                                                    <div className="card-image newStayNearYouCardimage">
+                                                <div className="card newStaycationTopCardSliderDiv">
+                                                    <div className="card-image newStaycationTopCardSliderCardimage">
                                                         <img src="Images/NewHomeLayout/Hotels/AllCompImages/Rambagh Hotel.jpg" />
                                                     </div>
-                                                    <div className="newStayNearYouDetails">
-                                                        <h2> Rambagh Hotel
+                                                    <div className="newStaycationTopCardSliderDetails">
+                                                        <h2> Jibhi
                                                             {/* <span> */}
                                                             <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur, Rajasthan</p>
                                                             <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
@@ -169,14 +169,14 @@ export const StaycationTopCardSLider = () => {
                                         </Link>
 
                                         <div className="card-wrapper">
-                                            <div className="card newStayNearYouDiv">
-                                                <div className="card-image newStayNearYouCardimage">
+                                            <div className="card newStaycationTopCardSliderDiv">
+                                                <div className="card-image newStaycationTopCardSliderCardimage">
                                                     <img src="Images/NewHomeLayout/Hotels/AllCompImages/HotelLalit.jpg" />
                                                 </div>
-                                                <div className="newStayNearYouDetails">
-                                                    <h2> Jaipur,Rajasthan
+                                                <div className="newStaycationTopCardSliderDetails">
+                                                    <h2> Jibhi
                                                         {/* <span> */}
-                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur,Rajasthan </p>
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
                                                         <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
                                                         {/* </span> */}
@@ -191,12 +191,12 @@ export const StaycationTopCardSLider = () => {
                                         </div>
 
                                         <div className="card-wrapper">
-                                            <div className="card newStayNearYouDiv">
-                                                <div className="card-image newStayNearYouCardimage">
+                                            <div className="card newStaycationTopCardSliderDiv">
+                                                <div className="card-image newStaycationTopCardSliderCardimage">
                                                     <img src="Images/NewHomeLayout/Hotels/AllCompImages/TajHotel.jpeg" />
                                                 </div>
-                                                <div className="newStayNearYouDetails">
-                                                    <h2> Taj Hotel
+                                                <div className="newStaycationTopCardSliderDetails">
+                                                    <h2> Jibhi
                                                         {/* <span> */}
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur, Rajasthan</p>
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
@@ -213,12 +213,12 @@ export const StaycationTopCardSLider = () => {
                                         </div>
 
                                         <div className="card-wrapper">
-                                            <div className="card newStayNearYouDiv">
-                                                <div className="card-image newStayNearYouCardimage">
+                                            <div className="card newStaycationTopCardSliderDiv">
+                                                <div className="card-image newStaycationTopCardSliderCardimage">
                                                     <img src="Images/NewHomeLayout/Hotels/AllCompImages/HolidayInn.jpg" />
                                                 </div>
-                                                <div className="newStayNearYouDetails">
-                                                    <h2> Hotel Holiday Inn
+                                                <div className="newStaycationTopCardSliderDetails">
+                                                    <h2> Jibhi
                                                         {/* <span> */}
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur,Rajasthan </p>
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
@@ -235,12 +235,12 @@ export const StaycationTopCardSLider = () => {
                                         </div>
 
                                         <div className="card-wrapper">
-                                            <div className="card newStayNearYouDiv">
-                                                <div className="card-image newStayNearYouCardimage">
+                                            <div className="card newStaycationTopCardSliderDiv">
+                                                <div className="card-image newStaycationTopCardSliderCardimage">
                                                     <img src="Images/NewHomeLayout/Hotels/AllCompImages/HotelLalit.jpg" />
                                                 </div>
-                                                <div className="newStayNearYouDetails">
-                                                    <h2> Hotel Lalit
+                                                <div className="newStaycationTopCardSliderDetails">
+                                                    <h2> Jibhi
                                                         {/* <span> */}
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur,Rajasthan  </p>
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
@@ -257,13 +257,13 @@ export const StaycationTopCardSLider = () => {
                                         </div>
 
                                         <div className="card-wrapper">
-                                            <div className="card newStayNearYouDiv">
-                                                <div className="card-image newStayNearYouCardimage">
+                                            <div className="card newStaycationTopCardSliderDiv">
+                                                <div className="card-image newStaycationTopCardSliderCardimage">
                                                     <img src="Images/TopCities/landon.jpg" />
                                                 </div>
-                                                <div className="newStayNearYouDetails">
-                                                    <h2>London                         {/* <span> */}
-                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                <div className="newStaycationTopCardSliderDetails">
+                                                    <h2> Jibhi                         {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur,Rajasthan </p>
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
                                                         <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
                                                         {/* </span> */}
@@ -278,13 +278,13 @@ export const StaycationTopCardSLider = () => {
                                         </div>
 
                                         <div className="card-wrapper">
-                                            <div className="card newStayNearYouDiv">
-                                                <div className="card-image newStayNearYouCardimage">
+                                            <div className="card newStaycationTopCardSliderDiv">
+                                                <div className="card-image newStaycationTopCardSliderCardimage">
                                                     <img src="Images/TopCities/denmark.jpg" />
                                                 </div>
-                                                <div className="newStayNearYouDetails">
-                                                    <h2>Aarhus                         {/* <span> */}
-                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                <div className="newStaycationTopCardSliderDetails">
+                                                    <h2> Jibhi                         {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur,Rajasthan </p>
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
                                                         <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
                                                         {/* </span> */}
@@ -300,13 +300,13 @@ export const StaycationTopCardSLider = () => {
                                         </div>
 
                                         <div className="card-wrapper">
-                                            <div className="card newStayNearYouDiv">
-                                                <div className="card-image newStayNearYouCardimage">
+                                            <div className="card newStaycationTopCardSliderDiv">
+                                                <div className="card-image newStaycationTopCardSliderCardimage">
                                                     <img src="Images/TopCities/zambiaafrica.jpg" />
                                                 </div>
-                                                <div className="newStayNearYouDetails">
-                                                    <h2>Zambia                         {/* <span> */}
-                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                <div className="newStaycationTopCardSliderDetails">
+                                                    <h2> Jibhi                         {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur,Rajasthan </p>
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
                                                         <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
                                                         {/* </span> */}
@@ -322,13 +322,13 @@ export const StaycationTopCardSLider = () => {
                                         </div>
 
                                         <div className="card-wrapper">
-                                            <div className="card newStayNearYouDiv">
-                                                <div className="card-image newStayNearYouCardimage">
+                                            <div className="card newStaycationTopCardSliderDiv">
+                                                <div className="card-image newStaycationTopCardSliderCardimage">
                                                     <img src="Images/TopCities/swedan.jpg" />
                                                 </div>
-                                                <div className="newStayNearYouDetails">
-                                                    <h2>Stockholm                         {/* <span> */}
-                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}>Tourist Visa</p>
+                                                <div className="newStaycationTopCardSliderDetails">
+                                                    <h2> Jibhi                         {/* <span> */}
+                                                        <p style={{ fontSize: "13.5px", fontWeight: "100" }}> Jaipur,Rajasthan </p>
                                                         <p style={{ fontSize: "13.5px", fontWeight: "100" }}>All Inclusive Packages</p>
                                                         <p style={{ marginTop: "-6%", fontSize: "15px", fontWeight: "100" }}>Starts @  <span style={{ fontWeight: "700", fontSize: "20px" }}> AED 3000 </span> </p>
                                                         {/* </span> */}

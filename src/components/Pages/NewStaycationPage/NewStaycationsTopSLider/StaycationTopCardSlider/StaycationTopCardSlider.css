@@ -1,14 +1,14 @@
-/* .newStayNearYouMaincarddiv{
+/* .newStaycationTopCardSliderMaincarddiv{
     border: 1px solid red;
 } */
 
-.newStayNearYouMaincarddiv  {
+.newStaycationTopCardSliderMaincarddiv  {
     height: 505px;
     border: none;
     background-color:white !important;
   }
 
-  .newStayNearYouHeadingouterdiv h2 {
+  .newStaycationTopCardSliderHeadingouterdiv h2 {
     color: #3380f2;
     margin-left: 3.6%;
     font-size: 30px;
@@ -17,7 +17,7 @@
     margin-bottom: 2%;
   }
   
-  .newStayNearYouHeadingouterdiv{
+  .newStaycationTopCardSliderHeadingouterdiv{
     display: flex;
     flex-direction: row;
   }
@@ -100,7 +100,7 @@
     padding-right: 5%;
     border-left: none;
   } */
-  .newStayNearYouSlidercontainer {
+  .newStaycationTopCardSliderSlidercontainer {
     display: flex;
     flex-direction: row;
   }
@@ -144,7 +144,7 @@
     text-transform: uppercase;
   }
   
-  .newStayNearYouSlickslidercontainer {
+  .newStaycationTopCardSliderSlickslidercontainer {
     /* border: 1px solid red; */
     /* width: 50%; */
     /* margin-left: -3%; */
@@ -162,7 +162,7 @@
     box-sizing: border-box;
   }
   
-  .newStayNearYouDiv {
+  .newStaycationTopCardSliderDiv {
     /* border: 1px solid red !important; */
     width: 100%;
     border: none;
@@ -174,7 +174,7 @@
     position: relative;
   }
   
-  .newStayNearYouCardimage {
+  .newStaycationTopCardSliderCardimage {
     top: 0;
     left: 0;
     width: 100%;
@@ -186,7 +186,7 @@
     /* border-bottom-left-radius: 50%; */
   }
   
-  .newStayNearYouCardimage img {
+  .newStaycationTopCardSliderCardimage img {
     width: 100%;
     height: 100%;
     filter: brightness(0.6);
@@ -195,22 +195,22 @@
     object-fit: cover;
   }
   
-  /* .newStayNearYouDiv img{
+  /* .newStaycationTopCardSliderDiv img{
       border-bottom-left-radius: 25%;
     } */
   
-  .newStayNearYouDiv:hover img {
+  .newStaycationTopCardSliderDiv:hover img {
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   
-  .newStayNearYouDiv:hover .newStayNearYouCardimage {
+  .newStaycationTopCardSliderDiv:hover .newStaycationTopCardSliderCardimage {
     -moz-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
   }
   
-  .newStayNearYouDetails {
+  .newStaycationTopCardSliderDetails {
     position: absolute;
     bottom: -45%;
     left: 0;
@@ -223,11 +223,11 @@
     color: white;
   }
   
-  /* .newStayNearYouDetails :hover {
+  /* .newStaycationTopCardSliderDetails :hover {
     color: white;
   } */
   
-  .newStayNearYouDetails h2 {
+  .newStaycationTopCardSliderDetails h2 {
     margin: 0px 0;
     padding: 0;
     text-align: center;
@@ -236,18 +236,18 @@
     font-weight: 700;
   }
   
-  .newStayNearYouDetails h2 .job-title {
+  .newStaycationTopCardSliderDetails h2 .job-title {
     font-size: 16px;
     line-height: 2;
     font-weight: 300;
     display: block;
   }
   
-  /* .newStayNearYouDiv:hover .newStayNearYouDetails {
+  /* .newStaycationTopCardSliderDiv:hover .newStaycationTopCardSliderDetails {
       bottom: 0;
     } */
   
-  .newStayNearYouDetails button{
+  .newStaycationTopCardSliderDetails button{
     margin-left: 35%;
   }
   
@@ -374,7 +374,7 @@
 } */
 
 
-#HotelsStayNearYouDropContainer {
+#HotelsStaycationTopCardSliderDropContainer {
   width: 9.5% !important;
   margin-left: 70%;
   margin-top: 1%;
@@ -392,7 +392,7 @@
   padding-left: 15px;
 }
 
-#HotelsStayNearYouCountrydrop {
+#HotelsStaycationTopCardSliderCountrydrop {
   background-color: #3380F2 !important;
   width: 80%;
   height: 100%;
@@ -407,7 +407,7 @@
   outline: none;
   padding-left: 15px;
 }
-#HotelsStayNearYouIcondiv {
+#HotelsStaycationTopCardSliderIcondiv {
   width: 20%;
   color: white;
   background-color: #3380F2;
@@ -416,7 +416,7 @@
   padding-right: 5%;
   border-left: none;
 }
-#HotelsStayNearYouicon {
+#HotelsStaycationTopCardSlidericon {
   margin-left: -37%;
   color: white;
   height: 21px;
