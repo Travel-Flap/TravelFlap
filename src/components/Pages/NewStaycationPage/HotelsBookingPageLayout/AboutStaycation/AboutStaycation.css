@@ -1,0 +1,130 @@
+.staycationsBoookingButtonGroup{
+    /* border: 2px solid black; */
+    margin-top: 2%;
+}
+
+
+
+.staycationsBookingButtonsSelector {
+  /* border: 2px solid red; */
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.staycationsBookingButtonMainDiv {
+  /* border: 2px solid black !important; */
+  width: 50%;
+  margin-top: 2%;
+  /* margin-left: 2%; */
+}
+
+.staycationsBookingButtonMainDiv label {
+  margin-left: 2% !important;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.staycationsBookingButton1 {
+  outline: none;
+  border: none;
+  width: 6%;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 25px;
+}
+
+.staycationsBookingButton2 {
+  outline: none;
+  border: none;
+  width: 6% ;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 30px;
+}
+
+.staycationsBookingButton3 {
+  outline: none;
+  border: none;
+  width: 6%;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 30px;
+}
+
+.staycationsBookingButton4 {
+  outline: none;
+  border: none;
+  width: 6%;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 30px;
+}
+
+.staycationsBookingButton5 {
+  outline: none;
+  border: none;
+  width: 6%;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 30px;
+}
+
+/* .staycationsBookingButton6 {
+  outline: none;
+  border: 2px solid #3380f2;
+  width: 15%;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 45px;
+} */
+
+/* This css part starts for the below staycations info */
+
+.staycationsBookingstaycationsNameHeading {
+  width: 90%;
+  margin: auto;
+}
+
+.staycationsBookingstaycationsNameHeading h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.staycationsBookingNameSubDiv p{
+  color: #393939 !important;
+  font-size: 16px;
+}
+
+
+.staycationsBookingNameSubDiv h2{
+  font-size: 30px;
+}
+
+/* .staycationsBookingInfoIcons{
+    border: 1px solid red;
+} */
+
+.staycationsBookingTextIcons{
+    /* border:1px solid black; */
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.staycationsBookingTextIconsInner1{
+    width: 50%;
+}
+
+.staycationsBookingTextIconsInner2{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+
+
+.StaycationsBookingFaqContainer{
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.StaycationsBookingFaqtexts{
+    width: 90%;
+}
+
+.accordion-button{
+    z-index: 0 !important;
+}
+
+
+
+
+

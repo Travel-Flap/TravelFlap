@@ -9,6 +9,7 @@ import countrydata from '../../../../CountryData.json';
 import { Button } from "react-bootstrap";
 import { FaAngleLeft, FaAngleDown } from 'react-icons/fa';
 import { BsFillChatLeftFill, BsFillStarFill, BsStarHalf } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 // import { CountryDropHotel } from "./CountryDropHotel";
 
 export const FavouriteStaycationSpot = () => {
@@ -45,27 +46,27 @@ export const FavouriteStaycationSpot = () => {
 
 
             <div className="bestFavStaycationHeadingcontainer" >
-                <div className="cardtextFavStaycationDropbutton" style={{marginLeft:"-1%"}}>
+                <div className="cardtextFavStaycationDropbutton" style={{ marginLeft: "-1%" }}>
                     {/* <CountryDropHotel /> */}
                     <h2>Favourite Staycation spots</h2>
 
 
                     {/* <div className='newFavStaycationDropContainer'> */}
-                  
+
                     <div id='newFavStaycationDropContainer'>
-                            <select id="newFavStaycationCountryDrop" onChange={(e) => handlecounty(e)}
-                                style={{ width: "100%",appearance:"none" }}>
-                                <option value="">Country</option>
-                                {
-                                    countrydata.map((getcountry, index) => (
-                                        <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
-                                    ))
-                                }
-                            </select>
-                            <div id='newFavStaycationicondiv'>
-                            <FaAngleDown  size={"1em"} id="newFavStaycationicon" />
-                            </div>
+                        <select id="newFavStaycationCountryDrop" onChange={(e) => handlecounty(e)}
+                            style={{ width: "100%", appearance: "none" }}>
+                            <option value="">Country</option>
+                            {
+                                countrydata.map((getcountry, index) => (
+                                    <option value={getcountry.country_id} key={index}>{getcountry.country_name}</option>
+                                ))
+                            }
+                        </select>
+                        <div id='newFavStaycationicondiv'>
+                            <FaAngleDown size={"1em"} id="newFavStaycationicon" />
                         </div>
+                    </div>
                     {/* <div className='newFavHotelsicondiv'>
                             <FaAngleDown style={{ fontSize: "15px" }} size={"1em"} className="favHotelsicon" />
                         </div>
@@ -169,232 +170,250 @@ export const FavouriteStaycationSpot = () => {
                         )}
                     >
 
-                        <div className="cardtextFavStaycation_maindiv">
-                            <div className="reviewratingFavStaycationSection">
-                                <th>Exeptional
-                                    <br />
-                                    <span style={{ fontSize: "10px" }}>1879 reviews</span>
-                                </th>
-                                <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
-                            </div>
-                            <img src="https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                            <div className="cardFavStaycation_title">
-                                <h5>
-                                    Single Room
-                                </h5>
-                                <br />
-                                <div className="favStaycationtitle_rating">
-                                    <span >
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                    </span>
-
-                                    <div className="favStaycationRatesdiv">
-                                        <p>$300/ day</p>
-                                    </div>
-
+                        <Link to="/staycationdetailspage">
+                            <div className="cardtextFavStaycation_maindiv">
+                                <div className="reviewratingFavStaycationSection">
+                                    <th>Exeptional
+                                        <br />
+                                        <span style={{ fontSize: "10px" }}>1879 reviews</span>
+                                    </th>
+                                    <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
                                 </div>
-                            </div>
+                                <img src="https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                                <div className="cardFavStaycation_title">
+                                    <h5>
+                                        Single Room
+                                    </h5>
+                                    <br />
+                                    <div className="favStaycationtitle_rating">
+                                        <span >
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                        </span>
+
+                                        <div className="favStaycationRatesdiv">
+                                            <p>$300/ day</p>
+                                        </div>
+
+                                    </div>
+                                </div>
 
 
-                            {/* <div className="hoteldicsountprice">
+                                {/* <div className="hoteldicsountprice">
                             <span className="hoteldiscountpercent">41% DISCOUNT</span>
                             <span className="hotelPricebeforediscount">&#x24;19,662</span>
                             <span className="hotel_Priceafterdiscount">&#x24;11,611</span>
                         </div> */}
-                        </div>
-                        <div className="cardtextFavStaycation_maindiv">
-                            <div className="reviewratingFavStaycationSection">
-                                <th>Exeptional
-                                    <br />
-                                    <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                                </th>
-                                <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} />
-                                <span className="review_rating_num">9.0</span>
                             </div>
-                            <img src="https://content.r9cdn.net/rimg/himg/76/28/a2/expediav2-85362-ef67ed-911684.jpg?width=226&height=209&xhint=540&yhint=333&crop=true&watermarkheight=14&watermarkpadding=5" alt="" />
-                            <div className="cardFavStaycation_title">
-                                <h5>
-                                    Single Room
-                                </h5>
-                                <br />
-                                <div className="favStaycationtitle_rating">
-                                    <span >
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                    </span>
+                        </Link>
 
-                                    <div className="favStaycationRatesdiv">
-                                        <p>$300/ day</p>
+                        <Link to="/staycationdetailspage">
+                            <div className="cardtextFavStaycation_maindiv">
+                                <div className="reviewratingFavStaycationSection">
+                                    <th>Exeptional
+                                        <br />
+                                        <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                                    </th>
+                                    <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} />
+                                    <span className="review_rating_num">9.0</span>
+                                </div>
+                                <img src="https://content.r9cdn.net/rimg/himg/76/28/a2/expediav2-85362-ef67ed-911684.jpg?width=226&height=209&xhint=540&yhint=333&crop=true&watermarkheight=14&watermarkpadding=5" alt="" />
+                                <div className="cardFavStaycation_title">
+                                    <h5>
+                                        Single Room
+                                    </h5>
+                                    <br />
+                                    <div className="favStaycationtitle_rating">
+                                        <span >
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                        </span>
+
+                                        <div className="favStaycationRatesdiv">
+                                            <p>$300/ day</p>
+                                        </div>
+
                                     </div>
-
                                 </div>
                             </div>
-                        </div>
+                        </Link>
 
-                        <div className="cardtextFavStaycation_maindiv">
-                            <div className="reviewratingFavStaycationSection">
-                                <th>Exeptional
-                                    <br />
-                                    <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                                </th>
-                                <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
-                            </div>
-                            <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aG90ZWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                            <div className="cardFavStaycation_title">
-                                <h5>
-                                    Single Room
-                                </h5>
-                                <br />
-                                <div className="favStaycationtitle_rating">
-                                    <span >
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                    </span>
-
-                                    <div className="favStaycationRatesdiv">
-                                        <p>$300/ day</p>
-                                    </div>
-
+                        <Link to="/staycationdetailspage">
+                            <div className="cardtextFavStaycation_maindiv">
+                                <div className="reviewratingFavStaycationSection">
+                                    <th>Exeptional
+                                        <br />
+                                        <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                                    </th>
+                                    <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
                                 </div>
-                            </div>
-
-                        </div>
-                        <div className="cardtextFavStaycation_maindiv">
-                            <div className="reviewratingFavStaycationSection">
-                                <th>Exeptional
+                                <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aG90ZWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                                <div className="cardFavStaycation_title">
+                                    <h5>
+                                        Single Room
+                                    </h5>
                                     <br />
-                                    <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                                </th>
-                                <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
-                            </div>
-                            <img src="https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                            <div className="cardFavStaycation_title">
-                                <h5>
-                                    Single Room
-                                </h5>
-                                <br />
-                                <div className="favStaycationtitle_rating">
-                                    <span >
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                    </span>
+                                    <div className="favStaycationtitle_rating">
+                                        <span >
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                        </span>
 
-                                    <div className="favStaycationRatesdiv">
-                                        <p>$300/ day</p>
+                                        <div className="favStaycationRatesdiv">
+                                            <p>$300/ day</p>
+                                        </div>
+
                                     </div>
-
                                 </div>
+
                             </div>
+                        </Link>
 
-
-                        </div>
-                        <div className="cardtextFavStaycation_maindiv">
-                            <div className="reviewratingFavStaycationSection">
-                                <th>Exeptional
+                        <Link to="/staycationdetailspage">
+                            <div className="cardtextFavStaycation_maindiv">
+                                <div className="reviewratingFavStaycationSection">
+                                    <th>Exeptional
+                                        <br />
+                                        <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                                    </th>
+                                    <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
+                                </div>
+                                <img src="https://images.unsplash.com/photo-1625244724120-1fd1d34d00f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                                <div className="cardFavStaycation_title">
+                                    <h5>
+                                        Single Room
+                                    </h5>
                                     <br />
-                                    <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                                </th>
-                                <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
-                            </div>
-                            <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel5.png" alt="" />
-                            <div className="cardFavStaycation_title">
-                                <h5>
-                                    Single Room
-                                </h5>
-                                <br />
-                                <div className="favStaycationtitle_rating">
-                                    <span >
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                    </span>
+                                    <div className="favStaycationtitle_rating">
+                                        <span >
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                        </span>
 
-                                    <div className="favStaycationRatesdiv">
-                                        <p>$300/ day</p>
+                                        <div className="favStaycationRatesdiv">
+                                            <p>$300/ day</p>
+                                        </div>
+
                                     </div>
-
                                 </div>
-                            </div>
 
-                        </div>
-                        <div className="cardtextFavStaycation_maindiv">
-                            <div className="reviewratingFavStaycationSection">
-                                <th>Exeptional
+
+                            </div>
+                        </Link>
+
+                        <Link to="/staycationdetailspage">
+                            <div className="cardtextFavStaycation_maindiv">
+                                <div className="reviewratingFavStaycationSection">
+                                    <th>Exeptional
+                                        <br />
+                                        <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                                    </th>
+                                    <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
+                                </div>
+                                <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel5.png" alt="" />
+                                <div className="cardFavStaycation_title">
+                                    <h5>
+                                        Single Room
+                                    </h5>
                                     <br />
-                                    <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                                </th>
-                                <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
-                            </div>
-                            <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel6.png" alt="" />
-                            <div className="cardFavStaycation_title">
-                                <h5>
-                                    Single Room
-                                </h5>
-                                <br />
-                                <div className="favStaycationtitle_rating">
-                                    <span >
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                    </span>
+                                    <div className="favStaycationtitle_rating">
+                                        <span >
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                        </span>
 
-                                    <div className="favStaycationRatesdiv">
-                                        <p>$300/ day</p>
+                                        <div className="favStaycationRatesdiv">
+                                            <p>$300/ day</p>
+                                        </div>
+
                                     </div>
-
                                 </div>
-                            </div>
 
-                        </div>
-                        <div className="cardtextFavStaycation_maindiv">
-                            <div className="reviewratingFavStaycationSection">
-                                <th>Exeptional
+                            </div>
+                        </Link>
+
+                        <Link to="/staycationdetailspage">
+                            <div className="cardtextFavStaycation_maindiv">
+                                <div className="reviewratingFavStaycationSection">
+                                    <th>Exeptional
+                                        <br />
+                                        <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                                    </th>
+                                    <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
+                                </div>
+                                <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel6.png" alt="" />
+                                <div className="cardFavStaycation_title">
+                                    <h5>
+                                        Single Room
+                                    </h5>
                                     <br />
-                                    <span style={{ fontSize: "10px" }}>1872 reviews</span>
-                                </th>
-                                <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
-                            </div>
-                            <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel2.png" alt="" />
-                            <div className="cardFavStaycation_title">
-                                <h5>
-                                    Single Room
-                                </h5>
-                                <br />
-                                <div className="favStaycationtitle_rating">
-                                    <span >
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                        <BsFillStarFill className="staricon" />
-                                    </span>
+                                    <div className="favStaycationtitle_rating">
+                                        <span >
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                        </span>
 
-                                    <div className="favStaycationRatesdiv">
-                                        <p>$300/ day</p>
+                                        <div className="favStaycationRatesdiv">
+                                            <p>$300/ day</p>
+                                        </div>
+
                                     </div>
-
                                 </div>
+
                             </div>
+                        </Link>
 
-                        </div>
+                        <Link to="/staycationdetailspage">
+                            <div className="cardtextFavStaycation_maindiv">
+                                <div className="reviewratingFavStaycationSection">
+                                    <th>Exeptional
+                                        <br />
+                                        <span style={{ fontSize: "10px" }}>1872 reviews</span>
+                                    </th>
+                                    <BsFillChatLeftFill style={{ color: "#3380F2" }} fontSize={"30px"} /><span className="review_rating_num">9.0</span>
+                                </div>
+                                <img src="Images/NewHomeLayout/Hotels/FavHotels/FavHotel2.png" alt="" />
+                                <div className="cardFavStaycation_title">
+                                    <h5>
+                                        Single Room
+                                    </h5>
+                                    <br />
+                                    <div className="favStaycationtitle_rating">
+                                        <span >
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                            <BsFillStarFill className="staricon" />
+                                        </span>
 
+                                        <div className="favStaycationRatesdiv">
+                                            <p>$300/ day</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </Link>
 
                     </Slider>
                 </div>

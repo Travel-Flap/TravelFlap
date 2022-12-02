@@ -1,0 +1,54 @@
+.staycationInnerTopOuterDiv {
+  /* border: 2px solid red; */
+  height: 430px;
+  position: relative;
+}
+
+.staycationInnerCarouselImageDiv {
+  /* border: 2px solid black; */
+  height: 430px;
+  object-fit: cover;
+}
+
+.staycationInnerCarouselImageDiv img {
+  object-fit: cover;
+}
+
+.carousel .carousel-item {
+  transition-duration: 0.1s;
+}
+
+.staycationInnerTopContent {
+  /* border: 2px solid red; */
+  position: absolute;
+  /* top: 5%; */
+  bottom: 40%;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+
+.staycationInnerTopContent h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  vertical-align: baseline;
+  line-height: 20px;
+}
+
+.staycationInnerTopContent span {
+  color: #3380f2;
+}
+
+.staycationInnerTopContent p {
+  color: white;
+  background-color: #3380f2;
+  width: 17%;
+  height: 35px;
+  margin: auto;
+  margin-top: 1.7%;
+  padding-top: 6px;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 4px;
+}

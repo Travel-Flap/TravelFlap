@@ -56,8 +56,8 @@ import { RentalsInnerPage1 } from "./components/Pages/NewRentalsPage/RentalsInne
 import { ActivitiesInnerWebPage } from "./components/Pages/SubPages/ActivitiesInnerWebPage/ActivitiesInnerWebPage";
 import { PopularDestination0 } from "./components/Pages/SubPages/PopularDestination0/PopularDestination0";
 import { RentalsChildInnerPage } from "./components/Pages/NewRentalsPage/RentalsChildInnerPage/RentalsChildInnerPage";
-
-        
+import { StaycationsInnerDetailsPage } from "./components/Pages/NewStaycationPage/StaycationInnerDetailsPage/StaycationsInnerDetailsPage";
+import { StaycationBookingPageLayout } from "./components/Pages/NewStaycationPage/HotelsBookingPageLayout/StaycationBookingPageLayout";
 
 function App() {
   return (
@@ -144,14 +144,10 @@ function App() {
         <Route path="/rentals" element={<NewRentalsPage />} />
         <Route path="/offers" element={<NewOffers />} />
 
-        <Route
-          path="/holidaysOffers"
-          element={<InnerPopularDestination2 />}
-        />
+        <Route path="/holidaysOffers" element={<InnerPopularDestination2 />} />
 
-         
-        <Route path="/populardestination" element={<PopularDestination0/>}/>
-        <Route path="/populardestination1" element={<PopularDestination1/>}/>
+        <Route path="/populardestination" element={<PopularDestination0 />} />
+        <Route path="/populardestination1" element={<PopularDestination1 />} />
 
         {/* These Routes here are for the  Admin page */}
 
@@ -168,26 +164,32 @@ function App() {
 
         <Route path="/easyvisainnerpage" element={<InnerVisaPage1 />} />
 
-        <Route path="/activitiesInnerpage" element={<ActivitiesInnerWebPage/>}/>
+        <Route
+          path="/activitiesInnerpage"
+          element={<ActivitiesInnerWebPage />}
+        />
         {/* <Route path="/staycations" element={ <Staycations/>} /> */}
 
         {/* <Route path="/contact" element={<ContactUS/>}/> */}
 
         {/* These rouutes are for the hotels pages */}
 
-        <Route path="/cheapflight" element={<InnerCheapFlightDestination/>}/>
-        <Route path="/flightnearyou" element={<FlightNearYouInnerWebpage/>}/>
-        <Route path="/hoteldetailspage" element={<HotelsInnerDetailsPage />}/>
-        <Route path="/hotelbookingpage" element={<HotelBookingPageLayout />}/>
-
+        <Route path="/cheapflight" element={<InnerCheapFlightDestination />} />
+        <Route path="/flightnearyou" element={<FlightNearYouInnerWebpage />} />
+        <Route path="/hoteldetailspage" element={<HotelsInnerDetailsPage />} />
+        <Route path="/hotelbookingpage" element={<HotelBookingPageLayout />} />
 
         {/* Routes for the Car Rentals Page */}
-        <Route path="/rentalscarDetails" element={ <RentalsInnerPage1/> } />
-        <Route path="/carBookingPage" element={ <RentalsChildInnerPage/> } />
+        <Route path="/rentalscarDetails" element={<RentalsInnerPage1 />} />
+        <Route path="/carBookingPage" element={<RentalsChildInnerPage />} />
+
+        {/* Routes for the staycations Inner Pages */}
+        <Route path="/staycationdetailsPage" element={<StaycationsInnerDetailsPage />} />
+        <Route path="/staycationBookingPage" element={ <StaycationBookingPageLayout/> } />
 
         
-        <Route path="/contact" element={<ContactUS />} />
 
+        <Route path="/contact" element={<ContactUS />} />
       </Routes>
     </>
   );

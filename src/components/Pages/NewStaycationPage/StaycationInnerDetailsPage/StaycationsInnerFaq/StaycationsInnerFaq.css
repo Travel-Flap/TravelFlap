@@ -1,0 +1,40 @@
+/* .statedop1{
+    border: 1px solid red;
+    width: 20%;
+} */
+
+/* .statedrop1header{
+    border: 1px solid blue;
+} */
+
+.hotelInnerFaqInnerHeading{
+    border: none !important;
+}
+
+.hotelInnerFaqInnerTexts{
+    width: 100%;
+}
+
+.accordion-button{
+    z-index: 0 !important;
+}
+
+.hotelInnerFaqHeading  h2{
+    font-size: 25px;
+    font-weight: 600;
+    /* margin-left: 1% */
+}
+
+/* .hotelInnerPageFaq{
+    border: 1px solid red;
+} */
+
+.hotelInnerFaqOuterDiv{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+
+

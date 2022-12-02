@@ -25,6 +25,7 @@ import { NewHomeNav } from '../NewHomePage/NewHomeNavbar/NewHomeNavbar';
 
 import { Helmet } from "react-helmet";
 import { NewStaycationStaticBanners1 } from "./NewStaycationStaticBanners1/NewStaycationStaticBanners1";
+import { NewStaycationTopSlider } from "./NewStaycationsTopSLider/NewStaycationTopSlider";
 
 export const NewStaycationPage = () => {
 
@@ -40,6 +41,8 @@ export const NewStaycationPage = () => {
             <NewHomeNav />
 
             <ExperimentBanner />
+
+            <NewStaycationTopSlider/>
 
 
 

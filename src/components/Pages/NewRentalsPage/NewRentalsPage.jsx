@@ -33,7 +33,7 @@ export const NewRentalsPage = () => {
                 Take a looks at TravelFlap for your car rentals co-ordinatior.' />
       </Helmet>
 
-      <NewHomeNav/>
+      <NewHomeNav />
 
       <NewRentalBanner />
 
@@ -41,15 +41,15 @@ export const NewRentalsPage = () => {
         <NewHomeExclusiveDeals />
       </div>
 
-      <RideWIthTravelFlap/>
+      <RideWIthTravelFlap />
 
       <HowRentalsWork />
 
-      <WayToRentCar/>
+      <WayToRentCar />
 
       <NewPopularCarHireDestination />
-      
-      <HappyCustomer/>
+
+      {/* <HappyCustomer/> */}
 
       <CheapCarHire />
 

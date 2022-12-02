@@ -1,0 +1,63 @@
+.facilitiesMainDiv{
+    width: 90%;
+    margin: auto;
+}
+
+.facilitiesMainDiv h2{
+    font-size: 30px;
+}
+
+.staycationsAminitiesOuterDiv{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.staycationsAminitiesInnnerDiv1{
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+.staycationsAminitiesInnnerDiv2{
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+.staycationsAminitiesInnerSubDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.facilityIconsDiv{
+    margin-right: 2%;
+    font-size: 22px;
+    margin-top: 0.5%;
+}
+
+.staycationsAminitiesInnerSubDiv p{
+   margin-top: 1.5%;
+   font-size: 17px;
+   color: #393939 !important;
+}
+
+.dropButtonstaycationsAminities{
+    margin-left: 50%;
+    margin-top: 1%;
+    font-size: 19px;
+    cursor: pointer;
+    color: #3380f2;
+    margin-bottom: 3%;
+}
+
+.dropButtonstaycationsAminities :hover{
+    color: #3380f2 !important;
+}
+
+
+
+
+
+
+
+

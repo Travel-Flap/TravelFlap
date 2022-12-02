@@ -759,7 +759,7 @@ export const InnerWebPageFooter = () => {
                                         <div className='listwise'>
                                             <li className='newFooterContentHeadingDiv' >India</li>
                                             <li className='newFooterContentHeadingDiv' >UAE</li>
-                                            <li className='newFooterContentHeadingDiv' >GEM</li>
+                                            {/* <li className='newFooterContentHeadingDiv' >GEM</li> */}
                                             <li className='newFooterContentHeadingDiv' >SA</li>
                                         </div>
                                     </ul>
@@ -768,10 +768,10 @@ export const InnerWebPageFooter = () => {
                                 <div>
                                     <ul>
                                         <div className='listwise'>
-                                            <li className='newFooterContentHeadingDiv' >123-456-789</li>
-                                            <li className='newFooterContentHeadingDiv' >123-456-789</li>
-                                            <li className='newFooterContentHeadingDiv' >123-456-789</li>
-                                            <li className='newFooterContentHeadingDiv' >123-456-789</li>
+                                            <li className='newFooterContentHeadingDiv' > +918209366227 </li>
+                                            <li className='newFooterContentHeadingDiv' > +971 58 597 8776 </li>
+                                            {/* <li className='newFooterContentHeadingDiv' >123-456-789</li> */}
+                                            <li className='newFooterContentHeadingDiv' > +19176726964 </li>
                                         </div>
                                     </ul>
                                 </div>
@@ -784,7 +784,7 @@ export const InnerWebPageFooter = () => {
 
                     <div className='footerlogolastdiv'>
 
-                        <p className='copyrightdiv'>©2022 Travalflap | Global Product</p>
+                        <p className='copyrightdiv'>©2022 Travalflap | Global Private Limited </p>
 
                         <div className='innerwebpageFooter'>
 

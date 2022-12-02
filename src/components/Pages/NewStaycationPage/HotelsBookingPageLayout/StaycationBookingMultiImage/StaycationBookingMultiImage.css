@@ -1,0 +1,116 @@
+.StaycationsBookingMultiImageOuterDiv{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.StaycationsBookingMultiImageMainDiv{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.StaycationsBookingMultiImageInnerDiv1{
+    /* border: 1px solid black; */
+    width: 47%;
+    margin-right: 1%;
+    /* margin-left: 2%; */
+}
+
+
+.StaycationsBookingMultiImageInnerDiv1 img{
+    height: 375px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.StaycationsBookingMultiImageMiddleMainDiv{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    /* margin-left: 2%; */
+}
+
+.StaycationsBookingMultiImageInnerDiv2{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+.StaycationsBookingMultiImageSubDiv1{
+    /* border: 1px solid purple; */
+    width: 48%;
+    margin-right: 2%;
+    height: 180px;
+  
+}
+
+.StaycationsBookingMultiImageSubDiv1 img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.StaycationsBookingMultiImageSubDiv2{
+    /* border: 1px solid greenyellow; */
+    width: 50%;
+    height: 180px;
+}
+
+.StaycationsBookingMultiImageSubDiv2 img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.StaycationsBookingMultiImageInnerDiv3{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.StaycationsBookingMultiImageSubDiv3{
+    /* border: 1px solid black; */
+    width: 48%;
+    margin-right: 2%;
+    height: 180px;
+  
+}
+
+.StaycationsBookingMultiImageSubDiv3 img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.StaycationsBookingMultiImageSubDiv2{
+    /* border: 1px solid greenyellow; */
+    width: 50%;
+    height: 180px;
+}
+
+.StaycationsBookingMultiImageSubDiv4{
+    /* border: 1px solid greenyellow; */
+    width: 50%;
+    height: 180px;
+}
+
+.StaycationsBookingMultiImageSubDiv4 img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+

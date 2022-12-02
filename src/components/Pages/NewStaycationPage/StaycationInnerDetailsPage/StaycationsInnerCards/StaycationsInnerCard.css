@@ -1,0 +1,305 @@
+.filterStaycationInnerButtons {
+  /* border: 2px solid red !important; */
+  margin-top: 2%;
+}
+
+.staycationsInnerCardButtonsSelector {
+  /* border: 2px solid red; */
+  width: 70%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.staycationsInnerCardButton1 {
+  outline: none;
+  border: 2px solid #3380f2;
+  width: 20%;
+  border-radius: 5px !important;
+  padding-left: 4%;
+}
+
+.staycationsInnerCardButton2 {
+  outline: none;
+  border: 2px solid #3380f2;
+  /* width: 15%; */
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 35px;
+}
+
+.staycationsInnerCardButton3 {
+  outline: none;
+  border: 2px solid #3380f2;
+  /* width: 15%; */
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 35px;
+}
+.staycationsInnerCardButton4{
+  outline: none;
+  border: 2px solid #3380f2;
+  /* width: 15%; */
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 25px;
+  text-align: center  !important;
+}
+
+.staycationsInnerCardButtonMainDiv {
+  /* border: 2px solid black !important; */
+  width: 95%;
+  margin-left: 2%;
+}
+
+.staycationsInnerCardButtonMainDiv label {
+  margin-left: 5% !important;
+}
+
+/* This css is for the cards and budget filter selection */
+.budgetStaycationsFilterCardsMainDiv {
+  /* border: 2px solid red !important; */
+  width: 90%;
+  margin: 1.7% auto auto;
+  display: flex;
+  flex-direction: row;
+  /* height: 300px; */
+}
+
+.staycationsInnerBudgetFilters {
+  border: 2px solid lightgray;
+  height: 850px !important;
+  width: 35%;
+}
+
+.staycationsInnerDataCards {
+  border: 2px solid lightgray;
+  margin-left: 4%;
+  width: 60%;
+}
+
+/* 
+.staycationsstaycationsPriceRangeFilter{
+    border: 1px solid red;
+} */
+
+.staycationsPriceRangeInnerFilterDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.staycationsbudgetHeading {
+  /* border: 1px solid black; */
+  width: 70%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.staycationsResetHeading {
+  /* border: 1px solid green; */
+  font-size: 15px;
+  width: 30%;
+  color: gray;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.priceDropDown {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+}
+
+.staycationsInnerStateSelectFilter {
+  /* border: 1px solid black; */
+  width: 80%;
+  margin: auto;
+  margin-top: 4%;
+}
+
+.selectStateFilter {
+  display: flex;
+  flex-direction: row;
+}
+
+.hoteInnerstaycationsTypeDiv {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  margin-top: 4%;
+}
+
+.staycationsTypeFilter {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: auto;
+}
+
+/* .staycationsTypeSelectorButtons{
+    border: 1px solid red;
+} */
+
+.staycationsTypeButton {
+  /* border: 1px solid red !important; */
+  margin-top: 2%;
+  border: none !important;
+  width: 50%;
+  margin-left: 7%;
+  color: #393939 !important;
+}
+
+.staycationsTypeButton:hover{
+    color: white !important;
+}
+
+.staycationsTypeViewAllButton {
+  /* border: 1px solid red !important; */
+  border: none !important;
+  background-color: whitesmoke !important;
+  color: #3380f2 !important;
+  border: none !important;
+}
+
+.hoteInnerCollectionDiv {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  margin-top: 4%;
+}
+
+.collectionTypeFilter {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: auto;
+}
+
+/* .staycationsTypeSelectorButtons{
+    border: 1px solid red;
+} */
+
+.collectionTypeButton {
+  margin-top: 2%;
+  border: none !important;
+  width: 50%;
+  margin-left: 7%;
+  color: #393939 !important;
+}
+
+.collectionTypeButton:hover{
+    color: white !important;
+}
+
+.collectionTypeViewAllButton {
+  border: none !important;
+  background-color: whitesmoke !important;
+  color: #3380f2 !important;
+  border: none !important;
+}
+
+.hoteInnerCheckInTypeDiv {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  margin-top: 4%;
+}
+
+.staycationsCheckInFilter {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: auto;
+}
+
+.checkInTypeButton {
+  margin-top: 2%;
+  border: none !important;
+  width: 50%;
+  margin-left: 7%;
+  color: #393939 !important;
+}
+
+.checkInTypeButton:hover{
+    color:white !important;
+}
+
+.staycationsInnerCardsDisplay {
+  /* border: 1px solid red; */
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.staycationsImageCards {
+  /* border: 1px solid red !important; */
+  /* margin-top: 3%;
+    margin-left: 3%; */
+  height: 230px;
+  /* margin-right: 4% !important; */
+}
+
+.staycationsFacilities {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+}
+
+.staycationsFacilityInnerContent {
+  /* border: 1px solid red; */
+  margin-right: 4%;
+  font-size: 14px;
+  line-height: 28px;
+  vertical-align: baseline;
+  font-weight: 400;
+}
+
+.staycationsNameHeadingDiv {
+  /* border: 1px solid black; */
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-size: 20px;
+  line-height: 24px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  font-weight: 700;
+}
+
+.staycationsDistanceDiv {
+  /* border: 1px solid red; */
+  color: gray;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 500;
+  vertical-align: baseline;
+}
+
+.staycationsCardPriceDiv {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.staycationsPriceFiguresDiv {
+  /* border: 1px solid red; */
+  width: 50%;
+}
+
+.priceDivContext1 {
+  /* border: 1px solid black; */
+  width: 20% !important;
+  font-size: 22px;
+  color: #3380f2;
+  margin-right: 5%;
+}
+
+.staycationsPriceDiscount {
+  /* border: 1px solid red; */
+  color: #f5a623;
+  font-size: 15px;
+}
+
+.staycationsBookingButton {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-left: 138%;
+}

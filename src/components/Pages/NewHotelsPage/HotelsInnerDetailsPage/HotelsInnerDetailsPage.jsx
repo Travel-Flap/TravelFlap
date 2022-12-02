@@ -6,6 +6,7 @@ import { DiscoverCountry } from './DiscoverCountry/DiscoverCountry';
 import { HotelInnerFaq } from './HotelInnerFaq/HotelInnerFaq';
 import { InnerhandpickedFooter } from '../../SubPages/InnerhandpickedFooter/InnerhandpickedFooter';
 import ImageSlider from './HotelInnerTopSlider/HotelInnerTopSlider';
+import { InnerWebPageFooter } from '../../SubPages/InnerWebPageFooter/InnerWebPageFooter';
 
 export const HotelsInnerDetailsPage = () => {
     return (
@@ -22,7 +23,8 @@ export const HotelsInnerDetailsPage = () => {
 
             <HotelInnerFaq/>
             
-            <InnerhandpickedFooter/>
+            {/* <InnerhandpickedFooter/> */}
+            <InnerWebPageFooter/>
         </div>
     )
 }
