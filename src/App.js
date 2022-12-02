@@ -56,14 +56,13 @@ import { RentalsInnerPage1 } from "./components/Pages/NewRentalsPage/RentalsInne
 import { ActivitiesInnerWebPage } from "./components/Pages/SubPages/ActivitiesInnerWebPage/ActivitiesInnerWebPage";
 import { PopularDestination0 } from "./components/Pages/SubPages/PopularDestination0/PopularDestination0";
 import { RentalsChildInnerPage } from "./components/Pages/NewRentalsPage/RentalsChildInnerPage/RentalsChildInnerPage";
-<<<<<<< HEAD
+
 import { StaycationsInnerDetailsPage } from "./components/Pages/NewStaycationPage/StaycationInnerDetailsPage/StaycationsInnerDetailsPage";
 import { StaycationBookingPageLayout } from "./components/Pages/NewStaycationPage/HotelsBookingPageLayout/StaycationBookingPageLayout";
-=======
+
 import { ActivitiesChildInnerPage } from "./components/Pages/SubPages/ActivitiesChildInnerPage/ActivitiesChildInnerPage";
 
         
->>>>>>> 80654a2424bf1f5f79f49b3b52cfcdf7835e1a3c
 
 function App() {
   return (
@@ -186,18 +185,18 @@ function App() {
         <Route path="/hotelbookingpage" element={<HotelBookingPageLayout />} />
 
         {/* Routes for the Car Rentals Page */}
-<<<<<<< HEAD
+
         <Route path="/rentalscarDetails" element={<RentalsInnerPage1 />} />
         <Route path="/carBookingPage" element={<RentalsChildInnerPage />} />
 
         {/* Routes for the staycations Inner Pages */}
         <Route path="/staycationdetailsPage" element={<StaycationsInnerDetailsPage />} />
         <Route path="/staycationBookingPage" element={ <StaycationBookingPageLayout/> } />
-=======
+
         <Route path="/rentalscarDetails" element={ <RentalsInnerPage1/> } />
         <Route path="/carBookingPage" element={ <RentalsChildInnerPage/> } />
         <Route path="/activitiesDetails" element={<ActivitiesChildInnerPage/>}/>
->>>>>>> 80654a2424bf1f5f79f49b3b52cfcdf7835e1a3c
+
 
         
 
