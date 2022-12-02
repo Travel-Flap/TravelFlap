@@ -1,4 +1,6 @@
 .newStaycationTopSliderOuterDiv {
   border: 1px solid red;
   margin-top: 5%;
+  width: 90%;
+  margin: auto;
 }
