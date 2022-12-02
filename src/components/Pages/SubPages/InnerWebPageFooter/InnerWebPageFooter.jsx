@@ -777,14 +777,14 @@ export const InnerWebPageFooter = () => {
                                 </div>
                             </div>
 
-
+                            <p style={{marginLeft:"55%",width:"100%"}}>The world leader in online travel & related services</p>
                         </div>
-
+                        
                     </div>
 
                     <div className='footerlogolastdiv'>
 
-                        <p className='copyrightdiv'>©2022 Travalflap | Global Product</p>
+                        {/* <p className='copyrightdiv'>©2022 Travalflap | Global Product</p> */}
 
                         <div className='innerwebpageFooter'>
 
@@ -809,6 +809,20 @@ export const InnerWebPageFooter = () => {
                     </div>
 
                     <div className='innerfooterPaymentOptions'>
+
+                    <div className='newHomeFootertextandPayment' style={{marginTop:"1%"}}>
+                        <p className='newHomeFootercopyrightText'>©2022 All Rights Reserved TravelFlap Global Private Limited</p>
+                        <p className='newHomeFootercopyrightText'>Privacy Policy</p>
+                        <p className='newHomeFootercopyrightText'>Terms and Conditions</p>
+                        <p className='newHomeFootercopyrightText'>Sales and Refund</p>
+                        <p className='newHomeFootercopyrightText'>We Accept</p>
+
+                        {/* <WaveEffects/> */}
+                        {/* <div className='paymentGatewayGroup'>
+                            <img className='newFooterPaymentIamges' src='Images/NewHomeLayout/FooterContent/PaymentGroup.png' />
+                        </div> */}
+                    </div>
+
                         <div className='innerfooterPaymentcards'>
 
                             <div className='newFooterPaymentImages' >
@@ -839,9 +853,9 @@ export const InnerWebPageFooter = () => {
                                 <img src="Images/innerwebpagefooter/Group 2065.png " alt='payment gateway image'  ></img>
                             </div>
 
-                            <div className='newFooterPaymentImages' >
+                            {/* <div className='newFooterPaymentImages' >
                                 <img src="Images/innerwebpagefooter/Group 2007.png " alt='payment gateway image' ></img>
-                            </div>
+                            </div> */}
 
                         </div>
                     </div>
