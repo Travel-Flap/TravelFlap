@@ -94,9 +94,9 @@ export const FlightNearYouInnerWebpageData = () => {
                             <p>₹ 3,596 : 1Hrs 13Min</p>
                         </div>
                         <div className={showtab === 3 ? "flightNearinnerFast active" : "flightNearinnerFast"} onClick={() => handletab(3)}>
-                            <h3>Fastest</h3>
+                            {/* <h3>Fastest</h3>
                             <p>₹ 3,596 : 1Hrs 13Min</p>
-                            {/* <div className='flightNearYouInnerWebpageFilter5'>
+                            <div className='flightNearYouInnerWebpageFilter5'>
                                   <p className='flightNearYouInnerWebpageTime'>Duration</p>
                                   <h5 className='flightNearDurationrangeText'>Flight leg</h5>
                                   <input type="range" min="1" max="100" value="50" class="flightnearinnerpageslidecontainer"/>
