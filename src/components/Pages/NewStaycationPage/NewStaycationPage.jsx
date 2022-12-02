@@ -56,7 +56,7 @@ export const NewStaycationPage = () => {
 
             {/* <NewStaycationStaticBanners /> */}
 
-            <NewStaycationStaticBanners1 />
+            {/* <NewStaycationStaticBanners1 /> */}
 
             {/* <div style={{marginTop:"5%"}}>
                  <Staycationsnavbar />

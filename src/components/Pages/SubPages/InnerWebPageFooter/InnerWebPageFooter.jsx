@@ -796,7 +796,7 @@ export const InnerWebPageFooter = () => {
                     <div className='footerlogolastdiv'>
 
 
-                        <p className='copyrightdiv'>©2022 Travalflap | Global Private Limited </p>
+                        {/* <p className='copyrightdiv'>©2022 Travalflap | Global Private Limited </p> */}
 
                         {/* <p className='copyrightdiv'>©2022 Travalflap | Global Product</p> */}
 
