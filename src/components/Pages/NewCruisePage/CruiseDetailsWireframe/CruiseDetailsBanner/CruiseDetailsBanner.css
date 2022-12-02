@@ -1,0 +1,1195 @@
+.cruiseDetailsBannerDiv{
+  /* border: 2px solid red; */
+  object-fit: cover;
+  background-size: auto;
+  height: 550px;
+  position: relative;
+  z-index: 0;
+}
+
+
+.cruiseDetailsinnerbannerbutton {
+  /* border: 2px solid red; */
+  width: 20%;
+  height: 45px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #3380f2;
+  color: white;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 45px;
+}
+.cruiseDetailsinnerbannerHeading {
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+  margin: auto;
+  margin-left: 37%;
+  margin-top: 10%;
+}
+.cruiseDetailsinnerBannerimage {
+  height: 450px;
+  filter: brightness(0.6);
+}
+.cruiseDetailsinnerfilterForm {
+  border: 2px solid red;
+}
+
+#cruiseDetailsinnerfilterFormContainer {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin: auto;
+  top: 85%;
+  background-color: white;
+  width: 90%;
+  color: #3380f2;
+  height: 140px;
+  left: 4.5%;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 10;
+  top: 70%;
+  /* border: 2px solid red; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* This css is for the experiment input div part */
+.cruiseDetailsinnerInputmaindiv {
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid red; */
+}
+
+.cruiseDetailsinnerDestinationInputContainer {
+  /* border: 2px solid lightgray; */
+  border-radius: 6px;
+  width: 25%;
+  height: 40px;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.cruiseDetailsinnerDestinationInputContainer h5 {
+  font-size: 15px;
+  color: grey;
+  margin-top: 8%;
+}
+
+.cruiseDetailsinnerNameInput {
+  border: 2px solid #dddddd78;
+  border-radius: 6px;
+  width: 100%;
+  height: 40px;
+  /* background-color: #8DBBFF; */
+  display: flex;
+  /* border-radius: 5px; */
+  flex-direction: row;
+}
+
+.cruiseDetailsinnerInputNameContainer input {
+  /* background-color: #8DBBFF; */
+  height: auto;
+  margin-top: 3% !important;
+  width: 100% !important;
+  color: grey !important;
+  border: none !important;
+  outline: none !important;
+  padding-left: 0%;
+  font-size: 16px;
+  margin-left: -3%;
+}
+
+.cruiseDetailsinnerInputNameContainer input::placeholder {
+  /* padding-left: 5%; */
+  color: grey;
+}
+
+.cruiseDetailsinnerInputicon {
+  margin-top: 4%;
+  font-size: 16px;
+  color: grey;
+  margin-left: 0%;
+  width: 20%;
+}
+
+.cruiseDetailsinnerInputNameContainer .hotelinputIconContainer {
+  font-size: 30px !important;
+}
+
+.cruiseDetailsinnerCheckIn_dateContainer {
+  width: 18% !important;
+  border-radius: 6px;
+  margin-top: 2.8%;
+  height: 40px;
+  margin-left: 1%;
+}
+
+.cruiseDetailsinnerCheckIn_dateContainer h5 {
+  font-size: 15px;
+  color: grey;
+  margin-top: 1% !important;
+}
+
+.cruiseDetailsinnerCheckIn_dateContainer input {
+  /* border-left: 1px solid black !important; */
+  width: 100%;
+  border: 2px solid #dddddd78;
+  outline: none !important;
+  height: 40px;
+  padding-right: 0%;
+  border-radius: 6px;
+  /* color: black; */
+  /* border: none !important; */
+  outline: none !important;
+  padding-left: 9%;
+  color: grey !important;
+  font-size: 16px;
+  /* border: 2px solid red; */
+}
+
+.cruiseDetailsinnerCheckout_DateContainer {
+  width: 18% !important;
+  border-radius: 6px;
+  margin-top: 2.8%;
+  height: 40px;
+  margin-left: 1%;
+}
+
+.cruiseDetailsinnerCheckout_DateContainer h5 {
+  font-size: 15px;
+  color: grey;
+  margin-top: 1%;
+}
+
+.cruiseDetailsinnerCheckout_DateContainer input {
+  /* border-left: 1px solid black !important; */
+  /* margin-top:8%; */
+  width: 100%;
+  border: 2px solid #dddddd78;
+  outline: none !important;
+  height: 40px;
+  padding-right: 6%;
+  /* border: 2px solid lightgray; */
+  width: 100% !important;
+  /* color: black; */
+  outline: none !important;
+  padding-left: 9%;
+  font-size: 16px;
+  border-radius: 6px;
+  color: grey !important;
+  /* margin-left: 4%; */
+}
+
+.cruiseDetailsinnerGuest_outerDiv {
+  width: 18%;
+  border-radius: 6px;
+  margin-top: 1% !important;
+  height: 40px;
+  margin-left: 1%;
+}
+
+.cruiseDetailsinnerGuest_outerDiv h5 {
+  font-size: 15px;
+  color: grey;
+  margin-top: 10.5%;
+}
+
+#cruiseDetailsinner_departure {
+  border: 2px solid #dddddd78;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: grey;
+  background-color: white !important;
+  border-radius: 5px;
+  height: 40px !important;
+  /* border: 2px solid lightgray; */
+  border-radius: 6px;
+  margin-top: 0%;
+}
+
+#cruiseDetailsinner_departure h3 {
+  /* border: 1px solid black; */
+  font-size: 15px !important;
+  /* font-weight: 700; */
+  /* margin-left: -7%; */
+  padding: 7px;
+  color: grey !important;
+  padding-left: 15px !important;
+  padding-top: 4%;
+  margin-top: 0.5%;
+  /* height: 35px;
+    border: 2px solid lightgray;
+    border-radius: 6px;
+    margin-top: 8%; */
+}
+
+.dropdowncruiseDetailsinner-content {
+  display: none;
+  position: absolute;
+  color: white;
+  background-color: #3380f2 !important;
+  width: 200px;
+  height: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 3%;
+}
+.dropdowncruiseDetailsinner-content div:hover {
+  background-color: white !important;
+  color: #3380f2;
+}
+#cruiseDetailsinner_departure:hover .dropdowncruiseDetailsinner-content {
+  display: block;
+}
+
+.navbarcruiseDetailsinnerPageOptions {
+  margin-top: 3%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.cruiseDetailsinnerGuestIcon {
+  /* border: 1px solid red; */
+  font-size: 23px;
+  margin-left: 4% !important;
+  margin-top: 3% !important;
+  background-color: white !important;
+  color: grey !important;
+  /* background-color: #8DBBFF; */
+}
+
+.cruiseDetailsinner_SearchButton {
+  /* border: 1px solid blue; */
+  width: 15% !important;
+}
+
+.cruiseDetailsinner_SearchButton button {
+  margin-top: 30%;
+  margin-left: 8%;
+  width: 90%;
+  height: 45px;
+  padding-left: 65px;
+  padding-top: 9px;
+  font-size: 16px;
+}
+
+.cruiseDetailsinner_SearchButton button:hover {
+  background-color: whitesmoke;
+  color: #3380f2;
+}
+
+/* This is prior css code for the homepage */
+.choosenewhomebanneroptions {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid black; */
+  font-weight: 600;
+  font-size: 18px;
+  width: 95%;
+  border-bottom: 1px solid lightblue;
+  height: 50px;
+  margin: 4% 0 0% 4.5%;
+}
+
+.radiodesc {
+  /* border: 1px solid red; */
+  margin-left: 0.6%;
+}
+.choosenewhomebanneroptions1 label {
+  margin-top: 1% !important;
+  margin-left: 0.5%;
+}
+.choosenewhomebanneroptions2 {
+  margin-left: 5%;
+}
+.choosenewhomebanneroptions3 {
+  margin-left: 5%;
+}
+.mainnewhomedatesections {
+  border-bottom: 1px solid lightblue;
+  width: 100%;
+  height: 90px;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: row;
+}
+.filternewhomebanner-fromTo {
+  display: flex;
+  cursor: pointer;
+  padding: 15px;
+  position: relative;
+  transition: background-color 0.5s linear;
+  height: 60%;
+  width: 35%;
+  margin-top: 1%;
+  left: 3%;
+  border-right: 2px solid #3380f2;
+}
+
+#dateonewaynewhomebannerform {
+  border: none;
+  /* border: 2px solid #3380f2; */
+  width: 100% !important;
+  margin-top: -9%;
+  margin-left: 0%;
+  /* border-right: 2px solid  #3380f2; */
+  height: 45px;
+}
+
+#dateonewaynewhomebannerform::placeholder {
+  /* border: 2px solid #3380F2; */
+  font-size: 28px !important;
+  font-weight: 500;
+  color: #3380f2;
+}
+.selectnewhomepagedate {
+  /* border: 1px solid ; */
+  height: 70%;
+  margin-top: 2%;
+  margin-left: 5%;
+  border-right: 2px solid #3380f2;
+}
+.selectnewhomepagedate h5 {
+  font-size: 18px !important;
+  /* font-weight: 600; */
+  margin-top: -5%;
+  margin-bottom: 13%;
+  padding-left: 15px;
+  /* border-right: 2px solid #3380f2; */
+}
+.fromnewhomebanner-name {
+  line-height: 1px;
+  width: 45% !important;
+  font-size: 11.5px;
+  /* border-right: 2px solid #3380f2; */
+}
+.fromnewhomebanner-name h5 {
+  font-size: 17px;
+  margin-left: 13%;
+  width: 97%;
+  margin-top: -9%;
+  border-right: 2px solid #3380f2;
+}
+.fromnewhomebanner-name2 h5 {
+  font-size: 17px;
+  margin-left: 13%;
+  width: 100%;
+  padding-left: 60px;
+  margin-top: -7%;
+  /* border-right: 2px solid #3380f2; */
+}
+.citynewhomebannerinput1 {
+  margin-top: 1%;
+  margin-left: 10%;
+  color: #3380f2;
+  border: none;
+  height: 26px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 25px !important;
+  border-right: 2px solid #3380f2;
+}
+.citynewhomebannerinput1::placeholder {
+  color: #3380f2;
+}
+.citynewhomebannerinput2 {
+  margin-top: -5%;
+  margin-left: 10%;
+  color: #3380f2;
+  border: none;
+  height: 50px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 25px !important;
+  /* border-right: 2px solid #3380f2; */
+  padding-left: 44px;
+}
+.citynewhomebannerinput2::placeholder {
+  color: #3380f2;
+}
+.fromnewhomebanner-name2 {
+  line-height: 5px;
+  width: 45%;
+  margin-left: 4%;
+  margin-top: -1%;
+  font-size: 11.5px;
+  /* border-right: 2px solid #3380f2; */
+}
+#formnewhomepagedates {
+  display: flex;
+  width: 450px;
+  margin: 12px;
+  margin-left: 5%;
+  margin-top: 0.6%;
+  /* border: 2px solid red; */
+}
+
+.selectnewhomepagedate {
+  line-height: 2px;
+}
+#selectnewhomepageReturndate1 {
+  line-height: 2px;
+  margin-left: 7%;
+  height: 70%;
+  margin-top: 2%;
+  border-right: 2px solid #3380f2;
+}
+#selectnewhomepageReturndate1 h5 {
+  font-size: 20px;
+  font-weight: 600;
+  font-weight: 500;
+  padding-left: 10px;
+  margin-top: -4.5%;
+  margin-bottom: 13%;
+  /* border-right: 2px solid #3380f2; */
+}
+#newhomepagetrave {
+  /* display: flex;
+    flex-direction: row;
+    margin-right: 10px; */
+  width: 18%;
+  /* border: 1px solid; */
+  height: 70px;
+  margin-top: 3%;
+}
+#newhomepage_departure {
+  margin: 12px;
+  /* border: 1.4px solid #3380f2; */
+  /* background-color: #3380f2; */
+  width: 100%;
+  /* border-radius: 6px; */
+  /* height: 43px; */
+  /* cursor: pointer; */
+  margin-left: 0.5%;
+  margin-top: -13%;
+  color: #3380f2;
+}
+
+#newhomepage_departure h3 {
+  font-size: 25px;
+  /* font-weight: 700; */
+  margin-left: -7%;
+  padding: 12px;
+  padding-left: 16px;
+}
+.newhometravellers {
+  margin-top: -10.5%;
+  margin-left: 10%;
+  color: #3380f2 !important;
+  border: none;
+  height: 50px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 29px !important;
+  border-right: 2px solid #3380f2;
+  padding-left: 44px;
+}
+.searchbtn {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #3380f2 !important;
+  text-transform: capitalize;
+  color: white !important;
+  border: 2px solid #3380f2 !important;
+  border-radius: 6px;
+  margin-top: 3%;
+  height: 45px;
+  width: 40%;
+  margin-left: 2%;
+  margin-top: -5%;
+}
+.searchbtn:hover {
+  background-color: blue !important;
+  border: 3px solid blue !important;
+  color: white !important;
+}
+.carouselcruiseDetailsinnerBannermenu {
+  width: 64%;
+  height: 90px;
+  margin: auto;
+  flex-direction: row;
+  box-sizing: border-box;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  position: relative;
+  /* position: absolute; */
+  bottom: 73%;
+  left: 5.2%;
+  z-index: 10000000;
+  color: white !important;
+  border-radius: 40px;
+}
+
+/* This css part includes to overlapping and hovering the things */
+.bottomupExperimentclass1 {
+  top: 10%;
+  right: 86%;
+  z-index: 9 !important;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.bottomupExperimentclass1:hover {
+  z-index: 107 !important;
+  margin-top: -2%;
+}
+
+.bottomupExperimentclass2 {
+  top: 10%;
+  right: 78%;
+  z-index: 8 !important;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.bottomupExperimentclass2:hover {
+  z-index: 106 !important;
+  margin-top: -2%;
+}
+
+.bottomupExperimentclass3 {
+  top: 10%;
+  right: 70%;
+  z-index: 7 !important;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.bottomupExperimentclass3:hover {
+  z-index: 106 !important;
+  margin-top: -2%;
+}
+
+.bottomupExperimentclass4 {
+  top: 10%;
+  right: 61.6%;
+  z-index: 6 !important;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.bottomupExperimentclass4:hover {
+  z-index: 105 !important;
+  margin-top: -2%;
+}
+
+.bottomupExperimentclass5 {
+  top: 10%;
+  right: 52.5%;
+  z-index: 5 !important;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.bottomupExperimentclass5:hover {
+  z-index: 104 !important;
+  margin-top: -2%;
+}
+
+.bottomupExperimentclass6 {
+  top: 10%;
+  right: 44%;
+  z-index: 4 !important;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.bottomupExperimentclass6:hover {
+  z-index: 103 !important;
+  margin-top: -2%;
+}
+
+.bottomupExperimentclass7 {
+  top: 10%;
+  right: 36%;
+  z-index: 3 !important;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.bottomupExperimentclass7:hover {
+  z-index: 102 !important;
+  margin-top: -2%;
+}
+
+.bottomupExperimentclass8 {
+  top: 10%;
+  right: 27%;
+  z-index: 2 !important;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.bottomupExperimentclass8:hover {
+  z-index: 101 !important;
+  margin-top: -2%;
+}
+
+.bottomupExperimentclass9 {
+  top: 10%;
+  right: 19%;
+  z-index: 1 !important;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.bottomupExperimentclass9:hover {
+  z-index: 100 !important;
+}
+
+/* This is the next part css */
+.newhomesearchbutton {
+  background-color: #3380f2;
+  color: white;
+  border: none;
+  width: 14%;
+  height: 42px;
+  border-radius: 15px;
+  font-weight: 700;
+  margin-left: 8%;
+  margin-top: -1.5%;
+}
+
+.newhomesearchbutton:hover {
+  background-color: white;
+  border: 1px solid #3380f2;
+  color: #3380f2;
+}
+/* This css is for the icons and there hovering properties */
+
+.carouselcruiseDetailsinnerBannermenu-icon {
+  height: 98px;
+  width: 10%;
+  border-radius: 12px;
+  /* background-color: #3380f2; */
+  background: transparent;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none !important;
+  color: white;
+  text-decoration: none;
+  z-index: 100;
+  position: absolute;
+}
+
+.carouselcruiseDetailsinnerBannermenu-icon span {
+  white-space: nowrap;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+.carouselcruiseDetailsinnerBannermenu-icon-active {
+  background: #3380f2 !important;
+  border-color: white !important;
+  height: 70px;
+  width: 90px;
+  border-radius: 7px;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  margin-right: 12px;
+  cursor: pointer;
+  color: white !important;
+  text-decoration: none;
+}
+
+.flighttext {
+  color: white;
+  text-decoration: none;
+}
+.flighttext:hover {
+  color: #3380f2;
+}
+.carouselcruiseDetailsinnerBannermenu-icon:hover {
+  text-decoration: none;
+  color: #3380f2;
+  background-color: white;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.carouselcruiseDetailsinnerBannermenu-icon span {
+  white-space: nowrap;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+.carouselcruiseDetailsinnerBannermenu-icon-active {
+  background: #3380f2 !important;
+  border-color: white !important;
+  height: 70px;
+  width: 90px;
+  border-radius: 7px;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  margin-right: 12px;
+  cursor: pointer;
+  color: white !important;
+  text-decoration: none;
+}
+.newHomemoredropdownbannercontent {
+  display: none;
+  position: absolute;
+  color: white;
+  background-color: #3380f2;
+  width: 200px;
+  height: 245px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 6px;
+  top: 58%;
+  /* border: 2px solid red; */
+}
+
+#borderrightnewhomebanner:hover .newHomemoredropdownbannercontent {
+  display: block;
+}
+
+/* This css is for the one way round trip button */
+.onewaybutton {
+  background-color: white !important;
+  color: #3380f2 !important;
+  width: 12%;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  height: 40px;
+  outline: none !important;
+  border: 2px solid #3380f2 !important;
+}
+
+.onewaybutton:hover {
+  background-color: #3380f2 !important;
+  color: white !important;
+  border: 2px solid white !important;
+}
+
+.roundtripbutton {
+  background-color: white !important;
+  color: #3380f2 !important;
+  width: 12%;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  height: 40px;
+  margin-left: 3%;
+  outline: none !important;
+  border: 2px solid #3380f2 !important;
+}
+
+.roundtripbutton:hover {
+  background-color: #3380f2 !important;
+  color: white !important;
+  border: 2px solid white !important;
+}
+
+.multiwaybutton {
+  background-color: white !important;
+  color: #3380f2 !important;
+  width: 12%;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  height: 40px;
+  margin-left: 3%;
+  outline: none !important;
+  border: 2px solid #3380f2 !important;
+}
+
+.multiwaybutton:hover {
+  background-color: #3380f2 !important;
+  color: white !important;
+  border: 2px solid white !important;
+}
+
+.moreOptions:hover {
+  background-color: white;
+  color: #3380f2;
+}
+.moreOptions {
+  margin-top: 5%;
+  padding: 5%;
+  color: white;
+}
+.moreOptions a {
+  text-decoration: none;
+  color: white;
+}
+.date-picker input {
+  width: 100%;
+  border: none;
+}
+.downarrowicon {
+  margin-top: 1%;
+}
+.dropdownnewhomepage-content {
+  display: none;
+  position: absolute;
+  color: white;
+  background-color: #3380f2;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: -1%;
+}
+.dropdownnewhomepage-content div:hover {
+  background-color: white;
+  color: #3380f2;
+}
+#newhomepage_departure:hover .dropdownnewhomepage-content {
+  display: block;
+}
+.navbarnewhomepageOptions {
+  margin-top: 5%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.decrease {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.checkmark {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+  height: 20px;
+}
+.flightscheckbox {
+  margin-left: 5%;
+  margin-bottom: -0.5%;
+  margin-top: -3%;
+}
+.flightscheckbox1 {
+  margin-left: 0.5%;
+  margin-top: -1.4%;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 560px) and (max-width: 950px) {
+  .carouselcruiseDetailsinnerBannermenu {
+    display: none;
+  }
+  .selectnewhomepagedate {
+    margin-top: 2%;
+  }
+  #selectnewhomepageReturndate1 {
+    margin-top: 2%;
+  }
+  /* .fromnewhomebanner-name{
+            border: 1px solid red;
+        } */
+  .filternewhomebanner-fromTo {
+    width: 33%;
+    margin-top: 0% !important;
+  }
+
+  .dropdownnewhomepage-content {
+    margin-top: 8%;
+  }
+
+  .cruiseDetailsinnerfilterFormContainer {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .filternewhomebanner-fromTo {
+    margin: auto;
+    margin-top: 25px;
+  }
+  #formnewhomepagedates {
+    width: 33%;
+    margin: auto;
+    margin-top: -3%;
+    margin-left: 6%;
+    border: 1px solid;
+  }
+
+  #newhomepagetrave {
+    margin: auto;
+    margin-top: 1%;
+    margin-left: 16%;
+    width: 65%;
+    flex-direction: row;
+    font-size: 13px;
+  }
+  .navbar_fixed {
+    /* display: none; */
+    width: 100%;
+    font-size: 20px;
+  }
+  .searchbtn {
+    width: 100%;
+    margin-left: 28%;
+    margin-top: 15%;
+    padding: 9px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  #cruiseDetailsinnerfilterFormContainer {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: auto;
+    top: 15%;
+    background-color: white;
+    width: 55%;
+    /* border: 3px solid brown !important; */
+    color: #3380f2 !important;
+    height: 40px !important;
+    /* opacity: 0.9; */
+    left: 22%;
+    border-radius: 6px;
+    position: absolute !important;
+    z-index: 10;
+    height: 65px;
+  }
+  .cruiseDetailsinnerInputmaindiv {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: 100%;
+  }
+  .cruiseDetailsinnerDestinationInputContainer {
+    border: 2px solid green;
+    width: 100%;
+    height: 35px;
+    border-radius: 15px;
+  }
+  .cruiseDetailsinnerNameInput {
+    border: 1px solid purple;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .cruiseDetailsinnerInputNameContainer input {
+    /* background-color: #8DBBFF; */
+    height: auto;
+    margin-top: 10% !important;
+    width: 100% !important;
+    color: black;
+    font-weight: 700;
+    border: none !important;
+    outline: none !important;
+    padding-left: -2%;
+    font-size: 11px;
+    padding-top: 5%;
+    margin-left: -4%;
+  }
+  .cruiseDetailsinnerCheckIn_dateContainer {
+    /* border: 2px solid purple; */
+    width: 100%;
+    height: 35px;
+    margin-top: 15%;
+  }
+  .cruiseDetailsinnerCheckIn_dateContainer input {
+    width: 100%;
+    height: 35px;
+    margin-top: -2%;
+    border: 2px solid red;
+    /* border: 1px solid black !important; */
+    outline: none !important;
+  }
+  .cruiseDetailsinnerCheckIn_dateContainer input {
+    /* border-left: 1px solid black !important; */
+    /* margin-top: 4%; */
+    width: 100% !important;
+    border: none;
+    outline: none !important;
+    /* padding-top: 2%; */
+    /* margin-left: 4%; */
+    height: 35px;
+    width: 100% !important;
+    color: black;
+    outline: none !important;
+    padding-left: 11%;
+    font-size: 15px;
+    border-radius: 15px;
+    padding-right: 10%;
+  }
+  .cruiseDetailsinnerCheckout_DateContainer {
+    /* border-right: 1px solid orange; */
+    width: 100%;
+    /* border: 2px solid salmon; */
+    margin-top: 1.5% !important;
+    height: 35px;
+    /* background-color: #8DBBFF; */
+  }
+
+  .cruiseDetailsinnerCheckout_DateContainer input {
+    /* border-left: 1px solid black !important; */
+    margin-top: 1%;
+    width: 110%;
+    border: none;
+    outline: none !important;
+    /* padding-top: 2%; */
+    height: 35px;
+    width: 100% !important;
+    color: black;
+    outline: none !important;
+    padding-left: 15%;
+    font-size: 15px;
+    /* margin-left: 5%; */
+    border-radius: 15px;
+    padding-right: 10%;
+  }
+  .cruiseDetailsinnerGuest_outerDiv {
+    /* border: 1px solid black; */
+    width: 100%;
+    /* margin-left: 5%; */
+    margin-top: 10%;
+    height: 35px;
+  }
+
+  #cruiseDetailsinner_departure {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    color: black;
+    background-color: white !important;
+    border-radius: 5px;
+    height: 35px;
+    border-radius: 15px;
+    border: 2px solid red;
+  }
+  #cruiseDetailsinner_departure h3 {
+    /* border-left:none; */
+    font-size: 15px;
+    height: 28px;
+    /*font-weight: 700;*/
+    /*margin-left:3%;*/
+    padding: 7px;
+    padding-left: 30px;
+    /*padding-top: 7%;*/
+    margin-top: 1%;
+    /* border: 2px solid blue; */
+  }
+  .cruiseDetailsinnerGuestIcon {
+    /* border: 1px solid red; */
+    font-size: 20px !important;
+    margin-top: 3% !important;
+    margin-left: 26% !important;
+  }
+
+  .cruiseDetailsinner_SearchButton {
+    /* border: 3px solid blue; */
+    width: 100%;
+    height: 35px;
+    margin-top: 10%;
+    /* margin-left: 9%; */
+  }
+
+  .cruiseDetailsinner_SearchButton button {
+    margin-top: 0%;
+    border-radius: 15px;
+    width: 100%;
+    height: 35px;
+  }
+
+  .selectnewhomepagedate {
+    margin-top: -8%;
+    margin-left: 3%;
+  }
+  #selectnewhomepageReturndate1 {
+    margin-top: -8%;
+    margin-left: 4%;
+  }
+  #dateonewaynewhomebannerform::placeholder {
+    margin-top: -2% !important;
+    font-size: 13px;
+    border: none;
+  }
+
+  .carouselcruiseDetailsinnerBannermenu {
+    display: none;
+  }
+  .fromnewhomebanner-name {
+    margin-top: -2%;
+    line-height: -20px;
+    /* border: 1px solid green; */
+  }
+
+  .fromnewhomebanner-name2 {
+    margin-top: -6%;
+    line-height: -20px;
+    border: 2px solid red;
+  }
+  .citynewhomebannerinput::placeholder {
+    font-size: 15px;
+    border: none;
+  }
+
+  .dropdownnewhomepage-content {
+    margin-top: 13%;
+  }
+
+  .searchbtn {
+    margin-top: 20%;
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  #formnewhomepagedates {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid; */
+  }
+  .cruiseDetailsinnerfilterFormContainer {
+    flex-direction: column;
+    border: none;
+  }
+  .cruiseDetailsinnerfilterFormContainer {
+    flex-direction: column;
+  }
+  .filternewhomebanner-fromTo {
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    /* border:1px solid blueviolet; */
+    width: 100%;
+  }
+  #formnewhomepagedates {
+    margin: auto;
+    margin-top: 25px;
+  }
+  #newhomepagetrave {
+    margin: auto;
+    margin-right: 14%;
+    margin-top: 3%;
+    flex-direction: row;
+    font-size: 13px;
+  }
+}

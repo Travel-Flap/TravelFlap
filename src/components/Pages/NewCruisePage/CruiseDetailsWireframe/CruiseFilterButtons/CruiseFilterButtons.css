@@ -1,0 +1,101 @@
+.cruiseDetailsInnerWebPageFilterButtonsContainerDiv {
+  /* border: 2px solid red; */
+  width: 88%;
+  height: 60px;
+  margin: auto;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+}
+
+.cruiseDetailsInnerWebPageFilterSelectors {
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.cruiseDetailsInnerWebPageFilterMainDiv {
+  /* border: 2px solid black; */
+  width: 100%;
+  margin: auto;
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+.cruiseDetailsInnerWebPageFilter1 {
+  outline: none;
+  border: 2px solid lightgray;
+  width: 10%;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 70px;
+  color: grey;
+  margin-right: 2%;
+  /* margin-left: 10% !important; */
+  text-align: center !important;
+}
+
+.cruiseDetailsInnerWebPageFilter2 {
+  outline: none;
+  border: 2px solid lightgray;
+  width: 10%;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 35px;
+  color: grey;
+  margin-right: 2%;
+  text-align: center !important;
+}
+
+.cruiseDetailsInnerWebPageFilter3 {
+  outline: none;
+  border: 2px solid lightgray;
+  width: 10%;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 35px;
+  color: grey;
+  margin-right: 2%;
+  text-align: center !important;
+}
+
+.cruiseDetailsInnerWebPageFilter4 {
+  outline: none;
+  border: 2px solid lightgray;
+  width: 10%;
+  height: 40px;
+  color: grey;
+  border-radius: 5px !important;
+  padding-left: 50px;
+  margin-right: 2%;
+  text-align: center !important;
+}
+
+.cruiseDetailsInnerWebPageFilter5 {
+  outline: none;
+  border: 2px solid lightgray;
+  width: 8%;
+  height: 40px;
+  color: grey;
+  border-radius: 5px !important;
+  padding-left: 40px;
+  margin-right: 2%;
+  text-align: center !important;
+}
+
+.cruiseDetailsInnerWebPageFilter6 {
+  outline: none;
+  border: 2px solid lightgray;
+  color: grey;
+  height: 40px;
+  border-radius: 5px !important;
+  padding-left: 45px;
+}
+
+.cruiseDetailsInnerWebPageFilterButtonsContainerDiv h4 {
+  color: #393939;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 1%;
+}

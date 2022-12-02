@@ -61,8 +61,7 @@ import { StaycationsInnerDetailsPage } from "./components/Pages/NewStaycationPag
 import { StaycationBookingPageLayout } from "./components/Pages/NewStaycationPage/HotelsBookingPageLayout/StaycationBookingPageLayout";
 
 import { ActivitiesChildInnerPage } from "./components/Pages/SubPages/ActivitiesChildInnerPage/ActivitiesChildInnerPage";
-
-        
+import { CruiseDetailsWIreFrame } from "./components/Pages/NewCruisePage/CruiseDetailsWireframe/CruiseDetailsWIreFrame";
 
 function App() {
   return (
@@ -190,15 +189,24 @@ function App() {
         <Route path="/carBookingPage" element={<RentalsChildInnerPage />} />
 
         {/* Routes for the staycations Inner Pages */}
-        <Route path="/staycationdetailsPage" element={<StaycationsInnerDetailsPage />} />
-        <Route path="/staycationBookingPage" element={ <StaycationBookingPageLayout/> } />
+        <Route
+          path="/staycationdetailsPage"
+          element={<StaycationsInnerDetailsPage />}
+        />
+        <Route
+          path="/staycationBookingPage"
+          element={<StaycationBookingPageLayout />}
+        />
 
-        <Route path="/rentalscarDetails" element={ <RentalsInnerPage1/> } />
-        <Route path="/carBookingPage" element={ <RentalsChildInnerPage/> } />
-        <Route path="/activitiesDetails" element={<ActivitiesChildInnerPage/>}/>
+        <Route path="/rentalscarDetails" element={<RentalsInnerPage1 />} />
+        <Route path="/carBookingPage" element={<RentalsChildInnerPage />} />
+        <Route
+          path="/activitiesDetails"
+          element={<ActivitiesChildInnerPage />}
+        />
 
-
-        
+        {/* These routes are for the cruise innner wireframes */}
+        <Route path="/cruiseDetailsPage" element={<CruiseDetailsWIreFrame />} />
 
         <Route path="/contact" element={<ContactUS />} />
       </Routes>

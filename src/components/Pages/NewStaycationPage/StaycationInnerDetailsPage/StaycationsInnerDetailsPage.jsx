@@ -9,6 +9,7 @@ import ImageSlider from './StaycationTopSlider/StaycationsTopSlider';
 import StaycationsInnerBanner from './StaycationsInnerBanner/StaycationsInnerBanner';
 import { StaycationInnerTopComp } from './StaycationInnerTopComp/StaycationInnerTopComp';
 import { InnerWebPageFooter } from '../../SubPages/InnerWebPageFooter/InnerWebPageFooter';
+import { NewHomeNav } from '../../NewHomePage/NewHomeNavbar/NewHomeNavbar';
 
 export const StaycationsInnerDetailsPage = () => {
     return (
@@ -16,6 +17,8 @@ export const StaycationsInnerDetailsPage = () => {
             {/* <StaycationsInnerBanner/> */}
 
             {/* <ImageSlider/> */}
+
+            <NewHomeNav/>
 
             <StaycationInnerTopComp/>
 
