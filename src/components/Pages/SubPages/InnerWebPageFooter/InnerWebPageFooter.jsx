@@ -759,7 +759,11 @@ export const InnerWebPageFooter = () => {
                                         <div className='listwise'>
                                             <li className='newFooterContentHeadingDiv' >India</li>
                                             <li className='newFooterContentHeadingDiv' >UAE</li>
+<<<<<<< HEAD
                                             {/* <li className='newFooterContentHeadingDiv' >GEM</li> */}
+=======
+                                            <li className='newFooterContentHeadingDiv' >India</li>
+>>>>>>> 80654a2424bf1f5f79f49b3b52cfcdf7835e1a3c
                                             <li className='newFooterContentHeadingDiv' >SA</li>
                                         </div>
                                     </ul>
@@ -768,23 +772,34 @@ export const InnerWebPageFooter = () => {
                                 <div>
                                     <ul>
                                         <div className='listwise'>
+<<<<<<< HEAD
                                             <li className='newFooterContentHeadingDiv' > +918209366227 </li>
                                             <li className='newFooterContentHeadingDiv' > +971 58 597 8776 </li>
                                             {/* <li className='newFooterContentHeadingDiv' >123-456-789</li> */}
                                             <li className='newFooterContentHeadingDiv' > +19176726964 </li>
+=======
+                                            <li className='newFooterContentHeadingDiv' >+91 8209-3662-27</li>
+                                            <li className='newFooterContentHeadingDiv' >191-767-269-64</li>
+                                            <li className='newFooterContentHeadingDiv' >+91 7877680588</li>
+                                            <li className='newFooterContentHeadingDiv' >971-585-978-776</li>
+>>>>>>> 80654a2424bf1f5f79f49b3b52cfcdf7835e1a3c
                                         </div>
                                     </ul>
                                 </div>
                             </div>
 
-
+                            <p style={{marginLeft:"55%",width:"100%"}}>The world leader in online travel & related services</p>
                         </div>
-
+                        
                     </div>
 
                     <div className='footerlogolastdiv'>
 
+<<<<<<< HEAD
                         <p className='copyrightdiv'>©2022 Travalflap | Global Private Limited </p>
+=======
+                        {/* <p className='copyrightdiv'>©2022 Travalflap | Global Product</p> */}
+>>>>>>> 80654a2424bf1f5f79f49b3b52cfcdf7835e1a3c
 
                         <div className='innerwebpageFooter'>
 
@@ -809,6 +824,20 @@ export const InnerWebPageFooter = () => {
                     </div>
 
                     <div className='innerfooterPaymentOptions'>
+
+                    <div className='newHomeFootertextandPayment' style={{marginTop:"1%"}}>
+                        <p className='newHomeFootercopyrightText'>©2022 All Rights Reserved TravelFlap Global Private Limited</p>
+                        <p className='newHomeFootercopyrightText'>Privacy Policy</p>
+                        <p className='newHomeFootercopyrightText'>Terms and Conditions</p>
+                        <p className='newHomeFootercopyrightText'>Sales and Refund</p>
+                        <p className='newHomeFootercopyrightText'>We Accept</p>
+
+                        {/* <WaveEffects/> */}
+                        {/* <div className='paymentGatewayGroup'>
+                            <img className='newFooterPaymentIamges' src='Images/NewHomeLayout/FooterContent/PaymentGroup.png' />
+                        </div> */}
+                    </div>
+
                         <div className='innerfooterPaymentcards'>
 
                             <div className='newFooterPaymentImages' >
@@ -839,9 +868,9 @@ export const InnerWebPageFooter = () => {
                                 <img src="Images/innerwebpagefooter/Group 2065.png " alt='payment gateway image'  ></img>
                             </div>
 
-                            <div className='newFooterPaymentImages' >
+                            {/* <div className='newFooterPaymentImages' >
                                 <img src="Images/innerwebpagefooter/Group 2007.png " alt='payment gateway image' ></img>
-                            </div>
+                            </div> */}
 
                         </div>
                     </div>

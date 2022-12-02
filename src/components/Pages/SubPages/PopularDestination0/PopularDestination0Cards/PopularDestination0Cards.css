@@ -1,5 +1,5 @@
 .PopularDestination0filterCardsmaindiv{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     flex-direction: row;
 }
@@ -11,10 +11,15 @@
 .PopularDestination0Cardsmaindiv{
     /* border: 2px solid red; */
     display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 10%;
-    width: 90%;
+    flex-direction: row;
+    width: 85%;
+    margin-top: 8%;
+    margin-left: 6%;
+
+}
+.ppcard{
+    /* border: 2px solid yellow; */
+    width: 95%;
 }
 .PopularDestination0Cardsmaindiv2{
     display: flex;
@@ -25,7 +30,7 @@
     /* border: 2px solid yellow; */
     margin-left: 2%;
     margin-top: 2%;
-    width: 25%;
+    width: 100%;
 
 
 }
@@ -58,29 +63,32 @@
 .travalflightactivity{
     /* border: 2px solid blue ; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
 }
 .flightacco{
     /* border: 2px solid green; */
      margin-top: 14%;
      width: 120%;
+
 }
+
+
 .holidaytravalflightactivity{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     /* border: 2px solid palevioletred; */
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     color: #5D6771;
-    margin-top: 1%;
+    /* margin-top: 1%; */
 }
 .holidaytravalflightactivity1{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-left: 2%;
     /* border: 2px solid red; */
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     color: #5D6771;
     /* width: 10%; */
@@ -103,18 +111,34 @@
 .nspan{ 
     /* border: 2px solid yellow ; */
     margin-left: 2%;
+    margin-top: 8%;
+
+}
+.nspan1{ 
+    /* border: 2px solid yellow ; */
+    margin-left: 4%;
+    margin-top: 8%;
 
 }
 .amountshowdiv{
-    /* border: 2px solid green; */
-    margin-top: 20%;
+    border: 2px solid green;
+    /* margin-top: 20%; */
+    /* padding-left: 25%; */
+    /* padding-top: 10%; */
+}
+.amountdiv{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    margin-top: 2%;
 }
 
 
 .amountdiv h5 {
-    font-weight: 520;
-    font-size: 18px;
-    margin-left: 40%;
+    font-weight: 540;
+    font-size: 20px;
+    margin-right: 2%;
+    margin-top: 5%;
     
     
     /* padding-left: 10%; */
@@ -125,7 +149,10 @@
     font-weight: 400;
     font-size: 12px;
     color: #5D6771;
-    margin-left: 35%;
+    /* margin-left: 35%; */
+    /* padding-bottom: 5%; */
+    /* border: 2px solid yellow; */
+    margin-top: 7%;
 
 }
 .flightactivitybutton{
@@ -140,6 +167,7 @@
     border: 1px solid #5D6771;
     width: 110%;
     height: 30px;
+    margin-left: 35%;
 
     /* background-color5D6771; */
 }
@@ -150,8 +178,150 @@
     height: 30px;
 
     background-color: #3380F2;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 .bookingbutton{
-    margin-left: 5%;
+    margin-left: 18%;
 }
+
+
+
+.PopularDestination0Filtermaindiv{
+    display: flex;
+    flex-direction: column;
+    /* border: none; */
+    width: 20%;
+    border-right: 1px solid gray;
+
+   
+    /* padding-top: 1%; */
+
+
+
+}
+
+.budgetdiv{
+    /* border:  2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 3%;
+    margin-top: 12%;
+}
+
+
+.budgetdiv p{
+    font-size: 13px;
+    font-weight: 500;
+    /* margin-top: 20%; */
+    margin-left: 10%;
+    /* padding-top: 10%; */
+
+
+}
+
+
+.valuerange{
+ width : 100%;
+}
+.duretiondiv{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid pink; */
+
+}
+.duretiondiv h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 15%;
+
+}
+.persondiv{
+    font-size: 13px;
+    font-weight: 500;
+    /* border: 2px solid yellow; */
+    margin-top: 5%;
+    /* padding-top: 5%; */
+    width: 100%;
+     margin-left: 2%;
+}
+
+.persondiv2{
+    /* border: 2px solid green; */
+    padding-top: 5%;
+    height: 32px;
+    /* justify-content: center; */
+    text-align: center;
+
+}
+.hotelchoice{
+    /* border:  2px solid green; */
+    margin-left: 3%;
+    margin-top: 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.hotelchoicestar{
+    /* border: 2px solid yellow ; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+
+}
+ .hotelchoicedropdown{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-top: 10%;
+ }
+ .selectoptiondiv{
+    /* color: black; */
+    /* border: 1px solid #5D6771; */
+    width: 75%;
+    height: 40px;
+    margin-left: 5%;
+    margin-top: 10%;
+    
+ }
+ .selectoptiondiv1{
+    color: black;
+    border: 1px solid lightgrey;
+    /* width: 100%; */
+    margin-left: 5%;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+ }
+ .radio0{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12%;
+    padding-left: 9%;
+ }
+ .radio0div{
+  /* border: 2px solid yellowgreen; */
+  margin-left: 4%;
+  margin-top: 5%;
+ }
+ .radio0div1{
+    /* border: 2px solid yellowgreen; */
+    margin-left: 4%;
+    
+   }
+
+ .hotelrating{
+    border: 1px solid lightgray;
+
+    /* margin-bottom: 15%; */
+    width: 40%;
+    height: 25px;
+    /* margin-left: 4%; */
+    font-weight: 500;
+    color: #5D6771;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 3%;
+    
+ }

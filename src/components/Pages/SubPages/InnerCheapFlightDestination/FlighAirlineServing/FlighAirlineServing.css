@@ -56,7 +56,7 @@
 }
 
 .readaboutindigi p{
-    font-size: 14px ;
+    font-size: 13px ;
     font-weight: 500;
 }
 /* .indigodivpoint{
@@ -87,11 +87,13 @@
 
 
 .readaboutindigi{
-    border: 2px solid white;
+    border: 1px solid white;
     width: 25%;
     margin-top: 2%;
     border-left: none;
     border-right: none;
+    margin-top: 2%;
+    padding-top: 2%;
 
 }
 .ratingpoins{
@@ -100,10 +102,13 @@
     /* border: 2px solid green; */
     margin-top: 3%;
     /* padding: 2%; */
-    margin-left: 8%;
+    margin-left: 5%;
 }
 .reviwemarking{
     display: flex;
     flex-direction: column;
-    margin-left: 4%;
+    margin-left: 8%;
+    /* border: 2px solid yellow; */
+    padding-left: 5%;
+    text-align: center;
 }

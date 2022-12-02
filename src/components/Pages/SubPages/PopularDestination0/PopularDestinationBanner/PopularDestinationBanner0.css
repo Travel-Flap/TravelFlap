@@ -6,7 +6,7 @@
   font-weight: 500;
   font-size: 30px;
   font-family: 'TT Hoves Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 
 }
 
@@ -22,74 +22,4 @@
   height: 45px;
   padding-top: 1%;
 }
-
-.destinput {
-  border: 1px solid blue;
-  background-color: white;
-  color: black;
-  width: 18%;
-  height: 45px;
-  margin-left: 3%;
-}
-
-.destinputdiv {
-  /* border: 2px solid red; */
-  display: flex;
-  flex-direction: row;
-  margin-top: 5%;
-  /* margin-left: %; */
-}
-.goingtodiv{
-  /* border: 2px solid yellow; */
-  width: 20%;
-  margin-left: 3%;
-}
-.goingtodiv1{
-  /* border: 2px solid blue; */
-  width: 100%;
-  height: 40px;
-  padding-left: 10%;
-  
-}
-.goingtodivbutton{
-  width: 100%;
-  padding-left: 40%;
-}
-
-
-
-.PopularDestiBannerHeading2 {
-  font-weight: bold;
-  margin-left: 25%;
-  /* margin-top: 10%; */
-  color: white;
-  font-weight: 700;
-  font-size: 35px;
-
-
-}
-
-.destiBannerDiv {
-  object-fit: cover;
-  background-size: auto;
-  height: 450px;
-  /* border: 2px solid red; */
-  z-index: 0;
-  position: relative;
-}
-
-.destiBannerimage {
-  height: 450px;
-  filter: brightness(0.6);
-}
-
-
-
-
-
-
-
-
-
-
 

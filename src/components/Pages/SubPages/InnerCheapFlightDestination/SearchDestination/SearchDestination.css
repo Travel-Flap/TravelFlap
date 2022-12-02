@@ -1,0 +1,139 @@
+.FlightSearchmaindiv{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: absolute;
+    z-index: 2;
+    margin-top: -3%;
+    background-color: white;
+    margin-left: 5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+
+}
+.flightlogodiv{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red ; */
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.chooseClass2{
+    /* border: 2px solid yellow; */
+    margin-left: 3%;
+    width: 12%;
+    height: 40px;
+    /* width: auto; */
+    margin-top: 1%;
+    
+}
+.chooseClass2 select{
+    border:1px solid lightgray;
+    width: 100%;
+    height: 100%;
+    background-color: #F0F3F5;
+    font-size: 17px;
+    font-weight: 500;
+}
+.selectoptiondiv{
+    /* border: 2px solid blueviolet; */
+    width: 100%;
+    width: auto;
+    /* height: 40px; */
+    /* margin-left: 5%; */
+}
+.visalogodiv{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid aqua; */
+margin-left: 15%;
+/* background-color: blue; */
+}
+.visadiv{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid pink; */
+    /* padding-left: %; */
+    margin-top: 4%;
+
+}
+
+.visadivimg{
+    margin-left: 8%;
+    /* border: 2px solid green; */
+}
+
+
+
+
+.flightdestinationdiv{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid yellow; */
+    margin-left: 5%;
+    /* padding-bottom: 4%; */
+    margin-top: 1%;
+
+}
+.flightselectdiv{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid blue ; */
+    margin-left: 8%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.FlightsinputNameContainer{
+    /* border:  2px solid red; */
+    margin-bottom: 5%;
+}
+
+.flightinputdiv {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* margin-top: 5%; */
+    /* margin-left: %; */
+  }
+  .flightgoingtodiv{
+    /* border: 2px solid yellow; */
+    width: 25%;
+    margin-left: 3%;
+  }
+  .flightgoingtodiv1{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 40px;
+    padding-left: 10%;
+    background-color: #F0F3F5;
+    border: 1px solid lightgray;
+    font-size: 17px;
+    font-weight: 500;
+    
+  }
+
+  .flightgoingtodiv2{
+    /* border: 2px solid yellow; */
+    width: 25%;
+    margin-left: 3%;
+    background-color: #F0F3F5;
+    /* width: 20%; */
+  }
+  .flightgoingtodivbutton{
+    width: 100%;
+    /* padding-l    eft: 10%; */
+    font-size: 20px;
+    height: 40px;
+    /* border: 2px solid green; */
+    text-align: center;
+    padding-left: 18px;
+   
+  }
+.flightgoingtodivbuttonseacrh{
+    /* border: 2px solid yellow; */
+    width: 5%;
+    margin-left: 2%;
+    /* height: 40px; */
+}

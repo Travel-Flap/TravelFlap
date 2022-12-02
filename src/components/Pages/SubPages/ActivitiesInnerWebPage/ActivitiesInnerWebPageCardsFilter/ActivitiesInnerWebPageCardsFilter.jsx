@@ -1,4 +1,5 @@
-import "./ActivitiesInnerWebPageCardsFilter.css"
+import "./ActivitiesInnerWebPageCardsFilter.css";
+import {Link} from "react-router-dom";
 import { FaStar } from "react-icons/fa";
 
 export const ActivitiesInnerWebPageCardsFilter = () => {
@@ -86,9 +87,11 @@ export const ActivitiesInnerWebPageCardsFilter = () => {
                 <div className="activitiesInnerWebPageCardsDiv">
                    
                     <div className="activitiesInnerWebPageCardsContainer">
+                        <Link to="/activitiesDetails">
                         <div className="activitiesInnerWebPageCardsImage">
                             <img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/c/38584/media8MRGC27WR9CUV.jpg?imwidth=274"/>
                         </div>
+                        </Link>
                         <div className="activitiesInnerWebPageCardsHeadings">
 
                              <h3>Genting Highlands Day Trip from Kuala Lumpur with Skyway Cable Car Ride</h3>

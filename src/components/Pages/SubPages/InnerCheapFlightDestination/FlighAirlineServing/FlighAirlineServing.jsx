@@ -22,12 +22,12 @@ export const FlighAirlineServing = () => {
         </div>
         <div className='flightrating' > 
         <div className='readaboutindigi'>
-          <h5>indigo</h5>
-          <p>overall score besed on 755 review</p>
+          <h5>Indigo</h5>
+          <p>Overall score besed on 755 review</p>
           <h6> Airline reviews</h6>
 
           <p>Got it </p>
-          <p>read more about indigo </p>
+          <p>Read more about indigo </p>
           </div>
           <div className='ratingpoins'>
             <div className='reviwemarking'>
