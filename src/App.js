@@ -64,6 +64,7 @@ import { ActivitiesChildInnerPage } from "./components/Pages/SubPages/Activities
 import { CruiseDetailsWIreFrame } from "./components/Pages/NewCruisePage/CruiseDetailsWireframe/CruiseDetailsWIreFrame";
 import { LoginPageTravelFlap } from "./components/Pages/LoginSignUp/LoginPage/Login";
 import { SignupPageTravelFlap } from "./components/Pages/LoginSignUp/SignupPage/Signup";
+import { Blog } from "./components/Pages/NewBlogsPage/BlogsPage";
 
 function App() {
   return (
@@ -214,6 +215,8 @@ function App() {
         <Route path="/loginPage" element={ <LoginPageTravelFlap /> } />
         <Route path="/signupPage" element={ <SignupPageTravelFlap /> } />
 
+        
+        <Route path="/blogs" element={ <Blog/> } />
         <Route path="/contact" element={<ContactUS />} />
       </Routes>
     </>
