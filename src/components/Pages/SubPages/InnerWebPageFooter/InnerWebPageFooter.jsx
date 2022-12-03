@@ -751,18 +751,19 @@ export const InnerWebPageFooter = () => {
 
 
                         <div className='contactusdiv'>
-                            <li className='listwiseheading1'> Contact us</li>
+                            <li className='listwiseheading1' style={{marginLeft:"10%"}}> Contact us</li>
 
                             <div className='innerFooterContactUsDiv'>
                                 <div>
                                     <ul>
                                         <div className='listwise'>
+                                            <li className='newFooterContentHeadingDiv' style={{marginTop:"10%"}}>India</li>
+                                            <li className='newFooterContentHeadingDiv' >US</li>
                                             <li className='newFooterContentHeadingDiv' >India</li>
+                                            <li className='newFooterContentHeadingDiv' >Kenya</li>
                                             <li className='newFooterContentHeadingDiv' >UAE</li>
-
-                                            <li className='newFooterContentHeadingDiv' >India</li>
-
-                                            <li className='newFooterContentHeadingDiv' >India</li>
+                                            <li className='newFooterContentHeadingDiv' >UAE</li>
+                                            <li className='newFooterContentHeadingDiv' >UAE</li>
                                         </div>
                                     </ul>
                                 </div>
@@ -771,15 +772,13 @@ export const InnerWebPageFooter = () => {
                                     <ul>
                                         <div className='listwise'>
 
-                                            <li className='newFooterContentHeadingDiv' > +918209366227 </li>
-                                            <li className='newFooterContentHeadingDiv' > +971 58 597 8776 </li>
-                                            {/* <li className='newFooterContentHeadingDiv' >123-456-789</li> */}
-                                            <li className='newFooterContentHeadingDiv' > +19176726964 </li>
-
-                                            <li className='newFooterContentHeadingDiv' >+91 78776 80588</li>
-                                            {/* <li className='newFooterContentHeadingDiv' >191-767-269-64</li> */}
-                                            {/* <li className='newFooterContentHeadingDiv' >+91 7877680588</li> */}
-                                            {/* <li className='newFooterContentHeadingDiv' >971-585-978-776</li> */}
+                                            <li className='newFooterContentHeadingDiv' > +918209366227  </li>
+                                            <li className='newFooterContentHeadingDiv' > +19176956550 </li>
+                                            <li className='newFooterContentHeadingDiv' > +917877680588 </li>
+                                            <li className='newFooterContentHeadingDiv' >+254 787 213 522 </li>
+                                            <li className='newFooterContentHeadingDiv' >+971553070316</li>
+                                            <li className='newFooterContentHeadingDiv' >+971585978776</li>
+                                            <li className='newFooterContentHeadingDiv' >+971 -56 566 4624</li>
 
                                         </div>
                                     </ul>
