@@ -1,0 +1,129 @@
+.travelFlaploginPageOuterDiv {
+    border: 1px solid white;
+  }
+  
+  .travelFlaploginPageParentDiv {
+    /* border: 1px solid black; */
+    position: relative;
+    /* margin-top: 3%; */
+    height: 400px;
+    /* width: 90%; */
+  }
+  
+  .travelFlaploginPageInnerDiv {
+    /* border: 1px solid red; */
+    height: 100px;
+    /* margin-top: 5%; */
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .travelFlaploginPageFormDiv {
+    /* border: 1px solid black; */
+    width: 45%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .travelFlaploginPageFormDiv h3 {
+    font-weight: 600;
+    font-size: 35px;
+    vertical-align: baseline;
+    line-height: 30px;
+    margin-top: 20%;
+    margin-bottom: 3%;
+  }
+  
+  .loginPageSocialIcons img {
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    object-fit: cover;
+  }
+  
+  .loginPageNameDiv {
+    /* border: 1px solid red; */
+    margin-left: 10%;
+  }
+  
+  .loginPageNumberDiv {
+    margin-left: 10%;
+  }
+  
+  .loginPageEmailDiv {
+    margin-left: 10%;
+  }
+  
+  .loginPagePasswordDiv {
+    margin-left: 10%;
+  }
+  
+  .loginPageConfirmPasswordDiv {
+    margin-left: 10%;
+  }
+  
+  .loginPageAgreementDiv {
+    /* border: 1px solid red; */
+    width: 45%;
+    margin-left: 8%;
+  }
+  
+  /* .loginPageAgreementCheckBoxDiv {
+    border: 1px solid black;
+  }
+  
+  .loginPageAgreementTextDiv {
+    border: 1px solid green;
+  } */
+  
+  .loginPageSubmitButtonDiv {
+    /* border: 1px solid red; */
+    width: 84%;
+    margin-left: 7.5%;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .loginPageFormInnerDiv {
+    /* border: 1px solid red; */
+    margin-left: 15%;
+  }
+  
+  .loginPageFormInnerDiv label {
+    color: #393939;
+  }
+  
+  .travelFlaploginPageImageDiv {
+    /* border: 1px solid green; */
+    width: 55%;
+    /* height: 400px; */
+    object-fit: cover;
+  }
+  
+  .travelFlaploginPageImageDiv img {
+    width: 64%;
+    object-fit: cover;
+  }
+  
+  .loginPageAlradyAccountDiv {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .loginPageRouteText {
+    font-weight: 600;
+    margin-left: 30%;
+  }
+  
+  .loginPageRouteButton {
+    color: #3380f2;
+    cursor: pointer;
+    margin-left: 3%;
+    font-weight: 600;
+  }
+  

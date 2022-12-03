@@ -63,83 +63,83 @@ export const StaycationBookingPolicy = () => {
 
                     <div className='hotelBookingPoliciesHelpfulFactsDiv'>
                         <div className='hotelPoliciesFactInnerDiv1'>
-                            <h4>Check-in/Check-out</h4>
+                            <h5>Check-in/Check-out</h5>
 
                             <div className='hotelBookingFactSubDiv'>
                                 <div className='hotelBookingFactSubDivDetails1' >
-                                    <h5>Check-In from</h5>
-                                    <h5>Check-In until</h5>
-                                    <h5>Check-out until</h5>
-                                    <h5>Reception open until</h5>
-                                    <h5>Parking(Daily Parking Fee)</h5>
+                                    <p>Check-In from</p>
+                                    <p>Check-In until</p>
+                                    <p>Check-out until</p>
+                                    <p>Reception open until</p>
+                                    <p>Parking(Daily Parking Fee)</p>
                                 </div>
 
                                 <div className='hotelBookingFactSubDivDetails2' >
-                                    <h5>: 02:00 PM</h5>
-                                    <h5>: 12:00 PM</h5>
-                                    <h5>: 12:00 PM</h5>
-                                    <h5>: 12:00 PM</h5>
-                                    <h5>: 250 INR</h5>
+                                    <p>: 02:00 PM</p>
+                                    <p>: 12:00 PM</p>
+                                    <p>: 12:00 PM</p>
+                                    <p>: 12:00 PM</p>
+                                    <p>: 250 INR</p>
                                 </div>
                             </div>
                         </div>
 
                         <div className='hotelPoliciesFactInnerDiv2'>
-                            <h4> The Property </h4>
+                            <h5> The Property </h5>
                             <div className='hotelPoliciesPropertyInnerDiv'>
                                 <div className='hotelBookingPropertySubDetailsDiv1' >
-                                    <h5> Non-Smoking rooms /floors </h5>
-                                    <h5> Non-Smoking bars /lounges </h5>
-                                    <h5> Non-Smoking floors </h5>
-                                    <h5> Non-Smoking restraunts </h5>
-                                    <h5> Non-Smoking rooms </h5>
-                                    <h5> Room Voltage </h5>
-                                    <h5> Year property opened </h5>
-                                    <h5> Most recent renovation </h5>
+                                    <p> Non-Smoking rooms /floors </p>
+                                    <p> Non-Smoking bars /lounges </p>
+                                    <p> Non-Smoking floors </p>
+                                    <p> Non-Smoking restraunts </p>
+                                    <p> Non-Smoking rooms </p>
+                                    <p> Room Voltage </p>
+                                    <p> Year property opened </p>
+                                    <p> Most recent renovation </p>
                                 </div>
 
                                 <div className='hotelBookingPropertySubDetailsDiv2'>
-                                    <h5> : no </h5>
-                                    <h5> : 01 </h5>
-                                    <h5> : 28 </h5>
-                                    <h5> : 3 </h5>
-                                    <h5> : 461 </h5>
-                                    <h5> : 220 </h5>
-                                    <h5> : 1988 </h5>
-                                    <h5> : 2008 </h5>
+                                    <p> : no </p>
+                                    <p> : 01 </p>
+                                    <p> : 28 </p>
+                                    <p> : 3 </p>
+                                    <p> : 461 </p>
+                                    <p> : 220 </p>
+                                    <p> : 1988 </p>
+                                    <p> : 2008 </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div className='hotelBookingPropertyInfoDiv3'>
-                        <h4>Getting around</h4>
+                        <h5>Getting around</h5>
                         <div className='hotelBookingPropertyInfoInnerDiv'>
                             <div className='hotelPropertyInfoSubDiv1'>
-                                <h5> Airport transfer fee </h5>
-                                <h5> Distance from city center </h5>
-                                <h5> Travel time to airport (minutes) </h5>
+                                <p> Airport transfer fee </p>
+                                <p> Distance from city center </p>
+                                <p> Travel time to airport (minutes) </p>
                             </div>
                             <div className='hotelPropertyIndoSubDiv2'>
-                                <h5> : 4368 INR </h5>
-                                <h5> : 2Km,2 miles </h5>
-                                <h5> : 25 </h5>
+                                <p> : 4368 INR </p>
+                                <p> : 2Km,2 miles </p>
+                                <p> : 25 </p>
                             </div>
                         </div>
                     </div>
 
                     <div className='hotelBoookingPropertyOtherDiv'>
-                        <h4>Others</h4>
-                        <h5>Joiners or visitors are not allowed in the residential area except for the lobby.
+                        <p>Others</p>
+                        <p>Joiners or visitors are not allowed in the residential area except for the lobby.
                             Otherwise, charges will be applied. Please contact the property for more information.
-                        </h5>
+                        </p>
 
                         <div className='hotelBookingPropertOthrSubDiv'>
                             <ul>
-                                <li> <h5> The property does not permit food from outside. </h5> </li> 
-                                <h5> Alcohol is strictly not allowed at the property. </h5>
-                                <h5> Covid Vaccination Certificate is to be produced at the time of check-in </h5>
-                                <h5> When booking more than 5 rooms, different policies and additional supplements may apply. </h5>
+                                <li> <p> The property does not permit food from outside. </p> </li> 
+                                <p> Alcohol is strictly not allowed at the property. </p>
+                                <p> Covid Vaccination Certificate is to be produced at the time of check-in </p>
+                                <p> When booking more than 5 rooms, different policies and additional supplements may apply. </p>
                             </ul>
                         </div>
                     </div>

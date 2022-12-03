@@ -62,6 +62,8 @@ import { StaycationBookingPageLayout } from "./components/Pages/NewStaycationPag
 
 import { ActivitiesChildInnerPage } from "./components/Pages/SubPages/ActivitiesChildInnerPage/ActivitiesChildInnerPage";
 import { CruiseDetailsWIreFrame } from "./components/Pages/NewCruisePage/CruiseDetailsWireframe/CruiseDetailsWIreFrame";
+import { LoginPageTravelFlap } from "./components/Pages/LoginSignUp/LoginPage/Login";
+import { SignupPageTravelFlap } from "./components/Pages/LoginSignUp/SignupPage/Signup";
 
 function App() {
   return (
@@ -207,6 +209,10 @@ function App() {
 
         {/* These routes are for the cruise innner wireframes */}
         <Route path="/cruiseDetailsPage" element={<CruiseDetailsWIreFrame />} />
+
+        {/* These are the routes for the login and signup pages */}
+        <Route path="/loginPage" element={ <LoginPageTravelFlap /> } />
+        <Route path="/signupPage" element={ <SignupPageTravelFlap /> } />
 
         <Route path="/contact" element={<ContactUS />} />
       </Routes>

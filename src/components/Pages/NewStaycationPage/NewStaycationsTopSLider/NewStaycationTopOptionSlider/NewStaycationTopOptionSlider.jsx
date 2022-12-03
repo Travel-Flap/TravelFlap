@@ -9,17 +9,17 @@ import "slick-carousel/slick/slick-theme.css";
 import { useEffect } from "react";
 // import Amazingppl from "./Amazingppl.png";
 // import arctic from "./arctic.png";
-import breakfast from "./breakfast.png";
-import cabin from "./cabin.png";
-import campervan from "./campervan.png";
-import cave from "./cave.png";
-import Countryside from "./Countryside.png";
-import Designhouse from "./Designhouse.png";
-import Earthhomes from "./Earthhomes.png";
-import Farmhouse from "./Farmhouse.png";
+// import breakfast from "./breakfast.png";
+// import cabin from "./cabin.png";
+// import campervan from "./campervan.png";
+// import cave from "./cave.png";
+// import Countryside from "./Countryside.png";
+// import Designhouse from "./Designhouse.png";
+// import Earthhomes from "./Earthhomes.png";
+// import Farmhouse from "./Farmhouse.png";
 // import island from "./island.png";
-import lakefront from "./lakefront.png";
-import nationalpark from "./nationalpark.png";
+// import lakefront from "./lakefront.png";
+// import nationalpark from "./nationalpark.png";
 
 export const NewStaycationTopOptionSlider = () => {
 
@@ -101,89 +101,90 @@ export const NewStaycationTopOptionSlider = () => {
 
 
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={Designhouse} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/beach-house.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={cave} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={breakfast} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={cabin} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={campervan} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={cave} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/view.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={Countryside} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={Designhouse} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={Earthhomes} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/view.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={Farmhouse} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={Farmhouse} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/beach-house.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={lakefront} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/view.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={nationalpark} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={nationalpark} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/view.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={nationalpark} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/boat.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={nationalpark} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/cabin.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={nationalpark} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/view.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={nationalpark} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/Hills.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={nationalpark} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/beach-house.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={nationalpark} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/view.png" alt="image" />
                             BeachFront
                         </div>
                         <div className="newStaycationOptionIcons">
-                            <img className="newStaycationOptionnavbarimages" src={nationalpark} />
+                            <img className="newStaycationOptionnavbarimages" src="/Images/NewHomeLayout/NewStaycations/staycationIcons/cave.png" alt="image" />
                             BeachFront
                         </div>
+                       
                     </Slider>
                 </div>
                 {/* <div className="newStaycationOptionfilterdiv">

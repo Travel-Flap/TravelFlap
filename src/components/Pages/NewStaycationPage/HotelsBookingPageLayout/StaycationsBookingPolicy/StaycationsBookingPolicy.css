@@ -74,7 +74,7 @@
   /* height: 100px; */
 }
 
-.hotelPoliciesFactInnerDiv1 h4 {
+.hotelPoliciesFactInnerDiv1 h5 {
   font-size: 22px;
   color: #393939 !important;
   font-weight: 500;
@@ -97,8 +97,8 @@
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-.hotelBookingFactSubDivDetails1 h5 {
-  font-size: 18px;
+.hotelBookingFactSubDivDetails1 p {
+  font-size: 15px;
   font-weight: 400;
   color: #393939;
   line-height: 20px;
@@ -112,8 +112,8 @@
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-.hotelBookingFactSubDivDetails2 h5 {
-  font-size: 18px;
+.hotelBookingFactSubDivDetails2 p {
+  font-size: 15px;
   font-weight: 400;
   color: #393939;
   line-height: 20px;
@@ -127,7 +127,7 @@
   /* height: 100px; */
 }
 
-.hotelPoliciesFactInnerDiv2 h4 {
+.hotelPoliciesFactInnerDiv2 h5 {
   font-size: 22px;
   color: #393939 !important;
   font-weight: 500;
@@ -149,8 +149,8 @@
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-.hotelBookingPropertySubDetailsDiv1 h5 {
-  font-size: 18px;
+.hotelBookingPropertySubDetailsDiv1 p {
+  font-size: 15px;
   font-weight: 400;
   color: #393939;
   line-height: 20px;
@@ -177,7 +177,7 @@
   margin-top: -5%;
 }
 
-.hotelBookingPropertyInfoDiv3 h4 {
+.hotelBookingPropertyInfoDiv3 h5 {
   font-size: 22px;
   color: #393939 !important;
   font-weight: 500;
@@ -200,8 +200,8 @@
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-.hotelPropertyInfoSubDiv1 h5 {
-  font-size: 18px;
+.hotelPropertyInfoSubDiv1 p {
+  font-size: 15px;
   font-weight: 400;
   color: #393939;
   line-height: 20px;
@@ -229,7 +229,7 @@
   margin-top: 2%;
 }
 
-.hotelBoookingPropertyOtherDiv h4 {
+.hotelBoookingPropertyOtherDiv h5 {
   font-size: 22px;
   color: #393939 !important;
   font-weight: 500;
@@ -238,8 +238,8 @@
   margin-bottom: 2%;
 }
 
-.hotelBoookingPropertyOtherDiv h5 {
-  font-size: 18px;
+.hotelBoookingPropertyOtherDiv p {
+  font-size: 15px;
   font-weight: 400;
   color: #393939;
   line-height: 20px;

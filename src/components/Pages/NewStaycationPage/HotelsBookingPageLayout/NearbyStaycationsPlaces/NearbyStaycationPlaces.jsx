@@ -164,7 +164,7 @@ export const NearbyStaycationsPlaces = () => {
                                         <div className="card-wrapper">
                                             <div className="card newVarietyOfStaysYouDiv">
                                                 <div className="card-image newVarietyOfStaysCardimage">
-                                                    <img src="Images/NewHomeLayout/Staycationss/AllCompImages/Vanandhaara.webp" />
+                                                    <img src="/Images/NewHomeLayout/Hotels/AllCompImages/Vanandhaara.webp" />
                                                 </div>
                                                 <div className="newVarietyOfStaysDetails">
                                                     <h2> Vanandhaara
@@ -187,7 +187,7 @@ export const NearbyStaycationsPlaces = () => {
                                         <div className="card-wrapper">
                                             <div className="card newVarietyOfStaysYouDiv">
                                                 <div className="card-image newVarietyOfStaysCardimage">
-                                                    <img src="Images/NewHomeLayout/Staycationss/AllCompImages/Mun ki reti.webp" />
+                                                    <img src="/Images/NewHomeLayout/Hotels/AllCompImages/Mun ki reti.webp" />
                                                 </div>
                                                 <div className="newVarietyOfStaysDetails">
                                                     <h2> Mun Ki Reti
@@ -209,7 +209,7 @@ export const NearbyStaycationsPlaces = () => {
                                         <div className="card-wrapper">
                                             <div className="card newVarietyOfStaysYouDiv">
                                                 <div className="card-image newVarietyOfStaysCardimage">
-                                                    <img src="Images/NewHomeLayout/Staycationss/AllCompImages/Kintusgi.webp" />
+                                                    <img src="/Images/NewHomeLayout/Hotels/AllCompImages/Kintusgi.webp" />
                                                 </div>
                                                 <div className="newVarietyOfStaysDetails">
                                                     <h2> Kintusgi Staycations
@@ -231,7 +231,7 @@ export const NearbyStaycationsPlaces = () => {
                                         <div className="card-wrapper">
                                             <div className="card newVarietyOfStaysYouDiv">
                                                 <div className="card-image newVarietyOfStaysCardimage">
-                                                    <img src="Images/NewHomeLayout/Staycationss/AllCompImages/Aida Villa.webp" />
+                                                    <img src="/Images/NewHomeLayout/Hotels/AllCompImages/Aida Villa.webp" />
                                                 </div>
                                                 <div className="newVarietyOfStaysDetails">
                                                     <h2> Aida Villa
@@ -253,7 +253,7 @@ export const NearbyStaycationsPlaces = () => {
                                         <div className="card-wrapper">
                                             <div className="card newVarietyOfStaysYouDiv">
                                                 <div className="card-image newVarietyOfStaysCardimage">
-                                                    <img src="Images/NewHomeLayout/Staycationss/AllCompImages/StaycationsLalit.jpg" />
+                                                    <img src="/Images/NewHomeLayout/Hotels/AllCompImages/HotelLalit.jpg" />
                                                 </div>
                                                 <div className="newVarietyOfStaysDetails">
                                                     <h2> Staycations Lalit
@@ -275,7 +275,7 @@ export const NearbyStaycationsPlaces = () => {
                                         <div className="card-wrapper">
                                             <div className="card newVarietyOfStaysYouDiv">
                                                 <div className="card-image newVarietyOfStaysCardimage">
-                                                    <img src="Images/TopCities/landon.jpg" />
+                                                    <img src="/Images/NewHomeLayout/Hotels/AllCompImages/Mun ki reti.webp" />
                                                 </div>
                                                 <div className="newVarietyOfStaysDetails">
                                                     <h2>London                         {/* <span> */}
