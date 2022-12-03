@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   /* border: 5px solid green; */
-  background-color: #252323;
+  background-color: #212A30;
   margin-top: 2%;
   /* height: 800px; */
   font-family: "TT Hoves Variable", -apple-system, BlinkMacSystemFont,
@@ -149,9 +149,6 @@
   color: rgb(194, 194, 194);
 }
 
-.newFooterContentHeadingDiv {
-  /* margin-top: 8%; */
-}
 
 .listwise1 {
   font-size: 12px;
@@ -311,7 +308,7 @@
   text-align: center;
   font-weight: 700;
   font-size: 18px;
-  background-color: #252323;
+  background-color: #212A30;
   margin-top: 1%;
 }
 .innerwebpageFooter p {
@@ -394,7 +391,7 @@
 }
 
 .innerfooterPaymentOptions {
-  background-color: #252323;
+  background-color: #212A30;
   height: 60px;
   display: flex;
   flex-direction: row;
