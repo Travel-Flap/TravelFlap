@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './PopularDestination0Cards.css'
 import { FaCar ,FaHotel ,FaPlaneDeparture ,FaCoffee ,FaBinoculars } from "react-icons/fa";
 
@@ -20,7 +21,7 @@ export const PopularDestination0Cards = () => {
        <div className='persondiv2'>
        <p> (1,00,000 - 5,00,000)</p></div>
        <div className='rangediv'>
-       <input type = "range" min = "1" max = "100" value = "100" className='valuerange'/>
+       <input type = "range" min = "1" max = "100" value = "50" className='valuerange'/>
        </div>
        </div>
        <div className='budgetdiv'>
@@ -35,7 +36,7 @@ export const PopularDestination0Cards = () => {
        <div className='persondiv2'>
        <p> (4 N - 7 N)</p></div>
        <div className='rangediv'>
-       <input type = "range" min = "1" max = "100" value = "100" className='valuerange'/>
+       <input type = "range" min = "1" max = "100" value = "50" className='valuerange'/>
        </div>
        </div>
        
@@ -96,12 +97,14 @@ export const PopularDestination0Cards = () => {
             <div className='PopularDestination0Cardsmaindiv2'>
             <div class="card mb- Destiouterdiv">
                             <div class="row g-0 DestiImagetextcontainer">
-                                <div class="col-md-8 DestiCardimage">
-                                    <img src="Images/cardofholiday.jpg" class="img-fluid DestiRecommendedimage" alt="..." />
-                                </div>
+                                <Link to="/populardestination1">
+                                    <div class="col-md-8 DestiCardimage">
+                                        <img src="Images/cardofholiday.jpg" class="img-fluid DestiRecommendedimage" alt="..." />
+                                    </div>
+                                </Link>
                                 <div class="col-md-4 DestiTextcard">
                                     <div class="card-body ">
-                                        <h3 class="card-title DestiCardtitle">Majestic Istanbull</h3>
+                                        <h3 class="card-title DestiCardtitle">Majesticc Istanbull</h3>
                                         <div className='travalflightactivity'>
                                         <div className='holidaytravalflightactivity'>
                                         <div className='flightacco'> <FaPlaneDeparture className='flaticondiv'/>  3 flight</div>
@@ -113,7 +116,7 @@ export const PopularDestination0Cards = () => {
                                            
                                            
                                             <div className='flightacco'> <FaBinoculars/>   2 Activities</div>
-                                            <div className='flightacco'> <FaCoffee/>  breakfast</div>
+                                            <div className='flightacco1'> <FaCoffee/>  breakfast</div>
                                             </div>
                                             <div className='holidaytravalflightactivity2'>
                                                 <div className='activitydays'>
@@ -164,7 +167,7 @@ export const PopularDestination0Cards = () => {
                                            
                                            
                                             <div className='flightacco'> <FaBinoculars/>  2 Activities</div>
-                                            <div className='flightacco'> <FaCoffee/>  breakfast</div>
+                                            <div className='flightacco1'> <FaCoffee/>  breakfast</div>
                                             </div>
                                             <div className='holidaytravalflightactivity2'>
                                                 <div className='activitydays'>
@@ -214,7 +217,7 @@ export const PopularDestination0Cards = () => {
                                            
                                            
                                             <div className='flightacco'> <FaBinoculars/>  2 Activities</div>
-                                            <div className='flightacco'> <FaCoffee/>    breakfast</div>
+                                            <div className='flightacco1'> <FaCoffee/>    breakfast</div>
                                             </div>
                                             <div className='holidaytravalflightactivity2'>
                                                 <div className='activitydays'>
@@ -266,7 +269,7 @@ export const PopularDestination0Cards = () => {
                                            
                                            
                                             <div className='flightacco'> <FaBinoculars/>  2 Activities</div>
-                                            <div className='flightacco'> <FaCoffee/>   breakfast</div>
+                                            <div className='flightacco1'> <FaCoffee/>   breakfast</div>
                                             </div>
                                             <div className='holidaytravalflightactivity2'>
                                                 <div className='activitydays'>
@@ -316,7 +319,7 @@ export const PopularDestination0Cards = () => {
                                            
                                            
                                             <div className='flightacco'> <FaBinoculars/>  2 Activities</div>
-                                            <div className='flightacco'> <FaCoffee/>  breakfast</div>
+                                            <div className='flightacco1'> <FaCoffee/>  breakfast</div>
                                             </div>
                                             <div className='holidaytravalflightactivity2'>
                                                 <div className='activitydays'>
@@ -366,7 +369,7 @@ export const PopularDestination0Cards = () => {
                                            
                                            
                                             <div className='flightacco'> <FaBinoculars/>  2 Activities</div>
-                                            <div className='flightacco'> <FaCoffee/>  breakfast</div>
+                                            <div className='flightacco1'> <FaCoffee/>  breakfast</div>
                                             </div>
                                             <div className='holidaytravalflightactivity2'>
                                                 <div className='activitydays'>

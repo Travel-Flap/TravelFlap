@@ -112,20 +112,145 @@
 .PopularDestinationAboutbox {
   /* margin-top: 3px; */
   /* border: 7px solid rgb(130, 199, 199); */
-  width: 30%;
+  width: 100%;
   height: 100%;
-  margin-bottom: 7%;
+  border-radius: 8px;
+  /* margin-bottom: 7%; */
   /* margin-/left: 2%; */
   /* padding: 5px; */
 }
 
 .PopularDestinationAboutimageouteriv {
   /* border: 2px solid brown; */
-  width: 100%;
+  width: 70%;
   height: auto;
   margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
 }
-
+.popularDestinationOverviewContainer1{
+  /* border: 2px solid salmon; */
+  width:100%;
+  height:300px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid lightgray;
+}
+.popularDestinationOverviewContainer1Heading{
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.popularDestinationOverviewContainer1ImagesDiv{
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+.popularDestinationOverviewContainer1Image1{
+  /* border: 2px solid lightgrey; */
+  object-fit: cover;
+  background-size: cover;
+  width: 35%;
+  border-radius: 8px;
+}
+.popularDestinationOverviewContainer1Image2{
+  /* border: 2px solid green; */
+  object-fit: cover;
+  background-size: cover;
+  width: 35%;
+  margin-left: 5%;
+  border-radius: 8px;
+}
+.popularDestinationOverviewContainer2{
+  /* border: 2px solid saddlebrown; */
+  width: 100%;
+  height:170px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  border-bottom: 2px solid lightgray;
+}
+.popularDestinationOverviewContainer2Heading{
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.popularDestinationOverviewContainer2FlightData{
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 100px;
+}
+.popularDestinationOverviewContainer3{
+  /* border: 2px solid gold; */
+  width: 100%;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid lightgray;
+  margin-bottom: 2%;
+}
+.popularDestinationOverviewContainer3Heading{
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.popularDestinationOverviewContainer3HotelDetails{
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+}
+.popularDestinationOverviewContainer3HotelImageDiv{
+  /* border: 2px solid green; */
+  width: 45%;
+  height: 250px;
+}
+.popularDestinationOverviewContainer3HotelImage{
+  width: 90%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.popularinneroverviewMaindivContainer{
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.popularinneroverviewMaindivContainerleftSide{
+  /* border: 2px solid red; */
+  width: 20%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid lightgray;
+}
+.popularinneroverviewMaindivContainerleftDate{
+  width: 60%;
+  height: 42px;
+  background-color: white;
+  border: 2px solid #3380F2;
+  border-radius: 15px;
+  margin-top: 5%;
+  margin-left: 20%;
+  padding-top: 4%;
+  padding-left: 5%;
+}
+.popularinneroverviewMaindivContainerleftDate:hover{
+  background-color: #3380F2;
+  color: white;
+}
 .PopularDestinationAboutcard {
   object-fit: cover;
   background-size: auto;
@@ -658,7 +783,7 @@ cancellation policy css */
   /* border: 1px solid lightgray; */
   border-radius: 5px;
   width: 93%;
-  height: 80px;
+  height: 100px;
   margin-top: 1.5%;
   display: flex;
   flex-direction: row;
@@ -694,7 +819,7 @@ cancellation policy css */
   /* border: 2px solid red; */
   width: 8%;
   font-size: 22px;
-  padding-top: 33px;
+  padding-top: 24px;
 }
 .popularInnerFilterdetailsflightStops{
   /* border: 2px solid red; */
@@ -716,4 +841,23 @@ cancellation policy css */
   font-weight: 700;
   display: flex;
   flex-direction: column;
+}
+.innerPopularDestinationCovidGuideLines{
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.innerPopularDestinationCovidGuideLinesHeading{
+  font-size: 25px;
+  font-weight: 700;
+  color: #393939;
+  margin-top: 5%;
+}
+.innerPopularDestinationCovidGuideLinesList{
+  list-style: disc;
+  color: #393939;
+  font-size: 15px;
+  margin-top: 2%;
 }

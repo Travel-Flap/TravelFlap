@@ -28,9 +28,6 @@ export const PopularDestinationButton = () => {
                                 <li class="nav-item innerpopularButtonClick" role="presentation">
                                     <button className={showtab === 1 ? "Buttoninner1 innerpopulardestinationactive1" : "Buttoninner1"} onClick={() => handletab(1)} >Overview</button>
                                 </li>
-                                <li class="nav-item innerpopularButtonClick" role="presentation">
-                                    <button className={showtab === 2 ? "Buttoninner1 innerpopulardestinationactive1" : "Buttoninner1"} onClick={() => handletab(2)}>Accomodation</button>
-                                </li>
 
                                 <li class="nav-item innerpopularButtonClick" role="presentation">
                                     <button className={showtab === 3 ? "Buttoninner1 innerpopulardestinationactive1" : "Buttoninner1"} onClick={() => handletab(3)}>Inclusion & Exclusion</button>
@@ -38,6 +35,10 @@ export const PopularDestinationButton = () => {
 
                                 <li class="nav-item innerpopularButtonClick" role="presentation">
                                     <button className={showtab === 4 ? "Buttoninner1 innerpopulardestinationactive1" : "Buttoninner1"} onClick={() => handletab(4)}>Cancellation Policy</button>
+                                </li>
+
+                                <li class="nav-item innerpopularButtonClick" role="presentation">
+                                    <button className={showtab === 2 ? "Buttoninner1 innerpopulardestinationactive1" : "Buttoninner1"} onClick={() => handletab(2)}>Covid 19 Safety GuideLines</button>
                                 </li>
 
                             </ul>
@@ -60,183 +61,454 @@ export const PopularDestinationButton = () => {
                                         <div className='innerpopulardestinationFilterButtons'>
                                             <ul class="nav nav-pills mb-3  innerpopularfilterButtonBorder" id="pills-tab" role="tablist" style={{backgroundColor:"#3380F2"}}>
                                                 <li class="nav-item innerpopularButtonClick" role="presentation">
-                                                    <button className={showtab === 5 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(5)} >4 Day Plans</button>
+                                                    <button className={showtab === 4 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(1)} >4 Day Plans</button>
                                                 </li>
                                                 <li class="nav-item innerpopularButtonClick" role="presentation">
-                                                    <button className={showtab === 6 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(6)}>2 Flights</button>
-                                                </li>
-
-                                                <li class="nav-item innerpopularButtonClick" role="presentation">
-                                                    <button className={showtab === 7 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(7)}>4 Hotels</button>
+                                                    <button className={showtab === 5 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(1)}>2 Flights</button>
                                                 </li>
 
                                                 <li class="nav-item innerpopularButtonClick" role="presentation">
-                                                    <button className={showtab === 8 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(8)}>2 Activities</button>
+                                                    <button className={showtab === 6 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(1)}>4 Hotels</button>
+                                                </li>
+
+                                                <li class="nav-item innerpopularButtonClick" role="presentation">
+                                                    <button className={showtab === 7 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(1)}>2 Activities</button>
                                                 </li>
 
                                             </ul>
                                         </div>
 
-                                        <div className='PopularDestinationAboutimageouteriv'>
-
-                                            <div className='PopularDestinationAboutimage'>
-                                                <img className='PopularDestinationAboutbox'
-
-                                                    src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
-                                                    alt=""
-                                                />
-                                                <h5 className='aboutheading'>Day1</h5>
-                                                <div className='PopularDestinationAboutcard'>
-                                                    <p> MORNING<br />
-                                                        Arrive in Istanbul. Transfer to Hotel.</p>
+                                        <div className='popularinneroverviewMaindivContainer'>
+                                            <div className='popularinneroverviewMaindivContainerleftSide'>
+                                                <div className='popularinneroverviewMaindivContainerleftDate'>
+                                                    22 Jan 2022
                                                 </div>
-
+                                                <div className='popularinneroverviewMaindivContainerleftDate'>
+                                                    23 Jan 2022
+                                                </div>
+                                                <div className='popularinneroverviewMaindivContainerleftDate'>
+                                                    24 Jan 2022
+                                                </div>
+                                                <div className='popularinneroverviewMaindivContainerleftDate'>
+                                                    26 Jan 2022
+                                                </div>
                                             </div>
-
-                                            <div className='popularInnerFilterdetails'>
-                                                <div className='popularInnerFilterdetailsflightlogos'>
-                                                    <img src='Images/Partners Logos/Air India.png' />
-                                                </div>
-                                                <div className='popularInnerFilternames'>
-                                                    01:45AM
-                                                    <br />
-                                                    <p style={{ color: "gray" }}>JAI</p>
-                                                </div>
-                                                <div className='popularInnerFilterdetailsflightTimming'>
-                                                    2Hrs  10Minutes
-                                                    <br/>
-                                                    <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
-                                                </div>
-                                                <div className='popularInnerFilterplaneIcon'><FaPlane/></div>
-                                                <div className='popularInnerFilterdetailsflightStops'>
-                                                    03:45AM
-                                                    <br />
-                                                    <p style={{ color: "gray" }}>Delhi</p>
-                                                </div> 
-                                            </div>
-
-                                            <div className='innerpopularoverviewHotelActivityDetails'>
-                                                <div className='innerpopularoverviewHotelDetails'>
-                                                    <h2>Hotel</h2>
-                                                        <div className='innerpopularHotelFilter1'>
-                                                            <h3>Ramada by Wyndham Cappadocia </h3>
-                                                            <p>Ortahisar Belediyesi <FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaStar/> </p>
-                                                            <p>Sun, 22 Jan 2023 - Wed, 25 Jan 2023</p>
-                                                            <h6>Standart Oda</h6>
-                                                            <p>Meal Plan : Breakfast</p>
-                                                            <h6>Room Inclusions:</h6>
-                                                            <ul>
-                                                                <li><p>Breakfast buffet</p></li>
-                                                                <li><p>Free self parking</p></li>
-                                                                <li><p>Free WiFi</p></li>
-                                                            </ul>
+                                            <div className='PopularDestinationAboutimageouteriv'>
+                                                <div className='popularDestinationOverviewContainer1'>
+                                                    <div className='popularDestinationOverviewContainer1Heading'>
+                                                        Day 1 : 22 Jan 2023
+                                                    </div>
+                                                    <div className='popularDestinationOverviewContainer1ImagesDiv'>
+                                                        <div className='popularDestinationOverviewContainer1Image1'>
+                                                            <img className='PopularDestinationAboutbox'
+                                                                src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
+                                                                alt="overview Image"/>
                                                         </div>
-                                                </div>
-                                                <div className='innerpopularoverviewActivityDetails'>
-                                                    <h2>Activities</h2>
-                                                    <div className='innerpopularoverviewActivitiesFilter1'>
-                                                        <h6>Turkish Night and Belly Dance Show</h6>
-                                                        <p>Cappadocia, Turkey</p>
-                                                        <p>Enjoy an unforgettable night out as you take your seat for the Turkish Night Show, an immersive and entertaining show which highlights the dance traditions of various regions of Turkey.</p>
+                                                        <div className='popularDestinationOverviewContainer1Image2'>
+                                                            <img className='PopularDestinationAboutbox'
+                                                                src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
+                                                                alt="overview Image"/>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-
-                                            <div className='PopularDestinationAboutimage'>
-                                                <img className='PopularDestinationAboutbox'
-
-                                                    src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
-                                                    alt=""
-                                                />
-                                                <h5 className='aboutheading'>Day2</h5>
-                                                <div className='PopularDestinationAboutcard'>
-                                                    <p> FULL DAY<br />
-                                                        Full Day Istanbul City Tour with Local Lunch</p>
-                                                </div>
-                                            </div>
-
-                                            <div className='innerpopularoverviewActivitiesFilter1'>
-                                                <h2 className='innerpopularActivityHeading'>Activities</h2>
-                                                <h6>Turkish Night and Belly Dance Show</h6>
-                                                <p>Cappadocia, Turkey</p>
-                                                <p>Enjoy an unforgettable night out as you take your seat for the Turkish Night Show, an immersive and entertaining show which highlights the dance traditions of various regions of Turkey.</p>
-                                            </div>
-
-                                            <div className='PopularDestinationAboutimage'>
-                                                <img className='PopularDestinationAboutbox'
-
-                                                    src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
-                                                    alt=""
-                                                />
-                                                <h5 className='aboutheading'>Day3</h5>
-                                                <div className='PopularDestinationAboutcard'>
-                                                    <p>MORNING TO NOON<br />
-                                                        Half Day Istanbul Tour with Entrance to Bosphorus Cruise with Spice Market</p>
-                                                </div>
-                                            </div>
-
-                                            <div className='PopularDestinationAboutimage'>
-                                                <img className='PopularDestinationAboutbox'
-
-                                                    src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
-                                                    alt=""
-                                                />
-                                                <h5 className='aboutheading'>Day4</h5>
-                                                <div className='PopularDestinationAboutcard'>
-                                                    <p> MORNING TO NOON<br />
-                                                        Transfer to Istanbul Airport for flight (on own) to Cappadocia</p>
-                                                </div>
-                                            </div>
-
-                                            <div className='popularInnerFilterdetails'>
-                                                <div className='popularInnerFilterdetailsflightlogos'>
-                                                    <img src='Images/Partners Logos/Air India.png' />
-                                                </div>
-                                                <div className='popularInnerFilternames'>
-                                                    01:45AM
-                                                    <br />
-                                                    <p style={{ color: "gray" }}>JAI</p>
-                                                </div>
-                                                <div className='popularInnerFilterdetailsflightTimming'>
-                                                    2Hrs  10Minutes
-                                                    <br/>
-                                                    <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
-                                                </div>
-                                                <div className='popularInnerFilterplaneIcon'><FaPlane/></div>
-                                                <div className='popularInnerFilterdetailsflightStops'>
-                                                    03:45AM
-                                                    <br />
-                                                    <p style={{ color: "gray" }}>Delhi</p>
-                                                </div> 
-                                            </div>
-
-                                            <div className='innerpopularoverviewHotelActivityDetails'>
-                                                <div className='innerpopularoverviewHotelDetails'>
-                                                    <h2>Hotel</h2>
-                                                        <div className='innerpopularHotelFilter1'>
-                                                            <h3>Ramada by Wyndham Cappadocia </h3>
-                                                            <p>Ortahisar Belediyesi <FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaStar/> </p>
-                                                            <p>Sun, 22 Jan 2023 - Wed, 25 Jan 2023</p>
-                                                            <h6>Standart Oda</h6>
-                                                            <p>Meal Plan : Breakfast</p>
-                                                            <h6>Room Inclusions:</h6>
-                                                            <ul>
-                                                                <li><p>Breakfast buffet</p></li>
-                                                                <li><p>Free self parking</p></li>
-                                                                <li><p>Free WiFi</p></li>
-                                                            </ul>
+                                                <div className='popularDestinationOverviewContainer2'>
+                                                    <div className='popularDestinationOverviewContainer2Heading'>
+                                                        Flight From Delhi to Turkey
+                                                    </div>
+                                                    <div className='popularDestinationOverviewContainer2FlightData'>
+                                                        <div className='popularInnerFilterdetails'>
+                                                            <div className='popularInnerFilterdetailsflightlogos'>
+                                                                <img src='Images/Partners Logos/Air India.png' />
+                                                            </div>
+                                                            <div className='popularInnerFilternames'>
+                                                                01:45AM
+                                                                <br />
+                                                                <p style={{ color: "gray" }}>JAI</p>
+                                                            </div>
+                                                            <div className='popularInnerFilterdetailsflightTimming'>
+                                                                2Hrs  10Minutes
+                                                                <br/>
+                                                                <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                                            </div>
+                                                            <div className='popularInnerFilterplaneIcon'><FaPlane/></div>
+                                                            <div className='popularInnerFilterdetailsflightStops'>
+                                                                03:45AM
+                                                                <br />
+                                                                <p style={{ color: "gray" }}>Delhi</p>
+                                                            </div> 
                                                         </div>
-                                                </div>
-                                                <div className='innerpopularoverviewActivityDetails'>
-                                                    <h2>Activities</h2>
-                                                    <div className='innerpopularoverviewActivitiesFilter1'>
-                                                        <h6>Turkish Night and Belly Dance Show</h6>
-                                                        <p>Cappadocia, Turkey</p>
-                                                        <p>Enjoy an unforgettable night out as you take your seat for the Turkish Night Show, an immersive and entertaining show which highlights the dance traditions of various regions of Turkey.</p>
                                                     </div>
                                                 </div>
-                                            </div>
+                                                <div className='popularDestinationOverviewContainer3'>
+                                                    <div className='popularDestinationOverviewContainer3Heading'>
+                                                        Check-in Hotel in OrthaHisar Belediyesi @2:00 PM
+                                                    </div>
+                                                    <div className='popularDestinationOverviewContainer3HotelDetails'>
+                                                        <div className='popularDestinationOverviewContainer3HotelImageDiv'>
+                                                            <img className='popularDestinationOverviewContainer3HotelImage' src='Images/SubpageofPopularDestination/image.webp'/>
+                                                        </div>
+                                                        <div className='innerpopularHotelFilter'>
+                                                        <h3>Ramada by Wyndham Cappadocia </h3>
+                                                        <p>Ortahisar Belediyesi <FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaStar/> </p>
+                                                        <p>Sun, 22 Jan 2023 - Wed, 25 Jan 2023</p>
+                                                        <h6>Standart Oda</h6>
+                                                        <p>Meal Plan : Breakfast</p>
+                                                        <h6>Room Inclusions:</h6>
+                                                        <ul>
+                                                            <li><p>Breakfast buffet</p></li>
+                                                            <li><p>Free self parking</p></li>
+                                                            <li><p>Free WiFi</p></li>
+                                                        </ul>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div className='popularDestinationOverviewContainer3'>
+                                                    <div className='popularDestinationOverviewContainer3Heading'>
+                                                        Activity in Istanbul @24Hours
+                                                    </div>
+                                                    <div className='popularDestinationOverviewContainer3HotelDetails'>
+                                                        <div className='popularDestinationOverviewContainer3HotelImageDiv'>
+                                                            <img className='popularDestinationOverviewContainer3HotelImage' src='Images/SubpageofPopularDestination/image.webp'/>
+                                                        </div>
+                                                        <div className='innerpopularHotelFilter'>
+                                                        <h3>Quad Safari in Cappadocia </h3>
+                                                        <p>Cappadocia, Turkey</p>
+                                                    <p>Every day quad biking tours are run in Cappadocia. From the hotel, you will be picked up and drive to the starting point of the trip. You can get a safety briefing and details on how to handle a quad when you arrive.</p>
+                                                    
+                                                    </div>
+                                                
+                                                    </div>
+                                                </div>
+                                                <div className='popularDestinationOverviewContainer1'>
+                                                    <div className='popularDestinationOverviewContainer1Heading'>
+                                                        Day 2 : 23 Jan 2023
+                                                    </div>
+                                                    <div className='popularDestinationOverviewContainer1ImagesDiv'>
+                                                        <div className='popularDestinationOverviewContainer1Image1'>
+                                                            <img className='PopularDestinationAboutbox'
+                                                                src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
+                                                                alt="overview Image"/>
+                                                        </div>
+                                                        <div className='popularDestinationOverviewContainer1Image2'>
+                                                            <img className='PopularDestinationAboutbox'
+                                                                src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
+                                                                alt="overview Image"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className='popularDestinationOverviewContainer1'>
+                                                    <div className='popularDestinationOverviewContainer1Heading'>
+                                                        Day 3 : 24 Jan 2023
+                                                    </div>
+                                                    <div className='popularDestinationOverviewContainer1ImagesDiv'>
+                                                        <div className='popularDestinationOverviewContainer1Image1'>
+                                                            <img className='PopularDestinationAboutbox'
+                                                                src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
+                                                                alt="overview Image"/>
+                                                        </div>
+                                                        <div className='popularDestinationOverviewContainer1Image2'>
+                                                            <img className='PopularDestinationAboutbox'
+                                                                src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
+                                                                alt="overview Image"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className='popularDestinationOverviewContainer2'>
+                                                    <div className='popularDestinationOverviewContainer2Heading'>
+                                                        Flight From Delhi to Turkey
+                                                    </div>
+                                                    <div className='popularDestinationOverviewContainer2FlightData'>
+                                                        <div className='popularInnerFilterdetails'>
+                                                            <div className='popularInnerFilterdetailsflightlogos'>
+                                                                <img src='Images/Partners Logos/Air India.png' />
+                                                            </div>
+                                                            <div className='popularInnerFilternames'>
+                                                                01:45AM
+                                                                <br />
+                                                                <p style={{ color: "gray" }}>JAI</p>
+                                                            </div>
+                                                            <div className='popularInnerFilterdetailsflightTimming'>
+                                                                2Hrs  10Minutes
+                                                                <br/>
+                                                                <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                                            </div>
+                                                            <div className='popularInnerFilterplaneIcon'><FaPlane/></div>
+                                                            <div className='popularInnerFilterdetailsflightStops'>
+                                                                03:45AM
+                                                                <br />
+                                                                <p style={{ color: "gray" }}>Delhi</p>
+                                                            </div> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className='popularDestinationOverviewContainer3'>
+                                                    <div className='popularDestinationOverviewContainer3Heading'>
+                                                        Check-in Hotel in OrthaHisar Belediyesi @2:00 PM
+                                                    </div>
+                                                    <div className='popularDestinationOverviewContainer3HotelDetails'>
+                                                        <div className='popularDestinationOverviewContainer3HotelImageDiv'>
+                                                            <img className='popularDestinationOverviewContainer3HotelImage' src='Images/SubpageofPopularDestination/image.webp'/>
+                                                        </div>
+                                                        <div className='innerpopularHotelFilter'>
+                                                        <h3>Ramada by Wyndham Cappadocia </h3>
+                                                        <p>Ortahisar Belediyesi <FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaStar/> </p>
+                                                        <p>Sun, 22 Jan 2023 - Wed, 25 Jan 2023</p>
+                                                        <h6>Standart Oda</h6>
+                                                        <p>Meal Plan : Breakfast</p>
+                                                        <h6>Room Inclusions:</h6>
+                                                        <ul>
+                                                            <li><p>Breakfast buffet</p></li>
+                                                            <li><p>Free self parking</p></li>
+                                                            <li><p>Free WiFi</p></li>
+                                                        </ul>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div className='popularDestinationOverviewContainer1'>
+                                                    <div className='popularDestinationOverviewContainer1Heading'>
+                                                        Day 4 : 25 Jan 2023
+                                                    </div>
+                                                    <div className='popularDestinationOverviewContainer1ImagesDiv'>
+                                                        <div className='popularDestinationOverviewContainer1Image1'>
+                                                            <img className='PopularDestinationAboutbox'
+                                                                src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
+                                                                alt="overview Image"/>
+                                                        </div>
+                                                        <div className='popularDestinationOverviewContainer1Image2'>
+                                                            <img className='PopularDestinationAboutbox'
+                                                                src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
+                                                                alt="overview Image"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className='popularDestinationOverviewContainer2'>
+                                                    <div className='popularDestinationOverviewContainer2Heading'>
+                                                        Flight From Delhi to Turkey
+                                                    </div>
+                                                    <div className='popularDestinationOverviewContainer2FlightData'>
+                                                        <div className='popularInnerFilterdetails'>
+                                                            <div className='popularInnerFilterdetailsflightlogos'>
+                                                                <img src='Images/Partners Logos/Air India.png' />
+                                                            </div>
+                                                            <div className='popularInnerFilternames'>
+                                                                01:45AM
+                                                                <br />
+                                                                <p style={{ color: "gray" }}>JAI</p>
+                                                            </div>
+                                                            <div className='popularInnerFilterdetailsflightTimming'>
+                                                                2Hrs  10Minutes
+                                                                <br/>
+                                                                <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                                            </div>
+                                                            <div className='popularInnerFilterplaneIcon'><FaPlane/></div>
+                                                            <div className='popularInnerFilterdetailsflightStops'>
+                                                                03:45AM
+                                                                <br />
+                                                                <p style={{ color: "gray" }}>Delhi</p>
+                                                            </div> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className='popularDestinationOverviewContainer3'>
+                                                    <div className='popularDestinationOverviewContainer3Heading'>
+                                                        Check-in Hotel in OrthaHisar Belediyesi @2:00 PM
+                                                    </div>
+                                                    <div className='popularDestinationOverviewContainer3HotelDetails'>
+                                                        <div className='popularDestinationOverviewContainer3HotelImageDiv'>
+                                                            <img className='popularDestinationOverviewContainer3HotelImage' src='Images/SubpageofPopularDestination/image.webp'/>
+                                                        </div>
+                                                        <div className='innerpopularHotelFilter'>
+                                                        <h3>Ramada by Wyndham Cappadocia </h3>
+                                                        <p>Ortahisar Belediyesi <FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaStar/> </p>
+                                                        <p>Sun, 22 Jan 2023 - Wed, 25 Jan 2023</p>
+                                                        <h6>Standart Oda</h6>
+                                                        <p>Meal Plan : Breakfast</p>
+                                                        <h6>Room Inclusions:</h6>
+                                                        <ul>
+                                                            <li><p>Breakfast buffet</p></li>
+                                                            <li><p>Free self parking</p></li>
+                                                            <li><p>Free WiFi</p></li>
+                                                        </ul>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div className='popularDestinationOverviewContainer3'>
+                                                    <div className='popularDestinationOverviewContainer3Heading'>
+                                                        Activity in Istanbul @24Hours
+                                                    </div>
+                                                    <div className='popularDestinationOverviewContainer3HotelDetails'>
+                                                        <div className='popularDestinationOverviewContainer3HotelImageDiv'>
+                                                            <img className='popularDestinationOverviewContainer3HotelImage' src='Images/SubpageofPopularDestination/image.webp'/>
+                                                        </div>
+                                                        <div className='innerpopularHotelFilter'>
+                                                        <h3>Quad Safari in Cappadocia </h3>
+                                                        <p>Cappadocia, Turkey</p>
+                                                    <p>Every day quad biking tours are run in Cappadocia. From the hotel, you will be picked up and drive to the starting point of the trip. You can get a safety briefing and details on how to handle a quad when you arrive.</p>
+                                                    
+                                                    </div>
+                                                
+                                                    </div>
+                                                </div>
+                                                
+                                                {/* <div className='PopularDestinationAboutimage'>
+                                                    <img className='PopularDestinationAboutbox'
 
+                                                        src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
+                                                        alt=""
+                                                    />
+                                                    <h5 className='aboutheading'>Day1</h5>
+                                                    <div className='PopularDestinationAboutcard'>
+                                                        <p> MORNING<br />
+                                                            Arrive in Istanbul. Transfer to Hotel.</p>
+                                                    </div>
+
+                                                </div>
+
+                                                <div className='popularInnerFilterdetails'>
+                                                    <div className='popularInnerFilterdetailsflightlogos'>
+                                                        <img src='Images/Partners Logos/Air India.png' />
+                                                    </div>
+                                                    <div className='popularInnerFilternames'>
+                                                        01:45AM
+                                                        <br />
+                                                        <p style={{ color: "gray" }}>JAI</p>
+                                                    </div>
+                                                    <div className='popularInnerFilterdetailsflightTimming'>
+                                                        2Hrs  10Minutes
+                                                        <br/>
+                                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                                    </div>
+                                                    <div className='popularInnerFilterplaneIcon'><FaPlane/></div>
+                                                    <div className='popularInnerFilterdetailsflightStops'>
+                                                        03:45AM
+                                                        <br />
+                                                        <p style={{ color: "gray" }}>Delhi</p>
+                                                    </div> 
+                                                </div>
+
+                                                <div className='innerpopularoverviewHotelActivityDetails'>
+                                                    <div className='innerpopularoverviewHotelDetails'>
+                                                        <h2>Hotel</h2>
+                                                            <div className='innerpopularHotelFilter1'>
+                                                                <h3>Ramada by Wyndham Cappadocia </h3>
+                                                                <p>Ortahisar Belediyesi <FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaStar/> </p>
+                                                                <p>Sun, 22 Jan 2023 - Wed, 25 Jan 2023</p>
+                                                                <h6>Standart Oda</h6>
+                                                                <p>Meal Plan : Breakfast</p>
+                                                                <h6>Room Inclusions:</h6>
+                                                                <ul>
+                                                                    <li><p>Breakfast buffet</p></li>
+                                                                    <li><p>Free self parking</p></li>
+                                                                    <li><p>Free WiFi</p></li>
+                                                                </ul>
+                                                            </div>
+                                                    </div>
+                                                    <div className='innerpopularoverviewActivityDetails'>
+                                                        <h2>Activities</h2>
+                                                        <div className='innerpopularoverviewActivitiesFilter1'>
+                                                            <h6>Turkish Night and Belly Dance Show</h6>
+                                                            <p>Cappadocia, Turkey</p>
+                                                            <p>Enjoy an unforgettable night out as you take your seat for the Turkish Night Show, an immersive and entertaining show which highlights the dance traditions of various regions of Turkey.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div className='PopularDestinationAboutimage'>
+                                                    <img className='PopularDestinationAboutbox'
+
+                                                        src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
+                                                        alt=""
+                                                    />
+                                                    <h5 className='aboutheading'>Day2</h5>
+                                                    <div className='PopularDestinationAboutcard'>
+                                                        <p> FULL DAY<br />
+                                                            Full Day Istanbul City Tour with Local Lunch</p>
+                                                    </div>
+                                                </div>
+
+                                                <div className='innerpopularoverviewActivitiesFilter1'>
+                                                    <h2 className='innerpopularActivityHeading'>Activities</h2>
+                                                    <h6>Turkish Night and Belly Dance Show</h6>
+                                                    <p>Cappadocia, Turkey</p>
+                                                    <p>Enjoy an unforgettable night out as you take your seat for the Turkish Night Show, an immersive and entertaining show which highlights the dance traditions of various regions of Turkey.</p>
+                                                </div>
+
+                                                <div className='PopularDestinationAboutimage'>
+                                                    <img className='PopularDestinationAboutbox'
+
+                                                        src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
+                                                        alt=""
+                                                    />
+                                                    <h5 className='aboutheading'>Day3</h5>
+                                                    <div className='PopularDestinationAboutcard'>
+                                                        <p>MORNING TO NOON<br />
+                                                            Half Day Istanbul Tour with Entrance to Bosphorus Cruise with Spice Market</p>
+                                                    </div>
+                                                </div>
+
+                                                <div className='PopularDestinationAboutimage'>
+                                                    <img className='PopularDestinationAboutbox'
+
+                                                        src="Images/PopularDestinationImages/Populardestinationinnerimage banner.jpg"
+                                                        alt=""
+                                                    />
+                                                    <h5 className='aboutheading'>Day4</h5>
+                                                    <div className='PopularDestinationAboutcard'>
+                                                        <p> MORNING TO NOON<br />
+                                                            Transfer to Istanbul Airport for flight (on own) to Cappadocia</p>
+                                                    </div>
+                                                </div>
+
+                                                <div className='popularInnerFilterdetails'>
+                                                    <div className='popularInnerFilterdetailsflightlogos'>
+                                                        <img src='Images/Partners Logos/Air India.png' />
+                                                    </div>
+                                                    <div className='popularInnerFilternames'>
+                                                        01:45AM
+                                                        <br />
+                                                        <p style={{ color: "gray" }}>JAI</p>
+                                                    </div>
+                                                    <div className='popularInnerFilterdetailsflightTimming'>
+                                                        2Hrs  10Minutes
+                                                        <br/>
+                                                        <p style={{ color: "gray",borderTop:"2px solid lightGray" }}>Direct</p>
+                                                    </div>
+                                                    <div className='popularInnerFilterplaneIcon'><FaPlane/></div>
+                                                    <div className='popularInnerFilterdetailsflightStops'>
+                                                        03:45AM
+                                                        <br />
+                                                        <p style={{ color: "gray" }}>Delhi</p>
+                                                    </div> 
+                                                </div>
+
+                                                <div className='innerpopularoverviewHotelActivityDetails'>
+                                                    <div className='innerpopularoverviewHotelDetails'>
+                                                        <h2>Hotel</h2>
+                                                            <div className='innerpopularHotelFilter1'>
+                                                                <h3>Ramada by Wyndham Cappadocia </h3>
+                                                                <p>Ortahisar Belediyesi <FaStar/> <FaStar/> <FaStar/> <FaStar/> <FaStar/> </p>
+                                                                <p>Sun, 22 Jan 2023 - Wed, 25 Jan 2023</p>
+                                                                <h6>Standart Oda</h6>
+                                                                <p>Meal Plan : Breakfast</p>
+                                                                <h6>Room Inclusions:</h6>
+                                                                <ul>
+                                                                    <li><p>Breakfast buffet</p></li>
+                                                                    <li><p>Free self parking</p></li>
+                                                                    <li><p>Free WiFi</p></li>
+                                                                </ul>
+                                                            </div>
+                                                    </div>
+                                                    <div className='innerpopularoverviewActivityDetails'>
+                                                        <h2>Activities</h2>
+                                                        <div className='innerpopularoverviewActivitiesFilter1'>
+                                                            <h6>Turkish Night and Belly Dance Show</h6>
+                                                            <p>Cappadocia, Turkey</p>
+                                                            <p>Enjoy an unforgettable night out as you take your seat for the Turkish Night Show, an immersive and entertaining show which highlights the dance traditions of various regions of Turkey.</p>
+                                                        </div>
+                                                    </div>
+                                                </div> */}
+
+                                            </div>
                                         </div>
                                     </div>
 
@@ -321,7 +593,29 @@ export const PopularDestinationButton = () => {
                                             </div>
 
                                             <div>
-                                            <div className='Accomodationouterdiv'>
+
+                                            <div className='innerPopularDestinationCovidGuideLines'>
+                                                <div className='innerPopularDestinationCovidGuideLinesHeading'>
+                                                    Covid 19 Safety Guidelines
+                                                </div>
+                                                <ul>
+                                                    <li className='innerPopularDestinationCovidGuideLinesList'>PCR Test within the last 72 hours before departure is required. Upon arrival, a PCR test at the border is required.</li>
+                                                    <li className='innerPopularDestinationCovidGuideLinesList'>Ensure that the Negative PCR test for the COVID-19 health document is in English.</li>
+                                                    <li className='innerPopularDestinationCovidGuideLinesList'>Maintain at least three feet distance from the next traveller.</li>
+                                                    <li className='innerPopularDestinationCovidGuideLinesList'>Wash your hands frequently for about 20 seconds. We recommend frequent washing every 30 minutes.</li>
+                                                    <li className='innerPopularDestinationCovidGuideLinesList'>Most airlines prefer web check-in for your safety.</li>
+                                                    <li className='innerPopularDestinationCovidGuideLinesList'>Always wear a mask and carry sanitisers, gloves, and soap gel for frequent hand washing.</li>
+                                                    <li className='innerPopularDestinationCovidGuideLinesList'>Avoid crowding, especially in the aircraft.</li>
+                                                    <li className='innerPopularDestinationCovidGuideLinesList'>Follow all health advisory and travel guidelines of the country of travel.</li>
+                                                    <li className='innerPopularDestinationCovidGuideLinesList'>Be sure to have taken all vaccinations that are essential to protect your immune system.</li>
+                                                    <li className='innerPopularDestinationCovidGuideLinesList'>Always cough into your elbow and wear a mask.</li>
+                                                    <li className='innerPopularDestinationCovidGuideLinesList'>Arrive early at the airport to follow security protocol.</li>
+                                                    <li className='innerPopularDestinationCovidGuideLinesList'>Carry travel insurance for your emergency needs.</li>
+                                                    <li className='innerPopularDestinationCovidGuideLinesList'>Immediately report any symptoms of fever, cough, and breathlessness (if you have any) to the nearest medical authority.</li>
+                                                </ul>
+
+                                            </div>
+                                            {/* <div className='Accomodationouterdiv'>
                                                 <div className='stardiv'>
                                                     <h5 className='starheading'>Standard :</h5>
                                                     <div className='star'><AiFillStar />
@@ -373,7 +667,7 @@ export const PopularDestinationButton = () => {
                                                
 
                                                 </div>
-                                            </div>
+                                            </div> */}
                                             </div>
                                         </div>
 
@@ -673,18 +967,18 @@ export const PopularDestinationButton = () => {
                                         <div className='innerpopulardestinationFilterButtons'>
                                             <ul class="nav nav-pills mb-3  innerpopularfilterButtonBorder" id="pills-tab" role="tablist" style={{backgroundColor:"#3380F2"}}>
                                                 <li class="nav-item innerpopularButtonClick" role="presentation">
-                                                    <button className={showtab === 5 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(5)} >4 Day Plans</button>
+                                                    <button className={showtab === 1 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(5)} >4 Day Plans</button>
                                                 </li>
                                                 <li class="nav-item innerpopularButtonClick" role="presentation">
-                                                    <button className={showtab === 6 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(6)}>2 Flights</button>
-                                                </li>
-
-                                                <li class="nav-item innerpopularButtonClick" role="presentation">
-                                                    <button className={showtab === 7 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(7)}>4 Hotels</button>
+                                                    <button className={showtab === 1 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(6)}>2 Flights</button>
                                                 </li>
 
                                                 <li class="nav-item innerpopularButtonClick" role="presentation">
-                                                    <button className={showtab === 8 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(8)}>2 Activities</button>
+                                                    <button className={showtab === 1 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(7)}>4 Hotels</button>
+                                                </li>
+
+                                                <li class="nav-item innerpopularButtonClick" role="presentation">
+                                                    <button className={showtab === 1 ? "innerpopularFilterButton1 innerpopularFilteractive1" : "innerpopularFilterButton1"} onClick={() => handletab(8)}>2 Activities</button>
                                                 </li>
 
                                             </ul>
