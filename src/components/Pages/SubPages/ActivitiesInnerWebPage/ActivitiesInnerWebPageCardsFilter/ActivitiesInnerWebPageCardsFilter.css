@@ -166,13 +166,20 @@
 
 .activitiesInnerWebPageCardsContainer{
     border: 2px solid lightgray;
-    width: 95%;
+    width: 90%;
     height: 250px;
     border-radius: 10px;
-    margin: auto;
+    margin-left: 3%;
     margin-top: 2%;
     display: flex;
     flex-direction: row;
+}
+.activitiesInnerWebPageCardsImage1{
+    /* border: 2px solid gold; */
+    width: 100%;
+    height: 220px;
+    margin-top: 5%;
+    margin-left: 3%;
 }
 .activitiesInnerWebPageCardsImage{
     /* border: 2px solid red; */
@@ -183,10 +190,10 @@
 }
 .activitiesInnerWebPageCardsHeadings{
     /* border: 2px solid red; */
-    width: 50%;
+    width: 48%;
     height: 220px;
     margin-top: 2%;
-    margin-left: 1%;
+    margin-left: 2%;
     display: flex;
     flex-direction: column;
 }
@@ -234,6 +241,10 @@
     border-radius: 5px;
     margin-left: 20%;
 }
+.activitiesInnerWebPageViewMoreButtons:hover{
+    background-color: #3380F2;
+    color: white;
+}
 .activitiesInnerWebPageBookNowButtons{
     border: none;
     /* border: 2px solid lightgray; */
@@ -244,6 +255,11 @@
     border-radius: 5px;
     margin-left: 20%;
     margin-top: 5%;
+}
+.activitiesInnerWebPageBookNowButtons:hover{
+    background-color: white;
+    color: #3380F2;
+    border: 2px solid #3380F2;
 }
 .activitiesInnerWebPageTimeRatings{
     /* border: 2px solid gold; */
@@ -273,4 +289,9 @@
     font-size: 18px;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+.innerActivitiesShowButton:hover{
+    background-color: white;
+    color: #3380F2;
+    border: 2px solid #3380F2;
 }

@@ -88,7 +88,7 @@ export const ActivitiesInnerWebPageCardsFilter = () => {
                    
                     <div className="activitiesInnerWebPageCardsContainer">
                         <Link to="/activitiesDetails">
-                        <div className="activitiesInnerWebPageCardsImage">
+                        <div className="activitiesInnerWebPageCardsImage1">
                             <img src="https://images-acme.mmtcdn.com/prod-acme-image/system/product_media/c/38584/media8MRGC27WR9CUV.jpg?imwidth=274"/>
                         </div>
                         </Link>

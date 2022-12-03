@@ -1,4 +1,5 @@
 import React from 'react';
+import {NewHomeNav} from "../NewHomePage/NewHomeNavbar/NewHomeNavbar";
 import { NewOffersPageBanner } from './NewOffersBanner/NewOffersPageBanner';
 
 import { InnerWebPageFooter } from "../SubPages/InnerWebPageFooter/InnerWebPageFooter";
@@ -16,7 +17,8 @@ export const NewOffers = () => {
         <meta name='description' content='Want to spend your holiday time in good and budget friendly stay.
                 Take a looks at TravelFlap for your stay co-ordinatior' />
       </Helmet>
-
+      
+      <NewHomeNav/>
       <NewOffersPageBanner />
 
       <NewOfferPageOfferDetails/>
