@@ -559,7 +559,7 @@ cancellation policy css */
 
 .paymentValueBody {
   /* border: 2px solid orangered; */
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
   width: 370px;
   margin-top: 6%;
 }
@@ -590,9 +590,68 @@ cancellation policy css */
   margin-left: 4%;
 }
 
+.popularDestinationChildInnerPageBookingContact{
+  border: 1px solid lightgray;
+  width: 94%;
+  height: 250px;
+  border-radius: 8px;
+  margin-left: 1%;
+  margin-top: 5%;
+}
+.popularDestinationinnerchildApplyButton{
+  color: #393939;
+  border: 1px solid lightgray;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 8%;
+  width: 80%;
+  height: 45px;
+  margin-left: 12%;
+  background-color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  text-align: left;
+  padding-left: 10px;
+}
+.popularDestinationChildInnerOffersDiv{
+  background-color: #ECF3F9;
+  width: 94%;
+  height: 200px;
+  /* border: 2px solid red; */
+  border-radius: 8px;
+  margin-left: 1%;
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+}
+.popularDestinationChildInnerOffersHeading{
+  /* border: 2px solid red; */
+  width: 95%;
+  height: 70px;
+  margin-left: 4%;
+  margin-top: 4%;
+  display: flex;
+  flex-direction: row;
+}
+.popularDestinationChildInnerOffersHeading p{
+   color: #393939;
+   font-size: 15px;
+}
 
-
-
+.popularDestinationChildInnerOffersDivLoginButton{
+  background-color: white;
+  border: none;
+  color: #3380F2;
+  width: 50%;
+  height: 35px;
+  border-radius: 15px;
+  margin-left: 5%;
+}
+.popularDestinationChildInnerOfferslist{
+  list-style-type: disc;
+  margin-top: 2%;
+  font-size: 15px;
+}
 /* //------------------------------------------------ OVERVIEW FILTER BUTTON CSS ---------------------------------// */
 
 .popularInnerFilterdetails{

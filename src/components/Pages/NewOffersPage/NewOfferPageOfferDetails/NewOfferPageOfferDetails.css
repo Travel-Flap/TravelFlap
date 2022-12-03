@@ -1,0 +1,245 @@
+.NewOfferPageOfferDetailsContainerDiv{
+    background-color: #ECF3F9;
+    width: 100%;
+    height: 950px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.NewOfferPageOfferDetailsMainDiv{
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.NewOfferPageOfferDetailsFilterDiv{
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.NewOfferPageOfferDetailsFilter{
+    border: 1px solid lightgray;
+    background-color: white;
+    width: 85%;
+    height: 600px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+}
+.NewOfferPageOfferDetailsFilter1{
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 90%;
+    height: 80px;
+}
+.NewOfferPageOfferDetailsFilter2{
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 90%;
+    height: 100px;
+}
+.newOfferPagedetailforminputs{
+    color: #393939;
+    font-size: 15px;
+    margin-top:3%;
+    width: 95%;
+    height: 45px;
+    /* margin-left: 8%; */
+    border: none;
+    background-color:#ECF3F9;
+    /* border-bottom: 2px solid #393939; */
+    outline: none;
+}
+.newOfferPagedetailforminputs::placeholder{
+    color: #393939;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+.NewOfferPageOfferDetailsFilter1 h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #393939;
+}
+.NewOfferPageOfferDetailsFilter2 h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #393939;
+}
+.NewOfferPageOfferDetailsFilter3{
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 90%;
+    height: 140px;
+}
+.NewOfferPageOfferDetailsFilter3 input{
+    /* border: 2px solid red; */
+    margin-top: 1.5%;
+}
+.NewOfferPageOfferDetailsFilter3 label{
+    /* border: 2px solid gold; */
+    margin-top: 2.5%;
+    font-size: 17px;
+    height:25px;
+}
+.NewOfferPageImage{
+    width: 85%;
+    height: 150px;
+    margin-left: 7%;
+    border-radius: 8px;
+    object-fit: cover;
+    background-size: cover;
+    border: 1px solid lightgray;
+}
+.NewOfferPageImage img{
+    width: 100%;
+    height: 100%;
+}
+.newOfferPageAddMoreButton{
+    width: 88%;
+    margin-left: 6%;
+    height: 45px;
+    padding-left: 32%;
+    padding-top: 2%;
+    margin-top: 10%;
+}
+.newOfferPagetimelyOffers{
+    font-size: 20px;
+    font-weight: 700;
+    /* border: 2px solid red; */
+    margin-bottom: 1%;
+}
+.newOfferFilter1SearchBar{
+    background-color: #ECF3F9;
+    height: 45px;
+    width: 95%;
+    margin: auto;
+    border: none;
+}
+.NewOfferPageOfferDetailsDataDiv{
+    /* border: 2px solid gold; */
+    width: 70%;
+    height: 600px;
+}
+.NewOfferPageOfferNumber{
+    font-size: 15px;
+    color: #393939;
+    margin-left: 2%;
+    font-weight: 700;
+    margin-top: 2%;
+}
+.NewOfferPageOfferDetailsDataContainer{
+    /* border: 2px solid red; */
+    width: 95%;
+    margin-left: 2%;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+}
+.NewOfferPageOfferDetails1{
+    /* border:2px solid red; */
+    /* margin-top: 3%; */
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.NewOfferPageOfferDetails{
+    /* border:2px solid red; */
+    margin-top: 3%;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.NewOfferPageOfferDetailsImage{
+    width: 25%;
+    height:80px;
+    margin-top: 2%;
+    /* border: 2px solid firebrick; */
+    border-right: 1px solid grey;
+}
+.NewOffersPlanVacationBankImage{
+    /* border: 2px solid red; */
+    height: 45px;
+    width: 80%;
+    margin-left: 12%;
+    margin-top: 6%;
+}
+.NewOfferPageOfferDetailsPrice{
+    /* border: 2px solid red; */
+    width: 16%;
+    height: 80px;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.NewOfferPageOfferDetailsPrice h4{
+    font-weight: 700;
+}
+.NewOfferPageOfferDetailsButtons{
+    /* border: 2px solid red; */
+    width: 21%;
+    height: 80px;
+    margin-top: 2%;
+    border-left: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+.NewOfferPageOfferDetailsApplyButton{
+    width: 70%;
+    height: 45px;
+    margin: auto;
+    margin-top: 2%;
+    background-color: #3380F2;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+/* .NewOfferPageOfferDetailsApplyButton:hover{
+    background-color: white;
+    border: 2px solid #3380F2;
+    color: #3380F2;
+} */
+.NewOfferPageOfferDetailsViewMoreButton{
+    width: 70%;
+    height: 45px;
+    margin: auto;
+    margin-top: 2%;
+    background-color: white;
+    color: #393939;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+/* .NewOfferPageOfferDetailsViewMoreButton:hover{
+    background-color: #3380F2;
+    color: white;
+    border: none;
+} */
+.NewOfferPageOfferDetailsShowMoreButton{
+   /* border: 2px solid red; */
+   width: 50%;
+   height: 55px;
+   border-radius: 15px;
+   margin-top: 2%;
+   margin-left: 27%;
+   background-color: #3380F2;
+   color: white;
+   font-size: 18px;
+   font-weight: 700;
+   text-align: center;
+   /* padding-left: 20%;?*/
+   padding-top: 1.5%;
+}
