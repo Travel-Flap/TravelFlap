@@ -194,16 +194,19 @@
   background-color: #8DBBFF;
 } */
 
-/* .experiment_SearchButton {
-  border: 1px solid blue;
-  width: 10%;
+.experiment_SearchButton {
+  /* border: 1px solid blue; */
+  width: 30%;
 }
 
 .experiment_SearchButton button {
-  margin-top: 10%;
-  width: 90%;
+  padding-top: 3.5%;
+  padding-left: 14.5%;
+  margin-top: 4%;
+  margin-left: 30%;
+  width: 50%;
   height: 45px;
-} */
+}
 
 
 /* This is prior css code for the homepage */

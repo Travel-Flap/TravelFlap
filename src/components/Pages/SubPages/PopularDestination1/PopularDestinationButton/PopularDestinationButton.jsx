@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import './PopularDestinationButton.css';
 import { AiFillStar } from "react-icons/ai";
 import {FaPlane ,FaStar} from "react-icons/fa";
+import { FaWhatsapp,FaPhoneAlt,FaRegClock } from "react-icons/fa";
 
 
 export const PopularDestinationButton = () => {
@@ -280,6 +281,27 @@ export const PopularDestinationButton = () => {
                                             </div>
 
                                         </div>
+
+
+                                        <div className="popularDestinationChildInnerPageBookingContact">
+                                                <button className='popularDestinationinnerchildApplyButton'> <FaWhatsapp size="1.2em" style={{marginRight:"3%"}}/> Visa On WhatsApp</button>
+                                                <button className='popularDestinationinnerchildApplyButton'> <FaPhoneAlt size="1.2em" style={{marginRight:"3%"}}/> Call Us On</button>
+                                                <button className='popularDestinationinnerchildApplyButton'> <FaRegClock size="1.2em" style={{marginRight:"3%"}}/> 9:00AM to 9:00PM</button>
+                                        </div>
+
+                                        <div className="popularDestinationChildInnerOffersDiv">
+                                            <div className="popularDestinationChildInnerOffersHeading">
+                                                <p>Great Deals  for You</p>
+                                                <button className="popularDestinationChildInnerOffersDivLoginButton">Login Now</button>
+                                            </div>
+                                            <ul>
+                                                <li className="popularDestinationChildInnerOfferslist">Redem Wallet</li>
+                                                <li className="popularDestinationChildInnerOfferslist">Get Special Deals</li>
+                                                <li className="popularDestinationChildInnerOfferslist">Book Faster</li>
+                                                
+                                            </ul>
+                                        </div>
+                                        
                                     </div>
 
                                   </div>
@@ -481,6 +503,7 @@ export const PopularDestinationButton = () => {
                                                 </div>
 
                                             </div>
+
                                         </div>
 
                                     </div>

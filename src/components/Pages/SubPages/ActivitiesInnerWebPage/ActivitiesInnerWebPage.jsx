@@ -1,3 +1,4 @@
+import {InnerWebPageNavbar} from "../InnerWebPageNavbar/InnerWebPageNavbar";
 import { ActivitiesInnerWebPageBanner } from "./ActivitiesInnerWebPageBanner/ActivitiesInnerWebPageBanner";
 import { ActivitiesInnerWebPageCardsFilter } from "./ActivitiesInnerWebPageCardsFilter/ActivitiesInnerWebPageCardsFilter";
 import { ActivitiesInnerWebPageCountryFilter } from "./ActivitiesInnerWebPageCountryFilter/ActivitiesInnerWebPageCountryFilter";
@@ -9,6 +10,7 @@ export const ActivitiesInnerWebPage = () => {
     return (
 
             <>
+              <InnerWebPageNavbar/>
               <ActivitiesInnerWebPageBanner/>
               <ActivitiesInnerWebPageCountryFilter/>
               <ActivityInnerWebPageFilterButtons/>

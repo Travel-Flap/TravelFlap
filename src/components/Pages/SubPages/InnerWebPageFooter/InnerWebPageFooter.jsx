@@ -760,11 +760,9 @@ export const InnerWebPageFooter = () => {
                                             <li className='newFooterContentHeadingDiv' >India</li>
                                             <li className='newFooterContentHeadingDiv' >UAE</li>
 
-                                            {/* <li className='newFooterContentHeadingDiv' >GEM</li> */}
-
                                             <li className='newFooterContentHeadingDiv' >India</li>
 
-                                            <li className='newFooterContentHeadingDiv' >SA</li>
+                                            <li className='newFooterContentHeadingDiv' >India</li>
                                         </div>
                                     </ul>
                                 </div>
@@ -778,10 +776,10 @@ export const InnerWebPageFooter = () => {
                                             {/* <li className='newFooterContentHeadingDiv' >123-456-789</li> */}
                                             <li className='newFooterContentHeadingDiv' > +19176726964 </li>
 
-                                            <li className='newFooterContentHeadingDiv' >+91 8209-3662-27</li>
-                                            <li className='newFooterContentHeadingDiv' >191-767-269-64</li>
-                                            <li className='newFooterContentHeadingDiv' >+91 7877680588</li>
-                                            <li className='newFooterContentHeadingDiv' >971-585-978-776</li>
+                                            <li className='newFooterContentHeadingDiv' >+91 78776 80588</li>
+                                            {/* <li className='newFooterContentHeadingDiv' >191-767-269-64</li> */}
+                                            {/* <li className='newFooterContentHeadingDiv' >+91 7877680588</li> */}
+                                            {/* <li className='newFooterContentHeadingDiv' >971-585-978-776</li> */}
 
                                         </div>
                                     </ul>
