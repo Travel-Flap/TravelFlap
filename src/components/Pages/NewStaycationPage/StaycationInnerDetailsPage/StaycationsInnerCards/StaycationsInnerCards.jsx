@@ -139,7 +139,7 @@ export const StaycationsInnerCards = () => {
                                             </small>
 
                                             <Link to="/staycationBookingPage">
-                                                <Button className='staycationsBookingButton' variant="success"> Book Now </Button>
+                                                <Button className='btn btn-primary staycationsBookingButton' variant="primary"> Book Now </Button>
                                             </Link>
                                         </p>
                                     </div>
@@ -176,7 +176,7 @@ export const StaycationsInnerCards = () => {
                                             </small>
 
                                             <Link to="/staycationBookingPage">
-                                                <Button className='staycationsBookingButton' variant="success"> Book Now </Button>
+                                                <Button className='btn btn-primary staycationsBookingButton' variant="primary"> Book Now </Button>
                                             </Link>
                                         </p>
                                     </div>
@@ -213,7 +213,7 @@ export const StaycationsInnerCards = () => {
                                             </small>
 
                                             <Link to="/staycationBookingPage">
-                                                <Button className='staycationsBookingButton' variant="success"> Book Now </Button>
+                                                <Button className='btn btn-primary staycationsBookingButton' variant="primary"> Book Now </Button>
                                             </Link>
                                         </p>
                                     </div>
@@ -250,7 +250,7 @@ export const StaycationsInnerCards = () => {
                                             </small>
 
                                             <Link to="/staycationBookingPage">
-                                                <Button className='staycationsBookingButton' variant="success"> Book Now </Button>
+                                                <Button className='btn btn-primary staycationsBookingButton' variant="primary"> Book Now </Button>
                                             </Link>
                                         </p>
                                     </div>

@@ -26,7 +26,28 @@ export const StaycationBookingPageBanner = () => {
             <div className='StaycationsBookingPageBannerOuterDiv'>
                 <div className='StaycationsBookingImageContentWrapper'>
                     <div className='StaycationsBookingBannerImageDiv'>
-                        <img src='/Images/NewHomeLayout/HotelInnerPage/Banner/image1.webp' alt='Staycations Image' />
+                        {/* <img src='/Images/NewHomeLayout/HotelInnerPage/Banner/image1.webp' alt='Staycations Image' /> */}
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="/Images/NewHomeLayout/HotelInnerPage/Banner/image1.webp" class="d-block w-100" alt="carousel image" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/Images/NewHomeLayout/HotelInnerPage/Banner/image3.webp" class="d-block w-100" alt="carousel image" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/Images/NewHomeLayout/HotelInnerPage/Banner/image2.webp" class="d-block w-100" alt="carousel image" />
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
 
                     <div className='hoteBookingContextDiv'>
@@ -75,8 +96,8 @@ export const StaycationBookingPageBanner = () => {
                                 </div>
 
                                 <div className='StaycationsBookingStaycationsInfoDiv'>
-                                    <p><HiOutlineLocationMarker style={{ fontSize: 25, color:"#3380f2"}} /> 4775,Main Bazar,Near 6 Tooti Chowk NewDelhi.</p>
-                                    <p><BiPhone style={{ fontSize: 25, marginLeft: 3, color:"#3380f2" }} /> +91 112 358 7999, +91 142 678 4239</p>
+                                    <p><HiOutlineLocationMarker style={{ fontSize: 25, color: "#3380f2" }} /> 4775,Main Bazar,Near 6 Tooti Chowk NewDelhi.</p>
+                                    <p><BiPhone style={{ fontSize: 25, marginLeft: 3, color: "#3380f2" }} /> +91 112 358 7999, +91 142 678 4239</p>
                                 </div>
                             </div>
                         </div>

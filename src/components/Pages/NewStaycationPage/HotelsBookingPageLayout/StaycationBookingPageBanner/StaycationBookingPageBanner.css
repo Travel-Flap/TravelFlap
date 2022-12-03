@@ -25,6 +25,17 @@
   border-radius: 5px;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  /* outline: black; */
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+}
+
 .hoteBookingContextDiv {
   /* border: 2px solid red; */
   width: 50%;
@@ -181,9 +192,9 @@
   color: white !important;
 }
 
-.StaycationsBookingStaycationsContentDiv{
-    /* border: 1px solid red; */
-    margin-left: 1%;
+.StaycationsBookingStaycationsContentDiv {
+  /* border: 1px solid red; */
+  margin-left: 1%;
 }
 
 .StaycationsBookinStaycationsName {
@@ -300,7 +311,7 @@
   padding-left: 28px;
 }
 
-.StaycationsBookingButton button:hover{
+.StaycationsBookingButton button:hover {
   background-color: white;
   border: 1px solid #3380f2;
   color: #3380f2;
@@ -370,7 +381,7 @@
 
 } */
 
-.StaycationsBookingOtherStaycationsChildDiv3  {
+.StaycationsBookingOtherStaycationsChildDiv3 {
   /* border: 1px solid red; */
   margin-left: 30%;
   /* margin-top: 10%; */
@@ -386,8 +397,7 @@
   /* padding-left: 1px !important; */
 }
 
-
-.StaycationsBookingChildButton:hover{
+.StaycationsBookingChildButton:hover {
   background-color: white;
   border: 1px solid #3380f2;
   color: #3380f2;
