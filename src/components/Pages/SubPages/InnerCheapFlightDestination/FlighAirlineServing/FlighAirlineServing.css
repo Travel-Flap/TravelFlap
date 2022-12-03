@@ -74,10 +74,14 @@
 .indigodivpoint{
     /* border: 1px solid rebeccapurple; */
     width: 50%;
-    margin-left: 2%;
+    margin-left: 7%;
     margin-top: 3%;
 }
-
+.review-point{
+            /* border: 2px solid yellow; */
+            font-size: 17px;
+            font-weight: 600;
+}
 .indigodivpoint1{
     width: 50%;
     text-align: right;

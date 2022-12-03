@@ -9,10 +9,11 @@ export const FlightPageGoodtoKnow = () => {
           <p> Good to Know</p>
           </div>
             <div className='flighttopdiv1'>
-              <div className='seasondiv1' >
+             
+               <div className='seasondiv1' >
                 <p className='intrectcolor'>Low Season</p>
-                <p className='intrectwithheading'>January</p>
-                <p className='intrectwithparagraf'>Best time to beat the crowd (22% less expensive on avreage) </p>
+                <h3 className='intrectwithheading'>January</h3>
+                <p>Best time to beat the crowd (22% less expensive on avreage)</p>
               </div>
               <div className='seasondiv1' >
                 <p className='intrectcolor'>Cheapest flight</p>

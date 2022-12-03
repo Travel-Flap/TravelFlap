@@ -6,7 +6,7 @@ export const FlightInnerPageBanner = () => {
 
         <>
             <div className= 'card BannerDiv'>
-               <img  className='Bannerimage'  src="Images/flightinnerbanner.jpg" alt='banner image'/>
+               <img  className='Bannerimage'  src="Images/NewHomeLayout/Banners/Flight/Images 1.jpg" alt='banner image'/>
             </div>
         </>
 

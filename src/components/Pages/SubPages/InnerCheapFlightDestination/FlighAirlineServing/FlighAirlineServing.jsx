@@ -31,23 +31,23 @@ export const FlighAirlineServing = () => {
           </div>
           <div className='ratingpoins'>
             <div className='reviwemarking'>
-             <p>7.7</p>
+             <p className='review-point'>7.7</p>
              <p>Bording</p>
             </div>
             <div className='reviwemarking'>
-             <p>7.5</p>
+             <p className='review-point'>7.5</p>
              <p>Comfort</p>
             </div>
             <div className='reviwemarking'>
-             <p>7.9</p>
+             <p className='review-point'>7.9</p>
              <p>Crew</p>
             </div>
             <div className='reviwemarking'>
-             <p>6.5</p>
+             <p className='review-point'>6.5</p>
              <p>Entertainment</p>
             </div>
             <div className='reviwemarking'>
-             <p>6.9</p>
+             <p className='review-point'>6.9</p>
              <p>Food</p>
             </div>
           </div>

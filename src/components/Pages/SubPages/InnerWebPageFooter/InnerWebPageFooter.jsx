@@ -785,7 +785,7 @@ export const InnerWebPageFooter = () => {
                                 </div>
                             </div>
 
-                            <p style={{marginLeft:"55%",width:"100%"}}>The world leader in online travel & related services</p>
+                            <p style={{marginLeft:"75%",width:"100%"}}>The world leader in online travel & related services</p>
                         </div>
                         
                     </div>
