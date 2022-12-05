@@ -1,0 +1,193 @@
+.helpContentMainOuterDiv {
+  /* border: 1px solid rebeccapurple; */
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+  height: 1250px;
+  column-gap: 50px;
+  margin-top: 3%;
+}
+
+.helpContentMainDiv1 {
+  /* border: 1px solid black; */
+  width: 60%;
+}
+
+.helpContentMainDiv2 {
+  /* border: 1px solid green; */
+  width: 40%;
+}
+
+.helpQuickLinksOuterDiv {
+  border: 1px solid gray;
+  border-radius: 7px;
+  width: 90%;
+  margin: auto;
+}
+
+.helpQuickLinksSubDiv1 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  margin-top: 2%;
+}
+
+.helpQuickLinksInnerDiv1 h4 {
+  color: #393939;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+.helpQuickLinksSubDiv1 p {
+  color: #3380f2;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 4%;
+}
+
+.helpQuickLinksSubDiv2 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 85px;
+}
+
+.helpQuickLinksSubDiv2 p {
+  color: #3380f2;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 4%;
+}
+
+
+.helpSeeMoreButton{
+  /* border: 1px solid red; */
+  align-items: center;
+}
+
+.helpSeeMoreButton button{
+  /* border: 1px solid red; */
+  margin: auto;
+  width: 30%;
+  margin-top: 4%;
+  padding-left: 70px;
+  padding-top: 10px;
+  font-size: 22px;
+  height: 45px;
+}
+
+.helpSeeMoreButton button:hover{
+  background-color: white;
+  color: #3380f2;
+}
+
+.helpContentInnerDiv1 {
+  border: 1px solid #cce1ff;
+  border-radius: 7px;
+  width: 95%;
+  margin: auto;
+  height: 280px;
+  background-color: #cce1ff;
+}
+
+.helpContentInnerDiv1 h3 {
+  color: #393939;
+  font-family: "Poppins";
+  font-weight: 500;
+  vertical-align: baseline;
+  font-size: 22px;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+
+.helpContent2SubDiv1 {
+  border-bottom: 1px solid #393939;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.helpContent2SubDiv1Content1 {
+  width: 50%;
+  margin-left: 5%;
+  font-size: 17px;
+  font-weight: 500;
+  vertical-align: baseline;
+  margin-bottom: 5%;
+}
+
+.helpContent2SubDiv1Content2 {
+  justify-content: right;
+  text-align: right;
+  margin-left: 15%;
+  color: #3380f2;
+  font-size: 17px;
+  font-weight: 500;
+  vertical-align: baseline;
+}
+
+.helpContent2SubDiv2 {
+  /* border-bottom: 1px solid #393939; */
+  width: 95%;
+  margin: auto;
+}
+
+.helpContent2SubDiv2 p {
+  margin-left: 4%;
+  font-weight: 500;
+  font-size: 17px;
+  vertical-align: baseline;
+}
+
+.helpContent2SubDiv2 .helpContent2SubDiv2Content1 {
+  /* border: 1px solid red; */
+  font-weight: 600;
+  font-size: 16px;
+  vertical-align: baseline;
+}
+
+.helpContent2SubDiv2 .helpContent2SubDiv2Content1 span {
+  color: #3380f2;
+  position: absolute;
+  margin-top: 1%;
+  font-weight: 500;
+  margin-left: 17%;
+}
+
+/* .helpContentInnerDiv2{
+  border: 1px solid red;
+} */
+
+.helpConnectDivPageBookingContact {
+  border: 1px solid lightgray;
+  width: 94%;
+  /* height: 250px; */
+  border-radius: 15px;
+  margin-left: 4%;
+  margin-top: 8%;
+}
+
+.helpConnectDivApplyButton {
+  color: #393939;
+  border: 1px solid lightgray;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 8%;
+  width: 80%;
+  height: 50px;
+  margin-left: 10%;
+  background-color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: left;
+  padding-left: 10px;
+  /* margin-bottom: 5%; */
+}
+
+.helpConnectDivApplyButton:hover {
+  background-color: white !important;
+  color: #3380f2 !important;
+  border: 2px solid #3380f2;
+}

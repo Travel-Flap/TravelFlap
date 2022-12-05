@@ -75,7 +75,7 @@ export const NewHomeNav = () => {
                     <ul>
                         <li> <img src="Images/Flags/India.jpg" /> </li>
                         <li> <img src="Images/Flags/UAE.png" />  </li>
-                        <li><img src="Images/Flags/KSA.png" /> </li>
+                        <li> <img src="Images/Flags/KSA.png" /> </li>
                         <li>  <img src="Images/Flags/KWT.svg" /> </li>
                     </ul>
                 </div>
@@ -83,7 +83,7 @@ export const NewHomeNav = () => {
                     <ul>
                         <li> <img src="Images/Flags/Uk.webp" /> </li>
                         <li> <img src="Images/Flags/USA.webp" /> </li>
-                        <li><img src="Images/Flags/QAT.webp" /> </li>
+                        <li> <img src="Images/Flags/QAT.webp" /> </li>
                         <li> <img src="Images/Flags/China.webp" /> </li>
                     </ul>
                 </div>
@@ -91,7 +91,7 @@ export const NewHomeNav = () => {
                     <ul>
                         <li> <img src="Images/Flags/Japan.webp" /> </li>
                         <li> <img src="Images/Flags/Italy.webp" /> </li>
-                        <li><img src="Images/Flags/Malaysia.webp" /> </li>
+                        <li> <img src="Images/Flags/Malaysia.webp" /> </li>
                         <li> <img src="Images/Flags/France.webp" /> </li>
                     </ul>
                 </div>
@@ -121,18 +121,26 @@ export const NewHomeNav = () => {
     function Box4() {
         return (
             <div className='LoginRegisterDropDown'>
-                <div className='LoginRegisterOptions'>
-                    <FaUserLock className='LoginIcon' /> Login
-                </div>
-                <div className='LoginRegisterOptions '>
-                    <FaUserCheck className='RegisterIcon' /> Register
-                </div>
+                <Link to="/loginPage">
+                    <div className='LoginRegisterOptions'>
+                        <FaUserLock className='LoginIcon' /> Login
+                    </div>
+                </Link>
+
+                <Link to="/signupPage">
+                    <div className='LoginRegisterOptions '>
+                        <FaUserCheck className='RegisterIcon' /> Register
+                    </div>
+                </Link>
+
                 <div className='LoginRegisterOptions'>
                     <FaPenFancy className='BlogsIcon' /> Blogs
                 </div>
+
                 <div className='LoginRegisterOptions'>
                     <FaMoneyCheck className='PaymentIcon' /> Make Payments
                 </div>
+
                 <div className='LoginRegisterOptions'>
                     <FaCopy className='BookingIcon' /> My Bookings
                 </div>
@@ -266,12 +274,19 @@ export const NewHomeNav = () => {
 
                                 <div className='login-register'> <p>Login / Register <FaCaretDown /></p>
                                     <div className='LoginRegisterDropDown'>
-                                        <div className='LoginRegisterOptions'>
-                                            <FaUserLock className='LoginIcon' /> Login
-                                        </div>
-                                        <div className='LoginRegisterOptions '>
-                                            <FaUserCheck className='RegisterIcon' /> Register
-                                        </div>
+
+                                        <Link to="/loginPage">
+                                            <div className='LoginRegisterOptions'>
+                                                <FaUserLock className='LoginIcon' /> Login
+                                            </div>
+                                        </Link>
+
+                                        <Link to="/signupPage">
+                                            <div className='LoginRegisterOptions '>
+                                                <FaUserCheck className='RegisterIcon' /> Register
+                                            </div>
+                                        </Link>
+
                                         <div className='LoginRegisterOptions'>
                                             <FaPenFancy className='BlogsIcon' /> Blogs
                                         </div>
@@ -340,12 +355,19 @@ export const NewHomeNav = () => {
                                     </div>
                                     <div className='login-register'> Login/Register
                                         <div className='LoginRegisterDropDown' style={{ marginRight: "-30%" }}>
-                                            <div className='LoginRegisterOptions' >
-                                                <FaUserLock className='LoginIcon' /> Login
-                                            </div>
-                                            <div className='LoginRegisterOptions '>
-                                                <FaUserCheck className='RegisterIcon' /> Register
-                                            </div>
+
+                                            <Link to="/loginPage">
+                                                <div className='LoginRegisterOptions'>
+                                                    <FaUserLock className='LoginIcon' /> Login
+                                                </div>
+                                            </Link>
+
+                                            <Link to="/signupPage">
+                                                <div className='LoginRegisterOptions '>
+                                                    <FaUserCheck className='RegisterIcon' /> Register
+                                                </div>
+                                            </Link>
+
                                             <div className='LoginRegisterOptions'>
                                                 <FaPenFancy className='BlogsIcon' /> Blogs
                                             </div>

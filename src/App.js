@@ -65,6 +65,7 @@ import { CruiseDetailsWIreFrame } from "./components/Pages/NewCruisePage/CruiseD
 import { LoginPageTravelFlap } from "./components/Pages/LoginSignUp/LoginPage/Login";
 import { SignupPageTravelFlap } from "./components/Pages/LoginSignUp/SignupPage/Signup";
 import { Blog } from "./components/Pages/NewBlogsPage/BlogsPage";
+import { NewHelpPage } from "./components/Pages/NewHelpPage/NewHelpPage";
 
 function App() {
   return (
@@ -212,11 +213,11 @@ function App() {
         <Route path="/cruiseDetailsPage" element={<CruiseDetailsWIreFrame />} />
 
         {/* These are the routes for the login and signup pages */}
-        <Route path="/loginPage" element={ <LoginPageTravelFlap /> } />
-        <Route path="/signupPage" element={ <SignupPageTravelFlap /> } />
+        <Route path="/loginPage" element={<LoginPageTravelFlap />} />
+        <Route path="/signupPage" element={<SignupPageTravelFlap />} />
 
-        
-        <Route path="/blogs" element={ <Blog/> } />
+        <Route path="/helpPage" element={<NewHelpPage />} />
+        <Route path="/blogs" element={<Blog />} />
         <Route path="/contact" element={<ContactUS />} />
       </Routes>
     </>

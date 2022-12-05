@@ -1,0 +1,47 @@
+.helpFlightsDataDropdown_container {
+  /* border: 2px solid red; */
+  /* background-color: #3380f2; */
+  margin-top: 3%;
+  /* height: 390px; */
+}
+
+.helpFlightsData_maincontainer {
+  /* border: 2px solid black; */
+  /* display: flex;
+  flex-direction: row; */
+  width: 100%;
+  /* margin: auto; */
+  /* gap: 5%; */
+  /* margin-top: 3%; */
+}
+
+.helpFlightssData_dropdowncontext {
+  /* border: 1px solid red; */
+  background-color: whitesmoke !important;
+  border-radius: 9px;
+  color: #393939;
+}
+
+.helpFlightssDatadropdownmaincontainer1 {
+  /* border: 2px solid red; */
+  margin-top: 2%;
+  width: 100%;
+  color: #393939;
+  margin-left: 2%;
+}
+
+.helpFlightssDatadropdownmaincontainer2 {
+  /* border: 2px solid red; */
+  margin-top: 2%;
+  width: 100%;
+  color: #393939;
+  margin-left: 2%;
+}
+
+.faq_HelpFlightsHeading {
+  font-size: 30px;
+  font-weight: 500;
+  padding-left: 20px;
+  margin-top: 5%;
+  /* color: #3380f2; */
+}
