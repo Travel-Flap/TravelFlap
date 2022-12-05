@@ -121,9 +121,11 @@ export const NewHomeNav = () => {
     function Box4() {
         return (
             <div className='LoginRegisterDropDown'>
-                <div className='LoginRegisterOptions'>
-                    <FaUserLock className='LoginIcon' /> Login
-                </div>
+                <Link to="/loginPage">
+                    <div className='LoginRegisterOptions'>
+                        <FaUserLock className='LoginIcon' /> Login
+                    </div>
+                </Link>
                 <div className='LoginRegisterOptions '>
                     <FaUserCheck className='RegisterIcon' /> Register
                 </div>
@@ -266,15 +268,21 @@ export const NewHomeNav = () => {
 
                                 <div className='login-register'> <p>Login / Register <FaCaretDown /></p>
                                     <div className='LoginRegisterDropDown'>
-                                        <div className='LoginRegisterOptions'>
-                                            <FaUserLock className='LoginIcon' /> Login
-                                        </div>
+                                        <Link to="/loginPage" style={{color:"white",textDecoration:"none"}}>
+                                            <div className='LoginRegisterOptions'>
+                                                <FaUserLock className='LoginIcon' /> Login
+                                            </div>
+                                        </Link>
+                                        <Link to="/signupPage" style={{color:"white",textDecoration:"none"}}>
                                         <div className='LoginRegisterOptions '>
                                             <FaUserCheck className='RegisterIcon' /> Register
                                         </div>
+                                        </Link>
+                                        <Link to="/blogs" style={{color:"white",textDecoration:"none"}}>
                                         <div className='LoginRegisterOptions'>
                                             <FaPenFancy className='BlogsIcon' /> Blogs
                                         </div>
+                                        </Link>
                                         <div className='LoginRegisterOptions'>
                                             <FaMoneyCheck className='PaymentIcon' /> Make Payments
                                         </div>
@@ -338,17 +346,23 @@ export const NewHomeNav = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className='login-register'> Login/Register
+                                    <div className='login-register'> Login/Registerr
                                         <div className='LoginRegisterDropDown' style={{ marginRight: "-30%" }}>
-                                            <div className='LoginRegisterOptions' >
-                                                <FaUserLock className='LoginIcon' /> Login
-                                            </div>
+                                            <Link to="/loginPage" style={{color:"white",textDecoration:"none"}}>
+                                                <div className='LoginRegisterOptions' >
+                                                    <FaUserLock className='LoginIcon' /> Login
+                                                </div>
+                                            </Link>
+                                            <Link to="/signupPage" style={{color:"white",textDecoration:"none"}}>
                                             <div className='LoginRegisterOptions '>
                                                 <FaUserCheck className='RegisterIcon' /> Register
                                             </div>
+                                            </Link>
+                                            <Link to="/blogs" style={{color:"white",textDecoration:"none"}}>
                                             <div className='LoginRegisterOptions'>
                                                 <FaPenFancy className='BlogsIcon' /> Blogs
                                             </div>
+                                            </Link>
                                             <div className='LoginRegisterOptions'>
                                                 <FaMoneyCheck className='PaymentIcon' /> Make Payments
                                             </div>

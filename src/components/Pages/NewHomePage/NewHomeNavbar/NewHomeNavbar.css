@@ -390,13 +390,14 @@
     position: absolute;
     display: none;
     z-index: 1;
-    margin-top: 0%;
+    margin-top: -0.5%;
     right: 0;
     background-color: rgb(199, 225, 236);
     border-radius: 5px;
     font-size: 15px;
     color: white;
     background-color:#3380f2;
+    /* border: 2px solid red; */
   }
   .LoginRegisterOptions {
     margin-top: 2%;
