@@ -7,6 +7,8 @@ import { GiPalmTree } from 'react-icons/gi';
 import { FaLaptopHouse, FaPhoneAlt, FaTags} from 'react-icons/fa';
 import { FaUserLock,FaMoneyCheck,FaPenFancy,FaCopy,FaUserCheck  } from 'react-icons/fa';
 import { CgMoreAlt } from 'react-icons/cg';
+import { CountryDataFetchTest } from "../../../CountryDataFetchTest";
+import { CurrencyDataFetchTest } from "../../../CurrencyDataFetchTest";
 // import { Home } from "../Pages/Home/Home";
 
 export const InnerWebPageNavbar = () => {
@@ -80,7 +82,7 @@ export const InnerWebPageNavbar = () => {
                                 {/* <div className='nav-link'> <p>OFFERS</p></div> */}
                                 <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
                                     <div className='chooseCountry'>
-                                        <div className='countrynames'>
+                                       {/*  <div className='countrynames'>
                                             INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                         </div>
                                         <div className='countrynames'>
@@ -94,13 +96,14 @@ export const InnerWebPageNavbar = () => {
                                         </div>
                                         <div className='countrynames'>
                                             INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                        </div>
+                                        </div> */}
+                                        <CurrencyDataFetchTest/>
                                     </div>
                                 </div>
 
                                 <div className='nav-link'><p> INDIA <FaCaretDown /></p>
                                     <div className='chooseCountry'>
-                                        <div className='countrynames'>
+                                        {/* <div className='countrynames'>
                                             INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                         </div>
                                         <div className='countrynames'>
@@ -114,7 +117,8 @@ export const InnerWebPageNavbar = () => {
                                         </div>
                                         <div className='countrynames'>
                                             INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                        </div>
+                                        </div> */}
+                                        <CountryDataFetchTest/>
                                     </div>
                                 </div>
 

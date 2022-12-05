@@ -65,6 +65,7 @@ import { CruiseDetailsWIreFrame } from "./components/Pages/NewCruisePage/CruiseD
 import { LoginPageTravelFlap } from "./components/Pages/LoginSignUp/LoginPage/Login";
 import { SignupPageTravelFlap } from "./components/Pages/LoginSignUp/SignupPage/Signup";
 import { Blog } from "./components/Pages/NewBlogsPage/BlogsPage";
+import { CountryDataFetchTest } from "./components/CountryDataFetchTest";
 
 function App() {
   return (
@@ -219,6 +220,8 @@ function App() {
         <Route path="/blogs" element={ <Blog/> } />
         <Route path="/contact" element={<ContactUS />} />
       </Routes>
+
+      <CountryDataFetchTest/>
     </>
   );
 }

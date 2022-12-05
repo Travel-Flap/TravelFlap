@@ -15,6 +15,8 @@ import { GiCruiser } from 'react-icons/gi';
 import { FaLaptopHouse, FaPhoneAlt, FaTags, FaBars } from 'react-icons/fa';
 import { FaUserLock, FaMoneyCheck, FaPenFancy, FaCopy, FaUserCheck } from 'react-icons/fa';
 import { CgMoreAlt } from 'react-icons/cg';
+import { CountryDataFetchTest } from '../../../CountryDataFetchTest';
+import { CurrencyDataFetchTest } from '../../../CurrencyDataFetchTest';
 
 // import { Home } from "../Pages/Home/Home";
 
@@ -228,7 +230,7 @@ export const NewHomeNav = () => {
                                 {/* <div className='nav-link'> <p>OFFERS</p></div> */}
                                 <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
                                     <div className='chooseCountry'>
-                                        <div className='countrynames'>
+                                        {/* <div className='countrynames'>
                                             INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                         </div>
                                         <div className='countrynames'>
@@ -242,13 +244,14 @@ export const NewHomeNav = () => {
                                         </div>
                                         <div className='countrynames'>
                                             INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                        </div>
+                                        </div> */}
+                                        <CurrencyDataFetchTest/>
                                     </div>
                                 </div>
 
                                 <div className='nav-link'><p> INDIA <FaCaretDown /></p>
                                     <div className='chooseCountry'>
-                                        <div className='countrynames'>
+                                        {/* <div className='countrynames'>
                                             INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                         </div>
                                         <div className='countrynames'>
@@ -262,7 +265,8 @@ export const NewHomeNav = () => {
                                         </div>
                                         <div className='countrynames'>
                                             INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                        </div>
+                                        </div> */}
+                                        <CountryDataFetchTest/>
                                     </div>
                                 </div>
 
@@ -309,7 +313,7 @@ export const NewHomeNav = () => {
                                     <Link style={{ textDecoration: "none" }} to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
                                     <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
                                         <div className='chooseCountry'>
-                                            <div className='countrynames'>
+                                            {/* <div className='countrynames'>
                                                 INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                             </div>
                                             <div className='countrynames'>
@@ -323,13 +327,14 @@ export const NewHomeNav = () => {
                                             </div>
                                             <div className='countrynames'>
                                                 INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
+                                            </div> */}
+                                            <CurrencyDataFetchTest/>
                                         </div>
                                     </div>
 
                                     <div className='nav-link'><p> INDIA <FaCaretDown /></p>
                                         <div className='chooseCountry'>
-                                            <div className='countrynames'>
+                                            {/* <div className='countrynames'>
                                                 INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                             </div>
                                             <div className='countrynames'>
@@ -343,7 +348,8 @@ export const NewHomeNav = () => {
                                             </div>
                                             <div className='countrynames'>
                                                 INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
+                                            </div> */}
+                                            <CountryDataFetchTest/>
                                         </div>
                                     </div>
                                     <div className='login-register'> Login/Registerr
