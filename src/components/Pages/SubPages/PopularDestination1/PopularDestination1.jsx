@@ -10,6 +10,7 @@ export const PopularDestination1 = () => {
   return (
     <div>
 
+     
       <PopularDestinationBanner />
       <PopularDestinationButton />
 

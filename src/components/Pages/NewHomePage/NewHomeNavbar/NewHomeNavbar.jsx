@@ -127,11 +127,16 @@ export const NewHomeNav = () => {
                     </div>
                 </Link>
 
+
                 <Link to="/signupPage">
                     <div className='LoginRegisterOptions '>
                         <FaUserCheck className='RegisterIcon' /> Register
                     </div>
                 </Link>
+
+                <div className='LoginRegisterOptions '>
+                    <FaUserCheck className='RegisterIcon' /> Register
+                </div>
 
                 <div className='LoginRegisterOptions'>
                     <FaPenFancy className='BlogsIcon' /> Blogs
@@ -273,118 +278,142 @@ export const NewHomeNav = () => {
                                 </div>
 
                                 <div className='login-register'> <p>Login / Register <FaCaretDown /></p>
-                                    <div className='LoginRegisterDropDown'>
 
-                                        <Link to="/loginPage">
-                                            <div className='LoginRegisterOptions'>
-                                                <FaUserLock className='LoginIcon' /> Login
-                                            </div>
-                                        </Link>
+                                    {/* <Link to="/loginPagex"> */}
 
-                                        <Link to="/signupPage">
-                                            <div className='LoginRegisterOptions '>
-                                                <FaUserCheck className='RegisterIcon' /> Register
-                                            </div>
-                                        </Link>
+                                    <Link to="/loginPage" style={{ color: "white", textDecoration: "none" }}>
+
+                                        <div className='LoginRegisterOptions'>
+                                            <FaUserLock className='LoginIcon' /> Login
+                                        </div>
+                                    </Link>
+
+
+                                    <Link to="/signupPage">
+                                        <div className='LoginRegisterOptions '>
+                                            <FaUserCheck className='RegisterIcon' /> Register
+                                        </div>
+                                    </Link>
+
+                                    <Link to="/signupPage" style={{ color: "white", textDecoration: "none" }}>
+                                        <div className='LoginRegisterOptions '>
+                                            <FaUserCheck className='RegisterIcon' /> Register
+                                        </div>
+                                    </Link>
+                                    <Link to="/blogs" style={{ color: "white", textDecoration: "none" }}>
 
                                         <div className='LoginRegisterOptions'>
                                             <FaPenFancy className='BlogsIcon' /> Blogs
                                         </div>
-                                        <div className='LoginRegisterOptions'>
-                                            <FaMoneyCheck className='PaymentIcon' /> Make Payments
-                                        </div>
-                                        <div className='LoginRegisterOptions'>
-                                            <FaCopy className='BookingIcon' /> My Bookings
-                                        </div>
+                                    </Link>
+                                    <div className='LoginRegisterOptions'>
+                                        <FaMoneyCheck className='PaymentIcon' /> Make Payments
+                                    </div>
+                                    <div className='LoginRegisterOptions'>
+                                        <FaCopy className='BookingIcon' /> My Bookings
                                     </div>
                                 </div>
+                            </div>
 
+                        </div>
+                : <>
+
+
+
+                    <div className='transparentNavbar'>
+                        <Link to="/">
+                            <div className='logo2'>
+                                <img src="Images/travel-flap-logo-animation.gif" alt="travelflap logo" />
+                            </div>
+                        </Link>
+                        <div className='navbar-links-container1'>
+                            {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
+                            <Link style={{ textDecoration: "none" }} to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
+                            <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
+                                <div className='chooseCountry'>
+                                    <div className='countrynames'>
+                                        INDIA <img src="Images/Flags/India.jpg" className='flags' />
+                                    </div>
+                                    <div className='countrynames'>
+                                        INDIA <img src="Images/Flags/India.jpg" className='flags' />
+                                    </div>
+                                    <div className='countrynames'>
+                                        INDIA <img src="Images/Flags/India.jpg" className='flags' />
+                                    </div>
+                                    <div className='countrynames'>
+                                        INDIA <img src="Images/Flags/India.jpg" className='flags' />
+                                    </div>
+                                    <div className='countrynames'>
+                                        INDIA <img src="Images/Flags/India.jpg" className='flags' />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='nav-link'><p> INDIA <FaCaretDown /></p>
+                                <div className='chooseCountry'>
+                                    <div className='countrynames'>
+                                        INDIA <img src="Images/Flags/India.jpg" className='flags' />
+                                    </div>
+                                    <div className='countrynames'>
+                                        INDIA <img src="Images/Flags/India.jpg" className='flags' />
+                                    </div>
+                                    <div className='countrynames'>
+                                        INDIA <img src="Images/Flags/India.jpg" className='flags' />
+                                    </div>
+                                    <div className='countrynames'>
+                                        INDIA <img src="Images/Flags/India.jpg" className='flags' />
+                                    </div>
+                                    <div className='countrynames'>
+                                        INDIA <img src="Images/Flags/India.jpg" className='flags' />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='login-register'> Login/Registerr
+                                <div className='LoginRegisterDropDown' style={{ marginRight: "-30%" }}>
+
+
+                                    <Link to="/loginPage">
+                                        <div className='LoginRegisterOptions'>
+                                            <FaUserLock className='LoginIcon' /> Login
+                                        </div>
+                                    </Link>
+
+                                    <Link to="/signupPage">
+                                        <div className='LoginRegisterOptions '>
+                                            <FaUserCheck className='RegisterIcon' /> Register
+                                        </div>
+                                    </Link>
+
+                                    <Link to="/loginPage" style={{ color: "white", textDecoration: "none" }}>
+                                        <div className='LoginRegisterOptions' >
+                                            <FaUserLock className='LoginIcon' /> Login
+                                        </div>
+                                    </Link>
+                                    <Link to="/signupPage" style={{ color: "white", textDecoration: "none" }}>
+                                        <div className='LoginRegisterOptions '>
+                                            <FaUserCheck className='RegisterIcon' /> Register
+                                        </div>
+                                    </Link>
+                                    <Link to="/blogs" style={{ color: "white", textDecoration: "none" }}>
+
+                                        <div className='LoginRegisterOptions'>
+                                            <FaPenFancy className='BlogsIcon' /> Blogs
+                                        </div>
+                                    </Link>
+                                    <div className='LoginRegisterOptions'>
+                                        <FaMoneyCheck className='PaymentIcon' /> Make Payments
+                                    </div>
+                                    <div className='LoginRegisterOptions'>
+                                        <FaCopy className='BookingIcon' /> My Bookings
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        : <>
-
-
-
-                            <div className='transparentNavbar'>
-                                <Link to="/">
-                                    <div className='logo2'>
-                                        <img src="Images/travel-flap-logo-animation.gif" alt="travelflap logo" />
-                                    </div>
-                                </Link>
-                                <div className='navbar-links-container1'>
-                                    {/* <div  className='nav-link'> <p>Akbar Bizz</p></div> */}
-                                    <Link style={{ textDecoration: "none" }} to="/offers"><div id='offerlink'><p>Offers</p></div></Link>
-                                    <div className='nav-link'> <p>₹ INR <FaCaretDown /></p>
-                                        <div className='chooseCountry'>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className='nav-link'><p> INDIA <FaCaretDown /></p>
-                                        <div className='chooseCountry'>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className='login-register'> Login/Register
-                                        <div className='LoginRegisterDropDown' style={{ marginRight: "-30%" }}>
-
-                                            <Link to="/loginPage">
-                                                <div className='LoginRegisterOptions'>
-                                                    <FaUserLock className='LoginIcon' /> Login
-                                                </div>
-                                            </Link>
-
-                                            <Link to="/signupPage">
-                                                <div className='LoginRegisterOptions '>
-                                                    <FaUserCheck className='RegisterIcon' /> Register
-                                                </div>
-                                            </Link>
-
-                                            <div className='LoginRegisterOptions'>
-                                                <FaPenFancy className='BlogsIcon' /> Blogs
-                                            </div>
-                                            <div className='LoginRegisterOptions'>
-                                                <FaMoneyCheck className='PaymentIcon' /> Make Payments
-                                            </div>
-                                            <div className='LoginRegisterOptions'>
-                                                <FaCopy className='BookingIcon' /> My Bookings
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </>
+                    </div>
+                </>
                     }
-                </div>
             </div>
+        </div>
         </>
     )
 }

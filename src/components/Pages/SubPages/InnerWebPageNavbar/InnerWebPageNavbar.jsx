@@ -120,15 +120,21 @@ export const InnerWebPageNavbar = () => {
 
                                 <div className='login-register'> <p>Login / Register <FaCaretDown /></p>
                                     <div className='LoginRegisterDropDown'>
+                                    <Link to="/loginPage" style={{color:"white",textDecoration:"none"}}>
                                         <div className='LoginRegisterOptions'>
                                             <FaUserLock className='LoginIcon' /> Login
                                         </div>
+                                    </Link>
+                                    <Link to="/signupPage" style={{color:"white",textDecoration:"none"}}>
                                         <div className='LoginRegisterOptions '>
                                             <FaUserCheck className='RegisterIcon' /> Register
                                         </div>
+                                    </Link>
+                                    <Link to="/blogs" style={{color:"white",textDecoration:"none"}}>
                                         <div className='LoginRegisterOptions'>
                                             <FaPenFancy className='BlogsIcon' /> Blogs
                                         </div>
+                                    </Link>
                                         <div className='LoginRegisterOptions'>
                                             <FaMoneyCheck className='PaymentIcon' /> Make Payments
                                         </div>
