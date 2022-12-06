@@ -1,23 +1,101 @@
 .Banner2image-div{
     margin-top: 3%;
-    height:20px ;
+    /* height:100px ; */
     width:90% ;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    z-index: 0;
+    object-fit: cover;
+    background-size: cover;
+
+}
+.Banner2image{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100%;
 }
 .Banner2image-div{
     width: 100%;
     height: 100%;
+    /* border: 2px solid red; */
 }
 .banner2inputboxdiv{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     background-color: white;
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 50%;
     /* text-align: center; */
     /* justify-content: center; */
     margin-left: 25%;
-   
+    height: 500px;
+    /* margin-top: -50%; */
+    /* position: relative; */
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%   ;
+    margin-top: 3%;
 
 
+}
+.blogpage-banner2input{
+    height: 60px;
+    margin-top: 2%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.blogpage-banner2input2{
+    height: 90px;
+    margin-top: 2%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.headinginputbann2div{
+    position: relative;
+    margin-top: -42%;
+    z-index: 2;
+    /* border: 2px solid green; */
+    width: 75%;
+    margin-left: 15%;
+}
+.headinginputbann2div h3{
+    margin-left: 35%;
+    color: #3380f2;
+    font-size: 23px;
+    font-weight: 700;
+}
+.headinginputbann2div h1{
+    margin-left: 30%;
+    font-size: 38px;
+    font-weight: 700;
+    color: #393939;
+}
+.banner2inputboxdiv p{
+    font-size: 16px;
+    font-weight: 550;
+    color: #393939;
+    margin-left: 2%;
+    /* margin-right: 2%; */
+}
+.banner2inputboxdiv h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #393939;
+    margin-left: 2%;
+    /* margin-right: 2%; */
+}
+
+.banner2inputbutton{
+    margin-top: 2%;
+    width: 35% ;
+    /* border: 2px solid yellow; */
+    text-align: center;
+    justify-content: center;
+    margin-left: 2%;
+    /* margin-right: 2%; */
 }

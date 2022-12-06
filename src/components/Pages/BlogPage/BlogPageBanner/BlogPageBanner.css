@@ -41,8 +41,10 @@
 }
 .blogsearch{
   /* border: 2px solid yellow; */
-  width: 30%;
+  width: 35%;
   height: 40px;
-  border-radius: 50px;
+  border-radius: 20px;
   margin-top: 3%;
+  padding-left: 2%;
+  border: none;
 }
