@@ -12,8 +12,8 @@
         "language": {
             "code": "ps",
             "name": "Pashto"
-        }
-        
+        },
+        "flag": "Images/w40-webp/af.webp"
     },
     {
         "name": "Åland Islands",
@@ -28,7 +28,8 @@
         "language": {
             "code": "sv",
             "name": "Swedish"
-        }
+        },
+        "flag": "Images/w40-webp/ax.webp"
     },
     {
         "name": "Albania",
@@ -43,7 +44,8 @@
         "language": {
             "code": "sq",
             "name": "Albanian"
-        }
+        },
+        "flag": "Images/w40-webp/al.webp"
     },
     {
         "name": "Algeria",
@@ -58,7 +60,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/dz.webp"
     },
     {
         "name": "American Samoa",
@@ -73,7 +76,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/as.webp"
     },
     {
         "name": "Andorra",
@@ -88,7 +92,8 @@
         "language": {
             "code": "ca",
             "name": "Catalan"
-        }
+        },
+        "flag": "Images/w40-webp/ad.webp"
     },
     {
         "name": "Angola",
@@ -103,7 +108,8 @@
         "language": {
             "code": "pt",
             "name": "Portuguese"
-        }
+        },
+        "flag": "Images/w40-webp/ao.webp"
     },
     {
         "name": "Anguilla",
@@ -118,7 +124,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/ai.webp"
     },
     {
         "name": "Antigua and Barbuda",
@@ -133,7 +140,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/ag.webp"
     },
     {
         "name": "Argentina",
@@ -148,7 +156,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/ar.webp"
     },
     {
         "name": "Armenia",
@@ -163,7 +172,8 @@
         "language": {
             "code": "hy",
             "name": "Armenian"
-        }
+        },
+        "flag": "Images/w40-webp/am.webp"
     },
     {
         "name": "Aruba",
@@ -178,7 +188,8 @@
         "language": {
             "code": "nl",
             "name": "Dutch"
-        }
+        },
+        "flag": "Images/w40-webp/aw.webp"
     },
     {
         "name": "Australia",
@@ -193,7 +204,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/au.webp"
     },
     {
         "name": "Austria",
@@ -208,7 +220,8 @@
         "language": {
             "code": "de",
             "name": "German"
-        }
+        },
+        "flag": "Images/w40-webp/at.webp"
     },
     {
         "name": "Azerbaijan",
@@ -223,7 +236,8 @@
         "language": {
             "code": "az",
             "name": "Azerbaijani"
-        }
+        },
+        "flag": "Images/w40-webp/az.webp"
     },
     {
         "name": "Bahamas",
@@ -238,7 +252,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/bs.webp"
     },
     {
         "name": "Bahrain",
@@ -253,7 +268,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/bh.webp"
     },
     {
         "name": "Bangladesh",
@@ -268,7 +284,8 @@
         "language": {
             "code": "bn",
             "name": "Bengali"
-        }
+        },
+        "flag": "Images/w40-webp/bd.webp"
     },
     {
         "name": "Barbados",
@@ -283,7 +300,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/bb.webp"
     },
     {
         "name": "Belarus",
@@ -298,7 +316,8 @@
         "language": {
             "code": "be",
             "name": "Belarusian"
-        }
+        },
+        "flag": "Images/w40-webp/by.webp"
     },
     {
         "name": "Belgium",
@@ -313,7 +332,8 @@
         "language": {
             "code": "nl",
             "name": "Dutch"
-        }
+        },
+        "flag": "Images/w40-webp/be.webp"
     },
     {
         "name": "Belize",
@@ -328,7 +348,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/bz.webp"
     },
     {
         "name": "Benin",
@@ -343,7 +364,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/bj.webp"
     },
     {
         "name": "Bermuda",
@@ -358,7 +380,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/bm.webp"
     },
     {
         "name": "Bhutan",
@@ -373,7 +396,8 @@
         "language": {
             "code": "dz",
             "name": "Dzongkha"
-        }
+        },
+        "flag": "Images/w40-webp/bt.webp"
     },
     {
         "name": "Bolivia (Plurinational State of)",
@@ -388,7 +412,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/bo.webp"
     },
     {
         "name": "Bonaire, Sint Eustatius and Saba",
@@ -403,7 +428,8 @@
         "language": {
             "code": "nl",
             "name": "Dutch"
-        }
+        },
+        "flag": "Images/w40-webp/bq.webp"
     },
     {
         "name": "Bosnia and Herzegovina",
@@ -418,7 +444,8 @@
         "language": {
             "code": "bs",
             "name": "Bosnian"
-        }
+        },
+        "flag": "Images/w40-webp/ba.webp"
     },
     {
         "name": "Botswana",
@@ -433,7 +460,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/bw.webp"
     },
     {
         "name": "Bouvet Island",
@@ -448,7 +476,8 @@
         "language": {
             "code": "no",
             "name": "Norwegian"
-        }
+        },
+        "flag": "Images/w40-webp/bv.webp"
     },
     {
         "name": "Brazil",
@@ -463,7 +492,8 @@
         "language": {
             "code": "pt",
             "name": "Portuguese"
-        }
+        },
+        "flag": "Images/w40-webp/br.webp"
     },
     {
         "name": "British Indian Ocean Territory",
@@ -478,7 +508,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/io.webp"
     },
     {
         "name": "United States Minor Outlying Islands",
@@ -493,7 +524,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/um.webp"
     },
     {
         "name": "Virgin Islands (British)",
@@ -508,7 +540,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/vg.webp"
     },
     {
         "name": "Virgin Islands (U.S.)",
@@ -523,7 +556,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/vi.webp"
     },
     {
         "name": "Brunei Darussalam",
@@ -538,7 +572,8 @@
         "language": {
             "code": "ms",
             "name": "Malay"
-        }
+        },
+        "flag": "Images/w40-webp/bn.webp"
     },
     {
         "name": "Bulgaria",
@@ -553,7 +588,8 @@
         "language": {
             "code": "bg",
             "name": "Bulgarian"
-        }
+        },
+        "flag": "Images/w40-webp/bg.webp"
     },
     {
         "name": "Burkina Faso",
@@ -568,7 +604,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/bf.webp"
     },
     {
         "name": "Burundi",
@@ -583,7 +620,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/bi.webp"
     },
     {
         "name": "Cambodia",
@@ -598,7 +636,8 @@
         "language": {
             "code": "km",
             "name": "Khmer"
-        }
+        },
+        "flag": "Images/w40-webp/kh.webp"
     },
     {
         "name": "Cameroon",
@@ -613,7 +652,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/cm.webp"
     },
     {
         "name": "Canada",
@@ -628,7 +668,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/ca.webp"
     },
     {
         "name": "Cabo Verde",
@@ -645,7 +686,8 @@
             "iso639_2": "por",
             "name": "Portuguese",
             "nativeName": "Português"
-        }
+        },
+        "flag": "Images/w40-webp/cv.webp"
     },
     {
         "name": "Cayman Islands",
@@ -661,7 +703,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/ky.webp"
     },
     {
         "name": "Central African Republic",
@@ -676,7 +719,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/cf.webp"
     },
     {
         "name": "Chad",
@@ -691,7 +735,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "https://restcountries.eu/data/tcd.svg"
     },
     {
         "name": "Chile",
@@ -708,7 +753,8 @@
             "iso639_2": "spa",
             "name": "Spanish",
             "nativeName": "Español"
-        }
+        },
+        "flag": "Images/w40-webp/cl.webp"
     },
     {
         "name": "China",
@@ -723,7 +769,8 @@
         "language": {
             "code": "zh",
             "name": "Chinese"
-        }
+        },
+        "flag": "Images/w40-webp/cn.webp"
     },
     {
         "name": "Christmas Island",
@@ -738,7 +785,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/cx.webp"
     },
     {
         "name": "Cocos (Keeling) Islands",
@@ -753,7 +801,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/cc.webp"
     },
     {
         "name": "Colombia",
@@ -768,7 +817,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/co.webp"
     },
     {
         "name": "Comoros",
@@ -783,7 +833,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/km.webp"
     },
     {
         "name": "Congo",
@@ -798,7 +849,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/cg.webp"
     },
     {
         "name": "Congo (Democratic Republic of the)",
@@ -813,7 +865,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/cd.webp"
     },
     {
         "name": "Cook Islands",
@@ -828,7 +881,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/ck.webp"
     },
     {
         "name": "Costa Rica",
@@ -843,7 +897,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/cr.webp"
     },
     {
         "name": "Croatia",
@@ -858,7 +913,8 @@
         "language": {
             "code": "hr",
             "name": "Croatian"
-        }
+        },
+        "flag": "Images/w40-webp/hr.webp"
     },
     {
         "name": "Cuba",
@@ -873,7 +929,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/cu.webp"
     },
     {
         "name": "Curaçao",
@@ -888,7 +945,8 @@
         "language": {
             "code": "nl",
             "name": "Dutch"
-        }
+        },
+        "flag": "Images/w40-webp/cw.webp"
     },
     {
         "name": "Cyprus",
@@ -903,7 +961,8 @@
         "language": {
             "code": "tr",
             "name": "Turkish"
-        }
+        },
+        "flag": "Images/w40-webp/cy.webp"
     },
     {
         "name": "Czech Republic",
@@ -918,7 +977,8 @@
         "language": {
             "code": "cs",
             "name": "Czech"
-        }
+        },
+        "flag": "Images/w40-webp/cz.webp"
     },
     {
         "name": "Denmark",
@@ -933,7 +993,8 @@
         "language": {
             "code": "da",
             "name": "Danish"
-        }
+        },
+        "flag": "Images/w40-webp/dk.webp"
     },
     {
         "name": "Djibouti",
@@ -948,7 +1009,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/dj.webp"
     },
     {
         "name": "Dominica",
@@ -963,7 +1025,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/dm.webp"
     },
     {
         "name": "Dominican Republic",
@@ -978,7 +1041,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/do.webp"
     },
     {
         "name": "Ecuador",
@@ -993,7 +1057,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/ec.webp"
     },
     {
         "name": "Egypt",
@@ -1008,7 +1073,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/eg.webp"
     },
     {
         "name": "El Salvador",
@@ -1023,7 +1089,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/sv.webp"
     },
     {
         "name": "Equatorial Guinea",
@@ -1040,7 +1107,8 @@
             "iso639_2": "spa",
             "name": "Spanish",
             "nativeName": "Español"
-        }
+        },
+        "flag": "Images/w40-webp/gq.webp"
     },
     {
         "name": "Eritrea",
@@ -1055,7 +1123,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/er.webp"
     },
     {
         "name": "Estonia",
@@ -1070,7 +1139,8 @@
         "language": {
             "code": "et",
             "name": "Estonian"
-        }
+        },
+        "flag": "Images/w40-webp/ee.webp"
     },
     {
         "name": "Ethiopia",
@@ -1085,7 +1155,8 @@
         "language": {
             "code": "am",
             "name": "Amharic"
-        }
+        },
+        "flag": "Images/w40-webp/et.webp"
     },
     {
         "name": "Falkland Islands (Malvinas)",
@@ -1100,7 +1171,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/fk.webp"
     },
     {
         "name": "Faroe Islands",
@@ -1115,7 +1187,8 @@
         "language": {
             "code": "fo",
             "name": "Faroese"
-        }
+        },
+        "flag": "Images/w40-webp/fo.webp"
     },
     {
         "name": "Fiji",
@@ -1130,7 +1203,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/fj.webp"
     },
     {
         "name": "Finland",
@@ -1147,7 +1221,8 @@
             "iso639_2": "fin",
             "name": "Finnish",
             "nativeName": "suomi"
-        }
+        },
+        "flag": "Images/w40-webp/fi.webp"
     },
     {
         "name": "France",
@@ -1163,7 +1238,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/fr.webp"
     },
     {
         "name": "French Guiana",
@@ -1178,7 +1254,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/gf.webp"
     },
     {
         "name": "French Polynesia",
@@ -1193,7 +1270,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/pf.webp"
     },
     {
         "name": "French Southern Territories",
@@ -1208,7 +1286,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/tf.webp"
     },
     {
         "name": "Gabon",
@@ -1223,7 +1302,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/ga.webp"
     },
     {
         "name": "Gambia",
@@ -1238,7 +1318,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/gm.webp"
     },
     {
         "name": "Georgia",
@@ -1253,7 +1334,8 @@
         "language": {
             "code": "ka",
             "name": "Georgian"
-        }
+        },
+        "flag": "Images/w40-webp/ge.webp"
     },
     {
         "name": "Germany",
@@ -1268,7 +1350,8 @@
         "language": {
             "code": "de",
             "name": "German"
-        }
+        },
+        "flag": "Images/w40-webp/de.webp"
     },
     {
         "name": "Ghana",
@@ -1283,7 +1366,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/gh.webp"
     },
     {
         "name": "Gibraltar",
@@ -1298,7 +1382,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/gi.webp"
     },
     {
         "name": "Greece",
@@ -1313,7 +1398,8 @@
         "language": {
             "code": "el",
             "name": "Greek (modern)"
-        }
+        },
+        "flag": "Images/w40-webp/gr.webp"
     },
     {
         "name": "Greenland",
@@ -1328,7 +1414,8 @@
         "language": {
             "code": "kl",
             "name": "Kalaallisut"
-        }
+        },
+        "flag": "Images/w40-webp/gl.webp"
     },
     {
         "name": "Grenada",
@@ -1343,7 +1430,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/gd.webp"
     },
     {
         "name": "Guadeloupe",
@@ -1358,7 +1446,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/gp.webp"
     },
     {
         "name": "Guam",
@@ -1373,7 +1462,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/gu.webp"
     },
     {
         "name": "Guatemala",
@@ -1388,7 +1478,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/gt.webp"
     },
     {
         "name": "Guernsey",
@@ -1403,7 +1494,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/gg.webp"
     },
     {
         "name": "Guinea",
@@ -1418,7 +1510,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/gn.webp"
     },
     {
         "name": "Guinea-Bissau",
@@ -1433,7 +1526,8 @@
         "language": {
             "code": "pt",
             "name": "Portuguese"
-        }
+        },
+        "flag": "Images/w40-webp/gw.webp"
     },
     {
         "name": "Guyana",
@@ -1448,7 +1542,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/gy.webp"
     },
     {
         "name": "Haiti",
@@ -1463,7 +1558,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/ht.webp"
     },
     {
         "name": "Heard Island and McDonald Islands",
@@ -1478,7 +1574,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/hm.webp"
     },
     {
         "name": "Holy See",
@@ -1493,7 +1590,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/va.webp"
     },
     {
         "name": "Honduras",
@@ -1508,7 +1606,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/hn.webp"
     },
     {
         "name": "Hong Kong",
@@ -1523,7 +1622,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/hk.webp"
     },
     {
         "name": "Hungary",
@@ -1538,7 +1638,8 @@
         "language": {
             "code": "hu",
             "name": "Hungarian"
-        }
+        },
+        "flag": "Images/w40-webp/hu.webp"
     },
     {
         "name": "Iceland",
@@ -1553,7 +1654,8 @@
         "language": {
             "code": "is",
             "name": "Icelandic"
-        }
+        },
+        "flag": "Images/w40-webp/is.webp"
     },
     {
         "name": "India",
@@ -1568,7 +1670,8 @@
         "language": {
             "code": "hi",
             "name": "Hindi"
-        }
+        },
+        "flag": "Images/w40-webp/in.webp"
     },
     {
         "name": "Indonesia",
@@ -1583,7 +1686,8 @@
         "language": {
             "code": "id",
             "name": "Indonesian"
-        }
+        },
+        "flag": "Images/w40-webp/id.webp"
     },
     {
         "name": "Côte d'Ivoire",
@@ -1598,7 +1702,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/ci.webp"
     },
     {
         "name": "Iran (Islamic Republic of)",
@@ -1613,7 +1718,8 @@
         "language": {
             "code": "fa",
             "name": "Persian (Farsi)"
-        }
+        },
+        "flag": "Images/w40-webp/ir.webp"
     },
     {
         "name": "Iraq",
@@ -1628,7 +1734,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/iq.webp"
     },
     {
         "name": "Ireland",
@@ -1643,7 +1750,8 @@
         "language": {
             "code": "ga",
             "name": "Irish"
-        }
+        },
+        "flag": "Images/w40-webp/ie.webp"
     },
     {
         "name": "Isle of Man",
@@ -1658,7 +1766,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/im.webp"
     },
     {
         "name": "Israel",
@@ -1673,7 +1782,8 @@
         "language": {
             "code": "he",
             "name": "Hebrew (modern)"
-        }
+        },
+        "flag": "Images/w40-webp/il.webp"
     },
     {
         "name": "Italy",
@@ -1688,7 +1798,8 @@
         "language": {
             "code": "it",
             "name": "Italian"
-        }
+        },
+        "flag": "Images/w40-webp/it.webp"
     },
     {
         "name": "Jamaica",
@@ -1703,7 +1814,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/jm.webp"
     },
     {
         "name": "Japan",
@@ -1718,7 +1830,8 @@
         "language": {
             "code": "ja",
             "name": "Japanese"
-        }
+        },
+        "flag": "Images/w40-webp/jp.webp"
     },
     {
         "name": "Jersey",
@@ -1735,7 +1848,8 @@
             "iso639_2": "eng",
             "name": "English",
             "nativeName": "English"
-        }
+        },
+        "flag": "Images/w40-webp/je.webp"
     },
     {
         "name": "Jordan",
@@ -1750,7 +1864,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/jo.webp"
     },
     {
         "name": "Kazakhstan",
@@ -1765,7 +1880,8 @@
         "language": {
             "code": "kk",
             "name": "Kazakh"
-        }
+        },
+        "flag": "Images/w40-webp/kz.webp"
     },
     {
         "name": "Kenya",
@@ -1780,7 +1896,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/ke.webp"
     },
     {
         "name": "Kiribati",
@@ -1795,7 +1912,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/ki.webp"
     },
     {
         "name": "Kuwait",
@@ -1810,7 +1928,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/kw.webp"
     },
     {
         "name": "Kyrgyzstan",
@@ -1825,7 +1944,8 @@
         "language": {
             "code": "ky",
             "name": "Kyrgyz"
-        }
+        },
+        "flag": "Images/w40-webp/kg.webp"
     },
     {
         "name": "Lao People's Democratic Republic",
@@ -1840,7 +1960,8 @@
         "language": {
             "code": "lo",
             "name": "Lao"
-        }
+        },
+        "flag": "Images/w40-webp/la.webp"
     },
     {
         "name": "Latvia",
@@ -1855,7 +1976,8 @@
         "language": {
             "code": "lv",
             "name": "Latvian"
-        }
+        },
+        "flag": "https://restcountries.eu/data/lva.svg"
     },
     {
         "name": "Lebanon",
@@ -1870,7 +1992,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/lb.webp"
     },
     {
         "name": "Lesotho",
@@ -1885,7 +2008,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/ls.webp"
     },
     {
         "name": "Liberia",
@@ -1900,7 +2024,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/lr.webp"
     },
     {
         "name": "Libya",
@@ -1915,7 +2040,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/ly.webp"
     },
     {
         "name": "Liechtenstein",
@@ -1930,7 +2056,8 @@
         "language": {
             "code": "de",
             "name": "German"
-        }
+        },
+        "flag": "Images/w40-webp/li.webp"
     },
     {
         "name": "Lithuania",
@@ -1945,7 +2072,8 @@
         "language": {
             "code": "lt",
             "name": "Lithuanian"
-        }
+        },
+        "flag": "Images/w40-webp/lt.webp"
     },
     {
         "name": "Luxembourg",
@@ -1960,7 +2088,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/lu.webp"
     },
     {
         "name": "Macao",
@@ -1975,7 +2104,8 @@
         "language": {
             "code": "zh",
             "name": "Chinese"
-        }
+        },
+        "flag": "Images/w40-webp/mo.webp"
     },
     {
         "name": "Macedonia (the former Yugoslav Republic of)",
@@ -1990,7 +2120,8 @@
         "language": {
             "code": "mk",
             "name": "Macedonian"
-        }
+        },
+        "flag": "Images/w40-webp/mk.webp"
     },
     {
         "name": "Madagascar",
@@ -2005,7 +2136,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/mg.webp"
     },
     {
         "name": "Malawi",
@@ -2020,7 +2152,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/mw.webp"
     },
     {
         "name": "Malaysia",
@@ -2035,7 +2168,8 @@
         "language": {
             "code": null,
             "name": "Malaysian"
-        }
+        },
+        "flag": "Images/w40-webp/my.webp"
     },
     {
         "name": "Maldives",
@@ -2050,7 +2184,8 @@
         "language": {
             "code": "dv",
             "name": "Divehi"
-        }
+        },
+        "flag": "Images/w40-webp/mv.webp"
     },
     {
         "name": "Mali",
@@ -2065,7 +2200,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/ml.webp"
     },
     {
         "name": "Malta",
@@ -2080,7 +2216,8 @@
         "language": {
             "code": "mt",
             "name": "Maltese"
-        }
+        },
+        "flag": "Images/w40-webp/mt.webp"
     },
     {
         "name": "Marshall Islands",
@@ -2095,7 +2232,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/mh.webp"
     },
     {
         "name": "Martinique",
@@ -2110,7 +2248,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/mq.webp"
     },
     {
         "name": "Mauritania",
@@ -2125,7 +2264,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/mr.webp"
     },
     {
         "name": "Mauritius",
@@ -2140,7 +2280,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/mu.webp"
     },
     {
         "name": "Mayotte",
@@ -2155,7 +2296,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/yt.webp"
     },
     {
         "name": "Mexico",
@@ -2170,7 +2312,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/mx.webp"
     },
     {
         "name": "Micronesia (Federated States of)",
@@ -2185,7 +2328,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/fm.webp"
     },
     {
         "name": "Moldova (Republic of)",
@@ -2200,7 +2344,8 @@
         "language": {
             "code": "ro",
             "name": "Romanian"
-        }
+        },
+        "flag": "Images/w40-webp/md.webp"
     },
     {
         "name": "Monaco",
@@ -2215,7 +2360,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/mc.webp"
     },
     {
         "name": "Mongolia",
@@ -2230,7 +2376,8 @@
         "language": {
             "code": "mn",
             "name": "Mongolian"
-        }
+        },
+        "flag": "Images/w40-webp/mn.webp"
     },
     {
         "name": "Montenegro",
@@ -2245,7 +2392,8 @@
         "language": {
             "code": "sr",
             "name": "Serbian"
-        }
+        },
+        "flag": "Images/w40-webp/ME.webp"
     },
     {
         "name": "Montserrat",
@@ -2260,7 +2408,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/ms.webp"
     },
     {
         "name": "Morocco",
@@ -2275,7 +2424,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/ma.webp"
     },
     {
         "name": "Mozambique",
@@ -2290,7 +2440,8 @@
         "language": {
             "code": "pt",
             "name": "Portuguese"
-        }
+        },
+        "flag": "Images/w40-webp/mz.webp"
     },
     {
         "name": "Myanmar",
@@ -2305,7 +2456,8 @@
         "language": {
             "code": "my",
             "name": "Burmese"
-        }
+        },
+        "flag": "Images/w40-webp/mm.webp"
     },
     {
         "name": "Namibia",
@@ -2320,7 +2472,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/na.webp"
     },
     {
         "name": "Nauru",
@@ -2335,7 +2488,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/nr.webp"
     },
     {
         "name": "Nepal",
@@ -2350,7 +2504,8 @@
         "language": {
             "code": "ne",
             "name": "Nepali"
-        }
+        },
+        "flag": "Images/w40-webp/np.webp"
     },
     {
         "name": "Netherlands",
@@ -2365,7 +2520,8 @@
         "language": {
             "code": "nl",
             "name": "Dutch"
-        }
+        },
+        "flag": "Images/w40-webp/nl.webp"
     },
     {
         "name": "New Caledonia",
@@ -2380,7 +2536,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/nc.webp"
     },
     {
         "name": "New Zealand",
@@ -2395,7 +2552,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/nz.webp"
     },
     {
         "name": "Nicaragua",
@@ -2410,7 +2568,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/ni.webp"
     },
     {
         "name": "Niger",
@@ -2425,7 +2584,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/ne.webp"
     },
     {
         "name": "Nigeria",
@@ -2440,7 +2600,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/ng.webp"
     },
     {
         "name": "Niue",
@@ -2455,7 +2616,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/nu.webp"
     },
     {
         "name": "Norfolk Island",
@@ -2470,7 +2632,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/nf.webp"
     },
     {
         "name": "Korea (Democratic People's Republic of)",
@@ -2485,7 +2648,8 @@
         "language": {
             "code": "ko",
             "name": "Korean"
-        }
+        },
+        "flag": "Images/w40-webp/kp.webp"
     },
     {
         "name": "Northern Mariana Islands",
@@ -2500,7 +2664,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/mp.webp"
     },
     {
         "name": "Norway",
@@ -2515,7 +2680,8 @@
         "language": {
             "code": "no",
             "name": "Norwegian"
-        }
+        },
+        "flag": "Images/w40-webp/no.webp"
     },
     {
         "name": "Oman",
@@ -2530,7 +2696,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/om.webp"
     },
     {
         "name": "Pakistan",
@@ -2545,7 +2712,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/pk.webp"
     },
     {
         "name": "Palau",
@@ -2560,7 +2728,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/pw.webp"
     },
     {
         "name": "Palestine, State of",
@@ -2575,7 +2744,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/ps.webp"
     },
     {
         "name": "Panama",
@@ -2590,7 +2760,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/pa.webp"
     },
     {
         "name": "Papua New Guinea",
@@ -2605,7 +2776,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/pg.webp"
     },
     {
         "name": "Paraguay",
@@ -2620,7 +2792,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/py.webp"
     },
     {
         "name": "Peru",
@@ -2635,7 +2808,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/pe.webp"
     },
     {
         "name": "Philippines",
@@ -2650,7 +2824,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/ph.webp"
     },
     {
         "name": "Pitcairn",
@@ -2665,7 +2840,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/pn.webp"
     },
     {
         "name": "Poland",
@@ -2680,7 +2856,8 @@
         "language": {
             "code": "pl",
             "name": "Polish"
-        }
+        },
+        "flag": "Images/w40-webp/pl.webp"
     },
     {
         "name": "Portugal",
@@ -2695,7 +2872,8 @@
         "language": {
             "code": "pt",
             "name": "Portuguese"
-        }
+        },
+        "flag": "Images/w40-webp/pt.webp"
     },
     {
         "name": "Puerto Rico",
@@ -2710,7 +2888,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/pr.webp"
     },
     {
         "name": "Qatar",
@@ -2725,7 +2904,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/qa.webp"
     },
     {
         "name": "Republic of Kosovo",
@@ -2740,7 +2920,8 @@
         "language": {
             "code": "sq",
             "name": "Albanian"
-        }
+        },
+        "flag": "Images/w40-webp/xk.webp"
     },
     {
         "name": "Réunion",
@@ -2755,7 +2936,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/re.webp"
     },
     {
         "name": "Romania",
@@ -2770,7 +2952,8 @@
         "language": {
             "code": "ro",
             "name": "Romanian"
-        }
+        },
+        "flag": "Images/w40-webp/ro.webp"
     },
     {
         "name": "Russian Federation",
@@ -2785,7 +2968,8 @@
         "language": {
             "code": "ru",
             "name": "Russian"
-        }
+        },
+        "flag": "Images/w40-webp/ru.webp"
     },
     {
         "name": "Rwanda",
@@ -2800,7 +2984,8 @@
         "language": {
             "code": "rw",
             "name": "Kinyarwanda"
-        }
+        },
+        "flag": "Images/w40-webp/rw.webp"
     },
     {
         "name": "Saint Barthélemy",
@@ -2815,7 +3000,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/bl.webp"
     },
     {
         "name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -2830,7 +3016,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/sh.webp"
     },
     {
         "name": "Saint Kitts and Nevis",
@@ -2845,7 +3032,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/kn.webp"
     },
     {
         "name": "Saint Lucia",
@@ -2860,7 +3048,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/lc.webp"
     },
     {
         "name": "Saint Martin (French part)",
@@ -2875,7 +3064,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/mf.webp"
     },
     {
         "name": "Saint Pierre and Miquelon",
@@ -2890,7 +3080,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/pm.webp"
     },
     {
         "name": "Saint Vincent and the Grenadines",
@@ -2905,7 +3096,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/vc.webp"
     },
     {
         "name": "Samoa",
@@ -2920,7 +3112,8 @@
         "language": {
             "code": "sm",
             "name": "Samoan"
-        }
+        },
+        "flag": "Images/w40-webp/ws.webp"
     },
     {
         "name": "San Marino",
@@ -2935,7 +3128,8 @@
         "language": {
             "code": "it",
             "name": "Italian"
-        }
+        },
+        "flag": "Images/w40-webp/sm.webp"
     },
     {
         "name": "Sao Tome and Principe",
@@ -2950,7 +3144,8 @@
         "language": {
             "code": "pt",
             "name": "Portuguese"
-        }
+        },
+        "flag": "Images/w40-webp/st.webp"
     },
     {
         "name": "Saudi Arabia",
@@ -2965,7 +3160,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/sa.webp"
     },
     {
         "name": "Senegal",
@@ -2980,7 +3176,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/sn.webp"
     },
     {
         "name": "Serbia",
@@ -2995,7 +3192,8 @@
         "language": {
             "code": "sr",
             "name": "Serbian"
-        }
+        },
+        "flag": "Images/w40-webp/rs.webp"
     },
     {
         "name": "Seychelles",
@@ -3010,7 +3208,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/sc.webp"
     },
     {
         "name": "Sierra Leone",
@@ -3025,7 +3224,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/sl.webp"
     },
     {
         "name": "Singapore",
@@ -3040,7 +3240,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/sg.webp"
     },
     {
         "name": "Sint Maarten (Dutch part)",
@@ -3055,7 +3256,8 @@
         "language": {
             "code": "nl",
             "name": "Dutch"
-        }
+        },
+        "flag": "Images/w40-webp/sx.webp"
     },
     {
         "name": "Slovakia",
@@ -3070,7 +3272,8 @@
         "language": {
             "code": "sk",
             "name": "Slovak"
-        }
+        },
+        "flag": "Images/w40-webp/sk.webp"
     },
     {
         "name": "Slovenia",
@@ -3085,7 +3288,8 @@
         "language": {
             "code": "sl",
             "name": "Slovene"
-        }
+        },
+        "flag": "Images/w40-webp/si.webp"
     },
     {
         "name": "Solomon Islands",
@@ -3100,7 +3304,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/sb.webp"
     },
     {
         "name": "Somalia",
@@ -3115,7 +3320,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/so.webp"
     },
     {
         "name": "South Africa",
@@ -3132,7 +3338,8 @@
             "iso639_2": "eng",
             "name": "English",
             "nativeName": "English"
-        }
+        },
+        "flag": "Images/w40-webp/ZA.webp"
     },
     {
         "name": "South Georgia and the South Sandwich Islands",
@@ -3147,7 +3354,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/gs.webp"
     },
     {
         "name": "Korea (Republic of)",
@@ -3162,7 +3370,8 @@
         "language": {
             "code": "ko",
             "name": "Korean"
-        }
+        },
+        "flag": "Images/w40-webp/kr.webp"
     },
     {
         "name": "South Sudan",
@@ -3177,7 +3386,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/ss.webp"
     },
     {
         "name": "Spain",
@@ -3192,7 +3402,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/es.webp"
     },
     {
         "name": "Sri Lanka",
@@ -3209,7 +3420,8 @@
             "iso639_2": "sin",
             "name": "Sinhalese",
             "nativeName": "සිංහල"
-        }
+        },
+        "flag": "Images/w40-webp/lk.webp"
     },
     {
         "name": "Sudan",
@@ -3224,7 +3436,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/sd.webp"
     },
     {
         "name": "Suriname",
@@ -3239,7 +3452,8 @@
         "language": {
             "code": "nl",
             "name": "Dutch"
-        }
+        },
+        "flag": "Images/w40-webp/sr.webp"
     },
     {
         "name": "Svalbard and Jan Mayen",
@@ -3254,7 +3468,8 @@
         "language": {
             "code": "no",
             "name": "Norwegian"
-        }
+        },
+        "flag": "Images/w40-webp/sj.webp"
     },
     {
         "name": "Swaziland",
@@ -3269,7 +3484,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/sz.webp"
     },
     {
         "name": "Sweden",
@@ -3284,7 +3500,8 @@
         "language": {
             "code": "sv",
             "name": "Swedish"
-        }
+        },
+        "flag": "Images/w40-webp/se.webp"
     },
     {
         "name": "Switzerland",
@@ -3299,7 +3516,8 @@
         "language": {
             "code": "de",
             "name": "German"
-        }
+        },
+        "flag": "Images/w40-webp/ch.webp"
     },
     {
         "name": "Syrian Arab Republic",
@@ -3314,7 +3532,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/sy.webp"
     },
     {
         "name": "Taiwan",
@@ -3329,7 +3548,8 @@
         "language": {
             "code": "zh",
             "name": "Chinese"
-        }
+        },
+        "flag": "Images/w40-webp/tw.webp"
     },
     {
         "name": "Tajikistan",
@@ -3344,7 +3564,8 @@
         "language": {
             "code": "tg",
             "name": "Tajik"
-        }
+        },
+        "flag": "Images/w40-webp/tj.webp"
     },
     {
         "name": "Tanzania, United Republic of",
@@ -3359,7 +3580,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/tz.webp"
     },
     {
         "name": "Thailand",
@@ -3374,7 +3596,8 @@
         "language": {
             "code": "th",
             "name": "Thai"
-        }
+        },
+        "flag": "Images/w40-webp/th.webp"
     },
     {
         "name": "Timor-Leste",
@@ -3389,7 +3612,8 @@
         "language": {
             "code": "pt",
             "name": "Portuguese"
-        }
+        },
+        "flag": "Images/w40-webp/tl.webp"
     },
     {
         "name": "Togo",
@@ -3404,7 +3628,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/tg.webp"
     },
     {
         "name": "Tokelau",
@@ -3419,7 +3644,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/tk.webp"
     },
     {
         "name": "Tonga",
@@ -3434,7 +3660,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/to.webp"
     },
     {
         "name": "Trinidad and Tobago",
@@ -3449,7 +3676,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/tt.webp"
     },
     {
         "name": "Tunisia",
@@ -3464,7 +3692,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "https://restcountries.eu/data/tun.svg"
     },
     {
         "name": "Turkey",
@@ -3479,7 +3708,8 @@
         "language": {
             "code": "tr",
             "name": "Turkish"
-        }
+        },
+        "flag": "Images/w40-webp/tr.webp"
     },
     {
         "name": "Turkmenistan",
@@ -3494,7 +3724,8 @@
         "language": {
             "code": "tk",
             "name": "Turkmen"
-        }
+        },
+        "flag": "Images/w40-webp/tm.webp"
     },
     {
         "name": "Turks and Caicos Islands",
@@ -3509,7 +3740,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/tc.webp"
     },
     {
         "name": "Tuvalu",
@@ -3524,7 +3756,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/tv.webp"
     },
     {
         "name": "Uganda",
@@ -3539,7 +3772,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/ug.webp"
     },
     {
         "name": "Ukraine",
@@ -3554,7 +3788,8 @@
         "language": {
             "code": "uk",
             "name": "Ukrainian"
-        }
+        },
+        "flag": "Images/w40-webp/ua.webp"
     },
     {
         "name": "United Arab Emirates",
@@ -3569,7 +3804,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/ae.webp"
     },
     {
         "name": "United Kingdom of Great Britain and Northern Ireland",
@@ -3584,7 +3820,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/gb-eng.webp"
     },
     {
         "name": "United States of America",
@@ -3601,7 +3838,8 @@
             "iso639_2": "eng",
             "name": "English",
             "nativeName": "English"
-        }
+        },
+        "flag": "Images/w40-webp/us.webp"
     },
     {
         "name": "Uruguay",
@@ -3616,7 +3854,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/uy.webp"
     },
     {
         "name": "Uzbekistan",
@@ -3631,7 +3870,8 @@
         "language": {
             "code": "uz",
             "name": "Uzbek"
-        }
+        },
+        "flag": "Images/w40-webp/uz.webp"
     },
     {
         "name": "Vanuatu",
@@ -3646,7 +3886,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/vu.webp"
     },
     {
         "name": "Venezuela (Bolivarian Republic of)",
@@ -3661,7 +3902,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/ve.webp"
     },
     {
         "name": "Viet Nam",
@@ -3676,7 +3918,8 @@
         "language": {
             "code": "vi",
             "name": "Vietnamese"
-        }
+        },
+        "flag": "Images/w40-webp/vn.webp"
     },
     {
         "name": "Wallis and Futuna",
@@ -3691,7 +3934,8 @@
         "language": {
             "code": "fr",
             "name": "French"
-        }
+        },
+        "flag": "Images/w40-webp/wf.webp"
     },
     {
         "name": "Western Sahara",
@@ -3706,7 +3950,8 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        }
+        },
+        "flag": "Images/w40-webp/eh.webp"
     },
     {
         "name": "Yemen",
@@ -3721,7 +3966,8 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        }
+        },
+        "flag": "Images/w40-webp/ye.webp"
     },
     {
         "name": "Zambia",
@@ -3736,7 +3982,8 @@
         "language": {
             "code": "en",
             "name": "English"
-        }
+        },
+        "flag": "Images/w40-webp/zm.webp"
     },
     {
         "name": "Zimbabwe",
@@ -3753,6 +4000,7 @@
             "iso639_2": "eng",
             "name": "English",
             "nativeName": "English"
-        }
+        },
+        "flag": "Images/w40-webp/zw.webp"
     }
 ]

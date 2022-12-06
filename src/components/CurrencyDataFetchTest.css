@@ -47,13 +47,13 @@
 }
 .CurrencyDataFetchSymbol{
     color: #3380F2;
-    font-size:20px;
+    font-size:15px;
     font-weight: 700;
     margin-left: 10%;
 }
 .CurrencyDataFetchImage{
-    width: 40px;
-    height: 30px;
+    width: 30px;
+    height: 20px;
     margin-bottom: 5%;
     margin-left: 10%;
     margin-right: 2%;
