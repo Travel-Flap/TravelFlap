@@ -326,11 +326,16 @@ export const BlogPageFeaturedexplore = () => {
                  <div className='BlogPageFeaturedexplore-popularblog2div'>
                     <p>Follow Us</p>
                  <div className='BlogPageFeaturedexplore-popularblog2' >
-                   
+{/*                    
                     <div className='iconblogdiv2'><FaFacebook/></div>
                     <div className='iconblogdiv'><FaInstagramSquare/></div>
                     <div className='iconblogdiv'><FaTwitter/></div>
-                    <div className='iconblogdiv'><FaYoutube/></div>
+                    <div className='iconblogdiv'><FaYoutube/></div> */}
+
+                    <div className='iconblogdiv2'> <a href=" https://www.facebook.com/travelflap/"><FaFacebook/></a></div>
+                    <div className='iconblogdiv'> <a href="https://www.instagram.com/travelflap/"><FaInstagramSquare/></a></div>
+                    <div className='iconblogdiv'> <a href="https://twitter.com/TravelFlap"><FaTwitter/></a></div>
+                    <div className='iconblogdiv'><a href="https://twitter.com/TravelFlap"><FaYoutube/></a></div>
                  </div>
                  </div>
 

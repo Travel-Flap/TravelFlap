@@ -17,7 +17,7 @@ export const Banner2 = () => {
          <input type="text" placeholder=  "  Your name" name="search" className='blogpage-banner2input'/>
          <input type="text" placeholder=  "  Shoot category" name="search" className='blogpage-banner2input'/>
          <input type="text" placeholder=  "  Describe what kind of photos you want to focus on " name="search" className='blogpage-banner2input2'/>
-         <button type="button" className="btn btn-primary  banner2inputbutton ">Submite</button>
+         <button type="button" className="btn btn-primary  banner2inputbutton ">Submit</button>
          </div>
          </div> 
     </div>

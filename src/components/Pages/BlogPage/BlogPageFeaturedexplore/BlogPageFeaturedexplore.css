@@ -188,8 +188,10 @@ margin-right: 5%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     color: #393939;
 
-
-
+}
+.iconblogdiv a{
+    text-decoration: none;
+    color: #393939;
 }
 .iconblogdiv2{
     background-color: #3380f2;
@@ -205,11 +207,11 @@ margin-right: 5%;
     padding-top: 1%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     color: white;
-
-
-
 }
-
+.iconblogdiv2 a{
+    color: white;
+    text-decoration: none;
+}
 .BlogPageFeaturedexplore-popularblog3{
     /* border: 2px solid green; */
     width: 100%;

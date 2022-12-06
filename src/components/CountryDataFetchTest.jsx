@@ -79,7 +79,7 @@ export const CountryDataFetchTest = () => {
           //  <p className='CountryDataFetchNames'>
             <div className='CountryDataFetchdetails'>
               {/* {item.name} */}
-              {/* <img className='CountryDataFetchImage' src={item.flag}/> */}
+              <img className='CountryDataFetchImage' src={item.flag}/>
               {/* <img className='CountryDataFetchImage' src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/800px-Flag_of_India.svg.png"/> */}
               <h6 className='CountryDataFetchCodes'>{item.name}</h6>
               {/* <h6 className='CountryDataFetchLangugeCodes'>{item.language.code} </h6> */}
