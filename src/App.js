@@ -68,7 +68,6 @@ import { BlogPage } from "./components/Pages/BlogPage/BlogPage";
 
 import { NewHelpPage } from "./components/Pages/NewHelpPage/NewHelpPage";
 
-
 function App() {
   return (
     <>
@@ -105,13 +104,14 @@ function App() {
       {/* <Link to="/hotels"><Hotel/></Link> */}
       {/* <Link to="/Holidays"></Link> */}
       {/* <Router path="./components/Pages/Home/Home.jsx">Home</Router> */}
-      <Routes>
         {/* <Route path="/flights" element={<Flights/>} /> */}
         {/* <Route path="/holidays" element={<Holidays />} /> */}
         {/* <Route path="/rentals" element={ <Rentals/>} /> */}
         {/* <Route path="/offers" element={<Offers />}   /> */}
 
         {/* <Route path="/" element={<NewHomeLayout/>} /> */}
+
+      <Routes>
         <Route path="/" element={<NewFlight />} />
         <Route path="/home" element={<NewHomeLayout />} />
 
@@ -228,3 +228,37 @@ function App() {
 }
 
 export default App;
+
+// import React from "react";
+// import { Route, Routes } from "react-router-dom";
+// // import Navbar from "./components/Pages/LoginSignUp/";
+// import { AuthContextProvider } from "./components/Pages/LoginSignUp/context/AuthContext";
+// import Account from "./components/Pages/LoginSignUp/Pages/Account";
+// import Home from "./components/Pages/LoginSignUp/Pages/Home";
+// import Signin from "./components/Pages/LoginSignUp/Pages/SignIn";
+
+// import Protected from "./components/Pages/LoginSignUp/Pages/Protected"
+
+// function App() {
+//   return (
+//     <div>
+//       <AuthContextProvider>
+//         <Navbar />
+//         <Routes>
+//           <Route path="/" element={<Home />} />
+//           <Route path="/signin" element={<Signin />} />
+//           <Route
+//             path="/account"
+//             element={
+//               <Protected>
+//                 <Account />
+//               </Protected>
+//             }
+//           />
+//         </Routes>
+//       </AuthContextProvider>
+//     </div>
+//   );
+// }
+
+// export default App;

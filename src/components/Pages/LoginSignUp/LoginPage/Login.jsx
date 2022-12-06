@@ -1,10 +1,73 @@
-import React from 'react';
+import { useContext, createContext, useEffect, useState } from "react";
 import "./Login.css";
 import { Link } from 'react-router-dom';
 
+import { auth, google, facebook, twitter, github } from '../firebase';
+import { signInWithPopup, signOut } from 'firebase/auth';
+import { BsFacebook } from "react-icons/bs";
+import { FcGoogle } from "react-icons/fc";
+
+import Home from "../Home";
+import { GoogleButton } from 'react-google-button';
+import { UserAuth } from '../context/AuthContext';
+import { useNavigate } from 'react-router-dom';
+
 export const LoginPageTravelFlap = () => {
 
+    // This part is from the same project
+    const [isLogin, setIsLogin] = useState(false);
+    const [user, setUser] = useState(null);
+
+    const LoginTrue = () => (
+        <>
+
+        
+            <h1>Welcome!</h1>
+            <img src={user.photoURL} style={{ width: 120 }} />
+            <p>Welcome {user.displayName}! Your account {user.email} has been successfully logged in at {user.metadata.lastSignInTime}</p>
+            <button style={{ width: 150 }} onClick={logout}>
+                Logout
+            </button>
+        </>
+    )
+
+    const login = async (provider) => {
+        const result = await signInWithPopup(auth, provider)
+        setUser(result.user)
+        setIsLogin(true)
+        console.log(result)
+    }
+
+    const logout = async () => {
+        const result = await signOut(auth)
+        setUser(null)
+        setIsLogin(false)
+        console.log(result)
+    }
+
+
+    // This part is from different project
+
+    // const { googleSignIn, user } = UserAuth();
+    // const navigate = useNavigate();
+
+    // const handleGoogleSignIn = async () => {
+    //     try {
+    //         await googleSignIn();
+    //     } catch (error) {
+    //         console.log(error);
+    //     }
+    // };
+
+    // useEffect(() => {
+    //     if (user != null) {
+    //         navigate('/flights');
+    //     }
+    // }, [user]);
+
     return (
+
+
         <>
             <div className='travelFlaploginPageOuterDiv'>
 
@@ -15,11 +78,13 @@ export const LoginPageTravelFlap = () => {
                     <div className='travelFlaploginPageInnerDiv'>
                         <div className='travelFlaploginPageFormDiv'>
 
-                            <h3> loginPage </h3>
+                            <h3> LoginPage </h3>
 
                             <div className='loginPageSocialIcons'>
-                                <img src='/Images/NewHomeLayout/LoginSignup/socialoginoptions.png' alt='social icons' />
-
+                                {/* <img  onClick={() => login(google)} src='/Images/NewHomeLayout/LoginSignup/socialoginoptions.png' alt='social icons' /> */}
+                                <FcGoogle onClick={() => login(google)} style={{fontSize:"25px", marginRight:"4%", marginTop:"0.7%"}}/>
+                                <img onClick={() => login(facebook)} src="/Images/NewHomeLayout/LoginSignup/facebook.png" style={{height:"23px"}} alt="image"/>
+                                {/* <BsFacebook onClick={() => login(facebook)}/> */}
                                 <p> or </p>
                             </div>
 
@@ -87,7 +152,7 @@ export const LoginPageTravelFlap = () => {
                                         </div>
                                     </div>
                                 </div> */}
-
+{/* 
                                 <div className="col-12">
                                     <div className="form-check loginPageAgreementDiv" >
                                         <input className="form-check-input loginPageAgreementCheckBoxDiv" type="checkbox" value="" id="invalidCheck" required />
@@ -98,7 +163,7 @@ export const LoginPageTravelFlap = () => {
                                             You must agree before submitting.
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 <div className="col-12">
                                     <button className="btn btn-primary loginPageSubmitButtonDiv" type="submit">Submit form</button>
@@ -115,6 +180,30 @@ export const LoginPageTravelFlap = () => {
                             </form>
                         </div>
 
+                        {/* <h1>Login please...</h1>
+                        <button style={{ width: 150, backgroundColor: '#de5246', color: 'white' }}
+                            onClick={() => login(google)}>
+                            Login with Google
+                        </button>
+                        <button style={{ width: 150, backgroundColor: '#3b5998', color: 'white' }}
+                            onClick={() => login(facebook)}>
+                            Login with Facebook
+                        </button> */}
+
+                        {/* <div>
+                            <NewFlight/>
+                            <button onClick={handleClick}>Signin With Google</button>
+                            {value ? <Home/> :
+                                <button onClick={handleClick}>Signin With Google</button>
+                            }
+                        </div> */}
+
+                        {/* <div className='loginGoogleButton'>
+                            <h1 className='text-center text-3xl font-bold py-8'>Sign in</h1>
+                            <div className=' '>
+                                <GoogleButton onClick={handleGoogleSignIn} />
+                            </div>
+                        </div> */}
 
                         <div className='travelFlaploginPageImageDiv'>
                             <img src='/Images/NewHomeLayout/LoginSignup/loginsignuptextimage.png' alt='loginPage image' />

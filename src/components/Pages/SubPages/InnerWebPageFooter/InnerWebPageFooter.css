@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   /* border: 5px solid green; */
-  background-color: #212A30;
+  background-color: #212a30;
   margin-top: 2%;
   /* height: 800px; */
   font-family: "TT Hoves Variable", -apple-system, BlinkMacSystemFont,
@@ -145,10 +145,29 @@
   font-size: 12px;
   /* font-weight: 300; */
 
-  margin-top: 8%;
+  margin-top: 2%;
   color: rgb(194, 194, 194);
 }
 
+.listwiseCountry {
+  font-size: 12px;
+  /* font-weight: 300; */
+
+  margin-top: 2%;
+  color: rgb(194, 194, 194);
+}
+
+.listwiseCountry li {
+  /* border: 1px solid red; */
+  margin-top: 26%;
+}
+
+
+.listwise li {
+  border: 1px solid #212a30;
+  margin-bottom: 2%;
+  margin-top: 0%;
+}
 
 .listwise1 {
   font-size: 12px;
@@ -308,7 +327,7 @@
   text-align: center;
   font-weight: 700;
   font-size: 18px;
-  background-color: #212A30;
+  background-color: #212a30;
   margin-top: 1%;
 }
 .innerwebpageFooter p {
@@ -391,7 +410,7 @@
 }
 
 .innerfooterPaymentOptions {
-  background-color: #212A30;
+  background-color: #212a30;
   height: 60px;
   display: flex;
   flex-direction: row;

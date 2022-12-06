@@ -756,14 +756,14 @@ export const InnerWebPageFooter = () => {
                             <div className='innerFooterContactUsDiv'>
                                 <div>
                                     <ul>
-                                        <div className='listwise'>
+                                        <div className='listwiseCountry'>
                                             <li className='newFooterContentHeadingDiv' style={{marginTop:"10%"}}>India</li>
                                             <li className='newFooterContentHeadingDiv' >US</li>
-                                            <li className='newFooterContentHeadingDiv' >India</li>
+                                            {/* <li className='newFooterContentHeadingDiv' >India</li> */}
                                             <li className='newFooterContentHeadingDiv' >Kenya</li>
                                             <li className='newFooterContentHeadingDiv' >UAE</li>
-                                            <li className='newFooterContentHeadingDiv' >UAE</li>
-                                            <li className='newFooterContentHeadingDiv' >UAE</li>
+                                            {/* <li className='newFooterContentHeadingDiv' >UAE</li>
+                                            <li className='newFooterContentHeadingDiv' >UAE</li> */}
                                         </div>
                                     </ul>
                                 </div>
@@ -772,13 +772,14 @@ export const InnerWebPageFooter = () => {
                                     <ul>
                                         <div className='listwise'>
 
-                                            <li className='newFooterContentHeadingDiv' > +918209366227  </li>
+                                            <li className='newFooterContentHeadingDiv' > +918209366227,+917877680588   </li>
+                                            {/* <br /> */}
                                             <li className='newFooterContentHeadingDiv' > +19176956550 </li>
-                                            <li className='newFooterContentHeadingDiv' > +917877680588 </li>
+                                            {/* <li className='newFooterContentHeadingDiv' > </li> */}
                                             <li className='newFooterContentHeadingDiv' >+254 787 213 522 </li>
-                                            <li className='newFooterContentHeadingDiv' >+971553070316</li>
-                                            <li className='newFooterContentHeadingDiv' >+971585978776</li>
-                                            <li className='newFooterContentHeadingDiv' >+971 -56 566 4624</li>
+                                            <li className='newFooterContentHeadingDiv' >+971553070316,+971585978776,+971 -56 566 4624</li>
+                                            <li className='newFooterContentHeadingDiv' ></li>
+                                            <li className='newFooterContentHeadingDiv' ></li>
 
                                         </div>
                                     </ul>
