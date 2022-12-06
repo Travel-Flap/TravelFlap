@@ -64,7 +64,7 @@ import { ActivitiesChildInnerPage } from "./components/Pages/SubPages/Activities
 import { CruiseDetailsWIreFrame } from "./components/Pages/NewCruisePage/CruiseDetailsWireframe/CruiseDetailsWIreFrame";
 import { LoginPageTravelFlap } from "./components/Pages/LoginSignUp/LoginPage/Login";
 import { SignupPageTravelFlap } from "./components/Pages/LoginSignUp/SignupPage/Signup";
-import { Blog } from "./components/Pages/NewBlogsPage/BlogsPage"
+import { BlogPage } from "./components/Pages/BlogPage/BlogPage";
 
 import { NewHelpPage } from "./components/Pages/NewHelpPage/NewHelpPage";
 
@@ -219,7 +219,7 @@ function App() {
         <Route path="/signupPage" element={<SignupPageTravelFlap />} />
 
         <Route path="/helpPage" element={<NewHelpPage />} />
-        <Route path="/blogs" element={<Blog />} />
+        <Route path="/blogs" element={<BlogPage/>}/>
         <Route path="/contact" element={<ContactUS />} />
       </Routes>
 
