@@ -12,8 +12,8 @@
         "language": {
             "code": "ps",
             "name": "Pashto"
-        },
-        "flag":"https://flagcdn.com/w320/aw.png"
+        }
+        
     },
     {
         "name": "Åland Islands",
@@ -28,8 +28,7 @@
         "language": {
             "code": "sv",
             "name": "Swedish"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AX.svg"
+        }
     },
     {
         "name": "Albania",
@@ -44,8 +43,7 @@
         "language": {
             "code": "sq",
             "name": "Albanian"
-        },
-        "flag": "https://restcountries.eu/data/alb.svg"
+        }
     },
     {
         "name": "Algeria",
@@ -60,8 +58,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/dza.svg"
+        }
     },
     {
         "name": "American Samoa",
@@ -76,8 +73,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/asm.svg"
+        }
     },
     {
         "name": "Andorra",
@@ -92,8 +88,7 @@
         "language": {
             "code": "ca",
             "name": "Catalan"
-        },
-        "flag":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AD.svg"
+        }
     },
     {
         "name": "Angola",
@@ -108,8 +103,7 @@
         "language": {
             "code": "pt",
             "name": "Portuguese"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AO.svg"
+        }
     },
     {
         "name": "Anguilla",
@@ -124,8 +118,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AI.svg"
+        }
     },
     {
         "name": "Antigua and Barbuda",
@@ -140,8 +133,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AG.svg"
+        }
     },
     {
         "name": "Argentina",
@@ -156,8 +148,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AR.svg"
+        }
     },
     {
         "name": "Armenia",
@@ -172,8 +163,7 @@
         "language": {
             "code": "hy",
             "name": "Armenian"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AM.svg"
+        }
     },
     {
         "name": "Aruba",
@@ -188,8 +178,7 @@
         "language": {
             "code": "nl",
             "name": "Dutch"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AW.svg"
+        }
     },
     {
         "name": "Australia",
@@ -204,8 +193,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AU.svg"
+        }
     },
     {
         "name": "Austria",
@@ -220,8 +208,7 @@
         "language": {
             "code": "de",
             "name": "German"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AT.svg"
+        }
     },
     {
         "name": "Azerbaijan",
@@ -236,8 +223,7 @@
         "language": {
             "code": "az",
             "name": "Azerbaijani"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AZ.svg"
+        }
     },
     {
         "name": "Bahamas",
@@ -252,8 +238,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BS.svg"
+        }
     },
     {
         "name": "Bahrain",
@@ -268,8 +253,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BH.svg"
+        }
     },
     {
         "name": "Bangladesh",
@@ -284,8 +268,7 @@
         "language": {
             "code": "bn",
             "name": "Bengali"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BD.svg"
+        }
     },
     {
         "name": "Barbados",
@@ -300,8 +283,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BB.svg"
+        }
     },
     {
         "name": "Belarus",
@@ -316,8 +298,7 @@
         "language": {
             "code": "be",
             "name": "Belarusian"
-        },
-        "flag": "https://restcountries.eu/data/blr.svg"
+        }
     },
     {
         "name": "Belgium",
@@ -332,8 +313,7 @@
         "language": {
             "code": "nl",
             "name": "Dutch"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BE.svg"
+        }
     },
     {
         "name": "Belize",
@@ -348,8 +328,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/blz.svg"
+        }
     },
     {
         "name": "Benin",
@@ -364,8 +343,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BJ.svg"
+        }
     },
     {
         "name": "Bermuda",
@@ -380,8 +358,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BM.svg"
+        }
     },
     {
         "name": "Bhutan",
@@ -396,8 +373,7 @@
         "language": {
             "code": "dz",
             "name": "Dzongkha"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BT.svg"
+        }
     },
     {
         "name": "Bolivia (Plurinational State of)",
@@ -412,8 +388,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BO.svg"
+        }
     },
     {
         "name": "Bonaire, Sint Eustatius and Saba",
@@ -428,8 +403,7 @@
         "language": {
             "code": "nl",
             "name": "Dutch"
-        },
-        "flag": "https://restcountries.eu/data/bes.svg"
+        }
     },
     {
         "name": "Bosnia and Herzegovina",
@@ -444,8 +418,7 @@
         "language": {
             "code": "bs",
             "name": "Bosnian"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BA.svg"
+        }
     },
     {
         "name": "Botswana",
@@ -460,8 +433,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BA.svg"
+        }
     },
     {
         "name": "Bouvet Island",
@@ -476,8 +448,7 @@
         "language": {
             "code": "no",
             "name": "Norwegian"
-        },
-        "flag":"https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BV.svg"
+        }
     },
     {
         "name": "Brazil",
@@ -492,8 +463,7 @@
         "language": {
             "code": "pt",
             "name": "Portuguese"
-        },
-        "flag": "https://restcountries.eu/data/bra.svg"
+        }
     },
     {
         "name": "British Indian Ocean Territory",
@@ -508,8 +478,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/iot.svg"
+        }
     },
     {
         "name": "United States Minor Outlying Islands",
@@ -524,8 +493,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/umi.svg"
+        }
     },
     {
         "name": "Virgin Islands (British)",
@@ -540,8 +508,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/vgb.svg"
+        }
     },
     {
         "name": "Virgin Islands (U.S.)",
@@ -556,8 +523,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/vir.svg"
+        }
     },
     {
         "name": "Brunei Darussalam",
@@ -572,8 +538,7 @@
         "language": {
             "code": "ms",
             "name": "Malay"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BN.svg"
+        }
     },
     {
         "name": "Bulgaria",
@@ -588,8 +553,7 @@
         "language": {
             "code": "bg",
             "name": "Bulgarian"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BG.svg"
+        }
     },
     {
         "name": "Burkina Faso",
@@ -604,8 +568,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BF.svg"
+        }
     },
     {
         "name": "Burundi",
@@ -620,8 +583,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BI.svg"
+        }
     },
     {
         "name": "Cambodia",
@@ -636,8 +598,7 @@
         "language": {
             "code": "km",
             "name": "Khmer"
-        },
-        "flag": "https://restcountries.eu/data/khm.svg"
+        }
     },
     {
         "name": "Cameroon",
@@ -652,8 +613,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/cmr.svg"
+        }
     },
     {
         "name": "Canada",
@@ -668,8 +628,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/can.svg"
+        }
     },
     {
         "name": "Cabo Verde",
@@ -686,8 +645,7 @@
             "iso639_2": "por",
             "name": "Portuguese",
             "nativeName": "Português"
-        },
-        "flag": "https://restcountries.eu/data/cpv.svg"
+        }
     },
     {
         "name": "Cayman Islands",
@@ -703,8 +661,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/cym.svg"
+        }
     },
     {
         "name": "Central African Republic",
@@ -719,8 +676,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/caf.svg"
+        }
     },
     {
         "name": "Chad",
@@ -735,8 +691,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/tcd.svg"
+        }
     },
     {
         "name": "Chile",
@@ -753,8 +708,7 @@
             "iso639_2": "spa",
             "name": "Spanish",
             "nativeName": "Español"
-        },
-        "flag": "https://restcountries.eu/data/chl.svg"
+        }
     },
     {
         "name": "China",
@@ -769,8 +723,7 @@
         "language": {
             "code": "zh",
             "name": "Chinese"
-        },
-        "flag": "https://restcountries.eu/data/chn.svg"
+        }
     },
     {
         "name": "Christmas Island",
@@ -785,8 +738,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/cxr.svg"
+        }
     },
     {
         "name": "Cocos (Keeling) Islands",
@@ -801,8 +753,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/cck.svg"
+        }
     },
     {
         "name": "Colombia",
@@ -817,8 +768,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/col.svg"
+        }
     },
     {
         "name": "Comoros",
@@ -833,8 +783,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/com.svg"
+        }
     },
     {
         "name": "Congo",
@@ -849,8 +798,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/cog.svg"
+        }
     },
     {
         "name": "Congo (Democratic Republic of the)",
@@ -865,8 +813,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/cod.svg"
+        }
     },
     {
         "name": "Cook Islands",
@@ -881,8 +828,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/cok.svg"
+        }
     },
     {
         "name": "Costa Rica",
@@ -897,8 +843,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/cri.svg"
+        }
     },
     {
         "name": "Croatia",
@@ -913,8 +858,7 @@
         "language": {
             "code": "hr",
             "name": "Croatian"
-        },
-        "flag": "https://restcountries.eu/data/hrv.svg"
+        }
     },
     {
         "name": "Cuba",
@@ -929,8 +873,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/cub.svg"
+        }
     },
     {
         "name": "Curaçao",
@@ -945,8 +888,7 @@
         "language": {
             "code": "nl",
             "name": "Dutch"
-        },
-        "flag": "https://restcountries.eu/data/cuw.svg"
+        }
     },
     {
         "name": "Cyprus",
@@ -961,8 +903,7 @@
         "language": {
             "code": "tr",
             "name": "Turkish"
-        },
-        "flag": "https://restcountries.eu/data/cyp.svg"
+        }
     },
     {
         "name": "Czech Republic",
@@ -977,8 +918,7 @@
         "language": {
             "code": "cs",
             "name": "Czech"
-        },
-        "flag": "https://restcountries.eu/data/cze.svg"
+        }
     },
     {
         "name": "Denmark",
@@ -993,8 +933,7 @@
         "language": {
             "code": "da",
             "name": "Danish"
-        },
-        "flag": "https://restcountries.eu/data/dnk.svg"
+        }
     },
     {
         "name": "Djibouti",
@@ -1009,8 +948,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/dji.svg"
+        }
     },
     {
         "name": "Dominica",
@@ -1025,8 +963,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/dma.svg"
+        }
     },
     {
         "name": "Dominican Republic",
@@ -1041,8 +978,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/dom.svg"
+        }
     },
     {
         "name": "Ecuador",
@@ -1057,8 +993,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/ecu.svg"
+        }
     },
     {
         "name": "Egypt",
@@ -1073,8 +1008,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/egy.svg"
+        }
     },
     {
         "name": "El Salvador",
@@ -1089,8 +1023,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/slv.svg"
+        }
     },
     {
         "name": "Equatorial Guinea",
@@ -1107,8 +1040,7 @@
             "iso639_2": "spa",
             "name": "Spanish",
             "nativeName": "Español"
-        },
-        "flag": "https://restcountries.eu/data/gnq.svg"
+        }
     },
     {
         "name": "Eritrea",
@@ -1123,8 +1055,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/eri.svg"
+        }
     },
     {
         "name": "Estonia",
@@ -1139,8 +1070,7 @@
         "language": {
             "code": "et",
             "name": "Estonian"
-        },
-        "flag": "https://restcountries.eu/data/est.svg"
+        }
     },
     {
         "name": "Ethiopia",
@@ -1155,8 +1085,7 @@
         "language": {
             "code": "am",
             "name": "Amharic"
-        },
-        "flag": "https://restcountries.eu/data/eth.svg"
+        }
     },
     {
         "name": "Falkland Islands (Malvinas)",
@@ -1171,8 +1100,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/flk.svg"
+        }
     },
     {
         "name": "Faroe Islands",
@@ -1187,8 +1115,7 @@
         "language": {
             "code": "fo",
             "name": "Faroese"
-        },
-        "flag": "https://restcountries.eu/data/fro.svg"
+        }
     },
     {
         "name": "Fiji",
@@ -1203,8 +1130,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/fji.svg"
+        }
     },
     {
         "name": "Finland",
@@ -1221,8 +1147,7 @@
             "iso639_2": "fin",
             "name": "Finnish",
             "nativeName": "suomi"
-        },
-        "flag": "https://restcountries.eu/data/fin.svg"
+        }
     },
     {
         "name": "France",
@@ -1238,8 +1163,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/fra.svg"
+        }
     },
     {
         "name": "French Guiana",
@@ -1254,8 +1178,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/guf.svg"
+        }
     },
     {
         "name": "French Polynesia",
@@ -1270,8 +1193,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/pyf.svg"
+        }
     },
     {
         "name": "French Southern Territories",
@@ -1286,8 +1208,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/atf.svg"
+        }
     },
     {
         "name": "Gabon",
@@ -1302,8 +1223,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/gab.svg"
+        }
     },
     {
         "name": "Gambia",
@@ -1318,8 +1238,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/gmb.svg"
+        }
     },
     {
         "name": "Georgia",
@@ -1334,8 +1253,7 @@
         "language": {
             "code": "ka",
             "name": "Georgian"
-        },
-        "flag": "https://restcountries.eu/data/geo.svg"
+        }
     },
     {
         "name": "Germany",
@@ -1350,8 +1268,7 @@
         "language": {
             "code": "de",
             "name": "German"
-        },
-        "flag": "https://restcountries.eu/data/deu.svg"
+        }
     },
     {
         "name": "Ghana",
@@ -1366,8 +1283,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/gha.svg"
+        }
     },
     {
         "name": "Gibraltar",
@@ -1382,8 +1298,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/gib.svg"
+        }
     },
     {
         "name": "Greece",
@@ -1398,8 +1313,7 @@
         "language": {
             "code": "el",
             "name": "Greek (modern)"
-        },
-        "flag": "https://restcountries.eu/data/grc.svg"
+        }
     },
     {
         "name": "Greenland",
@@ -1414,8 +1328,7 @@
         "language": {
             "code": "kl",
             "name": "Kalaallisut"
-        },
-        "flag": "https://restcountries.eu/data/grl.svg"
+        }
     },
     {
         "name": "Grenada",
@@ -1430,8 +1343,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/grd.svg"
+        }
     },
     {
         "name": "Guadeloupe",
@@ -1446,8 +1358,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/glp.svg"
+        }
     },
     {
         "name": "Guam",
@@ -1462,8 +1373,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/gum.svg"
+        }
     },
     {
         "name": "Guatemala",
@@ -1478,8 +1388,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/gtm.svg"
+        }
     },
     {
         "name": "Guernsey",
@@ -1494,8 +1403,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/ggy.svg"
+        }
     },
     {
         "name": "Guinea",
@@ -1510,8 +1418,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/gin.svg"
+        }
     },
     {
         "name": "Guinea-Bissau",
@@ -1526,8 +1433,7 @@
         "language": {
             "code": "pt",
             "name": "Portuguese"
-        },
-        "flag": "https://restcountries.eu/data/gnb.svg"
+        }
     },
     {
         "name": "Guyana",
@@ -1542,8 +1448,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/guy.svg"
+        }
     },
     {
         "name": "Haiti",
@@ -1558,8 +1463,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/hti.svg"
+        }
     },
     {
         "name": "Heard Island and McDonald Islands",
@@ -1574,8 +1478,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/hmd.svg"
+        }
     },
     {
         "name": "Holy See",
@@ -1590,8 +1493,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/vat.svg"
+        }
     },
     {
         "name": "Honduras",
@@ -1606,8 +1508,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/hnd.svg"
+        }
     },
     {
         "name": "Hong Kong",
@@ -1622,8 +1523,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/hkg.svg"
+        }
     },
     {
         "name": "Hungary",
@@ -1638,8 +1538,7 @@
         "language": {
             "code": "hu",
             "name": "Hungarian"
-        },
-        "flag": "https://restcountries.eu/data/hun.svg"
+        }
     },
     {
         "name": "Iceland",
@@ -1654,8 +1553,7 @@
         "language": {
             "code": "is",
             "name": "Icelandic"
-        },
-        "flag": "https://restcountries.eu/data/isl.svg"
+        }
     },
     {
         "name": "India",
@@ -1670,8 +1568,7 @@
         "language": {
             "code": "hi",
             "name": "Hindi"
-        },
-        "flag": "https://restcountries.eu/data/ind.svg"
+        }
     },
     {
         "name": "Indonesia",
@@ -1686,8 +1583,7 @@
         "language": {
             "code": "id",
             "name": "Indonesian"
-        },
-        "flag": "https://restcountries.eu/data/idn.svg"
+        }
     },
     {
         "name": "Côte d'Ivoire",
@@ -1702,8 +1598,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/civ.svg"
+        }
     },
     {
         "name": "Iran (Islamic Republic of)",
@@ -1718,8 +1613,7 @@
         "language": {
             "code": "fa",
             "name": "Persian (Farsi)"
-        },
-        "flag": "https://restcountries.eu/data/irn.svg"
+        }
     },
     {
         "name": "Iraq",
@@ -1734,8 +1628,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/irq.svg"
+        }
     },
     {
         "name": "Ireland",
@@ -1750,8 +1643,7 @@
         "language": {
             "code": "ga",
             "name": "Irish"
-        },
-        "flag": "https://restcountries.eu/data/irl.svg"
+        }
     },
     {
         "name": "Isle of Man",
@@ -1766,8 +1658,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/imn.svg"
+        }
     },
     {
         "name": "Israel",
@@ -1782,8 +1673,7 @@
         "language": {
             "code": "he",
             "name": "Hebrew (modern)"
-        },
-        "flag": "https://restcountries.eu/data/isr.svg"
+        }
     },
     {
         "name": "Italy",
@@ -1798,8 +1688,7 @@
         "language": {
             "code": "it",
             "name": "Italian"
-        },
-        "flag": "https://restcountries.eu/data/ita.svg"
+        }
     },
     {
         "name": "Jamaica",
@@ -1814,8 +1703,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/jam.svg"
+        }
     },
     {
         "name": "Japan",
@@ -1830,8 +1718,7 @@
         "language": {
             "code": "ja",
             "name": "Japanese"
-        },
-        "flag": "https://restcountries.eu/data/jpn.svg"
+        }
     },
     {
         "name": "Jersey",
@@ -1848,8 +1735,7 @@
             "iso639_2": "eng",
             "name": "English",
             "nativeName": "English"
-        },
-        "flag": "https://restcountries.eu/data/jey.svg"
+        }
     },
     {
         "name": "Jordan",
@@ -1864,8 +1750,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/jor.svg"
+        }
     },
     {
         "name": "Kazakhstan",
@@ -1880,8 +1765,7 @@
         "language": {
             "code": "kk",
             "name": "Kazakh"
-        },
-        "flag": "https://restcountries.eu/data/kaz.svg"
+        }
     },
     {
         "name": "Kenya",
@@ -1896,8 +1780,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/ken.svg"
+        }
     },
     {
         "name": "Kiribati",
@@ -1912,8 +1795,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/kir.svg"
+        }
     },
     {
         "name": "Kuwait",
@@ -1928,8 +1810,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/kwt.svg"
+        }
     },
     {
         "name": "Kyrgyzstan",
@@ -1944,8 +1825,7 @@
         "language": {
             "code": "ky",
             "name": "Kyrgyz"
-        },
-        "flag": "https://restcountries.eu/data/kgz.svg"
+        }
     },
     {
         "name": "Lao People's Democratic Republic",
@@ -1960,8 +1840,7 @@
         "language": {
             "code": "lo",
             "name": "Lao"
-        },
-        "flag": "https://restcountries.eu/data/lao.svg"
+        }
     },
     {
         "name": "Latvia",
@@ -1976,8 +1855,7 @@
         "language": {
             "code": "lv",
             "name": "Latvian"
-        },
-        "flag": "https://restcountries.eu/data/lva.svg"
+        }
     },
     {
         "name": "Lebanon",
@@ -1992,8 +1870,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/lbn.svg"
+        }
     },
     {
         "name": "Lesotho",
@@ -2008,8 +1885,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/lso.svg"
+        }
     },
     {
         "name": "Liberia",
@@ -2024,8 +1900,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/lbr.svg"
+        }
     },
     {
         "name": "Libya",
@@ -2040,8 +1915,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/lby.svg"
+        }
     },
     {
         "name": "Liechtenstein",
@@ -2056,8 +1930,7 @@
         "language": {
             "code": "de",
             "name": "German"
-        },
-        "flag": "https://restcountries.eu/data/lie.svg"
+        }
     },
     {
         "name": "Lithuania",
@@ -2072,8 +1945,7 @@
         "language": {
             "code": "lt",
             "name": "Lithuanian"
-        },
-        "flag": "https://restcountries.eu/data/ltu.svg"
+        }
     },
     {
         "name": "Luxembourg",
@@ -2088,8 +1960,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/lux.svg"
+        }
     },
     {
         "name": "Macao",
@@ -2104,8 +1975,7 @@
         "language": {
             "code": "zh",
             "name": "Chinese"
-        },
-        "flag": "https://restcountries.eu/data/mac.svg"
+        }
     },
     {
         "name": "Macedonia (the former Yugoslav Republic of)",
@@ -2120,8 +1990,7 @@
         "language": {
             "code": "mk",
             "name": "Macedonian"
-        },
-        "flag": "https://restcountries.eu/data/mkd.svg"
+        }
     },
     {
         "name": "Madagascar",
@@ -2136,8 +2005,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/mdg.svg"
+        }
     },
     {
         "name": "Malawi",
@@ -2152,8 +2020,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/mwi.svg"
+        }
     },
     {
         "name": "Malaysia",
@@ -2168,8 +2035,7 @@
         "language": {
             "code": null,
             "name": "Malaysian"
-        },
-        "flag": "https://restcountries.eu/data/mys.svg"
+        }
     },
     {
         "name": "Maldives",
@@ -2184,8 +2050,7 @@
         "language": {
             "code": "dv",
             "name": "Divehi"
-        },
-        "flag": "https://restcountries.eu/data/mdv.svg"
+        }
     },
     {
         "name": "Mali",
@@ -2200,8 +2065,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/mli.svg"
+        }
     },
     {
         "name": "Malta",
@@ -2216,8 +2080,7 @@
         "language": {
             "code": "mt",
             "name": "Maltese"
-        },
-        "flag": "https://restcountries.eu/data/mlt.svg"
+        }
     },
     {
         "name": "Marshall Islands",
@@ -2232,8 +2095,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/mhl.svg"
+        }
     },
     {
         "name": "Martinique",
@@ -2248,8 +2110,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/mtq.svg"
+        }
     },
     {
         "name": "Mauritania",
@@ -2264,8 +2125,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/mrt.svg"
+        }
     },
     {
         "name": "Mauritius",
@@ -2280,8 +2140,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/mus.svg"
+        }
     },
     {
         "name": "Mayotte",
@@ -2296,8 +2155,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/myt.svg"
+        }
     },
     {
         "name": "Mexico",
@@ -2312,8 +2170,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/mex.svg"
+        }
     },
     {
         "name": "Micronesia (Federated States of)",
@@ -2328,8 +2185,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/fsm.svg"
+        }
     },
     {
         "name": "Moldova (Republic of)",
@@ -2344,8 +2200,7 @@
         "language": {
             "code": "ro",
             "name": "Romanian"
-        },
-        "flag": "https://restcountries.eu/data/mda.svg"
+        }
     },
     {
         "name": "Monaco",
@@ -2360,8 +2215,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/mco.svg"
+        }
     },
     {
         "name": "Mongolia",
@@ -2376,8 +2230,7 @@
         "language": {
             "code": "mn",
             "name": "Mongolian"
-        },
-        "flag": "https://restcountries.eu/data/mng.svg"
+        }
     },
     {
         "name": "Montenegro",
@@ -2392,8 +2245,7 @@
         "language": {
             "code": "sr",
             "name": "Serbian"
-        },
-        "flag": "https://restcountries.eu/data/mne.svg"
+        }
     },
     {
         "name": "Montserrat",
@@ -2408,8 +2260,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/msr.svg"
+        }
     },
     {
         "name": "Morocco",
@@ -2424,8 +2275,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/mar.svg"
+        }
     },
     {
         "name": "Mozambique",
@@ -2440,8 +2290,7 @@
         "language": {
             "code": "pt",
             "name": "Portuguese"
-        },
-        "flag": "https://restcountries.eu/data/moz.svg"
+        }
     },
     {
         "name": "Myanmar",
@@ -2456,8 +2305,7 @@
         "language": {
             "code": "my",
             "name": "Burmese"
-        },
-        "flag": "https://restcountries.eu/data/mmr.svg"
+        }
     },
     {
         "name": "Namibia",
@@ -2472,8 +2320,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/nam.svg"
+        }
     },
     {
         "name": "Nauru",
@@ -2488,8 +2335,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/nru.svg"
+        }
     },
     {
         "name": "Nepal",
@@ -2504,8 +2350,7 @@
         "language": {
             "code": "ne",
             "name": "Nepali"
-        },
-        "flag": "https://restcountries.eu/data/npl.svg"
+        }
     },
     {
         "name": "Netherlands",
@@ -2520,8 +2365,7 @@
         "language": {
             "code": "nl",
             "name": "Dutch"
-        },
-        "flag": "https://restcountries.eu/data/nld.svg"
+        }
     },
     {
         "name": "New Caledonia",
@@ -2536,8 +2380,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/ncl.svg"
+        }
     },
     {
         "name": "New Zealand",
@@ -2552,8 +2395,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/nzl.svg"
+        }
     },
     {
         "name": "Nicaragua",
@@ -2568,8 +2410,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/nic.svg"
+        }
     },
     {
         "name": "Niger",
@@ -2584,8 +2425,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/ner.svg"
+        }
     },
     {
         "name": "Nigeria",
@@ -2600,8 +2440,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/nga.svg"
+        }
     },
     {
         "name": "Niue",
@@ -2616,8 +2455,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/niu.svg"
+        }
     },
     {
         "name": "Norfolk Island",
@@ -2632,8 +2470,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/nfk.svg"
+        }
     },
     {
         "name": "Korea (Democratic People's Republic of)",
@@ -2648,8 +2485,7 @@
         "language": {
             "code": "ko",
             "name": "Korean"
-        },
-        "flag": "https://restcountries.eu/data/prk.svg"
+        }
     },
     {
         "name": "Northern Mariana Islands",
@@ -2664,8 +2500,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/mnp.svg"
+        }
     },
     {
         "name": "Norway",
@@ -2680,8 +2515,7 @@
         "language": {
             "code": "no",
             "name": "Norwegian"
-        },
-        "flag": "https://restcountries.eu/data/nor.svg"
+        }
     },
     {
         "name": "Oman",
@@ -2696,8 +2530,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/omn.svg"
+        }
     },
     {
         "name": "Pakistan",
@@ -2712,8 +2545,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/pak.svg"
+        }
     },
     {
         "name": "Palau",
@@ -2728,8 +2560,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/plw.svg"
+        }
     },
     {
         "name": "Palestine, State of",
@@ -2744,8 +2575,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/pse.svg"
+        }
     },
     {
         "name": "Panama",
@@ -2760,8 +2590,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/pan.svg"
+        }
     },
     {
         "name": "Papua New Guinea",
@@ -2776,8 +2605,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/png.svg"
+        }
     },
     {
         "name": "Paraguay",
@@ -2792,8 +2620,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/pry.svg"
+        }
     },
     {
         "name": "Peru",
@@ -2808,8 +2635,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/per.svg"
+        }
     },
     {
         "name": "Philippines",
@@ -2824,8 +2650,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/phl.svg"
+        }
     },
     {
         "name": "Pitcairn",
@@ -2840,8 +2665,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/pcn.svg"
+        }
     },
     {
         "name": "Poland",
@@ -2856,8 +2680,7 @@
         "language": {
             "code": "pl",
             "name": "Polish"
-        },
-        "flag": "https://restcountries.eu/data/pol.svg"
+        }
     },
     {
         "name": "Portugal",
@@ -2872,8 +2695,7 @@
         "language": {
             "code": "pt",
             "name": "Portuguese"
-        },
-        "flag": "https://restcountries.eu/data/prt.svg"
+        }
     },
     {
         "name": "Puerto Rico",
@@ -2888,8 +2710,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/pri.svg"
+        }
     },
     {
         "name": "Qatar",
@@ -2904,8 +2725,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/qat.svg"
+        }
     },
     {
         "name": "Republic of Kosovo",
@@ -2920,8 +2740,7 @@
         "language": {
             "code": "sq",
             "name": "Albanian"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AL.svg"
+        }
     },
     {
         "name": "Réunion",
@@ -2936,8 +2755,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/reu.svg"
+        }
     },
     {
         "name": "Romania",
@@ -2952,8 +2770,7 @@
         "language": {
             "code": "ro",
             "name": "Romanian"
-        },
-        "flag": "https://restcountries.eu/data/rou.svg"
+        }
     },
     {
         "name": "Russian Federation",
@@ -2968,8 +2785,7 @@
         "language": {
             "code": "ru",
             "name": "Russian"
-        },
-        "flag": "https://restcountries.eu/data/rus.svg"
+        }
     },
     {
         "name": "Rwanda",
@@ -2984,8 +2800,7 @@
         "language": {
             "code": "rw",
             "name": "Kinyarwanda"
-        },
-        "flag": "https://restcountries.eu/data/rwa.svg"
+        }
     },
     {
         "name": "Saint Barthélemy",
@@ -3000,8 +2815,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/BL.svg"
+        }
     },
     {
         "name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -3016,8 +2830,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/shn.svg"
+        }
     },
     {
         "name": "Saint Kitts and Nevis",
@@ -3032,8 +2845,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/kna.svg"
+        }
     },
     {
         "name": "Saint Lucia",
@@ -3048,8 +2860,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/lca.svg"
+        }
     },
     {
         "name": "Saint Martin (French part)",
@@ -3064,8 +2875,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/maf.svg"
+        }
     },
     {
         "name": "Saint Pierre and Miquelon",
@@ -3080,8 +2890,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/spm.svg"
+        }
     },
     {
         "name": "Saint Vincent and the Grenadines",
@@ -3096,8 +2905,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/vct.svg"
+        }
     },
     {
         "name": "Samoa",
@@ -3112,8 +2920,7 @@
         "language": {
             "code": "sm",
             "name": "Samoan"
-        },
-        "flag": "https://restcountries.eu/data/wsm.svg"
+        }
     },
     {
         "name": "San Marino",
@@ -3128,8 +2935,7 @@
         "language": {
             "code": "it",
             "name": "Italian"
-        },
-        "flag": "https://restcountries.eu/data/smr.svg"
+        }
     },
     {
         "name": "Sao Tome and Principe",
@@ -3144,8 +2950,7 @@
         "language": {
             "code": "pt",
             "name": "Portuguese"
-        },
-        "flag": "https://restcountries.eu/data/stp.svg"
+        }
     },
     {
         "name": "Saudi Arabia",
@@ -3160,8 +2965,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/sau.svg"
+        }
     },
     {
         "name": "Senegal",
@@ -3176,8 +2980,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/sen.svg"
+        }
     },
     {
         "name": "Serbia",
@@ -3192,8 +2995,7 @@
         "language": {
             "code": "sr",
             "name": "Serbian"
-        },
-        "flag": "https://restcountries.eu/data/srb.svg"
+        }
     },
     {
         "name": "Seychelles",
@@ -3208,8 +3010,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/syc.svg"
+        }
     },
     {
         "name": "Sierra Leone",
@@ -3224,8 +3025,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/sle.svg"
+        }
     },
     {
         "name": "Singapore",
@@ -3240,8 +3040,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/sgp.svg"
+        }
     },
     {
         "name": "Sint Maarten (Dutch part)",
@@ -3256,8 +3055,7 @@
         "language": {
             "code": "nl",
             "name": "Dutch"
-        },
-        "flag": "https://restcountries.eu/data/sxm.svg"
+        }
     },
     {
         "name": "Slovakia",
@@ -3272,8 +3070,7 @@
         "language": {
             "code": "sk",
             "name": "Slovak"
-        },
-        "flag": "https://restcountries.eu/data/svk.svg"
+        }
     },
     {
         "name": "Slovenia",
@@ -3288,8 +3085,7 @@
         "language": {
             "code": "sl",
             "name": "Slovene"
-        },
-        "flag": "https://restcountries.eu/data/svn.svg"
+        }
     },
     {
         "name": "Solomon Islands",
@@ -3304,8 +3100,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/slb.svg"
+        }
     },
     {
         "name": "Somalia",
@@ -3320,8 +3115,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/som.svg"
+        }
     },
     {
         "name": "South Africa",
@@ -3338,8 +3132,7 @@
             "iso639_2": "eng",
             "name": "English",
             "nativeName": "English"
-        },
-        "flag": "https://restcountries.eu/data/zaf.svg"
+        }
     },
     {
         "name": "South Georgia and the South Sandwich Islands",
@@ -3354,8 +3147,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/sgs.svg"
+        }
     },
     {
         "name": "Korea (Republic of)",
@@ -3370,8 +3162,7 @@
         "language": {
             "code": "ko",
             "name": "Korean"
-        },
-        "flag": "https://restcountries.eu/data/kor.svg"
+        }
     },
     {
         "name": "South Sudan",
@@ -3386,8 +3177,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/ssd.svg"
+        }
     },
     {
         "name": "Spain",
@@ -3402,8 +3192,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/esp.svg"
+        }
     },
     {
         "name": "Sri Lanka",
@@ -3420,8 +3209,7 @@
             "iso639_2": "sin",
             "name": "Sinhalese",
             "nativeName": "සිංහල"
-        },
-        "flag": "https://restcountries.eu/data/lka.svg"
+        }
     },
     {
         "name": "Sudan",
@@ -3436,8 +3224,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/sdn.svg"
+        }
     },
     {
         "name": "Suriname",
@@ -3452,8 +3239,7 @@
         "language": {
             "code": "nl",
             "name": "Dutch"
-        },
-        "flag": "https://restcountries.eu/data/sur.svg"
+        }
     },
     {
         "name": "Svalbard and Jan Mayen",
@@ -3468,8 +3254,7 @@
         "language": {
             "code": "no",
             "name": "Norwegian"
-        },
-        "flag": "https://restcountries.eu/data/sjm.svg"
+        }
     },
     {
         "name": "Swaziland",
@@ -3484,8 +3269,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/swz.svg"
+        }
     },
     {
         "name": "Sweden",
@@ -3500,8 +3284,7 @@
         "language": {
             "code": "sv",
             "name": "Swedish"
-        },
-        "flag": "https://restcountries.eu/data/swe.svg"
+        }
     },
     {
         "name": "Switzerland",
@@ -3516,8 +3299,7 @@
         "language": {
             "code": "de",
             "name": "German"
-        },
-        "flag": "https://restcountries.eu/data/che.svg"
+        }
     },
     {
         "name": "Syrian Arab Republic",
@@ -3532,8 +3314,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/syr.svg"
+        }
     },
     {
         "name": "Taiwan",
@@ -3548,8 +3329,7 @@
         "language": {
             "code": "zh",
             "name": "Chinese"
-        },
-        "flag": "https://restcountries.eu/data/twn.svg"
+        }
     },
     {
         "name": "Tajikistan",
@@ -3564,8 +3344,7 @@
         "language": {
             "code": "tg",
             "name": "Tajik"
-        },
-        "flag": "https://restcountries.eu/data/tjk.svg"
+        }
     },
     {
         "name": "Tanzania, United Republic of",
@@ -3580,8 +3359,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/tza.svg"
+        }
     },
     {
         "name": "Thailand",
@@ -3596,8 +3374,7 @@
         "language": {
             "code": "th",
             "name": "Thai"
-        },
-        "flag": "https://restcountries.eu/data/tha.svg"
+        }
     },
     {
         "name": "Timor-Leste",
@@ -3612,8 +3389,7 @@
         "language": {
             "code": "pt",
             "name": "Portuguese"
-        },
-        "flag": "https://restcountries.eu/data/tls.svg"
+        }
     },
     {
         "name": "Togo",
@@ -3628,8 +3404,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/tgo.svg"
+        }
     },
     {
         "name": "Tokelau",
@@ -3644,8 +3419,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/tkl.svg"
+        }
     },
     {
         "name": "Tonga",
@@ -3660,8 +3434,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/ton.svg"
+        }
     },
     {
         "name": "Trinidad and Tobago",
@@ -3676,8 +3449,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/tto.svg"
+        }
     },
     {
         "name": "Tunisia",
@@ -3692,8 +3464,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/tun.svg"
+        }
     },
     {
         "name": "Turkey",
@@ -3708,8 +3479,7 @@
         "language": {
             "code": "tr",
             "name": "Turkish"
-        },
-        "flag": "https://restcountries.eu/data/tur.svg"
+        }
     },
     {
         "name": "Turkmenistan",
@@ -3724,8 +3494,7 @@
         "language": {
             "code": "tk",
             "name": "Turkmen"
-        },
-        "flag": "https://restcountries.eu/data/tkm.svg"
+        }
     },
     {
         "name": "Turks and Caicos Islands",
@@ -3740,8 +3509,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/tca.svg"
+        }
     },
     {
         "name": "Tuvalu",
@@ -3756,8 +3524,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/tuv.svg"
+        }
     },
     {
         "name": "Uganda",
@@ -3772,8 +3539,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/uga.svg"
+        }
     },
     {
         "name": "Ukraine",
@@ -3788,8 +3554,7 @@
         "language": {
             "code": "uk",
             "name": "Ukrainian"
-        },
-        "flag": "https://restcountries.eu/data/ukr.svg"
+        }
     },
     {
         "name": "United Arab Emirates",
@@ -3804,8 +3569,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AE.svg"
+        }
     },
     {
         "name": "United Kingdom of Great Britain and Northern Ireland",
@@ -3820,8 +3584,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/gbr.svg"
+        }
     },
     {
         "name": "United States of America",
@@ -3838,8 +3601,7 @@
             "iso639_2": "eng",
             "name": "English",
             "nativeName": "English"
-        },
-        "flag": "https://restcountries.eu/data/usa.svg"
+        }
     },
     {
         "name": "Uruguay",
@@ -3854,8 +3616,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/ury.svg"
+        }
     },
     {
         "name": "Uzbekistan",
@@ -3870,8 +3631,7 @@
         "language": {
             "code": "uz",
             "name": "Uzbek"
-        },
-        "flag": "https://restcountries.eu/data/uzb.svg"
+        }
     },
     {
         "name": "Vanuatu",
@@ -3886,8 +3646,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/vut.svg"
+        }
     },
     {
         "name": "Venezuela (Bolivarian Republic of)",
@@ -3902,8 +3661,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/ven.svg"
+        }
     },
     {
         "name": "Viet Nam",
@@ -3918,8 +3676,7 @@
         "language": {
             "code": "vi",
             "name": "Vietnamese"
-        },
-        "flag": "https://restcountries.eu/data/vnm.svg"
+        }
     },
     {
         "name": "Wallis and Futuna",
@@ -3934,8 +3691,7 @@
         "language": {
             "code": "fr",
             "name": "French"
-        },
-        "flag": "https://restcountries.eu/data/wlf.svg"
+        }
     },
     {
         "name": "Western Sahara",
@@ -3950,8 +3706,7 @@
         "language": {
             "code": "es",
             "name": "Spanish"
-        },
-        "flag": "https://restcountries.eu/data/esh.svg"
+        }
     },
     {
         "name": "Yemen",
@@ -3966,8 +3721,7 @@
         "language": {
             "code": "ar",
             "name": "Arabic"
-        },
-        "flag": "https://restcountries.eu/data/yem.svg"
+        }
     },
     {
         "name": "Zambia",
@@ -3982,8 +3736,7 @@
         "language": {
             "code": "en",
             "name": "English"
-        },
-        "flag": "https://restcountries.eu/data/zmb.svg"
+        }
     },
     {
         "name": "Zimbabwe",
@@ -4000,7 +3753,6 @@
             "iso639_2": "eng",
             "name": "English",
             "nativeName": "English"
-        },
-        "flag": "https://restcountries.eu/data/zwe.svg"
+        }
     }
 ]
