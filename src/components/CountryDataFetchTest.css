@@ -40,7 +40,7 @@
 }
 .CountryDataFetchCodes{
     color: #3380F2;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 700;
     margin-top: 2%;
     margin-left: 5%;
@@ -57,8 +57,8 @@
     margin-left: 10%;
 }
 .CountryDataFetchImage{
-    width: 30px;
-    height: 20px;
+    width: 25px;
+    height: 15px;
     margin-bottom: 5%;
     margin-left: 10%;
     margin-right: 2%;
