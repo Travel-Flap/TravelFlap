@@ -1,0 +1,23 @@
+.Banner2image-div{
+    margin-top: 3%;
+    height:20px ;
+    width:90% ;
+    border: 2px solid yellow;
+}
+.Banner2image-div{
+    width: 100%;
+    height: 100%;
+}
+.banner2inputboxdiv{
+    border: 2px solid yellow;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    /* text-align: center; */
+    /* justify-content: center; */
+    margin-left: 25%;
+   
+
+
+}

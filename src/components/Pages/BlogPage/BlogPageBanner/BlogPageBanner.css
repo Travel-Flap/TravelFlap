@@ -1,0 +1,48 @@
+.blogpageBannerDiv h5{
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.blogpageBannerHeading{
+  font-weight: bold;
+  /* margin-left: 5%; */
+  margin-top: 6%;
+  color: white;
+  font-weight: 800;
+  font-size: 45px;
+  font-family: 'TT Hoves Variable',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  
+}
+.Bannercontain{
+  /* border: 2px solid green; */
+  text-align: center;
+  justify-content: center;
+  width: 30%;
+  margin-left: 35%;
+  /* color: white; */
+}
+
+.blogpageBannerHeading2{
+  color: white;
+  font-weight: 800;
+  font-size: 32px;
+  margin-top: 3%;
+}
+.blogpageBannerDiv  {
+  object-fit: cover;
+  background-size: auto;
+  height: 600px;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+.blogpageBannerimage{
+  height: 600px;
+  filter: brightness(0.6);
+}
+.blogsearch{
+  /* border: 2px solid yellow; */
+  width: 30%;
+  height: 40px;
+  border-radius: 50px;
+  margin-top: 3%;
+}
