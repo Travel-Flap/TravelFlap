@@ -15,8 +15,8 @@ import { GiCruiser } from 'react-icons/gi';
 import { FaLaptopHouse, FaPhoneAlt, FaTags, FaBars } from 'react-icons/fa';
 import { FaUserLock, FaMoneyCheck, FaPenFancy, FaCopy, FaUserCheck } from 'react-icons/fa';
 import { CgMoreAlt } from 'react-icons/cg';
-import { CountryDataFetchTest } from '../../../CountryDataFetchTest';
-import { CurrencyDataFetchTest } from '../../../CurrencyDataFetchTest';
+import { CurrencyDataFetchTest } from "../../../CurrencyDataFetchTest";
+import { CountryDataFetchTest } from "../../../CountryDataFetchTest";
 
 // import { Home } from "../Pages/Home/Home";
 

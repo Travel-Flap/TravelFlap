@@ -206,6 +206,7 @@ export const ActivitiesChildInnerPageButtonsDetails = () => {
                             <div className="activitiesChildinnerBookNowButton">Book Now</div>
                         {/* </div> */}
                     </div>
+                    
                     <div className="activitiesChildInnerPageBookingContact">
                         <button className='activitiesinnerchildApplyButton'> <FaWhatsapp size="1.2em" style={{marginRight:"3%"}}/> Visa On WhatsApp</button>
                         <button className='activitiesinnerchildApplyButton'> <FaPhoneAlt size="1.2em" style={{marginRight:"3%"}}/> Call Us On</button>

@@ -406,10 +406,12 @@
     font-weight: 700;
     font-size: 12px;
   }
+
   .LoginRegisterOptions:hover{
     background-color: white;
     color: #3380f2;
   }
+
   .LoginRegisterOptions1 {
     margin-top: 2%;
     height: 18%;
@@ -417,6 +419,7 @@
     font-weight: 200;
     margin-left: 2%;
   }
+  
   .LoginRegisterDropDown1 {
     width: 200px;
     height: 220px;
@@ -435,6 +438,7 @@
     background-color: white;
     color: #3380f2;
   }
+  
   .LoginIcon {
     margin-left: 30px;
     margin-right: 10px;
