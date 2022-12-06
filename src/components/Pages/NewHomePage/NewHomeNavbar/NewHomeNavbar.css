@@ -262,8 +262,8 @@
   
   
   .chooseCountry {
-    width: 200px;
-    height: 220px;
+    width: 60%;
+    height: 332px;
     position: absolute;
     z-index: 1;
     margin-top: -0.5%;
@@ -272,6 +272,8 @@
     display: none;
     font-weight: 700;
     color: white;
+    /* border: 3px solid darkblue; */
+    margin-left: -41%;
   }
   .countrynames{
     margin-top: 4%;

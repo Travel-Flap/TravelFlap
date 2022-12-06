@@ -18,7 +18,7 @@ export const CountryDataFetchTest = () => {
         return response.json();
       })
       .then(function(myJson) {
-        console.log(myJson);
+        // console.log(myJson);
         setData(myJson)
       });
   }
@@ -32,11 +32,9 @@ export const CountryDataFetchTest = () => {
        data && data.length>0 && data.map(
            (item)=>
            <p className='CountryDataFetchNames'>
-            <span>
               {item.name}
               <h6 className='CountryDataFetchCodes'>{item.code}</h6>
               <img className='CountryDataFetchImage' src={item.flag}/>
-            </span>
             </p>
        )
      }

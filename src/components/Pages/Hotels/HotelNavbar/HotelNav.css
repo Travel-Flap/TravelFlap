@@ -247,7 +247,7 @@
   }
   
   
-  .chooseCountry {
+  /* .chooseCountry {
     width: 200px;
     height: 220px;
     position: absolute;
@@ -258,7 +258,7 @@
     display: none;
     font-weight: 700;
     color: white;
-  }
+  } */
   .countrynames{
     margin-top: 4%;
     margin-left: 2%;

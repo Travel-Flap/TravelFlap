@@ -18,7 +18,6 @@ import { CgMoreAlt } from 'react-icons/cg';
 import { CurrencyDataFetchTest } from "../../../CurrencyDataFetchTest";
 import { CountryDataFetchTest } from "../../../CountryDataFetchTest";
 
-// import { Home } from "../Pages/Home/Home";
 
 export const NewHomeNav = () => {
     const [isScrolled, setIsScrolled] = useState(false);

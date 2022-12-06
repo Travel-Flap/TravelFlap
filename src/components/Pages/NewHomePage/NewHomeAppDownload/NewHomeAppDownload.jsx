@@ -48,11 +48,11 @@ export const NewHomeAppDownload = () => {
     }, []);
     const { loading, errorMessage, countries } = countryState;
     console.log("loading", loading);
-    console.log("countries", countries);
+    // console.log("countries", countries);
     console.log("errorMessage", errorMessage);
 
     const [selectedCountry, setSelectedCountry] = useState();
-    console.log("selectedCountry", selectedCountry);
+    // console.log("selectedCountry", selectedCountry);
 
     //   find selected country data
     //search selected country
