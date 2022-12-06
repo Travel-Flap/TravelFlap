@@ -2,28 +2,51 @@ import { useContext, createContext, useEffect, useState } from "react";
 import "./Login.css";
 import { Link } from 'react-router-dom';
 
-// import { auth, provider } from "../firebase";
-// import { signInWithPopup } from "firebase/auth";
-// import { NewFlight } from "../../NewFlightsPage/NewFlight";
+import { auth, google, facebook, twitter, github } from '../firebase';
+import { signInWithPopup, signOut } from 'firebase/auth';
+import { BsFacebook } from "react-icons/bs";
+import { FcGoogle } from "react-icons/fc";
+
 import Home from "../Home";
 import { GoogleButton } from 'react-google-button';
-import UserAuth  from '../context/AuthContext';
+import { UserAuth } from '../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
 export const LoginPageTravelFlap = () => {
 
-    // const [value, setValue] = useState('')
-    // const handleClick = () => {
-    //     signInWithPopup(auth, provider).then((data) => {
-    //         setValue(data.user.email)
-    //         localStorage.setItem("email", data.user.email)
-    //     })
-    // }
+    // This part is from the same project
+    const [isLogin, setIsLogin] = useState(false);
+    const [user, setUser] = useState(null);
 
-    // useEffect(() => {
-    //     setValue(localStorage.getItem('email'))
-    // })
+    const LoginTrue = () => (
+        <>
 
+        
+            <h1>Welcome!</h1>
+            <img src={user.photoURL} style={{ width: 120 }} />
+            <p>Welcome {user.displayName}! Your account {user.email} has been successfully logged in at {user.metadata.lastSignInTime}</p>
+            <button style={{ width: 150 }} onClick={logout}>
+                Logout
+            </button>
+        </>
+    )
+
+    const login = async (provider) => {
+        const result = await signInWithPopup(auth, provider)
+        setUser(result.user)
+        setIsLogin(true)
+        console.log(result)
+    }
+
+    const logout = async () => {
+        const result = await signOut(auth)
+        setUser(null)
+        setIsLogin(false)
+        console.log(result)
+    }
+
+
+    // This part is from different project
 
     // const { googleSignIn, user } = UserAuth();
     // const navigate = useNavigate();
@@ -42,8 +65,6 @@ export const LoginPageTravelFlap = () => {
     //     }
     // }, [user]);
 
-
-
     return (
 
 
@@ -57,11 +78,13 @@ export const LoginPageTravelFlap = () => {
                     <div className='travelFlaploginPageInnerDiv'>
                         <div className='travelFlaploginPageFormDiv'>
 
-                            <h3> loginPage </h3>
+                            <h3> LoginPage </h3>
 
                             <div className='loginPageSocialIcons'>
-                                <img src='/Images/NewHomeLayout/LoginSignup/socialoginoptions.png' alt='social icons' />
-
+                                {/* <img  onClick={() => login(google)} src='/Images/NewHomeLayout/LoginSignup/socialoginoptions.png' alt='social icons' /> */}
+                                <FcGoogle onClick={() => login(google)} style={{fontSize:"25px", marginRight:"4%", marginTop:"0.7%"}}/>
+                                <img onClick={() => login(facebook)} src="/Images/NewHomeLayout/LoginSignup/facebook.png" style={{height:"23px"}} alt="image"/>
+                                {/* <BsFacebook onClick={() => login(facebook)}/> */}
                                 <p> or </p>
                             </div>
 
@@ -129,7 +152,7 @@ export const LoginPageTravelFlap = () => {
                                         </div>
                                     </div>
                                 </div> */}
-
+{/* 
                                 <div className="col-12">
                                     <div className="form-check loginPageAgreementDiv" >
                                         <input className="form-check-input loginPageAgreementCheckBoxDiv" type="checkbox" value="" id="invalidCheck" required />
@@ -140,7 +163,7 @@ export const LoginPageTravelFlap = () => {
                                             You must agree before submitting.
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 <div className="col-12">
                                     <button className="btn btn-primary loginPageSubmitButtonDiv" type="submit">Submit form</button>
@@ -156,6 +179,16 @@ export const LoginPageTravelFlap = () => {
 
                             </form>
                         </div>
+
+                        {/* <h1>Login please...</h1>
+                        <button style={{ width: 150, backgroundColor: '#de5246', color: 'white' }}
+                            onClick={() => login(google)}>
+                            Login with Google
+                        </button>
+                        <button style={{ width: 150, backgroundColor: '#3b5998', color: 'white' }}
+                            onClick={() => login(facebook)}>
+                            Login with Facebook
+                        </button> */}
 
                         {/* <div>
                             <NewFlight/>

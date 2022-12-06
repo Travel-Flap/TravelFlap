@@ -1,9 +1,42 @@
-import React from 'react';
+import { useContext, createContext, useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 import { NewHomeNav } from '../../NewHomePage/NewHomeNavbar/NewHomeNavbar';
 import "./Signup.css";
+import { FcGoogle } from "react-icons/fc";
+import { auth, google, facebook, twitter, github } from '../firebase';
+import { signInWithPopup, signOut } from 'firebase/auth';
 
 export const SignupPageTravelFlap = () => {
+
+    const [isLogin, setIsLogin] = useState(false);
+    const [user, setUser] = useState(null);
+
+    const LoginTrue = () => (
+        <>
+            <h1>Welcome!</h1>
+            <img src={user.photoURL} style={{ width: 120 }} />
+            <p>Welcome {user.displayName}! Your account {user.email} has been successfully logged in at {user.metadata.lastSignInTime}</p>
+            <button style={{ width: 150 }} onClick={logout}>
+                Logout
+            </button>
+        </>
+    )
+
+    const login = async (provider) => {
+        const result = await signInWithPopup(auth, provider)
+        setUser(result.user)
+        setIsLogin(true)
+        console.log(result)
+    }
+
+    const logout = async () => {
+        const result = await signOut(auth)
+        setUser(null)
+        setIsLogin(false)
+        console.log(result)
+    }
+
+
     return (
         <>
             <div className='travelFlapSignUpOuterDiv'>
@@ -18,10 +51,13 @@ export const SignupPageTravelFlap = () => {
                             <h3> Signup </h3>
 
                             <div className='signupSocialIcons'>
-                                <img src='/Images/NewHomeLayout/LoginSignup/socialoginoptions.png' alt='social icons' />
-
+                                {/* <img  onClick={() => login(google)} src='/Images/NewHomeLayout/LoginSignup/socialoginoptions.png' alt='social icons' /> */}
+                                <FcGoogle onClick={() => login(google)} style={{ fontSize: "25px", marginRight: "4%", marginTop: "0.7%" }} />
+                                <img onClick={() => login(facebook)} src="/Images/NewHomeLayout/LoginSignup/facebook.png" style={{ height: "23px" }} alt="image" />
+                                {/* <BsFacebook onClick={() => login(facebook)}/> */}
                                 <p> or </p>
                             </div>
+
 
                             <form className="row g-4 needs-validation  signUpFormInnerDiv" novalidate>
                                 <div className="col-md-10">

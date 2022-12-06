@@ -18,7 +18,7 @@ export const CountryDataFetchTest = () => {
         return response.json();
       })
       .then(function(myJson) {
-        console.log(myJson);
+        // console.log(myJson);
         setData(myJson)
       });
   }

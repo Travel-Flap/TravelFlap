@@ -38,6 +38,11 @@
   margin-top: 7%;
 }
 
+.signupSocialIcons {
+  /* border: 1px solid red; */
+  margin-top: 3%;
+}
+
 .signupSocialIcons img {
   /* border: 1px solid red; */
   /* width: 100%; */
