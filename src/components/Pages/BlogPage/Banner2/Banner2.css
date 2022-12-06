@@ -20,6 +20,7 @@
     /* border: 2px solid red; */
 }
 .banner2inputboxdiv{
+    border: none !important;
     /* border: 2px solid yellow; */
     background-color: white;
     display: flex;
