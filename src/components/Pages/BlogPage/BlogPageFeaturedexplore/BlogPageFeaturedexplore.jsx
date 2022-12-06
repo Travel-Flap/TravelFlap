@@ -1,9 +1,11 @@
 import React from 'react'
 import './BlogPageFeaturedexplore.css'
+import { FaFacebook,FaInstagramSquare,FaTwitter,FaYoutube } from "react-icons/fa";
 
 
 export const BlogPageFeaturedexplore = () => {
   return (
+    <>
     <div>
         <div className='BlogPageFeaturedexplore-maindiv'>
             <div className='BlogPageFeaturedexplore-innermaindiv'>
@@ -26,7 +28,7 @@ export const BlogPageFeaturedexplore = () => {
                     </div>
                     <div className='BlogPageFeaturedexplore-cardinnerdiv'>
                         <div className='BlogPageFeaturedexplore-imagediv'>
-                            <img src="Images/blogpage/Rectangle 17.png" alt="explore image"  className='imgexplore'/>
+                            <img src="Images/blogpage/Rectangle 18.png" alt="explore image"  className='imgexplore'/>
                         </div>
                         <div className='containerofcontain'>
                         <div className='BlogPageFeaturedexplore-containdivheading'> <p>The Golden Sands of Florida and California </p></div>
@@ -41,7 +43,7 @@ export const BlogPageFeaturedexplore = () => {
                     </div>
                     <div className='BlogPageFeaturedexplore-cardinnerdiv'>
                         <div className='BlogPageFeaturedexplore-imagediv'>
-                            <img src="Images/blogpage/Rectangle 17.png" alt="explore image"  className='imgexplore'/>
+                            <img src="Images/blogpage/Rectangle 19.png" alt="explore image"  className='imgexplore'/>
                         </div>
                         <div className='containerofcontain'>
                         <div className='BlogPageFeaturedexplore-containdivheading'> <p>The Golden Sands of Florida and California </p></div>
@@ -74,7 +76,7 @@ export const BlogPageFeaturedexplore = () => {
                     </div>
                     <div className='BlogPageFeaturedexplore-cardinnerdiv'>
                         <div className='BlogPageFeaturedexplore-imagediv'>
-                            <img src="Images/blogpage/Rectangle 17.png" alt="explore image"  className='imgexplore'/>
+                            <img src="Images/blogpage/Rectangle 24.png" alt="explore image"  className='imgexplore'/>
                         </div>
                         <div className='containerofcontain'>
                         <div className='BlogPageFeaturedexplore-containdivheading'> <p>The Golden Sands of Florida and California </p></div>
@@ -89,7 +91,7 @@ export const BlogPageFeaturedexplore = () => {
                     </div>
                     <div className='BlogPageFeaturedexplore-cardinnerdiv'>
                         <div className='BlogPageFeaturedexplore-imagediv'>
-                            <img src="Images/blogpage/Rectangle 17.png" alt="explore image"  className='imgexplore'/>
+                            <img src="Images/blogpage/Rectangle 25.png" alt="explore image"  className='imgexplore'/>
                         </div>
                         <div className='containerofcontain'>
                         <div className='BlogPageFeaturedexplore-containdivheading'> <p>The Golden Sands of Florida and California </p></div>
@@ -124,7 +126,7 @@ export const BlogPageFeaturedexplore = () => {
                     <div>
                     <div className='BlogPageFeaturedexplore-cardinnerdiv2'>
                         <div className='BlogPageFeaturedexplore-imagediv2'>
-                            <img src="Images/blogpage/Rectangle 17.png" alt="explore image"  className='imgexplore2'/>
+                            <img src="Images/blogpage/Rectangle 54.png" alt="explore image"  className='imgexplore2'/>
                         </div>
                         <div className='containerofcontain'>
                         <div className='BlogPageFeaturedexplore-containdivheading'> <p>The Golden Sands of Florida and California </p></div>
@@ -142,7 +144,7 @@ export const BlogPageFeaturedexplore = () => {
                     <div>
                     <div className='BlogPageFeaturedexplore-cardinnerdiv2'>
                         <div className='BlogPageFeaturedexplore-imagediv2'>
-                            <img src="Images/blogpage/Rectangle 17.png" alt="explore image"  className='imgexplore2'/>
+                            <img src="Images/blogpage/Rectangle 60.png" alt="explore image"  className='imgexplore2'/>
                         </div>
                         <div className='containerofcontain'>
                         <div className='BlogPageFeaturedexplore-containdivheading'> <p>The Golden Sands of Florida and California </p></div>
@@ -160,7 +162,7 @@ export const BlogPageFeaturedexplore = () => {
                     <div>
                     <div className='BlogPageFeaturedexplore-cardinnerdiv2'>
                         <div className='BlogPageFeaturedexplore-imagediv2'>
-                            <img src="Images/blogpage/Rectangle 17.png" alt="explore image"  className='imgexplore2'/>
+                            <img src="Images/blogpage/Rectangle 27.png" alt="explore image"  className='imgexplore2'/>
                         </div>
                         <div className='containerofcontain'>
                         <div className='BlogPageFeaturedexplore-containdivheading'> <p>The Golden Sands of Florida and California </p></div>
@@ -194,7 +196,7 @@ export const BlogPageFeaturedexplore = () => {
                     <div>
                     <div className='BlogPageFeaturedexplore-cardinnerdiv2'>
                         <div className='BlogPageFeaturedexplore-imagediv2'>
-                            <img src="Images/blogpage/Rectangle 17.png" alt="explore image"  className='imgexplore2'/>
+                            <img src="Images/blogpage/Rectangle 28.png" alt="explore image"  className='imgexplore2'/>
                         </div>
                         <div className='containerofcontain'>
                         <div className='BlogPageFeaturedexplore-containdivheading'> <p>The Golden Sands of Florida and California </p></div>
@@ -211,7 +213,7 @@ export const BlogPageFeaturedexplore = () => {
                     <div>
                     <div className='BlogPageFeaturedexplore-cardinnerdiv2'>
                         <div className='BlogPageFeaturedexplore-imagediv2'>
-                            <img src="Images/blogpage/Rectangle 17.png" alt="explore image"  className='imgexplore2'/>
+                            <img src="Images/blogpage/Rectangle 37.png" alt="explore image"  className='imgexplore2'/>
                         </div>
                         <div className='containerofcontain'>
                         <div className='BlogPageFeaturedexplore-containdivheading'> <p>The Golden Sands of Florida and California </p></div>
@@ -228,33 +230,147 @@ export const BlogPageFeaturedexplore = () => {
                  </div>
                  <div className='BlogPageFeaturedexplore-latestbloginnerdiv2div'>
                    <div className='BlogPageFeaturedexplore-popularblog'>
-                    {/* <div className='popularbloginnerdiv'>
-                         <div> 
-                        <img src="Images/blogpage/Rectangle 17.png" alt="explore image"  className='imgexplore'/>
+                    <div className='popularbloginnerdiv'>
+                         <div className='popularblogsmallcarddiv'> 
+                         <div className='imgppb'>
+                        <img src="Images/blogpage/Rectangle 60.png" alt="explore image"  className='imgppbinnerdiv'/>
+                        </div>
+                        <div className='popularblogsmallcarddiv-contain'>
+                            <div className='tingsdiv'>
+                         <h6>   13 Things i'd Tell Any New Travler</h6></div>
+                         <div>
+                         <span  style={{ color:"#3380f2", textDecoration: "underline"}}>Post</span> <span style={{ color:"gray"}}>by</span>  Adam smith </div>
+                         
+                         <div>
+                         <span  style={{ color:"gray"}}>15 nov. 2020 ----</span> <span style={{ color:"#3380f2"}}>50 comment</span>  </div>
+                         </div>
+                         
+                         <div>
+                        </div>
+                        </div> 
+                        <div className='popularblogsmallcarddiv'> 
+                         <div className='imgppb'>
+                        <img src="Images/blogpage/Rectangle 61.png" alt="explore image"  className='imgppbinnerdiv'/>
+                        </div>
+                        <div className='popularblogsmallcarddiv-contain'>
+                            <div className='tingsdiv'>
+                         <h6>   13 Things i'd Tell Any New Travler</h6></div>
+                         <div>
+                         <span  style={{ color:"#3380f2", textDecoration: "underline"}}>Post</span> <span style={{ color:"gray"}}>by</span>  Adam smith </div>
+                         
+                         <div>
+                         <span  style={{ color:"gray"}}>15 nov. 2020 ----</span> <span style={{ color:"#3380f2"}}>50 comment</span>  </div>
+                         </div>
+                         
+                         <div>
+                        </div>
+                        </div> 
+                        <div className='popularblogsmallcarddiv'> 
+                         <div className='imgppb'>
+                        <img src="Images/blogpage/Rectangle 62.png" alt="explore image"  className='imgppbinnerdiv'/>
+                        </div>
+                        <div className='popularblogsmallcarddiv-contain'>
+                            <div className='tingsdiv'>
+                         <h6>   13 Things i'd Tell Any New Travler</h6></div>
+                         <div>
+                         <span  style={{ color:"#3380f2", textDecoration: "underline"}}>Post</span> <span style={{ color:"gray"}}>by</span>  Adam smith </div>
+                         
+                         <div>
+                         <span  style={{ color:"gray"}}>15 nov. 2020 ----</span> <span style={{ color:"#3380f2"}}>50 comment</span>  </div>
+                         </div>
+                         
+                         <div>
+                        </div>
+                        </div> 
+                        <div className='popularblogsmallcarddiv'> 
+                         <div className='imgppb'>
+                        <img src="Images/blogpage/Rectangle 63.png" alt="explore image"  className='imgppbinnerdiv'/>
+                        </div>
+                        <div className='popularblogsmallcarddiv-contain'>
+                            <div className='tingsdiv'>
+                         <h6>   13 Things i'd Tell Any New Travler</h6></div>
+                         <div>
+                         <span  style={{ color:"#3380f2", textDecoration: "underline"}}>Post</span> <span style={{ color:"gray"}}>by</span>  Adam smith </div>
+                         
+                         <div>
+                         <span  style={{ color:"gray"}}>15 nov. 2020 ----</span> <span style={{ color:"#3380f2"}}>50 comment</span>  </div>
+                         </div>
+                         
+                         <div>
+                        </div>
+                        </div> 
+                        <div className='popularblogsmallcarddiv'> 
+                         <div className='imgppb'>
+                        <img src="Images/blogpage/Rectangle 29.png" alt="explore image"  className='imgppbinnerdiv'/>
+                        </div >
+                        <div className='popularblogsmallcarddiv-contain'>
+                            <div className='tingsdiv'>
+                         <h6>   13 Things i'd Tell Any New Travler</h6></div>
+                         <div>
+                         <span  style={{ color:"#3380f2", textDecoration: "underline"}}>Post</span> <span style={{ color:"gray"}}>by</span>  Adam smith </div>
+                         
+                         <div>
+                         <span  style={{ color:"gray"}}>15 nov. 2020 ----</span> <span style={{ color:"#3380f2"}}>50 comment</span>  </div>
+                         </div>
+                         
+                         <div>
+                        </div>
                         </div> 
                         
-
-                    </div> */}
-                    <div >
-                        <img src='Images/blogpage/poplar.png'/>
-                    </div>
-                    <div className='chdiv'>
-                        <img src='Images/blogpage/Follow me.png'/>
-                    </div>
-                    <div >
-                        <img src='Images/blogpage/Tags.png'/>
-                    </div>
-
-                   </div>
-
+                        </div> 
+                        
 
 
                    
                  </div>
+                 <div className='BlogPageFeaturedexplore-popularblog2div'>
+                    <p>Follow Us</p>
+                 <div className='BlogPageFeaturedexplore-popularblog2' >
+                   
+                    <div className='iconblogdiv2'><FaFacebook/></div>
+                    <div className='iconblogdiv'><FaInstagramSquare/></div>
+                    <div className='iconblogdiv'><FaTwitter/></div>
+                    <div className='iconblogdiv'><FaYoutube/></div>
+                 </div>
+                 </div>
+
+                 <div className='BlogPageFeaturedexplore-popularblog3'>
+                    <div className='travelerdiv' >
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+
+                    </div>
+                    <div className='travelerdiv' >
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+
+                    </div>
+                    <div className='travelerdiv' >
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+                        <div className='travelerdivinner'>travel website</div>
+
+                    </div>
+
+                 </div>
                 </div>
 
-            </div>
-        </div>
-    </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                
+</>    
   )
 }

@@ -31,15 +31,17 @@ export const CurrencyDataFetchTest = () => {
      {
        data && data.length>0 && data.map(
            (item)=>
-           <p className='CurrencyDataFetchNames'>
-            <span>
-              {item.name}
-              <h6 className='CurrencyDataFetchCodes'>{item.currency.code}</h6>
-              <h6 className='CurrencyDataFetchCodes'>{item.currency.name}</h6>
-              <h6 className='CurrencyDataFetchCodes'>{item.currency.symbol}</h6>
-              <img className='CurrencyDataFetchImage' src={item.flag}/>
-            </span>
-            </p>
+          //  <p className='CurrencyDataFetchNames'>
+            <div className='CurrencyDataFetchdetails'>
+              {/* {item.name} */}
+              {/* <img className='CurrencyDataFetchImage' src={item.flag}/> */}
+              {/* <img className='CurrencyDataFetchImage' src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/800px-Flag_of_India.svg.png"/> */}
+              <h6 className='CurrencyDataFetchCodes'>{item.currency.code} </h6>
+              {/* <h6 className='CurrencyDataFetchCodes'>{item.currency.name}</h6> */}
+              <h6 className='CurrencyDataFetchSymbol'>{item.currency.symbol}</h6>
+
+           </div>
+            // </p>
        )
      }
     </div>
