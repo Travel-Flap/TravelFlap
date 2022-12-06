@@ -1,10 +1,52 @@
-import React from 'react';
+import { useContext, createContext, useEffect, useState } from "react";
 import "./Login.css";
 import { Link } from 'react-router-dom';
 
+// import { auth, provider } from "../firebase";
+// import { signInWithPopup } from "firebase/auth";
+// import { NewFlight } from "../../NewFlightsPage/NewFlight";
+import Home from "../Home";
+import { GoogleButton } from 'react-google-button';
+import UserAuth  from '../context/AuthContext';
+import { useNavigate } from 'react-router-dom';
+
 export const LoginPageTravelFlap = () => {
 
+    // const [value, setValue] = useState('')
+    // const handleClick = () => {
+    //     signInWithPopup(auth, provider).then((data) => {
+    //         setValue(data.user.email)
+    //         localStorage.setItem("email", data.user.email)
+    //     })
+    // }
+
+    // useEffect(() => {
+    //     setValue(localStorage.getItem('email'))
+    // })
+
+
+    // const { googleSignIn, user } = UserAuth();
+    // const navigate = useNavigate();
+
+    // const handleGoogleSignIn = async () => {
+    //     try {
+    //         await googleSignIn();
+    //     } catch (error) {
+    //         console.log(error);
+    //     }
+    // };
+
+    // useEffect(() => {
+    //     if (user != null) {
+    //         navigate('/flights');
+    //     }
+    // }, [user]);
+
+
+
     return (
+
+
         <>
             <div className='travelFlaploginPageOuterDiv'>
 
@@ -115,6 +157,20 @@ export const LoginPageTravelFlap = () => {
                             </form>
                         </div>
 
+                        {/* <div>
+                            <NewFlight/>
+                            <button onClick={handleClick}>Signin With Google</button>
+                            {value ? <Home/> :
+                                <button onClick={handleClick}>Signin With Google</button>
+                            }
+                        </div> */}
+
+                        {/* <div className='loginGoogleButton'>
+                            <h1 className='text-center text-3xl font-bold py-8'>Sign in</h1>
+                            <div className=' '>
+                                <GoogleButton onClick={handleGoogleSignIn} />
+                            </div>
+                        </div> */}
 
                         <div className='travelFlaploginPageImageDiv'>
                             <img src='/Images/NewHomeLayout/LoginSignup/loginsignuptextimage.png' alt='loginPage image' />

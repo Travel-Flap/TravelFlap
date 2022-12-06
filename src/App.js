@@ -103,13 +103,14 @@ function App() {
       {/* <Link to="/hotels"><Hotel/></Link> */}
       {/* <Link to="/Holidays"></Link> */}
       {/* <Router path="./components/Pages/Home/Home.jsx">Home</Router> */}
-      <Routes>
         {/* <Route path="/flights" element={<Flights/>} /> */}
         {/* <Route path="/holidays" element={<Holidays />} /> */}
         {/* <Route path="/rentals" element={ <Rentals/>} /> */}
         {/* <Route path="/offers" element={<Offers />}   /> */}
 
         {/* <Route path="/" element={<NewHomeLayout/>} /> */}
+        
+      <Routes>
         <Route path="/" element={<NewFlight />} />
         <Route path="/home" element={<NewHomeLayout />} />
 
