@@ -333,21 +333,6 @@ export const NewHomeNav = () => {
 
                                     <div className='nav-link'><p> INDIA <FaCaretDown /></p>
                                         <div className='chooseCountry'>
-                                            {/* <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div> */}
                                             <CountryDataFetchTest/>
                                         </div>
                                     </div>

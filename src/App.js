@@ -67,6 +67,7 @@ import { SignupPageTravelFlap } from "./components/Pages/LoginSignUp/SignupPage/
 import { BlogPage } from "./components/Pages/BlogPage/BlogPage";
 
 import { NewHelpPage } from "./components/Pages/NewHelpPage/NewHelpPage";
+import { Newtrippage } from "./components/Pages/Newtrippage/Newtrippage";
 
 function App() {
   return (
@@ -220,6 +221,7 @@ function App() {
 
         <Route path="/helpPage" element={<NewHelpPage />} />
         <Route path="/blogs" element={<BlogPage/>}/>
+        <Route path="/trip" element={<Newtrippage/>}/>
         <Route path="/contact" element={<ContactUS />} />
       </Routes>
 
