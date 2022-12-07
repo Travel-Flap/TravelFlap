@@ -9,7 +9,7 @@
     overflow-x: scroll;
     display: grid;
     grid-template-columns: auto auto auto auto ;
-    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    grid-row-gap:10px ;
 }
 .CountryDataFetchdetails{
     display: flex;
