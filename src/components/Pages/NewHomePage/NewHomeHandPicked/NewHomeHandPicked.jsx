@@ -38,7 +38,7 @@ export const NewHomeHandPicked = () => {
 
     const sliderRef = useRef(null);
     useEffect(() => {
-        console.log(sliderRef);
+        // console.log(sliderRef);
     }, []);
 
 

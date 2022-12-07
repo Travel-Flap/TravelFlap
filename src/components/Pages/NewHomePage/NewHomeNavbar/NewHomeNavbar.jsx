@@ -106,9 +106,11 @@ export const NewHomeNav = () => {
                 <div className='navbarOptions'>
                     <FaPhoneAlt className='contactIcon' />  ContactUs
                 </div>
-                <div className='navbarOptions '>
-                    <GiPalmTree className='miceIcon' />  Safe Stays
-                </div>
+                <Link to="/trip" style={{ textDecoration: "none" }}>
+                    <div className='navbarOptions '>
+                        <GiPalmTree className='miceIcon' />  Trips
+                    </div>
+                </Link>
                 <div className='navbarOptions'>
                     <FaTags className='offersIcon' /> Offers
                 </div>
@@ -244,7 +246,7 @@ export const NewHomeNav = () => {
                                         <div className='countrynames'>
                                             INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                         </div> */}
-                                        <CurrencyDataFetchTest/>
+                                        <CurrencyDataFetchTest />
                                     </div>
                                 </div>
 
@@ -265,26 +267,26 @@ export const NewHomeNav = () => {
                                         <div className='countrynames'>
                                             INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                         </div> */}
-                                        <CountryDataFetchTest/>
+                                        <CountryDataFetchTest />
                                     </div>
                                 </div>
 
                                 <div className='login-register'> <p>Login / Register <FaCaretDown /></p>
                                     <div className='LoginRegisterDropDown'>
-                                        <Link to="/loginPage" style={{color:"white",textDecoration:"none"}}>
+                                        <Link to="/loginPage" style={{ color: "white", textDecoration: "none" }}>
                                             <div className='LoginRegisterOptions'>
                                                 <FaUserLock className='LoginIcon' /> Login
                                             </div>
                                         </Link>
-                                        <Link to="/signupPage" style={{color:"white",textDecoration:"none"}}>
-                                        <div className='LoginRegisterOptions '>
-                                            <FaUserCheck className='RegisterIcon' /> Register
-                                        </div>
+                                        <Link to="/signupPage" style={{ color: "white", textDecoration: "none" }}>
+                                            <div className='LoginRegisterOptions '>
+                                                <FaUserCheck className='RegisterIcon' /> Register
+                                            </div>
                                         </Link>
-                                        <Link to="/blogs" style={{color:"white",textDecoration:"none"}}>
-                                        <div className='LoginRegisterOptions'>
-                                            <FaPenFancy className='BlogsIcon' /> Blogs
-                                        </div>
+                                        <Link to="/blogs" style={{ color: "white", textDecoration: "none" }}>
+                                            <div className='LoginRegisterOptions'>
+                                                <FaPenFancy className='BlogsIcon' /> Blogs
+                                            </div>
                                         </Link>
                                         <div className='LoginRegisterOptions'>
                                             <FaMoneyCheck className='PaymentIcon' /> Make Payments
@@ -327,46 +329,31 @@ export const NewHomeNav = () => {
                                             <div className='countrynames'>
                                                 INDIA <img src="Images/Flags/India.jpg" className='flags' />
                                             </div> */}
-                                            <CurrencyDataFetchTest/>
+                                            <CurrencyDataFetchTest />
                                         </div>
                                     </div>
 
                                     <div className='nav-link'><p> INDIA <FaCaretDown /></p>
                                         <div className='chooseCountry'>
-                                            {/* <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div>
-                                            <div className='countrynames'>
-                                                INDIA <img src="Images/Flags/India.jpg" className='flags' />
-                                            </div> */}
-                                            <CountryDataFetchTest/>
+                                            <CountryDataFetchTest />
                                         </div>
                                     </div>
                                     <div className='login-register'> Login/Registerr
                                         <div className='LoginRegisterDropDown' style={{ marginRight: "-30%" }}>
-                                            <Link to="/loginPage" style={{color:"white",textDecoration:"none"}}>
+                                            <Link to="/loginPage" style={{ color: "white", textDecoration: "none" }}>
                                                 <div className='LoginRegisterOptions' >
                                                     <FaUserLock className='LoginIcon' /> Login
                                                 </div>
                                             </Link>
-                                            <Link to="/signupPage" style={{color:"white",textDecoration:"none"}}>
-                                            <div className='LoginRegisterOptions '>
-                                                <FaUserCheck className='RegisterIcon' /> Register
-                                            </div>
+                                            <Link to="/signupPage" style={{ color: "white", textDecoration: "none" }}>
+                                                <div className='LoginRegisterOptions '>
+                                                    <FaUserCheck className='RegisterIcon' /> Register
+                                                </div>
                                             </Link>
-                                            <Link to="/blogs" style={{color:"white",textDecoration:"none"}}>
-                                            <div className='LoginRegisterOptions'>
-                                                <FaPenFancy className='BlogsIcon' /> Blogs
-                                            </div>
+                                            <Link to="/blogs" style={{ color: "white", textDecoration: "none" }}>
+                                                <div className='LoginRegisterOptions'>
+                                                    <FaPenFancy className='BlogsIcon' /> Blogs
+                                                </div>
                                             </Link>
                                             <div className='LoginRegisterOptions'>
                                                 <FaMoneyCheck className='PaymentIcon' /> Make Payments

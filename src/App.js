@@ -68,6 +68,7 @@ import { BlogPage } from "./components/Pages/BlogPage/BlogPage";
 
 import { NewHelpPage } from "./components/Pages/NewHelpPage/NewHelpPage";
 import { CruiseBookingPage } from "./components/Pages/NewCruisePage/CruiseBookingPage/CruiseBookingPage";
+import { Newtrippage } from "./components/Pages/Newtrippage/Newtrippage";
 
 function App() {
   return (
@@ -221,8 +222,12 @@ function App() {
         <Route path="/signupPage" element={<SignupPageTravelFlap />} />
 
         <Route path="/helpPage" element={<NewHelpPage />} />
+
         <Route path="/blogs" element={<BlogPage />} />
         <Route path="/blogs" element={<BlogPage />} />
+
+        <Route path="/blogs" element={<BlogPage/>}/>
+        <Route path="/trip" element={<Newtrippage/>}/>
         <Route path="/contact" element={<ContactUS />} />
       </Routes>
     </>

@@ -69,7 +69,7 @@ export const NewFlightBannerForm = () => {
                             <Link to='/contact' className='moreOptions'><FaPhoneAlt className='contactIcon' /> ContactUs</Link>
                         </div>
                         <div className='moreOptions '>
-                            <Link to='' className='moreOptions'><GiPalmTree className='miceIcon' />  Safe Stay </Link>
+                            <Link to='/trip' className='moreOptions'><GiPalmTree className='miceIcon' /> Trips </Link>
                         </div>
                         <div className='moreOptions'>
                             <Link to='/offers' className='moreOptions'>   <FaTags className='offersIcon' /> Offers </Link>

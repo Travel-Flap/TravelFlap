@@ -13,7 +13,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 export const FlightsNearYou = () => {
     const sliderRef = useRef(null);
     useEffect(() => {
-        console.log(sliderRef);
+        // console.log(sliderRef);
     }, []);
     return (
         <div className="newFlightsNearYoumaindiv">

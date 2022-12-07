@@ -47,7 +47,7 @@ export const NewHomeAppDownload = () => {
         fetchData();
     }, []);
     const { loading, errorMessage, countries } = countryState;
-    console.log("loading", loading);
+    // console.log("loading", loading);
     // console.log("countries", countries);
     console.log("errorMessage", errorMessage);
 
