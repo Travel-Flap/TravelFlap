@@ -1,0 +1,373 @@
+.innerCruiseFacilitiespagemainDiv {
+  /* border: 2px solid red; */
+  height: 550px;
+}
+
+.innerCruiseFacilitiespagemainDiv h3 {
+  margin-left: 7%;
+  margin-bottom: 2%;
+}
+
+.innerCruiseFacilitiesHeadingButtons {
+  /* border: 2px solid green; */
+  background-color: #e8f4ff;
+  height: 50px;
+  width: 100%;
+  border: none;
+  font-weight: 700;
+}
+.active {
+  color: #393939;
+  border-bottom: 2px solid #393939;
+}
+.innerCruiseFacilitiesChangemainDiv {
+  width: 100%;
+  height: 80px;
+  border: 1px solid lightgray;
+  background-color: #e8f4ff !important;
+  border-radius: 10px;
+  /* margin-top: -2%; */
+  /* margin: auto; */
+}
+.innerCruiseFacilitiesbuttonouterDiv {
+  display: flex;
+  flex-direction: row;
+}
+.innerCruiseFacilitiesbuttonDiv {
+  /* border: 2px solid blue; */
+  width: 15%;
+  /* height: 35px; */
+  margin: auto;
+  margin-top: 1%;
+}
+
+.innerCruiseFacilitiesChangeableDataBannerdropcontainer {
+  /* border: 1px solid red; */
+  width: 30%;
+  /* margin-left: 40%; */
+  border: none;
+  height: 50px;
+}
+
+.innerCruiseFacilitiesChangeableDataBannerdropcontainer select {
+  font-size: 15px;
+  height: 50px;
+  border: 2px solid #dddddd78;
+  background-color: #e8f4ff;
+}
+
+.innerCruiseFacilitiesChangeableDataBannerdropcontainer select::placeholder {
+  padding-top: 4px;
+}
+
+.innerCruiseFacilitiesChangeableDataBannerdropcontainer1 {
+  margin-left: 3%;
+  width: 30%;
+  height: 50px;
+}
+
+.innerCruiseFacilitiesChangeableDataBannerdropcontainer1 p {
+  height: 10px;
+  color: #818090;
+}
+
+.innerCruiseFacilitiesChangeableDataBannerdropcontainer1 select {
+  font-size: 15px;
+  height: 50px;
+  padding: 5px 10px;
+  border: 2px solid #dddddd78;
+  background-color: #e8f4ff;
+}
+.innerCruiseFacilitiesChangeableButton {
+  /* border: 2px solid red; */
+  width: 60%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 41%; */
+  margin-top: 2%;
+}
+.CruiseFacilitiesTypeMainDiv {
+  /* border: 2px solid salmon; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.innerCruiseFacilitiesTypedetailsDiv {
+  /* border: 2px solid red; */
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.innerCruiseFacilitiesTypeDetailContainer {
+  border: 1px solid lightgray;
+  width: 95%;
+  height: 160px;
+  /* margin: auto; */
+  margin-top: 1.5%;
+  display: flex;
+  flex-direction: row;
+}
+.innerCruiseFacilitiesInformationDiv {
+  /* border: 2px solid saddlebrown; */
+  width: 70%;
+  padding-left: 15px;
+}
+.innerCruiseFacilitiesRate {
+  color: gray;
+  font-size: 15px;
+  margin-top: 1%;
+}
+.innerCruiseFacilitiesTypeofCruiseFacilities {
+  font-weight: 700;
+  color: #393939;
+  font-size: 18px;
+  margin-top: -3%;
+}
+.innerCruiseFacilitiesDescription {
+  color: grey;
+  margin-top: -3%;
+  text-align: justify;
+  font-size: 12px;
+}
+.innerCruiseFacilitiesPrice {
+  color: #393939;
+  font-size: 14px;
+  margin-top: -1%;
+}
+.CruiseFacilitiesPrice {
+  color: #3380f2;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: -3%;
+}
+.innerCruiseFacilitiesAddtoCartDiv {
+  /* border: 2px solid black; */
+  width: 30%;
+}
+.innerCruiseFacilitiesCartcounter {
+  border: 2px solid lightgray;
+  width: 60%;
+  height: 40px;
+  border-radius: 15px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15%;
+  justify-content: space-between;
+}
+
+.innerCruiseFacilitiesaddbutton {
+  /* margin-right: 9%; */
+  width: 19%;
+  height: 25px;
+  color: #3380f2;
+  /* background-color: #3380F2; */
+  /* border: 2px solid #3380F2; */
+  border-radius: 35px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 9%;
+  text-align: center;
+  /* margin-top: 4%; */
+  cursor: pointer;
+  /* padding-top: 2px; */
+}
+.innerCruiseFacilitiessubtractbutton {
+  margin-right: 9%;
+  width: 19%;
+  height: 25px;
+  color: #3380f2;
+  /* background-color: #3380F2; */
+  /* border: 2px solid #3380F2; */
+  border-radius: 22px;
+  font-size: 25px;
+  font-weight: 700;
+  /* margin-left: -9%; */
+  text-align: center;
+  /* margin-top: 3%; */
+  cursor: pointer;
+}
+.innerCruiseFacilitiescountertext {
+  font-size: 25px;
+  font-weight: 700;
+  color: #3380f2;
+  /* margin-left: 15%; */
+}
+.innerCruiseFacilitiesAddtocartButton {
+  background-color: #3380f2;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  width: 60%;
+  height: 40px;
+  margin-top: 10%;
+  padding: 8px 18px;
+  margin-left: 20%;
+}
+.innerCruiseFacilitiesAddtocartButton :hover {
+  background-color: white;
+  color: #3380f2;
+  border: 2px solid #3380f2;
+  cursor: pointer;
+}
+
+.innerCruiseFacilitiesTypecontactDiv {
+  /* border: 2px solid gold; */
+  width: 35%;
+  margin-top: -4.5%;
+}
+
+.innerCruiseFacilitiesPageDocumentMainDiv {
+  /* border: 2px solid black; */
+  height: auto;
+  width: 80%;
+}
+.innerCruiseFacilitiesDocumentHeading {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 1%;
+  /* margin-left: 4%; */
+  color: #393939;
+}
+.innerCruiseFacilitiesPageDocumentContainer {
+  width: 90%;
+  margin-top: 3%;
+  height: auto;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #393939;
+}
+.innerCruiseFacilitiespageDoumentsLists {
+  list-style-type: disc;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+.innerCruiseFacilitiesprocessMainDiv {
+  /* border: 2px solid red; */
+  width: 80%;
+}
+.innerCruiseFacilitiesProcessheading {
+  color: #393939;
+  font-size: 28px;
+  font-weight: 700;
+  width: 80%;
+  margin-top: 1%;
+  margin-left: 5%;
+  /* border: 2px solid red; */
+}
+.innerCruiseFacilitiesProcesscontainerDiv {
+  /* border: 2px solid black; */
+  width: 90%;
+  height: 150px;
+  margin: auto;
+  margin-top: 7%;
+  object-fit: cover;
+  background-size: cover;
+}
+.innerCruiseFacilitiesProcessImage {
+  width: 100%;
+  height: 100%;
+}
+.CruiseFacilitiesinnerSample {
+  /* border: 2px solid green; */
+  width: 80%;
+  height: 550px;
+  /* margin: auto; */
+}
+.CruiseFacilitiesinnerImageDiv {
+  border: 2px solid lightgray;
+  width: 45%;
+  height: 100%;
+  margin: auto;
+}
+.CruiseFacilitiesinnerImageDiv img {
+  width: 100%;
+  height: 100%;
+}
+.CruiseFacilitiesInnerEmbasy {
+  width: 80%;
+  /* border: 2px solid red; */
+}
+.CruiseFacilitiesInnerEmbasyLinks {
+  width: 70%;
+  height: 100px;
+  /* border: 2px solid gold; */
+  margin-top: 2%;
+}
+.CruiseFacilitiesInnerEmbasyHeadings {
+  color: #393939;
+  font-weight: 700;
+  font-size: 20px;
+}
+.CruiseFacilitiesEmbasyLinks {
+  font-size: 15px;
+  color: #818090;
+  list-style-type: square;
+  /* font-weight: 700; */
+}
+
+/* This css is for the CruiseFacilities inner webpage written */
+
+.innerCruiseFacilitiesBookingOfferOuterDiv {
+  border: 2px solid lightgray;
+  width: 95%;
+  margin-top: 1%;
+}
+
+.innerCruisefacilitiesChangeDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+}
+
+.innerCruiseFacilitiesImageDiv {
+  /* border: 1px solid rebeccapurple; */
+  width: 40%;
+  /* margin-top: 1%; */
+  /* margin-left: 1%; */
+}
+
+.innerCruiseFacilitiesImageDiv img {
+  width: 100%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.innerCruiseFacilitiesContentDiv{
+    width: 50%;
+}
+
+.innerCruiseFacilitiesContentDiv p {
+  /* border: 1px solid red; */
+  width: 92%;
+  margin-top: 12%;
+  margin-left: 10%;
+  font-size: 18px;
+  font-weight: 500;
+  vertical-align: baseline;
+  line-height: 20px;
+  font-family: "Poppins";
+}
+
+.innerCruiseFacilitiesBookingOfferOuterDiv h5 {
+  margin-top: 4%;
+  margin-left: 3%;
+  font-weight: 600;
+  font-size: 25px;
+  color: #393939;
+}
+
+/* .innerCruiseFacilitiesBookingOfferOuterDiv p {
+  margin-left: 4%;
+  font-weight: 500;
+  font-size: 16px;
+  vertical-align: baseline;
+  line-height: 20px;
+  color: #393939;
+} */

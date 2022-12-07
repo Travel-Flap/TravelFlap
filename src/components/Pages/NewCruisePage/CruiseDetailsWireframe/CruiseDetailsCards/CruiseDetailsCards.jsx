@@ -128,7 +128,7 @@ export const CruiseDetailsCards = () => {
                 <div className="cruiseDetailsInnerWebPageCardsDiv">
 
                     <div className="cruiseDetailsInnerWebPageCardsContainer">
-                        <Link to="/">
+                        <Link to="/cruiseBookingPage">
                             <div className="cruiseDetailsInnerWebPageCardsImage">
                                 <img src="/Images/NewHomeLayout/CruiseDetailsPage/CruiseShipImage.png" alt="ship image" />
                             </div>
@@ -180,7 +180,7 @@ export const CruiseDetailsCards = () => {
                             </div>
 
                             <div className="cruiseDetailsInnerButtonDiv">
-                                <button className="btn btn-primary cruiseDetailsViewDealsBtn"> View Details </button>
+                                <Link to="/cruiseBookingPage" style={{textDecoration:"none"}}> <button className="btn btn-primary cruiseDetailsViewDealsBtn"> View Details </button> </Link>
                                 <button className="btn btn-primary cruiseDetailsBookNowBtn"> Book now </button>
                             </div>
                         </div>
@@ -195,7 +195,7 @@ export const CruiseDetailsCards = () => {
                     </div>
 
                     <div className="cruiseDetailsInnerWebPageCardsContainer">
-                        <Link to="/">
+                        <Link to="/cruiseBookingPage">
                             <div className="cruiseDetailsInnerWebPageCardsImage">
                                 <img src="/Images/NewHomeLayout/CruiseDetailsPage/CruiseShipImage.png" alt="ship image" />
                             </div>
@@ -247,7 +247,7 @@ export const CruiseDetailsCards = () => {
                             </div>
 
                             <div className="cruiseDetailsInnerButtonDiv">
-                                <button className="btn btn-primary cruiseDetailsViewDealsBtn"> View Details </button>
+                                <Link to="/cruiseBookingPage" style={{textDecoration:"none"}}> <button className="btn btn-primary cruiseDetailsViewDealsBtn"> View Details </button> </Link>
                                 <button className="btn btn-primary cruiseDetailsBookNowBtn"> Book now </button>
                             </div>
                         </div>
@@ -262,7 +262,7 @@ export const CruiseDetailsCards = () => {
                     </div>
 
                     <div className="cruiseDetailsInnerWebPageCardsContainer">
-                        <Link to="/">
+                        <Link to="/cruiseBookingPage">
                             <div className="cruiseDetailsInnerWebPageCardsImage">
                                 <img src="/Images/NewHomeLayout/CruiseDetailsPage/CruiseShipImage.png" alt="ship image" />
                             </div>
@@ -314,7 +314,7 @@ export const CruiseDetailsCards = () => {
                             </div>
 
                             <div className="cruiseDetailsInnerButtonDiv">
-                                <button className="btn btn-primary cruiseDetailsViewDealsBtn"> View Details </button>
+                                <Link to="/cruiseBookingPage" style={{textDecoration:"none"}}> <button className="btn btn-primary cruiseDetailsViewDealsBtn"> View Details </button> </Link>
                                 <button className="btn btn-primary cruiseDetailsBookNowBtn"> Book now </button>
                             </div>
                         </div>
@@ -329,7 +329,7 @@ export const CruiseDetailsCards = () => {
                     </div>
 
                     <div className="cruiseDetailsInnerWebPageCardsContainer">
-                        <Link to="/">
+                        <Link to="/cruiseBookingPage">
                             <div className="cruiseDetailsInnerWebPageCardsImage">
                                 <img src="/Images/NewHomeLayout/CruiseDetailsPage/CruiseShipImage.png" alt="ship image" />
                             </div>
@@ -381,7 +381,7 @@ export const CruiseDetailsCards = () => {
                             </div>
 
                             <div className="cruiseDetailsInnerButtonDiv">
-                                <button className="btn btn-primary cruiseDetailsViewDealsBtn"> View Details </button>
+                                <Link to="/cruiseBookingPage" style={{textDecoration:"none"}}> <button className="btn btn-primary cruiseDetailsViewDealsBtn"> View Details </button> </Link>
                                 <button className="btn btn-primary cruiseDetailsBookNowBtn"> Book now </button>
                             </div>
                         </div>
@@ -396,7 +396,7 @@ export const CruiseDetailsCards = () => {
                     </div>
 
                     <div className="cruiseDetailsInnerWebPageCardsContainer">
-                        <Link to="/">
+                        <Link to="/cruiseBookingPage">
                             <div className="cruiseDetailsInnerWebPageCardsImage">
                                 <img src="/Images/NewHomeLayout/CruiseDetailsPage/CruiseShipImage.png" alt="ship image" />
                             </div>
@@ -448,7 +448,7 @@ export const CruiseDetailsCards = () => {
                             </div>
 
                             <div className="cruiseDetailsInnerButtonDiv">
-                                <button className="btn btn-primary cruiseDetailsViewDealsBtn"> View Details </button>
+                                <Link to="/cruiseBookingPage" style={{textDecoration:"none"}}> <button className="btn btn-primary cruiseDetailsViewDealsBtn"> View Details </button> </Link>
                                 <button className="btn btn-primary cruiseDetailsBookNowBtn"> Book now </button>
                             </div>
                         </div>

@@ -751,13 +751,13 @@ export const InnerWebPageFooter = () => {
 
 
                         <div className='contactusdiv'>
-                            <li className='listwiseheading1' style={{marginLeft:"10%"}}> Contact us</li>
+                            <li className='listwiseheading1' style={{ marginLeft: "10%" }}> Contact us</li>
 
                             <div className='innerFooterContactUsDiv'>
                                 <div>
                                     <ul>
                                         <div className='listwiseCountry'>
-                                            <li className='newFooterContentHeadingDiv' style={{marginTop:"10%"}}>India</li>
+                                            <li className='newFooterContentHeadingDiv' style={{ marginTop: "10%" }}>India</li>
                                             <li className='newFooterContentHeadingDiv' >US</li>
                                             {/* <li className='newFooterContentHeadingDiv' >India</li> */}
                                             <li className='newFooterContentHeadingDiv' >Kenya</li>
@@ -786,9 +786,9 @@ export const InnerWebPageFooter = () => {
                                 </div>
                             </div>
 
-                            <p style={{marginLeft:"75%",width:"100%"}}>The world leader in online travel & related services</p>
+                            <p style={{ marginLeft: "75%", width: "100%" }}>The world leader in online travel & related services</p>
                         </div>
-                        
+
                     </div>
 
                     <div className='footerlogolastdiv'>
@@ -823,18 +823,18 @@ export const InnerWebPageFooter = () => {
 
                     <div className='innerfooterPaymentOptions'>
 
-                    <div className='newHomeFootertextandPayment' style={{marginTop:"1%"}}>
-                        <p className='newHomeFootercopyrightText'>©2022 All Rights Reserved TravelFlap Global Private Limited</p>
-                        <p className='newHomeFootercopyrightText'>Privacy Policy</p>
-                        <p className='newHomeFootercopyrightText'>Terms and Conditions</p>
-                        <p className='newHomeFootercopyrightText'>Sales and Refund</p>
-                        <p className='newHomeFootercopyrightText'>We Accept</p>
+                        <div className='newHomeFootertextandPayment' style={{ marginTop: "1%" }}>
+                            <p className='newHomeFootercopyrightText'>©2022 All Rights Reserved TravelFlap Global Private Limited</p>
+                            <p className='newHomeFootercopyrightText'>Privacy Policy</p>
+                            <p className='newHomeFootercopyrightText'>Terms and Conditions</p>
+                            <p className='newHomeFootercopyrightText'>Sales and Refund</p>
+                            <p className='newHomeFootercopyrightText'>We Accept</p>
 
-                        {/* <WaveEffects/> */}
-                        {/* <div className='paymentGatewayGroup'>
+                            {/* <WaveEffects/> */}
+                            {/* <div className='paymentGatewayGroup'>
                             <img className='newFooterPaymentIamges' src='Images/NewHomeLayout/FooterContent/PaymentGroup.png' />
                         </div> */}
-                    </div>
+                        </div>
 
                         <div className='innerfooterPaymentcards'>
 

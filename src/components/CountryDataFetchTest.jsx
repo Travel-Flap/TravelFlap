@@ -59,7 +59,7 @@ export const CountryDataFetchTest = () => {
     }
     )
       .then(function(response){
-        console.log(response)
+        // console.log(response)
         return response.json();
       })
       .then(function(myJson) {

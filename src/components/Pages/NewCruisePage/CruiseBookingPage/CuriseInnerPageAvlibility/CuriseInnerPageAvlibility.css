@@ -1,0 +1,115 @@
+.CuriseInnerPageAvlibility-maindiv {
+  border: 2px solid lightgray;
+  width: 90%;
+  margin-left: 4%;
+  margin-right: 4%;
+  border-radius: 10px;
+  margin-top: 2%;
+}
+.CuriseInnerPageAvlibility-innermaindiv {
+  /* border: 2px solid green; */
+
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.CuriseInnerPageAvlibility-innermaindiv h4 {
+  font-size: 25px;
+  font-weight: 550;
+  font-family: sans-serif;
+}
+
+.CuriseInnerPageAvlibility-innermaindiv p {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.CuriseInnerPageAvlibility-innermaindiv h5 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #3380f2;
+}
+.CuriseInnerPageAvlibility-containdiv {
+  border: 2px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  height: 350px;
+  border-radius: 10px;
+}
+.CuriseInnerPageAvlibility-imagediv {
+  /* border: 2px solid pink; */
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.CuriseInnerPageAvlibility-imagediv img {
+  /* border: 1px solid black; */
+  width: 95%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.CuriseInnerPageAvlibility-innercontaindiv {
+  /* border: 2px solid green ; */
+  margin-left: 2%;
+  margin-top: 3%;
+  width: 30%;
+  padding-top: 3%;
+}
+
+.CuriseInnerPageAvlibility-containpricediv {
+  /* border: 2px solid red; */
+  margin-top: 3%;
+  width: 25%;
+  /* margin-left: 3%; */
+  justify-content: right;
+  text-align: right;
+  padding-top: 3%;
+}
+
+.CuriseInnerPageAvlibility-containpricediv p {
+  /* border: 1px solid red; */
+  margin-right: 5%;
+}
+
+.CuriseInnerPageAvlibility-containpricediv h5 {
+  margin-right: 5%;
+}
+
+.CuriseInnerPageAvlibility-booknowbutton1 {
+  width: 60%;
+  margin-left: 40%;
+  margin-top: 8%;
+  /* width: 25%; */
+  height: 50px;
+  justify-content: center;
+  padding-top: 3%;
+  font-weight: 15px;
+  font-weight: 650;
+}
+
+.CuriseInnerPageAvlibility-booknowbutton2 {
+  width: 55%;
+  margin-left: 40%;
+  margin-top: 8%;
+  /* width: 25%; */
+  height: 50px;
+  justify-content: center;
+  padding-top: 3%;
+  font-weight: 15px;
+  font-weight: 650;
+  /* background-color: white;
+  color: #3380f2; */
+}
+
+.CuriseInnerPageAvlibility-booknowbutton2:hover {
+  background-color: white;
+  color: #3380f2;
+}

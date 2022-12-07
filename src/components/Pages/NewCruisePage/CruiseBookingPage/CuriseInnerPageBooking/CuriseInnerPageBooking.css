@@ -1,0 +1,200 @@
+.CuriseInnerPageBookingmain-div {
+  border: 2px solid lightgray;
+  width: 90%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+
+.CuriseInnerPageBookingmain-innerdiv {
+  /* border: 2px solid blue ; */
+
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.CuriseInnerPageBookingmain-imagemaindiv {
+  /* border: 2px solid yellow ; */
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.CuriseInnerPageBookingmain-imagemaindiv1 {
+  /* border: 2px solid green; */
+  width: 100%;
+}
+
+.imgofcurise {
+  width: 100%;
+}
+
+.CuriseInnerPageBookingmain-imagemaindiv2 {
+  /* border: 2px solid blue ; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  column-gap: 5px;
+}
+
+.CuriseInnerPageBookingmain-image {
+  /* border: 2px solid red; */
+  /* margin-left: 7%; */
+  margin-top: 2%;
+  width: 30%;
+  margin-right: 3%;
+}
+
+.CuriseInnerPageBookingmain-image1 {
+  /* border: 2px solid goldenrod; */
+  /* margin-left: 4.5%; */
+  margin-top: 2%;
+  width: 100%;
+}
+
+.CuriseInnerPageBookingmain-containdiv {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.CuriseInnerPageBookingmain-logo-containdiv {
+  /* border: 2px solid pink; */
+  /* border: none; */
+  /* border-bottom: gray; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 120px;
+}
+.CuriseInnerPageBookingmain-logo-imagediv {
+  /* border: 2px solid yellow; */
+  width: 12%;
+  margin-left: 2%;
+}
+.hotellogo {
+  /* border: 2px solid green; */
+  width: 100%;
+}
+
+.CuriseInnerPageBookingmain-logo-hotelnamediv {
+  /* border: 2px solid blueviolet; */
+  margin-left: 34%;
+}
+.CuriseInnerPageBookingmain-logo-hotelnamediv h3 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #393939;
+}
+
+.CuriseInnerPageBookingmain-logo-hotelnamediv p {
+  color: #3380f2;
+  margin-left: 47%;
+  /* margin-bottom: 5%; */
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.CuriseInnerPageBookingmain-pricediv {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  height: 170px;
+  border-top: 1px solid lightgray;
+  margin-left: 3%;
+  /* border: none; */
+}
+.CuriseInnerPageBookingmain-pricecontaindiv {
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  /* height: 200px; */
+  /* margin-left: 2%; */
+  margin-top: 2%;
+}
+.CuriseInnerPageBookingmain-pricecontaindiv h4 {
+  font-weight: 700;
+  font-size: 23px;
+  color: #393939;
+  font-family: sans-serif;
+}
+.CuriseInnerPageBookingmain-pricecontaindiv p {
+  font-weight: 540;
+  font-size: 15px;
+  color: #4c4c4c;
+  font-family: sans-serif;
+}
+.CuriseInnerPageBookingmain-price h4 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #3380f2;
+  font-family: sans-serif;
+}
+.cancellationdiv p {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(76, 202, 76);
+  font-family: sans-serif;
+}
+.CuriseInnerPageBookingmain-price {
+  /* border: 2px solid green; */
+  margin-left: 40%;
+  margin-top: 2%;
+}
+.CuriseInnerPageBookingmain-price p {
+  font-weight: bold;
+  margin-left: 25%;
+}
+
+.CuriseInnerPageBookingmain-selectopt {
+  /* border: 2px solid aqua; */
+  border: none;
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  border-top: 1px solid lightgrey;
+  margin-left: 3%;
+}
+.CuriseInnerPageBookingmain-booknowbutton {
+  /* border: 2px solid blue; */
+  margin-left: 43%;
+  margin-top: 3%;
+  width: 25%;
+  height: 52px;
+}
+.CuriseInnerPageBookingmain-booknowbutton1 {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  padding-top: 7%;
+  font-weight: 15px;
+  font-weight: 650;
+}
+
+.CuriseInnerPageBookingmain-Selectcabinbutton {
+  /* border: 2px solid blue; */
+  margin-left: 5%;
+  margin-top: 3%;
+  width: 25%;
+  height: 52px;
+}
+.CuriseInnerPageBookingmain-Selectcabinbutton1 {
+  background-color: white;
+  color: #393939;
+  border: 2px solid grey;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  padding-top: 7%;
+  font-weight: 15px;
+  font-weight: 650;
+}

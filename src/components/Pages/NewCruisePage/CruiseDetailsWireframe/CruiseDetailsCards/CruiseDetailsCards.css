@@ -309,11 +309,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-left: 53%;
 }
 
 .cruiseDetailsViewDealsBtn {
-  margin-left: 57%;
-  width: 17%;
+  margin-left: 0%;
+  width: 100%;
   padding-left: 21px;
   align-items: center;
   background-color: white;
@@ -325,10 +326,10 @@
 }
 
 .cruiseDetailsBookNowBtn {
-  margin-left: 1%;
-  width: 17%;
+  margin-left: 4%;
+  width: 34%;
   text-align: center;
-  padding-left: 30px;
+  padding-left: 26px;
 }
 
 .cruiseDetailsInnerWebPageCardsButtons {

@@ -16,16 +16,17 @@ export const BlogPageFeaturedexplore = () => {
                                     <img src="Images/blogpage/Rectangle 17.png" alt="explore image" className='imgexplore' />
                                 </div>
                                 <div className='containerofcontain'>
-                                    <div className='BlogPageFeaturedexplore-containdivheading'> <p>The Golden Sands of Florida and California </p></div>
+                                    <div className='BlogPageFeaturedexplore-containdivheading'> <p> What do i do if my flight is grounded?  </p></div>
                                     <div className='BlogPageFeaturedexplore-containdiv' >
-                                        We’ve all been there - running behind our schedule, and juggling work and family. But with the hustle of Christmas week, we feel like a newbie in this marathon that is called travel.
-
-                                        To make things easier for you, we've rounded up our top tips to help simplify your holiday travel experience! From how to get around efficiently to how to save money on hotel booking, these hacks will help you run a smooth trip while keeping your sanity intact.
+                                        No more worrying about booking several separate reservations to make sure you're getting the best deal or
+                                        whether your preferred airline is available. With TravelFlap, everything will be sorted out before you know it.
+                                        So ditch those cobwebs and book yourself a trip of a lifetime!
                                     </div>
                                     <div className='spancontaindiv'>
                                         <span style={{ color: "#3380f2", textDecoration: "underline" }}>Solo travel</span> <span style={{ color: "gray" }}>by</span>  Adam smith </div>
                                 </div>
                             </div>
+
                             <div className='BlogPageFeaturedexplore-cardinnerdiv'>
                                 <div className='BlogPageFeaturedexplore-imagediv'>
                                     <img src="Images/blogpage/Rectangle 18.png" alt="explore image" className='imgexplore' />
@@ -40,6 +41,7 @@ export const BlogPageFeaturedexplore = () => {
                                         <span style={{ color: "#3380f2", textDecoration: "underline" }}>Solo travel</span> <span style={{ color: "gray" }}>by</span>  Adam smith </div>
                                 </div>
                             </div>
+
                             <div className='BlogPageFeaturedexplore-cardinnerdiv'>
                                 <div className='BlogPageFeaturedexplore-imagediv'>
                                     <img src="Images/blogpage/Rectangle 19.png" alt="explore image" className='imgexplore' />
@@ -47,9 +49,9 @@ export const BlogPageFeaturedexplore = () => {
                                 <div className='containerofcontain'>
                                     <div className='BlogPageFeaturedexplore-containdivheading'> <p>The Golden Sands of Florida and California </p></div>
                                     <div className='BlogPageFeaturedexplore-containdiv' >
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Repudiandae veniam recusandae aperiam esse repellendus rerum ratione delectus hic.
-                                        Molestias suscipit eaque excepturi soluta ea quia! Libero itaque dolores quam alias!
+                                        We’ve all been there - running behind our schedule, and juggling work and family. But with the hustle of Christmas week, we feel like a newbie in this marathon that is called travel.
+
+                                        To make things easier for you, we've rounded up our top tips to help simplify your holiday travel experience! From how to get around efficiently to how to save money on hotel booking, these hacks will help you run a smooth trip while keeping your sanity intact.
                                     </div>
                                     <div className='spancontaindiv'>
                                         <span style={{ color: "#3380f2", textDecoration: "underline" }}>Solo travel</span> <span style={{ color: "gray" }}>by</span>  Adam smith </div>
@@ -57,47 +59,51 @@ export const BlogPageFeaturedexplore = () => {
                             </div>
 
                         </div>
+
                         <div className='BlogPageFeaturedexplore-carddiv'>
                             <div className='BlogPageFeaturedexplore-cardinnerdiv'>
                                 <div className='BlogPageFeaturedexplore-imagediv'>
                                     <img src="Images/blogpage/Rectangle 17.png" alt="explore image" className='imgexplore' />
                                 </div>
                                 <div className='containerofcontain'>
-                                    <div className='BlogPageFeaturedexplore-containdivheading'> <p>The Golden Sands of Florida and California </p></div>
+                                    <div className='BlogPageFeaturedexplore-containdivheading'> <p> Ever wondered what it would be like to explore a ancient landscape with Aboriginal guides?  </p></div>
                                     <div className='BlogPageFeaturedexplore-containdiv' >
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Repudiandae veniam recusandae aperiam esse repellendus rerum ratione delectus hic.
-                                        Molestias suscipit eaque excepturi soluta ea quia! Libero itaque dolores quam alias!
+                                        Hey there, traveller! We all love getting gifts on our travels, but packing them is a pain. That’s why we’re excited to partner with TravelFlap to make shipping gifts easy and affordable. When you ship gifts from TravelFlap, your loved ones will be able to pack their bags without worrying about missing something important. Plus, if you’re doing your holiday shopping online, you can have those gifts shipped directly to your destination for no extra cost.
+
+                                        What are you waiting for? Shipment away!
                                     </div>
                                     <div className='spancontaindiv'>
                                         <span style={{ color: "#3380f2", textDecoration: "underline" }}>Solo travel</span> <span style={{ color: "gray" }}>by</span>  Adam smith </div>
                                 </div>
                             </div>
+
                             <div className='BlogPageFeaturedexplore-cardinnerdiv'>
                                 <div className='BlogPageFeaturedexplore-imagediv'>
                                     <img src="Images/blogpage/Rectangle 24.png" alt="explore image" className='imgexplore' />
                                 </div>
                                 <div className='containerofcontain'>
-                                    <div className='BlogPageFeaturedexplore-containdivheading'> <p>The Golden Sands of Florida and California </p></div>
+                                    <div className='BlogPageFeaturedexplore-containdivheading'> <p> Why stress out over finding food when you can pack it? </p></div>
                                     <div className='BlogPageFeaturedexplore-containdiv' >
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Repudiandae veniam recusandae aperiam esse repellendus rerum ratione delectus hic.
-                                        Molestias suscipit eaque excepturi soluta ea quia! Libero itaque dolores quam alias!
+                                        Welcome to the Holiday Season! As you know, the holidays are all about food and cheer. But before you head home with your luggage filled with goodies, there are some rules to follow.
+                                        Do you remember those jars of grandma's homemade jam? Well, it's time for us to apply those same rules for flying during the festive season.
+                                        If it looks like a liquid or gel (think jams, puddings, eggnog), then it can't be carried on by any passenger. However, pies, cakes and other solid foods can be brought onboard as
+                                        long as they fit in a quart-size ziptop bag. So pack your favorite treats while keeping an eye on airline regulations!
                                     </div>
                                     <div className='spancontaindiv'>
                                         <span style={{ color: "#3380f2", textDecoration: "underline" }}>Solo travel</span> <span style={{ color: "gray" }}>by</span>  Adam smith </div>
                                 </div>
                             </div>
+
                             <div className='BlogPageFeaturedexplore-cardinnerdiv'>
                                 <div className='BlogPageFeaturedexplore-imagediv'>
                                     <img src="Images/blogpage/Rectangle 25.png" alt="explore image" className='imgexplore' />
                                 </div>
                                 <div className='containerofcontain'>
-                                    <div className='BlogPageFeaturedexplore-containdivheading'> <p>The Golden Sands of Florida and California </p></div>
+                                    <div className='BlogPageFeaturedexplore-containdivheading'> <p> Don't settle for less when you can get more from TravelFlap. </p></div>
                                     <div className='BlogPageFeaturedexplore-containdiv' >
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Repudiandae veniam recusandae aperiam esse repellendus rerum ratione delectus hic.
-                                        Molestias suscipit eaque excepturi soluta ea quia! Libero itaque dolores quam alias!
+                                        Welcome to the Holiday Season! As you know, the holidays are all about food and cheer. But before you head home with your luggage filled with goodies, there are some rules to follow.
+                                        Do you remember those jars of grandma's homemade jam? Well, it's time for us to apply those same rules for flying during the festive season. If it looks like a liquid or gel
+                                        (think jams, puddings, eggnog), then it can't be carried on by any passenger. However, pies, cakes and other solid foods can be brought onboard as long as they fit in a quart-size ziptop bag. So pack your favorite treats while keeping an eye on airline regulations!
                                     </div>
                                     <div className='spancontaindiv'>
                                         <span style={{ color: "#3380f2", textDecoration: "underline" }}>Solo travel</span> <span style={{ color: "gray" }}>by</span>  Adam smith </div>

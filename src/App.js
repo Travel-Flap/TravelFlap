@@ -67,6 +67,7 @@ import { SignupPageTravelFlap } from "./components/Pages/LoginSignUp/SignupPage/
 import { BlogPage } from "./components/Pages/BlogPage/BlogPage";
 
 import { NewHelpPage } from "./components/Pages/NewHelpPage/NewHelpPage";
+import { CruiseBookingPage } from "./components/Pages/NewCruisePage/CruiseBookingPage/CruiseBookingPage";
 
 function App() {
   return (
@@ -104,12 +105,12 @@ function App() {
       {/* <Link to="/hotels"><Hotel/></Link> */}
       {/* <Link to="/Holidays"></Link> */}
       {/* <Router path="./components/Pages/Home/Home.jsx">Home</Router> */}
-        {/* <Route path="/flights" element={<Flights/>} /> */}
-        {/* <Route path="/holidays" element={<Holidays />} /> */}
-        {/* <Route path="/rentals" element={ <Rentals/>} /> */}
-        {/* <Route path="/offers" element={<Offers />}   /> */}
+      {/* <Route path="/flights" element={<Flights/>} /> */}
+      {/* <Route path="/holidays" element={<Holidays />} /> */}
+      {/* <Route path="/rentals" element={ <Rentals/>} /> */}
+      {/* <Route path="/offers" element={<Offers />}   /> */}
 
-        {/* <Route path="/" element={<NewHomeLayout/>} /> */}
+      {/* <Route path="/" element={<NewHomeLayout/>} /> */}
 
       <Routes>
         <Route path="/" element={<NewFlight />} />
@@ -213,16 +214,17 @@ function App() {
 
         {/* These routes are for the cruise innner wireframes */}
         <Route path="/cruiseDetailsPage" element={<CruiseDetailsWIreFrame />} />
+        <Route path="/cruiseBookingPage" element={ <CruiseBookingPage /> } />
 
         {/* These are the routes for the login and signup pages */}
         <Route path="/loginPage" element={<LoginPageTravelFlap />} />
         <Route path="/signupPage" element={<SignupPageTravelFlap />} />
 
         <Route path="/helpPage" element={<NewHelpPage />} />
-        <Route path="/blogs" element={<BlogPage/>}/>
+        <Route path="/blogs" element={<BlogPage />} />
+        <Route path="/blogs" element={<BlogPage />} />
         <Route path="/contact" element={<ContactUS />} />
       </Routes>
-
     </>
   );
 }
