@@ -62,7 +62,7 @@ export const NewHomeAppDownload = () => {
         }
         return false;
     });
-    console.log("searchSelectedCountry", searchSelectedCountry);
+    // console.log("searchSelectedCountry", searchSelectedCountry);
 
     return (
         <>
@@ -92,7 +92,7 @@ export const NewHomeAppDownload = () => {
                                                 <select
                                                     value={selectedCountry}
                                                     onChange={(e) => setSelectedCountry(e.target.value)}
-                                                    className="newhomecountryselect" style={{ outline:"none",width: "100% " }}
+                                                    className="newhomecountryselect" style={{ outline: "none", width: "100% " }}
                                                 >
                                                     <option>--Select Country--</option>
                                                     {countries.map((item) => {
@@ -104,6 +104,7 @@ export const NewHomeAppDownload = () => {
                                                     })}
                                                 </select>
                                             </div>
+
                                             <div style={{ marginTop: "15%", height: "auto", width: "40%" }}>
                                                 {searchSelectedCountry && (
                                                     <div className="flex space-x-4">
@@ -114,7 +115,7 @@ export const NewHomeAppDownload = () => {
                                                                     searchSelectedCountry &&
                                                                     searchSelectedCountry.flags.png
                                                                 }
-                                                                alt=""
+                                                                alt="image"
                                                             />
                                                         </div>
                                                         <div style={{ display: "flex", flexDirection: "row" }}>
