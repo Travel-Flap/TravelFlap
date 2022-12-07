@@ -737,7 +737,7 @@
             "code": "fr",
             "name": "French"
         },
-        "flag": "https://restcountries.eu/data/tcd.svg"
+        "flag": "Images/w40-webp/td.webp"
     },
     {
         "name": "Chile",
@@ -1978,7 +1978,7 @@
             "code": "lv",
             "name": "Latvian"
         },
-        "flag": "https://restcountries.eu/data/lva.svg"
+        "flag": "Images/w40-webp/lv.webp"
     },
     {
         "name": "Lebanon",
@@ -3340,7 +3340,7 @@
             "name": "English",
             "nativeName": "English"
         },
-        "flag": "Images/w40-webp/ZA.webp"
+        "flag": "Images/w40-webp/za.webp"
     },
     {
         "name": "South Georgia and the South Sandwich Islands",
@@ -3694,7 +3694,7 @@
             "code": "ar",
             "name": "Arabic"
         },
-        "flag": "https://restcountries.eu/data/tun.svg"
+        "flag": "Images/w40-webp/tn.webp"
     },
     {
         "name": "Turkey",
