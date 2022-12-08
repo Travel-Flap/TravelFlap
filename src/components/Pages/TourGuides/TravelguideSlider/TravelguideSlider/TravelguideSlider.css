@@ -1,0 +1,33 @@
+.TravelguideSlider-maindiv{
+    border: 2px solid red;
+   
+
+}
+.TravelguideSlider-columdiv{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+
+}
+.TravelguideSlider-citydata{
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: row;
+}
+
+.TravelguideSlider-citydata1st{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+}
+.citydata1st-innercolum{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+
+}
+.citydata1st-innercolumrows{
+    border: 2px solid goldenrod;
+    display: flex;
+    flex-direction: row;
+}
