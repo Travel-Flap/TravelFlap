@@ -1,0 +1,628 @@
+.airlinesDetailsButtonsDetails {
+  /* border: 2px solid darkblue; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* -------------------------------------------------Button CSS ----------------------------------------------- */
+
+.airlinesDetailsButtonsOuterDiv {
+  /* border: 2px solid red; */
+  width: 89%;
+  height: 60px;
+  margin: auto;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+}
+.airlinesDetailsButtonsDiv a {
+  text-decoration: none;
+  /* color: #3380F2; */
+}
+.airlinesDetailsButtonsDiv:hover {
+  background-color: #e8f4ff;
+  color: white !important;
+}
+.airlinesDetailsButtonsDiv1 {
+  border: 1px solid lightgray;
+  width: 17%;
+  height: 60px;
+  padding-top: 1.2%;
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 2.5%;
+  color: #393939;
+}
+.airlinesDetailsButtonsDiv2 {
+  border: 1px solid lightgray;
+  width: 17%;
+  height: 60px;
+  padding-top: 1.2%;
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 6%;
+  color: #393939;
+}
+.airlinesDetailsButtonsDiv3 {
+  border: 1px solid lightgray;
+  width: 17%;
+  height: 60px;
+  padding-top: 1.2%;
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 6%;
+  color: #393939;
+}
+.airlinesDetailsButtonsDiv4 {
+  border: 1px solid lightgray;
+  width: 17%;
+  height: 60px;
+  padding-top: 1.2%;
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 4%;
+  color: #393939;
+}
+.airlinesDetailsButtonsDiv5 {
+  border: 1px solid lightgray;
+  width: 17%;
+  height: 60px;
+  padding-top: 1.2%;
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 5%;
+  color: #393939;
+}
+.airlinesDetailsButtonsDiv6 {
+  border: 1px solid lightgray;
+  width: 17%;
+  height: 60px;
+  padding-top: 1.2%;
+  padding-left: 7%;
+  font-weight: 700;
+  font-size: 14px;
+  color: #393939;
+}
+
+/* -----------------------------------------------------------Data Div--------------------------------------------------- */
+
+.airlinesDetailsDetailsOuterDiv {
+  /* border: 2px solid  chartreuse; */
+  width: 89%;
+  height: auto;
+  margin: auto;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+}
+.airlinesDetailsDetailsMainDiv {
+  /* border: 2px solid salmon; */
+  width: 75%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#airlinesDetailsDetailsOverviewSection {
+  /* border: 2px solid goldenrod; */
+  width: 100%;
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+}
+
+#airlinesDetailsDetailsOverviewSection h3 {
+  font-size: 27px;
+  font-weight: 700;
+  color: #393939;
+}
+
+#airlinesDetailsDetailsOverviewSection h6 {
+  color: #393939;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#airlinesDetailsDetailsOverviewSection h4 {
+  color: #393939;
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 2%;
+}
+#airlinesDetailsDetailsOverviewSection p {
+  color: #393939;
+  font-size: 13px;
+  font-family: "Poppins";
+}
+
+/* .airlinesInfoMainDiv {
+  border: 1px solid rebeccapurple;
+} */
+
+.airlinesInfoInnerDiv {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+}
+
+.airlinesInfoSubDiv1 {
+  width: 50%;
+}
+
+.airlinesInfoSubDiv1 li {
+  font-weight: 600;
+}
+
+.airlinesInfoSubDiv2 {
+  width: 50%;
+}
+
+.airlinesInfoSubDiv2 li {
+  font-weight: 500;
+}
+
+.airlinesDetailsRefundDates {
+  /* border: 2px solid greenyellow; */
+  position: relative;
+  width: 100%;
+  /* height: 100px; */
+  display: flex;
+  flex-direction: row;
+}
+
+.airlineDetailsCodeName {
+  /* border: 1px solid red; */
+  text-align: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.airlineDetailsCodeNameBold {
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.airlineDetailsWebsite {
+  /* border: 1px solid red; */
+  margin-left: 5%;
+  width: 25%;
+}
+
+.airlinesWebsiteContent {
+  font-weight: 600;
+  vertical-align: baseline;
+  font-size: 20px !important;
+}
+
+.airlinesDetailsImage {
+  width: 48%;
+  /* border: 1px solid red; */
+}
+
+.airlinesDetailsImage img {
+  width: 50%;
+  margin-left: 50%;
+  object-fit: cover;
+}
+
+/* .airlineDetailsGlobeIcon{
+    border: 1px solid rgb(157, 44, 44);
+} */
+
+.airlinesDetailsRefund {
+  /* border: 2px solid sandybrown; */
+  width: 50%;
+  height: 70px;
+  margin-top: 3%;
+  line-height: 15px;
+}
+
+#airlinesDetailsDetailsLocationSection {
+  /* border: 2px solid darkgreen; */
+  width: 100%;
+  /* height: 270px; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+}
+
+/* .airlineDetailsReviewsOuterDiv {
+  border: 1px solid red;
+} */
+
+.airlinesDetaillsReviewSubDiv1 {
+  /* border: 1px solid black; */
+  width: 95%;
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+}
+
+.airlineDetailsSubDiv1Heading {
+  /* border: 1px solid rebeccapurple; */
+  width: 20%;
+}
+
+.airlineDetailsSubDiv1Heading p {
+  font-weight: 500;
+  vertical-align: baseline;
+  font-size: 18px;
+  color: #393939;
+}
+
+.airlineSubDiv1Range {
+  /* border: 1px solid red; */
+  width: 60%;
+}
+
+.airlineSubDivValue {
+  /* border: 1px solid red; */
+  margin-left: 3%;
+}
+
+.airlineSubDivValue p {
+  color: #3380f2;
+  margin-left: 3%;
+}
+
+.airlinesDetailsDetailsLocation {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  object-fit: cover;
+}
+.airlinesDetailsDetailsLocationImage {
+  width: 100%;
+  height: 100%;
+}
+.activitiesChildInnerGetDirection {
+  width: 20%;
+  height: 45px;
+  background-color: #3380f2;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  padding-top: 1.5%;
+  padding-left: 5%;
+  margin-top: 3%;
+}
+
+#airlinesDetailsDetailsHighlightSection {
+  /* border: 2px solid olive; */
+  width: 100%;
+  /* height: 200px; */
+  margin-top: 5%;
+}
+
+#airlinesDetailsDetailsHighlightSection h5 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #393939;
+}
+
+.hotelsData_dropdowncontext {
+  /* border: 1px solid red; */
+  background-color: whitesmoke !important;
+  border-radius: 9px;
+  color: #393939;
+}
+
+.activitiesChildInnerHighlights {
+  list-style-type: disc;
+  color: #393939;
+  font-weight: 400;
+  margin-top: 1%;
+}
+#airlinesDetailsDetailsPackageSection {
+  /* border: 2px solid darkgoldenrod; */
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  /* background-color: #C7DEFF; */
+}
+.airlinesDetailsPackageHeading {
+  font-weight: 700;
+  color: #393939;
+}
+.activitiesChildInnermainDiv {
+  height: 500px;
+  /* border: 2px solid red; */
+  background-color: #e8f4ff;
+}
+.activitieschildPackageDate {
+  border-bottom: 1px solid lightgray;
+  /* border: 2px  solid red; */
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.activitieschildPackageDatecalender {
+  /* border: 2px solid saddlebrown; */
+  width: 50%;
+  height: 100px;
+  color: grey;
+  font-size: 16px;
+  padding: 1% 2%;
+}
+.activitieschildPackageTravellers {
+  /* border: 2px solid red; */
+  width: 50%;
+  height: 100px;
+  color: grey;
+  font-size: 16px;
+  padding: 1% 2%;
+}
+.calenderIconActiviesInner {
+  margin-left: 55%;
+  margin-top: 5%;
+}
+.airlinesDetailsPackages {
+  /* border: 2px solid green; */
+  width: 95%;
+  height: 150px;
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.activitiesChildPackageName {
+  /* border: 2px solid seagreen; */
+  width: 60%;
+  height: 120px;
+  padding: 2%;
+}
+.activitiesChildPackageName h6 {
+  color: #393939;
+  font-weight: 700;
+}
+.activitiesChildPackageName p {
+  color: #393939;
+  font-size: 12px;
+}
+
+.activitiesChildPackageRate {
+  /* border: 2px solid seagreen; */
+  width: 40%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding: 2%;
+}
+.activitiesChildPackageRate h4 {
+  font-weight: 700;
+  color: #393939;
+}
+.activitiesChildPackageRateButton {
+  background-color: white;
+  border: 2px solid #3380f2;
+  color: #3380f2;
+  width: 30%;
+  height: 70px;
+  border-radius: 5px;
+  margin-left: 70%;
+  /* margin-bottom: 2%; */
+}
+.activitiesChildPackageRateButton:hover {
+  background-color: #3380f2;
+  color: white;
+}
+#airlinesDetailsDetailsReviewSection {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+}
+.airlinesDetailsDetailsReviewDetails {
+  /* border: 2px solid gold; */
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.airlinesDetailsDetailsReviewHeadings {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 40px;
+  font-size: 22px;
+  color: #393939;
+  font-weight: 700;
+}
+.airlinesDetailsDetailsReviewStars {
+  /* border: 2px solid red; */
+  height: 30px;
+  color: gold;
+  width: 100%;
+}
+.airlinesDetailsDetailsReviewButtons {
+  border-bottom: 2px solid #393939;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  color: #393939;
+  margin-top: 2%;
+}
+.activitieschildAllReviewButton {
+  background-color: #3380f2;
+  height: 35px;
+  font-size: 15px;
+  color: white;
+  width: 10%;
+  border: none;
+  border-radius: 5px;
+  margin-left: 55%;
+}
+.activitieschildLatestReviewButton {
+  background-color: white;
+  height: 35px;
+  font-size: 15px;
+  color: grey;
+  width: 10%;
+  border: none;
+  border-radius: 5px;
+  margin-left: 3%;
+  border: 1px solid grey;
+}
+.activitieschildOldestReviewButton {
+  background-color: white;
+  height: 35px;
+  font-size: 15px;
+  color: grey;
+  width: 10%;
+  border: none;
+  border-radius: 5px;
+  margin-left: 3%;
+  border: 1px solid grey;
+}
+.activitiesChildReviews {
+  /* border: 2px solid darkorange; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.activitiesChildReviewsBox {
+  /* border: 2px solid firebrick; */
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.airlinesDetailsDetailsReview {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 100px;
+  margin-top: 2%;
+  color: #393939;
+}
+.airlinesDetailsDetailsCustomerName {
+  color: #393939;
+  font-weight: 700;
+  font-size: 15px;
+}
+.airlinesDetailsDetailsdate {
+  color: gray;
+}
+.airlinesDetailsBookingDiv {
+  /* border: 2px solid salmon; */
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.airlinesDetailsBookingDates {
+  border: 1px solid lightgray;
+  width: 80%;
+  height: 350px;
+  border-radius: 15px;
+  margin-left: 20%;
+}
+.airlinesDetailsBookingDates h5 {
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 4%;
+  margin-left: 4%;
+}
+/* .airlinesDetailsBookingDatesnTime{
+      display: flex;
+      flex-direction: row;
+  } */
+.airlinesDetailsDate {
+  color: #393939;
+  border: 1px solid lightgray;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 8%;
+  width: 80%;
+  height: 45px;
+  margin-left: 12%;
+  background-color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.airlinesDetailsTime {
+  color: #393939;
+  border: 1px solid lightgray;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 8%;
+  width: 80%;
+  height: 45px;
+  margin-left: 12%;
+  background-color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.activitiesChildinnerBookNowButton {
+  color: #393939;
+  background-color: #3380f2;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 8%;
+  width: 80%;
+  height: 45px;
+  margin-left: 12%;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  text-align: left;
+  padding-left: 27%;
+  padding-top: 10px;
+}
+.airlinesDetailsBookingContact {
+  border: 1px solid lightgray;
+  width: 80%;
+  height: 250px;
+  border-radius: 15px;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+.activitiesinnerchildApplyButton {
+  color: #393939;
+  border: 1px solid lightgray;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 8%;
+  width: 80%;
+  height: 45px;
+  margin-left: 12%;
+  background-color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  text-align: left;
+  padding-left: 10px;
+}
+.activitiesinnerchildApplyButton:hover {
+  background-color: white !important;
+  color: #3380f2 !important;
+  border: 2px solid #3380f2;
+}
+.activitiesChildinnerPrice {
+  color: #3380f2;
+  font-size: 25px;
+  text-align: right;
+  margin-right: 8%;
+  margin-top: 5%;
+}
+.activitiesChildinnerPrice p {
+  color: lightgray;
+  font-size: 12px;
+}

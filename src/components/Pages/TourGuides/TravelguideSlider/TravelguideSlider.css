@@ -1,0 +1,125 @@
+.tourGuideSliderOuterDiv {
+  /* border: 2px solid red; */
+  width: 90%;
+  margin: auto;
+}
+
+.tourGuideSliderOuterDiv h3 {
+  margin-top: 1%;
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 1%;
+  vertical-align: baseline;
+}
+
+.tourGuideInnerDiv {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+}
+
+.tourGuideSubDiv1 {
+  /* border: 1px solid red; */
+  width: 50%;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.tourGuideSquareOuterDiv {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.tourGuideSquareImageDiv1 {
+  /* border: 1px solid red; */
+  width: 50%;
+  /* height: 100px; */
+  display: flex;
+  flex-direction: row;
+}
+
+.tourGuideSquareImageSubDiv1 {
+  /* border: 1px solid purple; */
+  width: 60%;
+  /* height: 200px; */
+  position: relative;
+  margin-top: 3%;
+}
+
+.tourGuideSquareImageSubDiv1 img {
+  /* border: 1px solid gold; */
+  position: absolute;
+  width: 90%;
+  /* top: 10%; */
+  left: 4%;
+  object-fit: cover;
+  height: 100px;
+}
+
+.tourGuideSquareImageSubDiv2 {
+  /* border: 1px solid black; */
+  margin-top: 10%;
+}
+
+.tourGuideSquareImageSubDiv2 p {
+  margin-bottom: 1%;
+  /* position: absolute; */
+  font-weight: 500;
+  font-size: 17px;
+  color: #393939;
+}
+
+/* .tourGuideSquareImageSubDiv3 {
+  border: 1px solid black;
+} */
+
+/* .tourGuideSquareImageSubDiv4 {
+  border: 1px solid green;
+} */
+
+.tourGuideSquareImageDiv2 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.tourGuideSubDiv2 {
+  /* border: 1px solid green; */
+  width: 50%;
+  margin-top: 2.5%;
+}
+
+.tourGuideRoundImageInnerDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0% !important;
+}
+
+.tourGuideRoundedImageInnerDiv1 {
+  /* border: 1px solid red; */
+  width: 50%;
+  margin-bottom: 3%;
+  /* margin-top: 5%; */
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.tourGuideRoundedImageInnerDiv1 img {
+  /* position: absolute; */
+  width: 45%;
+  margin-left: 5%;
+  object-fit: cover;
+  /* margin-top: 5%; */
+  /* height: 100px; */
+}
+
+.tourGuideRoundedImageInnerDiv1 P {
+  font-size: 18px;
+  margin-left: 16%;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #393939;
+}

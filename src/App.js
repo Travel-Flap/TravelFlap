@@ -70,6 +70,7 @@ import { NewHelpPage } from "./components/Pages/NewHelpPage/NewHelpPage";
 import { CruiseBookingPage } from "./components/Pages/NewCruisePage/CruiseBookingPage/CruiseBookingPage";
 import { Newtrippage } from "./components/Pages/Newtrippage/Newtrippage";
 import { TourGuides } from "./components/Pages/TourGuides/TourGuides";
+import { AirlinesDetails } from "./components/Pages/AirlinesDetails/AirlinesDetails";
 
 function App() {
   return (
@@ -216,7 +217,7 @@ function App() {
 
         {/* These routes are for the cruise innner wireframes */}
         <Route path="/cruiseDetailsPage" element={<CruiseDetailsWIreFrame />} />
-        <Route path="/cruiseBookingPage" element={ <CruiseBookingPage /> } />
+        <Route path="/cruiseBookingPage" element={<CruiseBookingPage />} />
 
         {/* These are the routes for the login and signup pages */}
         <Route path="/loginPage" element={<LoginPageTravelFlap />} />
@@ -227,10 +228,11 @@ function App() {
         <Route path="/blogs" element={<BlogPage />} />
         <Route path="/blogs" element={<BlogPage />} />
 
-        <Route path="/blogs" element={<BlogPage/>}/>
-        <Route path="/trip" element={<Newtrippage/>}/>
-        <Route path="/tourGuides" element={ <TourGuides/> }/>
-          
+        <Route path="/blogs" element={<BlogPage />} />
+        <Route path="/trip" element={<Newtrippage />} />
+        <Route path="/tourGuide" element={<TourGuides />} />
+        <Route path="/airlineDetails" element={<AirlinesDetails />} />
+
         <Route path="/contact" element={<ContactUS />} />
       </Routes>
     </>

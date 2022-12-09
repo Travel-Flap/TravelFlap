@@ -1,33 +1,33 @@
 import "./ActivitiesChildInnerPageButtonsDetails.css";
-import { FaStar,FaCalendar } from "react-icons/fa";
-import { FaWhatsapp,FaPhoneAlt,FaRegClock } from "react-icons/fa";
+import { FaStar, FaCalendar } from "react-icons/fa";
+import { FaWhatsapp, FaPhoneAlt, FaRegClock } from "react-icons/fa";
 
 
 export const ActivitiesChildInnerPageButtonsDetails = () => {
 
     return (
 
-            <>
+        <>
             <div className="activitiesChildInnerPageButtonsDetails">
                 <div className="activitiesChildInnerPageButtonsOuterDiv">
-                        <div className="activitiesChildInnerPageButtonsDiv1 activitiesChildInnerPageButtonsDiv">
-                            <a href="#activitiesChildInnerPageDetailsOverviewSection">  Overview and Iternary </a>
-                        </div>
-                        <div className="activitiesChildInnerPageButtonsDiv2 activitiesChildInnerPageButtonsDiv">
-                             <a href="#activitiesChildInnerPageDetailsLocationSection"> Location </a>
-                        </div>
-                        <div className="activitiesChildInnerPageButtonsDiv3 activitiesChildInnerPageButtonsDiv">
-                             <a href="#activitiesChildInnerPageDetailsHighlightSection"> Highlights </a>
-                        </div>
-                        <div className="activitiesChildInnerPageButtonsDiv4 activitiesChildInnerPageButtonsDiv">
-                            <a href="#activitiesChildInnerPageDetailsPackageSection"> Package section </a>
-                        </div>
-                        <div className="activitiesChildInnerPageButtonsDiv5 activitiesChildInnerPageButtonsDiv">
-                            <a href="#activitiesChildInnerPageDetailsReviewSection">User Reviews</a>
-                        </div>
-                        <div className="activitiesChildInnerPageButtonsDiv6 activitiesChildInnerPageButtonsDiv">
-                            <a href="#activitiesChildInnerPageDetailsExtraSection">Extras</a>
-                        </div>
+                    <div className="activitiesChildInnerPageButtonsDiv1 activitiesChildInnerPageButtonsDiv">
+                        <a href="#activitiesChildInnerPageDetailsOverviewSection">  Overview and Iternary </a>
+                    </div>
+                    <div className="activitiesChildInnerPageButtonsDiv2 activitiesChildInnerPageButtonsDiv">
+                        <a href="#activitiesChildInnerPageDetailsLocationSection"> Location </a>
+                    </div>
+                    <div className="activitiesChildInnerPageButtonsDiv3 activitiesChildInnerPageButtonsDiv">
+                        <a href="#activitiesChildInnerPageDetailsHighlightSection"> Highlights </a>
+                    </div>
+                    <div className="activitiesChildInnerPageButtonsDiv4 activitiesChildInnerPageButtonsDiv">
+                        <a href="#activitiesChildInnerPageDetailsPackageSection"> Package section </a>
+                    </div>
+                    <div className="activitiesChildInnerPageButtonsDiv5 activitiesChildInnerPageButtonsDiv">
+                        <a href="#activitiesChildInnerPageDetailsReviewSection">User Reviews</a>
+                    </div>
+                    <div className="activitiesChildInnerPageButtonsDiv6 activitiesChildInnerPageButtonsDiv">
+                        <a href="#activitiesChildInnerPageDetailsExtraSection">Extras</a>
+                    </div>
                 </div>
 
 
@@ -60,7 +60,7 @@ export const ActivitiesChildInnerPageButtonsDetails = () => {
                                 <h4>Location : </h4> <p>Kuala Lumpur , Malayasia</p>
                             </div>
                             <div className="activitiesChildInnerPageDetailsLocation">
-                                <img className="activitiesChildInnerPageDetailsLocationImage" src="Images/ActivitiesInnerPage/mapimage.png"/>
+                                <img className="activitiesChildInnerPageDetailsLocationImage" src="Images/ActivitiesInnerPage/mapimage.png" />
                             </div>
                             <div className="activitiesChildInnerGetDirection">
                                 Get Direction
@@ -81,7 +81,7 @@ export const ActivitiesChildInnerPageButtonsDetails = () => {
                             <div className="activitiesChildInnermainDiv">
                                 <div className="activitieschildPackageDate">
                                     <div className="activitieschildPackageDatecalender">
-                                        Travel date <FaCalendar size={"1.5em"} className="calenderIconActiviesInner"/>
+                                        Travel date <FaCalendar size={"1.5em"} className="calenderIconActiviesInner" />
                                     </div>
                                     <div className="activitieschildPackageTravellers">
                                         Travellers
@@ -117,7 +117,7 @@ export const ActivitiesChildInnerPageButtonsDetails = () => {
                                     Reviews from Our Valuable Customers
                                 </div>
                                 <div className="activitiesChildInnerPageDetailsReviewStars">
-                                    (4.5) <FaStar/>  <FaStar/> <FaStar/> <FaStar/>
+                                    (4.5) <FaStar />  <FaStar /> <FaStar /> <FaStar />
                                 </div>
                                 <div className="activitiesChildInnerPageDetailsReviewButtons">
                                     <p>459 reviews</p>
@@ -130,7 +130,7 @@ export const ActivitiesChildInnerPageButtonsDetails = () => {
                             <div className="activitiesChildReviews">
                                 <div className="activitiesChildReviewsBox">
                                     <div className="activitiesChildInnerPageDetailsReviewStars">
-                                        <FaStar/>  <FaStar/> <FaStar/> <FaStar/> <FaStar/>
+                                        <FaStar />  <FaStar /> <FaStar /> <FaStar /> <FaStar />
                                     </div>
                                     <div className="activitiesChildInnerPageDetailsReview">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quaerat asperiores quidem aspernatur. Odit, ea. Tenetur iure nisi perspiciatis laudantium alias veniam, nobis quia deleniti voluptas non nam hic rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis explicabo, recusandae facere minus molestias illum quos optio quod dignissimos ipsum, ratione magni blanditiis distinctio veniam deserunt dolore ipsa ex saepe.
@@ -145,7 +145,7 @@ export const ActivitiesChildInnerPageButtonsDetails = () => {
 
                                 <div className="activitiesChildReviewsBox">
                                     <div className="activitiesChildInnerPageDetailsReviewStars">
-                                        <FaStar/>  <FaStar/> <FaStar/> <FaStar/> <FaStar/>
+                                        <FaStar />  <FaStar /> <FaStar /> <FaStar /> <FaStar />
                                     </div>
                                     <div className="activitiesChildInnerPageDetailsReview">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quaerat asperiores quidem aspernatur. Odit, ea. Tenetur iure nisi perspiciatis laudantium alias veniam, nobis quia deleniti voluptas non nam hic rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis explicabo, recusandae facere minus molestias illum quos optio quod dignissimos ipsum, ratione magni blanditiis distinctio veniam deserunt dolore ipsa ex saepe.
@@ -160,7 +160,7 @@ export const ActivitiesChildInnerPageButtonsDetails = () => {
 
                                 <div className="activitiesChildReviewsBox">
                                     <div className="activitiesChildInnerPageDetailsReviewStars">
-                                        <FaStar/>  <FaStar/> <FaStar/> <FaStar/> <FaStar/>
+                                        <FaStar />  <FaStar /> <FaStar /> <FaStar /> <FaStar />
                                     </div>
                                     <div className="activitiesChildInnerPageDetailsReview">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quaerat asperiores quidem aspernatur. Odit, ea. Tenetur iure nisi perspiciatis laudantium alias veniam, nobis quia deleniti voluptas non nam hic rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis explicabo, recusandae facere minus molestias illum quos optio quod dignissimos ipsum, ratione magni blanditiis distinctio veniam deserunt dolore ipsa ex saepe.
@@ -175,12 +175,12 @@ export const ActivitiesChildInnerPageButtonsDetails = () => {
                             </div>
                         </div>
                         <div id="activitiesChildInnerPageDetailsExtraSection">
-                            
+
                         </div>
                     </div>
 
                     <div className="activitiesChildInnerPageBookingDiv">
-                    {/* <div className='innervisadetailsform'>
+                        {/* <div className='innervisadetailsform'>
                 <h1>Contact Us</h1>
                 <input type="text" placeholder='Email ID' className='innervisadetailforminputs'/> <br/>
                 <input type="text" placeholder='Contact Number' className='innervisadetailforminputs'/><br/>
@@ -191,9 +191,9 @@ export const ActivitiesChildInnerPageButtonsDetails = () => {
                 <button className='activitiesinnerchildApplyButton'> <FaRegClock size="1.2em" style={{marginRight:"3%"}}/> 9:00AM to 9:00PM</button>
                     </div> */}
 
-                    <div className="activitiesChildInnerPageBookingDates">
-                        <h5>Select,Date,Time and Travellers</h5>
-                        {/* <div className="activitiesChildInnerPageBookingDatesnTime"> */}
+                        <div className="activitiesChildInnerPageBookingDates">
+                            <h5>Select,Date,Time and Travellers</h5>
+                            {/* <div className="activitiesChildInnerPageBookingDatesnTime"> */}
                             <div className="activitiesChildInnerPageDate">
                                 Choose Date
                             </div>
@@ -201,22 +201,22 @@ export const ActivitiesChildInnerPageButtonsDetails = () => {
                                 Choose Time
                             </div>
                             <div className="activitiesChildinnerPrice">
-                              ₹ 315 <p>Per Person</p>
+                                ₹ 315 <p>Per Person</p>
                             </div>
                             <div className="activitiesChildinnerBookNowButton">Book Now</div>
-                        {/* </div> */}
-                    </div>
-                    
-                    <div className="activitiesChildInnerPageBookingContact">
-                        <button className='activitiesinnerchildApplyButton'> <FaWhatsapp size="1.2em" style={{marginRight:"3%"}}/> Visa On WhatsApp</button>
-                        <button className='activitiesinnerchildApplyButton'> <FaPhoneAlt size="1.2em" style={{marginRight:"3%"}}/> Call Us On</button>
-                        <button className='activitiesinnerchildApplyButton'> <FaRegClock size="1.2em" style={{marginRight:"3%"}}/> 9:00AM to 9:00PM</button>
-                    </div>
+                            {/* </div> */}
+                        </div>
+
+                        <div className="activitiesChildInnerPageBookingContact">
+                            <button className='activitiesinnerchildApplyButton'> <FaWhatsapp size="1.2em" style={{ marginRight: "3%" }} /> Visa On WhatsApp</button>
+                            <button className='activitiesinnerchildApplyButton'> <FaPhoneAlt size="1.2em" style={{ marginRight: "3%" }} /> Call Us On</button>
+                            <button className='activitiesinnerchildApplyButton'> <FaRegClock size="1.2em" style={{ marginRight: "3%" }} /> 9:00AM to 9:00PM</button>
+                        </div>
 
                     </div>
                 </div>
             </div>
-            </>
+        </>
     );
 }
 

@@ -1,95 +1,95 @@
-.flightNearYouInnerWebpageBannerMainDiv{
-    background-color:#89B8FE;
-    width: 100%;
-    height: 300px;
-    border: 2px solid #89B8FE;
+.flightNearYouInnerWebpageBannerMainDiv {
+  background-color: #89b8fe;
+  width: 100%;
+  height: 300px;
+  border: 2px solid #89b8fe;
 }
-.flightNearYouInnerWebpageBannerContainerDiv{
-    /* border: 2px solid grey; */
-    width: 70%;
-    height: 150px;
-    margin-left: 5%;
-    margin-top: 7%;
+.flightNearYouInnerWebpageBannerContainerDiv {
+  /* border: 2px solid grey; */
+  width: 70%;
+  height: 150px;
+  margin-left: 5%;
+  margin-top: 7%;
 }
-.flightNearYouInnerWebpageinputBox1{
-    /* border: 2px solid saddlebrown; */
-    width: 100%;
-    height: 70px;
-    display: flex;
-    flex-direction: row;
-}.flightNearYouInnerWebpageTravellerInput{
-    /* border: 2px solid gold; */
-    width: 20%;
-    height: 50px;
+.flightNearYouInnerWebpageinputBox1 {
+  /* border: 2px solid saddlebrown; */
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
 }
-.flightNearYouInnerWebpagedetailforminputs{
-    color: #393939;
-    font-size: 14px;
-    width: 80%;
-    height: 45px;
-    margin-left: 10%;
-    border: none;
-    /* border: 2px solid red; */
-    background-color:white ;
-    outline: none;
-    padding-left: 6px;
-    padding-right: 15px;
-    
+.flightNearYouInnerWebpageTravellerInput {
+  /* border: 2px solid gold; */
+  width: 20%;
+  height: 50px;
+}
+.flightNearYouInnerWebpagedetailforminputs {
+  color: #393939;
+  font-size: 14px;
+  width: 80%;
+  height: 45px;
+  margin-left: 10%;
+  border: none;
+  /* border: 2px solid red; */
+  background-color: white;
+  outline: none;
+  padding-left: 6px;
+  padding-right: 15px;
 }
 
-.flightNearYouInnerWebpageinputBox2{
-    /* border: 2px solid red; */
-    width: 100%;
-    height: 70px;
-    display: flex;
-    flex-direction: row;
+.flightNearYouInnerWebpageinputBox2 {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
 }
-.flightNearYouInnerWebpagelocation1{
-    /* border: 2px solid red; */
-    height: 50px;
-    width: 20%;
+.flightNearYouInnerWebpagelocation1 {
+  /* border: 2px solid red; */
+  height: 50px;
+  width: 20%;
 }
-.flightNearYouInnerWebpagedepart{
-    border: none;
-    /* border: 2px solid green; */
-    height: 45px;
-    width: 80%;
-    padding-left: 20px;
-    margin-left: 10%;
-    outline: none;
+.flightNearYouInnerWebpagedepart {
+  border: none;
+  /* border: 2px solid green; */
+  height: 45px;
+  width: 80%;
+  padding-left: 20px;
+  margin-left: 10%;
+  outline: none;
 }
-.flightNearYouInnerWebpageDates{
-    /* border: 2px solid slateblue; */
-    width: 40%;
-    height: 45px;
-    display: flex;
-    flex-direction: row;
-    padding-left: 20px;
+.flightNearYouInnerWebpageDates {
+  /* border: 2px solid slateblue; */
+  width: 40%;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
 }
-.flightNearYouInnerWebpagecheckin{
-    border: none;
-    /* border: 2px solid blue; */
-    border-right: 1px solid lightgray;
-    width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
+.flightNearYouInnerWebpagecheckin {
+  border: none;
+  /* border: 2px solid blue; */
+  border-right: 1px solid lightgray;
+  width: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.flightNearYouInnerWebpagecheckOut{
-    border: none;
-    /* border: 2px solid purple; */
-    width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
+.flightNearYouInnerWebpagecheckOut {
+  border: none;
+  /* border: 2px solid purple; */
+  width: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.flightNearYouInnerWebpagesearchButton{
-    /* border: 2px solid black; */
-    width: 7%;
-    height: 45px;
-    background-color: white;
-    margin-left: 4%;
+.flightNearYouInnerWebpagesearchButton {
+  /* border: 2px solid black; */
+  width: 7%;
+  height: 45px;
+  background-color: white;
+  margin-left: 4%;
 }
-.flightNearYouInnerWebpagesearchButtonIcon{
-    font-size: 20px;
-    color: #393939;
-    margin: 16% 35%;
+.flightNearYouInnerWebpagesearchButtonIcon {
+  font-size: 20px;
+  color: #393939;
+  margin: 16% 35%;
 }

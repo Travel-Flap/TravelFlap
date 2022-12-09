@@ -1,0 +1,170 @@
+.resonDestinationGuideOuterDiv {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+}
+
+.reasonDestinationInnnerDiv1 {
+  /* border: 1px solid black; */
+  width: 45%;
+}
+
+.reasonDestinationInnnerDiv1 p {
+  font-weight: 600;
+  font-size: 20px;
+  vertical-align: baseline;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: "Poppins";
+}
+
+.reasonDestinationImageContentDiv {
+  /* border: 1px solid gold; */
+  /* height: 50px; */
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 6%;
+  width: 95%;
+}
+
+.reasonDestinationImageContentSubDiv1 {
+  /* border: 1px solid black; */
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.reasonDestinationImageContentSubDiv1:hover {
+  background-color: #d2e4ff;
+}
+
+.reasonDestinationImageContentSubDiv1 img {
+  width: 50%;
+  object-fit: cover;
+  margin-left: 4%;
+}
+
+.reasonDestinationImageContentSubDiv1 .reasonDestinationContent1 {
+  margin-bottom: 2%;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+.reasonDestinationImageContentSubDiv1 .reasonDestinationContent2 {
+  margin-bottom: 2%;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 3%;
+}
+
+.reasonDestinationImageContentSubDiv2 {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.reasonDestinationImageContentSubDiv2:hover {
+  background-color: #d2e4ff;
+}
+
+.reasonDestinationImageContentSubDiv2 img {
+  width: 50%;
+  object-fit: cover;
+  margin-left: 4%;
+}
+
+.reasonDestinationImageContentSubDiv2 .reasonDestinationContent1 {
+  margin-bottom: 2%;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 5%;
+  margin-left: 4%;
+}
+
+.reasonDestinationImageContentSubDiv2 .reasonDestinationContent2 {
+  margin-bottom: 2%;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 3%;
+}
+
+.reasonDestinationInnerDiv2 {
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  width: 55%;
+}
+
+.reasonDestinationInnerDiv2 p {
+  font-weight: 600;
+  font-size: 20px;
+  vertical-align: baseline;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: "Poppins";
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.reasonInnerDiv2ImageContainer {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: auto;
+}
+
+/* .reasonInnerDiv2ImageSubDiv1 {
+  border: 1px solid green;
+} */
+
+.reasonInnerDiv2ImageSubDiv1 img {
+  width: 90%;
+  object-fit: cover;
+}
+
+.reasonInnerDiv2ImageSubDiv2 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+
+.reasonImageSubDiv2InnerDiv1 {
+  /* border: 1px soldi red; */
+  width: 50%;
+}
+
+.reasonImageSubDiv2InnerDiv1 img {
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.reasonImageSubDiv2InnerDiv2 {
+  /* border: 1px solid green; */
+  width: 40%;
+}
+
+.reasonImageSubDiv2InnerDiv2 img {
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+}
+
+.reasonDestinationContentOuterDiv {
+  /* border: 1px solid red; */
+  width: 90%;
+}
+
+.reasonDestinationContentOuterDiv p {
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 0%;
+  margin-top: 2%;
+  font-family: "Poppins";
+  color: #393939;
+}

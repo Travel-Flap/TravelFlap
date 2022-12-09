@@ -71,6 +71,7 @@ export const NewHomeFooter = () => {
                             <OverlayTrigger
                                 key={i}
                                 placement="right"
+                                marginTop="10%"
                                 delay={{ show: 250, hide: 400 }}
                                 overlay={
                                     <div className="tooltipCustomised">

@@ -1,68 +1,66 @@
-.hotelDataDropdown_container{
-    /* background-color: #3380f2; */
-    margin-top: 3%;
-    height: 390px;
+.hotelDataDropdown_container {
+  /* background-color: #3380f2; */
+  margin-top: 3%;
+  height: 390px;
 }
 
-.hotelData_maincontainer{
-    /* border: 2px solid black; */
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: auto;
-    gap: 5%;
-    /* margin-top: 3%; */
+.hotelData_maincontainer {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+  gap: 5%;
+  /* margin-top: 3%; */
 }
 
-.hotelsData_dropdowncontext{
-    /* border: 1px solid red; */
-    background-color: whitesmoke !important;
-    border-radius: 9px;
-    color: #393939;
+.hotelsData_dropdowncontext {
+  /* border: 1px solid red; */
+  background-color: whitesmoke !important;
+  border-radius: 9px;
+  color: #393939;
 }
 
-.hotelsDatadropdownmaincontainer1{
-    /* border: 2px solid red; */
-    margin-top: 2%;
-    width: 35%;
-    color: #393939;
-    margin-left: 2%;
+.hotelsDatadropdownmaincontainer1 {
+  /* border: 2px solid red; */
+  margin-top: 2%;
+  width: 35%;
+  color: #393939;
+  margin-left: 2%;
 }
 
-.hotelsDatadropdownmaincontainer2{
-    /* border: 2px solid blue; */
-    margin-top: 2%;
-    color: whitesmoke;
-    width: 35%;
+.hotelsDatadropdownmaincontainer2 {
+  /* border: 2px solid blue; */
+  margin-top: 2%;
+  color: whitesmoke;
+  width: 35%;
 }
 
-
-.hotelsDatadropdownmaincontainer3{
-    /* border: 2px solid blue; */
-    margin-top: 2%;
-    color: whitesmoke;
-    width: 35%;
+.hotelsDatadropdownmaincontainer3 {
+  /* border: 2px solid blue; */
+  margin-top: 2%;
+  color: whitesmoke;
+  width: 35%;
 }
 
-.faq_RentalsHeading{
-    font-size: 30px;
-    font-weight: 700;
-    padding-left: 20px;
-    /* color: #3380f2; */
+.faq_RentalsHeading {
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 20px;
+  /* color: #3380f2; */
 }
 
-
-.accordion_Rentalsdropdownmaincontainer3{
-    /* border: 1px solid red; */
-    margin-top: 3% !important;
-    width: 50%;
-    color: #393939;
-    margin: auto;
-    text-align: center;
-    /* height: 200px; */
+.accordion_Rentalsdropdownmaincontainer3 {
+  /* border: 1px solid red; */
+  margin-top: 3% !important;
+  width: 50%;
+  color: #393939;
+  margin: auto;
+  text-align: center;
+  /* height: 200px; */
 }
 
-.accordion-button{
-    background-color: whitesmoke !important;
-    color: #393939;
+.accordion-button {
+  background-color: whitesmoke !important;
+  color: #393939;
 }
