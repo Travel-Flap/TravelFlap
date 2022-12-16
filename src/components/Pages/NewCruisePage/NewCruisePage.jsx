@@ -22,9 +22,8 @@ export const NewCruisePage = () => {
         <div>
 
             <Helmet>
-                <title>Cruise Page</title>
-                <meta name='description' content='Want to spend your holiday time in good and budget friendly sea vacation.
-                Take a looks at TravelFlap for your sea navigator.' />
+                <title> Cruise Ship Packages: Cruise Ticket Booking Online in India at Best Price | TravelFlap</title>
+                <meta name='description' content='Book Cruise Ship Packages Online - TravelFlap provides you International &amp; India Cruise Packages Online at best prices. Visit your dream destination with cruise tour packages online with us. Book your cruise holiday package today!' />
             </Helmet>
 
             <NewHomeNav/>

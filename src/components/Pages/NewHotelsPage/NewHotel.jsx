@@ -3,10 +3,6 @@ import "./NewHotel.css";
 import { FooterLinks } from '../../FooterLinks/FooterLinks';
 import { Plan } from '../../NextHolidaysPlan/Plan';
 import { NewHomeAppDownload } from '../NewHomePage/NewHomeAppDownload/NewHomeAppDownload';
-import NewHomeAwards from '../NewHomePage/NewHomeAwards/NewHomeAwards';
-import { NewHomeCaruosel } from '../NewHomePage/NewHomeBanner/NewHomeBanner';
-import { NewHomeBottomBar } from '../NewHomePage/NewHomeBottomBar/NewHomeBottomBar';
-import { NewHomeEasyVisaDestination } from '../NewHomePage/NewHomeEasyVisaDestination/NewHomeEasyVisaDestination';
 import { NewHomeExclusiveDeals } from '../NewHomePage/NewHomeExclusiveDeals/NewHomeExclusiveDeals';
 import { NewHomeFooter } from '../NewHomePage/NewHomeFooter/NewHomeFooter';
 import { NewHomeHandPicked } from '../NewHomePage/NewHomeHandPicked/NewHomeHandPicked';
@@ -26,9 +22,8 @@ export const NewHotel = () => {
     return (
         <div>
             <Helmet>
-                <title>Hotels Page</title>
-                <meta name='description' content='Want to spend your holiday time in good and budget friendly stay.
-                Take a looks at TravelFlap for your stay co-ordinatior' />
+                <title> Hotels Booking Online - Book Budget, Luxury, Cheap Domestic &amp; International Hotels - TravelFlap </title>
+                <meta name='description' content='Book Cheap Hotels, Luxury Hotels, Budget Hotels, Villas or resorts online with TravelFlap. Find the Best Hotel for Your Stay at Your Next Destination only on TravelFlap.' />
             </Helmet>
             <NewHomeNav />
             <NewHotelCaruosel />

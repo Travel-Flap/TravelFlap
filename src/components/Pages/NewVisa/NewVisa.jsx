@@ -15,30 +15,37 @@ import { NewWhychooseTravelflap } from './NewWhyChooseTravelFlap/NewWhyChooseTra
 import { TopDemandedVisa } from './TopDemandedVisa/TopDemandedVisa';
 import { NewVisaPageBanner } from './VisaBanner/NewVisaBanner';
 import { VisaSteps } from './VisaSteps/VisaSteps';
+import { Helmet } from 'react-helmet';
 
 export const NewVisa = () => {
   return (
     <div>
 
-      <NewHomeNav/>
-      
-      <NewVisaPageBanner/>
+      <Helmet>
+        <title> Worldwide Visas - TravelFlap </title>
+        <meta name='description' content='TravelFlap is best tour & travel operator in globe. We offer wide range of tourism services like , Activities Booking in around world best country destinations and Visa services.' />
+        {/* <meta name='keywords' content='flight booking, cheap flight booking, online booking, Cheap flight tickets, lowest air fare, low cost airlines, akbar travels, Hotel, Holidays, akbartravels' /> */}
+      </Helmet>
 
-      <VisaSteps/>
-      
-      <TopDemandedVisa/>  
+      <NewHomeNav />
 
-      <NewWhychooseTravelflap/>
+      <NewVisaPageBanner />
 
-      <NewHomeEasyVisaDestination/>
+      <VisaSteps />
 
-      <NewProceedApplication/>
+      <TopDemandedVisa />
+
+      <NewWhychooseTravelflap />
+
+      <NewHomeEasyVisaDestination />
+
+      <NewProceedApplication />
       <NewHomeAppDownload />
-      <Plan/>
-      <NewHomeStoriesSection/>
-        
-      <FooterLinks/>
-      <NewHomeFooter/>
+      <Plan />
+      <NewHomeStoriesSection />
+
+      <FooterLinks />
+      <NewHomeFooter />
       {/* <NewHomeBottomBar/> */}
     </div>
   )

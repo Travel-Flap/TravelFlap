@@ -33,9 +33,8 @@ export const NewStaycationPage = () => {
         <>
 
             <Helmet>
-                <title>Staycations Page</title>
-                <meta name='description' content='Want to spend your holiday time in good and budget friendly stay.
-                Take a looks at TravelFlap for your stay co-ordinatior' />
+                <title> Places to Stay: Find Accommodation Deals &amp; Discounts - TravelFlap </title>
+                <meta name='description' content='TravelFlap searches hundreds of travel sites at once to help you find the perfect place to stay. Compare great accommodation deals and verified guest reviews now.' />
             </Helmet>
 
             <NewHomeNav />

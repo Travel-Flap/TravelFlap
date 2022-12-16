@@ -23,8 +23,8 @@ export const NewFlight = () => {
     return (
         <div>
             <Helmet>
-                <title>TravelFlap-One Stop solution for all your vacations</title>
-                <meta name='description' content='All go flight booking solution for International and Domestic at one place' />
+                <title> Flight Bookings: Book Cheap Flights and Air Tickets | TravelFlap </title>
+                <meta name='description' content='Save money on airfare by searching for cheap flights on TravelFlap. TravelFlap gives you best flight deals on hundreds of airline tickets sites to find you the best prices.' />
             </Helmet>
             <NewHomeNav />
             {/* <NewHomeCaruosel/> */}

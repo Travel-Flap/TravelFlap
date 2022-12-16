@@ -25,9 +25,9 @@ export const NewHolidaysPage = () => {
       <NewHomeNav/>
 
       <Helmet>
-        <title>Holidays Page</title>
-        <meta name='description' content='Want to spend your holiday time in good and budget friendly stay.
-                Take a looks at TravelFlap for your stay co-ordinatior' />
+        <title> Holiday Packages, Indian Holidays, Honeymoon Packages, India Tourism, Holidays India, Vacation Package : TravelFlap</title>
+        <meta name='description' content='Holidays in India - Get upto Rs. 7000 OFF on Indian Holidays, Honeymoon Packages, Tour Package, India Tourism Packages use Coupon Code SPLPACK at TravelFlap' />
+        <meta name='keywords' content='holidays in india, india tourism, holiday destinations, holiday packages, holiday packages india, india tours, honeymoon packages india, honeymoon packages, india tour packages, Indian holidays, cheap holiday packages, india travel, travel in india, india, travel, honeymoon, packages, holidays' />
       </Helmet>
 
       <NewHolidaysPageBanner />

@@ -24,12 +24,11 @@ export const NewActivities = () => {
     <div>
 
       <Helmet>
-        <title>Activity Page</title>
-        <meta name='description' content='Want to some activities in good and budget friendly manner.
-                Take a looks at TravelFlap for your next activity buddy.' />
+        <title> TravelFlap- Best Tour Operators in world |Activity Booking | Visa Agent around Globe </title>
+        <meta name='description' content='TravelFlap is best tour & travel operator in Dubai. We offer wide range of tourism services like , Activities Booking around the world best travel destination and Visa services.' />
       </Helmet>
 
-      <NewHomeNav/>
+      <NewHomeNav />
 
       <NewActivityBanner />
       {/* <NewTrendingActivities/> */}
